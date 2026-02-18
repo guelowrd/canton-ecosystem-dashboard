@@ -1,0 +1,173 @@
+{
+  "lastUpdated": "2026-02-18T18:05:48.376Z",
+  "cantonCoinPriceUsd": 0.16669634973341313,
+  "apps": [
+    {
+      "id": "tradecraft",
+      "name": "Tradecraft",
+      "url": "https://tradecraft.fi",
+      "category": "DEX (AMM)",
+      "dataAvailability": "full",
+      "ccPriceUsd": 0.16669634973341313,
+      "cbtcPriceUsd": 67664.02246017582,
+      "pools": [
+        {
+          "name": "CC / USDCx",
+          "token1": "CC",
+          "token2": "USDCx",
+          "token1Holdings": 4878855.882950297,
+          "token2Holdings": 813287.4665632028,
+          "tvlUsd": 1626574.9331264056,
+          "lpFeePercent": 0.2,
+          "operatorFeePercent": 0.1,
+          "yield24h": 0.1691548709191979,
+          "totalLpTokens": 1956038.3500046777,
+          "volume": {
+            "1h": 0.003000000026077032,
+            "4h": 189.88081759342458,
+            "12h": 3178.119853380951,
+            "24h": 28714.54542056762,
+            "7d": 307766.75352629577,
+            "30d": 1981679.4472623835
+          }
+        },
+        {
+          "name": "CC / CBTC",
+          "token1": "CC",
+          "token2": "CBTC",
+          "token1Holdings": 330877.4510235363,
+          "token2Holdings": 0.8151460893,
+          "tvlUsd": 110312.12658943937,
+          "lpFeePercent": 0.2,
+          "operatorFeePercent": 0.1,
+          "yield24h": 0.15745352271250423,
+          "totalLpTokens": 507.772243318,
+          "volume": {
+            "1h": 0,
+            "4h": 61.396633052871906,
+            "12h": 526.0335745097372,
+            "24h": 1443.706258936341,
+            "7d": 34110.96977124925,
+            "30d": 456476.44711286074
+          }
+        }
+      ],
+      "totalTvlUsd": 1736887.059715845,
+      "totalVolume24hUsd": 30158.251679503963,
+      "totalVolume7dUsd": 341877.723297545,
+      "totalVolume30dUsd": 2438155.894375244
+    },
+    {
+      "id": "unhedged",
+      "name": "Unhedged",
+      "url": "https://unhedged.gg",
+      "category": "Prediction Markets",
+      "dataAvailability": "full",
+      "totalMarkets": 1365,
+      "activeMarkets": 94,
+      "endedMarkets": 2,
+      "resolvedMarkets": 1261,
+      "totalActivePoolUsd": 13143.18,
+      "totalActiveBets": 958,
+      "categories": {
+        "crypto": {
+          "count": 8,
+          "poolUsd": 175,
+          "bets": 35
+        },
+        "sports": {
+          "count": 84,
+          "poolUsd": 12915.529999999999,
+          "bets": 916
+        },
+        "esports": {
+          "count": 2,
+          "poolUsd": 52.65,
+          "bets": 7
+        }
+      },
+      "topMarkets": [
+        {
+          "question": "Wolves vs Arsenal",
+          "category": "sports",
+          "totalPool": 1232.81,
+          "betCount": 134,
+          "endTime": "2026-02-18T19:00:00.000Z"
+        },
+        {
+          "question": "UConn vs Creighton",
+          "category": "sports",
+          "totalPool": 1147.52,
+          "betCount": 44,
+          "endTime": "2026-02-18T23:00:00.000Z"
+        },
+        {
+          "question": "AC Milan vs Como",
+          "category": "sports",
+          "totalPool": 676.52,
+          "betCount": 73,
+          "endTime": "2026-02-18T18:45:00.000Z"
+        },
+        {
+          "question": "Bodo/Glimt vs Inter",
+          "category": "sports",
+          "totalPool": 467.85,
+          "betCount": 56,
+          "endTime": "2026-02-18T19:00:00.000Z"
+        },
+        {
+          "question": "Olympiakos Piraeus vs Bayer Leverkusen",
+          "category": "sports",
+          "totalPool": 453,
+          "betCount": 48,
+          "endTime": "2026-02-18T19:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "temple",
+      "name": "Temple Digital Group",
+      "url": "https://app.templedigitalgroup.com",
+      "category": "Exchange (CLOB)",
+      "dataAvailability": "limited",
+      "status": "Live",
+      "description": "Institutional central limit order book exchange for Canton Coin trading. API endpoints exist (ticker, markets, orderbook) but require authentication.",
+      "metadata": {
+        "founded": "July 2025",
+        "funding": "$5M (YZi Labs)",
+        "pairs": [
+          "CC/USDCx"
+        ],
+        "features": [
+          "CLOB trading",
+          "Leaderboard",
+          "Rewards program"
+        ]
+      },
+      "note": "Metrics require account access — API returns 403 for unauthenticated requests."
+    },
+    {
+      "id": "cantex",
+      "name": "Cantex",
+      "url": "https://cantex.io",
+      "category": "DEX (AMM + Order Book)",
+      "dataAvailability": "limited",
+      "status": "Live (early)",
+      "description": "Built by CaviarNine (previously leading DeFi suite on Radix by TVL/volume). AMM live, order book coming soon.",
+      "metadata": {
+        "builder": "CaviarNine",
+        "pairs": [
+          "CC-USDC",
+          "BTC-USDC",
+          "ETH-USDC"
+        ],
+        "features": [
+          "AMM trading",
+          "Order book (coming soon)"
+        ],
+        "observation": "Showing 0.00% on all pairs as of last check — very early stage or minimal activity."
+      },
+      "note": "No public API found — domain redirects all API paths to homepage."
+    }
+  ]
+}

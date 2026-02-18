@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canton Ecosystem Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Canton Ecosystem Dashboard</h1>
+      <p class="subtitle">Canton lists 200+ ecosystem participants. These are the apps with publicly trackable activity.</p>
+      <p class="timestamp" id="timestamp"></p>
+    </header>
+    <main id="dashboard"></main>
+    <footer>
+      <h3>Data Sources</h3>
+      <ul>
+        <li><a href="https://api.tradecraft.fi/v1/pools" target="_blank" rel="noopener">Tradecraft API</a> &mdash; /v1/pools, /v1/volume, /v1/ratio</li>
+        <li><a href="https://api.unhedged.gg/api/v1/markets" target="_blank" rel="noopener">Unhedged API</a> &mdash; /api/v1/markets</li>
+      </ul>
+      <p class="methodology">Methodology: TVL calculated from AMM pool holdings &times; derived token prices. CC price derived from CC/USDCx pool balance (assumes USDCx &approx; $1). CBTC price derived from CC/CBTC pool balance. Volume data from Tradecraft API. Market data from Unhedged API. Temple and Cantex do not expose public API endpoints.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

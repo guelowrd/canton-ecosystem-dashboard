@@ -1,0 +1,11 @@
+{
+  "name": "canton-ecosystem-dashboard",
+  "version": "1.0.0",
+  "description": "Canton ecosystem activity dashboard",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
