@@ -1,0 +1,84 @@
+app_name,base_name,category,confidence,website_guess,canton_page,on_chain,note
+Bron,bron,Wallet,90,https://bronwallet.com,https://www.canton.network/ecosystem/bron,yes,Featured; 207 recent txns
+Cypherock,cypherock,Wallet,90,https://cypherock.com,https://www.canton.network/ecosystem/cypherock,yes,Featured; 52 recent txns
+Unhedged,unhedged,Orderbook/CLOB,90,https://unhedged.gg,https://www.canton.network/ecosystem/unhedged,yes,Featured; 40 recent txns
+Kaiko,kaiko,Data/Analytics,85,https://kaiko.com,https://www.canton.network/ecosystem/kaiko,yes,Featured; Super Validator; Foundation Member
+MPCH,mpch,Identity/Auth,85,https://mpcvault.com,https://www.canton.network/ecosystem/mpch,yes,Featured; Foundation Member
+Nightly Wallet,nightlywallet,Wallet,85,https://nightly.app,https://www.canton.network/ecosystem/nightly-wallet,yes,Featured
+Obligate,obligate,Tokenized Assets,85,https://obligate.com,https://www.canton.network/ecosystem/obligate,yes,Featured
+5N Loop Wallet,5nloopwallet,Wallet,75,https://5nloop.com,https://www.canton.network/ecosystem/5n-loop-wallet,no,Featured
+Asterizm,asterizm,Tokenized Assets,75,https://asterizm.io,https://www.canton.network/ecosystem/asterizm,no,Featured
+Bitwave,bitwave,Payments,75,https://bitwave.io,https://www.canton.network/ecosystem/bitwave,no,Featured; Super Validator; Foundation Member
+Black Manta,blackmanta,Tokenized Assets,75,https://blackmanta.capital,https://www.canton.network/ecosystem/black-manta-capital-partners,no,Featured
+Brale,brale,Payments,75,https://brale.xyz,https://www.canton.network/ecosystem/brale,no,Featured
+Bron Wallet,bronwallet,Wallet,75,https://bronwallet.com,https://www.canton.network/ecosystem/bron-wallet,no,Featured
+Cantara,cantara,Payments,75,https://cantara.fi,https://www.canton.network/ecosystem/cantara,no,Featured
+CBTC,cbtc,Tokenized Assets,75,https://cbtc.com,https://www.canton.network/ecosystem/cbtc,no,Featured
+Circle,circle,Payments,75,https://circle.com,https://www.canton.network/ecosystem/circle,no,Featured; Super Validator
+Coin Metrics,coinmetrics,Data/Analytics,75,https://coinmetrics.io,https://www.canton.network/ecosystem/coin-metrics,no,Featured
+Cygnet,cygnet,Developer Tools,75,https://cygnet.finance,https://www.canton.network/ecosystem/cygnet,no,Featured
+DA Utilities,dautilities,Tokenized Assets,75,https://digitalasset.com,https://www.canton.network/ecosystem/da-utilities,no,Featured
+Dfns,dfns,Wallet,75,https://dfns.co,https://www.canton.network/ecosystem/dfns,no,Featured; Super Validator; Foundation Member
+Fairmint,fairmint,Tokenized Assets,75,https://fairmint.com,https://www.canton.network/ecosystem/fairmint,no,Featured; Foundation Member
+Hashnote,hashnote,Tokenized Assets,75,https://hashnote.com,https://www.canton.network/ecosystem/hashnote,no,Featured
+Houdini Swap,houdiniswap,Bridge/Interop,75,https://houdiniswap.com,https://www.canton.network/ecosystem/houdini-swap,no,Featured
+Hydra X,hydrax,Tokenized Assets,75,https://hydrax.io,https://www.canton.network/ecosystem/hydra-x,no,Featured
+IntellectEU,intellecteu,Developer Tools,75,https://intellecteu.com,https://www.canton.network/ecosystem/intellecteu,no,Featured; Super Validator; Foundation Member
+Lukka Inc.,lukkainc,Data/Analytics,75,https://lukka.tech,https://www.canton.network/ecosystem/lukka-inc,no,Featured; Super Validator; Foundation Member
+Node Fortress,nodefortress,Data/Analytics,75,https://nodefortress.io,https://www.canton.network/ecosystem/node-fortress,no,Featured
+Noves,noves,Data/Analytics,75,https://noves.fi,https://www.canton.network/ecosystem/noves,no,Featured; Foundation Member
+Tradecraft,tradecraft,DEX/AMM,75,https://tradecraft.fi,https://www.canton.network/ecosystem/tradecraft,no,Featured
+Bitalpha dba Bitwave,bitalphadbabitwave,Data/Analytics,65,,https://www.canton.network/ecosystem/bitalpha-dba-bitwave,no,Featured; Foundation Member
+BitSafe,bitsafe,Tokenized Assets,65,,https://www.canton.network/ecosystem/bitsafe,no,Featured; Foundation Member
+Denex Gas Station,denexgasstation,Developer Tools,65,,https://www.canton.network/ecosystem/denex-gas-station,no,Featured
+M1X,m1x,Payments,65,,https://www.canton.network/ecosystem/m1x,no,Featured
+Novaprime,novaprime,Tokenized Assets,65,,https://www.canton.network/ecosystem/novaprime,no,Featured
+Realworld Solutions,realworldsolutions,Lending/Finance,65,,https://www.canton.network/ecosystem/realworld-solutions,no,Featured
+Sync Insights,syncinsights,Data/Analytics,65,,https://www.canton.network/ecosystem/sync-insights,no,Featured
+T-Rize,t-rize,Tokenized Assets,65,,https://www.canton.network/ecosystem/t-rize,no,Featured; Foundation Member
+USDC,usdc,Tokenized Assets,65,,https://www.canton.network/ecosystem/usdc,no,Featured
+USDM1,usdm1,Tokenized Assets,65,,https://www.canton.network/ecosystem/usdm1,no,Featured
+Cantor8,cantor8,Wallet,70,https://cantor8.io,https://www.canton.network/ecosystem/cantor8,yes,Foundation Member
+Send,send,Wallet,70,https://send.it,https://www.canton.network/ecosystem/send,yes,Foundation Member
+AngelHack,angelhack,Developer Tools,60,https://angelhack.com,https://www.canton.network/ecosystem/angelhack,no,Super Validator; Foundation Member
+Archax,archax,Tokenized Assets,60,https://archax.com,https://www.canton.network/ecosystem/archax,no,
+BNP Paribas,bnpparibas,Tokenized Assets,60,https://bnpparibas.com,https://www.canton.network/ecosystem/bnp-paribas,no,Foundation Member
+Broadridge DLR,broadridgedlr,Tokenized Assets,60,https://www.broadridge.com,https://www.canton.network/ecosystem/broadridge-dlr,no,Super Validator; Foundation Member
+Calastone,calastone,Tokenized Assets,60,https://calastone.com,https://www.canton.network/ecosystem/calastone,no,Foundation Member
+Eleox,eleox,Tokenized Assets,60,https://eleox.io,https://www.canton.network/ecosystem/eleox,no,
+EquiLend,equilend,Tokenized Assets,60,https://equilend.com,https://www.canton.network/ecosystem/equilend,no,Foundation Member
+HKEX Synapse,hkexsynapse,Orderbook/CLOB,60,https://hkex.com.hk,https://www.canton.network/ecosystem/hkex-synapse,no,
+iCapital,icapital,Tokenized Assets,60,https://icapitalnetwork.com,https://www.canton.network/ecosystem/icapital,no,
+Ledgible,ledgible,Data/Analytics,60,https://ledgible.io,https://www.canton.network/ecosystem/ledgible,no,
+LendOS,lendos,Lending/Finance,60,https://lendos.io,https://www.canton.network/ecosystem/lendos,no,Foundation Member
+Maestro,maestro,Data/Analytics,60,https://maestro.org,https://www.canton.network/ecosystem/maestro,no,
+Moody's,moodys,Data/Analytics,60,https://moodys.com,https://www.canton.network/ecosystem/moodys,no,Foundation Member
+Nasdaq,nasdaq,Orderbook/CLOB,60,https://nasdaq.com,https://www.canton.network/ecosystem/nasdaq,no,
+Particula,particula,Data/Analytics,60,https://particula.io,https://www.canton.network/ecosystem/particula,no,
+Société Générale,socitgnrale,Tokenized Assets,60,https://societegenerale.com,https://www.canton.network/ecosystem/société-générale,no,
+Temple Digital Group,templedigitalgroup,Tokenized Assets,60,https://templedigitalgroup.com,https://www.canton.network/ecosystem/temple-digital-group,no,
+Texture Capital,texturecapital,Tokenized Assets,60,https://texturecapital.com,https://www.canton.network/ecosystem/texture-capital,no,
+Trakx,trakx,Tokenized Assets,60,https://trakx.io,https://www.canton.network/ecosystem/trakx,no,
+Ubyx,ubyx,Payments,60,,https://www.canton.network/ecosystem/ubyx,yes,Super Validator; Foundation Member
+Cantex,cantex,Unknown,55,https://cantex.io,,yes,"220 recent txns; On-chain only, not in ecosystem page"
+Cantex-validator-1,cantex,Unknown,55,https://cantex.io,,yes,"19 recent txns; On-chain only, not in ecosystem page"
+7Ridge,7ridge,Developer Tools,50,,https://www.canton.network/ecosystem/7ridge,no,Super Validator; Foundation Member
+ACME,acme,Data/Analytics,50,,https://www.canton.network/ecosystem/acme,no,
+Chain Experts,chainexperts,Developer Tools,50,,https://www.canton.network/ecosystem/chain-experts,no,
+Fìutur,futur,Tokenized Assets,50,,https://www.canton.network/ecosystem/fìutur,no,
+GS DAP®,gsdap,Tokenized Assets,50,https://www.gsam.com,https://www.canton.network/ecosystem/gs-dap,no,
+Kairo,kairo,Developer Tools,50,,https://www.canton.network/ecosystem/kairo,no,
+Taurus,taurus,Wallet,50,,https://www.canton.network/ecosystem/taurus,no,Super Validator; Foundation Member
+The Tie,thetie,Data/Analytics,50,,https://www.canton.network/ecosystem/the-tie,no,Super Validator; Foundation Member
+Trade.Fast,tradefast,DEX/AMM,50,,https://www.canton.network/ecosystem/trade-fast,no,
+TRM Labs,trmlabs,Identity/Auth,50,,https://www.canton.network/ecosystem/trm-labs,no,Super Validator; Foundation Member
+Zoro Wallet,zorowallet,Wallet,50,,https://www.canton.network/ecosystem/zoro-wallet,no,
+auxilary-1,auxilary,Unknown,45,,,yes,"27 recent txns; On-chain only, not in ecosystem page"
+CantonSwap,cantonswap,DEX/AMM,45,,,yes,"42 recent txns; On-chain only, not in ecosystem page"
+charity,charity,Unknown,45,,,yes,"74 recent txns; On-chain only, not in ecosystem page"
+Hecto-Finance-1,hecto-finance,Lending/Finance,45,,,yes,"24 recent txns; On-chain only, not in ecosystem page"
+mandalo,mandalo,Unknown,45,,,yes,"18 recent txns; On-chain only, not in ecosystem page"
+openvector-mainnet-1,openvector,Unknown,45,,,yes,"46 recent txns; On-chain only, not in ecosystem page"
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7,Unknown,45,,,yes,"22 recent txns; On-chain only, not in ecosystem page"
+pool-custodian,pool-custodian,DEX/AMM,45,,,yes,"18 recent txns; On-chain only, not in ecosystem page"
+supa1,supa1,Unknown,45,,,yes,"63 recent txns; On-chain only, not in ecosystem page"

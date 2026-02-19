@@ -1,0 +1,1696 @@
+[
+  {
+    "appName": "Bron",
+    "baseName": "bron",
+    "solutionTags": [
+      "wallets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Bron provides a next generation non-custodial wallet.&nbsp;",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/bron",
+    "websiteGuess": "https://bronwallet.com",
+    "onChainActivity": {
+      "partyName": "bron",
+      "ecosystemMatch": "Bron",
+      "matchScore": 100,
+      "appRewards": 0,
+      "transferred": 726.16371624,
+      "appearances": 207
+    },
+    "category": "Wallet",
+    "confidence": 90,
+    "note": "Featured; 207 recent txns"
+  },
+  {
+    "appName": "Cypherock",
+    "baseName": "cypherock",
+    "solutionTags": [
+      "wallets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_featured"
+    ],
+    "description": "Enables secure self-custody access to the Canton Network via its audited, open-source hardware wallet with swaps and future staking.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/cypherock",
+    "websiteGuess": "https://cypherock.com",
+    "onChainActivity": {
+      "partyName": "cypherock-mainnet-1",
+      "ecosystemMatch": "Cypherock",
+      "matchScore": 100,
+      "appRewards": 0,
+      "transferred": 8.438092040000004,
+      "appearances": 52
+    },
+    "category": "Wallet",
+    "confidence": 90,
+    "note": "Featured; 52 recent txns"
+  },
+  {
+    "appName": "Unhedged",
+    "baseName": "unhedged",
+    "solutionTags": [
+      "exchanges",
+      "liquidity"
+    ],
+    "roleTags": [
+      "apps_featured",
+      "validator"
+    ],
+    "description": "The First Private Prediction Market. Short-term prediction markets you can trade privately.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/unhedged",
+    "websiteGuess": "https://unhedged.gg",
+    "onChainActivity": {
+      "partyName": "unhedged-app",
+      "ecosystemMatch": "Unhedged",
+      "matchScore": 60,
+      "appRewards": 0,
+      "transferred": 135.9509999986,
+      "appearances": 40
+    },
+    "category": "Orderbook/CLOB",
+    "confidence": 90,
+    "note": "Featured; 40 recent txns"
+  },
+  {
+    "appName": "Kaiko",
+    "baseName": "kaiko",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "apps_featured",
+      "canton_foundation_member",
+      "super_validator"
+    ],
+    "description": "Offers institutional-grade crypto data, analytics and indices with regulatory-compliant solutions.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/kaiko",
+    "websiteGuess": "https://kaiko.com",
+    "onChainActivity": {
+      "partyName": "kaiko-mainnet-1",
+      "ecosystemMatch": "Kaiko",
+      "matchScore": 100,
+      "appRewards": 0,
+      "transferred": 88.7680317123,
+      "appearances": 1
+    },
+    "category": "Data/Analytics",
+    "confidence": 85,
+    "note": "Featured; Super Validator; Foundation Member"
+  },
+  {
+    "appName": "MPCH",
+    "baseName": "mpch",
+    "solutionTags": [
+      "forensics_and_security",
+      "naas"
+    ],
+    "roleTags": [
+      "service_provider",
+      "apps_featured",
+      "canton_foundation_member"
+    ],
+    "description": "Specializes in cutting-edge cryptographic storage to secure enterprises' most sensitive digital assets, private keys, secrets and private data.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/mpch",
+    "websiteGuess": "https://mpcvault.com",
+    "onChainActivity": {
+      "partyName": "MPCH-SCXYZvalidator-1",
+      "ecosystemMatch": "MPCH",
+      "matchScore": 60,
+      "appRewards": 0,
+      "transferred": 0.125,
+      "appearances": 1
+    },
+    "category": "Identity/Auth",
+    "confidence": 85,
+    "note": "Featured; Foundation Member"
+  },
+  {
+    "appName": "Nightly Wallet",
+    "baseName": "nightlywallet",
+    "solutionTags": [
+      "custody",
+      "wallets"
+    ],
+    "roleTags": [
+      "apps_featured"
+    ],
+    "description": "A multi-chain crypto wallet for web and mobile, letting users manage digital assets seamlessly across blockchains",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/nightly-wallet",
+    "websiteGuess": "https://nightly.app",
+    "onChainActivity": {
+      "partyName": "nightly",
+      "ecosystemMatch": "Nightly Wallet",
+      "matchScore": 60,
+      "appRewards": 0,
+      "transferred": 0,
+      "appearances": 1
+    },
+    "category": "Wallet",
+    "confidence": 85,
+    "note": "Featured"
+  },
+  {
+    "appName": "Obligate",
+    "baseName": "obligate",
+    "solutionTags": [
+      "liquidity",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "An on-chain digital securities platform, offering an end-to-end infrastructure for issuance and settlement.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/obligate",
+    "websiteGuess": "https://obligate.com",
+    "onChainActivity": {
+      "partyName": "Obligate-validator-1",
+      "ecosystemMatch": "Obligate",
+      "matchScore": 100,
+      "appRewards": 0,
+      "transferred": 12.5,
+      "appearances": 2
+    },
+    "category": "Tokenized Assets",
+    "confidence": 85,
+    "note": "Featured"
+  },
+  {
+    "appName": "5N Loop Wallet",
+    "baseName": "5nloopwallet",
+    "solutionTags": [
+      "wallets"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "A self-custody web-based wallet that emphasizes on security and UX,",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/5n-loop-wallet",
+    "websiteGuess": "https://5nloop.com",
+    "onChainActivity": null,
+    "category": "Wallet",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Asterizm",
+    "baseName": "asterizm",
+    "solutionTags": [
+      "liquidity",
+      "interoperability",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_featured",
+      "validator"
+    ],
+    "description": "Asterizm is a cross-chain interoperable infrastructure for DeFi devs and TradFi operating with tokenized RWAs.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/asterizm",
+    "websiteGuess": "https://asterizm.io",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Bitwave",
+    "baseName": "bitwave",
+    "solutionTags": [
+      "stablecoins",
+      "payments"
+    ],
+    "roleTags": [
+      "super_validator",
+      "canton_foundation_member",
+      "apps_featured"
+    ],
+    "description": "A digital asset finance platform for enterprises with audit-ready platform to track and price Canton Coin and B2B payments platform.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/bitwave",
+    "websiteGuess": "https://bitwave.io",
+    "onChainActivity": null,
+    "category": "Payments",
+    "confidence": 75,
+    "note": "Featured; Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Black Manta",
+    "baseName": "blackmanta",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "service_provider",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "A European investment platform and BaFin-licensed provider of tokenized securities on Canton, enabling regulated digital fundraising and asset management.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/black-manta-capital-partners",
+    "websiteGuess": "https://blackmanta.capital",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Brale",
+    "baseName": "brale",
+    "solutionTags": [
+      "stablecoins",
+      "wallets",
+      "payments"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "A platform for creating and launching stablecoins enabling Brale supported stabelcoins for use as an on- and off-ramp to the Canton Network.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/brale",
+    "websiteGuess": "https://brale.xyz",
+    "onChainActivity": null,
+    "category": "Payments",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Bron Wallet",
+    "baseName": "bronwallet",
+    "solutionTags": [
+      "wallets"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured",
+      "validator"
+    ],
+    "description": "Provides next-generation non-custodial wallet supporting Canton Coin and Canton native assets.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/bron-wallet",
+    "websiteGuess": "https://bronwallet.com",
+    "onChainActivity": null,
+    "category": "Wallet",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Cantara",
+    "baseName": "cantara",
+    "solutionTags": [
+      "payments",
+      "financing"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Cantara enables peer-to-peer billing and payments on Canton, powering subscriptions, trading, and service monetization across the network.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/cantara",
+    "websiteGuess": "https://cantara.fi",
+    "onChainActivity": null,
+    "category": "Payments",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "CBTC",
+    "baseName": "cbtc",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "CBTC is a 1:1 backed wrapped Bitcoin on Canton, minted and redeemed via a secure decentralized bridge for trading, lending, and settlement.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/cbtc",
+    "websiteGuess": "https://cbtc.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Circle",
+    "baseName": "circle",
+    "solutionTags": [
+      "stablecoins",
+      "payments",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "super_validator",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "USDC and USYC converge on Canton to unlock high-utility stablecoin use cases across apps with privacy and composability.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/circle",
+    "websiteGuess": "https://circle.com",
+    "onChainActivity": null,
+    "category": "Payments",
+    "confidence": 75,
+    "note": "Featured; Super Validator"
+  },
+  {
+    "appName": "Coin Metrics",
+    "baseName": "coinmetrics",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "A leading provider of crypto financial intelligence and Super Validator on the network, launching the Coin Metrics Canton Intelligence App.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/coin-metrics",
+    "websiteGuess": "https://coinmetrics.io",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Cygnet",
+    "baseName": "cygnet",
+    "solutionTags": [
+      "developer_tools"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Cygnet enables the onchain signing and stamping of otherwise off-chain documents",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/cygnet",
+    "websiteGuess": "https://cygnet.finance",
+    "onChainActivity": null,
+    "category": "Developer Tools",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "DA Utilities",
+    "baseName": "dautilities",
+    "solutionTags": [
+      "developer_tools",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Canton native modular building blocks for tokenization, trading, financing and collateral management on Canton Network",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/da-utilities",
+    "websiteGuess": "https://digitalasset.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Dfns",
+    "baseName": "dfns",
+    "solutionTags": [
+      "wallets",
+      "custody"
+    ],
+    "roleTags": [
+      "super_validator",
+      "canton_foundation_member",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Dfns is a digital asset wallet and custody infrastructure provider, supporting Canton Coin and any assets available on Canton.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/dfns",
+    "websiteGuess": "https://dfns.co",
+    "onChainActivity": null,
+    "category": "Wallet",
+    "confidence": 75,
+    "note": "Featured; Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Fairmint",
+    "baseName": "fairmint",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "validator",
+      "canton_foundation_member",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "SEC-registered Transfer Agent bringing equity onchain - turning customer cap tables into smart contracts.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/fairmint",
+    "websiteGuess": "https://fairmint.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "note": "Featured; Foundation Member"
+  },
+  {
+    "appName": "Hashnote",
+    "baseName": "hashnote",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Hashnote is a leading on-chain first digital asset manager using blockchain to offer secure and simple on-chain investments. Hashnote USYC, a yield-bearing digital asset is available on the Canton Network.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/hashnote",
+    "websiteGuess": "https://hashnote.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Houdini Swap",
+    "baseName": "houdiniswap",
+    "solutionTags": [
+      "interoperability",
+      "payments"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured",
+      "market_infrastructure",
+      "service_provider"
+    ],
+    "description": "Houdini Swap is the market leader in private, compliant, non-custodial, cross-chain transactions.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/houdini-swap",
+    "websiteGuess": "https://houdiniswap.com",
+    "onChainActivity": null,
+    "category": "Bridge/Interop",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Hydra X",
+    "baseName": "hydrax",
+    "solutionTags": [
+      "custody",
+      "tokenized_assets",
+      "naas"
+    ],
+    "roleTags": [
+      "service_provider",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Hydra X is a digital capital markets infrastructure provider and a licensed custodian of Canton Coin in APAC.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/hydra-x",
+    "websiteGuess": "https://hydrax.io",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "IntellectEU",
+    "baseName": "intellecteu",
+    "solutionTags": [
+      "developer_tools",
+      "naas"
+    ],
+    "roleTags": [
+      "service_provider",
+      "super_validator",
+      "apps_featured",
+      "canton_foundation_member"
+    ],
+    "description": "Service &amp; infra provider on Canton; Catalyst Blockchain Manager supports validator ops and app management.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/intellecteu",
+    "websiteGuess": "https://intellecteu.com",
+    "onChainActivity": null,
+    "category": "Developer Tools",
+    "confidence": 75,
+    "note": "Featured; Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Lukka Inc.",
+    "baseName": "lukkainc",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "service_provider",
+      "super_validator",
+      "apps_featured",
+      "canton_foundation_member"
+    ],
+    "description": "Supplies data and technology to traditional financial institutions that are at the forefront of the crypto ecosystem.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/lukka-inc",
+    "websiteGuess": "https://lukka.tech",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 75,
+    "note": "Featured; Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Node Fortress",
+    "baseName": "nodefortress",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_featured",
+      "apps_all"
+    ],
+    "description": "Node Fortress provides real-time insights into the Canton Network through its block explorer, CC Explorer.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/node-fortress",
+    "websiteGuess": "https://nodefortress.io",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Noves",
+    "baseName": "noves",
+    "solutionTags": [
+      "data_analytics",
+      "developer_tools"
+    ],
+    "roleTags": [
+      "validator",
+      "service_provider",
+      "apps_featured",
+      "apps_all",
+      "canton_foundation_member"
+    ],
+    "description": "The Noves Data App is your own private Canton explorer with quick search, filters, and one-click exports for financial reporting, audit, or app integration.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/noves",
+    "websiteGuess": "https://noves.fi",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 75,
+    "note": "Featured; Foundation Member"
+  },
+  {
+    "appName": "Tradecraft",
+    "baseName": "tradecraft",
+    "solutionTags": [
+      "liquidity"
+    ],
+    "roleTags": [
+      "apps_featured",
+      "apps_all"
+    ],
+    "description": "A trading application for the Canton Network, enabling atomic multi-currency swaps with zero counterparty risk.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/tradecraft",
+    "websiteGuess": "https://tradecraft.fi",
+    "onChainActivity": null,
+    "category": "DEX/AMM",
+    "confidence": 75,
+    "note": "Featured"
+  },
+  {
+    "appName": "Bitalpha dba Bitwave",
+    "baseName": "bitalphadbabitwave",
+    "solutionTags": [
+      "data_analytics",
+      "financing",
+      "payments"
+    ],
+    "roleTags": [
+      "canton_foundation_member",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Bitwave delivers enterprise crypto accounting and tax automation on Canton, enabling accurate tracking, reporting, and compliance.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/bitalpha-dba-bitwave",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 65,
+    "note": "Featured; Foundation Member"
+  },
+  {
+    "appName": "BitSafe",
+    "baseName": "bitsafe",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "validator",
+      "canton_foundation_member",
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Providers of bridgeless wrapped Bitcoin solution on Canton (CBTC) with institutional-grade security and liquidity.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/bitsafe",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 65,
+    "note": "Featured; Foundation Member"
+  },
+  {
+    "appName": "Denex Gas Station",
+    "baseName": "denexgasstation",
+    "solutionTags": [
+      "payments",
+      "developer_tools"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Denex are the creators of utility applications supporting the Canton Network ecosystem, including Denex Gas Station and data solutions.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/denex-gas-station",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Developer Tools",
+    "confidence": 65,
+    "note": "Featured"
+  },
+  {
+    "appName": "M1X",
+    "baseName": "m1x",
+    "solutionTags": [
+      "stablecoins",
+      "payments",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_featured",
+      "apps_all",
+      "market_infrastructure"
+    ],
+    "description": "M1X develops institutional-grade digital-asset infrastructure and supports on-chain products for trading, collateral, and settlement workflows.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/m1x",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Payments",
+    "confidence": 65,
+    "note": "Featured"
+  },
+  {
+    "appName": "Novaprime",
+    "baseName": "novaprime",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_featured",
+      "apps_all"
+    ],
+    "description": "AI-powered Loan Quality Platform on Canton, designed to improve the mortgage process by quickly evaluating loan integrity, reducing processing time from weeks to just days.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/novaprime",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 65,
+    "note": "Featured"
+  },
+  {
+    "appName": "Realworld Solutions",
+    "baseName": "realworldsolutions",
+    "solutionTags": [
+      "tokenized_assets",
+      "financing",
+      "forensics_and_security"
+    ],
+    "roleTags": [
+      "apps_featured",
+      "validator"
+    ],
+    "description": "An institutional lending platform on Canton, enabling banks to issue loans against tokenized assets without building blockchain in-house.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/realworld-solutions",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Lending/Finance",
+    "confidence": 65,
+    "note": "Featured"
+  },
+  {
+    "appName": "Sync Insights",
+    "baseName": "syncinsights",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "Sync Insights is a proactive AI analytics platform on Canton that provides real-time insights through automated monitoring, alerts, and custom dashboards.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/sync-insights",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 65,
+    "note": "Featured"
+  },
+  {
+    "appName": "T-Rize",
+    "baseName": "t-rize",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured",
+      "canton_foundation_member"
+    ],
+    "description": "T-RIZE Group is reshaping the future of institutional-grade investments through cutting-edge blockchain technology.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/t-rize",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 65,
+    "note": "Featured; Foundation Member"
+  },
+  {
+    "appName": "USDC",
+    "baseName": "usdc",
+    "solutionTags": [
+      "stablecoins",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_featured"
+    ],
+    "description": "USDCx is a dollar-dominated stablecoin on Canton, minted when users deposit USDC into xReserve on Ethereum via the protocol.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/usdc",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 65,
+    "note": "Featured"
+  },
+  {
+    "appName": "USDM1",
+    "baseName": "usdm1",
+    "solutionTags": [
+      "stablecoins",
+      "tokenized_assets",
+      "liquidity",
+      "financing"
+    ],
+    "roleTags": [
+      "apps_all",
+      "apps_featured"
+    ],
+    "description": "USDM1 is a sovereign USD digital bond, backed 1:1 by Treasuries and structured under NY law for collateral, settlement, yield, repo and close-out netting.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/usdm1",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 65,
+    "note": "Featured"
+  },
+  {
+    "appName": "Cantor8",
+    "baseName": "cantor8",
+    "solutionTags": [
+      "wallets"
+    ],
+    "roleTags": [
+      "canton_foundation_member",
+      "apps_all"
+    ],
+    "description": "A mobile/web wallet with external signing, enabling Canton Coin transfers. The keys stay on-device for full user control and security.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/cantor8",
+    "websiteGuess": "https://cantor8.io",
+    "onChainActivity": {
+      "partyName": "8",
+      "ecosystemMatch": "Cantor8",
+      "matchScore": 60,
+      "appRewards": 0,
+      "transferred": 0,
+      "appearances": 1
+    },
+    "category": "Wallet",
+    "confidence": 70,
+    "note": "Foundation Member"
+  },
+  {
+    "appName": "Send",
+    "baseName": "send",
+    "solutionTags": [
+      "wallets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all",
+      "canton_foundation_member"
+    ],
+    "description": "Send is a non-custodial USDC payments app offering instant, global transfers with user-friendly features and security.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/send",
+    "websiteGuess": "https://send.it",
+    "onChainActivity": {
+      "partyName": "cantonwallet-ogosend",
+      "ecosystemMatch": "Send",
+      "matchScore": 60,
+      "appRewards": 0,
+      "transferred": 0.0579603384,
+      "appearances": 1
+    },
+    "category": "Wallet",
+    "confidence": 70,
+    "note": "Foundation Member"
+  },
+  {
+    "appName": "AngelHack",
+    "baseName": "angelhack",
+    "solutionTags": [
+      "developer_tools"
+    ],
+    "roleTags": [
+      "super_validator",
+      "canton_foundation_member",
+      "apps_all"
+    ],
+    "description": "Provides developer education and programs, including learning pathways for Canton Network.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/angelhack",
+    "websiteGuess": "https://angelhack.com",
+    "onChainActivity": null,
+    "category": "Developer Tools",
+    "confidence": 60,
+    "note": "Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Archax",
+    "baseName": "archax",
+    "solutionTags": [
+      "custody",
+      "exchanges",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "market_infrastructure",
+      "service_provider",
+      "validator",
+      "apps_all"
+    ],
+    "description": "UK and EU regulated digital asset exchange, broker, and custodian. Providing front-to-back infrastructure and services for the issuance, trading and safeguarding of tokenised real-world assets and digital securities.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/archax",
+    "websiteGuess": "https://archax.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "BNP Paribas",
+    "baseName": "bnpparibas",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "financial_institutions",
+      "canton_foundation_member",
+      "apps_all"
+    ],
+    "description": "Operates Neobonds, an asset tokenization platform. BNPP is one of the 30 strategic partners that launched the Canton Network.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/bnp-paribas",
+    "websiteGuess": "https://bnpparibas.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": "Foundation Member"
+  },
+  {
+    "appName": "Broadridge DLR",
+    "baseName": "broadridgedlr",
+    "solutionTags": [
+      "financing",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "super_validator",
+      "canton_foundation_member",
+      "apps_all"
+    ],
+    "description": "Broadridge’s Distributed Ledger Repo (DLR) platform on the Canton Network processes over $8T/month in repo transactions.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/broadridge-dlr",
+    "websiteGuess": "https://www.broadridge.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": "Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Calastone",
+    "baseName": "calastone",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "validator",
+      "canton_foundation_member",
+      "apps_all"
+    ],
+    "description": "The largest global funds network, connecting the world’s leading financial organizations.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/calastone",
+    "websiteGuess": "https://calastone.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": "Foundation Member"
+  },
+  {
+    "appName": "Eleox",
+    "baseName": "eleox",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all"
+    ],
+    "description": "Enterprise post-trade &amp; settlement for natural gas on Canton, boosting efficiency with major global producers.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/eleox",
+    "websiteGuess": "https://eleox.io",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "EquiLend",
+    "baseName": "equilend",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "market_infrastructure",
+      "apps_all",
+      "canton_foundation_member"
+    ],
+    "description": "EquiLend 1Source on Canton: Single source of truth for securities finance, covering pre-trade through lifecycle management.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/equilend",
+    "websiteGuess": "https://equilend.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": "Foundation Member"
+  },
+  {
+    "appName": "HKEX Synapse",
+    "baseName": "hkexsynapse",
+    "solutionTags": [
+      "exchanges"
+    ],
+    "roleTags": [
+      "financial_institutions",
+      "apps_all"
+    ],
+    "description": "HKEX Group is a leading global operator of exchanges and clearing houses, one of the world's largest exchange groups by market capitalization. HKEX provides a blockchain-based settlement system called Synapse.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/hkex-synapse",
+    "websiteGuess": "https://hkex.com.hk",
+    "onChainActivity": null,
+    "category": "Orderbook/CLOB",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "iCapital",
+    "baseName": "icapital",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all"
+    ],
+    "description": "iCapital's DLT platform on Canton sets a new benchmark for data connectivity, standardization, and scale in the Private Markets.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/icapital",
+    "websiteGuess": "https://icapitalnetwork.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Ledgible",
+    "baseName": "ledgible",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all"
+    ],
+    "description": "Provides cost-basis, tax, and compliance solutions for digital assets, trusted by top US banks, major investment firms, and exchanges.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/ledgible",
+    "websiteGuess": "https://ledgible.io",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "LendOS",
+    "baseName": "lendos",
+    "solutionTags": [
+      "financing"
+    ],
+    "roleTags": [
+      "canton_foundation_member",
+      "apps_all"
+    ],
+    "description": "A commercial lending platform leverages Daml smart contracts and the Canton protocol to deliver a new digital data model and platform for the lending industry.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/lendos",
+    "websiteGuess": "https://lendos.io",
+    "onChainActivity": null,
+    "category": "Lending/Finance",
+    "confidence": 60,
+    "note": "Foundation Member"
+  },
+  {
+    "appName": "Maestro",
+    "baseName": "maestro",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all"
+    ],
+    "description": "An enterprise data platform for blockchain infrastructure.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/maestro",
+    "websiteGuess": "https://maestro.org",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Moody's",
+    "baseName": "moodys",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "apps_all",
+      "canton_foundation_member"
+    ],
+    "description": "One of the strategic partners that launched the Canton Network and is a member of the Canton Foundation.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/moodys",
+    "websiteGuess": "https://moodys.com",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 60,
+    "note": "Foundation Member"
+  },
+  {
+    "appName": "Nasdaq",
+    "baseName": "nasdaq",
+    "solutionTags": [
+      "exchanges",
+      "liquidity"
+    ],
+    "roleTags": [
+      "market_infrastructure",
+      "financial_institutions",
+      "apps_all"
+    ],
+    "description": "Using Canton &amp; Daml to digitize carbon credits and enable real-time collateral mobility via Calypso integration.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/nasdaq",
+    "websiteGuess": "https://nasdaq.com",
+    "onChainActivity": null,
+    "category": "Orderbook/CLOB",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Particula",
+    "baseName": "particula",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all"
+    ],
+    "description": "Provides real-time risk ratings and analytics on Canton, giving issuers and investors independent assessments.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/particula",
+    "websiteGuess": "https://particula.io",
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Société Générale",
+    "baseName": "socitgnrale",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "financial_institutions",
+      "validator",
+      "apps_all"
+    ],
+    "description": "Connected to Canton apps like Broadridge DLR, issuing and managing tokenized assets.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/société-générale",
+    "websiteGuess": "https://societegenerale.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Temple Digital Group",
+    "baseName": "templedigitalgroup",
+    "solutionTags": [
+      "liquidity",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all"
+    ],
+    "description": "Institutional markets built On Canton. Compliant and private trading and asset issuance platform native to Canton network.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/temple-digital-group",
+    "websiteGuess": "https://templedigitalgroup.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Texture Capital",
+    "baseName": "texturecapital",
+    "solutionTags": [
+      "liquidity",
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all"
+    ],
+    "description": "Texture Capital is bringing it's Alternative Trading System (ATS) and transfer agent services on-chain to Canton.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/texture-capital",
+    "websiteGuess": "https://texturecapital.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Trakx",
+    "baseName": "trakx",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all",
+      "service_provider"
+    ],
+    "description": "Trakx Crypto Tradable Indices (CTIs) are proprietary crypto baskets built with the largest and most liquid digital assets.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/trakx",
+    "websiteGuess": "https://trakx.io",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 60,
+    "note": null
+  },
+  {
+    "appName": "Ubyx",
+    "baseName": "ubyx",
+    "solutionTags": [
+      "stablecoins",
+      "payments"
+    ],
+    "roleTags": [
+      "apps_all",
+      "canton_foundation_member",
+      "market_infrastructure",
+      "super_validator"
+    ],
+    "description": "Ubyx is a stablecoin clearing system.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/ubyx",
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "Ubyx-validator-1",
+      "ecosystemMatch": "Ubyx",
+      "matchScore": 100,
+      "appRewards": 0,
+      "transferred": 4.69,
+      "appearances": 2
+    },
+    "category": "Payments",
+    "confidence": 60,
+    "note": "Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Cantex",
+    "baseName": "cantex",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": "https://cantex.io",
+    "onChainActivity": {
+      "partyName": "Cantex",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 6951.824122097899,
+      "appearances": 220
+    },
+    "category": "Unknown",
+    "confidence": 55,
+    "note": "220 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "Cantex-validator-1",
+    "baseName": "cantex",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": "https://cantex.io",
+    "onChainActivity": {
+      "partyName": "Cantex-validator-1",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 0.1887102759,
+      "appearances": 19
+    },
+    "category": "Unknown",
+    "confidence": 55,
+    "note": "19 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "7Ridge",
+    "baseName": "7ridge",
+    "solutionTags": [
+      "data_analytics",
+      "naas",
+      "developer_tools"
+    ],
+    "roleTags": [
+      "canton_foundation_member",
+      "super_validator",
+      "apps_all"
+    ],
+    "description": "A global investment firm developing next-generation financial applications on Canton Network.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/7ridge",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Developer Tools",
+    "confidence": 50,
+    "note": "Super Validator; Foundation Member"
+  },
+  {
+    "appName": "ACME",
+    "baseName": "acme",
+    "solutionTags": [
+      "developer_tools",
+      "data_analytics"
+    ],
+    "roleTags": [
+      "apps_all",
+      "validator"
+    ],
+    "description": "A decentralized, overcollateralized lending platform on Canton, enabling secure, compliant lending and borrowing with privacy and control.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/acme",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 50,
+    "note": null
+  },
+  {
+    "appName": "Chain Experts",
+    "baseName": "chainexperts",
+    "solutionTags": [
+      "developer_tools"
+    ],
+    "roleTags": [
+      "service_provider",
+      "validator",
+      "apps_all"
+    ],
+    "description": "A company focused on blockchain infrastructure and smart contract development, with specific expertise in Daml.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/chain-experts",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Developer Tools",
+    "confidence": 50,
+    "note": null
+  },
+  {
+    "appName": "Fìutur",
+    "baseName": "futur",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all"
+    ],
+    "description": "Fìutur is creating a digital trust network for the energy transition economy to accelerate sustainability investment with validated data, governance and transparency. Fiutur is a spinout from Xpansiv.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/fìutur",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 50,
+    "note": null
+  },
+  {
+    "appName": "GS DAP®",
+    "baseName": "gsdap",
+    "solutionTags": [
+      "tokenized_assets"
+    ],
+    "roleTags": [
+      "apps_all"
+    ],
+    "description": null,
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/gs-dap",
+    "websiteGuess": "https://www.gsam.com",
+    "onChainActivity": null,
+    "category": "Tokenized Assets",
+    "confidence": 50,
+    "note": null
+  },
+  {
+    "appName": "Kairo",
+    "baseName": "kairo",
+    "solutionTags": [
+      "developer_tools",
+      "liquidity"
+    ],
+    "roleTags": [
+      "apps_all",
+      "validator"
+    ],
+    "description": "Kairo is a decentralized exchange on Canton Network enabling secure, atomic cross-token trading and unified liquidity for all Canton assets.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/kairo",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Developer Tools",
+    "confidence": 50,
+    "note": null
+  },
+  {
+    "appName": "Taurus",
+    "baseName": "taurus",
+    "solutionTags": [
+      "custody",
+      "tokenized_assets",
+      "wallets"
+    ],
+    "roleTags": [
+      "service_provider",
+      "apps_all",
+      "canton_foundation_member",
+      "super_validator"
+    ],
+    "description": "A digital asset platform to custody, issue and manage cryptocurrencies, tokenized assets and digital currencies. Member of the GSF.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/taurus",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Wallet",
+    "confidence": 50,
+    "note": "Super Validator; Foundation Member"
+  },
+  {
+    "appName": "The Tie",
+    "baseName": "thetie",
+    "solutionTags": [
+      "data_analytics"
+    ],
+    "roleTags": [
+      "apps_all",
+      "canton_foundation_member",
+      "super_validator"
+    ],
+    "description": "The Tie is an information services provider for digital assets.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/the-tie",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Data/Analytics",
+    "confidence": 50,
+    "note": "Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Trade.Fast",
+    "baseName": "tradefast",
+    "solutionTags": [
+      "liquidity"
+    ],
+    "roleTags": [
+      "apps_all",
+      "validator"
+    ],
+    "description": "An automated market maker where users can trade CIP56 assets and add to LPs to earn fees from traders.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/trade-fast",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "DEX/AMM",
+    "confidence": 50,
+    "note": null
+  },
+  {
+    "appName": "TRM Labs",
+    "baseName": "trmlabs",
+    "solutionTags": [
+      "forensics_and_security"
+    ],
+    "roleTags": [
+      "super_validator",
+      "canton_foundation_member",
+      "apps_all"
+    ],
+    "description": "TRM Labs provides blockchain intelligence solutions trusted by financial institutions, crypto businesses, and law enforcement.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/trm-labs",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Identity/Auth",
+    "confidence": 50,
+    "note": "Super Validator; Foundation Member"
+  },
+  {
+    "appName": "Zoro Wallet",
+    "baseName": "zorowallet",
+    "solutionTags": [
+      "wallets"
+    ],
+    "roleTags": [
+      "validator",
+      "apps_all"
+    ],
+    "description": "A secure, user-friendly wallet for the Canton Network, enabling storage, transfer, and swapping of $CC with full seed compatibility.",
+    "cantonNetworkUrl": "https://www.canton.network/ecosystem/zoro-wallet",
+    "websiteGuess": null,
+    "onChainActivity": null,
+    "category": "Wallet",
+    "confidence": 50,
+    "note": null
+  },
+  {
+    "appName": "auxilary-1",
+    "baseName": "auxilary",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "auxilary-1",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 2200,
+      "appearances": 27
+    },
+    "category": "Unknown",
+    "confidence": 45,
+    "note": "27 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "CantonSwap",
+    "baseName": "cantonswap",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "CantonSwap",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 1497.9897309445,
+      "appearances": 42
+    },
+    "category": "DEX/AMM",
+    "confidence": 45,
+    "note": "42 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "charity",
+    "baseName": "charity",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "charity",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 0.7200000000000004,
+      "appearances": 74
+    },
+    "category": "Unknown",
+    "confidence": 45,
+    "note": "74 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "Hecto-Finance-1",
+    "baseName": "hecto-finance",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "Hecto-Finance-1",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 2.4238192063999997,
+      "appearances": 24
+    },
+    "category": "Lending/Finance",
+    "confidence": 45,
+    "note": "24 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "mandalo",
+    "baseName": "mandalo",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "mandalo",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 63,
+      "appearances": 18
+    },
+    "category": "Unknown",
+    "confidence": 45,
+    "note": "18 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "openvector-mainnet-1",
+    "baseName": "openvector",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "openvector-mainnet-1",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 7.921474160000005,
+      "appearances": 46
+    },
+    "category": "Unknown",
+    "confidence": 45,
+    "note": "46 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "baseName": "party-28dc4516-b5ca-44ff-86c7",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 2200,
+      "appearances": 22
+    },
+    "category": "Unknown",
+    "confidence": 45,
+    "note": "22 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "pool-custodian",
+    "baseName": "pool-custodian",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "pool-custodian",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 3675.3740089724,
+      "appearances": 18
+    },
+    "category": "DEX/AMM",
+    "confidence": 45,
+    "note": "18 recent txns; On-chain only, not in ecosystem page"
+  },
+  {
+    "appName": "supa1",
+    "baseName": "supa1",
+    "solutionTags": [],
+    "roleTags": [
+      "on_chain_only"
+    ],
+    "description": null,
+    "cantonNetworkUrl": null,
+    "websiteGuess": null,
+    "onChainActivity": {
+      "partyName": "supa1",
+      "ecosystemMatch": null,
+      "matchScore": 0,
+      "appRewards": 0,
+      "transferred": 85.42381920640001,
+      "appearances": 63
+    },
+    "category": "Unknown",
+    "confidence": 45,
+    "note": "63 recent txns; On-chain only, not in ecosystem page"
+  }
+]
