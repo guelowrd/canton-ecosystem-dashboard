@@ -6,6 +6,7 @@ const path = require('path');
 
 const TRADECRAFT_API = 'https://api.tradecraft.fi/v1';
 const UNHEDGED_API = 'https://api.unhedged.gg/api/v1';
+const CCEXPLORER_API = 'https://api.ccexplorer.io/api';
 
 async function fetchJSON(url) {
   const res = await fetch(url);
@@ -151,6 +152,193 @@ async function fetchUnhedged() {
 }
 
 // ---------------------------------------------------------------------------
+// CC Explorer (Network Stats) -- Free API
+// ---------------------------------------------------------------------------
+
+async function fetchCCExplorer() {
+  console.log('Fetching CC Explorer data...');
+
+  const [overview, svData, validatorData, roundData, updatesData] = await Promise.allSettled([
+    fetchJSON(`${CCEXPLORER_API}/overview`),
+    fetchJSON(`${CCEXPLORER_API}/super-validators`),
+    fetchJSON(`${CCEXPLORER_API}/validators`),
+    fetchJSON(`${CCEXPLORER_API}/current-round`),
+    fetchJSON(`${CCEXPLORER_API}/updates?limit=2000`),
+  ]);
+
+  // Network overview
+  const ov = overview.status === 'fulfilled' ? overview.value : {};
+  const round = roundData.status === 'fulfilled' ? roundData.value : {};
+
+  const network = {
+    activeValidators: ov.activeValidators || null,
+    superValidators: ov.superValidators || null,
+    supply: ov.supply ? parseFloat(ov.supply) : null,
+    consensusHeight: ov.consensusHeight ? parseInt(ov.consensusHeight) : null,
+    version: ov.version || null,
+    featuredApps: ov.featuredApps || null,
+    currentRound: round.currentRound || null,
+  };
+
+  // Super validators -- sorted by weight descending
+  let superValidators = [];
+  if (svData.status === 'fulfilled' && svData.value.svs) {
+    const totalWeight = svData.value.svs.reduce((s, sv) => s + parseInt(sv[1].svRewardWeight || '0'), 0);
+    superValidators = svData.value.svs
+      .map(sv => ({
+        name: sv[1].name,
+        weight: parseInt(sv[1].svRewardWeight || '0'),
+        weightPct: totalWeight > 0 ? (parseInt(sv[1].svRewardWeight || '0') / totalWeight) * 100 : 0,
+        joinedRound: parseInt(sv[1].joinedAsOfRound?.number || '0'),
+      }))
+      .sort((a, b) => b.weight - a.weight);
+  }
+
+  // Validator distribution (sponsors, versions, operators)
+  let validators = { total: 0, bySponsor: {}, byVersion: {}, topOperators: {} };
+  if (validatorData.status === 'fulfilled') {
+    const licenses = validatorData.value.validator_licenses || validatorData.value;
+    const list = Array.isArray(licenses) ? licenses : [];
+    validators.total = list.length;
+
+    for (const v of list) {
+      const p = v.payload || v;
+
+      // Sponsor distribution
+      const sponsor = (p.sponsor || '').split('::')[0] || 'Unknown';
+      validators.bySponsor[sponsor] = (validators.bySponsor[sponsor] || 0) + 1;
+
+      // Version distribution
+      const ver = p.metadata?.version || 'unknown';
+      validators.byVersion[ver] = (validators.byVersion[ver] || 0) + 1;
+
+      // Operator distribution (from contactPoint)
+      const contact = p.metadata?.contactPoint || '';
+      if (contact) {
+        // Extract org name from email domain or use as-is
+        const org = contact.includes('@')
+          ? contact.split('@')[1].split('.')[0]
+          : contact.length < 40 ? contact : 'other';
+        validators.topOperators[org] = (validators.topOperators[org] || 0) + 1;
+      }
+    }
+
+    // Sort and keep top entries
+    validators.bySponsor = sortObj(validators.bySponsor);
+    validators.byVersion = sortObj(validators.byVersion);
+    validators.topOperators = topN(sortObj(validators.topOperators), 10);
+  }
+
+  // Recent activity from updates -- aggregate minting, burning, transfers, top apps
+  let recentActivity = null;
+  if (updatesData.status === 'fulfilled') {
+    const updates = updatesData.value.updates || updatesData.value || [];
+    if (updates.length > 0) {
+      const firstTime = new Date(updates[updates.length - 1].recordTime || updates[updates.length - 1].effectiveAt);
+      const lastTime = new Date(updates[0].recordTime || updates[0].effectiveAt);
+      const windowMs = lastTime - firstTime;
+
+      let totalMinted = 0, appRewards = 0, valLiveness = 0, svRewards = 0;
+      let totalTransferred = 0, totalBurned = 0;
+      let amuletPrice = null;
+      const appRewardsByParty = {};
+
+      for (const u of updates) {
+        totalMinted += parseFloat(u.totalMinted || '0');
+        appRewards += parseFloat(u.appRewardsMinted || '0');
+        valLiveness += parseFloat(u.validatorLivenessRewardsMinted || '0');
+        svRewards += parseFloat(u.svRewardsMinted || '0');
+        totalTransferred += parseFloat(u.amuletTransferred || '0');
+        totalBurned += parseFloat(u.totalBurned || '0');
+
+        // Extract per-party app rewards and amulet price
+        const byParty = u.balanceChanges?.byParty || {};
+        for (const [partyKey, info] of Object.entries(byParty)) {
+          if (amuletPrice === null && info.amuletPrice) {
+            amuletPrice = parseFloat(info.amuletPrice);
+          }
+          const partyAppReward = parseFloat(info.appRewardsMinted || '0');
+          if (partyAppReward > 0) {
+            const partyName = partyKey.split('::')[0];
+            appRewardsByParty[partyName] = (appRewardsByParty[partyName] || 0) + partyAppReward;
+          }
+        }
+      }
+
+      // Top apps by rewards earned
+      const topApps = Object.entries(appRewardsByParty)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10)
+        .map(([name, rewards]) => ({ name, rewardsCC: rewards }));
+
+      recentActivity = {
+        sampleSize: updates.length,
+        timeWindowSeconds: Math.round(windowMs / 1000),
+        amuletPrice,
+        totalMinted,
+        appRewardsMinted: appRewards,
+        validatorLivenessRewardsMinted: valLiveness,
+        svRewardsMinted: svRewards,
+        totalTransferred,
+        totalBurned,
+        topApps,
+      };
+    }
+  }
+
+  // Governance summary
+  let governance = null;
+  if (ov.openVotes && ov.openVotes.length > 0) {
+    governance = {
+      inProgressCount: ov.openVotes.length,
+      votes: ov.openVotes.map(v => {
+        const p = v.payload || v;
+        const reason = p.reason || {};
+        const svVotes = p.votes || [];
+        const yes = svVotes.filter(([, sv]) => sv.accept === true).length;
+        const pending = svVotes.filter(([, sv]) => sv.accept === null).length;
+        const total = svVotes.length;
+        // Truncate body to first sentence or 120 chars
+        let body = (reason.body || '').trim();
+        if (body.length > 120) {
+          const dot = body.indexOf('. ');
+          body = dot > 20 && dot < 150 ? body.slice(0, dot + 1) : body.slice(0, 117) + '...';
+        }
+        return {
+          summary: body || 'Governance vote',
+          url: reason.url || null,
+          requester: p.requester || null,
+          yesVotes: yes,
+          pendingVotes: pending,
+          totalVoters: total,
+        };
+      }),
+    };
+  }
+
+  return {
+    id: 'ccexplorer',
+    name: 'Canton Network',
+    url: 'https://ccexplorer.io',
+    category: 'Network Stats',
+    dataAvailability: 'full',
+    network,
+    superValidators,
+    validators,
+    recentActivity,
+    governance,
+  };
+}
+
+function sortObj(obj) {
+  return Object.fromEntries(Object.entries(obj).sort((a, b) => b[1] - a[1]));
+}
+
+function topN(obj, n) {
+  return Object.fromEntries(Object.entries(obj).slice(0, n));
+}
+
+// ---------------------------------------------------------------------------
 // Temple Digital Group -- Limited (API requires auth)
 // ---------------------------------------------------------------------------
 
@@ -209,10 +397,14 @@ async function main() {
   console.log('Canton Ecosystem Dashboard \u2014 Data Fetch');
   console.log('========================================\n');
 
-  const results = await Promise.allSettled([fetchTradecraft(), fetchUnhedged()]);
+  const results = await Promise.allSettled([
+    fetchCCExplorer(),
+    fetchTradecraft(),
+    fetchUnhedged(),
+  ]);
 
   const apps = [];
-  const names = ['Tradecraft', 'Unhedged'];
+  const names = ['CC Explorer', 'Tradecraft', 'Unhedged'];
 
   for (const [i, result] of results.entries()) {
     if (result.status === 'fulfilled') {
@@ -221,7 +413,7 @@ async function main() {
     } else {
       console.error(`  \u2717 ${names[i]}: ${result.reason.message}`);
       apps.push({
-        id: names[i].toLowerCase(),
+        id: names[i].toLowerCase().replace(/ /g, '-'),
         name: names[i],
         dataAvailability: 'error',
         error: result.reason.message,
@@ -235,9 +427,14 @@ async function main() {
   apps.push(getCantexData());
   console.log('  \u2713 Cantex: static');
 
+  // CC price: prefer Tradecraft AMM-derived, fallback to CC Explorer amulet price
+  const tc = apps.find(a => a.id === 'tradecraft');
+  const ccx = apps.find(a => a.id === 'ccexplorer');
+  const ccPrice = tc?.ccPriceUsd || ccx?.recentActivity?.amuletPrice || null;
+
   const snapshot = {
     lastUpdated: new Date().toISOString(),
-    cantonCoinPriceUsd: apps.find(a => a.id === 'tradecraft')?.ccPriceUsd || null,
+    cantonCoinPriceUsd: ccPrice,
     apps,
   };
 
@@ -253,10 +450,24 @@ async function main() {
   }
 
   // Summary
-  const tc = apps.find(a => a.id === 'tradecraft');
+  if (ccx && ccx.dataAvailability === 'full') {
+    const n = ccx.network;
+    console.log(
+      `\nNetwork: ${n.activeValidators} validators | ${n.superValidators} SVs` +
+        ` | Supply ${(n.supply / 1e9).toFixed(1)}B CC | Round ${n.currentRound}`
+    );
+    if (ccx.recentActivity) {
+      const ra = ccx.recentActivity;
+      console.log(
+        `Activity (${ra.sampleSize} updates, ${ra.timeWindowSeconds}s window):` +
+          ` Minted ${ra.totalMinted.toFixed(0)} CC | Transferred ${ra.totalTransferred.toFixed(0)} CC` +
+          ` | Top app: ${ra.topApps[0]?.name || 'n/a'}`
+      );
+    }
+  }
   if (tc && tc.dataAvailability === 'full') {
     console.log(
-      `\nTradecraft: TVL $${tc.totalTvlUsd.toLocaleString('en-US', { maximumFractionDigits: 0 })}` +
+      `Tradecraft: TVL $${tc.totalTvlUsd.toLocaleString('en-US', { maximumFractionDigits: 0 })}` +
         ` | 24h Vol $${tc.totalVolume24hUsd.toLocaleString('en-US', { maximumFractionDigits: 0 })}`
     );
   }

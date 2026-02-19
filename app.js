@@ -39,6 +39,8 @@
 
     if (app.dataAvailability === 'error') {
       card.innerHTML = renderErrorCard(app);
+    } else if (app.id === 'ccexplorer') {
+      card.innerHTML = renderCCExplorer(app);
     } else if (app.id === 'tradecraft') {
       card.innerHTML = renderTradecraft(app);
     } else if (app.id === 'unhedged') {
@@ -94,6 +96,151 @@ function escapeHtml(str) {
   var d = document.createElement('div');
   d.textContent = str;
   return d.innerHTML;
+}
+
+// ---------------------------------------------------------------------------
+// CC Explorer / Network Stats card
+// ---------------------------------------------------------------------------
+
+function renderCCExplorer(app) {
+  var html = renderCardHeader(app);
+  var n = app.network || {};
+
+  // Top metrics
+  html +=
+    '<div class="metrics">' +
+    metric('Validators', fmtNum(n.activeValidators) + (n.superValidators ? ' <span style="font-size:0.7em;color:var(--text-secondary)">(' + n.superValidators + ' SVs)</span>' : '')) +
+    metric('Total Supply', n.supply ? fmtNum(n.supply / 1e9, 1) + 'B CC' : '--') +
+    metric('Featured Apps', fmtNum(n.featuredApps)) +
+    metric('Current Round', fmtNum(n.currentRound)) +
+    '</div>';
+
+  // Recent activity snapshot
+  var ra = app.recentActivity;
+  if (ra) {
+    html += '<div class="section-title">Recent Activity Snapshot <span style="font-weight:400;font-size:0.75rem;text-transform:none">(' + ra.sampleSize + ' updates, ' + ra.timeWindowSeconds + 's window)</span></div>';
+    html +=
+      '<div class="metrics">' +
+      metric('Minted', fmtNum(ra.totalMinted, 0) + ' CC') +
+      metric('Transferred', fmtNum(ra.totalTransferred, 0) + ' CC') +
+      metric('Burned', fmtNum(ra.totalBurned, 0) + ' CC') +
+      metric('Amulet Price', ra.amuletPrice ? '$' + ra.amuletPrice.toFixed(4) : '--') +
+      '</div>';
+
+    // Minting breakdown
+    if (ra.totalMinted > 0) {
+      html += '<div class="section-title">Minting Breakdown</div>';
+      html +=
+        '<table class="data-table"><thead><tr>' +
+        '<th>Category</th><th class="number">CC Minted</th><th class="number">Share</th>' +
+        '</tr></thead><tbody>';
+      var mintRows = [
+        ['App Rewards', ra.appRewardsMinted],
+        ['Validator Liveness', ra.validatorLivenessRewardsMinted],
+        ['SV Rewards', ra.svRewardsMinted],
+      ];
+      for (var i = 0; i < mintRows.length; i++) {
+        var pct = ra.totalMinted > 0 ? (mintRows[i][1] / ra.totalMinted) * 100 : 0;
+        html +=
+          '<tr><td>' + mintRows[i][0] + '</td>' +
+          '<td class="number">' + fmtNum(mintRows[i][1], 0) + '</td>' +
+          '<td class="number">' + fmtPct(pct, 1) + '</td></tr>';
+      }
+      html += '</tbody></table>';
+    }
+
+    // Top apps by rewards
+    if (ra.topApps && ra.topApps.length > 0) {
+      html += '<div class="section-title">Top Apps by Rewards</div>';
+      html +=
+        '<table class="data-table"><thead><tr>' +
+        '<th>App / Party</th><th class="number">CC Rewards</th>' +
+        '</tr></thead><tbody>';
+      for (var j = 0; j < ra.topApps.length; j++) {
+        var a = ra.topApps[j];
+        html +=
+          '<tr><td>' + escapeHtml(a.name) + '</td>' +
+          '<td class="number">' + fmtNum(a.rewardsCC, 0) + '</td></tr>';
+      }
+      html += '</tbody></table>';
+    }
+  }
+
+  // Super validators
+  if (app.superValidators && app.superValidators.length > 0) {
+    html += '<div class="section-title">Super Validators (' + app.superValidators.length + ')</div>';
+    html +=
+      '<table class="data-table"><thead><tr>' +
+      '<th>Name</th><th class="number">Weight</th><th class="number">Share</th>' +
+      '</tr></thead><tbody>';
+    for (var k = 0; k < app.superValidators.length; k++) {
+      var sv = app.superValidators[k];
+      html +=
+        '<tr><td>' + escapeHtml(sv.name.replace(/-/g, ' ')) + '</td>' +
+        '<td class="number">' + fmtNum(sv.weight) + '</td>' +
+        '<td class="number">' + fmtPct(sv.weightPct, 1) + '</td></tr>';
+    }
+    html += '</tbody></table>';
+  }
+
+  // Validator distribution
+  var vals = app.validators;
+  if (vals && vals.total > 0) {
+    // Sponsor table
+    html += '<div class="section-title">Validators by Sponsor (' + fmtNum(vals.total) + ' total licenses)</div>';
+    html +=
+      '<table class="data-table"><thead><tr>' +
+      '<th>Sponsor</th><th class="number">Count</th><th class="number">Share</th>' +
+      '</tr></thead><tbody>';
+    var sponsors = Object.entries(vals.bySponsor);
+    for (var s = 0; s < sponsors.length; s++) {
+      html +=
+        '<tr><td>' + escapeHtml(sponsors[s][0].replace(/-/g, ' ')) + '</td>' +
+        '<td class="number">' + sponsors[s][1] + '</td>' +
+        '<td class="number">' + fmtPct((sponsors[s][1] / vals.total) * 100, 1) + '</td></tr>';
+    }
+    html += '</tbody></table>';
+
+    // Version table
+    html += '<div class="section-title">Validators by Version</div>';
+    html +=
+      '<table class="data-table"><thead><tr>' +
+      '<th>Version</th><th class="number">Count</th><th class="number">Share</th>' +
+      '</tr></thead><tbody>';
+    var versions = Object.entries(vals.byVersion);
+    for (var v = 0; v < versions.length; v++) {
+      html +=
+        '<tr><td>' + escapeHtml(versions[v][0]) + '</td>' +
+        '<td class="number">' + versions[v][1] + '</td>' +
+        '<td class="number">' + fmtPct((versions[v][1] / vals.total) * 100, 1) + '</td></tr>';
+    }
+    html += '</tbody></table>';
+  }
+
+  // Governance
+  if (app.governance && app.governance.inProgressCount > 0) {
+    html += '<div class="section-title">Open Governance Votes (' + app.governance.inProgressCount + ')</div>';
+    html +=
+      '<table class="data-table"><thead><tr>' +
+      '<th>Proposal</th><th class="number">Votes</th><th>Requester</th>' +
+      '</tr></thead><tbody>';
+    for (var g = 0; g < app.governance.votes.length; g++) {
+      var vote = app.governance.votes[g];
+      var text = vote.summary;
+      var voteCell = vote.yesVotes + '/' + vote.totalVoters + ' yes';
+      if (vote.pendingVotes > 0) voteCell += ' (' + vote.pendingVotes + ' pending)';
+      var summaryHtml = vote.url
+        ? '<a href="' + escapeHtml(vote.url) + '" target="_blank" rel="noopener" style="color:var(--accent)">' + escapeHtml(text) + '</a>'
+        : escapeHtml(text);
+      html +=
+        '<tr><td>' + summaryHtml + '</td>' +
+        '<td class="number">' + voteCell + '</td>' +
+        '<td>' + escapeHtml((vote.requester || '').replace(/-/g, ' ')) + '</td></tr>';
+    }
+    html += '</tbody></table>';
+  }
+
+  return html;
 }
 
 // ---------------------------------------------------------------------------
