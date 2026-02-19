@@ -289,6 +289,9 @@ async function fetchCCExplorer() {
       const totalAppRewards = Object.values(appRewardsByParty).reduce((s, v) => s + v, 0);
       const top3Rewards = topApps.slice(0, 3).reduce((s, a) => s + a.rewardsCC, 0);
       const top5Rewards = topApps.slice(0, 5).reduce((s, a) => s + a.rewardsCC, 0);
+      const rewardsTop1Pct = totalAppRewards > 0 && topApps.length > 0
+        ? (topApps[0].rewardsCC / totalAppRewards) * 100 : null;
+      const top1AppName = topApps.length > 0 ? topApps[0].name : null;
 
       recentActivity = {
         sampleSize: updates.length,
@@ -302,6 +305,8 @@ async function fetchCCExplorer() {
         totalBurned,
         netIssuance: totalMinted - totalBurned,
         topApps,
+        rewardsTop1Pct,
+        top1AppName,
         rewardsTop3Pct: totalAppRewards > 0 ? (top3Rewards / totalAppRewards) * 100 : 0,
         rewardsTop5Pct: totalAppRewards > 0 ? (top5Rewards / totalAppRewards) * 100 : 0,
         appRewardsShareOfMinting: totalMinted > 0 ? (appRewards / totalMinted) * 100 : 0,
@@ -385,6 +390,100 @@ function sortObj(obj) {
 
 function topN(obj, n) {
   return Object.fromEntries(Object.entries(obj).slice(0, n));
+}
+
+// ---------------------------------------------------------------------------
+// Candidate app probing
+// ---------------------------------------------------------------------------
+
+async function probeUrl(url, timeoutMs = 4000) {
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), timeoutMs);
+    const res = await fetch(url, { signal: ctrl.signal, headers: { 'User-Agent': 'Canton-Dashboard/1.0' } });
+    clearTimeout(t);
+    const ct = res.headers.get('content-type') || '';
+    const isJson = ct.includes('application/json') || ct.includes('json');
+    let data = null;
+    if (res.ok && isJson) {
+      try {
+        const json = await res.json();
+        if (typeof json === 'object' && json !== null) {
+          const keys = Object.keys(json).slice(0, 10);
+          data = {};
+          for (const k of keys) data[k] = json[k];
+        }
+      } catch { /* ignore */ }
+    }
+    return { status: res.status, isJson, ok: res.ok, data };
+  } catch { return { status: 0, ok: false, isJson: false, data: null }; }
+}
+
+async function fetchCandidateApps(alreadyTracked) {
+  const registryPath = path.join(__dirname, '..', 'data', 'cantonscan_apps_registry.json');
+  let registry;
+  try {
+    registry = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+  } catch (e) {
+    console.error('  Could not read registry:', e.message);
+    return [];
+  }
+
+  const EXCLUDED_DOMAINS = ['bybit.com', 'kraken.com', 'mexc.com', 'kucoin.com', 'binance.us', 'bitgo.com'];
+  const PROBE_PATHS = ['/api/v1', '/api/v1/stats', '/api', '/v1', '/v1/stats', '/openapi.json'];
+
+  const candidates = registry.filter(r => {
+    if (r.confidence < 70) return false;
+    if (!r.websiteGuess) return false;
+    if (r.category === 'Validator/Infra') return false;
+    if (alreadyTracked.includes(r.baseName.toLowerCase())) return false;
+    if (EXCLUDED_DOMAINS.some(d => r.websiteGuess.includes(d))) return false;
+    return true;
+  });
+
+  console.log(`  Probing ${candidates.length} candidate apps...`);
+
+  const results = [];
+  for (let i = 0; i < candidates.length; i += 5) {
+    const batch = candidates.slice(i, i + 5);
+    const batchResults = await Promise.allSettled(batch.map(async (r) => {
+      let transparency = 'none';
+      let probeEndpoint = null;
+      let probeData = null;
+
+      for (const probePath of PROBE_PATHS) {
+        const url = r.websiteGuess.replace(/\/$/, '') + probePath;
+        const probe = await probeUrl(url);
+        if (probe.ok && probe.isJson) {
+          transparency = 'transparent';
+          probeEndpoint = url;
+          probeData = probe.data;
+          break;
+        } else if (probe.status === 401 || probe.status === 403) {
+          transparency = 'opaque';
+          break;
+        }
+      }
+
+      return {
+        id: r.baseName,
+        name: r.appName,
+        url: r.websiteGuess,
+        appCategory: r.category,
+        transparency,
+        dataAvailability: transparency === 'transparent' ? 'full' : 'limited',
+        probeEndpoint,
+        probeData,
+        note: r.note || null,
+        isCandidate: true,
+      };
+    }));
+    for (const res of batchResults) {
+      if (res.status === 'fulfilled') results.push(res.value);
+    }
+  }
+
+  return results;
 }
 
 // ---------------------------------------------------------------------------
@@ -473,6 +572,7 @@ function computeDerivedMetrics(apps) {
   const svs = ccx?.superValidators || [];
   const svTop1Pct = svs[0]?.weightPct || null;
   const svTop3Pct = svs.slice(0, 3).reduce((s, sv) => s + sv.weightPct, 0) || null;
+  const svTop5Pct = svs.slice(0, 5).reduce((s, sv) => s + sv.weightPct, 0) || null;
   // HHI: sum of squared market shares (0-10000 scale)
   const svHhi = svs.length > 0
     ? svs.reduce((s, sv) => s + Math.pow(sv.weightPct, 2), 0)
@@ -498,6 +598,7 @@ function computeDerivedMetrics(apps) {
   const concentration = {
     svTop1Pct,
     svTop3Pct,
+    svTop5Pct,
     svHhi,
     sponsorTop1Pct,
     sponsorTop3Pct,
@@ -568,6 +669,11 @@ async function main() {
   console.log('  \u2713 Temple Digital Group: static');
   apps.push(getCantexData());
   console.log('  \u2713 Cantex: static');
+
+  const alreadyTracked = ['tradecraft', 'unhedged', 'temple', 'cantex', 'ccexplorer'];
+  const candidates = await fetchCandidateApps(alreadyTracked);
+  apps.push(...candidates);
+  console.log(`  + ${candidates.length} candidate apps probed`);
 
   const tc = apps.find(a => a.id === 'tradecraft');
   const ccx = apps.find(a => a.id === 'ccexplorer');

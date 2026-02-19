@@ -42,12 +42,9 @@
   dashboard.innerHTML = renderInsights(snap);
 
   // 2. Three-tier metrics
-  dashboard.innerHTML += renderTiers(snap);
+  dashboard.innerHTML += renderTiers(snap, registry);
 
-  // 3. Concentration Risk
-  dashboard.innerHTML += renderConcentration(snap);
-
-  // 4. Application cards
+  // 3. Application cards
   dashboard.innerHTML += renderAppSection(snap);
 
   // 5. Featured Apps Registry
@@ -91,7 +88,7 @@ function renderInsights(snap) {
   return html;
 }
 
-function renderTiers(snap) {
+function renderTiers(snap, registry) {
   var nh = snap.networkHealth || {};
   var conc = snap.concentration || {};
   var ccx = findApp(snap, 'ccexplorer');
@@ -117,6 +114,7 @@ function renderTiers(snap) {
   html += '<div class="metrics-group"><div class="metrics-group-label">SV Consensus Weight</div>';
   html += miniBar('Top 1', conc.svTop1Pct);
   html += miniBar('Top 3', conc.svTop3Pct);
+  html += miniBar('Top 5', conc.svTop5Pct);
   if (conc.svHhi != null) html += '<div class="mini-stat">HHI: ' + fNum(conc.svHhi, 0) + ' <span class="hint">(>2500 = highly concentrated)</span></div>';
   html += '</div>';
 
@@ -133,6 +131,9 @@ function renderTiers(snap) {
 
   // Rewards concentration
   html += '<div class="metrics-group"><div class="metrics-group-label">App Rewards Distribution</div>';
+  if (ra && ra.rewardsTop1Pct != null && ra.top1AppName) {
+    html += '<div class="mini-stat">Top 1: ' + esc(ra.top1AppName) + ' (' + fPct(ra.rewardsTop1Pct, 1) + ')</div>';
+  }
   html += miniBar('Top 3 apps', conc.rewardsTop3Pct);
   html += miniBar('Top 5 apps', conc.rewardsTop5Pct);
   if (ra) html += '<div class="mini-stat">' + fPct(ra.appRewardsShareOfMinting, 0) + ' of emissions go to apps</div>';
@@ -165,19 +166,37 @@ function renderTiers(snap) {
       html += '<div class="section-title">Top Apps by Rewards</div>';
       html += '<table class="data-table"><thead><tr><th>App / Party</th><th class="number">CC Rewards</th><th class="number">Share</th></tr></thead><tbody>';
       var totalRewards = ra.topApps.reduce(function (s, a) { return s + a.rewardsCC; }, 0);
-      var shown = Math.min(ra.topApps.length, 5);
-      for (var t = 0; t < shown; t++) {
+      for (var t = 0; t < ra.topApps.length; t++) {
         var a = ra.topApps[t];
         html += '<tr><td>' + esc(a.name) + '</td><td class="number">' + fNum(a.rewardsCC, 0) + '</td><td class="number">' + fPct(totalRewards > 0 ? (a.rewardsCC / totalRewards) * 100 : 0, 1) + '</td></tr>';
       }
       html += '</tbody></table>';
-      if (ra.topApps.length > 5) {
-        html += expandable('top-apps-full', 'Show all ' + ra.topApps.length,
-          '<table class="data-table"><tbody>' +
-          ra.topApps.slice(5).map(function (a) {
-            return '<tr><td>' + esc(a.name) + '</td><td class="number">' + fNum(a.rewardsCC, 0) + '</td><td class="number">' + fPct(totalRewards > 0 ? (a.rewardsCC / totalRewards) * 100 : 0, 1) + '</td></tr>';
-          }).join('') +
-          '</tbody></table>');
+
+      // App website links matched from registry
+      if (registry && ra.topApps) {
+        var links = [];
+        ra.topApps.forEach(function(topApp) {
+          for (var ri = 0; ri < registry.length; ri++) {
+            var r = registry[ri];
+            if (!r.websiteGuess) continue;
+            var rBase = r.baseName.toLowerCase();
+            var aName = topApp.name.toLowerCase();
+            var rStripped = rBase.replace(/^feat-/, '');
+            if (rBase === aName || rStripped === aName || aName.indexOf(rBase) !== -1 || rBase.indexOf(aName) !== -1) {
+              var domain = '';
+              try { domain = new URL(r.websiteGuess).hostname.replace('www.', ''); } catch(e) { domain = r.websiteGuess; }
+              links.push({ name: topApp.name, url: r.websiteGuess, domain: domain });
+              break;
+            }
+          }
+        });
+        if (links.length > 0) {
+          html += '<div class="section-title">App Websites</div><div class="app-websites">';
+          links.forEach(function(l) {
+            html += '<a href="' + esc(l.url) + '" target="_blank" rel="noopener" class="app-website-link">' + esc(l.name) + ' \u2192 ' + esc(l.domain) + '</a>';
+          });
+          html += '</div>';
+        }
       }
     }
     html += '</div>';
@@ -231,13 +250,17 @@ function renderAppSection(snap) {
     if (transCounts.transparent > 0) transLabels.push(transCounts.transparent + ' transparent');
     if (transCounts.partial > 0) transLabels.push(transCounts.partial + ' partial');
     if (transCounts.opaque > 0) transLabels.push(transCounts.opaque + ' opaque');
+    if (transCounts.none > 0) transLabels.push(transCounts.none + ' no data');
     html += '<tr><td>' + esc(catKeys[c]) + '</td><td class="number">' + catApps.length + '</td><td>' + transLabels.join(', ') + '</td></tr>';
   }
   html += '</tbody></table></div>';
 
-  // Individual app cards
-  for (var k = 0; k < apps.length; k++) {
-    var app = apps[k];
+  // Core tracked apps (non-candidate)
+  var coreApps = apps.filter(function(a) { return !a.isCandidate; });
+  var candidateApps = apps.filter(function(a) { return a.isCandidate; });
+
+  for (var k = 0; k < coreApps.length; k++) {
+    var app = coreApps[k];
     var card = '<div class="card">';
     if (app.dataAvailability === 'error') {
       card += renderErrorCard(app);
@@ -251,6 +274,17 @@ function renderAppSection(snap) {
     card += '</div>';
     html += card;
   }
+
+  // Candidate apps (auto-detected from registry probing)
+  if (candidateApps.length > 0) {
+    html += '<div class="section-title" style="margin-top:1.5rem">Candidate Apps (auto-detected from registry)</div>';
+    for (var m = 0; m < candidateApps.length; m++) {
+      html += '<div class="card">' + renderCandidateCard(candidateApps[m]) + '</div>';
+    }
+  }
+
+  // Why note
+  html += '<div class="card"><div class="tier-label">Why only a few apps have live metrics</div><div class="limited-info"><ul><li>Many Canton apps are institutional or not publicly consumer-facing</li><li>Most API endpoints require authentication (HTTP 401/403)</li><li>Some websites are informational-only with no queryable data</li><li>This tracker shows only apps with publicly accessible metric endpoints today</li></ul></div></div>';
 
   return html;
 }
@@ -370,6 +404,7 @@ function appHeader(app) {
     transparent: { cls: 'badge-full', label: 'Transparent' },
     partial: { cls: 'badge-partial', label: 'Partial' },
     opaque: { cls: 'badge-opaque', label: 'Opaque' },
+    none: { cls: 'badge-opaque', label: 'No Data' },
   };
   var tr = transpMap[app.transparency] || transpMap.opaque;
 
@@ -466,6 +501,39 @@ function renderLimitedCard(app) {
 function renderErrorCard(app) {
   var html = appHeader(app);
   html += '<div class="limited-info"><p>Failed to fetch data: ' + esc(app.error || 'Unknown error') + '</p></div>';
+  return html;
+}
+
+function renderCandidateCard(app) {
+  var html = appHeader(app);
+  html += '<div class="limited-info">';
+  if (app.url) {
+    var domain = '';
+    try { domain = new URL(app.url).hostname.replace('www.', ''); } catch(e) { domain = app.url; }
+    html += '<p><a href="' + esc(app.url) + '" target="_blank" rel="noopener" style="color:var(--accent)">' + esc(domain) + '</a></p>';
+  }
+  if (app.transparency === 'transparent' && app.probeEndpoint) {
+    html += '<p><strong>Live API:</strong> <code>' + esc(app.probeEndpoint) + '</code></p>';
+    if (app.probeData) {
+      var keys = Object.keys(app.probeData).slice(0, 10);
+      if (keys.length > 0) {
+        html += '<div class="tag-list">';
+        for (var i = 0; i < keys.length; i++) {
+          var v = app.probeData[keys[i]];
+          var vStr = typeof v === 'object' ? (v === null ? 'null' : '[object]') : String(v);
+          if (vStr.length > 30) vStr = vStr.slice(0, 27) + '...';
+          html += '<span class="tag">' + esc(keys[i]) + ': ' + esc(vStr) + '</span>';
+        }
+        html += '</div>';
+      }
+    }
+  } else if (app.transparency === 'opaque') {
+    html += '<p class="note">API requires authentication (HTTP 401/403)</p>';
+  } else {
+    html += '<p class="note">No public endpoints found</p>';
+  }
+  if (app.note) html += '<p class="note" style="margin-top:0.5rem">' + esc(app.note) + '</p>';
+  html += '</div>';
   return html;
 }
 

@@ -439,6 +439,15 @@ h1 {
 
 .limited-info p { margin-bottom: 0.5rem; }
 
+.limited-info ul {
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.limited-info ul li {
+  margin-bottom: 0.35rem;
+}
+
 .limited-info .note {
   font-style: italic;
   font-size: 0.8rem;
@@ -460,6 +469,30 @@ h1 {
   border-radius: 4px;
   font-size: 0.75rem;
   color: var(--text-secondary);
+}
+
+/* ---- App websites ---- */
+
+.app-websites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.app-website-link {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.78rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.app-website-link:hover {
+  background: rgba(88, 166, 255, 0.1);
 }
 
 /* ---- Footer ---- */
