@@ -499,6 +499,23 @@ footer a:hover { text-decoration: underline; }
   opacity: 0.8;
 }
 
+/* ---- Registry filters ---- */
+
+.reg-filter-select {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  appearance: auto;
+}
+
+.reg-filter-select:hover {
+  border-color: var(--accent);
+}
+
 /* ---- Responsive ---- */
 
 @media (max-width: 600px) {

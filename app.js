@@ -31,6 +31,13 @@
     timestampEl.after(priceEl);
   }
 
+  // Load registry data in parallel
+  var registry = null;
+  try {
+    var regRes = await fetch('data/cantonscan_apps_registry.json');
+    if (regRes.ok) registry = await regRes.json();
+  } catch (e) { /* registry is optional */ }
+
   // 1. Executive Insights
   dashboard.innerHTML = renderInsights(snap);
 
@@ -43,10 +50,15 @@
   // 4. Application cards
   dashboard.innerHTML += renderAppSection(snap);
 
-  // 5. Governance
+  // 5. Featured Apps Registry
+  if (registry) {
+    dashboard.innerHTML += renderRegistry(registry);
+  }
+
+  // 6. Governance
   dashboard.innerHTML += renderGovernance(snap);
 
-  // 6. Network infrastructure (SVs, sponsors -- collapsible)
+  // 7. Network infrastructure (SVs, sponsors -- collapsible)
   dashboard.innerHTML += renderNetworkInfra(snap);
 
   // Wire up expand toggles
@@ -60,6 +72,9 @@
       }
     });
   });
+
+  // Wire up registry filters
+  if (registry) wireRegistryFilters(registry);
 })();
 
 // ===========================================================================
@@ -541,4 +556,151 @@ function entityLink(name) {
   var i = info[name];
   if (i && i.url) return '<a href="' + esc(i.url) + '" target="_blank" rel="noopener" style="color:var(--accent)">' + esc(display) + '</a>';
   return esc(display);
+}
+
+// ===========================================================================
+// Registry renderer (CantonScan featured apps)
+// ===========================================================================
+
+function renderRegistry(registry) {
+  if (!registry || registry.length === 0) return '';
+
+  // Compute summary
+  var cats = {};
+  var withWebsite = 0;
+  var lowConf = 0;
+  for (var i = 0; i < registry.length; i++) {
+    var cat = registry[i].category || 'Unknown';
+    cats[cat] = (cats[cat] || 0) + 1;
+    if (registry[i].websiteGuess) withWebsite++;
+    if (registry[i].confidence < 50) lowConf++;
+  }
+
+  var html = '<div class="section-header">Featured Apps Registry <span class="tier-sub">(from CantonScan)</span></div>';
+
+  // Summary counts
+  html += '<div class="card"><div class="tier-label">Registry Summary</div>';
+  html += '<div class="metrics">';
+  html += metric('Total Apps', fNum(registry.length));
+  html += metric('With Website', fNum(withWebsite));
+  html += metric('Low Confidence', fNum(lowConf));
+  html += metric('Categories', fNum(Object.keys(cats).length));
+  html += '</div>';
+
+  // Category breakdown as mini bars
+  html += '<div class="section-title">Category Breakdown</div>';
+  var catEntries = Object.entries(cats).sort(function (a, b) { return b[1] - a[1]; });
+  for (var c = 0; c < catEntries.length; c++) {
+    var pct = (catEntries[c][1] / registry.length) * 100;
+    html += miniBar(catEntries[c][0] + ' (' + catEntries[c][1] + ')', pct);
+  }
+  html += '</div>';
+
+  // Filters
+  html += '<div class="card" id="registry-card">';
+  html += '<div class="tier-label">All Featured Apps</div>';
+  html += '<div class="registry-filters" style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:1rem">';
+
+  // Category filter
+  html += '<select id="reg-cat-filter" class="reg-filter-select">';
+  html += '<option value="all">All categories</option>';
+  for (var f = 0; f < catEntries.length; f++) {
+    html += '<option value="' + esc(catEntries[f][0]) + '">' + esc(catEntries[f][0]) + ' (' + catEntries[f][1] + ')</option>';
+  }
+  html += '</select>';
+
+  // Confidence filter
+  html += '<select id="reg-conf-filter" class="reg-filter-select">';
+  html += '<option value="0">All confidence</option>';
+  html += '<option value="50">50+ only</option>';
+  html += '<option value="75">75+ only</option>';
+  html += '</select>';
+
+  html += '</div>';
+
+  // Table
+  html += '<div id="registry-table-wrap">';
+  html += registryTable(registry);
+  html += '</div>';
+
+  html += '</div>';
+  return html;
+}
+
+function registryTable(apps) {
+  var html = '<table class="data-table"><thead><tr>';
+  html += '<th>App Name</th><th>Base Name</th><th>Category</th><th class="number">Confidence</th><th>Website</th><th>Note</th>';
+  html += '</tr></thead><tbody>';
+
+  for (var i = 0; i < apps.length; i++) {
+    var a = apps[i];
+    var confClass = a.confidence >= 75 ? 'conf-high' : a.confidence >= 50 ? 'conf-mid' : 'conf-low';
+
+    // App name
+    var nameHtml = esc(a.appName);
+
+    // Base name
+    var baseHtml = '<span style="color:var(--text-secondary)">' + esc(a.baseName) + '</span>';
+
+    // Category badge
+    var catHtml = '<span class="tag">' + esc(a.category) + '</span>';
+
+    // Confidence with color
+    var confColor = a.confidence >= 75 ? 'var(--green)' : a.confidence >= 50 ? 'var(--yellow)' : 'var(--red)';
+    var confHtml = '<span style="color:' + confColor + ';font-weight:600">' + a.confidence + '</span>';
+    if (a.confidence < 50) confHtml += ' <span class="badge badge-opaque" style="font-size:0.65rem">low</span>';
+
+    // Website
+    var webHtml = '--';
+    if (a.websiteGuess) {
+      var domain = '';
+      try { domain = new URL(a.websiteGuess).hostname.replace('www.', ''); } catch (e) { domain = a.websiteGuess; }
+      webHtml = '<a href="' + esc(a.websiteGuess) + '" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.8rem">' + esc(domain) + '</a>';
+    }
+
+    // Note
+    var noteHtml = a.note ? '<span style="font-size:0.75rem;color:var(--text-secondary)">' + esc(a.note) + '</span>' : '';
+
+    html += '<tr data-category="' + esc(a.category) + '" data-confidence="' + a.confidence + '">';
+    html += '<td>' + nameHtml + '</td>';
+    html += '<td>' + baseHtml + '</td>';
+    html += '<td>' + catHtml + '</td>';
+    html += '<td class="number">' + confHtml + '</td>';
+    html += '<td>' + webHtml + '</td>';
+    html += '<td>' + noteHtml + '</td>';
+    html += '</tr>';
+  }
+
+  html += '</tbody></table>';
+  return html;
+}
+
+function wireRegistryFilters(registry) {
+  var catFilter = document.getElementById('reg-cat-filter');
+  var confFilter = document.getElementById('reg-conf-filter');
+  if (!catFilter || !confFilter) return;
+
+  function applyFilters() {
+    var selectedCat = catFilter.value;
+    var minConf = parseInt(confFilter.value, 10);
+    var rows = document.querySelectorAll('#registry-table-wrap tbody tr');
+
+    var shown = 0;
+    rows.forEach(function (row) {
+      var cat = row.getAttribute('data-category');
+      var conf = parseInt(row.getAttribute('data-confidence'), 10);
+      var show = (selectedCat === 'all' || cat === selectedCat) && conf >= minConf;
+      row.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+
+    // Update count in header
+    var label = document.querySelector('#registry-card .tier-label');
+    if (label) {
+      label.textContent = 'All Featured Apps (' + shown + ' shown)';
+    }
+  }
+
+  catFilter.addEventListener('change', applyFilters);
+  confFilter.addEventListener('change', applyFilters);
 }
