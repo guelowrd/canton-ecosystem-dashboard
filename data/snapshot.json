@@ -1,100 +1,177 @@
 {
-  "lastUpdated": "2026-02-19T08:57:09.618Z",
-  "cantonCoinPriceUsd": 0.16256990982735106,
+  "lastUpdated": "2026-02-19T10:00:24.645Z",
+  "cantonCoinPriceUsd": 0.16178322503727044,
+  "networkHealth": {
+    "totalTvlUsd": 1718653.8523648016,
+    "volume30dUsd": 2395086.978637968,
+    "featuredApps": 118,
+    "trackedApps": 4,
+    "transparentApps": 2,
+    "netIssuance": 80871.44891597304,
+    "governanceParticipation": 0.6153846153846154
+  },
+  "concentration": {
+    "svTop1Pct": 58.02314670003128,
+    "svTop3Pct": 67.98561151079137,
+    "svHhi": 3530.485667768569,
+    "sponsorTop1Pct": 48.56801909307876,
+    "sponsorTop3Pct": 77.68496420047732,
+    "sponsorTop3": [
+      {
+        "name": "Digital-Asset-2",
+        "count": 407,
+        "pct": 48.56801909307876,
+        "desc": "Digital Asset — creators of Canton and Daml",
+        "url": "https://digitalasset.com"
+      },
+      {
+        "name": "Global-Synchronizer-Foundation",
+        "count": 183,
+        "pct": 21.837708830548927,
+        "desc": "Foundation governing the Canton Global Synchronizer",
+        "url": "https://sync.global"
+      },
+      {
+        "name": "MPC-Holding-Inc",
+        "count": 61,
+        "pct": 7.279236276849642,
+        "desc": "MPC Holdings",
+        "url": null
+      }
+    ],
+    "tvlLargestPoolPct": 93.6831581467713,
+    "rewardsTop3Pct": 72.38919535867146,
+    "rewardsTop5Pct": 81.2916111851582
+  },
+  "executiveInsights": [
+    "Largest super validator controls 58.0% of consensus weight",
+    "Top sponsor (Digital Asset 2) holds 48.6% of validator licenses",
+    "64% of CC emissions go to application rewards",
+    "94% of DEX TVL is in the largest pool (CC/USDCx)",
+    "2 of 4 tracked apps expose public metrics",
+    "Top 3 apps capture 72% of app rewards (led by temple-mainnet-1)"
+  ],
   "apps": [
     {
       "id": "ccexplorer",
       "name": "Canton Network",
       "url": "https://ccexplorer.io",
-      "category": "Network Stats",
+      "appCategory": "Infrastructure",
+      "transparency": "transparent",
       "dataAvailability": "full",
       "network": {
         "activeValidators": 758,
         "superValidators": 13,
         "supply": 37789292188.585205,
-        "consensusHeight": 16796850,
+        "consensusHeight": 16807451,
         "version": "0.5.9",
         "featuredApps": 118,
-        "currentRound": 84121
+        "currentRound": 84127
       },
       "superValidators": [
         {
           "name": "Global-Synchronizer-Foundation",
           "weight": 1855000,
           "weightPct": 58.02314670003128,
-          "joinedRound": 0
+          "joinedRound": 0,
+          "desc": "Foundation governing the Canton Global Synchronizer",
+          "url": "https://sync.global"
         },
         {
           "name": "Digital-Asset-1",
           "weight": 159250,
           "weightPct": 4.9812324053800445,
-          "joinedRound": 68076
+          "joinedRound": 68076,
+          "desc": "Digital Asset — creators of Canton and Daml",
+          "url": "https://digitalasset.com"
         },
         {
           "name": "Digital-Asset-2",
           "weight": 159250,
           "weightPct": 4.9812324053800445,
-          "joinedRound": 0
+          "joinedRound": 0,
+          "desc": "Digital Asset — creators of Canton and Daml",
+          "url": "https://digitalasset.com"
         },
         {
           "name": "MPC-Holding-Inc",
           "weight": 140000,
           "weightPct": 4.379105411323116,
-          "joinedRound": 9932
+          "joinedRound": 9932,
+          "desc": "MPC Holdings",
+          "url": null
         },
         {
           "name": "Cumberland-1",
           "weight": 136125,
           "weightPct": 4.257898029402565,
-          "joinedRound": 0
+          "joinedRound": 0,
+          "desc": "Cumberland (DRW subsidiary) — crypto market maker",
+          "url": "https://cumberland.io"
         },
         {
           "name": "Cumberland-2",
           "weight": 136125,
           "weightPct": 4.257898029402565,
-          "joinedRound": 0
+          "joinedRound": 0,
+          "desc": "Cumberland (DRW subsidiary) — crypto market maker",
+          "url": "https://cumberland.io"
         },
         {
           "name": "C7-Technology-Services-Limited",
           "weight": 105750,
           "weightPct": 3.3077885517672816,
-          "joinedRound": 28175
+          "joinedRound": 28175,
+          "desc": "C7 Technology Services",
+          "url": null
         },
         {
           "name": "SV-Nodeops-Limited",
           "weight": 102500,
           "weightPct": 3.2061307475758527,
-          "joinedRound": 0
+          "joinedRound": 0,
+          "desc": "SV Nodeops — validator infrastructure",
+          "url": null
         },
         {
           "name": "Liberty-City-Ventures-1",
           "weight": 100000,
           "weightPct": 3.127932436659368,
-          "joinedRound": 41109
+          "joinedRound": 41109,
+          "desc": "Liberty City Ventures — crypto venture fund",
+          "url": "https://lcv.co"
         },
         {
           "name": "Orb-1-LP-1",
           "weight": 100000,
           "weightPct": 3.127932436659368,
-          "joinedRound": 17614
+          "joinedRound": 17614,
+          "desc": "Orb-1 LP",
+          "url": null
         },
         {
           "name": "Tradeweb-Markets-1",
           "weight": 100000,
           "weightPct": 3.127932436659368,
-          "joinedRound": 21394
+          "joinedRound": 21394,
+          "desc": "Tradeweb Markets — fixed-income trading platform",
+          "url": "https://tradeweb.com"
         },
         {
           "name": "Five-North-1",
           "weight": 90500,
           "weightPct": 2.830778855176728,
-          "joinedRound": 41105
+          "joinedRound": 41105,
+          "desc": "Five North Capital",
+          "url": null
         },
         {
           "name": "Proof-Group-1",
           "weight": 12500,
           "weightPct": 0.390991554582421,
-          "joinedRound": 41105
+          "joinedRound": 41105,
+          "desc": "Proof Group — blockchain infrastructure",
+          "url": "https://proofgroup.com"
         }
       ],
       "validators": {
@@ -103,14 +180,14 @@
           "Digital-Asset-2": 407,
           "Global-Synchronizer-Foundation": 183,
           "MPC-Holding-Inc": 61,
-          "Five-North-1": 49,
           "Proof-Group-1": 49,
+          "Five-North-1": 49,
           "Digital-Asset-1": 19,
           "Cumberland-1": 18,
           "Cumberland-2": 15,
           "C7-Technology-Services-Limited": 13,
-          "SV-Nodeops-Limited": 7,
           "Tradeweb-Markets-1": 7,
+          "SV-Nodeops-Limited": 7,
           "Orb-1-LP-1": 3,
           "Orb-1-LP": 3,
           "Liberty-City-Ventures-1": 2,
@@ -172,65 +249,73 @@
       },
       "recentActivity": {
         "sampleSize": 2000,
-        "timeWindowSeconds": 169,
-        "amuletPrice": 0.16114,
-        "totalMinted": 31755.03992601519,
-        "appRewardsMinted": 20268.862506148194,
-        "validatorLivenessRewardsMinted": 2534.1677347685145,
-        "svRewardsMinted": 7861.905824669999,
-        "totalTransferred": 7538.698326004799,
-        "totalBurned": -13925.7788258658,
+        "timeWindowSeconds": 147,
+        "amuletPrice": 0.160263,
+        "totalMinted": 81696.63376836684,
+        "appRewardsMinted": 52383.67866210172,
+        "validatorLivenessRewardsMinted": 0.000003897599999999999,
+        "svRewardsMinted": 10629.7195647537,
+        "totalTransferred": 7052.5381518173035,
+        "totalBurned": 825.1848523937999,
+        "netIssuance": 80871.44891597304,
         "topApps": [
           {
-            "name": "Bridge-Operator",
-            "rewardsCC": 4774.1027150143
-          },
-          {
-            "name": "cbtc-attestor-pool",
-            "rewardsCC": 3476.2883847177
-          },
-          {
-            "name": "pixelplex-mainnet-3",
-            "rewardsCC": 3294.7488801827
-          },
-          {
             "name": "temple-mainnet-1",
-            "rewardsCC": 1691.7936805686002
-          },
-          {
-            "name": "foundinalsunthy-mainnet-1",
-            "rewardsCC": 1143.3126243111
-          },
-          {
-            "name": "MPCH-BRONdvn-1",
-            "rewardsCC": 1039.0239727693001
+            "rewardsCC": 23929.884783568203
           },
           {
             "name": "Cantex-validator-1",
-            "rewardsCC": 791.8212431884999
+            "rewardsCC": 9506.187834069999
           },
           {
-            "name": "CantonSwap",
-            "rewardsCC": 648.9071651496
+            "name": "cbtc-attestor-pool",
+            "rewardsCC": 4484.0508651293
           },
           {
-            "name": "auth0_007c6643538f2eadd3e573dd05b9",
-            "rewardsCC": 575.5188548034
+            "name": "MPCH-BRONdvn-1",
+            "rewardsCC": 3661.9748731719
           },
           {
-            "name": "FinoaConsensusServices-validator-1",
-            "rewardsCC": 504.4480700547
+            "name": "Fairmint-validator-1",
+            "rewardsCC": 1001.438026539
+          },
+          {
+            "name": "foundinalsunthy-mainnet-1",
+            "rewardsCC": 906.774730498
+          },
+          {
+            "name": "openvector-mainnet-1",
+            "rewardsCC": 827.0582706739999
+          },
+          {
+            "name": "auth0_007c67dc7c4afbf5bc37f9805e31",
+            "rewardsCC": 826.0618149265999
+          },
+          {
+            "name": "nethermind-angkor-1",
+            "rewardsCC": 810.1185229618
+          },
+          {
+            "name": "dsrv-mainnetValidator-01",
+            "rewardsCC": 809.1220672139
           }
-        ]
+        ],
+        "rewardsTop3Pct": 72.38919535867146,
+        "rewardsTop5Pct": 81.2916111851582,
+        "appRewardsShareOfMinting": 64.11975162969912
       },
       "governance": {
-        "inProgressCount": 3,
+        "openProposals": 3,
+        "participationRate": 0.6153846153846154,
+        "totalHistorical": 298,
+        "closedCount": 295,
         "votes": [
           {
             "summary": "Trade.Fast requests approval to feature Trade.Fast Prediction Market App on MainNet.",
             "url": "https://lists.sync.global/g/tokenomics-announce/message/284",
             "requester": "Five-North-1",
             "yesVotes": 10,
+            "noVotes": 0,
             "pendingVotes": 3,
             "totalVoters": 13
           },
@@ -239,6 +324,7 @@
             "url": "https://lists.sync.global/g/cip-announce/topic/cip_0096_removing_liveness/117012876",
             "requester": "Digital-Asset-2",
             "yesVotes": 2,
+            "noVotes": 0,
             "pendingVotes": 11,
             "totalVoters": 13
           },
@@ -247,6 +333,7 @@
             "url": "https://lists.sync.global/g/cip-announce/message/67",
             "requester": "Cumberland-1",
             "yesVotes": 12,
+            "noVotes": 0,
             "pendingVotes": 1,
             "totalVoters": 13
           }
@@ -257,79 +344,77 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "url": "https://tradecraft.fi",
-      "category": "DEX (AMM)",
+      "appCategory": "AMM",
+      "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.16256990982735106,
-      "cbtcPriceUsd": 66870.92365921219,
+      "ccPriceUsd": 0.16178322503727044,
+      "cbtcPriceUsd": 66928.77187242486,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 4942472.994063634,
-          "token2Holdings": 803497.3889690428,
-          "tvlUsd": 1606994.7779380856,
+          "token1Holdings": 4954513.0381318815,
+          "token2Holdings": 801557.0977981806,
+          "tvlUsd": 1603114.1955963613,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.1707242992649305,
-          "totalLpTokens": 1956073.6837882404,
+          "yield24h": 0.17148972118378647,
+          "totalLpTokens": 1956076.0537031095,
           "volume": {
-            "1h": 1364.6268479175633,
-            "4h": 4817.9066286714515,
-            "12h": 24957.547389194253,
-            "24h": 30935.36993888952,
-            "7d": 309148.2175304234,
-            "30d": 1956257.3582791765
+            "1h": 1940.290198366507,
+            "4h": 3508.4561350565637,
+            "12h": 25981.176553516183,
+            "24h": 32835.04332580161,
+            "7d": 309034.9087012856,
+            "30d": 1958054.6310621877
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 333116.6282498886,
-          "token2Holdings": 0.8098398714,
-          "tvlUsd": 108309.48043315124,
+          "token1Holdings": 334071.5230010345,
+          "token2Holdings": 0.8075326481,
+          "tvlUsd": 108094.33676844009,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.18441033450562716,
-          "totalLpTokens": 507.7813843143,
+          "yield24h": 0.1857657426882262,
+          "totalLpTokens": 507.7821793302,
           "volume": {
-            "1h": 1.0513165,
-            "4h": 3.9626544999999997,
-            "12h": 990.3806545,
-            "24h": 2114.612263939587,
-            "7d": 33041.020644555116,
-            "30d": 436869.3361789912
+            "1h": 161.142,
+            "4h": 171.39147701084548,
+            "12h": 1158.7763290108453,
+            "24h": 2283.007938450433,
+            "7d": 33202.75955518441,
+            "30d": 437032.3475757805
           }
         }
       ],
-      "totalTvlUsd": 1715304.2583712367,
-      "totalVolume24hUsd": 33049.98220282911,
-      "totalVolume7dUsd": 342189.2381749785,
-      "totalVolume30dUsd": 2393126.6944581675
+      "totalTvlUsd": 1711208.5323648015,
+      "largestPoolPct": 93.6831581467713,
+      "totalVolume24hUsd": 35118.05126425205,
+      "totalVolume7dUsd": 342237.66825647,
+      "totalVolume30dUsd": 2395086.978637968
     },
     {
       "id": "unhedged",
       "name": "Unhedged",
       "url": "https://unhedged.gg",
-      "category": "Prediction Markets",
+      "appCategory": "Prediction Markets",
+      "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 1451,
-      "activeMarkets": 52,
-      "endedMarkets": 5,
-      "resolvedMarkets": 1386,
-      "totalActivePoolUsd": 7395.32,
-      "totalActiveBets": 507,
+      "totalMarkets": 1455,
+      "activeMarkets": 48,
+      "endedMarkets": 8,
+      "resolvedMarkets": 1391,
+      "totalActivePoolUsd": 7445.32,
+      "totalActiveBets": 516,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 5,
-          "bets": 1
-        },
         "sports": {
           "count": 48,
-          "poolUsd": 7390.32,
-          "bets": 506
+          "poolUsd": 7445.32,
+          "bets": 516
         }
       },
       "topMarkets": [
@@ -374,7 +459,8 @@
       "id": "temple",
       "name": "Temple Digital Group",
       "url": "https://app.templedigitalgroup.com",
-      "category": "Exchange (CLOB)",
+      "appCategory": "CLOB",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "status": "Live",
       "description": "Institutional central limit order book exchange for Canton Coin trading. API endpoints exist (ticker, markets, orderbook) but require authentication.",
@@ -396,7 +482,8 @@
       "id": "cantex",
       "name": "Cantex",
       "url": "https://cantex.io",
-      "category": "DEX (AMM + Order Book)",
+      "appCategory": "AMM",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "status": "Live (early)",
       "description": "Built by CaviarNine (previously leading DeFi suite on Radix by TVL/volume). AMM live, order book coming soon.",

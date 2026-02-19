@@ -44,6 +44,56 @@ h1 {
   margin-top: 0.25rem;
 }
 
+/* ---- Executive Insights ---- */
+
+.insights-block {
+  background: rgba(88, 166, 255, 0.06);
+  border: 1px solid rgba(88, 166, 255, 0.2);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.insights-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.insights-block ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.4rem 2rem;
+}
+
+.insights-block li {
+  font-size: 0.875rem;
+  color: var(--text);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.insights-block li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ---- Section headers ---- */
+
+.section-header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
 /* ---- Cards ---- */
 
 .card {
@@ -79,6 +129,23 @@ h1 {
   margin-top: 0.25rem;
 }
 
+/* ---- Tier labels ---- */
+
+.tier-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.tier-sub {
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-transform: none;
+}
+
 /* ---- Badges ---- */
 
 .badge {
@@ -96,25 +163,25 @@ h1 {
   border: 1px solid rgba(63, 185, 80, 0.3);
 }
 
-.badge-limited {
+.badge-partial {
   background: rgba(210, 153, 34, 0.15);
   color: var(--yellow);
   border: 1px solid rgba(210, 153, 34, 0.3);
 }
 
-.badge-error {
-  background: rgba(248, 81, 73, 0.15);
+.badge-opaque {
+  background: rgba(248, 81, 73, 0.1);
   color: var(--red);
-  border: 1px solid rgba(248, 81, 73, 0.3);
+  border: 1px solid rgba(248, 81, 73, 0.2);
 }
 
 /* ---- Metrics grid ---- */
 
 .metrics {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1rem;
-  margin-bottom: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .metric {
@@ -124,17 +191,174 @@ h1 {
   border: 1px solid var(--border);
 }
 
+.metric.positive .metric-value { color: var(--green); }
+.metric.negative .metric-value { color: var(--red); }
+
 .metric-label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
 .metric-value {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Metrics row (side by side groups) ---- */
+
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.metrics-group {
+  padding: 0.75rem;
+  background: var(--bg);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.metrics-group-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+/* ---- Mini bars ---- */
+
+.mini-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.mini-bar-label {
+  flex: 0 0 auto;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.mini-bar-track {
+  flex: 1;
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.mini-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+
+.mini-bar-value {
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  min-width: 3rem;
+  text-align: right;
+}
+
+.mini-stat {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.4rem;
+}
+
+.hint {
+  font-size: 0.7rem;
+  opacity: 0.6;
+}
+
+/* ---- Concentration panel ---- */
+
+.concentration-panel {
+  border-color: rgba(248, 81, 73, 0.2);
+}
+
+.concentration-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.conc-metric {
+  text-align: center;
+  padding: 0.75rem;
+  background: var(--bg);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.conc-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.conc-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 0.25rem;
+}
+
+.conc-sub {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+/* ---- Proportion bar ---- */
+
+.proportion-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  gap: 1px;
+}
+
+.proportion-seg {
+  transition: width 0.3s;
+}
+
+.proportion-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.proportion-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.proportion-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
 
 /* ---- Tables ---- */
@@ -142,15 +366,15 @@ h1 {
 .data-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.875rem;
-  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
 }
 
 .data-table th {
   text-align: left;
   color: var(--text-secondary);
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 0.5rem 0.75rem;
@@ -158,7 +382,7 @@ h1 {
 }
 
 .data-table td {
-  padding: 0.5rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   border-bottom: 1px solid var(--border);
 }
 
@@ -169,10 +393,20 @@ h1 {
   font-variant-numeric: tabular-nums;
 }
 
+/* ---- Entity descriptions ---- */
+
+.entity-desc {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+  display: block;
+  margin-top: 0.1rem;
+}
+
 /* ---- Section titles inside cards ---- */
 
 .section-title {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--text-secondary);
   text-transform: uppercase;
@@ -180,25 +414,41 @@ h1 {
   margin: 1rem 0 0.5rem;
 }
 
+/* ---- Expand toggles ---- */
+
+.expand-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 0.75rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.expand-toggle:hover {
+  background: rgba(88, 166, 255, 0.1);
+}
+
 /* ---- Limited-data cards ---- */
 
 .limited-info {
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
 }
 
 .limited-info p { margin-bottom: 0.5rem; }
 
 .limited-info .note {
   font-style: italic;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   opacity: 0.8;
 }
 
 .tag-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
   margin-top: 0.5rem;
 }
 
@@ -208,7 +458,7 @@ h1 {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--text-secondary);
 }
 
@@ -255,9 +505,12 @@ footer a:hover { text-decoration: underline; }
   .container { padding: 1rem; }
   h1 { font-size: 1.35rem; }
   .metrics { grid-template-columns: repeat(2, 1fr); }
+  .metrics-row { grid-template-columns: 1fr; }
+  .concentration-grid { grid-template-columns: repeat(2, 1fr); }
+  .insights-block ul { grid-template-columns: 1fr; }
   .card { padding: 1rem; }
   .metric-value { font-size: 1rem; }
   .data-table { font-size: 0.8rem; }
   .data-table th,
-  .data-table td { padding: 0.4rem 0.5rem; }
+  .data-table td { padding: 0.35rem 0.5rem; }
 }

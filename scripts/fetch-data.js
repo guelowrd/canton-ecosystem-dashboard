@@ -15,6 +15,26 @@ async function fetchJSON(url) {
 }
 
 // ---------------------------------------------------------------------------
+// Entity context -- short descriptions for known participants
+// ---------------------------------------------------------------------------
+
+const ENTITY_INFO = {
+  'Global-Synchronizer-Foundation': { desc: 'Foundation governing the Canton Global Synchronizer', url: 'https://sync.global' },
+  'Digital-Asset-1': { desc: 'Digital Asset \u2014 creators of Canton and Daml', url: 'https://digitalasset.com' },
+  'Digital-Asset-2': { desc: 'Digital Asset \u2014 creators of Canton and Daml', url: 'https://digitalasset.com' },
+  'Cumberland-1': { desc: 'Cumberland (DRW subsidiary) \u2014 crypto market maker', url: 'https://cumberland.io' },
+  'Cumberland-2': { desc: 'Cumberland (DRW subsidiary) \u2014 crypto market maker', url: 'https://cumberland.io' },
+  'MPC-Holding-Inc': { desc: 'MPC Holdings' },
+  'Five-North-1': { desc: 'Five North Capital' },
+  'C7-Technology-Services-Limited': { desc: 'C7 Technology Services' },
+  'Liberty-City-Ventures-1': { desc: 'Liberty City Ventures \u2014 crypto venture fund', url: 'https://lcv.co' },
+  'Orb-1-LP-1': { desc: 'Orb-1 LP' },
+  'Proof-Group-1': { desc: 'Proof Group \u2014 blockchain infrastructure', url: 'https://proofgroup.com' },
+  'SV-Nodeops-Limited': { desc: 'SV Nodeops \u2014 validator infrastructure' },
+  'Tradeweb-Markets-1': { desc: 'Tradeweb Markets \u2014 fixed-income trading platform', url: 'https://tradeweb.com' },
+};
+
+// ---------------------------------------------------------------------------
 // Tradecraft (DEX/AMM) -- Full API
 // ---------------------------------------------------------------------------
 
@@ -34,14 +54,10 @@ async function fetchTradecraft() {
     throw new Error('Expected CC/USDCx and CC/CBTC pools not found');
   }
 
-  // CC price derived from AMM balance: value(CC side) = value(USDCx side)
   const ccPriceUsd = ccUsdcxPool.token2_holdings / ccUsdcxPool.token1_holdings;
-
-  // CBTC price derived from CC/CBTC pool balance
   const cbtcPriceInCc = ccCbtcPool.token1_holdings / ccCbtcPool.token2_holdings;
   const cbtcPriceUsd = cbtcPriceInCc * ccPriceUsd;
 
-  // TVL per pool
   const ccUsdcxTvl = ccUsdcxPool.token1_holdings * ccPriceUsd + ccUsdcxPool.token2_holdings;
   const ccCbtcTvl = ccCbtcPool.token1_holdings * ccPriceUsd + ccCbtcPool.token2_holdings * cbtcPriceUsd;
 
@@ -73,16 +89,20 @@ async function fetchTradecraft() {
     buildPool(ccCbtcPool, volumeCCCBTC, 'CC / CBTC'),
   ];
 
+  const totalTvl = ccUsdcxTvl + ccCbtcTvl;
+
   return {
     id: 'tradecraft',
     name: 'Tradecraft',
     url: 'https://tradecraft.fi',
-    category: 'DEX (AMM)',
+    appCategory: 'AMM',
+    transparency: 'transparent',
     dataAvailability: 'full',
     ccPriceUsd,
     cbtcPriceUsd,
     pools: poolsData,
-    totalTvlUsd: ccUsdcxTvl + ccCbtcTvl,
+    totalTvlUsd: totalTvl,
+    largestPoolPct: totalTvl > 0 ? (Math.max(ccUsdcxTvl, ccCbtcTvl) / totalTvl) * 100 : 0,
     totalVolume24hUsd: volumeCCUSDCx.volume_usd['1d'] + volumeCCCBTC.volume_usd['1d'],
     totalVolume7dUsd: volumeCCUSDCx.volume_usd['7d'] + volumeCCCBTC.volume_usd['7d'],
     totalVolume30dUsd: volumeCCUSDCx.volume_usd['30d'] + volumeCCCBTC.volume_usd['30d'],
@@ -96,7 +116,6 @@ async function fetchTradecraft() {
 async function fetchUnhedged() {
   console.log('Fetching Unhedged data...');
 
-  // Global counts come in every response; fetch active markets for detail
   const [globalData, activeData] = await Promise.all([
     fetchJSON(`${UNHEDGED_API}/markets?limit=1`),
     fetchJSON(`${UNHEDGED_API}/markets?status=ACTIVE&limit=100`),
@@ -104,7 +123,6 @@ async function fetchUnhedged() {
 
   const activeMarkets = activeData.markets;
 
-  // Aggregate active-market stats
   const totalActivePoolUsd = activeMarkets.reduce(
     (sum, m) => sum + parseFloat(m.totalPool || '0'), 0
   );
@@ -112,7 +130,6 @@ async function fetchUnhedged() {
     (sum, m) => sum + (m.betCount || 0), 0
   );
 
-  // Category breakdown (active only)
   const categories = {};
   for (const m of activeMarkets) {
     const cat = m.category.toLowerCase();
@@ -122,7 +139,6 @@ async function fetchUnhedged() {
     categories[cat].bets += m.betCount || 0;
   }
 
-  // Top 5 active markets by pool size
   const topMarkets = [...activeMarkets]
     .sort((a, b) => parseFloat(b.totalPool || '0') - parseFloat(a.totalPool || '0'))
     .slice(0, 5)
@@ -138,7 +154,8 @@ async function fetchUnhedged() {
     id: 'unhedged',
     name: 'Unhedged',
     url: 'https://unhedged.gg',
-    category: 'Prediction Markets',
+    appCategory: 'Prediction Markets',
+    transparency: 'transparent',
     dataAvailability: 'full',
     totalMarkets: globalData.total,
     activeMarkets: globalData.activeCount,
@@ -158,15 +175,16 @@ async function fetchUnhedged() {
 async function fetchCCExplorer() {
   console.log('Fetching CC Explorer data...');
 
-  const [overview, svData, validatorData, roundData, updatesData] = await Promise.allSettled([
-    fetchJSON(`${CCEXPLORER_API}/overview`),
-    fetchJSON(`${CCEXPLORER_API}/super-validators`),
-    fetchJSON(`${CCEXPLORER_API}/validators`),
-    fetchJSON(`${CCEXPLORER_API}/current-round`),
-    fetchJSON(`${CCEXPLORER_API}/updates?limit=2000`),
-  ]);
+  const [overview, svData, validatorData, roundData, updatesData, govFullData] =
+    await Promise.allSettled([
+      fetchJSON(`${CCEXPLORER_API}/overview`),
+      fetchJSON(`${CCEXPLORER_API}/super-validators`),
+      fetchJSON(`${CCEXPLORER_API}/validators`),
+      fetchJSON(`${CCEXPLORER_API}/current-round`),
+      fetchJSON(`${CCEXPLORER_API}/updates?limit=2000`),
+      fetchJSON(`${CCEXPLORER_API}/governance`),
+    ]);
 
-  // Network overview
   const ov = overview.status === 'fulfilled' ? overview.value : {};
   const round = roundData.status === 'fulfilled' ? roundData.value : {};
 
@@ -180,21 +198,28 @@ async function fetchCCExplorer() {
     currentRound: round.currentRound || null,
   };
 
-  // Super validators -- sorted by weight descending
+  // Super validators
   let superValidators = [];
   if (svData.status === 'fulfilled' && svData.value.svs) {
     const totalWeight = svData.value.svs.reduce((s, sv) => s + parseInt(sv[1].svRewardWeight || '0'), 0);
     superValidators = svData.value.svs
-      .map(sv => ({
-        name: sv[1].name,
-        weight: parseInt(sv[1].svRewardWeight || '0'),
-        weightPct: totalWeight > 0 ? (parseInt(sv[1].svRewardWeight || '0') / totalWeight) * 100 : 0,
-        joinedRound: parseInt(sv[1].joinedAsOfRound?.number || '0'),
-      }))
+      .map(sv => {
+        const name = sv[1].name;
+        const weight = parseInt(sv[1].svRewardWeight || '0');
+        const info = ENTITY_INFO[name];
+        return {
+          name,
+          weight,
+          weightPct: totalWeight > 0 ? (weight / totalWeight) * 100 : 0,
+          joinedRound: parseInt(sv[1].joinedAsOfRound?.number || '0'),
+          desc: info?.desc || null,
+          url: info?.url || null,
+        };
+      })
       .sort((a, b) => b.weight - a.weight);
   }
 
-  // Validator distribution (sponsors, versions, operators)
+  // Validator distribution
   let validators = { total: 0, bySponsor: {}, byVersion: {}, topOperators: {} };
   if (validatorData.status === 'fulfilled') {
     const licenses = validatorData.value.validator_licenses || validatorData.value;
@@ -203,19 +228,12 @@ async function fetchCCExplorer() {
 
     for (const v of list) {
       const p = v.payload || v;
-
-      // Sponsor distribution
       const sponsor = (p.sponsor || '').split('::')[0] || 'Unknown';
       validators.bySponsor[sponsor] = (validators.bySponsor[sponsor] || 0) + 1;
-
-      // Version distribution
       const ver = p.metadata?.version || 'unknown';
       validators.byVersion[ver] = (validators.byVersion[ver] || 0) + 1;
-
-      // Operator distribution (from contactPoint)
       const contact = p.metadata?.contactPoint || '';
       if (contact) {
-        // Extract org name from email domain or use as-is
         const org = contact.includes('@')
           ? contact.split('@')[1].split('.')[0]
           : contact.length < 40 ? contact : 'other';
@@ -223,13 +241,12 @@ async function fetchCCExplorer() {
       }
     }
 
-    // Sort and keep top entries
     validators.bySponsor = sortObj(validators.bySponsor);
     validators.byVersion = sortObj(validators.byVersion);
     validators.topOperators = topN(sortObj(validators.topOperators), 10);
   }
 
-  // Recent activity from updates -- aggregate minting, burning, transfers, top apps
+  // Recent activity
   let recentActivity = null;
   if (updatesData.status === 'fulfilled') {
     const updates = updatesData.value.updates || updatesData.value || [];
@@ -249,9 +266,8 @@ async function fetchCCExplorer() {
         valLiveness += parseFloat(u.validatorLivenessRewardsMinted || '0');
         svRewards += parseFloat(u.svRewardsMinted || '0');
         totalTransferred += parseFloat(u.amuletTransferred || '0');
-        totalBurned += parseFloat(u.totalBurned || '0');
+        totalBurned += Math.abs(parseFloat(u.totalBurned || '0'));
 
-        // Extract per-party app rewards and amulet price
         const byParty = u.balanceChanges?.byParty || {};
         for (const [partyKey, info] of Object.entries(byParty)) {
           if (amuletPrice === null && info.amuletPrice) {
@@ -265,11 +281,14 @@ async function fetchCCExplorer() {
         }
       }
 
-      // Top apps by rewards earned
       const topApps = Object.entries(appRewardsByParty)
         .sort((a, b) => b[1] - a[1])
         .slice(0, 10)
         .map(([name, rewards]) => ({ name, rewardsCC: rewards }));
+
+      const totalAppRewards = Object.values(appRewardsByParty).reduce((s, v) => s + v, 0);
+      const top3Rewards = topApps.slice(0, 3).reduce((s, a) => s + a.rewardsCC, 0);
+      const top5Rewards = topApps.slice(0, 5).reduce((s, a) => s + a.rewardsCC, 0);
 
       recentActivity = {
         sampleSize: updates.length,
@@ -281,46 +300,76 @@ async function fetchCCExplorer() {
         svRewardsMinted: svRewards,
         totalTransferred,
         totalBurned,
+        netIssuance: totalMinted - totalBurned,
         topApps,
+        rewardsTop3Pct: totalAppRewards > 0 ? (top3Rewards / totalAppRewards) * 100 : 0,
+        rewardsTop5Pct: totalAppRewards > 0 ? (top5Rewards / totalAppRewards) * 100 : 0,
+        appRewardsShareOfMinting: totalMinted > 0 ? (appRewards / totalMinted) * 100 : 0,
       };
     }
   }
 
-  // Governance summary
+  // Governance -- current + historical
   let governance = null;
-  if (ov.openVotes && ov.openVotes.length > 0) {
-    governance = {
-      inProgressCount: ov.openVotes.length,
-      votes: ov.openVotes.map(v => {
-        const p = v.payload || v;
-        const reason = p.reason || {};
-        const svVotes = p.votes || [];
-        const yes = svVotes.filter(([, sv]) => sv.accept === true).length;
-        const pending = svVotes.filter(([, sv]) => sv.accept === null).length;
-        const total = svVotes.length;
-        // Truncate body to first sentence or 120 chars
-        let body = (reason.body || '').trim();
-        if (body.length > 120) {
-          const dot = body.indexOf('. ');
-          body = dot > 20 && dot < 150 ? body.slice(0, dot + 1) : body.slice(0, 117) + '...';
-        }
-        return {
-          summary: body || 'Governance vote',
-          url: reason.url || null,
-          requester: p.requester || null,
-          yesVotes: yes,
-          pendingVotes: pending,
-          totalVoters: total,
-        };
-      }),
+  const openVotes = ov.openVotes || [];
+  const govFull = govFullData.status === 'fulfilled' ? govFullData.value : null;
+
+  const parsedVotes = openVotes.map(v => {
+    const p = v.payload || v;
+    const reason = p.reason || {};
+    const svVotes = p.votes || [];
+    const yes = svVotes.filter(([, sv]) => sv.accept === true).length;
+    const no = svVotes.filter(([, sv]) => sv.accept === false).length;
+    const pending = svVotes.filter(([, sv]) => sv.accept === null).length;
+    const total = svVotes.length;
+    let body = (reason.body || '').trim();
+    if (body.length > 120) {
+      const dot = body.indexOf('. ');
+      body = dot > 20 && dot < 150 ? body.slice(0, dot + 1) : body.slice(0, 117) + '...';
+    }
+    return {
+      summary: body || 'Governance vote',
+      url: reason.url || null,
+      requester: p.requester || null,
+      yesVotes: yes,
+      noVotes: no,
+      pendingVotes: pending,
+      totalVoters: total,
     };
+  });
+
+  // Participation rate: across open votes, avg fraction of SVs that voted
+  const avgParticipation = parsedVotes.length > 0
+    ? parsedVotes.reduce((sum, v) => {
+        const voted = v.yesVotes + v.noVotes;
+        return sum + (v.totalVoters > 0 ? voted / v.totalVoters : 0);
+      }, 0) / parsedVotes.length
+    : null;
+
+  // Historical stats from /api/governance
+  let totalHistorical = null;
+  let closedCount = null;
+  if (govFull) {
+    const closed = govFull.closed || [];
+    const inProg = govFull.in_progress || [];
+    closedCount = closed.length;
+    totalHistorical = closed.length + inProg.length;
   }
+
+  governance = {
+    openProposals: openVotes.length,
+    participationRate: avgParticipation,
+    totalHistorical,
+    closedCount,
+    votes: parsedVotes,
+  };
 
   return {
     id: 'ccexplorer',
     name: 'Canton Network',
     url: 'https://ccexplorer.io',
-    category: 'Network Stats',
+    appCategory: 'Infrastructure',
+    transparency: 'transparent',
     dataAvailability: 'full',
     network,
     superValidators,
@@ -347,7 +396,8 @@ function getTempleData() {
     id: 'temple',
     name: 'Temple Digital Group',
     url: 'https://app.templedigitalgroup.com',
-    category: 'Exchange (CLOB)',
+    appCategory: 'CLOB',
+    transparency: 'opaque',
     dataAvailability: 'limited',
     status: 'Live',
     description:
@@ -372,7 +422,8 @@ function getCantexData() {
     id: 'cantex',
     name: 'Cantex',
     url: 'https://cantex.io',
-    category: 'DEX (AMM + Order Book)',
+    appCategory: 'AMM',
+    transparency: 'opaque',
     dataAvailability: 'limited',
     status: 'Live (early)',
     description:
@@ -387,6 +438,98 @@ function getCantexData() {
     },
     note: 'No public API found \u2014 domain redirects all API paths to homepage.',
   };
+}
+
+// ---------------------------------------------------------------------------
+// Derived metrics -- computed from all app data
+// ---------------------------------------------------------------------------
+
+function computeDerivedMetrics(apps) {
+  const ccx = apps.find(a => a.id === 'ccexplorer');
+  const tc = apps.find(a => a.id === 'tradecraft');
+  const uh = apps.find(a => a.id === 'unhedged');
+  const ra = ccx?.recentActivity;
+
+  // --- Network Health ---
+  const totalTvlUsd = (tc?.totalTvlUsd || 0) + (uh?.totalActivePoolUsd || 0);
+  const volume30dUsd = tc?.totalVolume30dUsd || null;
+  const featuredApps = ccx?.network?.featuredApps || null;
+  const trackedApps = apps.filter(a => a.id !== 'ccexplorer').length;
+  const transparentApps = apps.filter(a => a.transparency === 'transparent' && a.id !== 'ccexplorer').length;
+  const netIssuance = ra ? ra.netIssuance : null;
+  const govParticipation = ccx?.governance?.participationRate || null;
+
+  const networkHealth = {
+    totalTvlUsd,
+    volume30dUsd,
+    featuredApps,
+    trackedApps,
+    transparentApps,
+    netIssuance,
+    governanceParticipation: govParticipation,
+  };
+
+  // --- Concentration ---
+  const svs = ccx?.superValidators || [];
+  const svTop1Pct = svs[0]?.weightPct || null;
+  const svTop3Pct = svs.slice(0, 3).reduce((s, sv) => s + sv.weightPct, 0) || null;
+  // HHI: sum of squared market shares (0-10000 scale)
+  const svHhi = svs.length > 0
+    ? svs.reduce((s, sv) => s + Math.pow(sv.weightPct, 2), 0)
+    : null;
+
+  const vals = ccx?.validators || {};
+  const sponsorEntries = Object.entries(vals.bySponsor || {});
+  const sponsorTop1Pct = vals.total > 0 && sponsorEntries[0]
+    ? (sponsorEntries[0][1] / vals.total) * 100 : null;
+  const sponsorTop3Pct = vals.total > 0
+    ? (sponsorEntries.slice(0, 3).reduce((s, [, c]) => s + c, 0) / vals.total) * 100
+    : null;
+  const sponsorTop3 = sponsorEntries.slice(0, 3).map(([name, count]) => ({
+    name,
+    count,
+    pct: vals.total > 0 ? (count / vals.total) * 100 : 0,
+    desc: ENTITY_INFO[name]?.desc || null,
+    url: ENTITY_INFO[name]?.url || null,
+  }));
+
+  const tvlLargestPoolPct = tc?.largestPoolPct || null;
+
+  const concentration = {
+    svTop1Pct,
+    svTop3Pct,
+    svHhi,
+    sponsorTop1Pct,
+    sponsorTop3Pct,
+    sponsorTop3,
+    tvlLargestPoolPct,
+    rewardsTop3Pct: ra?.rewardsTop3Pct || null,
+    rewardsTop5Pct: ra?.rewardsTop5Pct || null,
+  };
+
+  // --- Executive Insights ---
+  const insights = [];
+
+  if (svTop1Pct != null) {
+    insights.push(`Largest super validator controls ${svTop1Pct.toFixed(1)}% of consensus weight`);
+  }
+  if (sponsorTop1Pct != null && sponsorEntries[0]) {
+    insights.push(`Top sponsor (${sponsorEntries[0][0].replace(/-/g, ' ')}) holds ${sponsorTop1Pct.toFixed(1)}% of validator licenses`);
+  }
+  if (ra?.appRewardsShareOfMinting != null) {
+    insights.push(`${ra.appRewardsShareOfMinting.toFixed(0)}% of CC emissions go to application rewards`);
+  }
+  if (tvlLargestPoolPct != null) {
+    insights.push(`${tvlLargestPoolPct.toFixed(0)}% of DEX TVL is in the largest pool (CC/USDCx)`);
+  }
+  if (transparentApps != null && trackedApps > 0) {
+    insights.push(`${transparentApps} of ${trackedApps} tracked apps expose public metrics`);
+  }
+  if (ra?.rewardsTop3Pct != null && ra.topApps[0]) {
+    insights.push(`Top 3 apps capture ${ra.rewardsTop3Pct.toFixed(0)}% of app rewards (led by ${ra.topApps[0].name})`);
+  }
+
+  return { networkHealth, concentration, executiveInsights: insights.slice(0, 6) };
 }
 
 // ---------------------------------------------------------------------------
@@ -421,20 +564,23 @@ async function main() {
     }
   }
 
-  // Static entries
   apps.push(getTempleData());
   console.log('  \u2713 Temple Digital Group: static');
   apps.push(getCantexData());
   console.log('  \u2713 Cantex: static');
 
-  // CC price: prefer Tradecraft AMM-derived, fallback to CC Explorer amulet price
   const tc = apps.find(a => a.id === 'tradecraft');
   const ccx = apps.find(a => a.id === 'ccexplorer');
   const ccPrice = tc?.ccPriceUsd || ccx?.recentActivity?.amuletPrice || null;
 
+  const derived = computeDerivedMetrics(apps);
+
   const snapshot = {
     lastUpdated: new Date().toISOString(),
     cantonCoinPriceUsd: ccPrice,
+    networkHealth: derived.networkHealth,
+    concentration: derived.concentration,
+    executiveInsights: derived.executiveInsights,
     apps,
   };
 
@@ -444,10 +590,7 @@ async function main() {
 
   console.log(`\nSnapshot written to ${outPath}`);
   console.log(`Timestamp: ${snapshot.lastUpdated}`);
-
-  if (snapshot.cantonCoinPriceUsd) {
-    console.log(`CC price: $${snapshot.cantonCoinPriceUsd.toFixed(4)}`);
-  }
+  if (ccPrice) console.log(`CC price: $${ccPrice.toFixed(4)}`);
 
   // Summary
   if (ccx && ccx.dataAvailability === 'full') {
@@ -456,14 +599,6 @@ async function main() {
       `\nNetwork: ${n.activeValidators} validators | ${n.superValidators} SVs` +
         ` | Supply ${(n.supply / 1e9).toFixed(1)}B CC | Round ${n.currentRound}`
     );
-    if (ccx.recentActivity) {
-      const ra = ccx.recentActivity;
-      console.log(
-        `Activity (${ra.sampleSize} updates, ${ra.timeWindowSeconds}s window):` +
-          ` Minted ${ra.totalMinted.toFixed(0)} CC | Transferred ${ra.totalTransferred.toFixed(0)} CC` +
-          ` | Top app: ${ra.topApps[0]?.name || 'n/a'}`
-      );
-    }
   }
   if (tc && tc.dataAvailability === 'full') {
     console.log(
@@ -477,6 +612,11 @@ async function main() {
       `Unhedged: ${uh.totalMarkets} markets (${uh.activeMarkets} active)` +
         ` | Active pool $${uh.totalActivePoolUsd.toLocaleString('en-US', { maximumFractionDigits: 0 })}`
     );
+  }
+
+  console.log('\nInsights:');
+  for (const ins of derived.executiveInsights) {
+    console.log(`  - ${ins}`);
   }
 }
 
