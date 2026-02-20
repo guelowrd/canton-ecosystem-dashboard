@@ -140,8 +140,8 @@
     "baseName": "proofgroup",
     "category": "Validator/Infra",
     "confidence": 100,
-    "websiteGuess": "https://proofgroup.com",
-    "note": "Blockchain infrastructure"
+    "websiteGuess": null,
+    "note": "Blockchain infrastructure (proofgroup.com unreachable)"
   },
   {
     "appName": "Republic-validator-1",

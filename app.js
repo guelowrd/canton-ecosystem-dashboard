@@ -218,13 +218,15 @@ function renderApplications(snap, registry) {
   }
 
   // Build snap app index: normalizedName (lower) → snap app object
+  // Non-candidates take priority so e.g. 'unhedged' beats 'unhedged-app' (candidate)
   var snapByNorm = {};
   apps.forEach(function(a) {
-    snapByNorm[normalizeAppName(a.id).toLowerCase()] = a;
-    snapByNorm[a.id.toLowerCase()] = a;
+    var norm = normalizeAppName(a.id).toLowerCase();
+    if (!snapByNorm[norm] || snapByNorm[norm].isCandidate) snapByNorm[norm] = a;
+    if (!snapByNorm[a.id.toLowerCase()] || snapByNorm[a.id.toLowerCase()].isCandidate) snapByNorm[a.id.toLowerCase()] = a;
   });
 
-  // Merge: registry entries (82 apps) enriched with snap data + on-chain rewards
+  // Merge: registry entries enriched with snap data + on-chain rewards
   var mergedApps;
   if (registry && registry.length > 0) {
     mergedApps = registry.map(function(r) {
@@ -233,6 +235,18 @@ function renderApplications(snap, registry) {
       var rewards  = rewardsByNorm[normBase] || rewardsByNorm[normApp] || 0;
       var snapApp  = snapByNorm[normBase] || snapByNorm[r.baseName.toLowerCase()] || null;
       return { reg: r, rewardsCC: rewards, snapApp: snapApp };
+    });
+    // Add core tracked apps not present in the CantonScan registry (e.g. Tradecraft)
+    var registryNorms = new Set(registry.map(function(r) { return normalizeAppName(r.baseName).toLowerCase(); }));
+    apps.filter(function(a) {
+      return !a.isCandidate && !registryNorms.has(normalizeAppName(a.id).toLowerCase());
+    }).forEach(function(a) {
+      var norm = normalizeAppName(a.id).toLowerCase();
+      mergedApps.push({
+        reg: { baseName: a.id, appName: a.name || a.id, category: a.appCategory, websiteGuess: a.url, confidence: 100, note: '' },
+        rewardsCC: rewardsByNorm[norm] || 0,
+        snapApp: a
+      });
     });
   } else {
     mergedApps = apps.map(function(a) {
