@@ -1,55 +1,56 @@
 {
-  "lastUpdated": "2026-02-19T17:40:53.276Z",
-  "cantonCoinPriceUsd": 0.1589632833931437,
+  "lastUpdated": "2026-02-20T10:30:42.479Z",
+  "cantonCoinPriceUsd": 0.15905231199622769,
   "networkHealth": {
-    "totalTvlUsd": 1707776.513878164,
-    "volume30dUsd": 2395350.4341091868,
+    "totalTvlUsd": 1704357.9694652807,
+    "volume30dUsd": 2290266.163727653,
     "featuredApps": 118,
     "trackedApps": 23,
     "transparentApps": 2,
-    "netIssuance": -23163.6054527225,
-    "governanceParticipation": 0.6346153846153846
+    "netIssuance": -84173.83584914762,
+    "governanceParticipation": 0.8269230769230769
   },
   "concentration": {
     "svTop1Pct": 58.02314670003128,
     "svTop3Pct": 67.98561151079137,
     "svTop5Pct": 76.62261495151705,
     "svHhi": 3530.485667768569,
-    "sponsorTop1Pct": 48.56801909307876,
-    "sponsorTop3Pct": 77.68496420047732,
+    "sponsorTop1Pct": 48.51013110846246,
+    "sponsorTop3Pct": 77.71156138259833,
     "sponsorTop3": [
       {
         "name": "Digital-Asset-2",
         "count": 407,
-        "pct": 48.56801909307876,
+        "pct": 48.51013110846246,
         "desc": "Digital Asset — creators of Canton and Daml",
         "url": "https://digitalasset.com"
       },
       {
         "name": "Global-Synchronizer-Foundation",
-        "count": 183,
-        "pct": 21.837708830548927,
+        "count": 184,
+        "pct": 21.93087008343266,
         "desc": "Foundation governing the Canton Global Synchronizer",
         "url": "https://sync.global"
       },
       {
         "name": "MPC-Holding-Inc",
         "count": 61,
-        "pct": 7.279236276849642,
+        "pct": 7.270560190703218,
         "desc": "MPC Holdings",
         "url": null
       }
     ],
-    "tvlLargestPoolPct": 93.69780381905001,
-    "rewardsTop3Pct": null,
-    "rewardsTop5Pct": null
+    "tvlLargestPoolPct": 93.60247513004786,
+    "rewardsTop3Pct": 100,
+    "rewardsTop5Pct": 100
   },
   "executiveInsights": [
     "Largest super validator controls 58.0% of consensus weight",
-    "Top sponsor (Digital Asset 2) holds 48.6% of validator licenses",
+    "Top sponsor (Digital Asset 2) holds 48.5% of validator licenses",
     "0% of CC emissions go to application rewards",
     "94% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 23 tracked apps expose public metrics"
+    "2 of 23 tracked apps expose public metrics",
+    "Top 3 apps capture 100% of app rewards (led by foundinalsunthy-mainnet-1)"
   ],
   "apps": [
     {
@@ -60,13 +61,13 @@
       "transparency": "transparent",
       "dataAvailability": "full",
       "network": {
-        "activeValidators": 758,
+        "activeValidators": 759,
         "superValidators": 13,
-        "supply": 37792134780.06189,
-        "consensusHeight": 16883890,
+        "supply": 37797840928.56388,
+        "consensusHeight": 17049677,
         "version": "0.5.10",
         "featuredApps": 118,
-        "currentRound": 84171
+        "currentRound": 84269
       },
       "superValidators": [
         {
@@ -175,29 +176,30 @@
         }
       ],
       "validators": {
-        "total": 838,
+        "total": 839,
         "bySponsor": {
           "Digital-Asset-2": 407,
-          "Global-Synchronizer-Foundation": 183,
+          "Global-Synchronizer-Foundation": 184,
           "MPC-Holding-Inc": 61,
-          "Five-North-1": 49,
           "Proof-Group-1": 49,
+          "Five-North-1": 49,
           "Digital-Asset-1": 19,
           "Cumberland-1": 18,
           "Cumberland-2": 15,
           "C7-Technology-Services-Limited": 13,
-          "SV-Nodeops-Limited": 7,
           "Tradeweb-Markets-1": 7,
+          "SV-Nodeops-Limited": 7,
           "Orb-1-LP-1": 3,
           "Orb-1-LP": 3,
           "Liberty-City-Ventures-1": 2,
           "Liberty-City-Ventures": 2
         },
         "byVersion": {
-          "0.5.9": 524,
-          "0.5.8": 116,
-          "0.5.4": 67,
-          "0.5.5": 42,
+          "0.5.9": 540,
+          "0.5.8": 107,
+          "0.5.4": 52,
+          "0.5.5": 40,
+          "0.5.10": 15,
           "0.3.21": 7,
           "0.5.1": 6,
           "0.4.15": 5,
@@ -206,7 +208,6 @@
           "0.2.4": 4,
           "0.4.17": 4,
           "0.4.1": 4,
-          "0.5.10": 3,
           "0.3.6": 3,
           "0.4.11": 3,
           "0.4.23": 3,
@@ -222,7 +223,6 @@
           "0.4.3": 2,
           "0.3.8": 2,
           "0.4.5": 2,
-          "0.5.3": 1,
           "0.4.21": 1,
           "0.1.19": 1,
           "0.4.2": 1,
@@ -236,7 +236,7 @@
           "0.4.8": 1
         },
         "topOperators": {
-          "intellecteu": 120,
+          "intellecteu": 121,
           "proofgroup": 60,
           "mpch": 58,
           "figment": 57,
@@ -250,25 +250,34 @@
       },
       "recentActivity": {
         "sampleSize": 2000,
-        "timeWindowSeconds": 214,
-        "amuletPrice": 0.15774,
-        "totalMinted": 79.4044034505,
-        "appRewardsMinted": 0,
-        "validatorLivenessRewardsMinted": 79.4044034505,
-        "svRewardsMinted": 0,
-        "totalTransferred": 60440.16168967128,
-        "totalBurned": 23243.009856172997,
-        "netIssuance": -23163.6054527225,
-        "topApps": [],
-        "rewardsTop1Pct": null,
-        "top1AppName": null,
-        "rewardsTop3Pct": 0,
-        "rewardsTop5Pct": 0,
-        "appRewardsShareOfMinting": 0
+        "timeWindowSeconds": 177,
+        "amuletPrice": 0.158328,
+        "totalMinted": 3369.0700171375984,
+        "appRewardsMinted": 5.3824034483,
+        "validatorLivenessRewardsMinted": 128.41103655180012,
+        "svRewardsMinted": 3235.2765771374998,
+        "totalTransferred": 24958.3049972433,
+        "totalBurned": 87542.90586628522,
+        "netIssuance": -84173.83584914762,
+        "topApps": [
+          {
+            "name": "foundinalsunthy-mainnet-1",
+            "rewardsCC": 3.8445738917
+          },
+          {
+            "name": "801ebb8d-a6c4-44e8-94d8-6c30d40c4691",
+            "rewardsCC": 1.5378295566
+          }
+        ],
+        "rewardsTop1Pct": 71.4285714296331,
+        "top1AppName": "foundinalsunthy-mainnet-1",
+        "rewardsTop3Pct": 100,
+        "rewardsTop5Pct": 100,
+        "appRewardsShareOfMinting": 0.15975932292653724
       },
       "governance": {
         "openProposals": 4,
-        "participationRate": 0.6346153846153846,
+        "participationRate": 0.8269230769230769,
         "totalHistorical": 299,
         "closedCount": 295,
         "votes": [
@@ -276,36 +285,36 @@
             "summary": "Tokenomics has observed recent on-chain activity associated with the Desyn that requires further review.",
             "url": "https://lists.sync.global/g/tokenomics-announce/message/285",
             "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
+            "yesVotes": 8,
             "noVotes": 0,
-            "pendingVotes": 10,
+            "pendingVotes": 5,
             "totalVoters": 13
           },
           {
             "summary": "CIP-0073 and CIP-0096 introduce the idea of a minting delegation contract.",
             "url": "https://lists.sync.global/g/cip-announce/topic/cip_0096_removing_liveness/117012876",
             "requester": "Digital-Asset-2",
-            "yesVotes": 6,
+            "yesVotes": 9,
             "noVotes": 0,
-            "pendingVotes": 7,
-            "totalVoters": 13
-          },
-          {
-            "summary": "Trade.Fast requests approval to feature Trade.Fast Prediction Market App on MainNet.",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/284",
-            "requester": "Five-North-1",
-            "yesVotes": 12,
-            "noVotes": 0,
-            "pendingVotes": 1,
+            "pendingVotes": 4,
             "totalVoters": 13
           },
           {
             "summary": "Per CIP-0096, Validator liveness rewards should be set to 0.60 from 2.5, effective 30 days following Vote 2.",
             "url": "https://lists.sync.global/g/cip-announce/message/67",
             "requester": "Cumberland-1",
-            "yesVotes": 12,
+            "yesVotes": 13,
             "noVotes": 0,
-            "pendingVotes": 1,
+            "pendingVotes": 0,
+            "totalVoters": 13
+          },
+          {
+            "summary": "Trade.Fast requests approval to feature Trade.Fast Prediction Market App on MainNet.",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/284",
+            "requester": "Five-North-1",
+            "yesVotes": 13,
+            "noVotes": 0,
+            "pendingVotes": 0,
             "totalVoters": 13
           }
         ]
@@ -318,55 +327,55 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.1589632833931437,
-      "cbtcPriceUsd": 66557.23176190763,
+      "ccPriceUsd": 0.15905231199622769,
+      "cbtcPriceUsd": 68765.40395870786,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 4998912.636712299,
-          "token2Holdings": 794643.5661272643,
-          "tvlUsd": 1589287.1322545286,
+          "token1Holdings": 4999091.371440081,
+          "token2Holdings": 795117.0405079375,
+          "tvlUsd": 1590234.081015875,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.2153591374903261,
-          "totalLpTokens": 1956087.9659152108,
+          "yield24h": 0.17105782277748527,
+          "totalLpTokens": 1956098.6021041416,
           "volume": {
-            "1h": 1790.0007143688854,
-            "4h": 8266.72765339748,
-            "12h": 13210.032820201013,
-            "24h": 40882.040148297325,
-            "7d": 292936.42753479385,
-            "30d": 1957983.8316605848
+            "1h": 315.79793596384116,
+            "4h": 435.9522384182783,
+            "12h": 8019.645850557485,
+            "24h": 17277.528663829435,
+            "7d": 272234.2530481705,
+            "30d": 1862505.6723951963
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 336231.2332189981,
-          "token2Holdings": 0.8030445287,
-          "tvlUsd": 106896.84162363558,
+          "token1Holdings": 341676.9837711733,
+          "token2Holdings": 0.7902885913,
+          "tvlUsd": 108689.02844940535,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.21101962688226972,
-          "totalLpTokens": 507.7837887123,
+          "yield24h": 0.17881684795615405,
+          "totalLpTokens": 507.7884180624,
           "volume": {
-            "1h": 226.61240317120675,
-            "4h": 226.61240317120675,
-            "12h": 558.5800154977989,
-            "24h": 2527.1743390175993,
-            "7d": 29230.79388411878,
-            "30d": 437366.602448602
+            "1h": 0,
+            "4h": 54.16852299201787,
+            "12h": 643.8745235660758,
+            "24h": 1207.9545436570736,
+            "7d": 29117.383249223247,
+            "30d": 427760.4913324569
           }
         }
       ],
-      "totalTvlUsd": 1696183.973878164,
-      "largestPoolPct": 93.69780381905001,
-      "totalVolume24hUsd": 43409.21448731492,
-      "totalVolume7dUsd": 322167.22141891264,
-      "totalVolume30dUsd": 2395350.4341091868
+      "totalTvlUsd": 1698923.1094652805,
+      "largestPoolPct": 93.60247513004786,
+      "totalVolume24hUsd": 18485.483207486508,
+      "totalVolume7dUsd": 301351.6362973937,
+      "totalVolume30dUsd": 2290266.163727653
     },
     {
       "id": "unhedged",
@@ -375,59 +384,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 1540,
-      "activeMarkets": 91,
-      "endedMarkets": 2,
-      "resolvedMarkets": 1439,
-      "totalActivePoolUsd": 11592.539999999999,
-      "totalActiveBets": 869,
+      "totalMarkets": 1705,
+      "activeMarkets": 122,
+      "endedMarkets": 1,
+      "resolvedMarkets": 1574,
+      "totalActivePoolUsd": 5434.860000000001,
+      "totalActiveBets": 353,
       "categories": {
         "crypto": {
           "count": 8,
-          "poolUsd": 686,
-          "bets": 102
+          "poolUsd": 158,
+          "bets": 26
         },
         "sports": {
-          "count": 83,
-          "poolUsd": 10906.539999999999,
-          "bets": 767
+          "count": 92,
+          "poolUsd": 5276.860000000001,
+          "bets": 327
         }
       },
       "topMarkets": [
         {
-          "question": "Cleveland Cavaliers vs Brooklyn Nets",
-          "category": "sports",
-          "totalPool": 865,
-          "betCount": 27,
-          "endTime": "2026-02-19T23:00:00.000Z"
-        },
-        {
           "question": "Bayern München vs Eintracht Frankfurt",
           "category": "sports",
-          "totalPool": 491.02,
-          "betCount": 45,
+          "totalPool": 606.02,
+          "betCount": 61,
           "endTime": "2026-02-21T13:30:00.000Z"
         },
         {
-          "question": "Chelsea vs Burnley",
+          "question": "Ball State vs Akron",
           "category": "sports",
-          "totalPool": 380,
-          "betCount": 43,
-          "endTime": "2026-02-21T14:00:00.000Z"
+          "totalPool": 345,
+          "betCount": 6,
+          "endTime": "2026-02-20T22:30:00.000Z"
         },
         {
-          "question": "LA Clippers vs Denver Nuggets",
+          "question": "Lecce vs Inter",
           "category": "sports",
-          "totalPool": 363.77,
-          "betCount": 16,
-          "endTime": "2026-02-20T02:30:00.000Z"
+          "totalPool": 290,
+          "betCount": 22,
+          "endTime": "2026-02-21T16:00:00.000Z"
         },
         {
-          "question": "Which country will win the most total medals at the 2026 Winter Olympics?",
-          "category": "Sports",
-          "totalPool": 351.9,
-          "betCount": 12,
+          "question": "AC Milan vs Parma",
+          "category": "sports",
+          "totalPool": 245.5,
+          "betCount": 14,
           "endTime": "2026-02-22T16:00:00.000Z"
+        },
+        {
+          "question": "AS Roma vs Cremonese",
+          "category": "sports",
+          "totalPool": 220,
+          "betCount": 11,
+          "endTime": "2026-02-22T18:45:00.000Z"
         }
       ]
     },
