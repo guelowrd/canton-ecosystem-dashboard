@@ -132,7 +132,7 @@ function renderTiers(snap, registry) {
   // Rewards concentration
   html += '<div class="metrics-group"><div class="metrics-group-label">App Rewards Distribution</div>';
   if (ra && ra.rewardsTop1Pct != null && ra.top1AppName) {
-    html += '<div class="mini-stat">Top 1: ' + esc(normalizeAppName(ra.top1AppName)) + ' (' + fPct(ra.rewardsTop1Pct, 1) + ')</div>';
+    html += miniBar(normalizeAppName(ra.top1AppName), ra.rewardsTop1Pct);
   }
   html += miniBar('Top 3 apps', conc.rewardsTop3Pct);
   html += miniBar('Top 5 apps', conc.rewardsTop5Pct);
