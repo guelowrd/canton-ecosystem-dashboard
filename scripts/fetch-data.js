@@ -174,9 +174,10 @@ async function fetchUnhedged() {
 
 async function fetchRecentActivity24h() {
   const PAGE_SIZE = 50000;
-  const cutoff = Date.now() - 24 * 3600 * 1000;
+  const WINDOW_HOURS = 7 * 24;
+  const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
 
-  // Page 0: calibrate record rate to estimate pages needed for 24h
+  // Page 0: calibrate record rate to estimate pages needed for the window
   const firstData = await fetchJSON(`${CCEXPLORER_API}/updates?limit=${PAGE_SIZE}&offset=0`);
   const firstUpdates = firstData.updates || firstData;
   if (!firstUpdates || firstUpdates.length === 0) return null;
@@ -185,9 +186,9 @@ async function fetchRecentActivity24h() {
   const oldestMs = new Date(firstUpdates[firstUpdates.length - 1].recordTime || firstUpdates[firstUpdates.length - 1].effectiveAt).getTime();
   const spanMs = newestMs - oldestMs;
   const recordsPerMs = PAGE_SIZE / Math.max(spanMs, 1);
-  const numExtraPages = Math.min(Math.ceil(recordsPerMs * 24 * 3600 * 1000 / PAGE_SIZE), 24);
+  const numExtraPages = Math.min(Math.ceil(recordsPerMs * WINDOW_HOURS * 3600 * 1000 / PAGE_SIZE), 175);
 
-  console.log(`  24h activity: fetching ${numExtraPages + 1} pages × ${PAGE_SIZE.toLocaleString()} records...`);
+  console.log(`  ${WINDOW_HOURS / 24}d activity: fetching ${numExtraPages + 1} pages × ${PAGE_SIZE.toLocaleString()} records...`);
 
   // Running totals (no arrays stored across pages)
   let totalMinted = 0, appRewards = 0, valLiveness = 0, svRewards = 0;
@@ -247,7 +248,7 @@ async function fetchRecentActivity24h() {
 
   return {
     sampleSize,
-    timeWindowHours: 24,
+    timeWindowHours: WINDOW_HOURS,
     amuletPrice,
     totalMinted,
     appRewardsMinted: appRewards,

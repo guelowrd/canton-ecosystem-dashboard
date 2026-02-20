@@ -39,7 +39,7 @@
   } catch (e) { /* registry is optional */ }
 
   // 1. Overview: insights + network metrics
-  dashboard.innerHTML = '<div id="overview">' + renderInsights(snap) + renderTiers(snap, registry) + '</div>';
+  dashboard.innerHTML = '<div id="overview"><div class="section-header">Overview</div>' + renderInsights(snap) + renderTiers(snap, registry) + '</div>';
 
   // 2. Applications: registry + app details merged
   dashboard.innerHTML += renderApplications(snap, registry);
@@ -139,7 +139,7 @@ function renderTiers(snap, registry) {
 
   // Tier 3: Recent Activity
   if (ra) {
-    html += '<div class="card"><div class="tier-label">Recent Activity <span class="tier-sub">(24h window, ' + fNum(ra.sampleSize) + ' updates)</span></div>';
+    html += '<div class="card"><div class="tier-label">Recent Activity <span class="tier-sub">(7d window, ' + fNum(ra.sampleSize) + ' updates)</span></div>';
     html += '<div class="metrics">';
     html += metric('Minted', fNum(ra.totalMinted, 0) + ' CC');
     html += metric('Burned', fNum(ra.totalBurned, 0) + ' CC');
@@ -264,7 +264,10 @@ function renderApplications(snap, registry) {
   html += '<div class="card">';
   html += '<div class="tier-label">Data Access by Category <span class="tier-sub">(from CantonScan — ' + (registry ? registry.length : apps.length) + ' apps)</span></div>';
   html += '<table class="data-table"><thead><tr><th>Category</th><th class="number">Apps</th><th>Data access</th></tr></thead><tbody>';
-  Object.keys(groups).sort().forEach(function(cat) {
+  Object.keys(groups).sort(function(a, b) {
+    var diff = groups[b].total - groups[a].total;
+    return diff !== 0 ? diff : a.localeCompare(b);
+  }).forEach(function(cat) {
     var g = groups[cat];
     var labels = [];
     if (g.transparent > 0) labels.push(g.transparent + ' live');
@@ -297,7 +300,7 @@ function buildAppsTable(mergedApps, totalTopRewards) {
   html += '</div>';
 
   html += '<div id="registry-table-wrap">';
-  html += '<table class="data-table"><thead><tr><th>#</th><th>App</th><th>Category</th><th>API</th><th class="number">24h Rewards (CC)</th><th></th></tr></thead><tbody>';
+  html += '<table class="data-table"><thead><tr><th>#</th><th>App</th><th>Category</th><th>API</th><th class="number">7d Rewards (CC)</th><th></th></tr></thead><tbody>';
 
   for (var i = 0; i < mergedApps.length; i++) {
     var m = mergedApps[i];

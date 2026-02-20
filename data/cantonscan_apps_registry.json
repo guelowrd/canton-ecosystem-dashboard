@@ -26,7 +26,7 @@
   {
     "appName": "cantonloop-mainnet-1",
     "baseName": "cantonloop",
-    "category": "Explorer",
+    "category": "Explorer/Infra",
     "confidence": 100,
     "websiteGuess": "https://lighthouse.cantonloop.com",
     "note": "Canton Network explorer by 5N"
