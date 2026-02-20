@@ -181,7 +181,7 @@ async function fetchCCExplorer() {
       fetchJSON(`${CCEXPLORER_API}/super-validators`),
       fetchJSON(`${CCEXPLORER_API}/validators`),
       fetchJSON(`${CCEXPLORER_API}/current-round`),
-      fetchJSON(`${CCEXPLORER_API}/updates?limit=2000`),
+      fetchJSON(`${CCEXPLORER_API}/updates?limit=20000`),
       fetchJSON(`${CCEXPLORER_API}/governance`),
     ]);
 

@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-20T10:30:42.479Z",
-  "cantonCoinPriceUsd": 0.15905231199622769,
+  "lastUpdated": "2026-02-20T10:34:27.860Z",
+  "cantonCoinPriceUsd": 0.15905231123378238,
   "networkHealth": {
-    "totalTvlUsd": 1704357.9694652807,
-    "volume30dUsd": 2290266.163727653,
+    "totalTvlUsd": 1704357.9651384486,
+    "volume30dUsd": 2290024.746800719,
     "featuredApps": 118,
     "trackedApps": 23,
     "transparentApps": 2,
-    "netIssuance": -84173.83584914762,
+    "netIssuance": 109395.73118167737,
     "governanceParticipation": 0.8269230769230769
   },
   "concentration": {
@@ -40,17 +40,17 @@
         "url": null
       }
     ],
-    "tvlLargestPoolPct": 93.60247513004786,
-    "rewardsTop3Pct": 100,
-    "rewardsTop5Pct": 100
+    "tvlLargestPoolPct": 93.60247514442226,
+    "rewardsTop3Pct": 59.50456336174089,
+    "rewardsTop5Pct": 71.82455001457812
   },
   "executiveInsights": [
     "Largest super validator controls 58.0% of consensus weight",
     "Top sponsor (Digital Asset 2) holds 48.5% of validator licenses",
-    "0% of CC emissions go to application rewards",
+    "67% of CC emissions go to application rewards",
     "94% of DEX TVL is in the largest pool (CC/USDCx)",
     "2 of 23 tracked apps expose public metrics",
-    "Top 3 apps capture 100% of app rewards (led by foundinalsunthy-mainnet-1)"
+    "Top 3 apps capture 60% of app rewards (led by temple-mainnet-1)"
   ],
   "apps": [
     {
@@ -64,10 +64,10 @@
         "activeValidators": 759,
         "superValidators": 13,
         "supply": 37797840928.56388,
-        "consensusHeight": 17049677,
+        "consensusHeight": 17050255,
         "version": "0.5.10",
         "featuredApps": 118,
-        "currentRound": 84269
+        "currentRound": 84270
       },
       "superValidators": [
         {
@@ -195,8 +195,8 @@
           "Liberty-City-Ventures": 2
         },
         "byVersion": {
-          "0.5.9": 540,
-          "0.5.8": 107,
+          "0.5.9": 541,
+          "0.5.8": 106,
           "0.5.4": 52,
           "0.5.5": 40,
           "0.5.10": 15,
@@ -249,31 +249,63 @@
         }
       },
       "recentActivity": {
-        "sampleSize": 2000,
-        "timeWindowSeconds": 177,
-        "amuletPrice": 0.158328,
-        "totalMinted": 3369.0700171375984,
-        "appRewardsMinted": 5.3824034483,
-        "validatorLivenessRewardsMinted": 128.41103655180012,
-        "svRewardsMinted": 3235.2765771374998,
-        "totalTransferred": 24958.3049972433,
-        "totalBurned": 87542.90586628522,
-        "netIssuance": -84173.83584914762,
+        "sampleSize": 20000,
+        "timeWindowSeconds": 1786,
+        "amuletPrice": 0.158179,
+        "totalMinted": 415757.4737267658,
+        "appRewardsMinted": 280490.82848982123,
+        "validatorLivenessRewardsMinted": 9818.981148137696,
+        "svRewardsMinted": 63799.24704145114,
+        "totalTransferred": 267690.528277472,
+        "totalBurned": 306361.7425450884,
+        "netIssuance": 109395.73118167737,
         "topApps": [
           {
-            "name": "foundinalsunthy-mainnet-1",
-            "rewardsCC": 3.8445738917
+            "name": "temple-mainnet-1",
+            "rewardsCC": 81023.55907357812
           },
           {
-            "name": "801ebb8d-a6c4-44e8-94d8-6c30d40c4691",
-            "rewardsCC": 1.5378295566
+            "name": "cantonloop-mainnet-1",
+            "rewardsCC": 61245.624986399314
+          },
+          {
+            "name": "Cantex-validator-1",
+            "rewardsCC": 24635.658702620098
+          },
+          {
+            "name": "feat-unhedged-app",
+            "rewardsCC": 21783.8314771626
+          },
+          {
+            "name": "cbtc-attestor-pool",
+            "rewardsCC": 12772.6011552159
+          },
+          {
+            "name": "cantor8-digik-1",
+            "rewardsCC": 11803.7643551065
+          },
+          {
+            "name": "Bridge-Operator",
+            "rewardsCC": 9770.281664181899
+          },
+          {
+            "name": "Supanova-validator-1",
+            "rewardsCC": 9654.651593865497
+          },
+          {
+            "name": "cypherock-mainnet-1",
+            "rewardsCC": 8157.917471914101
+          },
+          {
+            "name": "pixelplex-mainnet-3",
+            "rewardsCC": 4419.1224826247
           }
         ],
-        "rewardsTop1Pct": 71.4285714296331,
-        "top1AppName": "foundinalsunthy-mainnet-1",
-        "rewardsTop3Pct": 100,
-        "rewardsTop5Pct": 100,
-        "appRewardsShareOfMinting": 0.15975932292653724
+        "rewardsTop1Pct": 28.886348801425587,
+        "top1AppName": "temple-mainnet-1",
+        "rewardsTop3Pct": 59.50456336174089,
+        "rewardsTop5Pct": 71.82455001457812,
+        "appRewardsShareOfMinting": 67.46501174724732
       },
       "governance": {
         "openProposals": 4,
@@ -327,27 +359,27 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.15905231199622769,
-      "cbtcPriceUsd": 68765.40395870786,
+      "ccPriceUsd": 0.15905231123378238,
+      "cbtcPriceUsd": 68765.40362906878,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 4999091.371440081,
-          "token2Holdings": 795117.0405079375,
-          "tvlUsd": 1590234.081015875,
+          "token1Holdings": 4999091.383440081,
+          "token2Holdings": 795117.0386050316,
+          "tvlUsd": 1590234.077210063,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.17105782277748527,
+          "yield24h": 0.17105782341079423,
           "totalLpTokens": 1956098.6021041416,
           "volume": {
-            "1h": 315.79793596384116,
-            "4h": 435.9522384182783,
-            "12h": 8019.645850557485,
-            "24h": 17277.528663829435,
-            "7d": 272234.2530481705,
-            "30d": 1862505.6723951963
+            "1h": 315.7993630768033,
+            "4h": 435.9530314623844,
+            "12h": 8019.646169586573,
+            "24h": 17277.52943825221,
+            "7d": 272234.0956739583,
+            "30d": 1862350.5328621608
           }
         },
         {
@@ -356,7 +388,7 @@
           "token2": "CBTC",
           "token1Holdings": 341676.9837711733,
           "token2Holdings": 0.7902885913,
-          "tvlUsd": 108689.02844940535,
+          "tvlUsd": 108689.02792838533,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
           "yield24h": 0.17881684795615405,
@@ -367,15 +399,15 @@
             "12h": 643.8745235660758,
             "24h": 1207.9545436570736,
             "7d": 29117.383249223247,
-            "30d": 427760.4913324569
+            "30d": 427674.2139385582
           }
         }
       ],
-      "totalTvlUsd": 1698923.1094652805,
-      "largestPoolPct": 93.60247513004786,
-      "totalVolume24hUsd": 18485.483207486508,
-      "totalVolume7dUsd": 301351.6362973937,
-      "totalVolume30dUsd": 2290266.163727653
+      "totalTvlUsd": 1698923.1051384485,
+      "largestPoolPct": 93.60247514442226,
+      "totalVolume24hUsd": 18485.483981909285,
+      "totalVolume7dUsd": 301351.47892318154,
+      "totalVolume30dUsd": 2290024.746800719
     },
     {
       "id": "unhedged",
