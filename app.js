@@ -44,18 +44,18 @@
   // 2. Three-tier metrics
   dashboard.innerHTML += renderTiers(snap, registry);
 
-  // 3. Application cards
-  dashboard.innerHTML += renderAppSection(snap);
-
-  // 5. Featured Apps Registry
+  // 3. Apps Registry summary (moved up — high-level signal)
   if (registry) {
-    dashboard.innerHTML += renderRegistry(registry);
+    dashboard.innerHTML += renderRegistry(registry, snap);
   }
 
-  // 6. Governance
+  // 4. Application Layer (compact, collapsible details)
+  dashboard.innerHTML += renderAppSection(snap, registry);
+
+  // 5. Governance
   dashboard.innerHTML += renderGovernance(snap);
 
-  // 7. Network infrastructure (SVs, sponsors -- collapsible)
+  // 6. Network infrastructure (SVs, sponsors -- collapsible)
   dashboard.innerHTML += renderNetworkInfra(snap);
 
   // Wire up expand toggles
@@ -132,7 +132,7 @@ function renderTiers(snap, registry) {
   // Rewards concentration
   html += '<div class="metrics-group"><div class="metrics-group-label">App Rewards Distribution</div>';
   if (ra && ra.rewardsTop1Pct != null && ra.top1AppName) {
-    html += '<div class="mini-stat">Top 1: ' + esc(ra.top1AppName) + ' (' + fPct(ra.rewardsTop1Pct, 1) + ')</div>';
+    html += '<div class="mini-stat">Top 1: ' + esc(normalizeAppName(ra.top1AppName)) + ' (' + fPct(ra.rewardsTop1Pct, 1) + ')</div>';
   }
   html += miniBar('Top 3 apps', conc.rewardsTop3Pct);
   html += miniBar('Top 5 apps', conc.rewardsTop5Pct);
@@ -168,7 +168,7 @@ function renderTiers(snap, registry) {
       var totalRewards = ra.topApps.reduce(function (s, a) { return s + a.rewardsCC; }, 0);
       for (var t = 0; t < ra.topApps.length; t++) {
         var a = ra.topApps[t];
-        html += '<tr><td>' + esc(a.name) + '</td><td class="number">' + fNum(a.rewardsCC, 0) + '</td><td class="number">' + fPct(totalRewards > 0 ? (a.rewardsCC / totalRewards) * 100 : 0, 1) + '</td></tr>';
+        html += '<tr><td>' + esc(normalizeAppName(a.name)) + '</td><td class="number">' + fNum(a.rewardsCC, 0) + '</td><td class="number">' + fPct(totalRewards > 0 ? (a.rewardsCC / totalRewards) * 100 : 0, 1) + '</td></tr>';
       }
       html += '</tbody></table>';
 
@@ -221,70 +221,108 @@ function renderConcentration(snap) {
   return html;
 }
 
-function renderAppSection(snap) {
+function renderAppSection(snap, registry) {
   var apps = (snap.apps || []).filter(function (a) { return a.id !== 'ccexplorer'; });
   if (apps.length === 0) return '';
 
-  // Group by category
+  var ccx = findApp(snap, 'ccexplorer');
+  var ra = ccx ? ccx.recentActivity : null;
+
+  // Build rewards index: map app.id → topApp entry via fuzzy name match
+  var rewardsByAppId = {};
+  var totalTopRewards = 0;
+  if (ra && ra.topApps) {
+    totalTopRewards = ra.topApps.reduce(function (s, a) { return s + a.rewardsCC; }, 0);
+    ra.topApps.forEach(function (ta) {
+      var taLc = ta.name.toLowerCase().replace(/^feat-/, '');
+      for (var i = 0; i < apps.length; i++) {
+        var idLc = apps[i].id.toLowerCase();
+        if (taLc.indexOf(idLc) !== -1 || idLc.indexOf(taLc) !== -1 || taLc.startsWith(idLc) || idLc.startsWith(taLc)) {
+          if (!rewardsByAppId[apps[i].id]) rewardsByAppId[apps[i].id] = ta;
+          break;
+        }
+      }
+    });
+  }
+
+  // Sort all apps: rewards leaders first, then transparent, then others
+  var sorted = apps.slice().sort(function (a, b) {
+    var ra_ = rewardsByAppId[a.id];
+    var rb_ = rewardsByAppId[b.id];
+    if (ra_ && rb_) return rb_.rewardsCC - ra_.rewardsCC;
+    if (ra_) return -1;
+    if (rb_) return 1;
+    if (a.transparency === 'transparent' && b.transparency !== 'transparent') return -1;
+    if (b.transparency === 'transparent' && a.transparency !== 'transparent') return 1;
+    return 0;
+  });
+
+  // Category overview (always visible)
   var groups = {};
   for (var i = 0; i < apps.length; i++) {
     var cat = apps[i].appCategory || 'Other';
-    if (!groups[cat]) groups[cat] = [];
-    groups[cat].push(apps[i]);
+    if (!groups[cat]) groups[cat] = { transparent: 0, opaque: 0, none: 0, total: 0 };
+    groups[cat].total++;
+    var tr = apps[i].transparency || 'none';
+    groups[cat][tr] = (groups[cat][tr] || 0) + 1;
   }
 
   var html = '<div class="section-header">Application Layer</div>';
-
-  // Category overview
   html += '<div class="card"><div class="tier-label">Tracked Applications</div>';
-  html += '<table class="data-table"><thead><tr><th>Category</th><th class="number">Apps</th><th>Transparency</th></tr></thead><tbody>';
+  html += '<table class="data-table"><thead><tr><th>Category</th><th class="number">Apps</th><th>Data access</th></tr></thead><tbody>';
   var catKeys = Object.keys(groups).sort();
   for (var c = 0; c < catKeys.length; c++) {
-    var catApps = groups[catKeys[c]];
-    var transCounts = { transparent: 0, partial: 0, opaque: 0 };
-    for (var j = 0; j < catApps.length; j++) {
-      var t = catApps[j].transparency || 'opaque';
-      transCounts[t] = (transCounts[t] || 0) + 1;
-    }
-    var transLabels = [];
-    if (transCounts.transparent > 0) transLabels.push(transCounts.transparent + ' transparent');
-    if (transCounts.partial > 0) transLabels.push(transCounts.partial + ' partial');
-    if (transCounts.opaque > 0) transLabels.push(transCounts.opaque + ' opaque');
-    if (transCounts.none > 0) transLabels.push(transCounts.none + ' no data');
-    html += '<tr><td>' + esc(catKeys[c]) + '</td><td class="number">' + catApps.length + '</td><td>' + transLabels.join(', ') + '</td></tr>';
+    var g = groups[catKeys[c]];
+    var labels = [];
+    if (g.transparent > 0) labels.push(g.transparent + ' live');
+    if (g.opaque > 0) labels.push(g.opaque + ' auth-only');
+    if (g.none > 0) labels.push(g.none + ' no data');
+    html += '<tr><td>' + esc(catKeys[c]) + '</td><td class="number">' + g.total + '</td><td style="color:var(--text-secondary);font-size:0.8rem">' + labels.join(', ') + '</td></tr>';
   }
-  html += '</tbody></table></div>';
+  html += '</tbody></table>';
 
-  // Core tracked apps (non-candidate)
-  var coreApps = apps.filter(function(a) { return !a.isCandidate; });
-  var candidateApps = apps.filter(function(a) { return a.isCandidate; });
-
-  for (var k = 0; k < coreApps.length; k++) {
-    var app = coreApps[k];
-    var card = '<div class="card">';
-    if (app.dataAvailability === 'error') {
-      card += renderErrorCard(app);
-    } else if (app.id === 'tradecraft') {
-      card += renderTradecraft(app);
-    } else if (app.id === 'unhedged') {
-      card += renderUnhedged(app);
-    } else {
-      card += renderLimitedCard(app);
+  // Collapsible compact app list ordered by rewards
+  var tableHtml = '<table class="data-table" style="margin-top:0"><thead><tr><th>#</th><th>App</th><th>Category</th><th>Data</th><th class="number">24h Rewards</th></tr></thead><tbody>';
+  for (var k = 0; k < sorted.length; k++) {
+    var app = sorted[k];
+    var rwd = rewardsByAppId[app.id];
+    var displayName = normalizeAppName(app.id);
+    var nameHtml = app.url
+      ? '<a href="' + esc(app.url) + '" target="_blank" rel="noopener" style="color:var(--accent)">' + esc(displayName) + '</a>'
+      : esc(displayName);
+    var trLabels = { transparent: 'Live', opaque: 'Auth req.', none: 'No data', partial: 'Partial' };
+    var trCls = { transparent: 'badge-full', opaque: 'badge-opaque', none: 'badge-opaque', partial: 'badge-partial' };
+    var trBadge = '<span class="badge ' + (trCls[app.transparency] || 'badge-opaque') + '" style="font-size:0.65rem;padding:0.1rem 0.4rem">' + (trLabels[app.transparency] || '?') + '</span>';
+    var rewardsHtml = '--';
+    if (rwd) {
+      var share = totalTopRewards > 0 ? (rwd.rewardsCC / totalTopRewards * 100) : 0;
+      rewardsHtml = fNum(rwd.rewardsCC, 0) + ' <span style="color:var(--text-secondary);font-size:0.7rem">(' + fPct(share, 1) + ')</span>';
     }
-    card += '</div>';
-    html += card;
+    tableHtml += '<tr>';
+    tableHtml += '<td style="color:var(--text-secondary);font-size:0.75rem;width:1.5rem">' + (k + 1) + '</td>';
+    tableHtml += '<td>' + nameHtml + '</td>';
+    tableHtml += '<td><span class="tag" style="font-size:0.7rem">' + esc(app.appCategory || 'Other') + '</span></td>';
+    tableHtml += '<td>' + trBadge + '</td>';
+    tableHtml += '<td class="number" style="font-size:0.8rem">' + rewardsHtml + '</td>';
+    tableHtml += '</tr>';
   }
+  tableHtml += '</tbody></table>';
+  html += expandable('app-details', 'Show all ' + sorted.length + ' apps', tableHtml);
+  html += '</div>';
 
-  // Candidate apps (auto-detected from registry probing)
-  if (candidateApps.length > 0) {
-    html += '<div class="section-title" style="margin-top:1.5rem">Candidate Apps (auto-detected from registry)</div>';
-    for (var m = 0; m < candidateApps.length; m++) {
-      html += '<div class="card">' + renderCandidateCard(candidateApps[m]) + '</div>';
-    }
+  // Core app detail cards (Tradecraft, Unhedged only — the ones with full live data)
+  var coreApps = apps.filter(function (a) { return !a.isCandidate && (a.id === 'tradecraft' || a.id === 'unhedged'); });
+  for (var m = 0; m < coreApps.length; m++) {
+    var capp = coreApps[m];
+    var ccard = '<div class="card">';
+    if (capp.id === 'tradecraft') ccard += renderTradecraft(capp);
+    else if (capp.id === 'unhedged') ccard += renderUnhedged(capp);
+    ccard += '</div>';
+    html += ccard;
   }
 
   // Why note
-  html += '<div class="card"><div class="tier-label">Why only a few apps have live metrics</div><div class="limited-info"><ul><li>Many Canton apps are institutional or not publicly consumer-facing</li><li>Most API endpoints require authentication (HTTP 401/403)</li><li>Some websites are informational-only with no queryable data</li><li>This tracker shows only apps with publicly accessible metric endpoints today</li></ul></div></div>';
+  html += '<div class="card" style="padding:0.75rem 1rem"><p style="font-size:0.8rem;color:var(--text-secondary)"><strong>Why limited metrics:</strong> most Canton apps are institutional, require API auth (401/403), or have informational-only sites. This tracker surfaces only apps with publicly accessible endpoints.</p></div>';
 
   return html;
 }
@@ -545,6 +583,51 @@ function findApp(snap, id) {
   return (snap.apps || []).find(function (a) { return a.id === id; });
 }
 
+// Map on-chain party names / app IDs to clean display names
+var NAME_MAP = {
+  'tradecraft': 'Tradecraft',
+  'unhedged': 'Unhedged', 'unhedged-app': 'Unhedged', 'feat-unhedged-app': 'Unhedged',
+  'temple': 'Temple', 'temple-mainnet-1': 'Temple',
+  'cantex': 'Cantex', 'cantex-validator-1': 'Cantex',
+  'cantonloop': 'CantonLoop', 'cantonloop-mainnet-1': 'CantonLoop',
+  'cantor8-digik': 'Cantor8', 'cantor8-digik-1': 'Cantor8',
+  'cbtc-attestor-pool': 'cBTC Attestor Pool',
+  'pixelplex': 'PixelPlex', 'pixelplex-mainnet-3': 'PixelPlex',
+  'bridge-operator': 'Bridge Operator',
+  'hellomoon-validator-1': 'HelloMoon',
+  'openvector-mainnet-1': 'OpenVector',
+  'cypherock': 'Cypherock', 'cypherock-mainnet-1': 'Cypherock',
+  'hashnote': 'Hashnote', 'validator_hashnote': 'Hashnote',
+  'blackmantacapital-primary': 'Black Manta Capital',
+  'dfns1': 'DFNS',
+  'mpch-brondvn': 'MPCH Bron', 'mpch-brondvn-1': 'MPCH Bron',
+  'noves-translate': 'Noves',
+  'thetievalidator': 'The Tie', 'the_tie_validator': 'The Tie',
+  'zodiacustody': 'Zodia Custody', 'zodiacustody-validator-1': 'Zodia Custody',
+  'fairmint': 'Fairmint', 'fairmint-validator-1': 'Fairmint',
+  'flipside': 'Flipside', 'flipside-validator-1': 'Flipside',
+  'obligate': 'Obligate', 'obligate-validator-1': 'Obligate',
+  'coinmetrics': 'CoinMetrics', 'coinmetrics-validator-1': 'CoinMetrics',
+  'cantonwallet': 'Canton Wallet', 'send-cantonwallet-1': 'Canton Wallet',
+  'supanova-validator-1': 'Supanova',
+};
+
+function normalizeAppName(raw) {
+  if (!raw) return raw;
+  var lc = raw.toLowerCase();
+  if (NAME_MAP[lc]) return NAME_MAP[lc];
+  if (NAME_MAP[raw]) return NAME_MAP[raw];
+  // Auto-strip suffixes and title-case
+  var cleaned = raw
+    .replace(/^feat-/i, '')
+    .replace(/-(mainnet|validator|app|mainnet-app)-?\d*$/i, '')
+    .replace(/-\d+$/, '')
+    .replace(/-$/, '')
+    .replace(/-/g, ' ')
+    .trim();
+  return cleaned.replace(/\b\w/g, function (c) { return c.toUpperCase(); }) || raw;
+}
+
 function esc(str) {
   if (!str) return '';
   var d = document.createElement('div');
@@ -630,93 +713,69 @@ function entityLink(name) {
 // Registry renderer (CantonScan featured apps)
 // ===========================================================================
 
-function renderRegistry(registry) {
+function renderRegistry(registry, snap) {
   if (!registry || registry.length === 0) return '';
+
+  // Build probe-status index from snapshot candidates
+  var probeIndex = {};
+  if (snap) {
+    (snap.apps || []).filter(function (a) { return a.isCandidate; }).forEach(function (a) {
+      probeIndex[a.id] = a;
+    });
+  }
 
   // Compute summary
   var cats = {};
   var withWebsite = 0;
-  var lowConf = 0;
   for (var i = 0; i < registry.length; i++) {
     var cat = registry[i].category || 'Unknown';
     cats[cat] = (cats[cat] || 0) + 1;
     if (registry[i].websiteGuess) withWebsite++;
-    if (registry[i].confidence < 50) lowConf++;
   }
-
-  var html = '<div class="section-header">Featured Apps Registry <span class="tier-sub">(from CantonScan)</span></div>';
-
-  // Summary counts
-  html += '<div class="card"><div class="tier-label">Registry Summary</div>';
-  html += '<div class="metrics">';
-  html += metric('Total Apps', fNum(registry.length));
-  html += metric('With Website', fNum(withWebsite));
-  html += metric('Low Confidence', fNum(lowConf));
-  html += metric('Categories', fNum(Object.keys(cats).length));
-  html += '</div>';
-
-  // Category breakdown as mini bars
-  html += '<div class="section-title">Category Breakdown</div>';
   var catEntries = Object.entries(cats).sort(function (a, b) { return b[1] - a[1]; });
+
+  var html = '<div class="section-header">Apps Registry <span class="tier-sub">(CantonScan — ' + registry.length + ' apps)</span></div>';
+
+  // Summary card (always visible)
+  html += '<div class="card"><div class="tier-label">By Category</div>';
   for (var c = 0; c < catEntries.length; c++) {
     var pct = (catEntries[c][1] / registry.length) * 100;
     html += miniBar(catEntries[c][0] + ' (' + catEntries[c][1] + ')', pct);
   }
+
+  // Collapsed full table
+  html += expandable('registry-full', 'Show all ' + registry.length + ' registry entries', registryTableWithProbe(registry, probeIndex));
   html += '</div>';
 
-  // Filters
-  html += '<div class="card" id="registry-card">';
-  html += '<div class="tier-label">All Featured Apps</div>';
-  html += '<div class="registry-filters" style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-bottom:1rem">';
+  return html;
+}
 
-  // Category filter
-  html += '<select id="reg-cat-filter" class="reg-filter-select">';
-  html += '<option value="all">All categories</option>';
-  for (var f = 0; f < catEntries.length; f++) {
-    html += '<option value="' + esc(catEntries[f][0]) + '">' + esc(catEntries[f][0]) + ' (' + catEntries[f][1] + ')</option>';
-  }
+function registryTableWithProbe(apps, probeIndex) {
+  var html = '<div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin:0.75rem 0" id="reg-filters-wrap">';
+  // Build category list from apps
+  var regCats = {};
+  apps.forEach(function (a) { var c = a.category || 'Unknown'; regCats[c] = (regCats[c] || 0) + 1; });
+  var regCatEntries = Object.entries(regCats).sort(function (a, b) { return b[1] - a[1]; });
+  html += '<select id="reg-cat-filter" class="reg-filter-select"><option value="all">All categories</option>';
+  regCatEntries.forEach(function (e) { html += '<option value="' + esc(e[0]) + '">' + esc(e[0]) + ' (' + e[1] + ')</option>'; });
   html += '</select>';
-
-  // Confidence filter
-  html += '<select id="reg-conf-filter" class="reg-filter-select">';
-  html += '<option value="0">All confidence</option>';
-  html += '<option value="50">50+ only</option>';
-  html += '<option value="75">75+ only</option>';
-  html += '</select>';
-
+  html += '<select id="reg-conf-filter" class="reg-filter-select"><option value="0">All confidence</option><option value="50">50+</option><option value="75">75+</option></select>';
   html += '</div>';
-
-  // Table
   html += '<div id="registry-table-wrap">';
-  html += registryTable(registry);
-  html += '</div>';
-
+  html += registryTable(apps, probeIndex);
   html += '</div>';
   return html;
 }
 
-function registryTable(apps) {
+function registryTable(apps, probeIndex) {
+  probeIndex = probeIndex || {};
   var html = '<table class="data-table"><thead><tr>';
-  html += '<th>App Name</th><th>Base Name</th><th>Category</th><th class="number">Confidence</th><th>Website</th><th>Note</th>';
+  html += '<th>Name</th><th>Category</th><th class="number">Conf.</th><th>Website</th><th>API</th><th>Note</th>';
   html += '</tr></thead><tbody>';
 
   for (var i = 0; i < apps.length; i++) {
     var a = apps[i];
-    var confClass = a.confidence >= 75 ? 'conf-high' : a.confidence >= 50 ? 'conf-mid' : 'conf-low';
-
-    // App name
-    var nameHtml = esc(a.appName);
-
-    // Base name
-    var baseHtml = '<span style="color:var(--text-secondary)">' + esc(a.baseName) + '</span>';
-
-    // Category badge
-    var catHtml = '<span class="tag">' + esc(a.category) + '</span>';
-
-    // Confidence with color
-    var confColor = a.confidence >= 75 ? 'var(--green)' : a.confidence >= 50 ? 'var(--yellow)' : 'var(--red)';
-    var confHtml = '<span style="color:' + confColor + ';font-weight:600">' + a.confidence + '</span>';
-    if (a.confidence < 50) confHtml += ' <span class="badge badge-opaque" style="font-size:0.65rem">low</span>';
+    var displayName = normalizeAppName(a.baseName) || esc(a.appName);
 
     // Website
     var webHtml = '--';
@@ -726,16 +785,25 @@ function registryTable(apps) {
       webHtml = '<a href="' + esc(a.websiteGuess) + '" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.8rem">' + esc(domain) + '</a>';
     }
 
-    // Note
-    var noteHtml = a.note ? '<span style="font-size:0.75rem;color:var(--text-secondary)">' + esc(a.note) + '</span>' : '';
+    // Probe status
+    var probe = probeIndex[a.baseName];
+    var probeHtml = '--';
+    if (probe) {
+      var pLabels = { transparent: '<span class="badge badge-full" style="font-size:0.65rem">Live</span>', opaque: '<span class="badge badge-opaque" style="font-size:0.65rem">Auth</span>', none: '<span style="color:var(--text-secondary);font-size:0.75rem">None</span>' };
+      probeHtml = pLabels[probe.transparency] || '--';
+    }
+
+    // Confidence
+    var confColor = a.confidence >= 75 ? 'var(--green)' : a.confidence >= 50 ? 'var(--yellow)' : 'var(--red)';
+    var confHtml = '<span style="color:' + confColor + ';font-weight:600">' + a.confidence + '</span>';
 
     html += '<tr data-category="' + esc(a.category) + '" data-confidence="' + a.confidence + '">';
-    html += '<td>' + nameHtml + '</td>';
-    html += '<td>' + baseHtml + '</td>';
-    html += '<td>' + catHtml + '</td>';
+    html += '<td style="font-weight:500">' + esc(displayName) + '</td>';
+    html += '<td><span class="tag" style="font-size:0.7rem">' + esc(a.category) + '</span></td>';
     html += '<td class="number">' + confHtml + '</td>';
     html += '<td>' + webHtml + '</td>';
-    html += '<td>' + noteHtml + '</td>';
+    html += '<td>' + probeHtml + '</td>';
+    html += '<td style="font-size:0.75rem;color:var(--text-secondary)">' + esc(a.note || '') + '</td>';
     html += '</tr>';
   }
 
@@ -762,11 +830,6 @@ function wireRegistryFilters(registry) {
       if (show) shown++;
     });
 
-    // Update count in header
-    var label = document.querySelector('#registry-card .tier-label');
-    if (label) {
-      label.textContent = 'All Featured Apps (' + shown + ' shown)';
-    }
   }
 
   catFilter.addEventListener('change', applyFilters);

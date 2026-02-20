@@ -26,10 +26,10 @@
   {
     "appName": "cantonloop-mainnet-1",
     "baseName": "cantonloop",
-    "category": "Wallet",
+    "category": "Explorer",
     "confidence": 100,
     "websiteGuess": "https://lighthouse.cantonloop.com",
-    "note": "5N Loop wallet / explorer"
+    "note": "Canton Network explorer by 5N"
   },
   {
     "appName": "cantonnodes-validator-1",
@@ -42,7 +42,7 @@
   {
     "appName": "CoinMetrics-validator-1",
     "baseName": "coinmetrics",
-    "category": "Explorer/Infra",
+    "category": "Data/Analytics",
     "confidence": 100,
     "websiteGuess": "https://coinmetrics.io",
     "note": "Crypto data & analytics"
@@ -52,7 +52,7 @@
     "baseName": "cygnet",
     "category": "DEX/AMM",
     "confidence": 100,
-    "websiteGuess": "https://cygnet.finance",
+    "websiteGuess": null,
     "note": "Canton DeFi protocol"
   },
   {
@@ -84,7 +84,7 @@
     "baseName": "hecto-finance",
     "category": "Lending",
     "confidence": 100,
-    "websiteGuess": "https://hectofinance.com",
+    "websiteGuess": null,
     "note": "Canton DeFi protocol"
   },
   {
@@ -130,10 +130,10 @@
   {
     "appName": "pixelplex-mainnet-3",
     "baseName": "pixelplex",
-    "category": "Explorer/Infra",
+    "category": "Dev/Agency",
     "confidence": 100,
     "websiteGuess": "https://pixelplex.io",
-    "note": "Canton exchange development"
+    "note": "Builds Canton wallets and dApps"
   },
   {
     "appName": "proofgroup-validator-1",
@@ -212,7 +212,7 @@
     "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
     "confidence": 90,
-    "websiteGuess": "https://cantor8.tech/digik",
+    "websiteGuess": "https://cantor8.tech",
     "note": "DigiK - Canton gateway"
   },
   {

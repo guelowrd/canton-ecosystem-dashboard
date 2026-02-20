@@ -478,6 +478,10 @@ async function fetchCandidateApps(alreadyTracked) {
   for (let i = 0; i < candidates.length; i += 5) {
     const batch = candidates.slice(i, i + 5);
     const batchResults = await Promise.allSettled(batch.map(async (r) => {
+      // Skip dead domains: probe homepage first
+      const homepage = await probeUrl(r.websiteGuess, 5000);
+      if (homepage.status === 0) return null; // unreachable — skip entirely
+
       let transparency = 'none';
       let probeEndpoint = null;
       let probeData = null;
@@ -510,7 +514,7 @@ async function fetchCandidateApps(alreadyTracked) {
       };
     }));
     for (const res of batchResults) {
-      if (res.status === 'fulfilled') results.push(res.value);
+      if (res.status === 'fulfilled' && res.value !== null) results.push(res.value);
     }
   }
 
@@ -635,8 +639,8 @@ function computeDerivedMetrics(apps) {
     sponsorTop3Pct,
     sponsorTop3,
     tvlLargestPoolPct,
-    rewardsTop3Pct: ra?.rewardsTop3Pct || null,
-    rewardsTop5Pct: ra?.rewardsTop5Pct || null,
+    rewardsTop3Pct: ra?.rewardsTop3Pct ?? null,
+    rewardsTop5Pct: ra?.rewardsTop5Pct ?? null,
   };
 
   // --- Executive Insights ---
