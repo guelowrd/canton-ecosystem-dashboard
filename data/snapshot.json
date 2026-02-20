@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-20T10:34:27.860Z",
-  "cantonCoinPriceUsd": 0.15905231123378238,
+  "lastUpdated": "2026-02-20T10:43:02.117Z",
+  "cantonCoinPriceUsd": 0.15898879214740955,
   "networkHealth": {
-    "totalTvlUsd": 1704357.9651384486,
-    "volume30dUsd": 2290024.746800719,
+    "totalTvlUsd": 1704025.4663559562,
+    "volume30dUsd": 2288963.4548675977,
     "featuredApps": 118,
     "trackedApps": 23,
     "transparentApps": 2,
-    "netIssuance": 109395.73118167737,
+    "netIssuance": 1788536.6277960911,
     "governanceParticipation": 0.8269230769230769
   },
   "concentration": {
@@ -40,17 +40,17 @@
         "url": null
       }
     ],
-    "tvlLargestPoolPct": 93.60247514442226,
-    "rewardsTop3Pct": 59.50456336174089,
-    "rewardsTop5Pct": 71.82455001457812
+    "tvlLargestPoolPct": 93.60367280533846,
+    "rewardsTop3Pct": 46.44688560739449,
+    "rewardsTop5Pct": 58.16331956020851
   },
   "executiveInsights": [
     "Largest super validator controls 58.0% of consensus weight",
     "Top sponsor (Digital Asset 2) holds 48.5% of validator licenses",
-    "67% of CC emissions go to application rewards",
+    "64% of CC emissions go to application rewards",
     "94% of DEX TVL is in the largest pool (CC/USDCx)",
     "2 of 23 tracked apps expose public metrics",
-    "Top 3 apps capture 60% of app rewards (led by temple-mainnet-1)"
+    "Top 3 apps capture 46% of app rewards (led by temple-mainnet-1)"
   ],
   "apps": [
     {
@@ -64,7 +64,7 @@
         "activeValidators": 759,
         "superValidators": 13,
         "supply": 37797840928.56388,
-        "consensusHeight": 17050255,
+        "consensusHeight": 17051308,
         "version": "0.5.10",
         "featuredApps": 118,
         "currentRound": 84270
@@ -187,8 +187,8 @@
           "Cumberland-1": 18,
           "Cumberland-2": 15,
           "C7-Technology-Services-Limited": 13,
-          "Tradeweb-Markets-1": 7,
           "SV-Nodeops-Limited": 7,
+          "Tradeweb-Markets-1": 7,
           "Orb-1-LP-1": 3,
           "Orb-1-LP": 3,
           "Liberty-City-Ventures-1": 2,
@@ -245,67 +245,67 @@
           "digitalasset": 17,
           "bcw": 13,
           "cantor8": 11,
-          "edgevana": 7
+          "republiccrypto": 7
         }
       },
       "recentActivity": {
-        "sampleSize": 20000,
-        "timeWindowSeconds": 1786,
+        "sampleSize": 914250,
+        "timeWindowHours": 24,
         "amuletPrice": 0.158179,
-        "totalMinted": 415757.4737267658,
-        "appRewardsMinted": 280490.82848982123,
-        "validatorLivenessRewardsMinted": 9818.981148137696,
-        "svRewardsMinted": 63799.24704145114,
-        "totalTransferred": 267690.528277472,
-        "totalBurned": 306361.7425450884,
-        "netIssuance": 109395.73118167737,
+        "totalMinted": 17322697.8175056,
+        "appRewardsMinted": 11172722.438370554,
+        "validatorLivenessRewardsMinted": 1146713.2445625812,
+        "svRewardsMinted": 3134931.125748948,
+        "totalTransferred": 86250721.09154384,
+        "totalBurned": 15534161.18970951,
+        "netIssuance": 1788536.6277960911,
         "topApps": [
           {
             "name": "temple-mainnet-1",
-            "rewardsCC": 81023.55907357812
+            "rewardsCC": 2445948.344878597
           },
           {
             "name": "cantonloop-mainnet-1",
-            "rewardsCC": 61245.624986399314
+            "rewardsCC": 1778835.3387297832
           },
           {
             "name": "Cantex-validator-1",
-            "rewardsCC": 24635.658702620098
-          },
-          {
-            "name": "feat-unhedged-app",
-            "rewardsCC": 21783.8314771626
-          },
-          {
-            "name": "cbtc-attestor-pool",
-            "rewardsCC": 12772.6011552159
+            "rewardsCC": 964597.9265733162
           },
           {
             "name": "cantor8-digik-1",
-            "rewardsCC": 11803.7643551065
+            "rewardsCC": 679409.4426259567
           },
           {
-            "name": "Bridge-Operator",
-            "rewardsCC": 9770.281664181899
+            "name": "feat-unhedged-app",
+            "rewardsCC": 629635.2025969683
           },
           {
-            "name": "Supanova-validator-1",
-            "rewardsCC": 9654.651593865497
-          },
-          {
-            "name": "cypherock-mainnet-1",
-            "rewardsCC": 8157.917471914101
+            "name": "cbtc-attestor-pool",
+            "rewardsCC": 610814.5249487817
           },
           {
             "name": "pixelplex-mainnet-3",
-            "rewardsCC": 4419.1224826247
+            "rewardsCC": 524187.32733633777
+          },
+          {
+            "name": "Bridge-Operator",
+            "rewardsCC": 480546.26283579855
+          },
+          {
+            "name": "HelloMoon-validator-1",
+            "rewardsCC": 364274.586009664
+          },
+          {
+            "name": "openvector-mainnet-1",
+            "rewardsCC": 339015.02977277903
           }
         ],
-        "rewardsTop1Pct": 28.886348801425587,
+        "rewardsTop1Pct": 21.892142746502383,
         "top1AppName": "temple-mainnet-1",
-        "rewardsTop3Pct": 59.50456336174089,
-        "rewardsTop5Pct": 71.82455001457812,
-        "appRewardsShareOfMinting": 67.46501174724732
+        "rewardsTop3Pct": 46.44688560739449,
+        "rewardsTop5Pct": 58.16331956020851,
+        "appRewardsShareOfMinting": 64.49758897877825
       },
       "governance": {
         "openProposals": 4,
@@ -359,27 +359,27 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.15905231123378238,
-      "cbtcPriceUsd": 68765.40362906878,
+      "ccPriceUsd": 0.15898879214740955,
+      "cbtcPriceUsd": 68737.94149677598,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 4999091.383440081,
-          "token2Holdings": 795117.0386050316,
-          "tvlUsd": 1590234.077210063,
+          "token1Holdings": 5000091.399440081,
+          "token2Holdings": 794958.4922236291,
+          "tvlUsd": 1589916.9844472583,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.17105782341079423,
-          "totalLpTokens": 1956098.6021041416,
+          "yield24h": 0.17114331568565255,
+          "totalLpTokens": 1956098.7975835854,
           "volume": {
-            "1h": 315.7993630768033,
-            "4h": 435.9530314623844,
-            "12h": 8019.646169586573,
-            "24h": 17277.52943825221,
-            "7d": 272234.0956739583,
-            "30d": 1862350.5328621608
+            "1h": 474.34574430808425,
+            "4h": 594.4978272686712,
+            "12h": 8178.188116382225,
+            "24h": 17436.074363347958,
+            "7d": 272198.24527787254,
+            "30d": 1861774.2341461887
           }
         },
         {
@@ -388,7 +388,7 @@
           "token2": "CBTC",
           "token1Holdings": 341676.9837711733,
           "token2Holdings": 0.7902885913,
-          "tvlUsd": 108689.02792838533,
+          "tvlUsd": 108645.6219086978,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
           "yield24h": 0.17881684795615405,
@@ -399,15 +399,15 @@
             "12h": 643.8745235660758,
             "24h": 1207.9545436570736,
             "7d": 29117.383249223247,
-            "30d": 427674.2139385582
+            "30d": 427189.2207214087
           }
         }
       ],
-      "totalTvlUsd": 1698923.1051384485,
-      "largestPoolPct": 93.60247514442226,
-      "totalVolume24hUsd": 18485.483981909285,
-      "totalVolume7dUsd": 301351.47892318154,
-      "totalVolume30dUsd": 2290024.746800719
+      "totalTvlUsd": 1698562.606355956,
+      "largestPoolPct": 93.60367280533846,
+      "totalVolume24hUsd": 18644.02890700503,
+      "totalVolume7dUsd": 301315.6285270958,
+      "totalVolume30dUsd": 2288963.4548675977
     },
     {
       "id": "unhedged",
@@ -420,13 +420,13 @@
       "activeMarkets": 122,
       "endedMarkets": 1,
       "resolvedMarkets": 1574,
-      "totalActivePoolUsd": 5434.860000000001,
-      "totalActiveBets": 353,
+      "totalActivePoolUsd": 5462.860000000001,
+      "totalActiveBets": 358,
       "categories": {
         "crypto": {
           "count": 8,
-          "poolUsd": 158,
-          "bets": 26
+          "poolUsd": 186,
+          "bets": 31
         },
         "sports": {
           "count": 92,

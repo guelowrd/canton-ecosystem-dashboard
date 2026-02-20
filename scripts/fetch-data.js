@@ -169,19 +169,115 @@ async function fetchUnhedged() {
 }
 
 // ---------------------------------------------------------------------------
+// CC Explorer -- 24h activity via paginated parallel fetch
+// ---------------------------------------------------------------------------
+
+async function fetchRecentActivity24h() {
+  const PAGE_SIZE = 50000;
+  const cutoff = Date.now() - 24 * 3600 * 1000;
+
+  // Page 0: calibrate record rate to estimate pages needed for 24h
+  const firstData = await fetchJSON(`${CCEXPLORER_API}/updates?limit=${PAGE_SIZE}&offset=0`);
+  const firstUpdates = firstData.updates || firstData;
+  if (!firstUpdates || firstUpdates.length === 0) return null;
+
+  const newestMs = new Date(firstUpdates[0].recordTime || firstUpdates[0].effectiveAt).getTime();
+  const oldestMs = new Date(firstUpdates[firstUpdates.length - 1].recordTime || firstUpdates[firstUpdates.length - 1].effectiveAt).getTime();
+  const spanMs = newestMs - oldestMs;
+  const recordsPerMs = PAGE_SIZE / Math.max(spanMs, 1);
+  const numExtraPages = Math.min(Math.ceil(recordsPerMs * 24 * 3600 * 1000 / PAGE_SIZE), 24);
+
+  console.log(`  24h activity: fetching ${numExtraPages + 1} pages × ${PAGE_SIZE.toLocaleString()} records...`);
+
+  // Running totals (no arrays stored across pages)
+  let totalMinted = 0, appRewards = 0, valLiveness = 0, svRewards = 0;
+  let totalTransferred = 0, totalBurned = 0;
+  let amuletPrice = null;
+  const appRewardsByParty = {};
+  let sampleSize = 0;
+
+  function processPage(updates) {
+    for (const u of updates) {
+      const t = new Date(u.recordTime || u.effectiveAt).getTime();
+      if (t < cutoff) continue;
+      sampleSize++;
+      totalMinted += parseFloat(u.totalMinted || '0');
+      appRewards += parseFloat(u.appRewardsMinted || '0');
+      valLiveness += parseFloat(u.validatorLivenessRewardsMinted || '0');
+      svRewards += parseFloat(u.svRewardsMinted || '0');
+      totalTransferred += parseFloat(u.amuletTransferred || '0');
+      totalBurned += Math.abs(parseFloat(u.totalBurned || '0'));
+      const byParty = u.balanceChanges?.byParty || {};
+      for (const [partyKey, info] of Object.entries(byParty)) {
+        if (amuletPrice === null && info.amuletPrice) amuletPrice = parseFloat(info.amuletPrice);
+        const reward = parseFloat(info.appRewardsMinted || '0');
+        if (reward > 0) {
+          const name = partyKey.split('::')[0];
+          appRewardsByParty[name] = (appRewardsByParty[name] || 0) + reward;
+        }
+      }
+    }
+  }
+
+  processPage(firstUpdates);
+
+  // Remaining pages in parallel batches of 5
+  const extraOffsets = Array.from({ length: numExtraPages }, (_, i) => (i + 1) * PAGE_SIZE);
+  for (let i = 0; i < extraOffsets.length; i += 5) {
+    const batch = extraOffsets.slice(i, i + 5);
+    const results = await Promise.allSettled(
+      batch.map(offset => fetchJSON(`${CCEXPLORER_API}/updates?limit=${PAGE_SIZE}&offset=${offset}`))
+    );
+    for (const r of results) {
+      if (r.status === 'fulfilled') processPage(r.value.updates || r.value);
+    }
+  }
+
+  const topApps = Object.entries(appRewardsByParty)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([name, rewards]) => ({ name, rewardsCC: rewards }));
+
+  const totalAppRewards = Object.values(appRewardsByParty).reduce((s, v) => s + v, 0);
+  const top3Rewards = topApps.slice(0, 3).reduce((s, a) => s + a.rewardsCC, 0);
+  const top5Rewards = topApps.slice(0, 5).reduce((s, a) => s + a.rewardsCC, 0);
+  const rewardsTop1Pct = totalAppRewards > 0 && topApps.length > 0
+    ? (topApps[0].rewardsCC / totalAppRewards) * 100 : null;
+  const top1AppName = topApps.length > 0 ? topApps[0].name : null;
+
+  return {
+    sampleSize,
+    timeWindowHours: 24,
+    amuletPrice,
+    totalMinted,
+    appRewardsMinted: appRewards,
+    validatorLivenessRewardsMinted: valLiveness,
+    svRewardsMinted: svRewards,
+    totalTransferred,
+    totalBurned,
+    netIssuance: totalMinted - totalBurned,
+    topApps,
+    rewardsTop1Pct,
+    top1AppName,
+    rewardsTop3Pct: totalAppRewards > 0 ? (top3Rewards / totalAppRewards) * 100 : 0,
+    rewardsTop5Pct: totalAppRewards > 0 ? (top5Rewards / totalAppRewards) * 100 : 0,
+    appRewardsShareOfMinting: totalMinted > 0 ? (appRewards / totalMinted) * 100 : 0,
+  };
+}
+
+// ---------------------------------------------------------------------------
 // CC Explorer (Network Stats) -- Free API
 // ---------------------------------------------------------------------------
 
 async function fetchCCExplorer() {
   console.log('Fetching CC Explorer data...');
 
-  const [overview, svData, validatorData, roundData, updatesData, govFullData] =
+  const [overview, svData, validatorData, roundData, govFullData] =
     await Promise.allSettled([
       fetchJSON(`${CCEXPLORER_API}/overview`),
       fetchJSON(`${CCEXPLORER_API}/super-validators`),
       fetchJSON(`${CCEXPLORER_API}/validators`),
       fetchJSON(`${CCEXPLORER_API}/current-round`),
-      fetchJSON(`${CCEXPLORER_API}/updates?limit=20000`),
       fetchJSON(`${CCEXPLORER_API}/governance`),
     ]);
 
@@ -246,73 +342,8 @@ async function fetchCCExplorer() {
     validators.topOperators = topN(sortObj(validators.topOperators), 10);
   }
 
-  // Recent activity
-  let recentActivity = null;
-  if (updatesData.status === 'fulfilled') {
-    const updates = updatesData.value.updates || updatesData.value || [];
-    if (updates.length > 0) {
-      const firstTime = new Date(updates[updates.length - 1].recordTime || updates[updates.length - 1].effectiveAt);
-      const lastTime = new Date(updates[0].recordTime || updates[0].effectiveAt);
-      const windowMs = lastTime - firstTime;
-
-      let totalMinted = 0, appRewards = 0, valLiveness = 0, svRewards = 0;
-      let totalTransferred = 0, totalBurned = 0;
-      let amuletPrice = null;
-      const appRewardsByParty = {};
-
-      for (const u of updates) {
-        totalMinted += parseFloat(u.totalMinted || '0');
-        appRewards += parseFloat(u.appRewardsMinted || '0');
-        valLiveness += parseFloat(u.validatorLivenessRewardsMinted || '0');
-        svRewards += parseFloat(u.svRewardsMinted || '0');
-        totalTransferred += parseFloat(u.amuletTransferred || '0');
-        totalBurned += Math.abs(parseFloat(u.totalBurned || '0'));
-
-        const byParty = u.balanceChanges?.byParty || {};
-        for (const [partyKey, info] of Object.entries(byParty)) {
-          if (amuletPrice === null && info.amuletPrice) {
-            amuletPrice = parseFloat(info.amuletPrice);
-          }
-          const partyAppReward = parseFloat(info.appRewardsMinted || '0');
-          if (partyAppReward > 0) {
-            const partyName = partyKey.split('::')[0];
-            appRewardsByParty[partyName] = (appRewardsByParty[partyName] || 0) + partyAppReward;
-          }
-        }
-      }
-
-      const topApps = Object.entries(appRewardsByParty)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 10)
-        .map(([name, rewards]) => ({ name, rewardsCC: rewards }));
-
-      const totalAppRewards = Object.values(appRewardsByParty).reduce((s, v) => s + v, 0);
-      const top3Rewards = topApps.slice(0, 3).reduce((s, a) => s + a.rewardsCC, 0);
-      const top5Rewards = topApps.slice(0, 5).reduce((s, a) => s + a.rewardsCC, 0);
-      const rewardsTop1Pct = totalAppRewards > 0 && topApps.length > 0
-        ? (topApps[0].rewardsCC / totalAppRewards) * 100 : null;
-      const top1AppName = topApps.length > 0 ? topApps[0].name : null;
-
-      recentActivity = {
-        sampleSize: updates.length,
-        timeWindowSeconds: Math.round(windowMs / 1000),
-        amuletPrice,
-        totalMinted,
-        appRewardsMinted: appRewards,
-        validatorLivenessRewardsMinted: valLiveness,
-        svRewardsMinted: svRewards,
-        totalTransferred,
-        totalBurned,
-        netIssuance: totalMinted - totalBurned,
-        topApps,
-        rewardsTop1Pct,
-        top1AppName,
-        rewardsTop3Pct: totalAppRewards > 0 ? (top3Rewards / totalAppRewards) * 100 : 0,
-        rewardsTop5Pct: totalAppRewards > 0 ? (top5Rewards / totalAppRewards) * 100 : 0,
-        appRewardsShareOfMinting: totalMinted > 0 ? (appRewards / totalMinted) * 100 : 0,
-      };
-    }
-  }
+  // Recent activity -- 24h window via paginated fetch
+  const recentActivity = await fetchRecentActivity24h();
 
   // Governance -- current + historical
   let governance = null;

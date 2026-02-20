@@ -143,7 +143,7 @@ function renderTiers(snap, registry) {
 
   // Tier 3: Recent Activity
   if (ra) {
-    html += '<div class="card"><div class="tier-label">Recent Activity <span class="tier-sub">(' + ra.sampleSize + ' updates, ' + ra.timeWindowSeconds + 's window)</span></div>';
+    html += '<div class="card"><div class="tier-label">Recent Activity <span class="tier-sub">(24h window, ' + fNum(ra.sampleSize) + ' updates)</span></div>';
     html += '<div class="metrics">';
     html += metric('Minted', fNum(ra.totalMinted, 0) + ' CC');
     html += metric('Burned', fNum(ra.totalBurned, 0) + ' CC');
