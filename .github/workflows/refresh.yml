@@ -1,0 +1,26 @@
+name: Refresh Dashboard Data
+on:
+  schedule:
+    - cron: '0 0 * * *'     # daily at 00:00 UTC
+  workflow_dispatch:          # manual trigger from GitHub UI
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - name: Scrape CantonScan registry
+        run: node scripts/scrape-cantonscan.js
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'false'
+      - run: node scripts/fetch-data.js
+      - run: node scripts/archive-snapshot.js
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: auto-refresh dashboard data'
+          file_pattern: 'data/'

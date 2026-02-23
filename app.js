@@ -31,12 +31,17 @@
     timestampEl.after(priceEl);
   }
 
-  // Load registry data in parallel
+  // Load registry and history manifest in parallel
   var registry = null;
+  var manifest = null;
   try {
     var regRes = await fetch('data/cantonscan_apps_registry.json');
     if (regRes.ok) registry = await regRes.json();
   } catch (e) { /* registry is optional */ }
+  try {
+    var mRes = await fetch('data/history/manifest.json');
+    if (mRes.ok) manifest = await mRes.json();
+  } catch (e) { /* manifest is optional */ }
 
   // 1. Overview: insights + network metrics
   dashboard.innerHTML = '<div id="overview"><div class="section-header">Overview</div>' + renderInsights(snap) + renderTiers(snap, registry) + '</div>';
@@ -49,6 +54,11 @@
 
   // 4. Network Infrastructure
   dashboard.innerHTML += renderNetworkInfra(snap);
+
+  // 5. Historical Snapshots
+  if (manifest && manifest.length > 0) {
+    dashboard.innerHTML += renderHistory(manifest);
+  }
 
   // Wire up expand toggles
   document.querySelectorAll('.expand-toggle').forEach(function (btn) {
@@ -618,6 +628,65 @@ function renderCandidateCard(app) {
     html += '<p class="note">No public endpoints found</p>';
   }
   if (app.note) html += '<p class="note" style="margin-top:0.5rem">' + esc(app.note) + '</p>';
+  html += '</div>';
+  return html;
+}
+
+function renderSignals(manifest) {
+  if (!manifest || manifest.length === 0) return '';
+  var latest = manifest[0];
+  var sig = latest.signals;
+  if (!sig) return '';
+  var html = '';
+  if (sig.newApps && sig.newApps.length > 0) {
+    html += '<div class="signal-block signal-warn">';
+    html += '<strong>\u26a0 ' + sig.newApps.length + ' new app' + (sig.newApps.length > 1 ? 's' : '') + ' detected since last run</strong>';
+    html += ' \u2014 consider reviewing for integration: ' + esc(sig.newApps.join(', '));
+    html += '</div>';
+  }
+  if (sig.newData && sig.newData.length > 0) {
+    html += '<div class="signal-block signal-ok">';
+    html += '<strong>\u2713 ' + sig.newData.length + ' app' + (sig.newData.length > 1 ? 's' : '') + ' now have public data</strong>';
+    html += ' \u2014 consider adding metrics: ' + esc(sig.newData.map(function(d) { return d.app + ' (' + d.from + ' \u2192 ' + d.to + ')'; }).join(', '));
+    html += '</div>';
+  }
+  return html;
+}
+
+function renderHistory(manifest) {
+  if (!manifest || manifest.length === 0) return '';
+
+  var html = '<div class="section-header">Historical Snapshots</div>';
+  html += '<div class="card">';
+  html += renderSignals(manifest);
+  html += '<table class="data-table"><thead><tr>';
+  html += '<th>Fetched</th><th class="number">TVL</th><th class="number">CC Price</th>';
+  html += '<th>Top App (7d)</th><th class="number">App Rewards %</th><th></th>';
+  html += '</tr></thead><tbody>';
+
+  for (var i = 0; i < manifest.length; i++) {
+    var entry = manifest[i];
+    var d = new Date(entry.lastUpdated);
+    var dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) +
+      ', ' + String(d.getUTCHours()).padStart(2, '0') + ':' + String(d.getUTCMinutes()).padStart(2, '0') + ' UTC';
+    var tvlStr = entry.tvlUsd != null ? fUsd(entry.tvlUsd) : '--';
+    var priceStr = entry.ccPriceUsd != null ? '$' + Number(entry.ccPriceUsd).toFixed(4) : '--';
+    var topAppStr = entry.topApp ? esc(entry.topApp.name) : '--';
+    var rewardsPctStr = entry.appRewardsShareOfMinting != null ? fPct(entry.appRewardsShareOfMinting * 100, 0) : '--';
+    var dlLink = '<a href="data/history/' + esc(entry.file) + '" download style="font-size:0.75rem;color:var(--accent)">\u2193 JSON</a>';
+
+    var rowStyle = i === 0 ? ' style="font-weight:500"' : '';
+    html += '<tr' + rowStyle + '>';
+    html += '<td style="white-space:nowrap">' + dateStr + '</td>';
+    html += '<td class="number">' + tvlStr + '</td>';
+    html += '<td class="number">' + priceStr + '</td>';
+    html += '<td>' + topAppStr + '</td>';
+    html += '<td class="number">' + rewardsPctStr + '</td>';
+    html += '<td>' + dlLink + '</td>';
+    html += '</tr>';
+  }
+
+  html += '</tbody></table>';
   html += '</div>';
   return html;
 }

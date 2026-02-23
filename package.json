@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Canton ecosystem activity dashboard",
   "scripts": {
-    "fetch": "node scripts/fetch-data.js"
+    "fetch": "node scripts/fetch-data.js",
+    "scrape": "node scripts/scrape-cantonscan.js",
+    "archive": "node scripts/archive-snapshot.js"
   },
   "keywords": [],
   "author": "",
