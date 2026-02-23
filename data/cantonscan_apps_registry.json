@@ -26,10 +26,10 @@
   {
     "appName": "cantonloop-mainnet-1",
     "baseName": "cantonloop",
-    "category": "Explorer/Infra",
+    "category": "Wallet",
     "confidence": 100,
     "websiteGuess": "https://lighthouse.cantonloop.com",
-    "note": "Canton Network explorer by 5N"
+    "note": "5N Loop wallet / explorer"
   },
   {
     "appName": "cantonnodes-validator-1",
@@ -42,7 +42,7 @@
   {
     "appName": "CoinMetrics-validator-1",
     "baseName": "coinmetrics",
-    "category": "Data/Analytics",
+    "category": "Explorer/Infra",
     "confidence": 100,
     "websiteGuess": "https://coinmetrics.io",
     "note": "Crypto data & analytics"
@@ -52,7 +52,7 @@
     "baseName": "cygnet",
     "category": "DEX/AMM",
     "confidence": 100,
-    "websiteGuess": null,
+    "websiteGuess": "https://cygnet.finance",
     "note": "Canton DeFi protocol"
   },
   {
@@ -84,7 +84,7 @@
     "baseName": "hecto-finance",
     "category": "Lending",
     "confidence": 100,
-    "websiteGuess": null,
+    "websiteGuess": "https://hectofinance.com",
     "note": "Canton DeFi protocol"
   },
   {
@@ -130,18 +130,18 @@
   {
     "appName": "pixelplex-mainnet-3",
     "baseName": "pixelplex",
-    "category": "Dev/Agency",
+    "category": "Explorer/Infra",
     "confidence": 100,
     "websiteGuess": "https://pixelplex.io",
-    "note": "Builds Canton wallets and dApps"
+    "note": "Canton exchange development"
   },
   {
     "appName": "proofgroup-validator-1",
     "baseName": "proofgroup",
     "category": "Validator/Infra",
     "confidence": 100,
-    "websiteGuess": null,
-    "note": "Blockchain infrastructure (proofgroup.com unreachable)"
+    "websiteGuess": "https://proofgroup.com",
+    "note": "Blockchain infrastructure"
   },
   {
     "appName": "Republic-validator-1",
@@ -212,7 +212,7 @@
     "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
     "confidence": 90,
-    "websiteGuess": "https://cantor8.tech",
+    "websiteGuess": "https://cantor8.tech/digik",
     "note": "DigiK - Canton gateway"
   },
   {
@@ -286,6 +286,62 @@
     "confidence": 90,
     "websiteGuess": "https://zodia.io",
     "note": "Standard Chartered crypto custody"
+  },
+  {
+    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
+    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://www.pcrisk.com/removal-guides/34052-fake-canton-network-website-scam",
+    "note": "Fake Canton Network Website Scam - Removal and recovery steps - PCrisk"
+  },
+  {
+    "appName": "auth0_007c68129abae6733ca8b889162e",
+    "baseName": "auth0007c68129abae6733ca8b889162e",
+    "category": "Explorer/Infra",
+    "confidence": 65,
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
+  },
+  {
+    "appName": "auth0_007c689b657291598790daabbdca",
+    "baseName": "auth0007c689b657291598790daabbdca",
+    "category": "Tokenized Assets",
+    "confidence": 65,
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
+  },
+  {
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
+    "category": "Explorer/Infra",
+    "confidence": 65,
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
+  },
+  {
+    "appName": "auth0_007c6944217743c3f0b43f0a8285",
+    "baseName": "auth0007c6944217743c3f0b43f0a8285",
+    "category": "Explorer/Infra",
+    "confidence": 65,
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
+  },
+  {
+    "appName": "google-oauth2_007c106967619021219072829",
+    "baseName": "google-oauth2007c106967619021219072829",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://developers.google.com/identity/protocols/oauth2",
+    "note": "Using OAuth 2.0 to Access Google APIs - Google Developers"
+  },
+  {
+    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
+    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "acme-lending",
@@ -384,14 +440,6 @@
     "note": "Canton validator"
   },
   {
-    "appName": "openvector-wallet-1",
-    "baseName": "openvector-wallet",
-    "category": "Wallet",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "OpenVector wallet"
-  },
-  {
     "appName": "palladium-validator-1",
     "baseName": "palladium",
     "category": "Validator/Infra",
@@ -480,6 +528,46 @@
     "note": "Vala Canton wallet"
   },
   {
+    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
+    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
+  },
+  {
+    "appName": "4e667aab-9089-400b-9485-74d73732f068",
+    "baseName": "4e667aab-9089-400b-9485-74d73732f068",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
+    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
+  },
+  {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://miniwebtool.com/mac-address-analyzer/",
+    "note": "MAC Address Analyzer - MiniWebtool"
+  },
+  {
+    "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://support.hp.com/us-en/drivers",
+    "note": "Official HP® Drivers and Software Download | HP® Support"
+  },
+  {
+    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/application-popup-event-26---windows-11-24h2/4404336",
+    "note": "Application popup Event 26 - Windows 11 24H2 | Microsoft Community Hub"
+  },
+  {
     "appName": "sunthycloud-mainnet-1",
     "baseName": "sunthycloud",
     "category": "Unknown",
@@ -488,68 +576,12 @@
     "note": "Canton cloud service"
   },
   {
-    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
-    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c68129abae6733ca8b889162e",
-    "baseName": "auth0007c68129abae6733ca8b889162e",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c689b657291598790daabbdca",
-    "baseName": "auth0007c689b657291598790daabbdca",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
-    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c6944217743c3f0b43f0a8285",
-    "baseName": "auth0007c6944217743c3f0b43f0a8285",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "desyn",
-    "baseName": "desyn",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": "Canton app"
-  },
-  {
     "appName": "foundinalsunthy-mainnet-1",
     "baseName": "foundinalsunthy",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "google-oauth2_007c106967619021219072829",
-    "baseName": "google-oauth2007c106967619021219072829",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "kairo-mainnet",
@@ -606,53 +638,5 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "4e667aab-9089-400b-9485-74d73732f068",
-    "baseName": "4e667aab-9089-400b-9485-74d73732f068",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
-    "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
   }
 ]
