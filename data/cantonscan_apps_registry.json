@@ -292,8 +292,8 @@
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://www.pcrisk.com/removal-guides/34052-fake-canton-network-website-scam",
-    "note": "Fake Canton Network Website Scam - Removal and recovery steps - PCrisk"
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
@@ -306,7 +306,7 @@
   {
     "appName": "auth0_007c689b657291598790daabbdca",
     "baseName": "auth0007c689b657291598790daabbdca",
-    "category": "Tokenized Assets",
+    "category": "Identity/Auth",
     "confidence": 65,
     "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
     "note": "Canton price today, CC to USD live price, marketcap and chart ..."
@@ -332,8 +332,8 @@
     "baseName": "google-oauth2007c106967619021219072829",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://developers.google.com/identity/protocols/oauth2",
-    "note": "Using OAuth 2.0 to Access Google APIs - Google Developers"
+    "websiteGuess": "https://developers.google.com/identity/account-linking/oauth-linking",
+    "note": "Google Account Linking with OAuth | Google for Developers"
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
@@ -548,24 +548,24 @@
     "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://miniwebtool.com/mac-address-analyzer/",
-    "note": "MAC Address Analyzer - MiniWebtool"
+    "websiteGuess": "https://maclookup.app/",
+    "note": "MAC Address Vendor Lookup | MAC Address Lookup"
   },
   {
     "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://support.hp.com/us-en/drivers",
-    "note": "Official HP® Drivers and Software Download | HP® Support"
+    "websiteGuess": "https://maclookup.app/",
+    "note": "MAC Address Vendor Lookup | MAC Address Lookup"
   },
   {
     "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/application-popup-event-26---windows-11-24h2/4404336",
-    "note": "Application popup Event 26 - Windows 11 24H2 | Microsoft Community Hub"
+    "websiteGuess": "https://maclookup.app/",
+    "note": "MAC Address Vendor Lookup | MAC Address Lookup"
   },
   {
     "appName": "sunthycloud-mainnet-1",

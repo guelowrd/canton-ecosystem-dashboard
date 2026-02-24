@@ -1,5 +1,23 @@
 [
   {
+    "file": "snapshot-2026-02-24_0050.json",
+    "lastUpdated": "2026-02-24T00:50:18.462Z",
+    "tvlUsd": 1709416.5378132472,
+    "ccPriceUsd": 0.16187345391922678,
+    "topApp": {
+      "name": "CantonLoop",
+      "rewardsCC": 17347170.532460008
+    },
+    "appRewardsShareOfMinting": 66.1421666664389,
+    "activeValidators": 755,
+    "signals": {
+      "newApps": [
+        "blackmantacapital-primary-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-02-23_1503.json",
     "lastUpdated": "2026-02-23T15:03:55.646Z",
     "tvlUsd": 1725368.0146258208,

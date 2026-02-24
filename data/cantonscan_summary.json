@@ -7,11 +7,11 @@
     "DEX/AMM": 4,
     "Wallet": 9,
     "Explorer/Infra": 11,
-    "Tokenized Assets": 5,
+    "Tokenized Assets": 4,
     "Lending": 2,
     "Orderbook/CLOB": 2,
     "Prediction Markets": 2,
-    "Identity/Auth": 5,
+    "Identity/Auth": 6,
     "Bridge": 1,
     "Payments": 1,
     "Unknown": 14
