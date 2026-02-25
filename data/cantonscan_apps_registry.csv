@@ -35,19 +35,18 @@ nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortr
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
 the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Identity/Auth,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Explorer/Infra,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
 auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
 auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Auth,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
-auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Explorer/Infra,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
+auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
 auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Explorer/Infra,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
-google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,65,https://developers.google.com/identity/account-linking/oauth-linking,Google Account Linking with OAuth | Google for Developers
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://docs.digitalasset.com/build/3.4/explanations/parties-users.html,Parties and users on a Canton ledger — Digital Asset&#x27;s platform ...
+google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,65,https://developers.google.com/identity/protocols/oauth2,Using OAuth 2.0 to Access Google APIs - Google Developers
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://lighthouse.cantonloop.com/,5N Lighthouse Explorer
 acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
 CantonSwap,cantonswap,DEX/AMM,55,,Canton swap protocol
 ccbrowser,ccbrowser,Explorer/Infra,55,,Canton Coin browser
-DStash,dstash,Wallet,55,,Canton stash wallet
 handlpay-main-1,handlpay-main,Payments,55,,Canton payment service
 Hashrupt-Verity,hashrupt-verity,Identity/Auth,55,,Verification service
 iBTC-validator-1,ibtc,Validator/Infra,55,,iBTC validator
@@ -60,16 +59,15 @@ PotamusEngagement-validator-1,potamusengagement,Validator/Infra,55,,Canton valid
 send-safe,safe,Wallet,55,,Safe send interface
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
-Thetamarkets,thetamarkets,Prediction Markets,55,,Markets protocol
 TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
 TRIZEGroup-RIZEScore,trizegroup-rizescore,Identity/Auth,55,,TRIZE Group identity score
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 ValaWallet-validator-1,valawallet,Wallet,55,,Vala Canton wallet
 23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,50,https://miniwebtool.com/mac-address-lookup/,MAC Address Lookup - Identify Device Manufacturer by MAC Address
-4e667aab-9089-400b-9485-74d73732f068,4e667aab-9089-400b-9485-74d73732f068,Unknown,50,https://miniwebtool.com/mac-address-lookup/,MAC Address Lookup - Identify Device Manufacturer by MAC Address
+4e667aab-9089-400b-9485-74d73732f068,4e667aab-9089-400b-9485-74d73732f068,Unknown,50,https://forum.bambulab.com/t/error-0500-400b/180335,Error 0500-400B - General Discussions - Bambu Lab Community Forum
 8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://maclookup.app/,MAC Address Vendor Lookup | MAC Address Lookup
-931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,50,https://maclookup.app/,MAC Address Vendor Lookup | MAC Address Lookup
-party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://maclookup.app/,MAC Address Vendor Lookup | MAC Address Lookup
+931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,50,https://miniwebtool.com/mac-address-lookup/,MAC Address Lookup - Identify Device Manufacturer by MAC Address
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://learn.microsoft.com/en-us/power-platform/admin/apps-to-allow,Commonly used Microsoft first-party services and portal apps
 sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
 foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
 kairo-mainnet,kairo,Unknown,30,,Canton app

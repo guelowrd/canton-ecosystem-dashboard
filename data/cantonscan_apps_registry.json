@@ -290,7 +290,7 @@
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Identity/Auth",
+    "category": "Explorer/Infra",
     "confidence": 65,
     "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
     "note": "Canton price today, CC to USD live price, marketcap and chart ..."
@@ -316,8 +316,8 @@
     "baseName": "auth0007c691c4d28726455d23d1aa6dd",
     "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
-    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
+    "websiteGuess": "https://ccview.io/",
+    "note": "Real‑time Canton Network Analytics | Canton Explorer"
   },
   {
     "appName": "auth0_007c6944217743c3f0b43f0a8285",
@@ -332,16 +332,16 @@
     "baseName": "google-oauth2007c106967619021219072829",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://developers.google.com/identity/account-linking/oauth-linking",
-    "note": "Google Account Linking with OAuth | Google for Developers"
+    "websiteGuess": "https://developers.google.com/identity/protocols/oauth2",
+    "note": "Using OAuth 2.0 to Access Google APIs - Google Developers"
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Explorer/Infra",
     "confidence": 60,
-    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
-    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
+    "websiteGuess": "https://lighthouse.cantonloop.com/",
+    "note": "5N Lighthouse Explorer"
   },
   {
     "appName": "acme-lending",
@@ -382,14 +382,6 @@
     "confidence": 55,
     "websiteGuess": null,
     "note": "Canton Coin browser"
-  },
-  {
-    "appName": "DStash",
-    "baseName": "dstash",
-    "category": "Wallet",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Canton stash wallet"
   },
   {
     "appName": "handlpay-main-1",
@@ -488,14 +480,6 @@
     "note": "Canton validator"
   },
   {
-    "appName": "Thetamarkets",
-    "baseName": "thetamarkets",
-    "category": "Prediction Markets",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Markets protocol"
-  },
-  {
     "appName": "TRIZEGroup-cantonMainnetValidator-1",
     "baseName": "trizegroup-cantonmainnetvalidator",
     "category": "Validator/Infra",
@@ -540,8 +524,8 @@
     "baseName": "4e667aab-9089-400b-9485-74d73732f068",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
-    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
+    "websiteGuess": "https://forum.bambulab.com/t/error-0500-400b/180335",
+    "note": "Error 0500-400B - General Discussions - Bambu Lab Community Forum"
   },
   {
     "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
@@ -556,16 +540,16 @@
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://maclookup.app/",
-    "note": "MAC Address Vendor Lookup | MAC Address Lookup"
+    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
+    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
   },
   {
     "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://maclookup.app/",
-    "note": "MAC Address Vendor Lookup | MAC Address Lookup"
+    "websiteGuess": "https://learn.microsoft.com/en-us/power-platform/admin/apps-to-allow",
+    "note": "Commonly used Microsoft first-party services and portal apps"
   },
   {
     "appName": "sunthycloud-mainnet-1",
