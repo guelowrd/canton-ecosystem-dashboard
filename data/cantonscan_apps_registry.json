@@ -288,6 +288,22 @@
     "note": "Standard Chartered crypto custody"
   },
   {
+    "appName": "tradefast-mainnet-1",
+    "baseName": "tradefast",
+    "category": "Unknown",
+    "confidence": 80,
+    "websiteGuess": "https://soft.tradefast.us/login",
+    "note": "User Login | Tradefast"
+  },
+  {
+    "appName": "opus28-opusaccess-1",
+    "baseName": "opus28-opusaccess",
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "websiteGuess": "https://docs.digitalasset.com/index.html",
+    "note": "Digital Asset&#x27;s platform documentation"
+  },
+  {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
     "category": "Explorer/Infra",
@@ -316,13 +332,13 @@
     "baseName": "auth0007c691c4d28726455d23d1aa6dd",
     "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
     "appName": "auth0_007c6944217743c3f0b43f0a8285",
     "baseName": "auth0007c6944217743c3f0b43f0a8285",
-    "category": "Explorer/Infra",
+    "category": "Identity/Auth",
     "confidence": 65,
     "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
     "note": "Canton price today, CC to USD live price, marketcap and chart ..."
@@ -432,6 +448,14 @@
     "note": "Canton validator"
   },
   {
+    "appName": "openvector-wallet-1",
+    "baseName": "openvector-wallet",
+    "category": "Wallet",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "OpenVector wallet"
+  },
+  {
     "appName": "palladium-validator-1",
     "baseName": "palladium",
     "category": "Validator/Infra",
@@ -516,16 +540,8 @@
     "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
-    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
-  },
-  {
-    "appName": "4e667aab-9089-400b-9485-74d73732f068",
-    "baseName": "4e667aab-9089-400b-9485-74d73732f068",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://forum.bambulab.com/t/error-0500-400b/180335",
-    "note": "Error 0500-400B - General Discussions - Bambu Lab Community Forum"
+    "websiteGuess": "https://learn.microsoft.com/en-us/answers/questions/1282370/microsoft-windows-unquoted-service-path-enumeratio",
+    "note": "Microsoft Windows Unquoted Service Path Enumeration vulnerability"
   },
   {
     "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
@@ -540,16 +556,16 @@
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
-    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
+    "websiteGuess": "https://support.hp.com/us-en/drivers",
+    "note": "Official HP® Drivers and Software Download | HP® Support"
   },
   {
     "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://learn.microsoft.com/en-us/power-platform/admin/apps-to-allow",
-    "note": "Commonly used Microsoft first-party services and portal apps"
+    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in",
+    "note": "Verify first-party Microsoft applications in sign-in reports"
   },
   {
     "appName": "sunthycloud-mainnet-1",

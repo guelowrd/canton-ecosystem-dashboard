@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-02-26_0051.json",
+    "lastUpdated": "2026-02-26T00:51:55.661Z",
+    "tvlUsd": 1733413.3604733744,
+    "ccPriceUsd": 0.16800282101381098,
+    "topApp": {
+      "name": "Temple",
+      "rewardsCC": 19425553.810801752
+    },
+    "appRewardsShareOfMinting": 66.09156590372092,
+    "activeValidators": 777,
+    "signals": {
+      "newApps": [
+        "tradefast-mainnet-1",
+        "opus28-opusaccess-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-02-25_0057.json",
     "lastUpdated": "2026-02-25T00:57:36.095Z",
     "tvlUsd": 1699164.897906104,
