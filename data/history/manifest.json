@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-02-27_0055.json",
+    "lastUpdated": "2026-02-27T00:55:44.838Z",
+    "tvlUsd": 1758827.0048727351,
+    "ccPriceUsd": 0.17213531872289625,
+    "topApp": {
+      "name": "Temple",
+      "rewardsCC": 19153016.127739333
+    },
+    "appRewardsShareOfMinting": 66.33619436440125,
+    "activeValidators": 780,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-02-26_0051.json",
     "lastUpdated": "2026-02-26T00:51:55.661Z",
     "tvlUsd": 1733413.3604733744,
