@@ -1,9 +1,9 @@
 app_name,base_name,category,confidence,website_guess,note
-12200225...83122:11,122002258312211,Explorer/Infra,75,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+12200225...83122:11,122002258312211,Explorer/Infra,75,https://www.prnewswire.com/news-releases/chainlink-now-live-on-canton-accelerating-institutional-grade-tokenization-at-scale-302696344.html,"Chainlink Now Live on Canton, Accelerating Institutional-Grade ..."
 12200cfc...d527c8:1,12200cfcd527c81,Explorer/Infra,75,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-12201d25...e42121:1,12201d25e421211,Tokenized Assets,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
-12204739...ec896e:1,12204739ec896e1,Explorer/Infra,75,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-12205347...0db697:1,122053470db6971,Explorer/Infra,75,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+12201d25...e42121:1,12201d25e421211,Tokenized Assets,75,https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html,Canton Network Overview — Digital Asset&#x27;s platform documentation
+122033ec...65c855:1,122033ec65c8551,Explorer/Infra,75,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+12205347...0db697:1,122053470db6971,Explorer/Infra,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
 1220b8c1...ebdff7:0,1220b8c1ebdff70,Explorer/Infra,75,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
 1220f273...690bf0:1,1220f273690bf01,Explorer/Infra,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
 Featured Apps,featuredapps,Explorer/Infra,75,https://canton.foundation/featured-app-request/,Featured App Request - Canton Foundation
@@ -82,7 +82,6 @@ Featured Apps,featuredapps,Explorer/Infra,75,https://canton.foundation/featured-
 12203220...3f2145:1,122032203f21451,Unknown,30,,
 12203276...7ac82e:1,122032767ac82e1,Unknown,30,,
 122032e4...a0fd3e:1,122032e4a0fd3e1,Unknown,30,,
-122033ec...65c855:1,122033ec65c8551,Unknown,30,,
 12203552...f67062:0,12203552f670620,Unknown,30,,
 12203590...c79b04:1,12203590c79b041,Unknown,30,,
 12203706...dd5cf3:0,12203706dd5cf30,Unknown,30,,
@@ -112,6 +111,7 @@ Featured Apps,featuredapps,Explorer/Infra,75,https://canton.foundation/featured-
 12204669...51ab17:1,1220466951ab171,Unknown,30,,
 122046ae...b98dc4:1,122046aeb98dc41,Unknown,30,,
 12204717...09b25c:1,1220471709b25c1,Unknown,30,,
+12204739...ec896e:1,12204739ec896e1,Unknown,30,,
 122047e3...15f9ff:0,122047e315f9ff0,Unknown,30,,
 122047e3...15f9ff:8,122047e315f9ff8,Unknown,30,,
 122048d4...d18cb9:1,122048d4d18cb91,Unknown,30,,

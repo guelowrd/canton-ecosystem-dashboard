@@ -4,8 +4,8 @@
     "baseName": "122002258312211",
     "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://www.prnewswire.com/news-releases/chainlink-now-live-on-canton-accelerating-institutional-grade-tokenization-at-scale-302696344.html",
+    "note": "Chainlink Now Live on Canton, Accelerating Institutional-Grade ..."
   },
   {
     "appName": "12200cfc...d527c8:1",
@@ -20,12 +20,12 @@
     "baseName": "12201d25e421211",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
+    "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation"
   },
   {
-    "appName": "12204739...ec896e:1",
-    "baseName": "12204739ec896e1",
+    "appName": "122033ec...65c855:1",
+    "baseName": "122033ec65c8551",
     "category": "Explorer/Infra",
     "confidence": 75,
     "websiteGuess": "https://ccview.io/",
@@ -36,8 +36,8 @@
     "baseName": "122053470db6971",
     "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
   },
   {
     "appName": "1220b8c1...ebdff7:0",
@@ -664,14 +664,6 @@
     "note": null
   },
   {
-    "appName": "122033ec...65c855:1",
-    "baseName": "122033ec65c8551",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "12203552...f67062:0",
     "baseName": "12203552f670620",
     "category": "Unknown",
@@ -898,6 +890,14 @@
   {
     "appName": "12204717...09b25c:1",
     "baseName": "1220471709b25c1",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "12204739...ec896e:1",
+    "baseName": "12204739ec896e1",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,

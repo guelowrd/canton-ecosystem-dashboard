@@ -1,5 +1,23 @@
 [
   {
+    "file": "snapshot-2026-03-01_0108.json",
+    "lastUpdated": "2026-03-01T01:08:39.970Z",
+    "tvlUsd": 1754182.6435224111,
+    "ccPriceUsd": 0.1685946738255848,
+    "topApp": {
+      "name": "CantonLoop",
+      "rewardsCC": 19666329.22626662
+    },
+    "appRewardsShareOfMinting": 43.13651836559331,
+    "activeValidators": 785,
+    "signals": {
+      "newApps": [
+        "122033ec...65c855:1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-02-28_0058.json",
     "lastUpdated": "2026-02-28T00:58:21.625Z",
     "tvlUsd": 1749178.5166267883,
