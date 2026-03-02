@@ -1,5 +1,39 @@
 [
   {
+    "file": "snapshot-2026-03-02_0055.json",
+    "lastUpdated": "2026-03-02T00:55:10.484Z",
+    "tvlUsd": 1713900.1799372835,
+    "ccPriceUsd": 0.16122047150994478,
+    "topApp": {
+      "name": "CantonLoop",
+      "rewardsCC": 18896490.930805232
+    },
+    "appRewardsShareOfMinting": 42.55525761655573,
+    "activeValidators": 786,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "validator_Hashnote",
+        "cantor8-digik-1",
+        "dfns1",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "the_tie_validator",
+        "ZodiaCustody-validator-1",
+        "Cantoracle"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-01_0108.json",
     "lastUpdated": "2026-03-01T01:08:39.970Z",
     "tvlUsd": 1754182.6435224111,

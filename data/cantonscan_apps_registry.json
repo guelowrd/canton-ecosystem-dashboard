@@ -1,3050 +1,666 @@
 [
   {
-    "appName": "12200225...83122:11",
-    "baseName": "122002258312211",
-    "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://www.prnewswire.com/news-releases/chainlink-now-live-on-canton-accelerating-institutional-grade-tokenization-at-scale-302696344.html",
-    "note": "Chainlink Now Live on Canton, Accelerating Institutional-Grade ..."
+    "appName": "Bitgo-mainnetValidator-1",
+    "baseName": "bitgo",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://bitgo.com",
+    "note": "Digital asset custody & infrastructure"
   },
   {
-    "appName": "12200cfc...d527c8:1",
-    "baseName": "12200cfcd527c81",
-    "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "appName": "ByBit-MainNetValidator-1",
+    "baseName": "bybit",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://bybit.com",
+    "note": "Crypto exchange validator"
   },
   {
-    "appName": "12201d25...e42121:1",
-    "baseName": "12201d25e421211",
+    "appName": "Cantex-validator-1",
+    "baseName": "cantex",
+    "category": "DEX/AMM",
+    "confidence": 100,
+    "websiteGuess": "https://cantex.io",
+    "note": "Canton DEX by CaviarNine"
+  },
+  {
+    "appName": "cantonloop-mainnet-1",
+    "baseName": "cantonloop",
+    "category": "Wallet",
+    "confidence": 100,
+    "websiteGuess": "https://lighthouse.cantonloop.com",
+    "note": "5N Loop wallet / explorer"
+  },
+  {
+    "appName": "cantonnodes-validator-1",
+    "baseName": "cantonnodes",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://cantonnodes.com",
+    "note": "Canton RPC & node services"
+  },
+  {
+    "appName": "CoinMetrics-validator-1",
+    "baseName": "coinmetrics",
+    "category": "Explorer/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://coinmetrics.io",
+    "note": "Crypto data & analytics"
+  },
+  {
+    "appName": "Cygnet",
+    "baseName": "cygnet",
+    "category": "DEX/AMM",
+    "confidence": 100,
+    "websiteGuess": "https://cygnet.finance",
+    "note": "Canton DeFi protocol"
+  },
+  {
+    "appName": "cypherock-mainnet-1",
+    "baseName": "cypherock",
+    "category": "Wallet",
+    "confidence": 100,
+    "websiteGuess": "https://cypherock.com",
+    "note": "Hardware wallet with Canton support"
+  },
+  {
+    "appName": "Fairmint-validator-1",
+    "baseName": "fairmint",
     "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
-    "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation"
+    "confidence": 100,
+    "websiteGuess": "https://fairmint.com",
+    "note": "Equity & token issuance"
   },
   {
-    "appName": "122033ec...65c855:1",
-    "baseName": "122033ec65c8551",
+    "appName": "flipside-validator-1",
+    "baseName": "flipside",
     "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "confidence": 100,
+    "websiteGuess": "https://flipsidecrypto.xyz",
+    "note": "Onchain analytics"
   },
   {
-    "appName": "12205347...0db697:1",
-    "baseName": "122053470db6971",
+    "appName": "HIFI-validator-1",
+    "baseName": "hifi",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://hifi.finance",
+    "note": "Fixed-rate lending protocol"
+  },
+  {
+    "appName": "IntellectEU-validator-1",
+    "baseName": "intellecteu",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://intellecteu.com",
+    "note": "Enterprise blockchain solutions"
+  },
+  {
+    "appName": "kraken-validator-01",
+    "baseName": "kraken",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://kraken.com",
+    "note": "Crypto exchange validator"
+  },
+  {
+    "appName": "mexc-mainNet-01",
+    "baseName": "mexc",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://mexc.com",
+    "note": "MEXC exchange validator"
+  },
+  {
+    "appName": "Obligate-validator-1",
+    "baseName": "obligate",
+    "category": "Tokenized Assets",
+    "confidence": 100,
+    "websiteGuess": "https://obligate.com",
+    "note": "On-chain bond issuance"
+  },
+  {
+    "appName": "pixelplex-mainnet-3",
+    "baseName": "pixelplex",
     "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "confidence": 100,
+    "websiteGuess": "https://pixelplex.io",
+    "note": "Canton exchange development"
   },
   {
-    "appName": "1220b8c1...ebdff7:0",
-    "baseName": "1220b8c1ebdff70",
+    "appName": "proofgroup-validator-1",
+    "baseName": "proofgroup",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://proofgroup.com",
+    "note": "Blockchain infrastructure"
+  },
+  {
+    "appName": "Republic-validator-1",
+    "baseName": "republic",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://republic.com",
+    "note": "Investment platform validator"
+  },
+  {
+    "appName": "send-cantonwallet-1",
+    "baseName": "cantonwallet",
+    "category": "Wallet",
+    "confidence": 100,
+    "websiteGuess": "https://cantonwallet.com",
+    "note": "Canton Network wallet"
+  },
+  {
+    "appName": "temple-mainnet-1",
+    "baseName": "temple",
+    "category": "Orderbook/CLOB",
+    "confidence": 100,
+    "websiteGuess": "https://app.templedigitalgroup.com",
+    "note": "Institutional CLOB exchange"
+  },
+  {
+    "appName": "TextureCapital-validator-1",
+    "baseName": "texturecapital",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://texturecapital.com",
+    "note": "Digital asset platform"
+  },
+  {
+    "appName": "trakx-validator-1",
+    "baseName": "trakx",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://trakx.io",
+    "note": "Crypto index platform"
+  },
+  {
+    "appName": "validator_Hashnote",
+    "baseName": "hashnote",
+    "category": "Tokenized Assets",
+    "confidence": 100,
+    "websiteGuess": "https://hashnote.com",
+    "note": "Institutional yield products"
+  },
+  {
+    "appName": "binance-dp-1",
+    "baseName": "binance-dp",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://binance.us",
+    "note": "Binance delegation participant"
+  },
+  {
+    "appName": "blackmantacapital-primary-1",
+    "baseName": "blackmantacapital-primary",
+    "category": "Tokenized Assets",
+    "confidence": 90,
+    "websiteGuess": "https://blackmanta.capital",
+    "note": "BaFin-regulated tokenized securities"
+  },
+  {
+    "appName": "cantor8-digik-1",
+    "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "confidence": 90,
+    "websiteGuess": "https://cantor8.tech/digik",
+    "note": "DigiK - Canton gateway"
   },
   {
-    "appName": "1220f273...690bf0:1",
-    "baseName": "1220f273690bf01",
+    "appName": "Cumberland-GasStation-1",
+    "baseName": "cumberland-gasstation",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://cumberland.io",
+    "note": "Cumberland gas station (DRW subsidiary)"
+  },
+  {
+    "appName": "dfns1",
+    "baseName": "dfns1",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://dfns.co",
+    "note": "DFNS wallet infrastructure"
+  },
+  {
+    "appName": "feat-unhedged-app",
+    "baseName": "unhedged-app",
+    "category": "Prediction Markets",
+    "confidence": 90,
+    "websiteGuess": "https://unhedged.gg",
+    "note": "Canton prediction markets"
+  },
+  {
+    "appName": "kucoin-node-01",
+    "baseName": "kucoin-node",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://kucoin.com",
+    "note": "KuCoin validator node"
+  },
+  {
+    "appName": "MPCH-BRONdvn-1",
+    "baseName": "mpch-brondvn",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://mpcvault.com",
+    "note": "MPCH Bron delegation validator"
+  },
+  {
+    "appName": "nodefortress-finance-1",
+    "baseName": "nodefortress-finance",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://nodefortress.io",
+    "note": "Node hosting infrastructure"
+  },
+  {
+    "appName": "noves-translate",
+    "baseName": "noves-translate",
     "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "confidence": 90,
+    "websiteGuess": "https://noves.fi",
+    "note": "Noves Translate API"
   },
   {
-    "appName": "Featured Apps",
-    "baseName": "featuredapps",
+    "appName": "the_tie_validator",
+    "baseName": "thetievalidator",
     "category": "Explorer/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://thetie.io",
+    "note": "Crypto analytics platform"
+  },
+  {
+    "appName": "ZodiaCustody-validator-1",
+    "baseName": "zodiacustody",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://zodia.io",
+    "note": "Standard Chartered crypto custody"
+  },
+  {
+    "appName": "Cantoracle",
+    "baseName": "cantoracle",
+    "category": "Unknown",
+    "confidence": 80,
+    "websiteGuess": "https://cantoracle.com/",
+    "note": "Cantoracle — Real-World Data for Canton"
+  },
+  {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Validator/Infra",
     "confidence": 75,
-    "websiteGuess": "https://canton.foundation/featured-app-request/",
-    "note": "Featured App Request - Canton Foundation"
+    "websiteGuess": "https://www.coindesk.com/business/2025/12/04/canton-network-creator-snags-strategic-investment-from-wall-street-giants",
+    "note": "Wall Street Heavyweights Back Builder of Canton, a Network That ..."
   },
   {
-    "appName": "1220011f...6f448f:0",
-    "baseName": "1220011f6f448f0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220027b...6ec9bd:1",
-    "baseName": "1220027b6ec9bd1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122002b5...234a2e:1",
-    "baseName": "122002b5234a2e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122002c7...92155f:1",
-    "baseName": "122002c792155f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122004d4...4cdfc9:1",
-    "baseName": "122004d44cdfc91",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200515...040e8d:1",
-    "baseName": "12200515040e8d1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200516...4b3c45:1",
-    "baseName": "122005164b3c451",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122006cf...35918e:1",
-    "baseName": "122006cf35918e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200a3c...02d34:11",
-    "baseName": "12200a3c02d3411",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200a61...718cd0:1",
-    "baseName": "12200a61718cd01",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200b28...fd952:11",
-    "baseName": "12200b28fd95211",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200b7c...a6aa9c:1",
-    "baseName": "12200b7ca6aa9c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200c10...c447c5:1",
-    "baseName": "12200c10c447c51",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200c45...5c5cd5:1",
-    "baseName": "12200c455c5cd51",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200e63...2b141a:1",
-    "baseName": "12200e632b141a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200f5b...6ebb2d:0",
-    "baseName": "12200f5b6ebb2d0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12200f83...5d0539:1",
-    "baseName": "12200f835d05391",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122010f2...b6248f:1",
-    "baseName": "122010f2b6248f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122010f2...f78101:1",
-    "baseName": "122010f2f781011",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220115b...f9f03c:1",
-    "baseName": "1220115bf9f03c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122011f2...756abe:1",
-    "baseName": "122011f2756abe1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122012ac...2d12c0:1",
-    "baseName": "122012ac2d12c01",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122012bd...6cfcb4:1",
-    "baseName": "122012bd6cfcb41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201579...4b12e6:1",
-    "baseName": "122015794b12e61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122015e9...d67b43:0",
-    "baseName": "122015e9d67b430",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201632...cc3160:1",
-    "baseName": "12201632cc31601",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201650...3ff07f:0",
-    "baseName": "122016503ff07f0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220165e...154039:1",
-    "baseName": "1220165e1540391",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201682...a5a665:0",
-    "baseName": "12201682a5a6650",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201743...b1dbc4:1",
-    "baseName": "12201743b1dbc41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220179b...4fbedc:1",
-    "baseName": "1220179b4fbedc1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201837...b008cb:0",
-    "baseName": "12201837b008cb0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201854...1bd81f:1",
-    "baseName": "122018541bd81f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122018de...a2e856:1",
-    "baseName": "122018dea2e8561",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122018fa...018899:1",
-    "baseName": "122018fa0188991",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201a2c...2b65e9:0",
-    "baseName": "12201a2c2b65e90",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201c44...e3b5b9:1",
-    "baseName": "12201c44e3b5b91",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201cdf...19404e:0",
-    "baseName": "12201cdf19404e0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201d5e...d3adfc:0",
-    "baseName": "12201d5ed3adfc0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201d72...4682b4:1",
-    "baseName": "12201d724682b41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201e28...f746b2:1",
-    "baseName": "12201e28f746b21",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201e9f...957033:0",
-    "baseName": "12201e9f9570330",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201f42...a758dd:1",
-    "baseName": "12201f42a758dd1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12201f85...b105d0:1",
-    "baseName": "12201f85b105d01",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122020bc...4ae686:1",
-    "baseName": "122020bc4ae6861",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202100...8704be:1",
-    "baseName": "122021008704be1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202365...290055:1",
-    "baseName": "122023652900551",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202441...de6635:1",
-    "baseName": "12202441de66351",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122024bc...31b103:1",
-    "baseName": "122024bc31b1031",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202559...3fe1f7:1",
-    "baseName": "122025593fe1f71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202674...4f6d6e:1",
-    "baseName": "122026744f6d6e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202796...0a78a3:0",
-    "baseName": "122027960a78a30",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122027ed...24ed1:11",
-    "baseName": "122027ed24ed111",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122029a5...566b4e:1",
-    "baseName": "122029a5566b4e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202af0...f985bf:1",
-    "baseName": "12202af0f985bf1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202b0c...f6659e:1",
-    "baseName": "12202b0cf6659e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202b23...233d60:0",
-    "baseName": "12202b23233d600",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202bea...3fa98c:1",
-    "baseName": "12202bea3fa98c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202cca...31e0bb:1",
-    "baseName": "12202cca31e0bb1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202ce6...522977:1",
-    "baseName": "12202ce65229771",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202cfd...b22b32:1",
-    "baseName": "12202cfdb22b321",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202d01...4fab12:1",
-    "baseName": "12202d014fab121",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202dfd...dcba7:11",
-    "baseName": "12202dfddcba711",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202f87...3c865e:1",
-    "baseName": "12202f873c865e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12202fa0...e9249e:1",
-    "baseName": "12202fa0e9249e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220308b...a21a1f:1",
-    "baseName": "1220308ba21a1f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122030a1...2441e0:1",
-    "baseName": "122030a12441e01",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220314a...952e4b:1",
-    "baseName": "1220314a952e4b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203158...0afdb5:1",
-    "baseName": "122031580afdb51",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220315b...fb8121:1",
-    "baseName": "1220315bfb81211",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220315e...5314a8:1",
-    "baseName": "1220315e5314a81",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122031ed...3d2639:1",
-    "baseName": "122031ed3d26391",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203220...3f2145:1",
-    "baseName": "122032203f21451",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203276...7ac82e:1",
-    "baseName": "122032767ac82e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122032e4...a0fd3e:1",
-    "baseName": "122032e4a0fd3e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203552...f67062:0",
-    "baseName": "12203552f670620",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203590...c79b04:1",
-    "baseName": "12203590c79b041",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203706...dd5cf3:0",
-    "baseName": "12203706dd5cf30",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122038ae...6af4d0:1",
-    "baseName": "122038ae6af4d01",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203a56...c18587:1",
-    "baseName": "12203a56c185871",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203a67...69c5f5:1",
-    "baseName": "12203a6769c5f51",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203b05...4b2d9f:1",
-    "baseName": "12203b054b2d9f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203b40...b3482a:1",
-    "baseName": "12203b40b3482a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203bde...c18c77:1",
-    "baseName": "12203bdec18c771",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203c44...c99666:0",
-    "baseName": "12203c44c996660",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203d7d...d0ae3f:1",
-    "baseName": "12203d7dd0ae3f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203d88...69973b:1",
-    "baseName": "12203d8869973b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203d9f...9216ac:1",
-    "baseName": "12203d9f9216ac1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203e0a...195a6e:1",
-    "baseName": "12203e0a195a6e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12203eb3...01d614:0",
-    "baseName": "12203eb301d6140",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220404b...02cdc3:1",
-    "baseName": "1220404b02cdc31",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220405c...23598b:1",
-    "baseName": "1220405c23598b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220413c...b723b7:1",
-    "baseName": "1220413cb723b71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122041c6...6fad21:1",
-    "baseName": "122041c66fad211",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122042b6...d75758:1",
-    "baseName": "122042b6d757581",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204321...5eaf2:11",
-    "baseName": "122043215eaf211",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204370...032b7d:1",
-    "baseName": "12204370032b7d1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220441a...561fb6:1",
-    "baseName": "1220441a561fb61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204492...d4b434:1",
-    "baseName": "12204492d4b4341",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122044e6...5980d3:0",
-    "baseName": "122044e65980d30",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220452e...7b2823:1",
-    "baseName": "1220452e7b28231",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204669...51ab17:1",
-    "baseName": "1220466951ab171",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122046ae...b98dc4:1",
-    "baseName": "122046aeb98dc41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204717...09b25c:1",
-    "baseName": "1220471709b25c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204739...ec896e:1",
-    "baseName": "12204739ec896e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122047e3...15f9ff:0",
-    "baseName": "122047e315f9ff0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122047e3...15f9ff:8",
-    "baseName": "122047e315f9ff8",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122048d4...d18cb9:1",
-    "baseName": "122048d4d18cb91",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204bdb...33323b:1",
-    "baseName": "12204bdb33323b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204d46...5573f3:1",
-    "baseName": "12204d465573f31",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204d58...f30ef5:1",
-    "baseName": "12204d58f30ef51",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204e02...8464ad:1",
-    "baseName": "12204e028464ad1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204e48...e9c111:1",
-    "baseName": "12204e48e9c1111",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204eca...b413da:0",
-    "baseName": "12204ecab413da0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12204f4a...177930:1",
-    "baseName": "12204f4a1779301",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122050f0...a19f94:1",
-    "baseName": "122050f0a19f941",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205167...aebe36:1",
-    "baseName": "12205167aebe361",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205262...db7530:1",
-    "baseName": "12205262db75301",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122052f1...38c316:1",
-    "baseName": "122052f138c3161",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122052f1...6adf13:1",
-    "baseName": "122052f16adf131",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205390...46c6dd:1",
-    "baseName": "1220539046c6dd1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220546a...d81131:1",
-    "baseName": "1220546ad811311",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122054fd...3c6cd9:0",
-    "baseName": "122054fd3c6cd90",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205698...28542:11",
-    "baseName": "122056982854211",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205741...d45990:0",
-    "baseName": "12205741d459900",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122057e3...6a0f16:1",
-    "baseName": "122057e36a0f161",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205910...08b23e:1",
-    "baseName": "1220591008b23e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122059cd...867352:1",
-    "baseName": "122059cd8673521",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205a47...0c326:11",
-    "baseName": "12205a470c32611",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205a4d...702671:1",
-    "baseName": "12205a4d7026711",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205a5e...27f3f:11",
-    "baseName": "12205a5e27f3f11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205a64...473a9a:1",
-    "baseName": "12205a64473a9a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205ad4...bfb0bb:1",
-    "baseName": "12205ad4bfb0bb1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205b70...d1c3e4:0",
-    "baseName": "12205b70d1c3e40",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205bfa...109248:1",
-    "baseName": "12205bfa1092481",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205c2a...bb8b8b:1",
-    "baseName": "12205c2abb8b8b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205c60...e49c44:0",
-    "baseName": "12205c60e49c440",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205d6b...be6e2e:0",
-    "baseName": "12205d6bbe6e2e0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205d6e...82cd28:0",
-    "baseName": "12205d6e82cd280",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205d98...10e753:1",
-    "baseName": "12205d9810e7531",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205e3b...8c84f2:0",
-    "baseName": "12205e3b8c84f20",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205ece...904d55:1",
-    "baseName": "12205ece904d551",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205fe7...77595d:1",
-    "baseName": "12205fe777595d1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12205fe7...d306c6:1",
-    "baseName": "12205fe7d306c61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206073...98c839:1",
-    "baseName": "1220607398c8391",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206115...eec114:1",
-    "baseName": "12206115eec1141",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220617f...ebcb23:0",
-    "baseName": "1220617febcb230",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220627e...0f6ad8:1",
-    "baseName": "1220627e0f6ad81",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122062b6...42bfd6:1",
-    "baseName": "122062b642bfd61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206377...f7630b:1",
-    "baseName": "12206377f7630b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122063c4...eb784e:1",
-    "baseName": "122063c4eb784e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206412...022733:1",
-    "baseName": "122064120227331",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206524...aaa189:0",
-    "baseName": "12206524aaa1890",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206529...2add9f:1",
-    "baseName": "122065292add9f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122066cb...8bd2dc:1",
-    "baseName": "122066cb8bd2dc1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122066f2...906fa7:1",
-    "baseName": "122066f2906fa71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122067db...e70e8f:1",
-    "baseName": "122067dbe70e8f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122068b2...730838:1",
-    "baseName": "122068b27308381",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206935...0a79e7:1",
-    "baseName": "122069350a79e71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122069d3...a8451d:1",
-    "baseName": "122069d3a8451d1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206a34...550aa4:1",
-    "baseName": "12206a34550aa41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206b95...314ef6:0",
-    "baseName": "12206b95314ef60",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206c72...a743a6:1",
-    "baseName": "12206c72a743a61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206c89...9c95ad:0",
-    "baseName": "12206c899c95ad0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206e39...209b86:1",
-    "baseName": "12206e39209b861",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206f39...708f6c:1",
-    "baseName": "12206f39708f6c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12206f6a...df2571:1",
-    "baseName": "12206f6adf25711",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207082...ed2ec4:1",
-    "baseName": "12207082ed2ec41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207149...01fcc0:0",
-    "baseName": "1220714901fcc00",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122071a1...547cfd:1",
-    "baseName": "122071a1547cfd1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122072aa...f97bed:1",
-    "baseName": "122072aaf97bed1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122072d0...bb2ac7:1",
-    "baseName": "122072d0bb2ac71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207422...32822c:1",
-    "baseName": "1220742232822c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207438...56b7fc:1",
-    "baseName": "1220743856b7fc1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207480...142263:1",
-    "baseName": "122074801422631",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207498...3ed640:1",
-    "baseName": "122074983ed6401",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207573...8cd9f5:1",
-    "baseName": "122075738cd9f51",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207621...dd2407:1",
-    "baseName": "12207621dd24071",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207658...6a6565:1",
-    "baseName": "122076586a65651",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220775a...511882:1",
-    "baseName": "1220775a5118821",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207b6a...18edee:1",
-    "baseName": "12207b6a18edee1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207b92...9b4018:0",
-    "baseName": "12207b929b40180",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207c29...6cd631:0",
-    "baseName": "12207c296cd6310",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207c4e...7d3d1b:1",
-    "baseName": "12207c4e7d3d1b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207c58...a11b9a:1",
-    "baseName": "12207c58a11b9a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207c77...39a363:1",
-    "baseName": "12207c7739a3631",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207df9...492bc8:1",
-    "baseName": "12207df9492bc81",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207e5e...beade3:1",
-    "baseName": "12207e5ebeade31",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207f11...68a89b:0",
-    "baseName": "12207f1168a89b0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12207f40...2dc99b:1",
-    "baseName": "12207f402dc99b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208099...1380d7:1",
-    "baseName": "122080991380d71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208158...bd05af:1",
-    "baseName": "12208158bd05af1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208217...010483:1",
-    "baseName": "122082170104831",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208314...c0c075:1",
-    "baseName": "12208314c0c0751",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122083c5...8fd55d:0",
-    "baseName": "122083c58fd55d0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122084fa...67eb24:0",
-    "baseName": "122084fa67eb240",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122085e9...6fa838:0",
-    "baseName": "122085e96fa8380",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122085f3...6e6380:1",
-    "baseName": "122085f36e63801",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220877b...1e1a7e:1",
-    "baseName": "1220877b1e1a7e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208949...5c60f5:1",
-    "baseName": "122089495c60f51",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208a7e...6aa620:1",
-    "baseName": "12208a7e6aa6201",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208abf...cd1f07:1",
-    "baseName": "12208abfcd1f071",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208aea...7f6ef2:1",
-    "baseName": "12208aea7f6ef21",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208af2...706b65:1",
-    "baseName": "12208af2706b651",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208b41...e349f3:0",
-    "baseName": "12208b41e349f30",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208d28...cc7d56:0",
-    "baseName": "12208d28cc7d560",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208e67...56f311:1",
-    "baseName": "12208e6756f3111",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208e80...89840e:1",
-    "baseName": "12208e8089840e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208ea0...2586e:11",
-    "baseName": "12208ea02586e11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208f19...fec463:1",
-    "baseName": "12208f19fec4631",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12208fc8...5c4ce6:1",
-    "baseName": "12208fc85c4ce61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209166...44ac0a:1",
-    "baseName": "1220916644ac0a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209215...cb729a:1",
-    "baseName": "12209215cb729a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220928a...745a74:1",
-    "baseName": "1220928a745a741",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220931c...927da4:1",
-    "baseName": "1220931c927da41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209335...759087:1",
-    "baseName": "122093357590871",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122093a4...3a9c03:1",
-    "baseName": "122093a43a9c031",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "122097fb...3113ff:1",
-    "baseName": "122097fb3113ff1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209a0e...b5b4cf:0",
-    "baseName": "12209a0eb5b4cf0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209a51...71f000:0",
-    "baseName": "12209a5171f0000",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209a6f...0a5ad5:0",
-    "baseName": "12209a6f0a5ad50",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209b2b...994f3a:1",
-    "baseName": "12209b2b994f3a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209c03...a4b97c:1",
-    "baseName": "12209c03a4b97c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209ce3...25f7c6:1",
-    "baseName": "12209ce325f7c61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209d5e...5a0bdc:1",
-    "baseName": "12209d5e5a0bdc1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209e4e...194748:1",
-    "baseName": "12209e4e1947481",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209e5c...0eb17e:1",
-    "baseName": "12209e5c0eb17e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209f1f...f8246e:0",
-    "baseName": "12209f1ff8246e0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "12209f1f...f8246e:8",
-    "baseName": "12209f1ff8246e8",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a1d1...99dea2:1",
-    "baseName": "1220a1d199dea21",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a250...5c12a9:0",
-    "baseName": "1220a2505c12a90",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a266...d8a07:11",
-    "baseName": "1220a266d8a0711",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a2c0...893ce0:1",
-    "baseName": "1220a2c0893ce01",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a388...443ea1:1",
-    "baseName": "1220a388443ea11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a3e3...519569:1",
-    "baseName": "1220a3e35195691",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a474...62711a:0",
-    "baseName": "1220a47462711a0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a5e1...eac656:1",
-    "baseName": "1220a5e1eac6561",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a65d...7b1272:1",
-    "baseName": "1220a65d7b12721",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a8ab...5b629f:0",
-    "baseName": "1220a8ab5b629f0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a8e0...941db1:1",
-    "baseName": "1220a8e0941db11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a984...50df97:1",
-    "baseName": "1220a98450df971",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220a98c...866e4e:1",
-    "baseName": "1220a98c866e4e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220aa6b...cdb299:0",
-    "baseName": "1220aa6bcdb2990",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220ab8c...637bf7:0",
-    "baseName": "1220ab8c637bf70",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220acc7...6f2945:1",
-    "baseName": "1220acc76f29451",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220ad90...4ff9b7:1",
-    "baseName": "1220ad904ff9b71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220adaa...1342b:11",
-    "baseName": "1220adaa1342b11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220aeb3...ff027e:1",
-    "baseName": "1220aeb3ff027e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220af01...f854a1:0",
-    "baseName": "1220af01f854a10",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b011...e1b4f7:1",
-    "baseName": "1220b011e1b4f71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b10e...1a0265:1",
-    "baseName": "1220b10e1a02651",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b114...b340f:11",
-    "baseName": "1220b114b340f11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b1bc...518f4a:1",
-    "baseName": "1220b1bc518f4a1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b535...51a713:1",
-    "baseName": "1220b53551a7131",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b551...d3539f:1",
-    "baseName": "1220b551d3539f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b5dd...0a7b33:1",
-    "baseName": "1220b5dd0a7b331",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b617...ffa22e:1",
-    "baseName": "1220b617ffa22e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b67d...702246:0",
-    "baseName": "1220b67d7022460",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b6a2...786c27:1",
-    "baseName": "1220b6a2786c271",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b7ee...7ba9a1:1",
-    "baseName": "1220b7ee7ba9a11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220b824...e65802:1",
-    "baseName": "1220b824e658021",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220ba1d...2e1f10:1",
-    "baseName": "1220ba1d2e1f101",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220ba7b...3a62d4:1",
-    "baseName": "1220ba7b3a62d41",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bb00...866597:0",
-    "baseName": "1220bb008665970",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bcc2...0dc314:1",
-    "baseName": "1220bcc20dc3141",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bcd1...1d7f51:1",
-    "baseName": "1220bcd11d7f511",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bd02...c304ad:1",
-    "baseName": "1220bd02c304ad1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bdb7...ec9503:0",
-    "baseName": "1220bdb7ec95030",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bdde...b5a2cd:1",
-    "baseName": "1220bddeb5a2cd1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bea1...f93737:1",
-    "baseName": "1220bea1f937371",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220bfd0...c3ec03:1",
-    "baseName": "1220bfd0c3ec031",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c040...ceee34:1",
-    "baseName": "1220c040ceee341",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c04c...44734:11",
-    "baseName": "1220c04c4473411",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c068...e698ca:1",
-    "baseName": "1220c068e698ca1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c1ad...371c4c:1",
-    "baseName": "1220c1ad371c4c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c2b0...79f029:1",
-    "baseName": "1220c2b079f0291",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c2cf...407853:1",
-    "baseName": "1220c2cf4078531",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c2f0...2c34de:1",
-    "baseName": "1220c2f02c34de1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c31e...f6f97b:1",
-    "baseName": "1220c31ef6f97b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c34f...c8b56d:1",
-    "baseName": "1220c34fc8b56d1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c366...62f412:1",
-    "baseName": "1220c36662f4121",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c39b...5e5f51:1",
-    "baseName": "1220c39b5e5f511",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c3ab...6e0181:1",
-    "baseName": "1220c3ab6e01811",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c5a7...3beaaa:0",
-    "baseName": "1220c5a73beaaa0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c5fe...f89643:0",
-    "baseName": "1220c5fef896430",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c79a...c6605c:1",
-    "baseName": "1220c79ac6605c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c87d...143ea7:1",
-    "baseName": "1220c87d143ea71",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c89a...9a36ee:0",
-    "baseName": "1220c89a9a36ee0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c934...8aecc1:1",
-    "baseName": "1220c9348aecc11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220c9eb...2ebb9c:1",
-    "baseName": "1220c9eb2ebb9c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220cc0c...1c75f3:1",
-    "baseName": "1220cc0c1c75f31",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220ccca...41b447:0",
-    "baseName": "1220ccca41b4470",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220cd9d...55da27:1",
-    "baseName": "1220cd9d55da271",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220cf49...57a61e:1",
-    "baseName": "1220cf4957a61e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220cf9c...85bfba:0",
-    "baseName": "1220cf9c85bfba0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d06f...2a31d6:1",
-    "baseName": "1220d06f2a31d61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d098...163ee7:0",
-    "baseName": "1220d098163ee70",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d1e8...cb51e2:1",
-    "baseName": "1220d1e8cb51e21",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d398...cf9929:1",
-    "baseName": "1220d398cf99291",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d4d4...342317:1",
-    "baseName": "1220d4d43423171",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d563...b7b3b3:1",
-    "baseName": "1220d563b7b3b31",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d5bc...af5342:1",
-    "baseName": "1220d5bcaf53421",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d5c9...e85dd6:1",
-    "baseName": "1220d5c9e85dd61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d5fd...bf9d17:1",
-    "baseName": "1220d5fdbf9d171",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d60b...69da35:0",
-    "baseName": "1220d60b69da350",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d64e...0f126f:1",
-    "baseName": "1220d64e0f126f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d676...af417a:0",
-    "baseName": "1220d676af417a0",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d676...af417a:8",
-    "baseName": "1220d676af417a8",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d6c4...71ae15:1",
-    "baseName": "1220d6c471ae151",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d764...7a074c:1",
-    "baseName": "1220d7647a074c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d7d9...357df6:1",
-    "baseName": "1220d7d9357df61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d8a5...5d4a36:1",
-    "baseName": "1220d8a55d4a361",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d8da...eb754:11",
-    "baseName": "1220d8daeb75411",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d994...f8b5aa:1",
-    "baseName": "1220d994f8b5aa1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220d9de...14740f:1",
-    "baseName": "1220d9de14740f1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220da89...1ee5c:11",
-    "baseName": "1220da891ee5c11",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220dafb...ec6736:1",
-    "baseName": "1220dafbec67361",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220db4e...c78413:1",
-    "baseName": "1220db4ec784131",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220db7c...85560b:1",
-    "baseName": "1220db7c85560b1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220dba7...df3219:0",
-    "baseName": "1220dba7df32190",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220dcbb...8faccd:1",
-    "baseName": "1220dcbb8faccd1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220dccb...27621c:1",
-    "baseName": "1220dccb27621c1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220dcd3...7801e6:1",
-    "baseName": "1220dcd37801e61",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220ddde...4ea63d:1",
-    "baseName": "1220ddde4ea63d1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220de99...5de988:1",
-    "baseName": "1220de995de9881",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220de9b...184889:1",
-    "baseName": "1220de9b1848891",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220deb3...e18347:1",
-    "baseName": "1220deb3e183471",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "1220df1a...baa01e:1",
-    "baseName": "1220df1abaa01e1",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "appName": "auth0_007c68129abae6733ca8b889162e",
+    "baseName": "auth0007c68129abae6733ca8b889162e",
+    "category": "Explorer/Infra",
+    "confidence": 65,
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
-    "appName": "1220e01a...45a6b9:0",
-    "baseName": "1220e01a45a6b90",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "appName": "auth0_007c689b657291598790daabbdca",
+    "baseName": "auth0007c689b657291598790daabbdca",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
-    "appName": "1220e149...2bf2d8:0",
-    "baseName": "1220e1492bf2d80",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/",
+    "note": "Digital Asset and Industry Working Group Complete Groundbreaking On ..."
   },
   {
-    "appName": "1220e220...505046:1",
-    "baseName": "1220e2205050461",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "appName": "google-oauth2_007c106967619021219072829",
+    "baseName": "google-oauth2007c106967619021219072829",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://developers.google.com/identity/protocols/oauth2",
+    "note": "Using OAuth 2.0 to Access Google APIs - Google Developers"
   },
   {
-    "appName": "1220e27d...2d1609:1",
-    "baseName": "1220e27d2d16091",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://canton.thetie.io/",
+    "note": "Canton Data Analytics by The Tie"
   },
   {
-    "appName": "1220e3ac...342e89:1",
-    "baseName": "1220e3ac342e891",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "appName": "4e667aab-9089-400b-9485-74d73732f068",
+    "baseName": "4e667aab-9089-400b-9485-74d73732f068",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
+    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
   },
   {
-    "appName": "1220e474...096341:0",
-    "baseName": "1220e4740963410",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://lighthouse.cantonloop.com/",
+    "note": "5N Lighthouse Explorer"
   },
   {
-    "appName": "1220e5b1...1542b4:0",
-    "baseName": "1220e5b11542b40",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "acme-lending",
+    "baseName": "acme-lending",
+    "category": "Lending",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Overcollateralized lending on Canton"
   },
   {
-    "appName": "1220e6f1...a295aa:1",
-    "baseName": "1220e6f1a295aa1",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "Bridge-Operator",
+    "baseName": "bridge-operator",
+    "category": "Bridge",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton bridge operator"
   },
   {
-    "appName": "1220e70d...eaba9:11",
-    "baseName": "1220e70deaba911",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "c7trust",
+    "baseName": "c7trust",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "C7 Technology trust service"
   },
   {
-    "appName": "1220e712...4b76d6:1",
-    "baseName": "1220e7124b76d61",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "CantonSwap",
+    "baseName": "cantonswap",
+    "category": "DEX/AMM",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton swap protocol"
   },
   {
-    "appName": "1220e811...6adbc5:1",
-    "baseName": "1220e8116adbc51",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "ccbrowser",
+    "baseName": "ccbrowser",
+    "category": "Explorer/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton Coin browser"
   },
   {
-    "appName": "1220e83f...49926e:0",
-    "baseName": "1220e83f49926e0",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "handlpay-main-1",
+    "baseName": "handlpay-main",
+    "category": "Payments",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton payment service"
   },
   {
-    "appName": "1220e8aa...42b5a7:1",
-    "baseName": "1220e8aa42b5a71",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "Hashrupt-Verity",
+    "baseName": "hashrupt-verity",
+    "category": "Identity/Auth",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Verification service"
   },
   {
-    "appName": "1220e8ae...230ff0:1",
-    "baseName": "1220e8ae230ff01",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "iBTC-validator-1",
+    "baseName": "ibtc",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "iBTC validator"
   },
   {
-    "appName": "1220e8bd...870ec6:0",
-    "baseName": "1220e8bd870ec60",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "lithiumdigital-validator-1",
+    "baseName": "lithiumdigital",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton validator"
   },
   {
-    "appName": "1220e93f...f0fa4c:0",
-    "baseName": "1220e93ff0fa4c0",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "LoopID",
+    "baseName": "loopid",
+    "category": "Identity/Auth",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Identity service"
   },
   {
-    "appName": "1220e956...b38b45:1",
-    "baseName": "1220e956b38b451",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "M1-validator-1",
+    "baseName": "m1",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton validator"
   },
   {
-    "appName": "1220ea16...7ff4c1:0",
-    "baseName": "1220ea167ff4c10",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "openvector-wallet-1",
+    "baseName": "openvector-wallet",
+    "category": "Wallet",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "OpenVector wallet"
   },
   {
-    "appName": "1220ea6a...561738:1",
-    "baseName": "1220ea6a5617381",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "palladium-validator-1",
+    "baseName": "palladium",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton validator"
   },
   {
-    "appName": "1220eb36...a2ad48:1",
-    "baseName": "1220eb36a2ad481",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "poolparty",
+    "baseName": "poolparty",
+    "category": "DEX/AMM",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Liquidity pool protocol"
   },
   {
-    "appName": "1220ebd4...814a1d:1",
-    "baseName": "1220ebd4814a1d1",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "PotamusEngagement-validator-1",
+    "baseName": "potamusengagement",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton validator"
   },
   {
-    "appName": "1220ec3e...c60e3c:1",
-    "baseName": "1220ec3ec60e3c1",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "send-safe",
+    "baseName": "safe",
+    "category": "Wallet",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Safe send interface"
   },
   {
-    "appName": "1220ecf3...fd4a92:1",
-    "baseName": "1220ecf3fd4a921",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "silvana-orderbook",
+    "baseName": "silvana-orderbook",
+    "category": "Orderbook/CLOB",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Order book exchange"
   },
   {
-    "appName": "1220ed3d...e02a36:1",
-    "baseName": "1220ed3de02a361",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "Supanova-validator-1",
+    "baseName": "supanova",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton validator"
   },
   {
-    "appName": "1220ef50...a7b135:1",
-    "baseName": "1220ef50a7b1351",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "TRIZEGroup-cantonMainnetValidator-1",
+    "baseName": "trizegroup-cantonmainnetvalidator",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "TRIZE Group validator"
   },
   {
-    "appName": "1220ef59...46bbfb:1",
-    "baseName": "1220ef5946bbfb1",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "Ubyx-validator-1",
+    "baseName": "ubyx",
+    "category": "Validator/Infra",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton validator"
   },
   {
-    "appName": "1220efee...dad2a0:0",
-    "baseName": "1220efeedad2a00",
-    "category": "Unknown",
-    "confidence": 30,
+    "appName": "ValaWallet-validator-1",
+    "baseName": "valawallet",
+    "category": "Wallet",
+    "confidence": 55,
     "websiteGuess": null,
-    "note": null
+    "note": "Vala Canton wallet"
   },
   {
-    "appName": "1220f00c...156042:1",
-    "baseName": "1220f00c1560421",
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "confidence": 50,
+    "websiteGuess": "https://www.macverify.com/",
+    "note": "MACVerify - Free MAC Address Lookup Tool | Identify Network Device ..."
   },
   {
-    "appName": "1220f0af...4250af:1",
-    "baseName": "1220f0af4250af1",
+    "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "confidence": 50,
+    "websiteGuess": "https://learn.microsoft.com/en-us/answers/questions/1642125/how-to-fix-correlation-id-a451ce2a-6780-4b6a-a0bf",
+    "note": "How to fix Correlation ID: a451ce2a-6780-4b6a-a0bf-4e1c26441397 ..."
   },
   {
-    "appName": "1220f0ba...811227:1",
-    "baseName": "1220f0ba8112271",
+    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
+    "confidence": 50,
+    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in",
+    "note": "Verify first-party Microsoft applications in sign-in reports"
   },
   {
-    "appName": "1220f156...712948:1",
-    "baseName": "1220f1567129481",
+    "appName": "sunthycloud-mainnet-1",
+    "baseName": "sunthycloud",
     "category": "Unknown",
-    "confidence": 30,
+    "confidence": 40,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton cloud service"
   },
   {
-    "appName": "1220f193...0c0f9e:1",
-    "baseName": "1220f1930c0f9e1",
-    "category": "Unknown",
+    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
+    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
+    "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "1220f1af...524441:1",
-    "baseName": "1220f1af5244411",
-    "category": "Unknown",
+    "appName": "auth0_007c6944217743c3f0b43f0a8285",
+    "baseName": "auth0007c6944217743c3f0b43f0a8285",
+    "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "1220f2bb...043af0:1",
-    "baseName": "1220f2bb043af01",
+    "appName": "cantory",
+    "baseName": "cantory",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "1220f3db...769170:1",
-    "baseName": "1220f3db7691701",
+    "appName": "foundinalsunthy-mainnet-1",
+    "baseName": "foundinalsunthy",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   },
   {
-    "appName": "1220f425...9b9d73:1",
-    "baseName": "1220f4259b9d731",
+    "appName": "kairo-mainnet",
+    "baseName": "kairo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   },
   {
-    "appName": "1220f582...8743bb:1",
-    "baseName": "1220f5828743bb1",
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "1220f5ec...f98f4a:1",
-    "baseName": "1220f5ecf98f4a1",
+    "appName": "mandalo-mainnet-2",
+    "baseName": "mandalo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   },
   {
-    "appName": "1220f66e...70387d:1",
-    "baseName": "1220f66e70387d1",
+    "appName": "modo",
+    "baseName": "modo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   },
   {
-    "appName": "1220f838...2c8589:1",
-    "baseName": "1220f8382c85891",
+    "appName": "modulo-mainnet-2",
+    "baseName": "modulo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   },
   {
-    "appName": "1220f840...bb89c3:1",
-    "baseName": "1220f840bb89c31",
+    "appName": "openvector-mainnet-1",
+    "baseName": "openvector",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   },
   {
-    "appName": "1220f8d3...66ed23:1",
-    "baseName": "1220f8d366ed231",
+    "appName": "opus28-opusaccess-1",
+    "baseName": "opus28-opusaccess",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "1220f9c8...9468d8:1",
-    "baseName": "1220f9c89468d81",
+    "appName": "tenkai-main-1",
+    "baseName": "tenkai-main",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   },
   {
-    "appName": "1220faac...bbc6cd:1",
-    "baseName": "1220faacbbc6cd1",
+    "appName": "tradefast-mainnet-1",
+    "baseName": "tradefast",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "1220fbc1...ef1752:1",
-    "baseName": "1220fbc1ef17521",
+    "appName": "unitedapp-cc",
+    "baseName": "unitedapp-cc",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": null
+    "note": "Canton app"
   }
 ]
