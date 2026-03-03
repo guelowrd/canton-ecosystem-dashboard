@@ -80,6 +80,14 @@
     "note": "Onchain analytics"
   },
   {
+    "appName": "Hecto-Finance-1",
+    "baseName": "hecto-finance",
+    "category": "Lending",
+    "confidence": 100,
+    "websiteGuess": "https://hectofinance.com",
+    "note": "Canton DeFi protocol"
+  },
+  {
     "appName": "HIFI-validator-1",
     "baseName": "hifi",
     "category": "Validator/Infra",
@@ -288,12 +296,28 @@
     "note": "Cantoracle — Real-World Data for Canton"
   },
   {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Validator/Infra",
+    "appName": "opus28-opusaccess-1",
+    "baseName": "opus28-opusaccess",
+    "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://www.coindesk.com/business/2025/12/04/canton-network-creator-snags-strategic-investment-from-wall-street-giants",
-    "note": "Wall Street Heavyweights Back Builder of Canton, a Network That ..."
+    "websiteGuess": "https://docs.digitalasset.com/index.html",
+    "note": "Digital Asset&#x27;s platform documentation"
+  },
+  {
+    "appName": "tradefast-mainnet-1",
+    "baseName": "tradefast",
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "websiteGuess": "https://trade.fast/",
+    "note": "Trade.Fast"
+  },
+  {
+    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
+    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
@@ -308,24 +332,48 @@
     "baseName": "auth0007c689b657291598790daabbdca",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
-    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
+    "websiteGuess": "https://templedigitalgroup.com/",
+    "note": "Temple - Capital Markets Built On Canton"
   },
   {
     "appName": "auth0_007c691c4d28726455d23d1aa6dd",
     "baseName": "auth0007c691c4d28726455d23d1aa6dd",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/",
-    "note": "Digital Asset and Industry Working Group Complete Groundbreaking On ..."
+    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
+    "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation"
+  },
+  {
+    "appName": "auth0_007c6944217743c3f0b43f0a8285",
+    "baseName": "auth0007c6944217743c3f0b43f0a8285",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://cryptonews.com/news/canton-network-vs-xrp-dtcc-crypto-infrastructure-liquidity/",
+    "note": "Canton Crypto Network vs. XRP: Breaking Down DTCC&#x27;s Infrastructure and ..."
   },
   {
     "appName": "google-oauth2_007c106967619021219072829",
     "baseName": "google-oauth2007c106967619021219072829",
-    "category": "Identity/Auth",
+    "category": "Wallet",
     "confidence": 65,
     "websiteGuess": "https://developers.google.com/identity/protocols/oauth2",
     "note": "Using OAuth 2.0 to Access Google APIs - Google Developers"
+  },
+  {
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://coinbuzznow.com/news/canton-network-latest-updates-ledger-integration/",
+    "note": "Canton Network Update: When Can We Expect Changes? - CoinBuzzNow"
+  },
+  {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://www.coindesk.com/business/2025/12/04/canton-network-creator-snags-strategic-investment-from-wall-street-giants",
+    "note": "Wall Street Heavyweights Back Builder of Canton, a Network That ..."
   },
   {
     "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
@@ -440,14 +488,6 @@
     "note": "Canton validator"
   },
   {
-    "appName": "openvector-wallet-1",
-    "baseName": "openvector-wallet",
-    "category": "Wallet",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "OpenVector wallet"
-  },
-  {
     "appName": "palladium-validator-1",
     "baseName": "palladium",
     "category": "Validator/Infra",
@@ -524,8 +564,8 @@
     "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://www.macverify.com/",
-    "note": "MACVerify - Free MAC Address Lookup Tool | Identify Network Device ..."
+    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
+    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
   },
   {
     "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
@@ -552,30 +592,6 @@
     "note": "Canton cloud service"
   },
   {
-    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
-    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c6944217743c3f0b43f0a8285",
-    "baseName": "auth0007c6944217743c3f0b43f0a8285",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "cantory",
-    "baseName": "cantory",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "foundinalsunthy-mainnet-1",
     "baseName": "foundinalsunthy",
     "category": "Unknown",
@@ -590,14 +606,6 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "ledger-ledgerops-2",
-    "baseName": "ledger-ledgerops",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "mandalo-mainnet-2",
@@ -632,28 +640,12 @@
     "note": "Canton app"
   },
   {
-    "appName": "opus28-opusaccess-1",
-    "baseName": "opus28-opusaccess",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "tenkai-main-1",
     "baseName": "tenkai-main",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "tradefast-mainnet-1",
-    "baseName": "tradefast",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "unitedapp-cc",
