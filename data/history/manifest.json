@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-03-07_0051.json",
+    "lastUpdated": "2026-03-07T00:51:12.103Z",
+    "tvlUsd": 1677219.7667968057,
+    "ccPriceUsd": 0.15359623954611715,
+    "topApp": {
+      "name": "Temple",
+      "rewardsCC": 14409412.026767144
+    },
+    "appRewardsShareOfMinting": 42.15498271885361,
+    "activeValidators": 810,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-03_0057.json",
     "lastUpdated": "2026-03-03T00:57:44.614Z",
     "tvlUsd": 1725423.008740591,
@@ -175,22 +194,6 @@
     },
     "appRewardsShareOfMinting": 66.23491823960562,
     "activeValidators": 764,
-    "signals": {
-      "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-02-20_1533.json",
-    "lastUpdated": "2026-02-20T15:33:55.800Z",
-    "tvlUsd": 1704797.4296547866,
-    "ccPriceUsd": 0.15903879541836663,
-    "topApp": {
-      "name": "CantonLoop",
-      "rewardsCC": 25814828.147538275
-    },
-    "appRewardsShareOfMinting": 66.36076183772283,
-    "activeValidators": 758,
     "signals": {
       "newApps": [],
       "newData": []
