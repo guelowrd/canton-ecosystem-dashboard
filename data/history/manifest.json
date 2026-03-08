@@ -1,5 +1,45 @@
 [
   {
+    "file": "snapshot-2026-03-08_0057.json",
+    "lastUpdated": "2026-03-08T00:57:05.364Z",
+    "tvlUsd": 1663183.5718464435,
+    "ccPriceUsd": 0.15242585713851192,
+    "topApp": {
+      "name": "Temple",
+      "rewardsCC": 13516931.38748592
+    },
+    "appRewardsShareOfMinting": 57.90794001657641,
+    "activeValidators": 810,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "validator_Hashnote",
+        "blackmantacapital-primary-1",
+        "cantor8-digik-1",
+        "Cantoracle",
+        "dfns1",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "Redstone-validator-1",
+        "the_tie_validator",
+        "yuce",
+        "ZodiaCustody-validator-1",
+        "rho-relay",
+        "tradefast-mainnet-1",
+        "walley"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-07_0051.json",
     "lastUpdated": "2026-03-07T00:51:12.103Z",
     "tvlUsd": 1677219.7667968057,
@@ -180,22 +220,6 @@
       "newApps": [
         "blackmantacapital-primary-1"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-02-23_1503.json",
-    "lastUpdated": "2026-02-23T15:03:55.646Z",
-    "tvlUsd": 1725368.0146258208,
-    "ccPriceUsd": 0.1616578385663449,
-    "topApp": {
-      "name": "CantonLoop",
-      "rewardsCC": 22459949.735342585
-    },
-    "appRewardsShareOfMinting": 66.23491823960562,
-    "activeValidators": 764,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
