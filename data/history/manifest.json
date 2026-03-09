@@ -1,5 +1,25 @@
 [
   {
+    "file": "snapshot-2026-03-09_0056.json",
+    "lastUpdated": "2026-03-09T00:56:50.801Z",
+    "tvlUsd": 1662454.4345680673,
+    "ccPriceUsd": 0.15026447861743572,
+    "topApp": {
+      "name": "Temple",
+      "rewardsCC": 13689899.551604876
+    },
+    "appRewardsShareOfMinting": 58.14378909455815,
+    "activeValidators": 807,
+    "signals": {
+      "newApps": [
+        "cantory",
+        "excellar-issuer",
+        "ledger-ledgerops-2"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-08_0057.json",
     "lastUpdated": "2026-03-08T00:57:05.364Z",
     "tvlUsd": 1663183.5718464435,
@@ -202,24 +222,6 @@
     "activeValidators": 770,
     "signals": {
       "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-02-24_0050.json",
-    "lastUpdated": "2026-02-24T00:50:18.462Z",
-    "tvlUsd": 1709416.5378132472,
-    "ccPriceUsd": 0.16187345391922678,
-    "topApp": {
-      "name": "CantonLoop",
-      "rewardsCC": 17347170.532460008
-    },
-    "appRewardsShareOfMinting": 66.1421666664389,
-    "activeValidators": 755,
-    "signals": {
-      "newApps": [
-        "blackmantacapital-primary-1"
-      ],
       "newData": []
     }
   }

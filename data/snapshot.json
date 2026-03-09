@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-08T00:57:05.364Z",
-  "cantonCoinPriceUsd": 0.15242585713851192,
+  "lastUpdated": "2026-03-09T00:56:50.801Z",
+  "cantonCoinPriceUsd": 0.15026447861743572,
   "networkHealth": {
-    "totalTvlUsd": 1663183.5718464435,
-    "volume30dUsd": 1278268.5445040625,
+    "totalTvlUsd": 1662454.4345680673,
+    "volume30dUsd": 1197758.0559275893,
     "featuredApps": 126,
-    "trackedApps": 27,
+    "trackedApps": 28,
     "transparentApps": 2,
-    "netIssuance": 42265342.85543738,
+    "netIssuance": 43348171.464206606,
     "governanceParticipation": 0.49230769230769234
   },
   "concentration": {
@@ -40,16 +40,16 @@
         "url": null
       }
     ],
-    "tvlLargestPoolPct": 94.7043311909346,
-    "rewardsTop3Pct": 44.31772382987155,
-    "rewardsTop5Pct": 61.648723797084806
+    "tvlLargestPoolPct": 94.72580649879237,
+    "rewardsTop3Pct": 43.653443560089364,
+    "rewardsTop5Pct": 59.70494911509905
   },
   "executiveInsights": [
     "Largest super validator controls 58.0% of consensus weight",
     "Top sponsor (Digital Asset 2) holds 46.3% of validator licenses",
     "58% of CC emissions go to application rewards",
     "95% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 27 tracked apps expose public metrics",
+    "2 of 28 tracked apps expose public metrics",
     "Top 3 apps capture 44% of app rewards (led by temple-mainnet-1)"
   ],
   "apps": [
@@ -61,13 +61,13 @@
       "transparency": "transparent",
       "dataAvailability": "full",
       "network": {
-        "activeValidators": 810,
+        "activeValidators": 807,
         "superValidators": 13,
-        "supply": 37986888212.16256,
-        "consensusHeight": 20743362,
+        "supply": 37991387909.5531,
+        "consensusHeight": 20972656,
         "version": "0.5.11",
         "featuredApps": 126,
-        "currentRound": 86448
+        "currentRound": 86588
       },
       "superValidators": [
         {
@@ -195,12 +195,12 @@
           "Liberty-City-Ventures": 2
         },
         "byVersion": {
-          "0.5.11": 406,
+          "0.5.11": 433,
           "0.5.12": 127,
-          "0.5.10": 114,
+          "0.5.10": 92,
           "0.5.8": 74,
-          "0.5.9": 37,
           "0.5.4": 34,
+          "0.5.9": 33,
           "0.5.5": 19,
           "0.3.21": 7,
           "0.4.22": 5,
@@ -208,7 +208,6 @@
           "0.4.17": 4,
           "0.2.4": 4,
           "0.4.1": 4,
-          "0.5.6": 3,
           "0.5.13": 3,
           "0.3.6": 3,
           "0.4.20": 3,
@@ -216,6 +215,7 @@
           "0.4.11": 3,
           "unknown": 3,
           "0.5.1": 2,
+          "0.5.6": 2,
           "0.4.7": 2,
           "0.2.8": 2,
           "0.4.19": 2,
@@ -248,67 +248,67 @@
           "digitalasset": 17,
           "bcw": 13,
           "cantor8": 11,
-          "edgevana": 7
+          "republiccrypto": 7
         }
       },
       "recentActivity": {
-        "sampleSize": 6700000,
+        "sampleSize": 6750000,
         "timeWindowHours": 168,
-        "amuletPrice": 0.15283,
-        "totalMinted": 148371883.06013125,
-        "appRewardsMinted": 85919101.0439257,
-        "validatorLivenessRewardsMinted": 7470395.468937298,
-        "svRewardsMinted": 20918594.362013105,
-        "totalTransferred": 6045797312.537641,
-        "totalBurned": 106106540.20469387,
-        "netIssuance": 42265342.85543738,
+        "amuletPrice": 0.149659,
+        "totalMinted": 151382611.4256819,
+        "appRewardsMinted": 88019586.31318296,
+        "validatorLivenessRewardsMinted": 7598575.081469625,
+        "svRewardsMinted": 21323263.718310054,
+        "totalTransferred": 5952837593.849555,
+        "totalBurned": 108034439.96147528,
+        "netIssuance": 43348171.464206606,
         "topApps": [
           {
             "name": "temple-mainnet-1",
-            "rewardsCC": 13516931.38748592
-          },
-          {
-            "name": "cantonloop-mainnet-1",
-            "rewardsCC": 12746490.31769487
+            "rewardsCC": 13689899.551604876
           },
           {
             "name": "cantor8-digik-1",
-            "rewardsCC": 11813968.212574754
+            "rewardsCC": 12582504.383293476
+          },
+          {
+            "name": "cantonloop-mainnet-1",
+            "rewardsCC": 12151176.498152217
           },
           {
             "name": "pixelplex-mainnet-3",
-            "rewardsCC": 10430130.471903984
+            "rewardsCC": 9821410.719181936
           },
           {
             "name": "cbtc-attestor-pool",
-            "rewardsCC": 4460508.9018488135
+            "rewardsCC": 4307058.067375576
           },
           {
             "name": "Bridge-Operator",
-            "rewardsCC": 4235855.573200149
+            "rewardsCC": 4297121.095533235
           },
           {
             "name": "poolparty",
-            "rewardsCC": 3254067.6221733326
+            "rewardsCC": 3989443.153149204
           },
           {
             "name": "Cantex-validator-1",
-            "rewardsCC": 2986403.120580304
+            "rewardsCC": 3716153.5855367505
           },
           {
             "name": "CantonSwap",
-            "rewardsCC": 2684281.764683586
+            "rewardsCC": 2890296.770837854
           },
           {
             "name": "kairo-mainnet",
-            "rewardsCC": 1721861.9104081746
+            "rewardsCC": 1739509.0636223604
           }
         ],
-        "rewardsTop1Pct": 15.732161094859876,
+        "rewardsTop1Pct": 15.553242323696429,
         "top1AppName": "temple-mainnet-1",
-        "rewardsTop3Pct": 44.31772382987155,
-        "rewardsTop5Pct": 61.648723797084806,
-        "appRewardsShareOfMinting": 57.90794001657641
+        "rewardsTop3Pct": 43.653443560089364,
+        "rewardsTop5Pct": 59.70494911509905,
+        "appRewardsShareOfMinting": 58.14378909455815
       },
       "governance": {
         "openProposals": 5,
@@ -371,55 +371,55 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.15242585713851192,
-      "cbtcPriceUsd": 67368.15687159043,
+      "ccPriceUsd": 0.15026447861743572,
+      "cbtcPriceUsd": 66794.30160428683,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5150025.318961098,
-          "token2Holdings": 784997.0235276836,
-          "tvlUsd": 1569994.0470553671,
+          "token1Holdings": 5189309.631876649,
+          "token2Holdings": 779768.906218382,
+          "tvlUsd": 1559537.812436764,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.17257913098378364,
-          "totalLpTokens": 1959551.253082033,
+          "yield24h": 0.1715716524821822,
+          "totalLpTokens": 1959599.9072512658,
           "volume": {
-            "1h": 708.4083622979233,
-            "4h": 2501.404514011927,
-            "12h": 4301.796330185374,
-            "24h": 6851.82402108633,
-            "7d": 156384.74261756567,
-            "30d": 1100663.2601123762
+            "1h": 66.60402355215047,
+            "4h": 4018.5204685176723,
+            "12h": 4983.844205594622,
+            "24h": 9656.693563245935,
+            "7d": 138529.42909669678,
+            "30d": 1021687.4494416127
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 287978.6816986683,
-          "token2Holdings": 0.6515748602,
-          "tvlUsd": 87790.79479107642,
+          "token1Holdings": 288933.1233780196,
+          "token2Holdings": 0.6500013339,
+          "tvlUsd": 86832.7702794107,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.06868715211552856,
-          "totalLpTokens": 420.2441163091,
+          "yield24h": 0.17180725744558734,
+          "totalLpTokens": 420.2488991878,
           "volume": {
-            "1h": 0,
-            "4h": 104.7808739506807,
-            "12h": 211.2069551310482,
-            "24h": 1424.0228650802187,
-            "7d": 24455.088219865145,
-            "30d": 177605.2843916864
+            "1h": 27.067017776275527,
+            "4h": 63.888847687747614,
+            "12h": 465.75941566880664,
+            "24h": 1028.5224132850676,
+            "7d": 22491.952958573896,
+            "30d": 176070.6064859767
           }
         }
       ],
-      "totalTvlUsd": 1657784.8418464435,
-      "largestPoolPct": 94.7043311909346,
-      "totalVolume24hUsd": 8275.846886166548,
-      "totalVolume7dUsd": 180839.8308374308,
-      "totalVolume30dUsd": 1278268.5445040625
+      "totalTvlUsd": 1646370.5827161747,
+      "largestPoolPct": 94.72580649879237,
+      "totalVolume24hUsd": 10685.215976531003,
+      "totalVolume7dUsd": 161021.3820552707,
+      "totalVolume30dUsd": 1197758.0559275893
     },
     {
       "id": "unhedged",
@@ -428,59 +428,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 5467,
-      "activeMarkets": 124,
-      "endedMarkets": 41,
-      "resolvedMarkets": 5275,
-      "totalActivePoolUsd": 5398.73,
-      "totalActiveBets": 181,
+      "totalMarkets": 5754,
+      "activeMarkets": 78,
+      "endedMarkets": 18,
+      "resolvedMarkets": 5625,
+      "totalActivePoolUsd": 16083.851851892701,
+      "totalActiveBets": 1183,
       "categories": {
         "crypto": {
           "count": 8,
-          "poolUsd": 196.19,
-          "bets": 28
+          "poolUsd": 455,
+          "bets": 65
         },
         "sports": {
-          "count": 92,
-          "poolUsd": 5202.539999999999,
-          "bets": 153
+          "count": 68,
+          "poolUsd": 14029.5718518927,
+          "bets": 1039
+        },
+        "economics": {
+          "count": 2,
+          "poolUsd": 1599.28,
+          "bets": 79
         }
       },
       "topMarkets": [
         {
+          "question": "March 2026 FOMC: Interest Rate Decision",
+          "category": "economics",
+          "totalPool": 1484.28,
+          "betCount": 64,
+          "endTime": "2026-03-18T18:00:00.000Z"
+        },
+        {
           "question": "Israel vs Dominican Republic",
           "category": "sports",
-          "totalPool": 500,
-          "betCount": 1,
+          "totalPool": 1145,
+          "betCount": 26,
           "endTime": "2026-03-09T15:00:00.000Z"
-        },
-        {
-          "question": "Nicaragua vs Venezuela",
-          "category": "sports",
-          "totalPool": 400,
-          "betCount": 1,
-          "endTime": "2026-03-09T22:00:00.000Z"
-        },
-        {
-          "question": "Canada vs Panama",
-          "category": "sports",
-          "totalPool": 300,
-          "betCount": 1,
-          "endTime": "2026-03-08T22:00:00.000Z"
         },
         {
           "question": "USA vs Mexico",
           "category": "sports",
-          "totalPool": 250,
-          "betCount": 1,
+          "totalPool": 874.5,
+          "betCount": 25,
           "endTime": "2026-03-09T23:00:00.000Z"
         },
         {
-          "question": "South Florida vs Charlotte",
+          "question": "Phoenix Suns vs Charlotte Hornets",
           "category": "sports",
-          "totalPool": 223.94,
-          "betCount": 8,
-          "endTime": "2026-03-08T17:00:00.000Z"
+          "totalPool": 775.3218518927,
+          "betCount": 35,
+          "endTime": "2026-03-09T01:00:00.000Z"
+        },
+        {
+          "question": "Australia vs South Korea",
+          "category": "sports",
+          "totalPool": 683.15,
+          "betCount": 33,
+          "endTime": "2026-03-09T09:00:00.000Z"
         }
       ]
     },
@@ -676,6 +681,18 @@
       "isCandidate": true
     },
     {
+      "id": "cantory",
+      "name": "cantory",
+      "url": "https://cantory.cc/",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Cantory — Token Factory",
+      "isCandidate": true
+    },
+    {
       "id": "dfns1",
       "name": "dfns1",
       "url": "https://dfns.co",
@@ -748,18 +765,6 @@
       "isCandidate": true
     },
     {
-      "id": "yuce",
-      "name": "yuce",
-      "url": "https://yuce.trade/",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "YUCE",
-      "isCandidate": true
-    },
-    {
       "id": "zodiacustody",
       "name": "ZodiaCustody-validator-1",
       "url": "https://zodia.io",
@@ -772,15 +777,39 @@
       "isCandidate": true
     },
     {
-      "id": "rho-relay",
-      "name": "rho-relay",
-      "url": "https://www.icmagroup.org/assets/Ian-Woodgate_Digital-Asset_CDM-Showcase-2025.pdf",
-      "appCategory": "Lending",
-      "transparency": "opaque",
+      "id": "excellar-issuer",
+      "name": "excellar-issuer",
+      "url": "https://www.coindesk.com/business/2025/12/17/wall-street-giant-dtcc-picks-privacy-focused-blockchain-canton-network-for-tokenization",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "PDF Canton Network: SecLending settlement using the CDM",
+      "note": "Wall Street giant DTCC Picks privacy focused blockchain Canton Network ...",
+      "isCandidate": true
+    },
+    {
+      "id": "ledger-ledgerops",
+      "name": "ledger-ledgerops-2",
+      "url": "https://www.ledgerinsights.com/canton-network-hosts-tokenized-repos-using-lseg-tokenized-deposits/",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network hosts tokenized repos using LSEG tokenized deposits",
+      "isCandidate": true
+    },
+    {
+      "id": "rho-relay",
+      "name": "rho-relay",
+      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "appCategory": "Bridge",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network - Wikipedia",
       "isCandidate": true
     },
     {
@@ -793,18 +822,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Trade.Fast",
-      "isCandidate": true
-    },
-    {
-      "id": "walley",
-      "name": "walley",
-      "url": "https://www.coingecko.com/en/coins/canton",
-      "appCategory": "Prediction Markets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Price: CC Live Price Chart, Market Cap &amp; News Today | CoinGecko",
       "isCandidate": true
     }
   ]

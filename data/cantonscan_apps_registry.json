@@ -224,6 +224,14 @@
     "note": "Cantoracle — Market Data Oracle on Canton Network"
   },
   {
+    "appName": "cantory",
+    "baseName": "cantory",
+    "category": "Tokenized Assets",
+    "confidence": 90,
+    "websiteGuess": "https://cantory.cc/",
+    "note": "Cantory — Token Factory"
+  },
+  {
     "appName": "Cumberland-GasStation-1",
     "baseName": "cumberland-gasstation",
     "category": "Validator/Infra",
@@ -296,14 +304,6 @@
     "note": "Crypto analytics platform"
   },
   {
-    "appName": "yuce",
-    "baseName": "yuce",
-    "category": "Explorer/Infra",
-    "confidence": 90,
-    "websiteGuess": "https://yuce.trade/",
-    "note": "YUCE"
-  },
-  {
     "appName": "ZodiaCustody-validator-1",
     "baseName": "zodiacustody",
     "category": "Wallet",
@@ -314,26 +314,26 @@
   {
     "appName": "excellar-issuer",
     "baseName": "excellar-issuer",
-    "category": "Validator/Infra",
+    "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://canton.foundation/",
-    "note": "Canton Foundation"
+    "websiteGuess": "https://www.coindesk.com/business/2025/12/17/wall-street-giant-dtcc-picks-privacy-focused-blockchain-canton-network-for-tokenization",
+    "note": "Wall Street giant DTCC Picks privacy focused blockchain Canton Network ..."
   },
   {
     "appName": "ledger-ledgerops-2",
     "baseName": "ledger-ledgerops",
-    "category": "Validator/Infra",
+    "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://www.broadridge.com/press-release/2025/billions-in-average-daily-processed-trade-volumes-on-broadridge-dlt-repo-platform",
-    "note": "$280 Billion in Average Daily Processed Trade Volumes on Broadridge ..."
+    "websiteGuess": "https://www.ledgerinsights.com/canton-network-hosts-tokenized-repos-using-lseg-tokenized-deposits/",
+    "note": "Canton Network hosts tokenized repos using LSEG tokenized deposits"
   },
   {
     "appName": "rho-relay",
     "baseName": "rho-relay",
-    "category": "Lending",
+    "category": "Bridge",
     "confidence": 75,
-    "websiteGuess": "https://www.icmagroup.org/assets/Ian-Woodgate_Digital-Asset_CDM-Showcase-2025.pdf",
-    "note": "PDF Canton Network: SecLending settlement using the CDM"
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
   },
   {
     "appName": "tradefast-mainnet-1",
@@ -344,20 +344,12 @@
     "note": "Trade.Fast"
   },
   {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Prediction Markets",
-    "confidence": 75,
-    "websiteGuess": "https://www.coingecko.com/en/coins/canton",
-    "note": "Canton Price: CC Live Price Chart, Market Cap &amp; News Today | CoinGecko"
-  },
-  {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Identity/Auth",
+    "category": "DEX/AMM",
     "confidence": 65,
-    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
-    "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation"
+    "websiteGuess": "https://cointelegraph.com/news/fireblocks-canton-network-support-expanding-regulated-tokenization-settlement-rails",
+    "note": "Fireblocks integrates Canton Network for regulated onchain settlement"
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
@@ -370,42 +362,58 @@
   {
     "appName": "auth0_007c689b657291598790daabbdca",
     "baseName": "auth0007c689b657291598790daabbdca",
-    "category": "Explorer/Infra",
+    "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/integrating-with-canton-network/",
+    "note": "Integrating with the Canton Network — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "auth0_007c691c4d28726455d23d1aa6dd",
     "baseName": "auth0007c691c4d28726455d23d1aa6dd",
-    "category": "Explorer/Infra",
+    "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/",
+    "note": "Digital Asset and Industry Working Group Complete Groundbreaking On ..."
   },
   {
     "appName": "auth0_007c6944217743c3f0b43f0a8285",
     "baseName": "auth0007c6944217743c3f0b43f0a8285",
     "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
-    "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation"
+    "websiteGuess": "https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/",
+    "note": "Digital Asset and Industry Working Group Complete Groundbreaking On ..."
   },
   {
     "appName": "google-oauth2_007c106967619021219072829",
     "baseName": "google-oauth2007c106967619021219072829",
-    "category": "Validator/Infra",
+    "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://www.coindesk.com/markets/2025/10/01/canton-network-activity-surges-as-exchanges-join-validators-copper-research",
-    "note": "Canton Network Activity Surges as Exchanges Join Validators: Copper ..."
+    "websiteGuess": "https://developers.google.com/identity/protocols/oauth2",
+    "note": "Using OAuth 2.0 to Access Google APIs - Google Developers"
+  },
+  {
+    "appName": "kora-app",
+    "baseName": "kora-app",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://www.cantonwallet.com/",
+    "note": "Send on Canton Network"
+  },
+  {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://blockonomi.com/canton-network-wall-streets-hidden-blockchain-settles-350-billion-in-daily-repo-trades/",
+    "note": "Canton Network: Wall Street&#x27;s Hidden Blockchain Settles $350 Billion in ..."
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Explorer/Infra",
     "confidence": 60,
-    "websiteGuess": "https://miniwebtool.com/mac-address-lookup/",
-    "note": "MAC Address Lookup - Identify Device Manufacturer by MAC Address"
+    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
+    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "acme-lending",
@@ -572,24 +580,24 @@
     "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://dnschecker.org/mac-lookup.php",
-    "note": "MAC Address Lookup | MAC/OUI/IAB/IEEE Vendor Search"
+    "websiteGuess": "https://www.macverify.com/",
+    "note": "MACVerify - Free MAC Address Lookup Tool | Identify Network Device ..."
   },
   {
     "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/microsoft-365-apps/activation/tpm-malfunctioned",
-    "note": "Microsoft 365 Apps activation error Trusted Platform Module ..."
+    "websiteGuess": "https://www.bleepingcomputer.com/forums/t/808874/downloaded-a-file-from-a-page-bitdefender-blocked-only-saw-it-after/",
+    "note": "downloaded a file from a page bitdefender blocked, only saw it after ..."
   },
   {
     "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://support.hp.com/us-en/drivers",
-    "note": "Official HP® Drivers and Software Download | HP® Support"
+    "websiteGuess": "https://dnschecker.org/mac-lookup.php",
+    "note": "MAC Address Lookup | MAC/OUI/IAB/IEEE Vendor Search"
   },
   {
     "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
