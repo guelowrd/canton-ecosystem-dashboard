@@ -27,7 +27,6 @@ binance-dp-1,binance-dp,Validator/Infra,90,https://binance.us,Binance delegation
 blackmantacapital-primary-1,blackmantacapital-primary,Tokenized Assets,90,https://blackmanta.capital,BaFin-regulated tokenized securities
 cantor8-digik-1,cantor8-digik,Explorer/Infra,90,https://cantor8.tech/digik,DigiK - Canton gateway
 Cantoracle,cantoracle,Prediction Markets,90,https://cantoracle.com/,Cantoracle — Market Data Oracle on Canton Network
-cantory,cantory,Tokenized Assets,90,https://cantory.cc/,Cantory — Token Factory
 Cumberland-GasStation-1,cumberland-gasstation,Validator/Infra,90,https://cumberland.io,Cumberland gas station (DRW subsidiary)
 dfns1,dfns1,Wallet,90,https://dfns.co,DFNS wallet infrastructure
 feat-unhedged-app,unhedged-app,Prediction Markets,90,https://unhedged.gg,Canton prediction markets
@@ -35,22 +34,22 @@ kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validato
 MPCH-BRONdvn-1,mpch-brondvn,Wallet,90,https://mpcvault.com,MPCH Bron delegation validator
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
-Redstone-validator-1,redstone,Tokenized Assets,90,https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access,"Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
+Redstone-validator-1,redstone,Tokenized Assets,90,https://www.msn.com/en-us/money/other/banks-will-run-rwas-on-two-blockchain-rails-says-redstone-co-founder/ar-AA1XPLh9,"Banks will run RWAs on two blockchain rails, says RedStone co-founder - MSN"
 the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-excellar-issuer,excellar-issuer,Explorer/Infra,75,https://www.coindesk.com/business/2025/12/17/wall-street-giant-dtcc-picks-privacy-focused-blockchain-canton-network-for-tokenization,Wall Street giant DTCC Picks privacy focused blockchain Canton Network ...
+excellar-issuer,excellar-issuer,Tokenized Assets,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
+kora-app,kora-app,Explorer/Infra,75,https://canton.foundation/canton-apps/,Canton Partners - Canton Foundation
 ledger-ledgerops-2,ledger-ledgerops,Tokenized Assets,75,https://www.ledgerinsights.com/canton-network-hosts-tokenized-repos-using-lseg-tokenized-deposits/,Canton Network hosts tokenized repos using LSEG tokenized deposits
-rho-relay,rho-relay,Bridge,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
+rho-relay,rho-relay,Bridge,75,https://lighthouse.cantonloop.com/governance,5N Lighthouse Explorer
 tradefast-mainnet-1,tradefast,Explorer/Infra,75,https://trade.fast/,Trade.Fast
-auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,DEX/AMM,65,https://cointelegraph.com/news/fireblocks-canton-network-support-expanding-regulated-tokenization-settlement-rails,Fireblocks integrates Canton Network for regulated onchain settlement
-auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Auth,65,https://docs.digitalasset.com/integrate/devnet/integrating-with-canton-network/,Integrating with the Canton Network — Digital Asset&#x27;s platform ...
-auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,65,https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/,Digital Asset and Industry Working Group Complete Groundbreaking On ...
-auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Explorer/Infra,65,https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/,Digital Asset and Industry Working Group Complete Groundbreaking On ...
-google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,65,https://developers.google.com/identity/protocols/oauth2,Using OAuth 2.0 to Access Google APIs - Google Developers
-kora-app,kora-app,Unknown,65,https://www.cantonwallet.com/,Send on Canton Network
-walley,walley,Unknown,65,https://blockonomi.com/canton-network-wall-streets-hidden-blockchain-settles-350-billion-in-daily-repo-trades/,Canton Network: Wall Street&#x27;s Hidden Blockchain Settles $350 Billion in ...
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://docs.digitalasset.com/build/3.4/explanations/parties-users.html,Parties and users on a Canton ledger — Digital Asset&#x27;s platform ...
+walley,walley,Wallet,75,https://www.blockchain.com/wallet,Blockchain.com | The only crypto wallet you&#x27;ll ever need
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Identity/Auth,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
+auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Auth,65,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
+auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,65,https://www.digitalasset.com/products,Products - Digital Asset Holdings
+auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,65,https://www.google.com/,Google
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://miniwebtool.com/mac-address-lookup/,MAC Address Lookup - Identify Device Manufacturer by MAC Address
 acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
@@ -62,6 +61,7 @@ iBTC-validator-1,ibtc,Validator/Infra,55,,iBTC validator
 lithiumdigital-validator-1,lithiumdigital,Validator/Infra,55,,Canton validator
 LoopID,loopid,Identity/Auth,55,,Identity service
 M1-validator-1,m1,Validator/Infra,55,,Canton validator
+openvector-wallet-1,openvector-wallet,Wallet,55,,OpenVector wallet
 palladium-validator-1,palladium,Validator/Infra,55,,Canton validator
 poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
 PotamusEngagement-validator-1,potamusengagement,Validator/Infra,55,,Canton validator
@@ -72,14 +72,13 @@ TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 ValaWallet-validator-1,valawallet,Wallet,55,,Vala Canton wallet
 23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,50,https://www.macverify.com/,MACVerify - Free MAC Address Lookup Tool | Identify Network Device ...
-8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://www.bleepingcomputer.com/forums/t/808874/downloaded-a-file-from-a-page-bitdefender-blocked-only-saw-it-after/,"downloaded a file from a page bitdefender blocked, only saw it after ..."
-931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,50,https://dnschecker.org/mac-lookup.php,MAC Address Lookup | MAC/OUI/IAB/IEEE Vendor Search
-party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://tenantidlookup.com/,Tenant ID Lookup: Microsoft Office and Entra/Azure
+8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference,Application installation error codes reference - Configuration Manager ...
+931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,50,https://maclookup.app/,MAC Address Vendor Lookup | MAC Address Lookup
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://gettenantpartitionweb.azurewebsites.net/,Tenant Lookup
 sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
 foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
 kairo-mainnet,kairo,Unknown,30,,Canton app
 mandalo-mainnet-2,mandalo,Unknown,30,,Canton app
-modo,modo,Unknown,30,,Canton app
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 openvector-mainnet-1,openvector,Unknown,30,,Canton app
 tenkai-main-1,tenkai-main,Unknown,30,,Canton app
