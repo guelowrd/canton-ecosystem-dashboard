@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-03-11_0052.json",
+    "lastUpdated": "2026-03-11T00:52:57.694Z",
+    "tvlUsd": 1647902.6252165027,
+    "ccPriceUsd": 0.14774043898780279,
+    "topApp": {
+      "name": "Temple",
+      "rewardsCC": 14224662.031809023
+    },
+    "appRewardsShareOfMinting": 58.626855380197085,
+    "activeValidators": 816,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-10_0053.json",
     "lastUpdated": "2026-03-10T00:53:51.196Z",
     "tvlUsd": 1644496.179300027,
@@ -206,25 +225,6 @@
     "activeValidators": 780,
     "signals": {
       "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-02-26_0051.json",
-    "lastUpdated": "2026-02-26T00:51:55.661Z",
-    "tvlUsd": 1733413.3604733744,
-    "ccPriceUsd": 0.16800282101381098,
-    "topApp": {
-      "name": "Temple",
-      "rewardsCC": 19425553.810801752
-    },
-    "appRewardsShareOfMinting": 66.09156590372092,
-    "activeValidators": 777,
-    "signals": {
-      "newApps": [
-        "tradefast-mainnet-1",
-        "opus28-opusaccess-1"
-      ],
       "newData": []
     }
   }
