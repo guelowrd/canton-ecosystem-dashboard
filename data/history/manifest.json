@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-03-14_0053.json",
+    "lastUpdated": "2026-03-14T00:53:14.026Z",
+    "tvlUsd": 1676065.0766348254,
+    "ccPriceUsd": 0.1522839456676663,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 19694748.069093537
+    },
+    "appRewardsShareOfMinting": 59.22277627155693,
+    "activeValidators": 836,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-11_0052.json",
     "lastUpdated": "2026-03-11T00:52:57.694Z",
     "tvlUsd": 1647902.6252165027,
@@ -209,22 +225,6 @@
         "1220f273...690bf0:1",
         "Featured Apps"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-02-27_0055.json",
-    "lastUpdated": "2026-02-27T00:55:44.838Z",
-    "tvlUsd": 1758827.0048727351,
-    "ccPriceUsd": 0.17213531872289625,
-    "topApp": {
-      "name": "Temple",
-      "rewardsCC": 19153016.127739333
-    },
-    "appRewardsShareOfMinting": 66.33619436440125,
-    "activeValidators": 780,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
