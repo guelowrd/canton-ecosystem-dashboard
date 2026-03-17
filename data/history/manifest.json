@@ -1,5 +1,23 @@
 [
   {
+    "file": "snapshot-2026-03-17_0054.json",
+    "lastUpdated": "2026-03-17T00:54:34.486Z",
+    "tvlUsd": 1694573.2171331318,
+    "ccPriceUsd": 0.1543524071659986,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 27461509.027890865
+    },
+    "appRewardsShareOfMinting": 69.05700861974302,
+    "activeValidators": 841,
+    "signals": {
+      "newApps": [
+        "Featured Apps"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-14_0053.json",
     "lastUpdated": "2026-03-14T00:53:14.026Z",
     "tvlUsd": 1676065.0766348254,
@@ -199,31 +217,6 @@
     "signals": {
       "newApps": [
         "122033ec...65c855:1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-02-28_0058.json",
-    "lastUpdated": "2026-02-28T00:58:21.625Z",
-    "tvlUsd": 1749178.5166267883,
-    "ccPriceUsd": 0.17015228146090303,
-    "topApp": {
-      "name": "CantonLoop",
-      "rewardsCC": 19752923.01600268
-    },
-    "appRewardsShareOfMinting": 66.58082334397535,
-    "activeValidators": 784,
-    "signals": {
-      "newApps": [
-        "12200225...83122:11",
-        "12200cfc...d527c8:1",
-        "12201d25...e42121:1",
-        "12204739...ec896e:1",
-        "12205347...0db697:1",
-        "1220b8c1...ebdff7:0",
-        "1220f273...690bf0:1",
-        "Featured Apps"
       ],
       "newData": []
     }

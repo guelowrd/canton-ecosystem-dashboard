@@ -3,7 +3,6 @@
   "withWebsite": 2,
   "lowConfidence": 0,
   "categories": {
-    "Validator/Infra": 1,
-    "Explorer/Infra": 1
+    "Explorer/Infra": 2
   }
 }
