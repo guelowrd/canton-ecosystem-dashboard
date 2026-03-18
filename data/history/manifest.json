@@ -1,5 +1,47 @@
 [
   {
+    "file": "snapshot-2026-03-18_0101.json",
+    "lastUpdated": "2026-03-18T01:01:26.658Z",
+    "tvlUsd": 1676022.3569397505,
+    "ccPriceUsd": 0.1514088814462012,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 29174503.010161642
+    },
+    "appRewardsShareOfMinting": 69.64542309456408,
+    "activeValidators": 843,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "validator_Hashnote",
+        "blackmantacapital-primary-1",
+        "cantor8-digik-1",
+        "dfns1",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "Redstone-validator-1",
+        "the_tie_validator",
+        "ZodiaCustody-validator-1",
+        "Cantoracle",
+        "excellar-issuer",
+        "kora-app",
+        "nightly-validator-1",
+        "rho-relay",
+        "wuselfabrik",
+        "zkpc-cantor8-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-17_0054.json",
     "lastUpdated": "2026-03-17T00:54:34.486Z",
     "tvlUsd": 1694573.2171331318,
@@ -199,24 +241,6 @@
         "the_tie_validator",
         "ZodiaCustody-validator-1",
         "Cantoracle"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-01_0108.json",
-    "lastUpdated": "2026-03-01T01:08:39.970Z",
-    "tvlUsd": 1754182.6435224111,
-    "ccPriceUsd": 0.1685946738255848,
-    "topApp": {
-      "name": "CantonLoop",
-      "rewardsCC": 19666329.22626662
-    },
-    "appRewardsShareOfMinting": 43.13651836559331,
-    "activeValidators": 785,
-    "signals": {
-      "newApps": [
-        "122033ec...65c855:1"
       ],
       "newData": []
     }
