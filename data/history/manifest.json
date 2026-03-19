@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-03-19_0101.json",
+    "lastUpdated": "2026-03-19T01:01:39.349Z",
+    "tvlUsd": 1652984.9513780074,
+    "ccPriceUsd": 0.14693979451498324,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 31191005.373041328
+    },
+    "appRewardsShareOfMinting": 70.05659124247869,
+    "activeValidators": 851,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-18_0101.json",
     "lastUpdated": "2026-03-18T01:01:26.658Z",
     "tvlUsd": 1676022.3569397505,
@@ -207,40 +226,6 @@
       "newApps": [
         "opus28-opusaccess-1",
         "tradefast-mainnet-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-02_0055.json",
-    "lastUpdated": "2026-03-02T00:55:10.484Z",
-    "tvlUsd": 1713900.1799372835,
-    "ccPriceUsd": 0.16122047150994478,
-    "topApp": {
-      "name": "CantonLoop",
-      "rewardsCC": 18896490.930805232
-    },
-    "appRewardsShareOfMinting": 42.55525761655573,
-    "activeValidators": 786,
-    "signals": {
-      "newApps": [
-        "cantonloop-mainnet-1",
-        "CoinMetrics-validator-1",
-        "cypherock-mainnet-1",
-        "Fairmint-validator-1",
-        "flipside-validator-1",
-        "Obligate-validator-1",
-        "pixelplex-mainnet-3",
-        "send-cantonwallet-1",
-        "validator_Hashnote",
-        "cantor8-digik-1",
-        "dfns1",
-        "feat-unhedged-app",
-        "MPCH-BRONdvn-1",
-        "noves-translate",
-        "the_tie_validator",
-        "ZodiaCustody-validator-1",
-        "Cantoracle"
       ],
       "newData": []
     }
