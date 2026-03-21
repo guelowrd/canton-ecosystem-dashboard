@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-03-21_0054.json",
+    "lastUpdated": "2026-03-21T00:54:24.163Z",
+    "tvlUsd": 1628097.8629663268,
+    "ccPriceUsd": 0.1437613712818459,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 29883956.312406335
+    },
+    "appRewardsShareOfMinting": 71.19103961253147,
+    "activeValidators": 856,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-20_0055.json",
     "lastUpdated": "2026-03-20T00:55:15.793Z",
     "tvlUsd": 1631789.5712497584,
@@ -204,25 +220,6 @@
         "rho-relay",
         "tradefast-mainnet-1",
         "walley"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-07_0051.json",
-    "lastUpdated": "2026-03-07T00:51:12.103Z",
-    "tvlUsd": 1677219.7667968057,
-    "ccPriceUsd": 0.15359623954611715,
-    "topApp": {
-      "name": "Temple",
-      "rewardsCC": 14409412.026767144
-    },
-    "appRewardsShareOfMinting": 42.15498271885361,
-    "activeValidators": 810,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
       ],
       "newData": []
     }
