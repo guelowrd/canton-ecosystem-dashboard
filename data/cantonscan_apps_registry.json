@@ -1,18 +1,706 @@
 [
   {
-    "appName": "Featured Apps",
-    "baseName": "featuredapps",
-    "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://canton.foundation/featured-app-request/",
-    "note": "Featured App Request - Canton Foundation"
+    "appName": "Bitgo-mainnetValidator-1",
+    "baseName": "bitgo",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://bitgo.com",
+    "note": "Digital asset custody & infrastructure"
   },
   {
-    "appName": "www.cantonscan.com",
-    "baseName": "wwwcantonscancom",
+    "appName": "ByBit-MainNetValidator-1",
+    "baseName": "bybit",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://bybit.com",
+    "note": "Crypto exchange validator"
+  },
+  {
+    "appName": "Cantex-validator-1",
+    "baseName": "cantex",
+    "category": "DEX/AMM",
+    "confidence": 100,
+    "websiteGuess": "https://cantex.io",
+    "note": "Canton DEX by CaviarNine"
+  },
+  {
+    "appName": "cantonloop-mainnet-1",
+    "baseName": "cantonloop",
+    "category": "Wallet",
+    "confidence": 100,
+    "websiteGuess": "https://lighthouse.cantonloop.com",
+    "note": "5N Loop wallet / explorer"
+  },
+  {
+    "appName": "cantonnodes-validator-1",
+    "baseName": "cantonnodes",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://cantonnodes.com",
+    "note": "Canton RPC & node services"
+  },
+  {
+    "appName": "CoinMetrics-validator-1",
+    "baseName": "coinmetrics",
+    "category": "Explorer/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://coinmetrics.io",
+    "note": "Crypto data & analytics"
+  },
+  {
+    "appName": "Cygnet",
+    "baseName": "cygnet",
+    "category": "DEX/AMM",
+    "confidence": 100,
+    "websiteGuess": "https://cygnet.finance",
+    "note": "Canton DeFi protocol"
+  },
+  {
+    "appName": "cypherock-mainnet-1",
+    "baseName": "cypherock",
+    "category": "Wallet",
+    "confidence": 100,
+    "websiteGuess": "https://cypherock.com",
+    "note": "Hardware wallet with Canton support"
+  },
+  {
+    "appName": "Fairmint-validator-1",
+    "baseName": "fairmint",
+    "category": "Tokenized Assets",
+    "confidence": 100,
+    "websiteGuess": "https://fairmint.com",
+    "note": "Equity & token issuance"
+  },
+  {
+    "appName": "flipside-validator-1",
+    "baseName": "flipside",
+    "category": "Explorer/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://flipsidecrypto.xyz",
+    "note": "Onchain analytics"
+  },
+  {
+    "appName": "Hecto-Finance-1",
+    "baseName": "hecto-finance",
+    "category": "Lending",
+    "confidence": 100,
+    "websiteGuess": "https://hectofinance.com",
+    "note": "Canton DeFi protocol"
+  },
+  {
+    "appName": "HIFI-validator-1",
+    "baseName": "hifi",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://hifi.finance",
+    "note": "Fixed-rate lending protocol"
+  },
+  {
+    "appName": "IntellectEU-validator-1",
+    "baseName": "intellecteu",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://intellecteu.com",
+    "note": "Enterprise blockchain solutions"
+  },
+  {
+    "appName": "kraken-validator-01",
+    "baseName": "kraken",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://kraken.com",
+    "note": "Crypto exchange validator"
+  },
+  {
+    "appName": "mexc-mainNet-01",
+    "baseName": "mexc",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://mexc.com",
+    "note": "MEXC exchange validator"
+  },
+  {
+    "appName": "Obligate-validator-1",
+    "baseName": "obligate",
+    "category": "Tokenized Assets",
+    "confidence": 100,
+    "websiteGuess": "https://obligate.com",
+    "note": "On-chain bond issuance"
+  },
+  {
+    "appName": "pixelplex-mainnet-3",
+    "baseName": "pixelplex",
+    "category": "Explorer/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://pixelplex.io",
+    "note": "Canton exchange development"
+  },
+  {
+    "appName": "proofgroup-validator-1",
+    "baseName": "proofgroup",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://proofgroup.com",
+    "note": "Blockchain infrastructure"
+  },
+  {
+    "appName": "Republic-validator-1",
+    "baseName": "republic",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://republic.com",
+    "note": "Investment platform validator"
+  },
+  {
+    "appName": "send-cantonwallet-1",
+    "baseName": "cantonwallet",
+    "category": "Wallet",
+    "confidence": 100,
+    "websiteGuess": "https://cantonwallet.com",
+    "note": "Canton Network wallet"
+  },
+  {
+    "appName": "temple-mainnet-1",
+    "baseName": "temple",
+    "category": "Orderbook/CLOB",
+    "confidence": 100,
+    "websiteGuess": "https://app.templedigitalgroup.com",
+    "note": "Institutional CLOB exchange"
+  },
+  {
+    "appName": "TextureCapital-validator-1",
+    "baseName": "texturecapital",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://texturecapital.com",
+    "note": "Digital asset platform"
+  },
+  {
+    "appName": "trakx-validator-1",
+    "baseName": "trakx",
+    "category": "Validator/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://trakx.io",
+    "note": "Crypto index platform"
+  },
+  {
+    "appName": "validator_Hashnote",
+    "baseName": "hashnote",
+    "category": "Tokenized Assets",
+    "confidence": 100,
+    "websiteGuess": "https://hashnote.com",
+    "note": "Institutional yield products"
+  },
+  {
+    "appName": "binance-dp-1",
+    "baseName": "binance-dp",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://binance.us",
+    "note": "Binance delegation participant"
+  },
+  {
+    "appName": "blackmantacapital-primary-1",
+    "baseName": "blackmantacapital-primary",
+    "category": "Tokenized Assets",
+    "confidence": 90,
+    "websiteGuess": "https://blackmanta.capital",
+    "note": "BaFin-regulated tokenized securities"
+  },
+  {
+    "appName": "cantor8-digik-1",
+    "baseName": "cantor8-digik",
+    "category": "Explorer/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://cantor8.tech/digik",
+    "note": "DigiK - Canton gateway"
+  },
+  {
+    "appName": "Cumberland-GasStation-1",
+    "baseName": "cumberland-gasstation",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://cumberland.io",
+    "note": "Cumberland gas station (DRW subsidiary)"
+  },
+  {
+    "appName": "dfns1",
+    "baseName": "dfns1",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://dfns.co",
+    "note": "DFNS wallet infrastructure"
+  },
+  {
+    "appName": "feat-unhedged-app",
+    "baseName": "unhedged-app",
+    "category": "Prediction Markets",
+    "confidence": 90,
+    "websiteGuess": "https://unhedged.gg",
+    "note": "Canton prediction markets"
+  },
+  {
+    "appName": "kucoin-node-01",
+    "baseName": "kucoin-node",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://kucoin.com",
+    "note": "KuCoin validator node"
+  },
+  {
+    "appName": "MPCH-BRONdvn-1",
+    "baseName": "mpch-brondvn",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://mpcvault.com",
+    "note": "MPCH Bron delegation validator"
+  },
+  {
+    "appName": "nightly-validator-1",
+    "baseName": "nightly",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://nightly.app/wallet/canton",
+    "note": "Canton Wallet - Best CANTON Wallet 2025 | Nightly"
+  },
+  {
+    "appName": "nodefortress-finance-1",
+    "baseName": "nodefortress-finance",
+    "category": "Validator/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://nodefortress.io",
+    "note": "Node hosting infrastructure"
+  },
+  {
+    "appName": "noves-translate",
+    "baseName": "noves-translate",
+    "category": "Explorer/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://noves.fi",
+    "note": "Noves Translate API"
+  },
+  {
+    "appName": "the_tie_validator",
+    "baseName": "thetievalidator",
+    "category": "Explorer/Infra",
+    "confidence": 90,
+    "websiteGuess": "https://thetie.io",
+    "note": "Crypto analytics platform"
+  },
+  {
+    "appName": "ZodiaCustody-validator-1",
+    "baseName": "zodiacustody",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://zodia.io",
+    "note": "Standard Chartered crypto custody"
+  },
+  {
+    "appName": "Cantoracle",
+    "baseName": "cantoracle",
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
+  },
+  {
+    "appName": "excellar-issuer",
+    "baseName": "excellar-issuer",
     "category": "Explorer/Infra",
     "confidence": 75,
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
+  },
+  {
+    "appName": "kora-app",
+    "baseName": "kora-app",
+    "category": "Explorer/Infra",
+    "confidence": 75,
+    "websiteGuess": "https://canton.foundation/",
+    "note": "Canton Foundation"
+  },
+  {
+    "appName": "rho-relay",
+    "baseName": "rho-relay",
+    "category": "Bridge",
+    "confidence": 75,
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
+  },
+  {
+    "appName": "tradefast-wallet2-1",
+    "baseName": "tradefast-wallet2",
+    "category": "Wallet",
+    "confidence": 75,
+    "websiteGuess": "https://trade.fast/",
+    "note": "Trade.Fast"
+  },
+  {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Wallet",
+    "confidence": 75,
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
+  },
+  {
+    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
+    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
+    "category": "Explorer/Infra",
+    "confidence": 65,
     "websiteGuess": "https://ccview.io/",
     "note": "Real‑time Canton Network Analytics | Canton Explorer"
+  },
+  {
+    "appName": "auth0_007c68129abae6733ca8b889162e",
+    "baseName": "auth0007c68129abae6733ca8b889162e",
+    "category": "Explorer/Infra",
+    "confidence": 65,
+    "websiteGuess": "https://ccview.io/",
+    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+  },
+  {
+    "appName": "tradefast-mainnet-1",
+    "baseName": "tradefast",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://trade.fast/",
+    "note": "Trade.Fast"
+  },
+  {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference",
+    "note": "Application installation error codes reference - Configuration Manager ..."
+  },
+  {
+    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://learn.microsoft.com/en-sg/answers/questions/5488728/file-shows-up-in-onedrive-sharepoint-but-is-unplay",
+    "note": "file shows up in OneDrive/SharePoint but is unplayable"
+  },
+  {
+    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
+    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
+  },
+  {
+    "appName": "acme-lending",
+    "baseName": "acme-lending",
+    "category": "Lending",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Overcollateralized lending on Canton"
+  },
+  {
+    "appName": "Bridge-Operator",
+    "baseName": "bridge-operator",
+    "category": "Bridge",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton bridge operator"
+  },
+  {
+    "appName": "c7trust",
+    "baseName": "c7trust",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "C7 Technology trust service"
+  },
+  {
+    "appName": "CantonSwap",
+    "baseName": "cantonswap",
+    "category": "DEX/AMM",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton swap protocol"
+  },
+  {
+    "appName": "ccbrowser",
+    "baseName": "ccbrowser",
+    "category": "Explorer/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton Coin browser"
+  },
+  {
+    "appName": "handlpay-main-1",
+    "baseName": "handlpay-main",
+    "category": "Payments",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton payment service"
+  },
+  {
+    "appName": "iBTC-validator-1",
+    "baseName": "ibtc",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "iBTC validator"
+  },
+  {
+    "appName": "lithiumdigital-validator-1",
+    "baseName": "lithiumdigital",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton validator"
+  },
+  {
+    "appName": "LoopID",
+    "baseName": "loopid",
+    "category": "Identity/Auth",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Identity service"
+  },
+  {
+    "appName": "M1-validator-1",
+    "baseName": "m1",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton validator"
+  },
+  {
+    "appName": "palladium-validator-1",
+    "baseName": "palladium",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton validator"
+  },
+  {
+    "appName": "poolparty",
+    "baseName": "poolparty",
+    "category": "DEX/AMM",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Liquidity pool protocol"
+  },
+  {
+    "appName": "PotamusEngagement-validator-1",
+    "baseName": "potamusengagement",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton validator"
+  },
+  {
+    "appName": "send-safe",
+    "baseName": "safe",
+    "category": "Wallet",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Safe send interface"
+  },
+  {
+    "appName": "silvana-orderbook",
+    "baseName": "silvana-orderbook",
+    "category": "Orderbook/CLOB",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Order book exchange"
+  },
+  {
+    "appName": "Supanova-validator-1",
+    "baseName": "supanova",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton validator"
+  },
+  {
+    "appName": "TRIZEGroup-cantonMainnetValidator-1",
+    "baseName": "trizegroup-cantonmainnetvalidator",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "TRIZE Group validator"
+  },
+  {
+    "appName": "Ubyx-validator-1",
+    "baseName": "ubyx",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton validator"
+  },
+  {
+    "appName": "ValaWallet-validator-1",
+    "baseName": "valawallet",
+    "category": "Wallet",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Vala Canton wallet"
+  },
+  {
+    "appName": "FTP-validator-1",
+    "baseName": "ftp",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "Redstone-validator-1",
+    "baseName": "redstone",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "sunthycloud-mainnet-1",
+    "baseName": "sunthycloud",
+    "category": "Unknown",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": "Canton cloud service"
+  },
+  {
+    "appName": "auth0_007c689b657291598790daabbdca",
+    "baseName": "auth0007c689b657291598790daabbdca",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "auth0_007c6944217743c3f0b43f0a8285",
+    "baseName": "auth0007c6944217743c3f0b43f0a8285",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "foundinalsunthy-mainnet-1",
+    "baseName": "foundinalsunthy",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "google-oauth2_007c106967619021219072829",
+    "baseName": "google-oauth2007c106967619021219072829",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "handl-issuer",
+    "baseName": "handl-issuer",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "kairo-mainnet",
+    "baseName": "kairo",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "mandalo-mainnet-2",
+    "baseName": "mandalo",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "modo",
+    "baseName": "modo",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "modulo-mainnet-2",
+    "baseName": "modulo",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "openvector-mainnet-1",
+    "baseName": "openvector",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "tenkai-main-1",
+    "baseName": "tenkai-main",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "unitedapp-cc",
+    "baseName": "unitedapp-cc",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
+    "appName": "zkpc-cantor8-1",
+    "baseName": "zkpc-cantor8",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
   }
 ]
