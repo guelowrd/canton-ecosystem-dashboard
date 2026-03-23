@@ -48,14 +48,6 @@
     "note": "Crypto data & analytics"
   },
   {
-    "appName": "Cygnet",
-    "baseName": "cygnet",
-    "category": "DEX/AMM",
-    "confidence": 100,
-    "websiteGuess": "https://cygnet.finance",
-    "note": "Canton DeFi protocol"
-  },
-  {
     "appName": "cypherock-mainnet-1",
     "baseName": "cypherock",
     "category": "Wallet",
@@ -258,7 +250,7 @@
   {
     "appName": "nightly-validator-1",
     "baseName": "nightly",
-    "category": "Wallet",
+    "category": "Explorer/Infra",
     "confidence": 90,
     "websiteGuess": "https://nightly.app/wallet/canton",
     "note": "Canton Wallet - Best CANTON Wallet 2025 | Nightly"
@@ -300,64 +292,64 @@
     "baseName": "cantoracle",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
+    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
   },
   {
     "appName": "excellar-issuer",
     "baseName": "excellar-issuer",
     "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "websiteGuess": "https://ccview.io/",
+    "note": "Real‑time Canton Network Analytics | Canton Explorer"
   },
   {
     "appName": "kora-app",
     "baseName": "kora-app",
     "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://canton.foundation/",
-    "note": "Canton Foundation"
+    "websiteGuess": "https://www.cantonecosystem.com/",
+    "note": "Canton Network Ecosystem"
   },
   {
     "appName": "rho-relay",
     "baseName": "rho-relay",
     "category": "Bridge",
     "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "websiteGuess": "https://cache.industry.siemens.com/dl/files/292/109747292/att_918711/v1/7SR105_Rho_Complete_Technical_Manual.pdf",
+    "note": "PDF 7SR105 Rho User Manual - cache.industry.siemens.com"
   },
   {
     "appName": "tradefast-wallet2-1",
     "baseName": "tradefast-wallet2",
     "category": "Wallet",
     "confidence": 75,
-    "websiteGuess": "https://trade.fast/",
-    "note": "Trade.Fast"
+    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/integrating-with-canton-network/index.html",
+    "note": "Integrating with the Canton Network — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "walley",
     "baseName": "walley",
     "category": "Wallet",
     "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "websiteGuess": "https://ir.moodys.com/press-releases/news-details/2026/Moodys-Ratings-Becomes-First-Credit-Rating-Agency-to-Bring-Independent-Credit-Analysis-to-Blockchain-Financial-Infrastructure/default.aspx",
+    "note": "Moodys - Moody&#x27;s Ratings Becomes First Credit Rating Agency to Bring ..."
   },
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
     "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://www.digitalasset.com/",
+    "note": "Digital Asset Holdings - Delivering synchronized finance"
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
     "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://coinshares.com/insights/knowledge/what-is-canton-network-and-why-it-matters/",
+    "note": "What is Canton Network and why it matters - coinshares.com"
   },
   {
     "appName": "tradefast-mainnet-1",
@@ -368,28 +360,12 @@
     "note": "Trade.Fast"
   },
   {
-    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "category": "Explorer/Infra",
-    "confidence": 60,
-    "websiteGuess": "https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference",
-    "note": "Application installation error codes reference - Configuration Manager ..."
-  },
-  {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Explorer/Infra",
     "confidence": 60,
-    "websiteGuess": "https://learn.microsoft.com/en-sg/answers/questions/5488728/file-shows-up-in-onedrive-sharepoint-but-is-unplay",
-    "note": "file shows up in OneDrive/SharePoint but is unplayable"
-  },
-  {
-    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "category": "Explorer/Infra",
-    "confidence": 60,
-    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
-    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
+    "websiteGuess": "https://learn.microsoft.com/en-us/answers/questions/5371610/something-went-wrong-(4wbr5)-problem",
+    "note": "Something Went Wrong. [4wbr5] Problem - Microsoft Q&amp;A"
   },
   {
     "appName": "acme-lending",
@@ -544,6 +520,22 @@
     "note": "Vala Canton wallet"
   },
   {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference",
+    "note": "Application installation error codes reference - Configuration Manager ..."
+  },
+  {
+    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox",
+    "note": "How malicious party invites target your inbox"
+  },
+  {
     "appName": "FTP-validator-1",
     "baseName": "ftp",
     "category": "Validator/Infra",
@@ -587,6 +579,14 @@
     "appName": "auth0_007c6944217743c3f0b43f0a8285",
     "baseName": "auth0007c6944217743c3f0b43f0a8285",
     "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "cantory",
+    "baseName": "cantory",
+    "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": null

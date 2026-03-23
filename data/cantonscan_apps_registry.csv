@@ -5,7 +5,6 @@ Cantex-validator-1,cantex,DEX/AMM,100,https://cantex.io,Canton DEX by CaviarNine
 cantonloop-mainnet-1,cantonloop,Wallet,100,https://lighthouse.cantonloop.com,5N Loop wallet / explorer
 cantonnodes-validator-1,cantonnodes,Validator/Infra,100,https://cantonnodes.com,Canton RPC & node services
 CoinMetrics-validator-1,coinmetrics,Explorer/Infra,100,https://coinmetrics.io,Crypto data & analytics
-Cygnet,cygnet,DEX/AMM,100,https://cygnet.finance,Canton DeFi protocol
 cypherock-mainnet-1,cypherock,Wallet,100,https://cypherock.com,Hardware wallet with Canton support
 Fairmint-validator-1,fairmint,Tokenized Assets,100,https://fairmint.com,Equity & token issuance
 flipside-validator-1,flipside,Explorer/Infra,100,https://flipsidecrypto.xyz,Onchain analytics
@@ -31,23 +30,21 @@ dfns1,dfns1,Wallet,90,https://dfns.co,DFNS wallet infrastructure
 feat-unhedged-app,unhedged-app,Prediction Markets,90,https://unhedged.gg,Canton prediction markets
 kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validator node
 MPCH-BRONdvn-1,mpch-brondvn,Wallet,90,https://mpcvault.com,MPCH Bron delegation validator
-nightly-validator-1,nightly,Wallet,90,https://nightly.app/wallet/canton,Canton Wallet - Best CANTON Wallet 2025 | Nightly
+nightly-validator-1,nightly,Explorer/Infra,90,https://nightly.app/wallet/canton,Canton Wallet - Best CANTON Wallet 2025 | Nightly
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
 the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-Cantoracle,cantoracle,Tokenized Assets,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
-excellar-issuer,excellar-issuer,Explorer/Infra,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
-kora-app,kora-app,Explorer/Infra,75,https://canton.foundation/,Canton Foundation
-rho-relay,rho-relay,Bridge,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
-tradefast-wallet2-1,tradefast-wallet2,Wallet,75,https://trade.fast/,Trade.Fast
-walley,walley,Wallet,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
-auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+Cantoracle,cantoracle,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
+excellar-issuer,excellar-issuer,Explorer/Infra,75,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+kora-app,kora-app,Explorer/Infra,75,https://www.cantonecosystem.com/,Canton Network Ecosystem
+rho-relay,rho-relay,Bridge,75,https://cache.industry.siemens.com/dl/files/292/109747292/att_918711/v1/7SR105_Rho_Complete_Technical_Manual.pdf,PDF 7SR105 Rho User Manual - cache.industry.siemens.com
+tradefast-wallet2-1,tradefast-wallet2,Wallet,75,https://docs.digitalasset.com/integrate/devnet/integrating-with-canton-network/index.html,Integrating with the Canton Network — Digital Asset&#x27;s platform ...
+walley,walley,Wallet,75,https://ir.moodys.com/press-releases/news-details/2026/Moodys-Ratings-Becomes-First-Credit-Rating-Agency-to-Bring-Independent-Credit-Analysis-to-Blockchain-Financial-Infrastructure/default.aspx,Moodys - Moody&#x27;s Ratings Becomes First Credit Rating Agency to Bring ...
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Explorer/Infra,65,https://www.digitalasset.com/,Digital Asset Holdings - Delivering synchronized finance
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://coinshares.com/insights/knowledge/what-is-canton-network-and-why-it-matters/,What is Canton Network and why it matters - coinshares.com
 tradefast-mainnet-1,tradefast,Unknown,65,https://trade.fast/,Trade.Fast
-8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Explorer/Infra,60,https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference,Application installation error codes reference - Configuration Manager ...
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://learn.microsoft.com/en-sg/answers/questions/5488728/file-shows-up-in-onedrive-sharepoint-but-is-unplay,file shows up in OneDrive/SharePoint but is unplayable
-party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Explorer/Infra,60,https://docs.digitalasset.com/build/3.4/explanations/parties-users.html,Parties and users on a Canton ledger — Digital Asset&#x27;s platform ...
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://learn.microsoft.com/en-us/answers/questions/5371610/something-went-wrong-(4wbr5)-problem,Something Went Wrong. [4wbr5] Problem - Microsoft Q&amp;A
 acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
@@ -67,12 +64,15 @@ Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 ValaWallet-validator-1,valawallet,Wallet,55,,Vala Canton wallet
+8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference,Application installation error codes reference - Configuration Manager ...
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox,How malicious party invites target your inbox
 FTP-validator-1,ftp,Validator/Infra,40,,
 Redstone-validator-1,redstone,Validator/Infra,40,,
 sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
 auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Auth,30,,
 auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,30,,
 auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Identity/Auth,30,,
+cantory,cantory,Unknown,30,,
 foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
 google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,30,,
 handl-issuer,handl-issuer,Unknown,30,,

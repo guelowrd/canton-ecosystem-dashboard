@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-03-22T01:03:11.039Z",
-  "cantonCoinPriceUsd": 0.14486889538650646,
+  "lastUpdated": "2026-03-23T01:01:35.516Z",
+  "cantonCoinPriceUsd": 0.14334613803227966,
   "networkHealth": {
-    "totalTvlUsd": 1643505.0122930265,
-    "volume30dUsd": 888971.7889353959,
+    "totalTvlUsd": 1627870.799194604,
+    "volume30dUsd": 849801.3373090487,
     "featuredApps": 133,
-    "trackedApps": 27,
+    "trackedApps": 28,
     "transparentApps": 2,
-    "netIssuance": 32149222.460188165,
-    "governanceParticipation": 0.3974358974358975
+    "netIssuance": 28209802.972496316,
+    "governanceParticipation": 0.576923076923077
   },
   "concentration": {
     "svTop1Pct": 58.02314670003128,
@@ -40,17 +40,17 @@
         "url": null
       }
     ],
-    "tvlLargestPoolPct": 94.58724155863558,
-    "rewardsTop3Pct": 46.81027478722059,
-    "rewardsTop5Pct": 58.341872976605615
+    "tvlLargestPoolPct": 94.65638125586915,
+    "rewardsTop3Pct": 45.639142815556696,
+    "rewardsTop5Pct": 56.7915532789971
   },
   "executiveInsights": [
     "Largest super validator controls 58.0% of consensus weight",
     "Top sponsor (Digital Asset 2) holds 45.0% of validator licenses",
-    "71% of CC emissions go to application rewards",
+    "72% of CC emissions go to application rewards",
     "95% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 27 tracked apps expose public metrics",
-    "Top 3 apps capture 47% of app rewards (led by cantor8-digik-1)"
+    "2 of 28 tracked apps expose public metrics",
+    "Top 3 apps capture 46% of app rewards (led by cantor8-digik-1)"
   ],
   "apps": [
     {
@@ -63,11 +63,11 @@
       "network": {
         "activeValidators": 856,
         "superValidators": 13,
-        "supply": 38090157968.43064,
-        "consensusHeight": 23956438,
+        "supply": 38095469053.93111,
+        "consensusHeight": 24171826,
         "version": "0.5.13",
         "featuredApps": 133,
-        "currentRound": 88409
+        "currentRound": 88550
       },
       "superValidators": [
         {
@@ -181,8 +181,8 @@
           "Digital-Asset-2": 427,
           "Global-Synchronizer-Foundation": 255,
           "MPC-Holding-Inc": 71,
-          "Proof-Group-1": 52,
           "Five-North-1": 52,
+          "Proof-Group-1": 52,
           "Digital-Asset-1": 19,
           "Cumberland-1": 19,
           "Cumberland-2": 15,
@@ -195,14 +195,14 @@
           "Liberty-City-Ventures": 2
         },
         "byVersion": {
-          "0.5.13": 491,
-          "0.5.12": 180,
+          "0.5.13": 494,
+          "0.5.12": 168,
           "0.5.11": 52,
+          "0.5.14": 35,
           "0.5.4": 31,
           "0.5.10": 30,
-          "0.5.14": 24,
-          "0.5.9": 21,
-          "0.5.8": 21,
+          "0.5.8": 20,
+          "0.5.9": 20,
           "0.5.5": 16,
           "0.3.21": 7,
           "0.4.22": 5,
@@ -216,8 +216,8 @@
           "0.4.23": 3,
           "0.4.11": 3,
           "unknown": 3,
-          "0.5.6": 2,
           "0.5.1": 2,
+          "0.5.6": 2,
           "0.4.7": 2,
           "0.2.8": 2,
           "0.3.4": 2,
@@ -255,158 +255,158 @@
         }
       },
       "recentActivity": {
-        "sampleSize": 7938896,
+        "sampleSize": 7750000,
         "timeWindowHours": 168,
-        "amuletPrice": 0.143921,
-        "totalMinted": 139453128.20807895,
-        "appRewardsMinted": 99686775.41324106,
-        "validatorLivenessRewardsMinted": 2825488.4167704848,
-        "svRewardsMinted": 22360613.77081184,
-        "totalTransferred": 3139823414.4521875,
-        "totalBurned": 107303905.74789079,
-        "netIssuance": 32149222.460188165,
+        "amuletPrice": 0.14287,
+        "totalMinted": 135576197.3507281,
+        "appRewardsMinted": 96950459.05439433,
+        "validatorLivenessRewardsMinted": 2710170.995059099,
+        "svRewardsMinted": 21719738.88867902,
+        "totalTransferred": 3148036199.302003,
+        "totalBurned": 107366394.37823178,
+        "netIssuance": 28209802.972496316,
         "topApps": [
           {
             "name": "cantor8-digik-1",
-            "rewardsCC": 28975695.51666154
+            "rewardsCC": 26522709.72439587
           },
           {
             "name": "poolparty",
-            "rewardsCC": 8912239.442497363
+            "rewardsCC": 9434381.683964062
           },
           {
             "name": "temple-mainnet-1",
-            "rewardsCC": 8775718.538296059
+            "rewardsCC": 8290267.059813485
           },
           {
             "name": "cantonloop-mainnet-1",
-            "rewardsCC": 6655591.85307875
+            "rewardsCC": 6659788.0624024095
           },
           {
             "name": "Bridge-Operator",
-            "rewardsCC": 4839886.535530226
+            "rewardsCC": 4152525.077533509
           },
           {
             "name": "tradefast-mainnet-1",
-            "rewardsCC": 3737065.0268908115
-          },
-          {
-            "name": "Cantex-validator-1",
-            "rewardsCC": 3719461.310105825
-          },
-          {
-            "name": "CantonSwap",
-            "rewardsCC": 3121137.6419347436
+            "rewardsCC": 4130948.7427287437
           },
           {
             "name": "kairo-mainnet",
-            "rewardsCC": 3113022.4810915347
+            "rewardsCC": 3853193.634232166
           },
           {
-            "name": "feat-unhedged-app",
-            "rewardsCC": 2444762.6111156954
+            "name": "CantonSwap",
+            "rewardsCC": 3397172.007592087
+          },
+          {
+            "name": "Cantex-validator-1",
+            "rewardsCC": 2820698.338869065
+          },
+          {
+            "name": "9fb4029824d946bc86c348a6e069be41",
+            "rewardsCC": 2706332.7157232934
           }
         ],
-        "rewardsTop1Pct": 29.066739691947575,
+        "rewardsTop1Pct": 27.356971780313994,
         "top1AppName": "cantor8-digik-1",
-        "rewardsTop3Pct": 46.81027478722059,
-        "rewardsTop5Pct": 58.341872976605615,
-        "appRewardsShareOfMinting": 71.48407260143907
+        "rewardsTop3Pct": 45.639142815556696,
+        "rewardsTop5Pct": 56.7915532789971,
+        "appRewardsShareOfMinting": 71.50994123517779
       },
       "governance": {
         "openProposals": 12,
-        "participationRate": 0.3974358974358975,
+        "participationRate": 0.576923076923077,
         "totalHistorical": 338,
         "closedCount": 326,
         "votes": [
           {
-            "summary": "Rhein Finance changes its FA partyID from auth0_007c6854438f220d2f07761f21a3::12208ea6ee6188e06ff3ba484219eb1e7e9308d...",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
+            "summary": "Per CIP-0096, Validator liveness rewards should be set to 0 from 0.60, effective on April 30.",
+            "url": "https://lists.sync.global/g/cip-announce/message/67",
+            "requester": "Cumberland-1",
+            "yesVotes": 12,
             "noVotes": 0,
-            "pendingVotes": 10,
-            "totalVoters": 13
-          },
-          {
-            "summary": "Rhein Finance changes its FA partyID from auth0_007c6854438f220d2f07761f21a3::12208ea6ee6188e06ff3ba484219eb1e7e9308d...",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
-            "noVotes": 0,
-            "pendingVotes": 10,
-            "totalVoters": 13
-          },
-          {
-            "summary": "enzoBTC changes its FA partyID from enzobtc::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd to ...",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
-            "noVotes": 0,
-            "pendingVotes": 10,
-            "totalVoters": 13
-          },
-          {
-            "summary": "enzoBTC changes its FA partyID from enzobtc::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd to ...",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
-            "noVotes": 0,
-            "pendingVotes": 10,
-            "totalVoters": 13
-          },
-          {
-            "summary": "OneSwap is an automated market maker (AMM) built natively on the Canton Network.",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/299",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
-            "noVotes": 0,
-            "pendingVotes": 10,
-            "totalVoters": 13
-          },
-          {
-            "summary": "Tiva.one is a decentralized over-the-counter (OTC) marketplace built on the Canton Network and the Splice V2 standard.",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/299",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
-            "noVotes": 0,
-            "pendingVotes": 10,
-            "totalVoters": 13
-          },
-          {
-            "summary": "Bridge by Roots is a bidirectional bridge for moving USDC between Ethereum and Canton.",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/299",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
-            "noVotes": 0,
-            "pendingVotes": 10,
-            "totalVoters": 13
-          },
-          {
-            "summary": "According to CIP-0081, YZi Labs is approved as an SV of max Weight 10.",
-            "url": "https://lists.sync.global/g/cip-announce/message/52",
-            "requester": "Global-Synchronizer-Foundation",
-            "yesVotes": 3,
-            "noVotes": 0,
-            "pendingVotes": 10,
+            "pendingVotes": 1,
             "totalVoters": 13
           },
           {
             "summary": "According to CIP-0106, QCP Group (QCP) is approved as an SV of max Weight 5.",
             "url": "https://lists.sync.global/g/cip-announce/message/78",
             "requester": "Five-North-1",
-            "yesVotes": 3,
+            "yesVotes": 6,
             "noVotes": 0,
-            "pendingVotes": 10,
+            "pendingVotes": 7,
             "totalVoters": 13
           },
           {
-            "summary": "Per CIP-0096, Validator liveness rewards should be set to 0 from 0.60, effective on April 30.",
-            "url": "https://lists.sync.global/g/cip-announce/message/67",
-            "requester": "Cumberland-1",
-            "yesVotes": 11,
+            "summary": "Bridge by Roots is a bidirectional bridge for moving USDC between Ethereum and Canton.",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/299",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
             "noVotes": 0,
-            "pendingVotes": 2,
+            "pendingVotes": 7,
+            "totalVoters": 13
+          },
+          {
+            "summary": "Tiva.one is a decentralized over-the-counter (OTC) marketplace built on the Canton Network and the Splice V2 standard.",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/299",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
+            "noVotes": 0,
+            "pendingVotes": 7,
+            "totalVoters": 13
+          },
+          {
+            "summary": "OneSwap is an automated market maker (AMM) built natively on the Canton Network.",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/299",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
+            "noVotes": 0,
+            "pendingVotes": 7,
+            "totalVoters": 13
+          },
+          {
+            "summary": "enzoBTC changes its FA partyID from enzobtc::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd to ...",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
+            "noVotes": 0,
+            "pendingVotes": 7,
+            "totalVoters": 13
+          },
+          {
+            "summary": "enzoBTC changes its FA partyID from enzobtc::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd to ...",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
+            "noVotes": 0,
+            "pendingVotes": 7,
+            "totalVoters": 13
+          },
+          {
+            "summary": "Rhein Finance changes its FA partyID from auth0_007c6854438f220d2f07761f21a3::12208ea6ee6188e06ff3ba484219eb1e7e9308d...",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
+            "noVotes": 0,
+            "pendingVotes": 7,
+            "totalVoters": 13
+          },
+          {
+            "summary": "Rhein Finance changes its FA partyID from auth0_007c6854438f220d2f07761f21a3::12208ea6ee6188e06ff3ba484219eb1e7e9308d...",
+            "url": "https://lists.sync.global/g/tokenomics-announce/message/267",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
+            "noVotes": 0,
+            "pendingVotes": 7,
+            "totalVoters": 13
+          },
+          {
+            "summary": "According to CIP-0081, YZi Labs is approved as an SV of max Weight 10.",
+            "url": "https://lists.sync.global/g/cip-announce/message/52",
+            "requester": "Global-Synchronizer-Foundation",
+            "yesVotes": 6,
+            "noVotes": 0,
+            "pendingVotes": 7,
             "totalVoters": 13
           },
           {
@@ -437,55 +437,55 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.14486889538650646,
-      "cbtcPriceUsd": 70461.48510518536,
+      "ccPriceUsd": 0.14334613803227966,
+      "cbtcPriceUsd": 68529.36553595819,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5328429.78028515,
-          "token2Holdings": 771923.736414475,
-          "tvlUsd": 1543847.47282895,
+          "token1Holdings": 5359111.307076124,
+          "token2Holdings": 768207.9091544847,
+          "tvlUsd": 1536415.8183089695,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.17305880555922526,
-          "totalLpTokens": 1964585.9521388295,
+          "yield24h": 0.1755406458213502,
+          "totalLpTokens": 1964616.0113191337,
           "volume": {
-            "1h": 49.83028805826325,
-            "4h": 91.20331043773331,
-            "12h": 5241.876795580029,
-            "24h": 13892.515852236538,
-            "7d": 118553.94581240357,
-            "30d": 736188.4439116964
+            "1h": 10.638341967365704,
+            "4h": 53.27975356928073,
+            "12h": 372.5181225169217,
+            "24h": 4857.960485498421,
+            "7d": 111747.80975743523,
+            "30d": 700880.7708175166
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 304919.5937760473,
-          "token2Holdings": 0.6269150397,
-          "tvlUsd": 88346.72946407649,
+          "token1Holdings": 302536.8945276464,
+          "token2Holdings": 0.6328308325,
+          "tvlUsd": 86734.99088563447,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.19529743628862817,
-          "totalLpTokens": 421.1279163322,
+          "yield24h": 0.20711324799011388,
+          "totalLpTokens": 421.2365271173,
           "volume": {
-            "1h": 30.2324719552237,
-            "4h": 216.1810300423021,
-            "12h": 1037.0186157990418,
-            "24h": 2102.371015091459,
-            "7d": 19484.592624019468,
-            "30d": 152783.34502369948
+            "1h": 81.13085993944333,
+            "4h": 206.02087236261175,
+            "12h": 505.714690039823,
+            "24h": 2012.5140987943994,
+            "7d": 20902.788043404224,
+            "30d": 148920.56649153217
           }
         }
       ],
-      "totalTvlUsd": 1632194.2022930265,
-      "largestPoolPct": 94.58724155863558,
-      "totalVolume24hUsd": 15994.886867327998,
-      "totalVolume7dUsd": 138038.53843642306,
-      "totalVolume30dUsd": 888971.7889353959
+      "totalTvlUsd": 1623150.809194604,
+      "largestPoolPct": 94.65638125586915,
+      "totalVolume24hUsd": 6870.4745842928205,
+      "totalVolume7dUsd": 132650.59780083946,
+      "totalVolume30dUsd": 849801.3373090487
     },
     {
       "id": "unhedged",
@@ -494,59 +494,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 9767,
-      "activeMarkets": 108,
-      "endedMarkets": 25,
-      "resolvedMarkets": 9562,
-      "totalActivePoolUsd": 11310.81,
-      "totalActiveBets": 878,
+      "totalMarkets": 10128,
+      "activeMarkets": 60,
+      "endedMarkets": 14,
+      "resolvedMarkets": 9977,
+      "totalActivePoolUsd": 4719.99,
+      "totalActiveBets": 465,
       "categories": {
         "sports": {
-          "count": 88,
-          "poolUsd": 8230.810000000001,
-          "bets": 736
+          "count": 46,
+          "poolUsd": 3396.99,
+          "bets": 334
         },
         "crypto": {
           "count": 12,
-          "poolUsd": 3080,
-          "bets": 142
+          "poolUsd": 1238,
+          "bets": 114
+        },
+        "economics": {
+          "count": 1,
+          "poolUsd": 85,
+          "bets": 17
         }
       },
       "topMarkets": [
         {
-          "question": "Solana above $88.63 at 01:00 UTC?",
+          "question": "Ethereum above $2,055.29 at 01:00 UTC?",
           "category": "crypto",
-          "totalPool": 1248,
-          "betCount": 50,
-          "endTime": "2026-03-22T00:50:00.000Z"
+          "totalPool": 428,
+          "betCount": 29,
+          "endTime": "2026-03-23T00:50:00.000Z"
         },
         {
-          "question": "Ethereum above $2,118.82 at 01:00 UTC?",
-          "category": "crypto",
-          "totalPool": 728,
-          "betCount": 21,
-          "endTime": "2026-03-22T00:50:00.000Z"
-        },
-        {
-          "question": "Ethereum above $2,073.86 at 01:00 UTC?",
-          "category": "crypto",
-          "totalPool": 635,
-          "betCount": 34,
-          "endTime": "2026-03-22T00:50:00.000Z"
-        },
-        {
-          "question": "Barcelona vs Rayo Vallecano",
+          "question": "LA Clippers vs Milwaukee Bucks",
           "category": "sports",
-          "totalPool": 377,
+          "totalPool": 175,
           "betCount": 14,
-          "endTime": "2026-03-22T16:00:00.000Z"
+          "endTime": "2026-03-24T01:30:00.000Z"
         },
         {
-          "question": "Aston Villa vs West Ham",
+          "question": "Bitcoin above $67,929.12 at 01:00 UTC?",
+          "category": "crypto",
+          "totalPool": 165,
+          "betCount": 18,
+          "endTime": "2026-03-23T00:50:00.000Z"
+        },
+        {
+          "question": "Chicago Bulls vs Houston Rockets",
           "category": "sports",
-          "totalPool": 322,
+          "totalPool": 160,
+          "betCount": 11,
+          "endTime": "2026-03-23T23:00:00.000Z"
+        },
+        {
+          "question": "Bitcoin above $67,900.98 at 01:00 UTC?",
+          "category": "crypto",
+          "totalPool": 155,
           "betCount": 21,
-          "endTime": "2026-03-22T13:15:00.000Z"
+          "endTime": "2026-03-23T00:50:00.000Z"
         }
       ]
     },
@@ -631,6 +636,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Hardware wallet with Canton support",
+      "isCandidate": true
+    },
+    {
+      "id": "fairmint",
+      "name": "Fairmint-validator-1",
+      "url": "https://fairmint.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Equity & token issuance",
       "isCandidate": true
     },
     {
@@ -757,7 +774,7 @@
       "id": "nightly",
       "name": "nightly-validator-1",
       "url": "https://nightly.app/wallet/canton",
-      "appCategory": "Wallet",
+      "appCategory": "Explorer/Infra",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -804,73 +821,73 @@
     {
       "id": "cantoracle",
       "name": "Cantoracle",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "url": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
+      "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ...",
       "isCandidate": true
     },
     {
       "id": "excellar-issuer",
       "name": "excellar-issuer",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "url": "https://ccview.io/",
       "appCategory": "Explorer/Infra",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
+      "note": "Real‑time Canton Network Analytics | Canton Explorer",
       "isCandidate": true
     },
     {
       "id": "kora-app",
       "name": "kora-app",
-      "url": "https://canton.foundation/",
+      "url": "https://www.cantonecosystem.com/",
       "appCategory": "Explorer/Infra",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Foundation",
+      "note": "Canton Network Ecosystem",
       "isCandidate": true
     },
     {
       "id": "rho-relay",
       "name": "rho-relay",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "url": "https://cache.industry.siemens.com/dl/files/292/109747292/att_918711/v1/7SR105_Rho_Complete_Technical_Manual.pdf",
       "appCategory": "Bridge",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
+      "note": "PDF 7SR105 Rho User Manual - cache.industry.siemens.com",
       "isCandidate": true
     },
     {
       "id": "tradefast-wallet2",
       "name": "tradefast-wallet2-1",
-      "url": "https://trade.fast/",
+      "url": "https://docs.digitalasset.com/integrate/devnet/integrating-with-canton-network/index.html",
       "appCategory": "Wallet",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Trade.Fast",
+      "note": "Integrating with the Canton Network — Digital Asset&#x27;s platform ...",
       "isCandidate": true
     },
     {
       "id": "walley",
       "name": "walley",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "url": "https://ir.moodys.com/press-releases/news-details/2026/Moodys-Ratings-Becomes-First-Credit-Rating-Agency-to-Bring-Independent-Credit-Analysis-to-Blockchain-Financial-Infrastructure/default.aspx",
       "appCategory": "Wallet",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
+      "note": "Moodys - Moody&#x27;s Ratings Becomes First Credit Rating Agency to Bring ...",
       "isCandidate": true
     }
   ]

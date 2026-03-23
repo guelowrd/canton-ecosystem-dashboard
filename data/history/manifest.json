@@ -1,5 +1,29 @@
 [
   {
+    "file": "snapshot-2026-03-23_0101.json",
+    "lastUpdated": "2026-03-23T01:01:35.516Z",
+    "tvlUsd": 1627870.799194604,
+    "ccPriceUsd": 0.14334613803227966,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 26522709.72439587
+    },
+    "appRewardsShareOfMinting": 71.50994123517779,
+    "activeValidators": 856,
+    "signals": {
+      "newApps": [
+        "Fairmint-validator-1"
+      ],
+      "newData": [
+        {
+          "app": "excellar-issuer",
+          "from": "none",
+          "to": "opaque"
+        }
+      ]
+    }
+  },
+  {
     "file": "snapshot-2026-03-22_0103.json",
     "lastUpdated": "2026-03-22T01:03:11.039Z",
     "tvlUsd": 1643505.0122930265,
@@ -200,26 +224,6 @@
       "newApps": [
         "kora-app",
         "walley"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-09_0056.json",
-    "lastUpdated": "2026-03-09T00:56:50.801Z",
-    "tvlUsd": 1662454.4345680673,
-    "ccPriceUsd": 0.15026447861743572,
-    "topApp": {
-      "name": "Temple",
-      "rewardsCC": 13689899.551604876
-    },
-    "appRewardsShareOfMinting": 58.14378909455815,
-    "activeValidators": 807,
-    "signals": {
-      "newApps": [
-        "cantory",
-        "excellar-issuer",
-        "ledger-ledgerops-2"
       ],
       "newData": []
     }
