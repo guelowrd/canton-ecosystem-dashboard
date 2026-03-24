@@ -1,5 +1,23 @@
 [
   {
+    "file": "snapshot-2026-03-24_0054.json",
+    "lastUpdated": "2026-03-24T00:54:22.481Z",
+    "tvlUsd": 1645648.8800527174,
+    "ccPriceUsd": 0.14634131947708337,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 25383631.450897098
+    },
+    "appRewardsShareOfMinting": 71.41810830152264,
+    "activeValidators": 854,
+    "signals": {
+      "newApps": [
+        "FTP-validator-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-23_0101.json",
     "lastUpdated": "2026-03-23T01:01:35.516Z",
     "tvlUsd": 1627870.799194604,
@@ -205,25 +223,6 @@
       "newApps": [
         "Featured Apps",
         "www.cantonscan.com"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-10_0053.json",
-    "lastUpdated": "2026-03-10T00:53:51.196Z",
-    "tvlUsd": 1644496.179300027,
-    "ccPriceUsd": 0.14505501029848253,
-    "topApp": {
-      "name": "Temple",
-      "rewardsCC": 14398710.027011065
-    },
-    "appRewardsShareOfMinting": 58.60434492778995,
-    "activeValidators": 811,
-    "signals": {
-      "newApps": [
-        "kora-app",
-        "walley"
       ],
       "newData": []
     }
