@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-03-25_0056.json",
+    "lastUpdated": "2026-03-25T00:56:51.420Z",
+    "tvlUsd": 1630237.960340187,
+    "ccPriceUsd": 0.14165007548598338,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 24189815.70392696
+    },
+    "appRewardsShareOfMinting": 58.475689571492964,
+    "activeValidators": 858,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-24_0054.json",
     "lastUpdated": "2026-03-24T00:54:22.481Z",
     "tvlUsd": 1645648.8800527174,
@@ -205,25 +224,6 @@
     "activeValidators": 836,
     "signals": {
       "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-11_0052.json",
-    "lastUpdated": "2026-03-11T00:52:57.694Z",
-    "tvlUsd": 1647902.6252165027,
-    "ccPriceUsd": 0.14774043898780279,
-    "topApp": {
-      "name": "Temple",
-      "rewardsCC": 14224662.031809023
-    },
-    "appRewardsShareOfMinting": 58.626855380197085,
-    "activeValidators": 816,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
-      ],
       "newData": []
     }
   }
