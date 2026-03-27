@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-03-27_0101.json",
+    "lastUpdated": "2026-03-27T01:01:04.976Z",
+    "tvlUsd": 1634908.715928837,
+    "ccPriceUsd": 0.14341170813745796,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 19781309.15584993
+    },
+    "appRewardsShareOfMinting": 58.27630523167002,
+    "activeValidators": 862,
+    "signals": {
+      "newApps": [
+        "Cantoracle",
+        "walley"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-26_0100.json",
     "lastUpdated": "2026-03-26T01:00:24.208Z",
     "tvlUsd": 1632329.6045243004,
@@ -235,24 +254,6 @@
         "rho-relay",
         "wuselfabrik",
         "zkpc-cantor8-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-17_0054.json",
-    "lastUpdated": "2026-03-17T00:54:34.486Z",
-    "tvlUsd": 1694573.2171331318,
-    "ccPriceUsd": 0.1543524071659986,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 27461509.027890865
-    },
-    "appRewardsShareOfMinting": 69.05700861974302,
-    "activeValidators": 841,
-    "signals": {
-      "newApps": [
-        "Featured Apps"
       ],
       "newData": []
     }
