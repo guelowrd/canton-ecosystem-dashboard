@@ -34,17 +34,17 @@ nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortr
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
 the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-Cantoracle,cantoracle,Payments,75,https://news.bitcoin.com/visa-bridges-capital-markets-and-onchain-payments-on-canton-network/,Visa Bridges Capital Markets and Onchain Payments on Canton Network
+Cantoracle,cantoracle,Payments,75,https://www.zacks.com/stock/news/2890454/can-visas-privacy-push-on-canton-network-redefine-digital-payments,Can Visa&#x27;s Privacy Push on Canton Network Redefine Digital Payments ...
 excellar-issuer,excellar-issuer,Payments,75,https://decrypt.co/362327/visa-payments-canton-network-super-validator,Visa Becomes First Major Payments Company to Join Canton Network as ...
-FTP-validator-1,ftp,Tokenized Assets,75,https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html,Canton Network quickstart installation — Digital Asset&#x27;s platform ...
+FTP-validator-1,ftp,Tokenized Assets,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
 kora-app,kora-app,Explorer/Infra,75,https://canton.foundation/,Canton Foundation
-nightly-validator-1,nightly,Payments,75,https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx,Visa to Bring Privacy-Preserving Payments to Canton Network
-rho-relay,rho-relay,Explorer/Infra,75,https://canton.thetie.io/,Canton Data Analytics by The Tie
-tradefast-mainnet-1,tradefast,Payments,75,https://trade.fast/,Trade.Fast
-walley,walley,Payments,75,https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html,Visa to Bring Privacy-Preserving Payments to Canton Network
-auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://support.microsoft.com/en-us/office/sharepoint-correlation-id-in-error-messages-what-it-is-and-how-to-use-it-5bf2dba7-43d2-484c-8ef4-e059f76e3efa,SharePoint Correlation ID in error messages: what it is and how to use ...
+nightly-validator-1,nightly,Payments,75,https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html,Visa to Bring Privacy-Preserving Payments to Canton Network
+rho-relay,rho-relay,Explorer/Infra,75,https://lighthouse.cantonloop.com/governance,5N Lighthouse Explorer
+tradefast-mainnet-1,tradefast,Validator/Infra,75,https://trade.fast/,Trade.Fast
+tradefast-wallet2-1,tradefast-wallet2,Wallet,75,https://docs.digitalasset.com/integrate/devnet/index.html,Wallet Integration Guide — Digital Asset&#x27;s platform documentation
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Tokenized Assets,65,https://blockonomi.com/bitgo-adds-cip-56-token-standard-support-on-canton-network-enabling-custody-for-usdcx-and-cbtc/,"BitGo Adds CIP-56 Token Standard Support on Canton Network, Enabling ..."
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://blockonomi.com/canton-network-wall-streets-hidden-blockchain-settles-350-billion-in-daily-repo-trades/,Canton Network: Wall Street&#x27;s Hidden Blockchain Settles $350 Billion in ...
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://learn.microsoft.com/en-sg/answers/questions/5488728/file-shows-up-in-onedrive-sharepoint-but-is-unplay,file shows up in OneDrive/SharePoint but is unplayable
 acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
@@ -63,8 +63,7 @@ Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 ValaWallet-validator-1,valawallet,Wallet,55,,Vala Canton wallet
-8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://www.komodolabs.com/mac/,MAC Address Lookup &amp; Search - Komodo Labs
-party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in,Verify first-party Microsoft applications in sign-in reports
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://learn.microsoft.com/en-us/answers/questions/3871349/cant-download-win11,Can&#x27;t download Win11 - Microsoft Q&amp;A
 elk-Validator-2,elk,Validator/Infra,40,,
 Redstone-validator-1,redstone,Validator/Infra,40,,
 sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
@@ -73,7 +72,6 @@ auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Au
 auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,30,,
 auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Identity/Auth,30,,
 foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
-fulcrum-point,fulcrum-point,Unknown,30,,
 google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,30,,
 handl-issuer,handl-issuer,Unknown,30,,
 kairo-mainnet,kairo,Unknown,30,,Canton app
@@ -84,7 +82,9 @@ modulo-mainnet-2,modulo,Unknown,30,,Canton app
 openvector-mainnet-1,openvector,Unknown,30,,Canton app
 tenkai-main-1,tenkai-main,Unknown,30,,Canton app
 unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
+walley,walley,Unknown,30,,
 yuce,yuce,Unknown,30,,
 zkpc-cantor8-1,zkpc-cantor8,Unknown,30,,
 23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,15,,
+8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,15,,
 931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,15,,

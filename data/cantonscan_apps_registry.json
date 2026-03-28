@@ -284,8 +284,8 @@
     "baseName": "cantoracle",
     "category": "Payments",
     "confidence": 75,
-    "websiteGuess": "https://news.bitcoin.com/visa-bridges-capital-markets-and-onchain-payments-on-canton-network/",
-    "note": "Visa Bridges Capital Markets and Onchain Payments on Canton Network"
+    "websiteGuess": "https://www.zacks.com/stock/news/2890454/can-visas-privacy-push-on-canton-network-redefine-digital-payments",
+    "note": "Can Visa&#x27;s Privacy Push on Canton Network Redefine Digital Payments ..."
   },
   {
     "appName": "excellar-issuer",
@@ -300,8 +300,8 @@
     "baseName": "ftp",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html",
-    "note": "Canton Network quickstart installation — Digital Asset&#x27;s platform ..."
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
   },
   {
     "appName": "kora-app",
@@ -316,7 +316,7 @@
     "baseName": "nightly",
     "category": "Payments",
     "confidence": 75,
-    "websiteGuess": "https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx",
+    "websiteGuess": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html",
     "note": "Visa to Bring Privacy-Preserving Payments to Canton Network"
   },
   {
@@ -324,48 +324,48 @@
     "baseName": "rho-relay",
     "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://canton.thetie.io/",
-    "note": "Canton Data Analytics by The Tie"
+    "websiteGuess": "https://lighthouse.cantonloop.com/governance",
+    "note": "5N Lighthouse Explorer"
   },
   {
     "appName": "tradefast-mainnet-1",
     "baseName": "tradefast",
-    "category": "Payments",
+    "category": "Validator/Infra",
     "confidence": 75,
     "websiteGuess": "https://trade.fast/",
     "note": "Trade.Fast"
   },
   {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Payments",
+    "appName": "tradefast-wallet2-1",
+    "baseName": "tradefast-wallet2",
+    "category": "Wallet",
     "confidence": 75,
-    "websiteGuess": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22231.html",
-    "note": "Visa to Bring Privacy-Preserving Payments to Canton Network"
+    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/index.html",
+    "note": "Wallet Integration Guide — Digital Asset&#x27;s platform documentation"
   },
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Explorer/Infra",
+    "category": "Tokenized Assets",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://blockonomi.com/bitgo-adds-cip-56-token-standard-support-on-canton-network-enabling-custody-for-usdcx-and-cbtc/",
+    "note": "BitGo Adds CIP-56 Token Standard Support on Canton Network, Enabling ..."
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
     "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://blockonomi.com/canton-network-wall-streets-hidden-blockchain-settles-350-billion-in-daily-repo-trades/",
+    "note": "Canton Network: Wall Street&#x27;s Hidden Blockchain Settles $350 Billion in ..."
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Explorer/Infra",
     "confidence": 60,
-    "websiteGuess": "https://support.microsoft.com/en-us/office/sharepoint-correlation-id-in-error-messages-what-it-is-and-how-to-use-it-5bf2dba7-43d2-484c-8ef4-e059f76e3efa",
-    "note": "SharePoint Correlation ID in error messages: what it is and how to use ..."
+    "websiteGuess": "https://learn.microsoft.com/en-sg/answers/questions/5488728/file-shows-up-in-onedrive-sharepoint-but-is-unplay",
+    "note": "file shows up in OneDrive/SharePoint but is unplayable"
   },
   {
     "appName": "acme-lending",
@@ -512,20 +512,12 @@
     "note": "Vala Canton wallet"
   },
   {
-    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://www.komodolabs.com/mac/",
-    "note": "MAC Address Lookup &amp; Search - Komodo Labs"
-  },
-  {
     "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in",
-    "note": "Verify first-party Microsoft applications in sign-in reports"
+    "websiteGuess": "https://learn.microsoft.com/en-us/answers/questions/3871349/cant-download-win11",
+    "note": "Can&#x27;t download Win11 - Microsoft Q&amp;A"
   },
   {
     "appName": "elk-Validator-2",
@@ -590,14 +582,6 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "fulcrum-point",
-    "baseName": "fulcrum-point",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "google-oauth2_007c106967619021219072829",
@@ -680,6 +664,14 @@
     "note": "Canton app"
   },
   {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "yuce",
     "baseName": "yuce",
     "category": "Unknown",
@@ -698,6 +690,14 @@
   {
     "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "category": "Unknown",
     "confidence": 15,
     "websiteGuess": null,
