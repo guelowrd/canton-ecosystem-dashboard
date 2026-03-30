@@ -1,5 +1,53 @@
 [
   {
+    "file": "snapshot-2026-03-30_0104.json",
+    "lastUpdated": "2026-03-30T01:04:51.394Z",
+    "tvlUsd": 1690003.2588775128,
+    "ccPriceUsd": 0.15258687808631874,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 14349211.34023117
+    },
+    "appRewardsShareOfMinting": 59.18619186747023,
+    "activeValidators": 865,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "cantor8-digik-1",
+        "dfns1",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "Redstone-validator-1",
+        "RootsFi-validator-01",
+        "the_tie_validator",
+        "ZodiaCustody-validator-1",
+        "cantory",
+        "elk-Validator-2",
+        "excellar-issuer",
+        "FTP-validator-1",
+        "fulcrum-point",
+        "handl-issuer",
+        "kora-app",
+        "ledger-ledgerops-2",
+        "nightly-validator-1",
+        "SatsTerminal-main-1",
+        "Tokino-validator-1",
+        "tradefast-wallet2-1",
+        "walley",
+        "zkpc-cantor8-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-29_0104.json",
     "lastUpdated": "2026-03-29T01:04:16.957Z",
     "tvlUsd": 1695937.8079202853,
@@ -213,22 +261,6 @@
     },
     "appRewardsShareOfMinting": 71.19103961253147,
     "activeValidators": 856,
-    "signals": {
-      "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-20_0055.json",
-    "lastUpdated": "2026-03-20T00:55:15.793Z",
-    "tvlUsd": 1631789.5712497584,
-    "ccPriceUsd": 0.14452254348020865,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 29840162.15875842
-    },
-    "appRewardsShareOfMinting": 70.78122519760807,
-    "activeValidators": 854,
     "signals": {
       "newApps": [],
       "newData": []
