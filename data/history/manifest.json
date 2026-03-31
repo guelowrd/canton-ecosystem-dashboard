@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-03-31_0106.json",
+    "lastUpdated": "2026-03-31T01:06:38.362Z",
+    "tvlUsd": 1664830.2719047677,
+    "ccPriceUsd": 0.148300914075457,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 13187785.111713195
+    },
+    "appRewardsShareOfMinting": 59.19582735767358,
+    "activeValidators": 849,
+    "signals": {
+      "newApps": [
+        "blackmantacapital-primary-1",
+        "tradefast-mainnet-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-03-30_0104.json",
     "lastUpdated": "2026-03-30T01:04:51.394Z",
     "tvlUsd": 1690003.2588775128,
@@ -247,22 +266,6 @@
         "tradefast-wallet2-1",
         "walley"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-21_0054.json",
-    "lastUpdated": "2026-03-21T00:54:24.163Z",
-    "tvlUsd": 1628097.8629663268,
-    "ccPriceUsd": 0.1437613712818459,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 29883956.312406335
-    },
-    "appRewardsShareOfMinting": 71.19103961253147,
-    "activeValidators": 856,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
