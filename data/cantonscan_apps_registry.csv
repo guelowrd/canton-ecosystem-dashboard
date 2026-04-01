@@ -33,19 +33,33 @@ MPCH-BRONdvn-1,mpch-brondvn,Wallet,90,https://mpcvault.com,MPCH Bron delegation 
 nightly-validator-1,nightly,Explorer/Infra,90,https://nightly.app/wallet/canton,Canton Wallet - Best CANTON Wallet 2025 | Nightly
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
+Redstone-validator-1,redstone,Tokenized Assets,90,https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access,"Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
+RootsFi-validator-01,rootsfi,Payments,90,https://www.rootsfi.com/products/bridge,Roots - Payment Network - rootsfi.com
 the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-excellar-issuer,excellar-issuer,Payments,75,https://decrypt.co/362327/visa-payments-canton-network-super-validator,Visa Becomes First Major Payments Company to Join Canton Network as ...
-FTP-validator-1,ftp,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
-fulcrum-point,fulcrum-point,Explorer/Infra,75,https://canton.foundation/,Canton Foundation
-handl-issuer,handl-issuer,Tokenized Assets,75,https://www.bitrue.com/blog/what-is-handl,What Is HANDL Token on Canton Network Explained - bitrue.com
+yuce,yuce,Unknown,80,https://yuce.trade/,YUCE
+elk-Validator-2,elk,Prediction Markets,75,https://www.cantonecosystem.com/,Canton Network Ecosystem
+excellar-issuer,excellar-issuer,Payments,75,https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx,Visa to Bring Privacy-Preserving Payments to Canton Network
+FTP-validator-1,ftp,Tokenized Assets,75,https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html,Canton Network Overview — Digital Asset&#x27;s platform documentation
+fulcrum-point,fulcrum-point,Payments,75,https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx,Visa to Bring Privacy-Preserving Payments to Canton Network
+handl-issuer,handl-issuer,Payments,75,https://www.bitrue.com/blog/what-is-handl,What Is HANDL Token on Canton Network Explained - bitrue.com
 kora-app,kora-app,Explorer/Infra,75,https://canton.foundation/,Canton Foundation
-tradefast-mainnet-1,tradefast,Tokenized Assets,75,https://trade.fast/,Trade.Fast
+ledger-ledgerops-2,ledger-ledgerops,Validator/Infra,75,https://cryptonews.net/news/blockchain/32457986/,Ledger Joins Canton Network as Super Validator
+rails-cethMain-1,rails-cethmain,Tokenized Assets,75,https://blockonomi.com/hsbc-joins-canton-network-validator-set-potentially-bringing-40m-clients-to-blockchain-rails/,"HSBC Joins Canton Network Validator Set, Potentially Bringing 40M ..."
+SatsTerminal-main-1,satsterminal-main,Validator/Infra,75,https://www.msn.com/en-us/money/technology/visa-inc-v-joins-canton-network-to-accelerate-financials-mainstream-onchain-transition/ar-AA1ZQ4bV,Visa Inc. (V) Joins Canton Network to Accelerate Financials ... - MSN
+Tokino-validator-1,tokino,Tokenized Assets,75,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
 tradefast-wallet2-1,tradefast-wallet2,Wallet,75,https://docs.digitalasset.com/integrate/devnet/integrating-with-canton-network/index.html,Integrating with the Canton Network — Digital Asset&#x27;s platform ...
-walley,walley,Payments,75,https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx,Visa to Bring Privacy-Preserving Payments to Canton Network
-auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+walley,walley,Wallet,75,https://www.coinlive.com/news/canton-network-wall-street-is-now-on-the-blockchain,Canton Network: Wall Street is now on the blockchain.
+zkpc-cantor8-1,zkpc-cantor8,Validator/Infra,75,https://cantor8.io/,Cantor8 - Web3 Infrastructure on Canton Blockchain
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Explorer/Infra,65,https://cryptonews.com/news/canton-chain-layerzero-interoperability-integration/,Goldman Sachs Linked Canton Crypto Chain Adds LayerZero
 auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://docs.digitalasset.com/build/3.4/explanations/parties-users.html,Parties and users on a Canton ledger — Digital Asset&#x27;s platform ...
+auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Payments,65,https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx,Visa to Bring Privacy-Preserving Payments to Canton Network
+auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,65,https://www.google.com/,Google
+tradefast-mainnet-1,tradefast,Unknown,65,https://trade.fast/,Trade.Fast
+23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Explorer/Infra,60,https://canton.thetie.io/,Canton Data Analytics by The Tie
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://www.malwarebytes.com/blog/threat-intel/2026/02/how-fake-party-invitations-are-being-used-to-install-remote-access-tools,How fake party invitations are being used to install remote access ...
 acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
@@ -56,6 +70,7 @@ iBTC-validator-1,ibtc,Validator/Infra,55,,iBTC validator
 lithiumdigital-validator-1,lithiumdigital,Validator/Infra,55,,Canton validator
 LoopID,loopid,Identity/Auth,55,,Identity service
 M1-validator-1,m1,Validator/Infra,55,,Canton validator
+openvector-wallet-1,openvector-wallet,Wallet,55,,OpenVector wallet
 palladium-validator-1,palladium,Validator/Infra,55,,Canton validator
 poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
@@ -63,26 +78,14 @@ Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 ValaWallet-validator-1,valawallet,Wallet,55,,Vala Canton wallet
-8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://www.komodolabs.com/mac/,MAC Address Lookup &amp; Search - Komodo Labs
-party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://gettenantpartitionweb.azurewebsites.net/,Tenant Lookup
-elk-Validator-2,elk,Validator/Infra,40,,
-Redstone-validator-1,redstone,Validator/Infra,40,,
-RootsFi-validator-01,rootsfi,Validator/Infra,40,,
+931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,50,https://learn.microsoft.com/en-us/answers/questions/1642125/how-to-fix-correlation-id-a451ce2a-6780-4b6a-a0bf,How to fix Correlation ID: a451ce2a-6780-4b6a-a0bf-4e1c26441397 ...
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in,Verify first-party Microsoft applications in sign-in reports
 sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
-Tokino-validator-1,tokino,Validator/Infra,40,,
-auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Auth,30,,
-auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Identity/Auth,30,,
 foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
-google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,30,,
 kairo-mainnet,kairo,Unknown,30,,Canton app
-ledger-ledgerops-2,ledger-ledgerops,Unknown,30,,
 mandalo-mainnet-2,mandalo,Unknown,30,,Canton app
 modo,modo,Unknown,30,,Canton app
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 openvector-mainnet-1,openvector,Unknown,30,,Canton app
-SatsTerminal-main-1,satsterminal-main,Unknown,30,,
 tenkai-main-1,tenkai-main,Unknown,30,,Canton app
 unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
-zkpc-cantor8-1,zkpc-cantor8,Unknown,30,,
-23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,15,,
-931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,15,,
