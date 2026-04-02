@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-04-02_0105.json",
+    "lastUpdated": "2026-04-02T01:05:07.314Z",
+    "tvlUsd": 1770738.7141896542,
+    "ccPriceUsd": 0.14243298489244205,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 11576204.174278475
+    },
+    "appRewardsShareOfMinting": 72.06980385138738,
+    "activeValidators": 858,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-01_0109.json",
     "lastUpdated": "2026-04-01T01:09:28.678Z",
     "tvlUsd": 1672229.7024124903,
@@ -226,30 +245,6 @@
         "FTP-validator-1"
       ],
       "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-23_0101.json",
-    "lastUpdated": "2026-03-23T01:01:35.516Z",
-    "tvlUsd": 1627870.799194604,
-    "ccPriceUsd": 0.14334613803227966,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 26522709.72439587
-    },
-    "appRewardsShareOfMinting": 71.50994123517779,
-    "activeValidators": 856,
-    "signals": {
-      "newApps": [
-        "Fairmint-validator-1"
-      ],
-      "newData": [
-        {
-          "app": "excellar-issuer",
-          "from": "none",
-          "to": "opaque"
-        }
-      ]
     }
   }
 ]
