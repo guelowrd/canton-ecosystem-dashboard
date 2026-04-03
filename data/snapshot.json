@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-04-02T01:05:07.314Z",
-  "cantonCoinPriceUsd": 0.14243298489244205,
+  "lastUpdated": "2026-04-03T01:04:04.258Z",
+  "cantonCoinPriceUsd": 0.1426376693345779,
   "networkHealth": {
-    "totalTvlUsd": 1770738.7141896542,
-    "volume30dUsd": 793325.071973385,
+    "totalTvlUsd": 1767510.2212783424,
+    "volume30dUsd": 804887.6962850592,
     "featuredApps": 133,
-    "trackedApps": 6,
+    "trackedApps": 36,
     "transparentApps": 2,
-    "netIssuance": 39734083.32260102,
-    "governanceParticipation": 0.8846153846153849
+    "netIssuance": 42486080.80759731,
+    "governanceParticipation": 0.8681318681318685
   },
   "concentration": {
     "svTop1Pct": 58.41051688078876,
@@ -40,17 +40,17 @@
         "url": null
       }
     ],
-    "tvlLargestPoolPct": 87.4406936968948,
-    "rewardsTop3Pct": 28.080954788886764,
-    "rewardsTop5Pct": 38.32420904219537
+    "tvlLargestPoolPct": 87.52898574005384,
+    "rewardsTop3Pct": 25.60845148919328,
+    "rewardsTop5Pct": 37.13873723724747
   },
   "executiveInsights": [
     "Largest super validator controls 58.4% of consensus weight",
     "Top sponsor (Digital Asset 2) holds 43.7% of validator licenses",
     "72% of CC emissions go to application rewards",
-    "87% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 6 tracked apps expose public metrics",
-    "Top 3 apps capture 28% of app rewards (led by cantor8-digik-1)"
+    "88% of DEX TVL is in the largest pool (CC/USDCx)",
+    "2 of 36 tracked apps expose public metrics",
+    "Top 3 apps capture 26% of app rewards (led by cantor8-digik-1)"
   ],
   "apps": [
     {
@@ -61,13 +61,13 @@
       "transparency": "transparent",
       "dataAvailability": "full",
       "network": {
-        "activeValidators": 858,
+        "activeValidators": 857,
         "superValidators": 13,
-        "supply": 38203409915.50275,
-        "consensusHeight": 26378657,
+        "supply": 38211494180.14405,
+        "consensusHeight": 26577291,
         "version": "0.5.15",
         "featuredApps": 133,
-        "currentRound": 89950
+        "currentRound": 90091
       },
       "superValidators": [
         {
@@ -195,15 +195,15 @@
           "Liberty-City-Ventures": 2
         },
         "byVersion": {
-          "0.5.15": 540,
-          "0.5.14": 126,
-          "0.5.13": 75,
+          "0.5.15": 598,
+          "0.5.14": 78,
+          "0.5.13": 74,
           "0.5.12": 58,
           "0.5.4": 27,
-          "0.5.11": 27,
-          "0.5.10": 25,
-          "0.5.5": 8,
+          "0.5.11": 24,
+          "0.5.10": 18,
           "0.5.8": 8,
+          "0.5.5": 8,
           "0.3.21": 7,
           "0.5.9": 6,
           "0.4.22": 5,
@@ -217,6 +217,7 @@
           "0.4.23": 3,
           "0.4.11": 3,
           "unknown": 3,
+          "0.5.17": 2,
           "0.4.7": 2,
           "0.2.8": 2,
           "0.3.4": 2,
@@ -226,7 +227,6 @@
           "0.4.3": 2,
           "0.4.5": 2,
           "0.3.8": 2,
-          "0.5.17": 1,
           "0.5.1": 1,
           "0.5.6": 1,
           "0.4.21": 1,
@@ -243,7 +243,7 @@
           "0.4.8": 1
         },
         "topOperators": {
-          "intellecteu": 124,
+          "intellecteu": 125,
           "proofgroup": 64,
           "mpch": 64,
           "figment": 57,
@@ -252,73 +252,73 @@
           "digitalasset": 17,
           "bcw": 13,
           "cantor8": 11,
-          "republiccrypto": 7
+          "edgevana": 7
         }
       },
       "recentActivity": {
-        "sampleSize": 7569778,
+        "sampleSize": 7772181,
         "timeWindowHours": 168,
-        "amuletPrice": 0.140844,
-        "totalMinted": 132906322.60051012,
-        "appRewardsMinted": 95785326.00427978,
-        "validatorLivenessRewardsMinted": 3245003.121526575,
-        "svRewardsMinted": 22350702.44555769,
-        "totalTransferred": 928700726.7881575,
-        "totalBurned": 93172239.2779091,
-        "netIssuance": 39734083.32260102,
+        "amuletPrice": 0.14322,
+        "totalMinted": 133146016.35629678,
+        "appRewardsMinted": 96067962.00078496,
+        "validatorLivenessRewardsMinted": 3311592.0508202952,
+        "svRewardsMinted": 22205247.636659853,
+        "totalTransferred": 897911909.8255966,
+        "totalBurned": 90659935.54869947,
+        "netIssuance": 42486080.80759731,
         "topApps": [
           {
             "name": "cantor8-digik-1",
-            "rewardsCC": 11576204.174278475
+            "rewardsCC": 9664169.535903737
           },
           {
             "name": "temple-mainnet-1",
-            "rewardsCC": 8758113.253245097
+            "rewardsCC": 9050523.342909304
           },
           {
             "name": "poolparty",
-            "rewardsCC": 6563116.662125897
+            "rewardsCC": 5886824.566815387
           },
           {
             "name": "feat-unhedged-app",
-            "rewardsCC": 4984349.342563405
-          },
-          {
-            "name": "kora-app",
-            "rewardsCC": 4827185.137415456
+            "rewardsCC": 5805867.566801931
           },
           {
             "name": "tradefast-mainnet-1",
-            "rewardsCC": 4542437.631796291
+            "rewardsCC": 5271042.964221043
           },
           {
             "name": "Bridge-Operator",
-            "rewardsCC": 4502456.955284309
+            "rewardsCC": 4657537.279500173
           },
           {
-            "name": "cantonloop-mainnet-1",
-            "rewardsCC": 4315978.469859919
+            "name": "kora-app",
+            "rewardsCC": 4266228.945413377
           },
           {
             "name": "silvana-orderbook",
-            "rewardsCC": 3888012.9226596793
+            "rewardsCC": 4162702.3726945273
+          },
+          {
+            "name": "CantonSwap",
+            "rewardsCC": 3583930.9279157026
           },
           {
             "name": "Cantoracle",
-            "rewardsCC": 3531784.3650771636
+            "rewardsCC": 3492397.4755557314
           }
         ],
-        "rewardsTop1Pct": 12.085571618518369,
+        "rewardsTop1Pct": 10.059721612314899,
         "top1AppName": "cantor8-digik-1",
-        "rewardsTop3Pct": 28.080954788886764,
-        "rewardsTop5Pct": 38.32420904219537,
-        "appRewardsShareOfMinting": 72.06980385138738
+        "rewardsTop3Pct": 25.60845148919328,
+        "rewardsTop5Pct": 37.13873723724747,
+        "appRewardsShareOfMinting": 72.15233668253995
       },
       "governance": {
-        "openProposals": 16,
-        "participationRate": 0.8846153846153849,
+        "openProposals": 14,
+        "participationRate": 0.8681318681318685,
         "totalHistorical": 360,
-        "closedCount": 344,
+        "closedCount": 346,
         "votes": [
           {
             "summary": "According to CIP-0086, ChainSafe has a max weight of 5.",
@@ -411,15 +411,6 @@
             "totalVoters": 13
           },
           {
-            "summary": "WebWise Capital's app Confimarket changes its FA partyID from WebWise::12208e1d1e585578692037e8e049616903294b480314e2...",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/284",
-            "requester": "Five-North-1",
-            "yesVotes": 13,
-            "noVotes": 0,
-            "pendingVotes": 0,
-            "totalVoters": 13
-          },
-          {
             "summary": "Tokenomics has observed recent on-chain activity associated with Rho Relay that requires further review.",
             "url": "https://lists.sync.global/g/tokenomics-announce/message/302",
             "requester": "Proof-Group-1",
@@ -447,15 +438,6 @@
             "totalVoters": 13
           },
           {
-            "summary": "WebWise Capital's app Confimarket changes its FA partyID from WebWise::12208e1d1e585578692037e8e049616903294b480314e2...",
-            "url": "https://lists.sync.global/g/tokenomics-announce/message/284",
-            "requester": "Five-North-1",
-            "yesVotes": 13,
-            "noVotes": 0,
-            "pendingVotes": 0,
-            "totalVoters": 13
-          },
-          {
             "summary": "Per CIP-0096, Validator liveness rewards should be set to 0 from 0.60, effective on April 30.",
             "url": "https://lists.sync.global/g/cip-announce/message/67",
             "requester": "Cumberland-1",
@@ -474,55 +456,55 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.14243298489244205,
-      "cbtcPriceUsd": 67956.9852901585,
+      "ccPriceUsd": 0.1426376693345779,
+      "cbtcPriceUsd": 66790.81768274683,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5406921.385897218,
-          "token2Holdings": 770123.9520721204,
-          "tvlUsd": 1540247.9041442405,
+          "token1Holdings": 5406912.301378619,
+          "token2Holdings": 771229.368965105,
+          "tvlUsd": 1542458.73793021,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.16976395290616564,
-          "totalLpTokens": 1967935.735989004,
+          "yield24h": 0.1933082114488407,
+          "totalLpTokens": 1968389.9415215491,
           "volume": {
-            "1h": 0,
-            "4h": 4432.015319926199,
-            "12h": 10782.706555493525,
-            "24h": 38015.87544905476,
-            "7d": 299689.6541073604,
-            "30d": 715218.4326503148
+            "1h": 384.02684543957,
+            "4h": 2413.491006997763,
+            "12h": 19371.024310440756,
+            "24h": 21604.420330554713,
+            "7d": 291528.3026367143,
+            "30d": 721935.0361877357
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 776608.4527838639,
-          "token2Holdings": 1.6277158198,
-          "tvlUsd": 221229.32004541374,
+          "token1Holdings": 770369.7220144381,
+          "token2Holdings": 1.6451923406,
+          "tvlUsd": 219767.48334813223,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.18889740900717467,
-          "totalLpTokens": 1077.4979398808,
+          "yield24h": 0.37470337012856403,
+          "totalLpTokens": 1077.9674474232,
           "volume": {
             "1h": 0,
-            "4h": 576.9745325257893,
-            "12h": 770.9342314830726,
-            "24h": 2569.941047243855,
-            "7d": 17757.242747352593,
-            "30d": 78106.63932307024
+            "4h": 0,
+            "12h": 6777.955980189095,
+            "24h": 11212.320224203404,
+            "7d": 25940.555964128995,
+            "30d": 82952.66009732352
           }
         }
       ],
-      "totalTvlUsd": 1761477.2241896542,
-      "largestPoolPct": 87.4406936968948,
-      "totalVolume24hUsd": 40585.81649629861,
-      "totalVolume7dUsd": 317446.896854713,
-      "totalVolume30dUsd": 793325.071973385
+      "totalTvlUsd": 1762226.2212783424,
+      "largestPoolPct": 87.52898574005384,
+      "totalVolume24hUsd": 32816.740554758115,
+      "totalVolume7dUsd": 317468.8586008433,
+      "totalVolume30dUsd": 804887.6962850592
     },
     {
       "id": "unhedged",
@@ -531,69 +513,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 13024,
-      "activeMarkets": 92,
+      "totalMarkets": 13365,
+      "activeMarkets": 206,
       "endedMarkets": 17,
-      "resolvedMarkets": 12803,
-      "totalActivePoolUsd": 9261.49,
-      "totalActiveBets": 912,
+      "resolvedMarkets": 13029,
+      "totalActivePoolUsd": 5284,
+      "totalActiveBets": 452,
       "categories": {
         "sports": {
-          "count": 84,
-          "poolUsd": 8365.5,
-          "bets": 837
+          "count": 89,
+          "poolUsd": 4554,
+          "bets": 426
         },
         "crypto": {
-          "count": 5,
-          "poolUsd": 545.99,
-          "bets": 31
-        },
-        "politics": {
-          "count": 2,
-          "poolUsd": 170,
-          "bets": 16
+          "count": 9,
+          "poolUsd": 665,
+          "bets": 22
         },
         "economics": {
           "count": 1,
-          "poolUsd": 180,
-          "bets": 28
+          "poolUsd": 5,
+          "bets": 1
+        },
+        "entertainment": {
+          "count": 1,
+          "poolUsd": 60,
+          "bets": 3
         }
       },
       "topMarkets": [
         {
-          "question": "Canton Coin above $0.14081 at 01:00 UTC?",
+          "question": "Will the total crypto market capitalization exceed $2.4 trillion before April 3, 2026, 14:00 UTC?",
           "category": "crypto",
-          "totalPool": 492,
-          "betCount": 26,
-          "endTime": "2026-04-02T00:50:00.000Z"
+          "totalPool": 590,
+          "betCount": 9,
+          "endTime": "2026-04-03T13:00:00.000Z"
         },
         {
-          "question": "Hanwha Eagles vs KT Wiz Suwon",
+          "question": "Miami Heat vs Washington Wizards",
           "category": "sports",
           "totalPool": 235,
-          "betCount": 16,
-          "endTime": "2026-04-02T08:30:00.000Z"
+          "betCount": 7,
+          "endTime": "2026-04-04T18:00:00.000Z"
         },
         {
-          "question": "Who will win the match between Mallorca and Real Madrid.",
+          "question": "Farjestad vs Rögle",
           "category": "sports",
-          "totalPool": 230,
-          "betCount": 25,
-          "endTime": "2026-04-04T16:20:00.000Z"
+          "totalPool": 230.4,
+          "betCount": 8,
+          "endTime": "2026-04-03T16:00:00.000Z"
         },
         {
-          "question": "Samsung Lions vs Doosan Bears",
+          "question": "New York Rangers vs Detroit Red Wings",
           "category": "sports",
-          "totalPool": 225,
-          "betCount": 15,
-          "endTime": "2026-04-02T08:30:00.000Z"
+          "totalPool": 130,
+          "betCount": 9,
+          "endTime": "2026-04-04T15:30:00.000Z"
         },
         {
-          "question": "Ottawa Senators vs Buffalo Sabres",
+          "question": "Wilkes-Barre/Scranton vs Lehigh Valley Phantoms",
           "category": "sports",
-          "totalPool": 200,
-          "betCount": 11,
-          "endTime": "2026-04-02T22:00:00.000Z"
+          "totalPool": 129.6,
+          "betCount": 7,
+          "endTime": "2026-04-03T22:05:00.000Z"
         }
       ]
     },
@@ -645,20 +627,332 @@
       "note": "No public API found — domain redirects all API paths to homepage."
     },
     {
-      "id": "featuredapps",
-      "name": "Featured Apps",
-      "url": "https://canton.foundation/featured-app-request/",
+      "id": "cantonloop",
+      "name": "cantonloop-mainnet-1",
+      "url": "https://lighthouse.cantonloop.com",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "5N Loop wallet / explorer",
+      "isCandidate": true
+    },
+    {
+      "id": "coinmetrics",
+      "name": "CoinMetrics-validator-1",
+      "url": "https://coinmetrics.io",
       "appCategory": "Explorer/Infra",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Featured App Request - Canton Foundation",
+      "note": "Crypto data & analytics",
       "isCandidate": true
     },
     {
-      "id": "wwwcantonscancom",
-      "name": "www.cantonscan.com",
+      "id": "cypherock",
+      "name": "cypherock-mainnet-1",
+      "url": "https://cypherock.com",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Hardware wallet with Canton support",
+      "isCandidate": true
+    },
+    {
+      "id": "fairmint",
+      "name": "Fairmint-validator-1",
+      "url": "https://fairmint.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "flipside",
+      "name": "flipside-validator-1",
+      "url": "https://flipsidecrypto.xyz",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Onchain analytics",
+      "isCandidate": true
+    },
+    {
+      "id": "obligate",
+      "name": "Obligate-validator-1",
+      "url": "https://obligate.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "On-chain bond issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "pixelplex",
+      "name": "pixelplex-mainnet-3",
+      "url": "https://pixelplex.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton exchange development",
+      "isCandidate": true
+    },
+    {
+      "id": "cantonwallet",
+      "name": "send-cantonwallet-1",
+      "url": "https://cantonwallet.com",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network wallet",
+      "isCandidate": true
+    },
+    {
+      "id": "cantor8-digik",
+      "name": "cantor8-digik-1",
+      "url": "https://cantor8.tech/digik",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "DigiK - Canton gateway",
+      "isCandidate": true
+    },
+    {
+      "id": "dfns1",
+      "name": "dfns1",
+      "url": "https://dfns.co",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "DFNS wallet infrastructure",
+      "isCandidate": true
+    },
+    {
+      "id": "unhedged-app",
+      "name": "feat-unhedged-app",
+      "url": "https://unhedged.gg",
+      "appCategory": "Prediction Markets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton prediction markets",
+      "isCandidate": true
+    },
+    {
+      "id": "mpch-brondvn",
+      "name": "MPCH-BRONdvn-1",
+      "url": "https://mpcvault.com",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "MPCH Bron delegation validator",
+      "isCandidate": true
+    },
+    {
+      "id": "nightly",
+      "name": "nightly-validator-1",
+      "url": "https://nightly.app/wallet/canton",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Wallet - Best CANTON Wallet 2025 | Nightly",
+      "isCandidate": true
+    },
+    {
+      "id": "noves-translate",
+      "name": "noves-translate",
+      "url": "https://noves.fi",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Noves Translate API",
+      "isCandidate": true
+    },
+    {
+      "id": "redstone",
+      "name": "Redstone-validator-1",
+      "url": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ...",
+      "isCandidate": true
+    },
+    {
+      "id": "rootsfi",
+      "name": "RootsFi-validator-01",
+      "url": "https://www.rootsfi.com/products/bridge",
+      "appCategory": "Payments",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Roots - Payment Network - rootsfi.com",
+      "isCandidate": true
+    },
+    {
+      "id": "thetievalidator",
+      "name": "the_tie_validator",
+      "url": "https://thetie.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto analytics platform",
+      "isCandidate": true
+    },
+    {
+      "id": "zodiacustody",
+      "name": "ZodiaCustody-validator-1",
+      "url": "https://zodia.io",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Standard Chartered crypto custody",
+      "isCandidate": true
+    },
+    {
+      "id": "yuce",
+      "name": "yuce",
+      "url": "https://yuce.trade/",
+      "appCategory": "Unknown",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "YUCE",
+      "isCandidate": true
+    },
+    {
+      "id": "elk",
+      "name": "elk-Validator-2",
+      "url": "https://www.cantonecosystem.com/",
+      "appCategory": "Prediction Markets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network Ecosystem",
+      "isCandidate": true
+    },
+    {
+      "id": "excellar-issuer",
+      "name": "excellar-issuer",
+      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "appCategory": "Payments",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network - Wikipedia",
+      "isCandidate": true
+    },
+    {
+      "id": "ftp",
+      "name": "FTP-validator-1",
+      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network - Wikipedia",
+      "isCandidate": true
+    },
+    {
+      "id": "fulcrum-point",
+      "name": "fulcrum-point",
+      "url": "https://www.digitalasset.com/hubfs/Canton/Canton%20Network%20-%20White%20Paper.pdf",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "PDF Canton Network - White Paper - Jan 2024 - Digital Asset Holdings",
+      "isCandidate": true
+    },
+    {
+      "id": "handl-issuer",
+      "name": "handl-issuer",
+      "url": "https://www.bitrue.com/blog/what-is-handl",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "What Is HANDL Token on Canton Network Explained - bitrue.com",
+      "isCandidate": true
+    },
+    {
+      "id": "kora-app",
+      "name": "kora-app",
+      "url": "https://canton.foundation/",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Foundation",
+      "isCandidate": true
+    },
+    {
+      "id": "rails-cethmain",
+      "name": "rails-cethMain-1",
+      "url": "https://ceth.network/whitepaper",
+      "appCategory": "Lending",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "cETH - ETH on Canton",
+      "isCandidate": true
+    },
+    {
+      "id": "rheinfin",
+      "name": "rheinfin-validator-1",
+      "url": "https://www.rhein.finance/",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Rhein Finance - Next-Generation Lending Protocol on Canton",
+      "isCandidate": true
+    },
+    {
+      "id": "satsterminal-main",
+      "name": "SatsTerminal-main-1",
       "url": "https://ccview.io/",
       "appCategory": "Explorer/Infra",
       "transparency": "opaque",
@@ -666,6 +960,54 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Real‑time Canton Network Analytics | Canton Explorer",
+      "isCandidate": true
+    },
+    {
+      "id": "tokino",
+      "name": "Tokino-validator-1",
+      "url": "https://blockonomi.com/canton-network-wall-streets-hidden-blockchain-settles-350-billion-in-daily-repo-trades/",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network: Wall Street&#x27;s Hidden Blockchain Settles $350 Billion in ...",
+      "isCandidate": true
+    },
+    {
+      "id": "tradefast",
+      "name": "tradefast-mainnet-1",
+      "url": "https://trade.fast/",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Trade.Fast",
+      "isCandidate": true
+    },
+    {
+      "id": "tradefast-wallet2",
+      "name": "tradefast-wallet2-1",
+      "url": "https://trade.fast/",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Trade.Fast",
+      "isCandidate": true
+    },
+    {
+      "id": "zkpc-cantor8",
+      "name": "zkpc-cantor8-1",
+      "url": "https://wallet.cantor8.tech/",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "C8 Wallet",
       "isCandidate": true
     }
   ]
