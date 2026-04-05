@@ -2,7 +2,7 @@
   {
     "appName": "Featured Apps",
     "baseName": "featuredapps",
-    "category": "Explorer/Infra",
+    "category": "Payments",
     "confidence": 75,
     "websiteGuess": "https://canton.foundation/featured-app-request/",
     "note": "Featured App Request - Canton Foundation"

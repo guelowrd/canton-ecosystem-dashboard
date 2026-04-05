@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-04-05_0113.json",
+    "lastUpdated": "2026-04-05T01:13:26.380Z",
+    "tvlUsd": 1781404.5226759114,
+    "ccPriceUsd": 0.1398039841294093,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 12293874.037603954
+    },
+    "appRewardsShareOfMinting": 62.10540191358847,
+    "activeValidators": 864,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-04_0104.json",
     "lastUpdated": "2026-04-04T01:04:10.551Z",
     "tvlUsd": 1751171.5780830819,
@@ -228,52 +244,6 @@
       "newApps": [
         "Cantoracle",
         "walley"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-26_0100.json",
-    "lastUpdated": "2026-03-26T01:00:24.208Z",
-    "tvlUsd": 1632329.6045243004,
-    "ccPriceUsd": 0.14243381605206268,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 18067791.185092475
-    },
-    "appRewardsShareOfMinting": 57.61490928244406,
-    "activeValidators": 855,
-    "signals": {
-      "newApps": [
-        "cantonloop-mainnet-1",
-        "CoinMetrics-validator-1",
-        "cypherock-mainnet-1",
-        "Fairmint-validator-1",
-        "flipside-validator-1",
-        "Obligate-validator-1",
-        "pixelplex-mainnet-3",
-        "send-cantonwallet-1",
-        "validator_Hashnote",
-        "blackmantacapital-primary-1",
-        "cantor8-digik-1",
-        "dfns1",
-        "feat-unhedged-app",
-        "MPCH-BRONdvn-1",
-        "nightly-validator-1",
-        "noves-translate",
-        "Redstone-validator-1",
-        "the_tie_validator",
-        "yuce",
-        "ZodiaCustody-validator-1",
-        "elk-Validator-2",
-        "excellar-issuer",
-        "FTP-validator-1",
-        "handl-issuer",
-        "kora-app",
-        "rho-relay",
-        "Tokino-validator-1",
-        "tradefast-mainnet-1",
-        "zkpc-cantor8-1"
       ],
       "newData": []
     }
