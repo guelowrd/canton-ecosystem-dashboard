@@ -240,14 +240,6 @@
     "note": "MPCH Bron delegation validator"
   },
   {
-    "appName": "nightly-validator-1",
-    "baseName": "nightly",
-    "category": "Wallet",
-    "confidence": 90,
-    "websiteGuess": "https://nightly.app/wallet/canton",
-    "note": "Canton Wallet - Best CANTON Wallet 2025 | Nightly"
-  },
-  {
     "appName": "nodefortress-finance-1",
     "baseName": "nodefortress-finance",
     "category": "Validator/Infra",
@@ -264,20 +256,12 @@
     "note": "Noves Translate API"
   },
   {
-    "appName": "OKX-VALIDATOR-2",
-    "baseName": "okx",
-    "category": "DEX/AMM",
-    "confidence": 90,
-    "websiteGuess": "https://outposts.io/article/canton-network-token-cc-lists-on-okx-with-usdt-trading-pair-ffd5d69a-0f69-424c-8c4c-d81be4d9a924",
-    "note": "Canton Network Token CC Lists on OKX with USDT Trading Pair"
-  },
-  {
     "appName": "Redstone-validator-1",
     "baseName": "redstone",
     "category": "Tokenized Assets",
     "confidence": 90,
-    "websiteGuess": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
-    "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
+    "websiteGuess": "https://blog.redstone.finance/2026/03/24/redstone-pioneers-institution-grade-rwa-oracles-on-canton-network/",
+    "note": "RedStone Pioneers Institution-Grade RWA Oracles On Canton Network"
   },
   {
     "appName": "RootsFi-validator-01",
@@ -316,24 +300,24 @@
     "baseName": "excellar-issuer",
     "category": "Payments",
     "confidence": 75,
-    "websiteGuess": "https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx",
-    "note": "Visa to Bring Privacy-Preserving Payments to Canton Network"
+    "websiteGuess": "https://www.bankless.com/read/bankless-ipos-equity-shares-on-canton-network",
+    "note": "Bankless IPOs Equity Shares on Canton Network"
   },
   {
     "appName": "FTP-validator-1",
     "baseName": "ftp",
-    "category": "Tokenized Assets",
+    "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
-    "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation"
+    "websiteGuess": "http://www.cantonnetwork.com/",
+    "note": "www.cantonnetwork.com"
   },
   {
     "appName": "fulcrum-point",
     "baseName": "fulcrum-point",
-    "category": "Payments",
+    "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://www.livebitcoinnews.com/visa-to-bring-privacy-preserving-payments-to-canton-network/",
-    "note": "Visa to Bring Privacy-Preserving Payments to Canton Network"
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
   },
   {
     "appName": "handl-issuer",
@@ -346,18 +330,26 @@
   {
     "appName": "kora-app",
     "baseName": "kora-app",
-    "category": "Tokenized Assets",
+    "category": "Explorer/Infra",
     "confidence": 75,
     "websiteGuess": "https://canton.foundation/",
     "note": "Canton Foundation"
   },
   {
-    "appName": "rheinfin-validator-1",
-    "baseName": "rheinfin",
-    "category": "Lending",
+    "appName": "SatsTerminal-main-1",
+    "baseName": "satsterminal-main",
+    "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://www.rhein.finance/",
-    "note": "Rhein Finance - Next-Generation Lending Protocol on Canton"
+    "websiteGuess": "https://www.bankless.com/read/bankless-ipos-equity-shares-on-canton-network",
+    "note": "Bankless IPOs Equity Shares on Canton Network"
+  },
+  {
+    "appName": "tradefast-mainnet-1",
+    "baseName": "tradefast",
+    "category": "Orderbook/CLOB",
+    "confidence": 75,
+    "websiteGuess": "https://canton.wiki/projects/trade-fast",
+    "note": "Trade.Fast — Canton Network Trading &amp; Exchanges 2026"
   },
   {
     "appName": "tradefast-wallet2-1",
@@ -370,66 +362,26 @@
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Explorer/Infra",
+    "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://www.digitalasset.com/",
-    "note": "Digital Asset Holdings - Delivering synchronized finance"
+    "websiteGuess": "https://www.digitalasset.com/products",
+    "note": "Products - Digital Asset Holdings"
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
-    "category": "Identity/Auth",
-    "confidence": 65,
-    "websiteGuess": "https://markets.businessinsider.com/news/stocks/t-rize-announces-particula-pre-issuance-risk-rating-for-kairos-secured-digital-loan-note-built-on-canton-network-infrastructure-1035992825?op=1",
-    "note": "T-RIZE Announces Particula Pre-Issuance Risk Rating ... - Markets Insider"
-  },
-  {
-    "appName": "auth0_007c689b657291598790daabbdca",
-    "baseName": "auth0007c689b657291598790daabbdca",
     "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
-  },
-  {
-    "appName": "SatsTerminal-main-1",
-    "baseName": "satsterminal-main",
-    "category": "Unknown",
-    "confidence": 65,
-    "websiteGuess": "https://www.tradingview.com/symbols/CCUSDT/",
-    "note": "CCUSDT Charts and Quotes — TradingView"
-  },
-  {
-    "appName": "tradefast-mainnet-1",
-    "baseName": "tradefast",
-    "category": "Unknown",
-    "confidence": 65,
-    "websiteGuess": "https://trade.fast/",
-    "note": "Trade.Fast"
-  },
-  {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Unknown",
-    "confidence": 65,
-    "websiteGuess": "https://www.bankless.com/read/bankless-ipos-equity-shares-on-canton-network",
-    "note": "Bankless IPOs Equity Shares on Canton Network"
-  },
-  {
-    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "category": "Explorer/Infra",
-    "confidence": 60,
-    "websiteGuess": "https://canton.thetie.io/",
-    "note": "Canton Data Analytics by The Tie"
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "category": "Explorer/Infra",
+    "category": "Tokenized Assets",
     "confidence": 60,
-    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
-    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
+    "websiteGuess": "https://forums.malwarebytes.com/topic/315974-suspicious-files/",
+    "note": "Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums"
   },
   {
     "appName": "acme-lending",
@@ -568,12 +520,28 @@
     "note": "Vala Canton wallet"
   },
   {
-    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox",
-    "note": "How malicious party invites target your inbox"
+    "appName": "nightly-validator-1",
+    "baseName": "nightly",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "OKX-VALIDATOR-2",
+    "baseName": "okx",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "rheinfin-validator-1",
+    "baseName": "rheinfin",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "sunthycloud-mainnet-1",
@@ -600,17 +568,25 @@
     "note": null
   },
   {
-    "appName": "auth0_007c6944217743c3f0b43f0a8285",
-    "baseName": "auth0007c6944217743c3f0b43f0a8285",
+    "appName": "auth0_007c689b657291598790daabbdca",
+    "baseName": "auth0007c689b657291598790daabbdca",
     "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "cantory",
-    "baseName": "cantory",
-    "category": "Unknown",
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "auth0_007c6944217743c3f0b43f0a8285",
+    "baseName": "auth0007c6944217743c3f0b43f0a8285",
+    "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
@@ -704,6 +680,14 @@
     "note": "Canton app"
   },
   {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "zkpc-cantor8-1",
     "baseName": "zkpc-cantor8",
     "category": "Unknown",
@@ -712,8 +696,32 @@
     "note": null
   },
   {
+    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 15,
     "websiteGuess": null,

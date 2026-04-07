@@ -1,5 +1,30 @@
 [
   {
+    "file": "snapshot-2026-04-07_0107.json",
+    "lastUpdated": "2026-04-07T01:07:53.376Z",
+    "tvlUsd": 1811646.4312994517,
+    "ccPriceUsd": 0.14603575514262146,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 11974630.590406004
+    },
+    "appRewardsShareOfMinting": 62.262672286029364,
+    "activeValidators": 868,
+    "signals": {
+      "newApps": [
+        "SatsTerminal-main-1",
+        "tradefast-mainnet-1"
+      ],
+      "newData": [
+        {
+          "app": "ZodiaCustody-validator-1",
+          "from": "none",
+          "to": "opaque"
+        }
+      ]
+    }
+  },
+  {
     "file": "snapshot-2026-04-06_0111.json",
     "lastUpdated": "2026-04-06T01:11:40.116Z",
     "tvlUsd": 1759926.8559219588,
@@ -252,24 +277,6 @@
       "newApps": [
         "Featured Apps",
         "www.cantonscan.com"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-28_0100.json",
-    "lastUpdated": "2026-03-28T01:00:00.664Z",
-    "tvlUsd": 1619311.0683815677,
-    "ccPriceUsd": 0.14115015496038297,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 18683996.34321264
-    },
-    "appRewardsShareOfMinting": 58.810472527993554,
-    "activeValidators": 863,
-    "signals": {
-      "newApps": [
-        "tradefast-wallet2-1"
       ],
       "newData": []
     }
