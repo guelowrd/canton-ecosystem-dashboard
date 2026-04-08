@@ -1,5 +1,37 @@
 [
   {
+    "file": "snapshot-2026-04-08_0109.json",
+    "lastUpdated": "2026-04-08T01:09:43.111Z",
+    "tvlUsd": 1785478.5907643947,
+    "ccPriceUsd": 0.1422114425173544,
+    "topApp": {
+      "name": "cantor8-digik-1",
+      "rewardsCC": 10856676.270960608
+    },
+    "appRewardsShareOfMinting": 62.0527843203848,
+    "activeValidators": 867,
+    "signals": {
+      "newApps": [
+        "blackmantacapital-primary-1",
+        "nightly-validator-1",
+        "OKX-VALIDATOR-2",
+        "yuce",
+        "arcane-mainnet-1",
+        "rails-cethMain-1",
+        "rheinfin-validator-1",
+        "Tokino-validator-1",
+        "walley"
+      ],
+      "newData": [
+        {
+          "app": "SatsTerminal-main-1",
+          "from": "none",
+          "to": "opaque"
+        }
+      ]
+    }
+  },
+  {
     "file": "snapshot-2026-04-07_0107.json",
     "lastUpdated": "2026-04-07T01:07:53.376Z",
     "tvlUsd": 1811646.4312994517,
@@ -258,25 +290,6 @@
         "tradefast-wallet2-1",
         "walley",
         "zkpc-cantor8-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-29_0104.json",
-    "lastUpdated": "2026-03-29T01:04:16.957Z",
-    "tvlUsd": 1695937.8079202853,
-    "ccPriceUsd": 0.1540015814850899,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 16797035.60863503
-    },
-    "appRewardsShareOfMinting": 59.29712880411492,
-    "activeValidators": 864,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
       ],
       "newData": []
     }
