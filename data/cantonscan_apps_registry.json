@@ -192,6 +192,14 @@
     "note": "BaFin-regulated tokenized securities"
   },
   {
+    "appName": "Cancore-mainnet-1",
+    "baseName": "cancore",
+    "category": "DEX/AMM",
+    "confidence": 90,
+    "websiteGuess": "https://cancore.io/",
+    "note": "Cancore | P2P Atomic Swap"
+  },
+  {
     "appName": "cantor8-digik-1",
     "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
@@ -264,12 +272,20 @@
     "note": "Noves Translate API"
   },
   {
+    "appName": "OKX-VALIDATOR-2",
+    "baseName": "okx",
+    "category": "DEX/AMM",
+    "confidence": 90,
+    "websiteGuess": "https://outposts.io/article/canton-network-token-cc-lists-on-okx-with-usdt-trading-pair-ffd5d69a-0f69-424c-8c4c-d81be4d9a924",
+    "note": "Canton Network Token CC Lists on OKX with USDT Trading Pair"
+  },
+  {
     "appName": "Redstone-validator-1",
     "baseName": "redstone",
     "category": "Tokenized Assets",
     "confidence": 90,
-    "websiteGuess": "https://canton.wiki/projects/redstone",
-    "note": "RedStone — Canton Network Project | canton.wiki"
+    "websiteGuess": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
+    "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
   },
   {
     "appName": "RootsFi-validator-01",
@@ -288,12 +304,28 @@
     "note": "Crypto analytics platform"
   },
   {
+    "appName": "yuce",
+    "baseName": "yuce",
+    "category": "Prediction Markets",
+    "confidence": 90,
+    "websiteGuess": "https://yuce.trade/",
+    "note": "YUCE"
+  },
+  {
     "appName": "ZodiaCustody-validator-1",
     "baseName": "zodiacustody",
     "category": "Wallet",
     "confidence": 90,
     "websiteGuess": "https://zodia.io",
     "note": "Standard Chartered crypto custody"
+  },
+  {
+    "appName": "arcane-mainnet-1",
+    "baseName": "arcane",
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "websiteGuess": "https://www.dlnews.com/articles/defi/canton-network-ceo-addresses-criticism-from-crypto-ideologues/",
+    "note": "Canton Network CEO hits back at &#x27;crypto ideologues&#x27; who question his ."
   },
   {
     "appName": "elk-Validator-2",
@@ -306,26 +338,26 @@
   {
     "appName": "excellar-issuer",
     "baseName": "excellar-issuer",
-    "category": "Explorer/Infra",
+    "category": "Payments",
     "confidence": 75,
-    "websiteGuess": "https://www.kucoin.com/news/flash/fintech-transcend-integrates-with-canton-network-for-real-time-collateral-mobility",
-    "note": "Fintech Transcend Integrates with Canton Network for Real-Time ... - KuCoin"
+    "websiteGuess": "https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx",
+    "note": "Visa to Bring Privacy-Preserving Payments to Canton Network"
   },
   {
     "appName": "FTP-validator-1",
     "baseName": "ftp",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://www.transcendstreet.com/transcend-connects-to-canton-network/",
-    "note": "Transcend Connects to Canton Network for Tokenized Assets"
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
   },
   {
     "appName": "fulcrum-point",
     "baseName": "fulcrum-point",
-    "category": "Tokenized Assets",
+    "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
-    "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation"
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
     "appName": "handl-issuer",
@@ -338,18 +370,26 @@
   {
     "appName": "kora-app",
     "baseName": "kora-app",
-    "category": "Explorer/Infra",
+    "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://www.bulbapp.io/p/c53554dc-e5f7-48e3-a50e-ed3041f7b84d/canton",
-    "note": "Canton - BULB"
+    "websiteGuess": "https://www.kora.app/",
+    "note": "Kora"
+  },
+  {
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
+    "category": "Validator/Infra",
+    "confidence": 75,
+    "websiteGuess": "https://www.broadridge.com/press-release/2025/billions-in-average-daily-processed-trade-volumes-on-broadridge-dlt-repo-platform",
+    "note": "$280 Billion in Average Daily Processed Trade Volumes on Broadridge ..."
   },
   {
     "appName": "rails-cethMain-1",
     "baseName": "rails-cethmain",
     "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://ceth.network/whitepaper",
-    "note": "cETH - ETH on Canton"
+    "websiteGuess": "https://cryptonews.com/news/canton-chain-layerzero-interoperability-integration/",
+    "note": "Goldman Sachs Linked Canton Crypto Chain Adds LayerZero"
   },
   {
     "appName": "rheinfin-validator-1",
@@ -360,8 +400,8 @@
     "note": "Rhein Finance - Next-Generation Lending Protocol on Canton"
   },
   {
-    "appName": "SatsTerminal-main-1",
-    "baseName": "satsterminal-main",
+    "appName": "Tokino-validator-1",
+    "baseName": "tokino",
     "category": "Tokenized Assets",
     "confidence": 75,
     "websiteGuess": "https://www.transcendstreet.com/transcend-connects-to-canton-network/",
@@ -388,24 +428,64 @@
     "baseName": "walley",
     "category": "Wallet",
     "confidence": 75,
-    "websiteGuess": "https://www.fivenorthdigital.com/products",
-    "note": "PRODUCTS - fivenorthdigital.com"
+    "websiteGuess": "https://finance.yahoo.com/markets/crypto/articles/canton-network-ceo-hits-back-092033144.html",
+    "note": "Canton Network CEO hits back at &#x27;crypto ideologues&#x27; who question his ."
+  },
+  {
+    "appName": "zkpc-cantor8-1",
+    "baseName": "zkpc-cantor8",
+    "category": "Validator/Infra",
+    "confidence": 75,
+    "websiteGuess": "https://techbullion.com/a-new-era-for-sovereign-wealth-edena-to-bring-100b-onto-canton-network-via-cantor8/",
+    "note": "A New Era for Sovereign Wealth: EDENA To Bring $100B onto Canton ..."
   },
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Tokenized Assets",
+    "category": "Explorer/Infra",
     "confidence": 65,
-    "websiteGuess": "https://www.dtcc.com/news/2025/december/17/dtcc-and-digital-asset-partner-to-tokenize-dtc-custodied-us-treasury-securities",
-    "note": "DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury ..."
+    "websiteGuess": "https://www.theblock.co/",
+    "note": "The Block: Bitcoin, Ethereum &amp; Crypto News | Live Prices, Data &amp; Indices"
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
     "category": "Explorer/Infra",
     "confidence": 65,
+    "websiteGuess": "https://www.digitalasset.com/",
+    "note": "Digital Asset Holdings - Delivering synchronized finance"
+  },
+  {
+    "appName": "auth0_007c689b657291598790daabbdca",
+    "baseName": "auth0007c689b657291598790daabbdca",
+    "category": "Explorer/Infra",
+    "confidence": 65,
     "websiteGuess": "https://ccview.io/",
     "note": "Real‑time Canton Network Analytics | Canton Explorer"
+  },
+  {
+    "appName": "auth0_007c6944217743c3f0b43f0a8285",
+    "baseName": "auth0007c6944217743c3f0b43f0a8285",
+    "category": "Explorer/Infra",
+    "confidence": 65,
+    "websiteGuess": "https://ccview.io/",
+    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+  },
+  {
+    "appName": "google-oauth2_007c106967619021219072829",
+    "baseName": "google-oauth2007c106967619021219072829",
+    "category": "Wallet",
+    "confidence": 65,
+    "websiteGuess": "https://developers.google.com/identity/protocols/oauth2",
+    "note": "Using OAuth 2.0 to Access Google APIs - Google Developers"
+  },
+  {
+    "appName": "SatsTerminal-main-1",
+    "baseName": "satsterminal-main",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://www.cantonecosystem.com/",
+    "note": "Canton Network Ecosystem"
   },
   {
     "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
@@ -420,8 +500,8 @@
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Explorer/Infra",
     "confidence": 60,
-    "websiteGuess": "https://canton.thetie.io/",
-    "note": "Canton Data Analytics by The Tie"
+    "websiteGuess": "https://forums.malwarebytes.com/topic/315974-suspicious-files/",
+    "note": "Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums"
   },
   {
     "appName": "acme-lending",
@@ -438,14 +518,6 @@
     "confidence": 55,
     "websiteGuess": null,
     "note": "Canton bridge operator"
-  },
-  {
-    "appName": "c7trust",
-    "baseName": "c7trust",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "C7 Technology trust service"
   },
   {
     "appName": "CantonSwap",
@@ -560,20 +632,20 @@
     "note": "Vala Canton wallet"
   },
   {
+    "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://forums.malwarebytes.com/topic/315974-suspicious-files/",
+    "note": "Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums"
+  },
+  {
     "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://maclookup.app/",
-    "note": "MAC Address Vendor Lookup | MAC Address Lookup"
-  },
-  {
-    "appName": "OKX-VALIDATOR-2",
-    "baseName": "okx",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
+    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in",
+    "note": "Verify first-party Microsoft applications in sign-in reports"
   },
   {
     "appName": "sunthycloud-mainnet-1",
@@ -584,54 +656,6 @@
     "note": "Canton cloud service"
   },
   {
-    "appName": "Tokino-validator-1",
-    "baseName": "tokino",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "arcane-mainnet-1",
-    "baseName": "arcane",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c689b657291598790daabbdca",
-    "baseName": "auth0007c689b657291598790daabbdca",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
-    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c6944217743c3f0b43f0a8285",
-    "baseName": "auth0007c6944217743c3f0b43f0a8285",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "Cancore-mainnet-1",
-    "baseName": "cancore",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "foundinalsunthy-mainnet-1",
     "baseName": "foundinalsunthy",
     "category": "Unknown",
@@ -640,28 +664,12 @@
     "note": "Canton app"
   },
   {
-    "appName": "google-oauth2_007c106967619021219072829",
-    "baseName": "google-oauth2007c106967619021219072829",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "kairo-mainnet",
     "baseName": "kairo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "ledger-ledgerops-2",
-    "baseName": "ledger-ledgerops",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "mandalo-mainnet-2",
@@ -696,14 +704,6 @@
     "note": "Canton app"
   },
   {
-    "appName": "opus28-opusaccess-1",
-    "baseName": "opus28-opusaccess",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "tenkai-main-1",
     "baseName": "tenkai-main",
     "category": "Unknown",
@@ -718,29 +718,5 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "yuce",
-    "baseName": "yuce",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "zkpc-cantor8-1",
-    "baseName": "zkpc-cantor8",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
-    "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
   }
 ]

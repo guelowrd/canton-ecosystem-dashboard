@@ -23,6 +23,7 @@ TextureCapital-validator-1,texturecapital,Validator/Infra,100,https://texturecap
 trakx-validator-1,trakx,Validator/Infra,100,https://trakx.io,Crypto index platform
 binance-dp-1,binance-dp,Validator/Infra,90,https://binance.us,Binance delegation participant
 blackmantacapital-primary-1,blackmantacapital-primary,Tokenized Assets,90,https://blackmanta.capital,BaFin-regulated tokenized securities
+Cancore-mainnet-1,cancore,DEX/AMM,90,https://cancore.io/,Cancore | P2P Atomic Swap
 cantor8-digik-1,cantor8-digik,Explorer/Infra,90,https://cantor8.tech/digik,DigiK - Canton gateway
 Cumberland-GasStation-1,cumberland-gasstation,Validator/Infra,90,https://cumberland.io,Cumberland gas station (DRW subsidiary)
 dfns1,dfns1,Wallet,90,https://dfns.co,DFNS wallet infrastructure
@@ -32,29 +33,37 @@ MPCH-BRONdvn-1,mpch-brondvn,Wallet,90,https://mpcvault.com,MPCH Bron delegation 
 nightly-validator-1,nightly,Wallet,90,https://nightly.app/wallet/canton,Canton Wallet - Best CANTON Wallet 2025 | Nightly
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
-Redstone-validator-1,redstone,Tokenized Assets,90,https://canton.wiki/projects/redstone,RedStone — Canton Network Project | canton.wiki
+OKX-VALIDATOR-2,okx,DEX/AMM,90,https://outposts.io/article/canton-network-token-cc-lists-on-okx-with-usdt-trading-pair-ffd5d69a-0f69-424c-8c4c-d81be4d9a924,Canton Network Token CC Lists on OKX with USDT Trading Pair
+Redstone-validator-1,redstone,Tokenized Assets,90,https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access,"Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
 RootsFi-validator-01,rootsfi,Payments,90,https://www.rootsfi.com/products/bridge,Roots - Payment Network - rootsfi.com
 the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
+yuce,yuce,Prediction Markets,90,https://yuce.trade/,YUCE
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
+arcane-mainnet-1,arcane,Tokenized Assets,75,https://www.dlnews.com/articles/defi/canton-network-ceo-addresses-criticism-from-crypto-ideologues/,Canton Network CEO hits back at &#x27;crypto ideologues&#x27; who question his .
 elk-Validator-2,elk,Prediction Markets,75,https://www.cantonecosystem.com/,Canton Network Ecosystem
-excellar-issuer,excellar-issuer,Explorer/Infra,75,https://www.kucoin.com/news/flash/fintech-transcend-integrates-with-canton-network-for-real-time-collateral-mobility,Fintech Transcend Integrates with Canton Network for Real-Time ... - KuCoin
-FTP-validator-1,ftp,Tokenized Assets,75,https://www.transcendstreet.com/transcend-connects-to-canton-network/,Transcend Connects to Canton Network for Tokenized Assets
-fulcrum-point,fulcrum-point,Tokenized Assets,75,https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html,Canton Network Overview — Digital Asset&#x27;s platform documentation
+excellar-issuer,excellar-issuer,Payments,75,https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx,Visa to Bring Privacy-Preserving Payments to Canton Network
+FTP-validator-1,ftp,Tokenized Assets,75,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
+fulcrum-point,fulcrum-point,Explorer/Infra,75,https://coinmarketcap.com/currencies/canton-network/,"Canton price today, CC to USD live price, marketcap and chart ..."
 handl-issuer,handl-issuer,Tokenized Assets,75,https://www.bitrue.com/blog/what-is-handl,What Is HANDL Token on Canton Network Explained - bitrue.com
-kora-app,kora-app,Explorer/Infra,75,https://www.bulbapp.io/p/c53554dc-e5f7-48e3-a50e-ed3041f7b84d/canton,Canton - BULB
-rails-cethMain-1,rails-cethmain,Explorer/Infra,75,https://ceth.network/whitepaper,cETH - ETH on Canton
+kora-app,kora-app,Tokenized Assets,75,https://www.kora.app/,Kora
+ledger-ledgerops-2,ledger-ledgerops,Validator/Infra,75,https://www.broadridge.com/press-release/2025/billions-in-average-daily-processed-trade-volumes-on-broadridge-dlt-repo-platform,$280 Billion in Average Daily Processed Trade Volumes on Broadridge ...
+rails-cethMain-1,rails-cethmain,Explorer/Infra,75,https://cryptonews.com/news/canton-chain-layerzero-interoperability-integration/,Goldman Sachs Linked Canton Crypto Chain Adds LayerZero
 rheinfin-validator-1,rheinfin,Lending,75,https://www.rhein.finance/,Rhein Finance - Next-Generation Lending Protocol on Canton
-SatsTerminal-main-1,satsterminal-main,Tokenized Assets,75,https://www.transcendstreet.com/transcend-connects-to-canton-network/,Transcend Connects to Canton Network for Tokenized Assets
+Tokino-validator-1,tokino,Tokenized Assets,75,https://www.transcendstreet.com/transcend-connects-to-canton-network/,Transcend Connects to Canton Network for Tokenized Assets
 tradefast-mainnet-1,tradefast,Orderbook/CLOB,75,https://trade.fast/,Trade.Fast
 tradefast-wallet2-1,tradefast-wallet2,Wallet,75,https://trade.fast/,Trade.Fast
-walley,walley,Wallet,75,https://www.fivenorthdigital.com/products,PRODUCTS - fivenorthdigital.com
-auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Tokenized Assets,65,https://www.dtcc.com/news/2025/december/17/dtcc-and-digital-asset-partner-to-tokenize-dtc-custodied-us-treasury-securities,DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury ...
-auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+walley,walley,Wallet,75,https://finance.yahoo.com/markets/crypto/articles/canton-network-ceo-hits-back-092033144.html,Canton Network CEO hits back at &#x27;crypto ideologues&#x27; who question his .
+zkpc-cantor8-1,zkpc-cantor8,Validator/Infra,75,https://techbullion.com/a-new-era-for-sovereign-wealth-edena-to-bring-100b-onto-canton-network-via-cantor8/,A New Era for Sovereign Wealth: EDENA To Bring $100B onto Canton ...
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Explorer/Infra,65,https://www.theblock.co/,"The Block: Bitcoin, Ethereum &amp; Crypto News | Live Prices, Data &amp; Indices"
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://www.digitalasset.com/,Digital Asset Holdings - Delivering synchronized finance
+auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Wallet,65,https://developers.google.com/identity/protocols/oauth2,Using OAuth 2.0 to Access Google APIs - Google Developers
+SatsTerminal-main-1,satsterminal-main,Unknown,65,https://www.cantonecosystem.com/,Canton Network Ecosystem
 23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Explorer/Infra,60,https://canton.thetie.io/,Canton Data Analytics by The Tie
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://canton.thetie.io/,Canton Data Analytics by The Tie
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://forums.malwarebytes.com/topic/315974-suspicious-files/,Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums
 acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
-c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
 CantonSwap,cantonswap,DEX/AMM,55,,Canton swap protocol
 ccbrowser,ccbrowser,Explorer/Infra,55,,Canton Coin browser
 handlpay-main-1,handlpay-main,Payments,55,,Canton payment service
@@ -69,26 +78,14 @@ Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 ValaWallet-validator-1,valawallet,Wallet,55,,Vala Canton wallet
-party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://maclookup.app/,MAC Address Vendor Lookup | MAC Address Lookup
-OKX-VALIDATOR-2,okx,Validator/Infra,40,,
+931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,50,https://forums.malwarebytes.com/topic/315974-suspicious-files/,Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in,Verify first-party Microsoft applications in sign-in reports
 sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
-Tokino-validator-1,tokino,Validator/Infra,40,,
-arcane-mainnet-1,arcane,Unknown,30,,
-auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Auth,30,,
-auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,30,,
-auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Identity/Auth,30,,
-Cancore-mainnet-1,cancore,Unknown,30,,
 foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
-google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,30,,
 kairo-mainnet,kairo,Unknown,30,,Canton app
-ledger-ledgerops-2,ledger-ledgerops,Unknown,30,,
 mandalo-mainnet-2,mandalo,Unknown,30,,Canton app
 modo,modo,Unknown,30,,Canton app
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 openvector-mainnet-1,openvector,Unknown,30,,Canton app
-opus28-opusaccess-1,opus28-opusaccess,Unknown,30,,
 tenkai-main-1,tenkai-main,Unknown,30,,Canton app
 unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
-yuce,yuce,Unknown,30,,
-zkpc-cantor8-1,zkpc-cantor8,Unknown,30,,
-931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,15,,

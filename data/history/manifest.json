@@ -1,5 +1,26 @@
 [
   {
+    "file": "snapshot-2026-04-10_0047.json",
+    "lastUpdated": "2026-04-10T00:47:41.366Z",
+    "tvlUsd": 1845645.377123874,
+    "ccPriceUsd": 0.1514975087906283,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "CC Explorer",
+        "Cancore-mainnet-1",
+        "OKX-VALIDATOR-2",
+        "yuce",
+        "arcane-mainnet-1",
+        "excellar-issuer",
+        "Tokino-validator-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-09_0103.json",
     "lastUpdated": "2026-04-09T01:03:42.525Z",
     "tvlUsd": 1787285.590770304,
@@ -241,25 +262,6 @@
         "elk-Validator-2",
         "rails-cethMain-1",
         "Tokino-validator-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-03-31_0106.json",
-    "lastUpdated": "2026-03-31T01:06:38.362Z",
-    "tvlUsd": 1664830.2719047677,
-    "ccPriceUsd": 0.148300914075457,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 13187785.111713195
-    },
-    "appRewardsShareOfMinting": 59.19582735767358,
-    "activeValidators": 849,
-    "signals": {
-      "newApps": [
-        "blackmantacapital-primary-1",
-        "tradefast-mainnet-1"
       ],
       "newData": []
     }
