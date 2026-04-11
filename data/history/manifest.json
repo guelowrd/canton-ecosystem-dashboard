@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-04-11_0046.json",
+    "lastUpdated": "2026-04-11T00:46:28.471Z",
+    "tvlUsd": 1827918.6588871456,
+    "ccPriceUsd": 0.148326220000439,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "ledger-ledgerops-2",
+        "SatsTerminal-main-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-10_0047.json",
     "lastUpdated": "2026-04-10T00:47:41.366Z",
     "tvlUsd": 1845645.377123874,
@@ -239,29 +255,6 @@
       "newApps": [
         "Featured Apps",
         "www.cantonscan.com"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-01_0109.json",
-    "lastUpdated": "2026-04-01T01:09:28.678Z",
-    "tvlUsd": 1672229.7024124903,
-    "ccPriceUsd": 0.1496530519291537,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 12607490.783494405
-    },
-    "appRewardsShareOfMinting": 71.9181627452555,
-    "activeValidators": 853,
-    "signals": {
-      "newApps": [
-        "Redstone-validator-1",
-        "RootsFi-validator-01",
-        "yuce",
-        "elk-Validator-2",
-        "rails-cethMain-1",
-        "Tokino-validator-1"
       ],
       "newData": []
     }
