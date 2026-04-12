@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-04-12_0050.json",
+    "lastUpdated": "2026-04-12T00:50:26.734Z",
+    "tvlUsd": 1827260.3349828017,
+    "ccPriceUsd": 0.14680084898660564,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-11_0046.json",
     "lastUpdated": "2026-04-11T00:46:28.471Z",
     "tvlUsd": 1827918.6588871456,
@@ -236,25 +252,6 @@
         "tradefast-mainnet-1",
         "tradefast-wallet2-1",
         "zkpc-cantor8-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-02_0105.json",
-    "lastUpdated": "2026-04-02T01:05:07.314Z",
-    "tvlUsd": 1770738.7141896542,
-    "ccPriceUsd": 0.14243298489244205,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 11576204.174278475
-    },
-    "appRewardsShareOfMinting": 72.06980385138738,
-    "activeValidators": 858,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
       ],
       "newData": []
     }
