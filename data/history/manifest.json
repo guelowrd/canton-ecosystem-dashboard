@@ -1,5 +1,24 @@
 [
   {
+    "file": "snapshot-2026-04-13_0051.json",
+    "lastUpdated": "2026-04-13T00:51:03.956Z",
+    "tvlUsd": 1815768.034618151,
+    "ccPriceUsd": 0.14549606101277307,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": [
+        {
+          "app": "www.cantonscan.com",
+          "from": "none",
+          "to": "opaque"
+        }
+      ]
+    }
+  },
+  {
     "file": "snapshot-2026-04-12_0050.json",
     "lastUpdated": "2026-04-12T00:50:26.734Z",
     "tvlUsd": 1827260.3349828017,
@@ -203,55 +222,6 @@
       "newApps": [
         "Featured Apps",
         "www.cantonscan.com"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-03_0104.json",
-    "lastUpdated": "2026-04-03T01:04:04.258Z",
-    "tvlUsd": 1767510.2212783424,
-    "ccPriceUsd": 0.1426376693345779,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 9664169.535903737
-    },
-    "appRewardsShareOfMinting": 72.15233668253995,
-    "activeValidators": 857,
-    "signals": {
-      "newApps": [
-        "cantonloop-mainnet-1",
-        "CoinMetrics-validator-1",
-        "cypherock-mainnet-1",
-        "Fairmint-validator-1",
-        "flipside-validator-1",
-        "Obligate-validator-1",
-        "pixelplex-mainnet-3",
-        "send-cantonwallet-1",
-        "cantor8-digik-1",
-        "dfns1",
-        "feat-unhedged-app",
-        "MPCH-BRONdvn-1",
-        "nightly-validator-1",
-        "noves-translate",
-        "Redstone-validator-1",
-        "RootsFi-validator-01",
-        "the_tie_validator",
-        "ZodiaCustody-validator-1",
-        "yuce",
-        "elk-Validator-2",
-        "excellar-issuer",
-        "FTP-validator-1",
-        "fulcrum-point",
-        "handl-issuer",
-        "kora-app",
-        "rails-cethMain-1",
-        "rheinfin-validator-1",
-        "SatsTerminal-main-1",
-        "Tokino-validator-1",
-        "tradefast-mainnet-1",
-        "tradefast-wallet2-1",
-        "zkpc-cantor8-1"
       ],
       "newData": []
     }
