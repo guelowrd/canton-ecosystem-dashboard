@@ -1,8 +1,19 @@
 {
-  "totalApps": 2,
-  "withWebsite": 2,
-  "lowConfidence": 0,
+  "totalApps": 93,
+  "withWebsite": 53,
+  "lowConfidence": 23,
   "categories": {
-    "Explorer/Infra": 2
+    "Validator/Infra": 25,
+    "DEX/AMM": 4,
+    "Wallet": 9,
+    "Explorer/Infra": 10,
+    "Tokenized Assets": 9,
+    "Lending": 3,
+    "Orderbook/CLOB": 3,
+    "Prediction Markets": 3,
+    "Payments": 3,
+    "Bridge": 1,
+    "Identity/Auth": 5,
+    "Unknown": 18
   }
 }
