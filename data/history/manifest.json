@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-04-15_0051.json",
+    "lastUpdated": "2026-04-15T00:51:49.515Z",
+    "tvlUsd": 1942647.0989072856,
+    "ccPriceUsd": 0.14869750665824946,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-14_0053.json",
     "lastUpdated": "2026-04-14T00:53:23.064Z",
     "tvlUsd": 1956311.8848142622,
@@ -231,22 +247,6 @@
         "rheinfin-validator-1",
         "tradefast-wallet2-1"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-05_0113.json",
-    "lastUpdated": "2026-04-05T01:13:26.380Z",
-    "tvlUsd": 1781404.5226759114,
-    "ccPriceUsd": 0.1398039841294093,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 12293874.037603954
-    },
-    "appRewardsShareOfMinting": 62.10540191358847,
-    "activeValidators": 864,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
