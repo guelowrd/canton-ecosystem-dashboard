@@ -1,5 +1,44 @@
 [
   {
+    "file": "snapshot-2026-04-17_0052.json",
+    "lastUpdated": "2026-04-17T00:52:39.043Z",
+    "tvlUsd": 1938316.8954327232,
+    "ccPriceUsd": 0.14863291961024847,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "blackmantacapital-primary-1",
+        "dfns1",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "Redstone-validator-1",
+        "RootsFi-validator-01",
+        "the_tie_validator",
+        "ZodiaCustody-validator-1",
+        "excellar-issuer",
+        "FTP-validator-1",
+        "fulcrum-point",
+        "HeliosFinance-Mainnet-1",
+        "kora-app",
+        "nightly-validator-1",
+        "rails-cethMain-1",
+        "tradefast-mainnet-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-16_0052.json",
     "lastUpdated": "2026-04-16T00:52:40.167Z",
     "tvlUsd": 1940157.262700384,
@@ -187,31 +226,6 @@
       "newData": [
         {
           "app": "SatsTerminal-main-1",
-          "from": "none",
-          "to": "opaque"
-        }
-      ]
-    }
-  },
-  {
-    "file": "snapshot-2026-04-07_0107.json",
-    "lastUpdated": "2026-04-07T01:07:53.376Z",
-    "tvlUsd": 1811646.4312994517,
-    "ccPriceUsd": 0.14603575514262146,
-    "topApp": {
-      "name": "cantor8-digik-1",
-      "rewardsCC": 11974630.590406004
-    },
-    "appRewardsShareOfMinting": 62.262672286029364,
-    "activeValidators": 868,
-    "signals": {
-      "newApps": [
-        "SatsTerminal-main-1",
-        "tradefast-mainnet-1"
-      ],
-      "newData": [
-        {
-          "app": "ZodiaCustody-validator-1",
           "from": "none",
           "to": "opaque"
         }
