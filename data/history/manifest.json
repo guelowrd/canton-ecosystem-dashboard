@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-04-20_0051.json",
+    "lastUpdated": "2026-04-20T00:51:14.605Z",
+    "tvlUsd": 1952121.0424735092,
+    "ccPriceUsd": 0.14878044495707282,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "Featured Apps",
+        "www.cantonscan.com"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-19_0054.json",
     "lastUpdated": "2026-04-19T00:54:22.554Z",
     "tvlUsd": 1948404.8424735093,
@@ -208,27 +224,6 @@
       "newApps": [
         "ledger-ledgerops-2",
         "SatsTerminal-main-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-10_0047.json",
-    "lastUpdated": "2026-04-10T00:47:41.366Z",
-    "tvlUsd": 1845645.377123874,
-    "ccPriceUsd": 0.1514975087906283,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "CC Explorer",
-        "Cancore-mainnet-1",
-        "OKX-VALIDATOR-2",
-        "yuce",
-        "arcane-mainnet-1",
-        "excellar-issuer",
-        "Tokino-validator-1"
       ],
       "newData": []
     }
