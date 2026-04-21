@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-04-21_0051.json",
+    "lastUpdated": "2026-04-21T00:51:03.030Z",
+    "tvlUsd": 1996773.334209388,
+    "ccPriceUsd": 0.15560965723882944,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-20_0051.json",
     "lastUpdated": "2026-04-20T00:51:14.605Z",
     "tvlUsd": 1952121.0424735092,
@@ -208,22 +221,6 @@
       "newApps": [
         "Featured Apps",
         "www.cantonscan.com"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-11_0046.json",
-    "lastUpdated": "2026-04-11T00:46:28.471Z",
-    "tvlUsd": 1827918.6588871456,
-    "ccPriceUsd": 0.148326220000439,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "ledger-ledgerops-2",
-        "SatsTerminal-main-1"
       ],
       "newData": []
     }
