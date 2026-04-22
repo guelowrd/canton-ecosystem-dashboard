@@ -1,5 +1,50 @@
 [
   {
+    "file": "snapshot-2026-04-22_0050.json",
+    "lastUpdated": "2026-04-22T00:50:33.389Z",
+    "tvlUsd": 1957794.6614506226,
+    "ccPriceUsd": 0.15026418470457942,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "blackmantacapital-primary-1",
+        "cantor8-digik-1",
+        "dfns1",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "peertrust-validator-2",
+        "raven-validator-1",
+        "Redstone-validator-1",
+        "RootsFi-validator-01",
+        "the_tie_validator",
+        "ZodiaCustody-validator-1",
+        "yuce",
+        "excellar-issuer",
+        "fulcrum-point",
+        "HeliosFinance-Mainnet-1",
+        "kora-app",
+        "nightly-validator-1",
+        "rails-cethMain-1",
+        "rheinfin-validator-1",
+        "tradefast-mainnet-1",
+        "tradefast-wallet2-1",
+        "walley"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-21_0051.json",
     "lastUpdated": "2026-04-21T00:51:03.030Z",
     "tvlUsd": 1996773.334209388,
@@ -207,22 +252,6 @@
           "to": "opaque"
         }
       ]
-    }
-  },
-  {
-    "file": "snapshot-2026-04-12_0050.json",
-    "lastUpdated": "2026-04-12T00:50:26.734Z",
-    "tvlUsd": 1827260.3349828017,
-    "ccPriceUsd": 0.14680084898660564,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
-      ],
-      "newData": []
     }
   }
 ]
