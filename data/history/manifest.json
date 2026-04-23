@@ -1,5 +1,27 @@
 [
   {
+    "file": "snapshot-2026-04-23_0054.json",
+    "lastUpdated": "2026-04-23T00:54:35.543Z",
+    "tvlUsd": 1979233.5912936316,
+    "ccPriceUsd": 0.1526501147289162,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "Cancore-mainnet-1",
+        "arcane-mainnet-1",
+        "confimarket-main-1",
+        "elk-Validator-2",
+        "FTP-validator-1",
+        "handl-issuer",
+        "nodetech-mainnet-1",
+        "zkpc-cantor8-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-22_0050.json",
     "lastUpdated": "2026-04-22T00:50:33.389Z",
     "tvlUsd": 1957794.6614506226,
@@ -233,25 +255,6 @@
         "walley"
       ],
       "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-13_0051.json",
-    "lastUpdated": "2026-04-13T00:51:03.956Z",
-    "tvlUsd": 1815768.034618151,
-    "ccPriceUsd": 0.14549606101277307,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
-      "newData": [
-        {
-          "app": "www.cantonscan.com",
-          "from": "none",
-          "to": "opaque"
-        }
-      ]
     }
   }
 ]
