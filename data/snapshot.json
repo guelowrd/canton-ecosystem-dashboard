@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-23T00:54:35.543Z",
-  "cantonCoinPriceUsd": 0.1526501147289162,
+  "lastUpdated": "2026-04-24T00:56:39.043Z",
+  "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1979233.5912936316,
-    "volume30dUsd": 1113754.3819001492,
+    "totalTvlUsd": 1855,
+    "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 42,
-    "transparentApps": 2,
+    "trackedApps": 34,
+    "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
   },
@@ -18,13 +18,12 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": 87.04427182106203,
+    "tvlLargestPoolPct": null,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "87% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 42 tracked apps expose public metrics"
+    "1 of 34 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,59 +35,8 @@
     {
       "id": "tradecraft",
       "name": "Tradecraft",
-      "url": "https://tradecraft.fi",
-      "appCategory": "AMM",
-      "transparency": "transparent",
-      "dataAvailability": "full",
-      "ccPriceUsd": 0.1526501147289162,
-      "cbtcPriceUsd": 78202.78646785955,
-      "pools": [
-        {
-          "name": "CC / USDCx",
-          "token1": "CC",
-          "token2": "USDCx",
-          "token1Holdings": 5622581.284920596,
-          "token2Holdings": 858287.678215786,
-          "tvlUsd": 1716575.356431572,
-          "lpFeePercent": 0.2,
-          "operatorFeePercent": 0.1,
-          "yield24h": 0.17550580251035508,
-          "totalLpTokens": 2097670.771761328,
-          "volume": {
-            "1h": 2.028916441835463,
-            "4h": 947.419778398471,
-            "12h": 4617.672431939514,
-            "24h": 12375.165453536785,
-            "7d": 89118.17339102749,
-            "30d": 913631.2366843439
-          }
-        },
-        {
-          "name": "CC / CBTC",
-          "token1": "CC",
-          "token2": "CBTC",
-          "token1Holdings": 836868.7940909273,
-          "token2Holdings": 1.6335494322,
-          "tvlUsd": 255496.23486205962,
-          "lpFeePercent": 0.2,
-          "operatorFeePercent": 0.1,
-          "yield24h": 0.18808628385526638,
-          "totalLpTokens": 1089.2329024792,
-          "volume": {
-            "1h": 0,
-            "4h": 0,
-            "12h": 1038.8830894598452,
-            "24h": 1634.4511992851803,
-            "7d": 5540.22142003829,
-            "30d": 200123.14521580524
-          }
-        }
-      ],
-      "totalTvlUsd": 1972071.5912936316,
-      "largestPoolPct": 87.04427182106203,
-      "totalVolume24hUsd": 14009.616652821966,
-      "totalVolume7dUsd": 94658.39481106578,
-      "totalVolume30dUsd": 1113754.3819001492
+      "dataAvailability": "error",
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 504 Gateway Timeout"
     },
     {
       "id": "unhedged",
@@ -97,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 18738,
-      "activeMarkets": 155,
-      "endedMarkets": 27,
-      "resolvedMarkets": 18383,
-      "totalActivePoolUsd": 7162,
-      "totalActiveBets": 510,
+      "totalMarkets": 19054,
+      "activeMarkets": 217,
+      "endedMarkets": 15,
+      "resolvedMarkets": 18648,
+      "totalActivePoolUsd": 1855,
+      "totalActiveBets": 223,
       "categories": {
         "crypto": {
           "count": 8,
@@ -111,45 +59,45 @@
         },
         "sports": {
           "count": 92,
-          "poolUsd": 7162,
-          "bets": 510
+          "poolUsd": 1855,
+          "bets": 223
         }
       },
       "topMarkets": [
         {
-          "question": "Yokohama BayStars vs Hanshin Tigers",
+          "question": "Angers vs Paris Saint Germain",
           "category": "sports",
-          "totalPool": 175,
-          "betCount": 11,
-          "endTime": "2026-04-23T07:45:00.000Z"
+          "totalPool": 60,
+          "betCount": 7,
+          "endTime": "2026-04-25T16:00:00.000Z"
         },
         {
-          "question": "Portland Trail Blazers vs San Antonio Spurs",
+          "question": "Liverpool vs Crystal Palace",
           "category": "sports",
-          "totalPool": 175,
-          "betCount": 6,
-          "endTime": "2026-04-25T01:30:00.000Z"
+          "totalPool": 50,
+          "betCount": 5,
+          "endTime": "2026-04-25T13:00:00.000Z"
         },
         {
-          "question": "Lokomotiv Yaroslavl vs Avangard Omsk",
+          "question": "Real Betis vs Real Madrid",
           "category": "sports",
-          "totalPool": 160,
-          "betCount": 6,
-          "endTime": "2026-04-26T13:00:00.000Z"
+          "totalPool": 40,
+          "betCount": 4,
+          "endTime": "2026-04-25T15:00:00.000Z"
         },
         {
-          "question": "Nippon Ham Fighters vs Rakuten Gold. Eagles",
+          "question": "FSV Mainz 05 vs Bayern München",
           "category": "sports",
-          "totalPool": 160,
-          "betCount": 12,
-          "endTime": "2026-04-23T08:00:00.000Z"
+          "totalPool": 40,
+          "betCount": 3,
+          "endTime": "2026-04-25T12:30:00.000Z"
         },
         {
-          "question": "Phoenix Suns vs Oklahoma City Thunder",
+          "question": "Rögle vs Skellefteå",
           "category": "sports",
-          "totalPool": 160,
-          "betCount": 8,
-          "endTime": "2026-04-25T18:30:00.000Z"
+          "totalPool": 35,
+          "betCount": 4,
+          "endTime": "2026-04-28T16:00:00.000Z"
         }
       ]
     },
@@ -309,18 +257,6 @@
       "isCandidate": true
     },
     {
-      "id": "cancore",
-      "name": "Cancore-mainnet-1",
-      "url": "https://cancore.io/",
-      "appCategory": "DEX/AMM",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Cancore | P2P Atomic Swap",
-      "isCandidate": true
-    },
-    {
       "id": "cantor8-digik",
       "name": "cantor8-digik-1",
       "url": "https://cantor8.tech/digik",
@@ -381,27 +317,15 @@
       "isCandidate": true
     },
     {
-      "id": "raven",
-      "name": "raven-validator-1",
-      "url": "https://docs.raven.market/",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Overview — Raven Market Docs",
-      "isCandidate": true
-    },
-    {
       "id": "redstone",
       "name": "Redstone-validator-1",
-      "url": "https://canton.wiki/projects/redstone",
+      "url": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "RedStone — Canton Network Project | canton.wiki",
+      "note": "RWA Tokenization News: RedStone Brings Canton&#x27;s $6T Onchain Assets ...",
       "isCandidate": true
     },
     {
@@ -413,7 +337,7 @@
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Rootsfi — Canton Ecosystem — CC Tools",
+      "note": "Project — CCTools",
       "isCandidate": true
     },
     {
@@ -441,75 +365,27 @@
       "isCandidate": true
     },
     {
-      "id": "arcane",
-      "name": "arcane-mainnet-1",
-      "url": "https://www.northerntrust.com/united-states/pr/2026/northern-trust-builds-tokenized-asset-custody-capabilities-on-the-canton-network",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Northern Trust Builds Tokenized Asset Custody Capabilities on the ...",
-      "isCandidate": true
-    },
-    {
-      "id": "confimarket-main",
-      "name": "confimarket-main-1",
-      "url": "https://coinmarketcap.com/cmc-ai/canton-network/latest-updates/",
-      "appCategory": "Prediction Markets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Latest Canton News - (CC) Future Outlook, Trends &amp; Market Insights",
-      "isCandidate": true
-    },
-    {
-      "id": "elk",
-      "name": "elk-Validator-2",
-      "url": "https://www.cantonstrategic.com/news/canton-strategic-holdings-inc-presents-quarterly-canton-network-ecosystem-update",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "News | Canton Strategic Holdings",
-      "isCandidate": true
-    },
-    {
       "id": "excellar-issuer",
       "name": "excellar-issuer",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
-      "appCategory": "Explorer/Infra",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx",
+      "appCategory": "Payments",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
-      "isCandidate": true
-    },
-    {
-      "id": "ftp",
-      "name": "FTP-validator-1",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Network - Wikipedia",
+      "note": "Visa to Bring Privacy-Preserving Payments to Canton Network",
       "isCandidate": true
     },
     {
       "id": "fulcrum-point",
       "name": "fulcrum-point",
-      "url": "https://docs.digitalasset.com/integrate/devnet/canton-network-overview/index.html",
-      "appCategory": "Tokenized Assets",
+      "url": "https://www.disruptionbanking.com/2026/04/13/hsbc-announces-successful-tokenised-deposit-pilot-on-the-canton-network/",
+      "appCategory": "Explorer/Infra",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network Overview — Digital Asset&#x27;s platform documentation",
+      "note": "HSBC Announces Successful Tokenised Deposit Pilot on the Canton Network",
       "isCandidate": true
     },
     {
@@ -527,20 +403,20 @@
     {
       "id": "heliosfinance",
       "name": "HeliosFinance-Mainnet-1",
-      "url": "https://www.binance.com/en/square/post/04-22-2026-walletconnect-expands-to-canton-network-enhancing-institutional-finance-access-315279209435250",
-      "appCategory": "Tokenized Assets",
+      "url": "https://www.cantonecosystem.com/",
+      "appCategory": "Explorer/Infra",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "WalletConnect Expands to Canton Network, Enhancing ... - Binance",
+      "note": "Canton Network Ecosystem",
       "isCandidate": true
     },
     {
       "id": "kora-app",
       "name": "kora-app",
       "url": "https://canton.wiki/canton-network-projects",
-      "appCategory": "Explorer/Infra",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -549,33 +425,9 @@
       "isCandidate": true
     },
     {
-      "id": "nightly",
-      "name": "nightly-validator-1",
-      "url": "https://www.northerntrust.com/united-states/pr/2026/northern-trust-builds-tokenized-asset-custody-capabilities-on-the-canton-network",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Northern Trust Builds Tokenized Asset Custody Capabilities on the ...",
-      "isCandidate": true
-    },
-    {
-      "id": "nodetech",
-      "name": "nodetech-mainnet-1",
-      "url": "https://www.northerntrust.com/united-states/pr/2026/northern-trust-builds-tokenized-asset-custody-capabilities-on-the-canton-network",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Northern Trust Builds Tokenized Asset Custody Capabilities on the ...",
-      "isCandidate": true
-    },
-    {
       "id": "rails-cethmain",
       "name": "rails-cethMain-1",
-      "url": "https://ceth.network/whitepaper",
+      "url": "https://www.ceth.network/transparency",
       "appCategory": "Explorer/Infra",
       "transparency": "none",
       "dataAvailability": "limited",
@@ -585,15 +437,27 @@
       "isCandidate": true
     },
     {
-      "id": "rheinfin",
-      "name": "rheinfin-validator-1",
-      "url": "https://www.rhein.finance/",
+      "id": "rho-relay",
+      "name": "rho-relay",
+      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "appCategory": "Bridge",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network - Wikipedia",
+      "isCandidate": true
+    },
+    {
+      "id": "satsterminal-main",
+      "name": "SatsTerminal-main-1",
+      "url": "https://cctools.network/ecosystem/sats-terminal",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Rhein Finance - Next-Generation Lending Protocol on Canton",
+      "note": "Sats Terminal — Canton Ecosystem | CC Tools - cctools.network",
       "isCandidate": true
     },
     {
@@ -623,25 +487,13 @@
     {
       "id": "walley",
       "name": "walley",
-      "url": "https://www.northerntrust.com/united-states/pr/2026/northern-trust-builds-tokenized-asset-custody-capabilities-on-the-canton-network",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Northern Trust Builds Tokenized Asset Custody Capabilities on the ...",
-      "isCandidate": true
-    },
-    {
-      "id": "zkpc-cantor8",
-      "name": "zkpc-cantor8-1",
-      "url": "https://cantor8.net/",
+      "url": "https://www.cantonecosystem.com/",
       "appCategory": "Wallet",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Cantor8 | Web3 Infrastructure for Canton Network",
+      "note": "Canton Network Ecosystem",
       "isCandidate": true
     }
   ]
