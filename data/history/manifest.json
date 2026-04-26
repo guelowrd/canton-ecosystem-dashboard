@@ -1,5 +1,56 @@
 [
   {
+    "file": "snapshot-2026-04-26_0057.json",
+    "lastUpdated": "2026-04-26T00:57:59.873Z",
+    "tvlUsd": 5039.4,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "blackmantacapital-primary-1",
+        "Cancore-mainnet-1",
+        "cantor8-digik-1",
+        "dfns1",
+        "elk-Validator-2",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "OKX-VALIDATOR-2",
+        "rapidchain-validator-1",
+        "Redstone-validator-1",
+        "RootsFi-validator-01",
+        "the_tie_validator",
+        "yuce",
+        "ZodiaCustody-validator-1",
+        "arcane-mainnet-1",
+        "confimarket-main-1",
+        "daml-autopilot",
+        "FTP-validator-1",
+        "handl-issuer",
+        "HeliosFinance-Mainnet-1",
+        "rails-cethMain-1",
+        "rho-relay",
+        "SatsTerminal-main-1",
+        "Tokino-validator-1",
+        "tradefast-mainnet-1",
+        "tradefast-wallet2-1",
+        "walley",
+        "zkpc-cantor8-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-25_0049.json",
     "lastUpdated": "2026-04-25T00:49:31.500Z",
     "tvlUsd": 2339.4,
@@ -214,19 +265,6 @@
         "rails-cethMain-1",
         "tradefast-mainnet-1"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-16_0052.json",
-    "lastUpdated": "2026-04-16T00:52:40.167Z",
-    "tvlUsd": 1940157.262700384,
-    "ccPriceUsd": 0.14898308960948958,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
