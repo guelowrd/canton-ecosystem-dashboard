@@ -1,5 +1,49 @@
 [
   {
+    "file": "snapshot-2026-04-28_0059.json",
+    "lastUpdated": "2026-04-28T00:59:50.988Z",
+    "tvlUsd": 5825,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "CoinMetrics-validator-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "flipside-validator-1",
+        "Obligate-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "blackmantacapital-primary-1",
+        "Cancore-mainnet-1",
+        "cantor8-digik-1",
+        "dfns1",
+        "elk-Validator-2",
+        "feat-unhedged-app",
+        "MPCH-BRONdvn-1",
+        "noves-translate",
+        "peertrust-validator-2",
+        "Redstone-validator-1",
+        "RootsFi-validator-01",
+        "the_tie_validator",
+        "ZodiaCustody-validator-1",
+        "daml-autopilot",
+        "FTP-validator-1",
+        "handl-issuer",
+        "kora-app",
+        "rails-cethMain-1",
+        "rho-relay",
+        "SatsTerminal-main-1",
+        "tradefast-mainnet-1",
+        "tradefast-wallet2-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-27_0055.json",
     "lastUpdated": "2026-04-27T00:55:54.178Z",
     "tvlUsd": 6195.929999999999,
@@ -225,22 +269,6 @@
         "kora-app",
         "tradefast-mainnet-1",
         "zkpc-cantor8-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-18_0046.json",
-    "lastUpdated": "2026-04-18T00:46:16.181Z",
-    "tvlUsd": 1959804.8411518303,
-    "ccPriceUsd": 0.1509370004949247,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
       ],
       "newData": []
     }
