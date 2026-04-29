@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-28T00:59:50.988Z",
+  "lastUpdated": "2026-04-29T01:00:50.853Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 5825,
+    "totalTvlUsd": 1915,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 35,
+    "trackedApps": 34,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 35 tracked apps expose public metrics"
+    "1 of 34 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 20083,
-      "activeMarkets": 156,
-      "endedMarkets": 17,
-      "resolvedMarkets": 19717,
-      "totalActivePoolUsd": 5825,
-      "totalActiveBets": 534,
+      "totalMarkets": 20365,
+      "activeMarkets": 207,
+      "endedMarkets": 24,
+      "resolvedMarkets": 19938,
+      "totalActivePoolUsd": 1915,
+      "totalActiveBets": 209,
       "categories": {
         "crypto": {
           "count": 4,
@@ -59,45 +59,45 @@
         },
         "sports": {
           "count": 96,
-          "poolUsd": 5825,
-          "bets": 534
+          "poolUsd": 1915,
+          "bets": 209
         }
       },
       "topMarkets": [
         {
-          "question": "San Antonio Spurs vs Portland Trail Blazers",
+          "question": "Real Betis vs Oviedo",
           "category": "sports",
-          "totalPool": 210,
-          "betCount": 2,
-          "endTime": "2026-05-02T03:00:00.000Z"
+          "totalPool": 65,
+          "betCount": 4,
+          "endTime": "2026-05-03T15:00:00.000Z"
         },
         {
-          "question": "Baltimore Orioles vs Houston Astros",
+          "question": "KT Wiz Suwon vs LG Twins",
           "category": "sports",
-          "totalPool": 175,
-          "betCount": 9,
-          "endTime": "2026-04-28T21:35:00.000Z"
+          "totalPool": 45,
+          "betCount": 3,
+          "endTime": "2026-04-30T08:30:00.000Z"
+        },
+        {
+          "question": "Yomiuri Giants vs Hiroshima Carp",
+          "category": "sports",
+          "totalPool": 45,
+          "betCount": 3,
+          "endTime": "2026-04-30T08:00:00.000Z"
         },
         {
           "question": "Yakult Swallows vs Hanshin Tigers",
           "category": "sports",
-          "totalPool": 160,
-          "betCount": 12,
-          "endTime": "2026-04-28T08:00:00.000Z"
+          "totalPool": 45,
+          "betCount": 3,
+          "endTime": "2026-04-30T08:00:00.000Z"
         },
         {
-          "question": "Boston Celtics vs Philadelphia 76ers",
+          "question": "Seibu Lions vs Nippon Ham Fighters",
           "category": "sports",
-          "totalPool": 150,
-          "betCount": 4,
-          "endTime": "2026-05-02T03:00:00.000Z"
-        },
-        {
-          "question": "Chunichi Dragons vs Yokohama BayStars",
-          "category": "sports",
-          "totalPool": 140,
-          "betCount": 13,
-          "endTime": "2026-04-28T08:00:00.000Z"
+          "totalPool": 45,
+          "betCount": 3,
+          "endTime": "2026-04-30T08:00:00.000Z"
         }
       ]
     },
@@ -260,7 +260,7 @@
       "id": "cancore",
       "name": "Cancore-mainnet-1",
       "url": "https://cancore.io/",
-      "appCategory": "DEX/AMM",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -365,18 +365,6 @@
       "isCandidate": true
     },
     {
-      "id": "rootsfi",
-      "name": "RootsFi-validator-01",
-      "url": "https://www.rootsfi.com/products/bridge",
-      "appCategory": "Payments",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Roots - Payment Network - rootsfi.com",
-      "isCandidate": true
-    },
-    {
       "id": "thetievalidator",
       "name": "the_tie_validator",
       "url": "https://thetie.io",
@@ -386,6 +374,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Crypto analytics platform",
+      "isCandidate": true
+    },
+    {
+      "id": "walley",
+      "name": "walley",
+      "url": "https://walley.cc/",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Walley — Self-Custody Wallet for Canton Network",
       "isCandidate": true
     },
     {
@@ -404,7 +404,7 @@
       "id": "daml-autopilot",
       "name": "daml-autopilot",
       "url": "https://blog.chainsafe.io/daml-autopilot/",
-      "appCategory": "Wallet",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -415,13 +415,13 @@
     {
       "id": "ftp",
       "name": "FTP-validator-1",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "url": "https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
+      "note": "Canton Network quickstart installation — Digital Asset&#x27;s platform ...",
       "isCandidate": true
     },
     {
@@ -452,7 +452,7 @@
       "id": "rails-cethmain",
       "name": "rails-cethMain-1",
       "url": "https://ceth.network/whitepaper",
-      "appCategory": "Tokenized Assets",
+      "appCategory": "Explorer/Infra",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -463,49 +463,37 @@
     {
       "id": "rho-relay",
       "name": "rho-relay",
-      "url": "https://cache.industry.siemens.com/dl/files/292/109747292/att_964668/v1/7SR105_-_Rho_Complete_Technical_Manual.pdf",
+      "url": "https://canton.wiki/",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "PDF 7SR105 Rho User Manual - Siemens",
+      "note": "Canton Network Explorer — Track DeFi Projects, Validators &amp; RWA Protocols",
       "isCandidate": true
     },
     {
       "id": "satsterminal-main",
       "name": "SatsTerminal-main-1",
-      "url": "https://docs.digitalasset.com/utilities/mainnet/index.html",
-      "appCategory": "Explorer/Infra",
+      "url": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Utilities — Digital Asset&#x27;s platform documentation",
+      "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ...",
       "isCandidate": true
     },
     {
       "id": "tradefast",
       "name": "tradefast-mainnet-1",
-      "url": "https://www.cctools.network/ecosystem/trade-fast",
+      "url": "https://trade.fast/",
       "appCategory": "Orderbook/CLOB",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network",
-      "isCandidate": true
-    },
-    {
-      "id": "tradefast-wallet2",
-      "name": "tradefast-wallet2-1",
-      "url": "https://www.cctools.network/ecosystem/trade-fast",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network",
+      "note": "Trade.Fast",
       "isCandidate": true
     }
   ]

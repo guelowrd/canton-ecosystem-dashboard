@@ -1,5 +1,20 @@
 [
   {
+    "file": "snapshot-2026-04-29_0100.json",
+    "lastUpdated": "2026-04-29T01:00:50.853Z",
+    "tvlUsd": 1915,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "walley"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-28_0059.json",
     "lastUpdated": "2026-04-28T00:59:50.988Z",
     "tvlUsd": 5825,
@@ -234,41 +249,6 @@
       "newApps": [
         "Featured Apps",
         "www.cantonscan.com"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-19_0054.json",
-    "lastUpdated": "2026-04-19T00:54:22.554Z",
-    "tvlUsd": 1948404.8424735093,
-    "ccPriceUsd": 0.14878044495707282,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "cantonloop-mainnet-1",
-        "CoinMetrics-validator-1",
-        "cypherock-mainnet-1",
-        "Fairmint-validator-1",
-        "flipside-validator-1",
-        "Obligate-validator-1",
-        "pixelplex-mainnet-3",
-        "send-cantonwallet-1",
-        "blackmantacapital-primary-1",
-        "dfns1",
-        "MPCH-BRONdvn-1",
-        "noves-translate",
-        "RootsFi-validator-01",
-        "the_tie_validator",
-        "ZodiaCustody-validator-1",
-        "elk-Validator-2",
-        "excellar-issuer",
-        "HeliosFinance-Mainnet-1",
-        "kora-app",
-        "tradefast-mainnet-1",
-        "zkpc-cantor8-1"
       ],
       "newData": []
     }

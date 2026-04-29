@@ -186,7 +186,7 @@
   {
     "appName": "Cancore-mainnet-1",
     "baseName": "cancore",
-    "category": "DEX/AMM",
+    "category": "Tokenized Assets",
     "confidence": 90,
     "websiteGuess": "https://cancore.io/",
     "note": "Cancore | P2P Atomic Swap"
@@ -280,20 +280,20 @@
     "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
   },
   {
-    "appName": "RootsFi-validator-01",
-    "baseName": "rootsfi",
-    "category": "Payments",
-    "confidence": 90,
-    "websiteGuess": "https://www.rootsfi.com/products/bridge",
-    "note": "Roots - Payment Network - rootsfi.com"
-  },
-  {
     "appName": "the_tie_validator",
     "baseName": "thetievalidator",
     "category": "Explorer/Infra",
     "confidence": 90,
     "websiteGuess": "https://thetie.io",
     "note": "Crypto analytics platform"
+  },
+  {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Wallet",
+    "confidence": 90,
+    "websiteGuess": "https://walley.cc/",
+    "note": "Walley — Self-Custody Wallet for Canton Network"
   },
   {
     "appName": "ZodiaCustody-validator-1",
@@ -306,7 +306,7 @@
   {
     "appName": "daml-autopilot",
     "baseName": "daml-autopilot",
-    "category": "Wallet",
+    "category": "Tokenized Assets",
     "confidence": 75,
     "websiteGuess": "https://blog.chainsafe.io/daml-autopilot/",
     "note": "Automate Canton Network Development with Daml Autopilot"
@@ -316,8 +316,8 @@
     "baseName": "ftp",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "websiteGuess": "https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html",
+    "note": "Canton Network quickstart installation — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "handl-issuer",
@@ -336,9 +336,17 @@
     "note": "Welcome to Kora | Kora Docs"
   },
   {
+    "appName": "nodetech-mainnet-1",
+    "baseName": "nodetech",
+    "category": "Validator/Infra",
+    "confidence": 75,
+    "websiteGuess": "https://www.cantonnodes.com/",
+    "note": "Canton Nodes - Professional RPC &amp; API Services for Canton Network"
+  },
+  {
     "appName": "rails-cethMain-1",
     "baseName": "rails-cethmain",
-    "category": "Tokenized Assets",
+    "category": "Explorer/Infra",
     "confidence": 75,
     "websiteGuess": "https://ceth.network/whitepaper",
     "note": "cETH - ETH on Canton"
@@ -348,80 +356,56 @@
     "baseName": "rho-relay",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://cache.industry.siemens.com/dl/files/292/109747292/att_964668/v1/7SR105_-_Rho_Complete_Technical_Manual.pdf",
-    "note": "PDF 7SR105 Rho User Manual - Siemens"
+    "websiteGuess": "https://canton.wiki/",
+    "note": "Canton Network Explorer — Track DeFi Projects, Validators &amp; RWA Protocols"
   },
   {
     "appName": "SatsTerminal-main-1",
     "baseName": "satsterminal-main",
-    "category": "Explorer/Infra",
+    "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://docs.digitalasset.com/utilities/mainnet/index.html",
-    "note": "Utilities — Digital Asset&#x27;s platform documentation"
+    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
+    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
   },
   {
     "appName": "tradefast-mainnet-1",
     "baseName": "tradefast",
     "category": "Orderbook/CLOB",
     "confidence": 75,
-    "websiteGuess": "https://www.cctools.network/ecosystem/trade-fast",
-    "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network"
-  },
-  {
-    "appName": "tradefast-wallet2-1",
-    "baseName": "tradefast-wallet2",
-    "category": "Wallet",
-    "confidence": 75,
-    "websiteGuess": "https://www.cctools.network/ecosystem/trade-fast",
-    "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network"
+    "websiteGuess": "https://trade.fast/",
+    "note": "Trade.Fast"
   },
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Tokenized Assets",
+    "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://cctools.network/devtools",
-    "note": "Canton DevTools — Tools, SDKs, and GitHub repos for Canton Network | CC ..."
+    "websiteGuess": "https://www.digitalasset.com/",
+    "note": "Digital Asset Holdings - Delivering synchronized finance"
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/microsoft-365/admin/authentication/automatic-authentication-fails",
-    "note": "Authentication automatically fails in Microsoft 365 services ..."
+    "websiteGuess": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/lloyds-tokenisation.html",
+    "note": "UK&#x27;s first public blockchain transaction - Lloyds Banking Group plc"
   },
   {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Unknown",
-    "confidence": 65,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
-  },
-  {
-    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "category": "Wallet",
-    "confidence": 60,
-    "websiteGuess": "https://support.microsoft.com/en-us/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e",
-    "note": "Use the System File Checker tool to repair missing or corrupted system ..."
-  },
-  {
-    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "category": "Explorer/Infra",
     "confidence": 60,
     "websiteGuess": "https://canton.thetie.io/",
     "note": "Canton Data Analytics by The Tie"
   },
   {
-    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Explorer/Infra",
     "confidence": 60,
-    "websiteGuess": "https://lighthouse.cantonloop.com/party/party-fda614d8-0b2e-4d64-9718-b4c497c56a8d%3A%3A1220f67b4f1c8742d83ac7e12749d98195bf88ff120b2dab369291cf6a2ca27be9a9",
-    "note": "5N Lighthouse Explorer"
+    "websiteGuess": "https://docs.stablecoin.xyz/canton/overview",
+    "note": "Canton Network - Stable Coin Inc"
   },
   {
     "appName": "Bridge-Operator",
@@ -496,6 +480,14 @@
     "note": "Canton validator"
   },
   {
+    "appName": "openvector-wallet-1",
+    "baseName": "openvector-wallet",
+    "category": "Wallet",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "OpenVector wallet"
+  },
+  {
     "appName": "palladium-validator-1",
     "baseName": "palladium",
     "category": "Validator/Infra",
@@ -552,17 +544,25 @@
     "note": "Vala Canton wallet"
   },
   {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference",
+    "note": "Application installation error codes reference - Configuration Manager ..."
+  },
+  {
+    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "category": "Unknown",
+    "confidence": 50,
+    "websiteGuess": "https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox",
+    "note": "How malicious party invites target your inbox"
+  },
+  {
     "appName": "confimarket-main-1",
     "baseName": "confimarket-main",
     "category": "Prediction Markets",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "nodetech-mainnet-1",
-    "baseName": "nodetech",
-    "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
@@ -578,6 +578,14 @@
   {
     "appName": "rapidchain-validator-1",
     "baseName": "rapidchain",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "RootsFi-validator-01",
+    "baseName": "rootsfi",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
@@ -696,26 +704,10 @@
     "note": "Canton app"
   },
   {
-    "appName": "yuce",
-    "baseName": "yuce",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "zkpc-cantor8-1",
     "baseName": "zkpc-cantor8",
     "category": "Unknown",
     "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "category": "Unknown",
-    "confidence": 15,
     "websiteGuess": null,
     "note": null
   },
