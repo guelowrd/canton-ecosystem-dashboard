@@ -186,7 +186,7 @@
   {
     "appName": "Cancore-mainnet-1",
     "baseName": "cancore",
-    "category": "Tokenized Assets",
+    "category": "DEX/AMM",
     "confidence": 90,
     "websiteGuess": "https://cancore.io/",
     "note": "Cancore | P2P Atomic Swap"
@@ -218,7 +218,7 @@
   {
     "appName": "elk-Validator-2",
     "baseName": "elk",
-    "category": "Tokenized Assets",
+    "category": "Orderbook/CLOB",
     "confidence": 90,
     "websiteGuess": "https://canton.wiki/projects/elk-capital-markets",
     "note": "Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026"
@@ -322,7 +322,7 @@
   {
     "appName": "handl-issuer",
     "baseName": "handl-issuer",
-    "category": "Tokenized Assets",
+    "category": "DEX/AMM",
     "confidence": 75,
     "websiteGuess": "https://www.bitrue.com/blog/what-is-handl",
     "note": "What Is HANDL Token on Canton Network Explained - bitrue.com"
@@ -348,64 +348,48 @@
     "baseName": "rails-cethmain",
     "category": "Explorer/Infra",
     "confidence": 75,
-    "websiteGuess": "https://ceth.network/whitepaper",
+    "websiteGuess": "https://www.ceth.network/transparency",
     "note": "cETH - ETH on Canton"
   },
   {
     "appName": "rho-relay",
     "baseName": "rho-relay",
-    "category": "Tokenized Assets",
+    "category": "Bridge",
     "confidence": 75,
-    "websiteGuess": "https://canton.wiki/",
-    "note": "Canton Network Explorer — Track DeFi Projects, Validators &amp; RWA Protocols"
+    "websiteGuess": "https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/",
+    "note": "Digital Asset and Industry Working Group Complete Groundbreaking On ..."
   },
   {
     "appName": "SatsTerminal-main-1",
     "baseName": "satsterminal-main",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
-    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
+    "websiteGuess": "https://cctools.network/ecosystem/sats-terminal",
+    "note": "Sats Terminal — Canton Ecosystem | CC Tools - cctools.network"
   },
   {
     "appName": "tradefast-mainnet-1",
     "baseName": "tradefast",
     "category": "Orderbook/CLOB",
     "confidence": 75,
-    "websiteGuess": "https://trade.fast/",
-    "note": "Trade.Fast"
+    "websiteGuess": "https://www.cctools.network/ecosystem/trade-fast",
+    "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network"
   },
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://www.digitalasset.com/",
-    "note": "Digital Asset Holdings - Delivering synchronized finance"
-  },
-  {
-    "appName": "auth0_007c68129abae6733ca8b889162e",
-    "baseName": "auth0007c68129abae6733ca8b889162e",
-    "category": "Identity/Auth",
-    "confidence": 65,
-    "websiteGuess": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/lloyds-tokenisation.html",
-    "note": "UK&#x27;s first public blockchain transaction - Lloyds Banking Group plc"
-  },
-  {
-    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "category": "Explorer/Infra",
-    "confidence": 60,
-    "websiteGuess": "https://canton.thetie.io/",
-    "note": "Canton Data Analytics by The Tie"
+    "websiteGuess": "https://www.cantonwallet.com/",
+    "note": "Send on Canton Network"
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Explorer/Infra",
     "confidence": 60,
-    "websiteGuess": "https://docs.stablecoin.xyz/canton/overview",
-    "note": "Canton Network - Stable Coin Inc"
+    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
+    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "Bridge-Operator",
@@ -480,14 +464,6 @@
     "note": "Canton validator"
   },
   {
-    "appName": "openvector-wallet-1",
-    "baseName": "openvector-wallet",
-    "category": "Wallet",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "OpenVector wallet"
-  },
-  {
     "appName": "palladium-validator-1",
     "baseName": "palladium",
     "category": "Validator/Infra",
@@ -556,8 +532,8 @@
     "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox",
-    "note": "How malicious party invites target your inbox"
+    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in",
+    "note": "Verify first-party Microsoft applications in sign-in reports"
   },
   {
     "appName": "confimarket-main-1",
@@ -611,6 +587,14 @@
     "appName": "arcane-mainnet-1",
     "baseName": "arcane",
     "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "auth0_007c68129abae6733ca8b889162e",
+    "baseName": "auth0007c68129abae6733ca8b889162e",
+    "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
@@ -708,6 +692,14 @@
     "baseName": "zkpc-cantor8",
     "category": "Unknown",
     "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "category": "Unknown",
+    "confidence": 15,
     "websiteGuess": null,
     "note": null
   },

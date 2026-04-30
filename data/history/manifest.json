@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-04-30_0100.json",
+    "lastUpdated": "2026-04-30T01:00:49.937Z",
+    "tvlUsd": 1755,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-29_0100.json",
     "lastUpdated": "2026-04-29T01:00:50.853Z",
     "tvlUsd": 1915,
@@ -234,22 +247,6 @@
     "activeValidators": null,
     "signals": {
       "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-20_0051.json",
-    "lastUpdated": "2026-04-20T00:51:14.605Z",
-    "tvlUsd": 1952121.0424735092,
-    "ccPriceUsd": 0.14878044495707282,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
-      ],
       "newData": []
     }
   }
