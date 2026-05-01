@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-05-01_0104.json",
+    "lastUpdated": "2026-05-01T01:04:32.308Z",
+    "tvlUsd": 145,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "HeliosFinance-Mainnet-1",
+        "nodetech-mainnet-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-04-30_0100.json",
     "lastUpdated": "2026-04-30T01:00:49.937Z",
     "tvlUsd": 1755,
@@ -234,19 +250,6 @@
         "tradefast-wallet2-1",
         "walley"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-21_0051.json",
-    "lastUpdated": "2026-04-21T00:51:03.030Z",
-    "tvlUsd": 1996773.334209388,
-    "ccPriceUsd": 0.15560965723882944,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }

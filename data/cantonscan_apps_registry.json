@@ -218,7 +218,7 @@
   {
     "appName": "elk-Validator-2",
     "baseName": "elk",
-    "category": "Orderbook/CLOB",
+    "category": "Tokenized Assets",
     "confidence": 90,
     "websiteGuess": "https://canton.wiki/projects/elk-capital-markets",
     "note": "Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026"
@@ -288,14 +288,6 @@
     "note": "Crypto analytics platform"
   },
   {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Wallet",
-    "confidence": 90,
-    "websiteGuess": "https://walley.cc/",
-    "note": "Walley — Self-Custody Wallet for Canton Network"
-  },
-  {
     "appName": "ZodiaCustody-validator-1",
     "baseName": "zodiacustody",
     "category": "Wallet",
@@ -328,17 +320,17 @@
     "note": "What Is HANDL Token on Canton Network Explained - bitrue.com"
   },
   {
-    "appName": "kora-app",
-    "baseName": "kora-app",
+    "appName": "HeliosFinance-Mainnet-1",
+    "baseName": "heliosfinance",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://learn.kora.so/",
-    "note": "Welcome to Kora | Kora Docs"
+    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
+    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
   },
   {
     "appName": "nodetech-mainnet-1",
     "baseName": "nodetech",
-    "category": "Validator/Infra",
+    "category": "Tokenized Assets",
     "confidence": 75,
     "websiteGuess": "https://www.cantonnodes.com/",
     "note": "Canton Nodes - Professional RPC &amp; API Services for Canton Network"
@@ -346,9 +338,9 @@
   {
     "appName": "rails-cethMain-1",
     "baseName": "rails-cethmain",
-    "category": "Explorer/Infra",
+    "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://www.ceth.network/transparency",
+    "websiteGuess": "https://ceth.network/whitepaper",
     "note": "cETH - ETH on Canton"
   },
   {
@@ -356,40 +348,80 @@
     "baseName": "rho-relay",
     "category": "Bridge",
     "confidence": 75,
-    "websiteGuess": "https://www.tradeweb.com/newsroom/media-center/in-the-news/digital-asset-and-industry-working-group-complete-groundbreaking-on-chain-us-treasury-financing-on-canton-network/",
-    "note": "Digital Asset and Industry Working Group Complete Groundbreaking On ..."
-  },
-  {
-    "appName": "SatsTerminal-main-1",
-    "baseName": "satsterminal-main",
-    "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://cctools.network/ecosystem/sats-terminal",
-    "note": "Sats Terminal — Canton Ecosystem | CC Tools - cctools.network"
+    "websiteGuess": "https://canton.wiki/",
+    "note": "Canton Network Explorer — Track DeFi Projects, Validators &amp; RWA Protocols"
   },
   {
     "appName": "tradefast-mainnet-1",
     "baseName": "tradefast",
     "category": "Orderbook/CLOB",
     "confidence": 75,
-    "websiteGuess": "https://www.cctools.network/ecosystem/trade-fast",
-    "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network"
+    "websiteGuess": "https://trade.fast/",
+    "note": "Trade.Fast"
   },
   {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://www.cantonwallet.com/",
-    "note": "Send on Canton Network"
+    "websiteGuess": "https://www.coindesk.com/business/2026/04/29/visa-expands-stablecoin-settlement-network-as-volume-hits-usd7-billion-run-rate",
+    "note": "Visa (V) expands stablecoin settlement network as volume hits $7 ..."
+  },
+  {
+    "appName": "auth0_007c68129abae6733ca8b889162e",
+    "baseName": "auth0007c68129abae6733ca8b889162e",
+    "category": "Explorer/Infra",
+    "confidence": 65,
+    "websiteGuess": "https://ccview.io/",
+    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+  },
+  {
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
+    "category": "Identity/Auth",
+    "confidence": 65,
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
+  },
+  {
+    "appName": "kora-app",
+    "baseName": "kora-app",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://learn.kora.so/",
+    "note": "Welcome to Kora | Kora Docs"
+  },
+  {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 65,
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
+  },
+  {
+    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://canton.thetie.io/",
+    "note": "Canton Data Analytics by The Tie"
+  },
+  {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Validator/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://miniwebtool.com/mac-address-analyzer/",
+    "note": "MAC Address Analyzer - MiniWebtool"
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "category": "Explorer/Infra",
+    "category": "Tokenized Assets",
     "confidence": 60,
-    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
-    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
+    "websiteGuess": "https://docs.stablecoin.xyz/canton/overview",
+    "note": "Canton Network - Stable Coin Inc"
   },
   {
     "appName": "Bridge-Operator",
@@ -464,6 +496,14 @@
     "note": "Canton validator"
   },
   {
+    "appName": "openvector-wallet-1",
+    "baseName": "openvector-wallet",
+    "category": "Wallet",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "OpenVector wallet"
+  },
+  {
     "appName": "palladium-validator-1",
     "baseName": "palladium",
     "category": "Validator/Infra",
@@ -520,20 +560,20 @@
     "note": "Vala Canton wallet"
   },
   {
-    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference",
-    "note": "Application installation error codes reference - Configuration Manager ..."
-  },
-  {
     "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/governance/verify-first-party-apps-sign-in",
-    "note": "Verify first-party Microsoft applications in sign-in reports"
+    "websiteGuess": "https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox",
+    "note": "How malicious party invites target your inbox"
+  },
+  {
+    "appName": "cauri-wallet-provider1",
+    "baseName": "cauri-wallet-provider1",
+    "category": "Wallet",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "confimarket-main-1",
@@ -592,40 +632,8 @@
     "note": null
   },
   {
-    "appName": "auth0_007c68129abae6733ca8b889162e",
-    "baseName": "auth0007c68129abae6733ca8b889162e",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
-    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "foundinalsunthy-mainnet-1",
     "baseName": "foundinalsunthy",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": "Canton app"
-  },
-  {
-    "appName": "HeliosFinance-Mainnet-1",
-    "baseName": "heliosfinance",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "kairo-mainnet",
-    "baseName": "kairo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -672,6 +680,14 @@
     "note": "Canton app"
   },
   {
+    "appName": "SatsTerminal-main-1",
+    "baseName": "satsterminal-main",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "tenkai-main-1",
     "baseName": "tenkai-main",
     "category": "Unknown",
@@ -692,14 +708,6 @@
     "baseName": "zkpc-cantor8",
     "category": "Unknown",
     "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "category": "Unknown",
-    "confidence": 15,
     "websiteGuess": null,
     "note": null
   },
