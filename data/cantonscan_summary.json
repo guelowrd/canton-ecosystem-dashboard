@@ -1,19 +1,19 @@
 {
-  "totalApps": 90,
-  "withWebsite": 54,
-  "lowConfidence": 19,
+  "totalApps": 77,
+  "withWebsite": 50,
+  "lowConfidence": 16,
   "categories": {
-    "Validator/Infra": 27,
+    "Validator/Infra": 21,
     "DEX/AMM": 5,
-    "Wallet": 9,
-    "Explorer/Infra": 9,
-    "Tokenized Assets": 12,
+    "Wallet": 6,
+    "Tokenized Assets": 10,
     "Lending": 1,
-    "Orderbook/CLOB": 3,
-    "Prediction Markets": 2,
-    "Bridge": 2,
-    "Identity/Auth": 3,
-    "Unknown": 16,
-    "Payments": 1
+    "Explorer/Infra": 6,
+    "Orderbook/CLOB": 2,
+    "Prediction Markets": 1,
+    "Payments": 3,
+    "Identity/Auth": 4,
+    "Unknown": 17,
+    "Bridge": 1
   }
 }
