@@ -6,6 +6,7 @@ cantonloop-mainnet-1,cantonloop,Wallet,100,https://lighthouse.cantonloop.com,5N 
 cantonnodes-validator-1,cantonnodes,Validator/Infra,100,https://cantonnodes.com,Canton RPC & node services
 cypherock-mainnet-1,cypherock,Wallet,100,https://cypherock.com,Hardware wallet with Canton support
 Fairmint-validator-1,fairmint,Tokenized Assets,100,https://fairmint.com,Equity & token issuance
+flipside-validator-1,flipside,Explorer/Infra,100,https://flipsidecrypto.xyz,Onchain analytics
 Hecto-Finance-1,hecto-finance,Lending,100,https://hectofinance.com,Canton DeFi protocol
 IntellectEU-validator-1,intellecteu,Validator/Infra,100,https://intellecteu.com,Enterprise blockchain solutions
 kraken-validator-01,kraken,Validator/Infra,100,https://kraken.com,Crypto exchange validator
@@ -17,34 +18,28 @@ Republic-validator-1,republic,Validator/Infra,100,https://republic.com,Investmen
 send-cantonwallet-1,cantonwallet,Wallet,100,https://cantonwallet.com,Canton Network wallet
 temple-mainnet-1,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
 TextureCapital-validator-1,texturecapital,Validator/Infra,100,https://texturecapital.com,Digital asset platform
+Tradecraft,tradecraft,DEX/AMM,100,https://tradecraft.fi,Canton DEX (AMM)
 trakx-validator-1,trakx,Validator/Infra,100,https://trakx.io,Crypto index platform
-Cancore-mainnet-1,cancore,DEX/AMM,90,https://cancore.io/,Cancore | P2P Atomic Swap
 cantor8-digik-1,cantor8-digik,Explorer/Infra,90,https://cantor8.tech/digik,DigiK - Canton gateway
 dfns1,dfns1,Wallet,90,https://dfns.co,DFNS wallet infrastructure
-elk-Validator-2,elk,Tokenized Assets,90,https://canton.wiki/projects/elk-capital-markets,Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026
+elk-Validator-2,elk,Orderbook/CLOB,90,https://canton.wiki/projects/elk-capital-markets,Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026
 feat-unhedged-app,unhedged-app,Prediction Markets,90,https://unhedged.gg,Canton prediction markets
 kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validator node
-MPCH-BRONdvn-1,mpch-brondvn,Wallet,90,https://mpcvault.com,MPCH Bron delegation validator
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
 peertrust-validator-2,peertrust,Validator/Infra,90,https://peertrust.io/,"PeerTrust | Secure, Transparent Peer Review Infrastructure for Academic ..."
-Redstone-validator-1,redstone,Tokenized Assets,90,https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access,"Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
-RootsFi-validator-01,rootsfi,Payments,90,https://www.rootsfi.com/products/bridge,Roots - Payment Network - rootsfi.com
+RootsFi-validator-01,rootsfi,Payments,90,https://cctools.network/ecosystem/rootsfi,Project — CCTools
 the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-cantory,cantory,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
-daml-autopilot,daml-autopilot,Tokenized Assets,75,https://blog.chainsafe.io/daml-autopilot/,Automate Canton Network Development with Daml Autopilot
 FTP-validator-1,ftp,Tokenized Assets,75,https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html,Canton Network quickstart installation — Digital Asset&#x27;s platform ...
-handl-issuer,handl-issuer,DEX/AMM,75,https://www.bitrue.com/blog/what-is-handl,What Is HANDL Token on Canton Network Explained - bitrue.com
-HeliosFinance-Mainnet-1,heliosfinance,Tokenized Assets,75,https://www.disruptionbanking.com/2026/04/13/hsbc-announces-successful-tokenised-deposit-pilot-on-the-canton-network/,HSBC Announces Successful Tokenised Deposit Pilot on the Canton Network
-kora-app,kora-app,Tokenized Assets,75,https://learn.kora.so/,Welcome to Kora | Kora Docs
-nodetech-mainnet-1,nodetech,Tokenized Assets,75,https://www.cantonnodes.com/,Canton Nodes - Professional RPC &amp; API Services for Canton Network
-rails-cethMain-1,rails-cethmain,Payments,75,https://ceth.network/whitepaper,cETH - ETH on Canton
-rho-relay,rho-relay,Explorer/Infra,75,https://canton.wiki/,"Canton Network Explorer — Track DeFi Projects, Validators &amp; RWA Protocols"
+handl-issuer,handl-issuer,Explorer/Infra,75,https://www.bitrue.com/blog/what-is-handl,What Is HANDL Token on Canton Network Explained - bitrue.com
+Modulo-Issuer,modulo-issuer,Tokenized Assets,75,https://docs.digitalasset.com/index.html,Digital Asset&#x27;s platform documentation
+rails-cethMain-1,rails-cethmain,Tokenized Assets,75,https://www.ceth.network/transparency,cETH - ETH on Canton
+rho-relay,rho-relay,Tokenized Assets,75,https://docs.rho.trading/rho-relay/rho-relay-overview,Rho Relay Overview | Rho Labs Documentation
 ValaWallet-FA,valawallet-fa,Validator/Infra,75,https://canton.foundation/validators/,Validators - Canton Foundation
 auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Identity/Auth,65,https://www.cantonwallet.com/,Send on Canton Network
-auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,65,https://www.cantonwallet.com/,Send on Canton Network
-walley,walley,Unknown,65,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+kora-app,kora-app,Unknown,65,https://learn.kora.so/,Welcome to Kora | Kora Docs
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
 CantonSwap,cantonswap,DEX/AMM,55,,Canton swap protocol
@@ -56,23 +51,31 @@ palladium-validator-1,palladium,Validator/Infra,55,,Canton validator
 poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
-23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,50,https://www.elevenforum.com/t/how-do-i-find-the-actual-device-that-uses-this-driver.30215/,How do I find the actual Device that uses this driver?
-8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://maclookup.app/,MAC Address Vendor Lookup | MAC Address Lookup
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Unknown,50,https://docs.stablecoin.xyz/canton/overview,Canton Network - Stable Coin Inc
-party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,50,https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox,How malicious party invites target your inbox
+8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference,Application installation error codes reference - Configuration Manager ...
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Unknown,50,https://forums.malwarebytes.com/topic/315974-suspicious-files/,Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums
+nodetech-mainnet-1,nodetech,Validator/Infra,40,,
 OKX-VALIDATOR-2,okx,Validator/Infra,40,,
 rapidchain-validator-1,rapidchain,Validator/Infra,40,,
+Redstone-validator-1,redstone,Validator/Infra,40,,
 Tokino-validator-1,tokino,Validator/Infra,40,,
 arcane-mainnet-1,arcane,Unknown,30,,
-auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Identity/Auth,30,,
-fulcrum-point,fulcrum-point,Unknown,30,,
+auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,30,,
+Cancore-mainnet-1,cancore,Unknown,30,,
+cantory,cantory,Unknown,30,,
+daml-autopilot,daml-autopilot,Unknown,30,,
+foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
+HeliosFinance-Mainnet-1,heliosfinance,Unknown,30,,
+kairo-mainnet,kairo,Unknown,30,,Canton app
 ledger-ledgerops-2,ledger-ledgerops,Unknown,30,,
 modo,modo,Unknown,30,,Canton app
-Modulo-Issuer,modulo-issuer,Unknown,30,,
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 openvector-mainnet-1,openvector,Unknown,30,,Canton app
+opus28-opusaccess-1,opus28-opusaccess,Unknown,30,,
 SatsTerminal-main-1,satsterminal-main,Unknown,30,,
 tenkai-main-1,tenkai-main,Unknown,30,,Canton app
 tradefast-mainnet-1,tradefast,Unknown,30,,
 unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
+walley,walley,Unknown,30,,
+23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,15,,
 931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,15,,
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,15,,

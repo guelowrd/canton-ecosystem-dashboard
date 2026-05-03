@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-05-03_0101.json",
+    "lastUpdated": "2026-05-03T01:01:07.306Z",
+    "tvlUsd": 1893133.5097931481,
+    "ccPriceUsd": 0.14890593407302458,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "flipside-validator-1",
+        "Modulo-Issuer"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-02_0056.json",
     "lastUpdated": "2026-05-02T00:56:23.678Z",
     "tvlUsd": 1899487.3455614017,
@@ -199,28 +215,6 @@
       "newApps": [
         "rho-relay",
         "SatsTerminal-main-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-23_0054.json",
-    "lastUpdated": "2026-04-23T00:54:35.543Z",
-    "tvlUsd": 1979233.5912936316,
-    "ccPriceUsd": 0.1526501147289162,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Cancore-mainnet-1",
-        "arcane-mainnet-1",
-        "confimarket-main-1",
-        "elk-Validator-2",
-        "FTP-validator-1",
-        "handl-issuer",
-        "nodetech-mainnet-1",
-        "zkpc-cantor8-1"
       ],
       "newData": []
     }
