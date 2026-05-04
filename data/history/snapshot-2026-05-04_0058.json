@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-24T00:56:39.043Z",
-  "cantonCoinPriceUsd": null,
+  "lastUpdated": "2026-05-04T00:58:50.955Z",
+  "cantonCoinPriceUsd": 0.14888898406491238,
   "networkHealth": {
-    "totalTvlUsd": 1855,
-    "volume30dUsd": null,
+    "totalTvlUsd": 1893140.5092631108,
+    "volume30dUsd": 4621604.0600381745,
     "featuredApps": null,
-    "trackedApps": 34,
-    "transparentApps": 1,
+    "trackedApps": 26,
+    "transparentApps": 2,
     "netIssuance": null,
     "governanceParticipation": null
   },
@@ -18,12 +18,13 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": null,
+    "tvlLargestPoolPct": 87.63292912266478,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 34 tracked apps expose public metrics"
+    "88% of DEX TVL is in the largest pool (CC/USDCx)",
+    "2 of 26 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -35,8 +36,59 @@
     {
       "id": "tradecraft",
       "name": "Tradecraft",
-      "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 504 Gateway Timeout"
+      "url": "https://tradecraft.fi",
+      "appCategory": "AMM",
+      "transparency": "transparent",
+      "dataAvailability": "full",
+      "ccPriceUsd": 0.14888898406491238,
+      "cbtcPriceUsd": 78918.32552240079,
+      "pools": [
+        {
+          "name": "CC / USDCx",
+          "token1": "CC",
+          "token2": "USDCx",
+          "token1Holdings": 5560336.726110147,
+          "token2Holdings": 827872.8862093608,
+          "tvlUsd": 1655745.7724187216,
+          "lpFeePercent": 0.2,
+          "operatorFeePercent": 0.1,
+          "yield24h": 0.00010831775117625675,
+          "totalLpTokens": 2047728.9079879713,
+          "volume": {
+            "1h": 0,
+            "4h": 0,
+            "12h": 51.66658020598989,
+            "24h": 199.77330863964542,
+            "7d": 30703.650891012665,
+            "30d": 2288331.142145933
+          }
+        },
+        {
+          "name": "CC / CBTC",
+          "token1": "CC",
+          "token2": "CBTC",
+          "token1Holdings": 784694.5101812112,
+          "token2Holdings": 1.4804212792,
+          "tvlUsd": 233664.73684438918,
+          "lpFeePercent": 0.2,
+          "operatorFeePercent": 0.1,
+          "yield24h": 0.007648320379049611,
+          "totalLpTokens": 1003.5445353271,
+          "volume": {
+            "1h": 0,
+            "4h": 0,
+            "12h": 348.71520398165814,
+            "24h": 1884.0133741698778,
+            "7d": 4435.836895121278,
+            "30d": 2333272.9178922414
+          }
+        }
+      ],
+      "totalTvlUsd": 1889410.5092631108,
+      "largestPoolPct": 87.63292912266478,
+      "totalVolume24hUsd": 2083.7866828095234,
+      "totalVolume7dUsd": 35139.48778613394,
+      "totalVolume30dUsd": 4621604.0600381745
     },
     {
       "id": "unhedged",
@@ -45,59 +97,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 19054,
-      "activeMarkets": 217,
-      "endedMarkets": 15,
-      "resolvedMarkets": 18648,
-      "totalActivePoolUsd": 1855,
-      "totalActiveBets": 223,
+      "totalMarkets": 22327,
+      "activeMarkets": 171,
+      "endedMarkets": 25,
+      "resolvedMarkets": 21921,
+      "totalActivePoolUsd": 3730,
+      "totalActiveBets": 294,
       "categories": {
         "crypto": {
-          "count": 8,
+          "count": 15,
           "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 92,
-          "poolUsd": 1855,
-          "bets": 223
+          "count": 85,
+          "poolUsd": 3730,
+          "bets": 294
         }
       },
       "topMarkets": [
         {
-          "question": "Angers vs Paris Saint Germain",
+          "question": "San Antonio Spurs vs Minnesota Timberwolves",
           "category": "sports",
-          "totalPool": 60,
-          "betCount": 7,
-          "endTime": "2026-04-25T16:00:00.000Z"
+          "totalPool": 225,
+          "betCount": 15,
+          "endTime": "2026-05-05T00:30:00.000Z"
         },
         {
-          "question": "Liverpool vs Crystal Palace",
+          "question": "Bayern München vs Paris Saint Germain",
           "category": "sports",
-          "totalPool": 50,
+          "totalPool": 165,
+          "betCount": 8,
+          "endTime": "2026-05-06T18:00:00.000Z"
+        },
+        {
+          "question": "San Antonio Spurs vs Minnesota Timberwolves",
+          "category": "sports",
+          "totalPool": 135,
+          "betCount": 6,
+          "endTime": "2026-05-07T00:30:00.000Z"
+        },
+        {
+          "question": "Minnesota Timberwolves vs San Antonio Spurs",
+          "category": "sports",
+          "totalPool": 125,
           "betCount": 5,
-          "endTime": "2026-04-25T13:00:00.000Z"
+          "endTime": "2026-05-09T00:30:00.000Z"
         },
         {
-          "question": "Real Betis vs Real Madrid",
+          "question": "LG Twins vs Doosan Bears",
           "category": "sports",
-          "totalPool": 40,
-          "betCount": 4,
-          "endTime": "2026-04-25T15:00:00.000Z"
-        },
-        {
-          "question": "FSV Mainz 05 vs Bayern München",
-          "category": "sports",
-          "totalPool": 40,
-          "betCount": 3,
-          "endTime": "2026-04-25T12:30:00.000Z"
-        },
-        {
-          "question": "Rögle vs Skellefteå",
-          "category": "sports",
-          "totalPool": 35,
-          "betCount": 4,
-          "endTime": "2026-04-28T16:00:00.000Z"
+          "totalPool": 85,
+          "betCount": 5,
+          "endTime": "2026-05-06T08:30:00.000Z"
         }
       ]
     },
@@ -161,18 +213,6 @@
       "isCandidate": true
     },
     {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
-      "isCandidate": true
-    },
-    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -194,18 +234,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
-      "isCandidate": true
-    },
-    {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Onchain analytics",
       "isCandidate": true
     },
     {
@@ -245,18 +273,6 @@
       "isCandidate": true
     },
     {
-      "id": "blackmantacapital-primary",
-      "name": "blackmantacapital-primary-1",
-      "url": "https://blackmanta.capital",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "BaFin-regulated tokenized securities",
-      "isCandidate": true
-    },
-    {
       "id": "cantor8-digik",
       "name": "cantor8-digik-1",
       "url": "https://cantor8.tech/digik",
@@ -281,6 +297,18 @@
       "isCandidate": true
     },
     {
+      "id": "elk",
+      "name": "elk-Validator-2",
+      "url": "https://canton.wiki/projects/elk-capital-markets",
+      "appCategory": "Orderbook/CLOB",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026",
+      "isCandidate": true
+    },
+    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -290,18 +318,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton prediction markets",
-      "isCandidate": true
-    },
-    {
-      "id": "mpch-brondvn",
-      "name": "MPCH-BRONdvn-1",
-      "url": "https://mpcvault.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "MPCH Bron delegation validator",
       "isCandidate": true
     },
     {
@@ -325,7 +341,7 @@
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "RWA Tokenization News: RedStone Brings Canton&#x27;s $6T Onchain Assets ...",
+      "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ...",
       "isCandidate": true
     },
     {
@@ -341,18 +357,6 @@
       "isCandidate": true
     },
     {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
-      "isCandidate": true
-    },
-    {
       "id": "zodiacustody",
       "name": "ZodiaCustody-validator-1",
       "url": "https://zodia.io",
@@ -365,27 +369,27 @@
       "isCandidate": true
     },
     {
-      "id": "excellar-issuer",
-      "name": "excellar-issuer",
-      "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Bring-Privacy-Preserving-Payments-to-Canton-Network/default.aspx",
-      "appCategory": "Payments",
-      "transparency": "none",
+      "id": "cantory",
+      "name": "cantory",
+      "url": "https://ccview.io/",
+      "appCategory": "Explorer/Infra",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Visa to Bring Privacy-Preserving Payments to Canton Network",
+      "note": "Real‑time Canton Network Analytics | Canton Explorer",
       "isCandidate": true
     },
     {
-      "id": "fulcrum-point",
-      "name": "fulcrum-point",
-      "url": "https://www.disruptionbanking.com/2026/04/13/hsbc-announces-successful-tokenised-deposit-pilot-on-the-canton-network/",
-      "appCategory": "Explorer/Infra",
+      "id": "ftp",
+      "name": "FTP-validator-1",
+      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "HSBC Announces Successful Tokenised Deposit Pilot on the Canton Network",
+      "note": "Canton Network - Wikipedia",
       "isCandidate": true
     },
     {
@@ -401,34 +405,22 @@
       "isCandidate": true
     },
     {
-      "id": "heliosfinance",
-      "name": "HeliosFinance-Mainnet-1",
-      "url": "https://www.cantonecosystem.com/",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Network Ecosystem",
-      "isCandidate": true
-    },
-    {
       "id": "kora-app",
       "name": "kora-app",
-      "url": "https://canton.wiki/canton-network-projects",
+      "url": "https://kora.so/",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network Projects &amp; Apps — Complete Directory (2026) | CANTON ...",
+      "note": "Kora",
       "isCandidate": true
     },
     {
       "id": "rails-cethmain",
       "name": "rails-cethMain-1",
       "url": "https://www.ceth.network/transparency",
-      "appCategory": "Explorer/Infra",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -439,61 +431,25 @@
     {
       "id": "rho-relay",
       "name": "rho-relay",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "url": "https://docs.rho.trading/rho-relay/rho-relay-overview",
       "appCategory": "Bridge",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
-      "isCandidate": true
-    },
-    {
-      "id": "satsterminal-main",
-      "name": "SatsTerminal-main-1",
-      "url": "https://cctools.network/ecosystem/sats-terminal",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Sats Terminal — Canton Ecosystem | CC Tools - cctools.network",
-      "isCandidate": true
-    },
-    {
-      "id": "tradefast",
-      "name": "tradefast-mainnet-1",
-      "url": "https://trade.fast/",
-      "appCategory": "Orderbook/CLOB",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Trade.Fast",
-      "isCandidate": true
-    },
-    {
-      "id": "tradefast-wallet2",
-      "name": "tradefast-wallet2-1",
-      "url": "https://www.cctools.network/ecosystem/trade-fast",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network",
+      "note": "Rho Relay Overview | Rho Labs Documentation",
       "isCandidate": true
     },
     {
       "id": "walley",
       "name": "walley",
-      "url": "https://www.cantonecosystem.com/",
+      "url": "https://www.coindesk.com/business/2025/12/04/canton-network-creator-snags-strategic-investment-from-wall-street-giants",
       "appCategory": "Wallet",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network Ecosystem",
+      "note": "Wall Street Heavyweights Back Builder of Canton, a Network That ...",
       "isCandidate": true
     }
   ]

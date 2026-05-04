@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-03T01:01:07.306Z",
-  "cantonCoinPriceUsd": 0.14890593407302458,
+  "lastUpdated": "2026-05-04T00:58:50.955Z",
+  "cantonCoinPriceUsd": 0.14888898406491238,
   "networkHealth": {
-    "totalTvlUsd": 1893133.5097931481,
-    "volume30dUsd": 4696528.869388489,
+    "totalTvlUsd": 1893140.5092631108,
+    "volume30dUsd": 4621604.0600381745,
     "featuredApps": null,
-    "trackedApps": 25,
+    "trackedApps": 26,
     "transparentApps": 2,
     "netIssuance": null,
     "governanceParticipation": null
@@ -18,13 +18,13 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": 87.58466205545436,
+    "tvlLargestPoolPct": 87.63292912266478,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
     "88% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 25 tracked apps expose public metrics"
+    "2 of 26 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -40,55 +40,55 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.14890593407302458,
-      "cbtcPriceUsd": 79628.14283990426,
+      "ccPriceUsd": 0.14888898406491238,
+      "cbtcPriceUsd": 78918.32552240079,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5560017.779247558,
-          "token2Holdings": 827919.6408814813,
-          "tvlUsd": 1655839.2817629627,
+          "token1Holdings": 5560336.726110147,
+          "token2Holdings": 827872.8862093608,
+          "tvlUsd": 1655745.7724187216,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.002558656165613682,
-          "totalLpTokens": 2047728.604701462,
+          "yield24h": 0.00010831775117625675,
+          "totalLpTokens": 2047728.9079879713,
           "volume": {
             "1h": 0,
             "4h": 0,
-            "12h": 2900.7005166027534,
-            "24h": 4437.692724153531,
-            "7d": 29156.40503471957,
-            "30d": 2364901.071993362
+            "12h": 51.66658020598989,
+            "24h": 199.77330863964542,
+            "7d": 30703.650891012665,
+            "30d": 2288331.142145933
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 788145.9845484648,
-          "token2Holdings": 1.4738459272,
-          "tvlUsd": 234719.22803018548,
+          "token1Holdings": 784694.5101812112,
+          "token2Holdings": 1.4804212792,
+          "tvlUsd": 233664.73684438918,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.00006247545017412648,
-          "totalLpTokens": 1003.5340666606,
+          "yield24h": 0.007648320379049611,
+          "totalLpTokens": 1003.5445353271,
           "volume": {
             "1h": 0,
             "4h": 0,
-            "12h": 3.4079129792588057,
-            "24h": 34.15015365499863,
-            "7d": 2510.5564012547525,
-            "30d": 2331627.797395127
+            "12h": 348.71520398165814,
+            "24h": 1884.0133741698778,
+            "7d": 4435.836895121278,
+            "30d": 2333272.9178922414
           }
         }
       ],
-      "totalTvlUsd": 1890558.5097931481,
-      "largestPoolPct": 87.58466205545436,
-      "totalVolume24hUsd": 4471.84287780853,
-      "totalVolume7dUsd": 31666.96143597432,
-      "totalVolume30dUsd": 4696528.869388489
+      "totalTvlUsd": 1889410.5092631108,
+      "largestPoolPct": 87.63292912266478,
+      "totalVolume24hUsd": 2083.7866828095234,
+      "totalVolume7dUsd": 35139.48778613394,
+      "totalVolume30dUsd": 4621604.0600381745
     },
     {
       "id": "unhedged",
@@ -97,59 +97,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 21932,
-      "activeMarkets": 215,
-      "endedMarkets": 29,
-      "resolvedMarkets": 21479,
-      "totalActivePoolUsd": 2575,
-      "totalActiveBets": 287,
+      "totalMarkets": 22327,
+      "activeMarkets": 171,
+      "endedMarkets": 25,
+      "resolvedMarkets": 21921,
+      "totalActivePoolUsd": 3730,
+      "totalActiveBets": 294,
       "categories": {
         "crypto": {
           "count": 15,
-          "poolUsd": 20,
-          "bets": 4
+          "poolUsd": 0,
+          "bets": 0
         },
         "sports": {
           "count": 85,
-          "poolUsd": 2555,
-          "bets": 283
+          "poolUsd": 3730,
+          "bets": 294
         }
       },
       "topMarkets": [
         {
-          "question": "Aston Villa vs Tottenham",
+          "question": "San Antonio Spurs vs Minnesota Timberwolves",
           "category": "sports",
-          "totalPool": 165,
-          "betCount": 20,
-          "endTime": "2026-05-03T17:00:00.000Z"
-        },
-        {
-          "question": "SC Freiburg vs VfL Wolfsburg",
-          "category": "sports",
-          "totalPool": 145,
+          "totalPool": 225,
           "betCount": 15,
-          "endTime": "2026-05-03T16:30:00.000Z"
-        },
-        {
-          "question": "Borussia Mönchengladbach vs Borussia Dortmund",
-          "category": "sports",
-          "totalPool": 140,
-          "betCount": 15,
-          "endTime": "2026-05-03T14:30:00.000Z"
+          "endTime": "2026-05-05T00:30:00.000Z"
         },
         {
           "question": "Bayern München vs Paris Saint Germain",
           "category": "sports",
-          "totalPool": 115,
-          "betCount": 6,
+          "totalPool": 165,
+          "betCount": 8,
           "endTime": "2026-05-06T18:00:00.000Z"
         },
         {
           "question": "San Antonio Spurs vs Minnesota Timberwolves",
           "category": "sports",
-          "totalPool": 95,
-          "betCount": 7,
-          "endTime": "2026-05-04T03:00:00.000Z"
+          "totalPool": 135,
+          "betCount": 6,
+          "endTime": "2026-05-07T00:30:00.000Z"
+        },
+        {
+          "question": "Minnesota Timberwolves vs San Antonio Spurs",
+          "category": "sports",
+          "totalPool": 125,
+          "betCount": 5,
+          "endTime": "2026-05-09T00:30:00.000Z"
+        },
+        {
+          "question": "LG Twins vs Doosan Bears",
+          "category": "sports",
+          "totalPool": 85,
+          "betCount": 5,
+          "endTime": "2026-05-06T08:30:00.000Z"
         }
       ]
     },
@@ -234,18 +234,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
-      "isCandidate": true
-    },
-    {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Onchain analytics",
       "isCandidate": true
     },
     {
@@ -345,6 +333,18 @@
       "isCandidate": true
     },
     {
+      "id": "redstone",
+      "name": "Redstone-validator-1",
+      "url": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ...",
+      "isCandidate": true
+    },
+    {
       "id": "rootsfi",
       "name": "RootsFi-validator-01",
       "url": "https://cctools.network/ecosystem/rootsfi",
@@ -354,18 +354,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Project — CCTools",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
       "isCandidate": true
     },
     {
@@ -381,22 +369,34 @@
       "isCandidate": true
     },
     {
+      "id": "cantory",
+      "name": "cantory",
+      "url": "https://ccview.io/",
+      "appCategory": "Explorer/Infra",
+      "transparency": "opaque",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Real‑time Canton Network Analytics | Canton Explorer",
+      "isCandidate": true
+    },
+    {
       "id": "ftp",
       "name": "FTP-validator-1",
-      "url": "https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html",
+      "url": "https://en.wikipedia.org/wiki/Canton_Network",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network quickstart installation — Digital Asset&#x27;s platform ...",
+      "note": "Canton Network - Wikipedia",
       "isCandidate": true
     },
     {
       "id": "handl-issuer",
       "name": "handl-issuer",
       "url": "https://www.bitrue.com/blog/what-is-handl",
-      "appCategory": "Explorer/Infra",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -405,15 +405,15 @@
       "isCandidate": true
     },
     {
-      "id": "modulo-issuer",
-      "name": "Modulo-Issuer",
-      "url": "https://docs.digitalasset.com/index.html",
+      "id": "kora-app",
+      "name": "kora-app",
+      "url": "https://kora.so/",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Digital Asset&#x27;s platform documentation",
+      "note": "Kora",
       "isCandidate": true
     },
     {
@@ -432,12 +432,24 @@
       "id": "rho-relay",
       "name": "rho-relay",
       "url": "https://docs.rho.trading/rho-relay/rho-relay-overview",
-      "appCategory": "Tokenized Assets",
+      "appCategory": "Bridge",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
       "note": "Rho Relay Overview | Rho Labs Documentation",
+      "isCandidate": true
+    },
+    {
+      "id": "walley",
+      "name": "walley",
+      "url": "https://www.coindesk.com/business/2025/12/04/canton-network-creator-snags-strategic-investment-from-wall-street-giants",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Wall Street Heavyweights Back Builder of Canton, a Network That ...",
       "isCandidate": true
     }
   ]
