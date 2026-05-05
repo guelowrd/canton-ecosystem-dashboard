@@ -160,6 +160,14 @@
     "note": "Crypto index platform"
   },
   {
+    "appName": "Cancore-mainnet-1",
+    "baseName": "cancore",
+    "category": "DEX/AMM",
+    "confidence": 90,
+    "websiteGuess": "https://cancore.io/",
+    "note": "Cancore | P2P Atomic Swap"
+  },
+  {
     "appName": "cantor8-digik-1",
     "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
@@ -178,7 +186,7 @@
   {
     "appName": "elk-Validator-2",
     "baseName": "elk",
-    "category": "Orderbook/CLOB",
+    "category": "Tokenized Assets",
     "confidence": 90,
     "websiteGuess": "https://canton.wiki/projects/elk-capital-markets",
     "note": "Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026"
@@ -218,7 +226,7 @@
   {
     "appName": "peertrust-validator-2",
     "baseName": "peertrust",
-    "category": "Validator/Infra",
+    "category": "Tokenized Assets",
     "confidence": 90,
     "websiteGuess": "https://peertrust.io/",
     "note": "PeerTrust | Secure, Transparent Peer Review Infrastructure for Academic ..."
@@ -226,7 +234,7 @@
   {
     "appName": "rapidchain-validator-1",
     "baseName": "rapidchain",
-    "category": "Validator/Infra",
+    "category": "Tokenized Assets",
     "confidence": 90,
     "websiteGuess": "https://www.rapidchain.io/",
     "note": "Rapid Chain | Institutional Execution Layer"
@@ -236,16 +244,16 @@
     "baseName": "redstone",
     "category": "Tokenized Assets",
     "confidence": 90,
-    "websiteGuess": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
-    "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
+    "websiteGuess": "https://canton.wiki/projects/redstone",
+    "note": "RedStone — Canton Network Project | canton.wiki"
   },
   {
-    "appName": "RootsFi-validator-01",
-    "baseName": "rootsfi",
-    "category": "Payments",
+    "appName": "the_tie_validator",
+    "baseName": "thetievalidator",
+    "category": "Explorer/Infra",
     "confidence": 90,
-    "websiteGuess": "https://cctools.network/ecosystem/rootsfi",
-    "note": "Project — CCTools"
+    "websiteGuess": "https://thetie.io",
+    "note": "Crypto analytics platform"
   },
   {
     "appName": "ZodiaCustody-validator-1",
@@ -256,20 +264,28 @@
     "note": "Standard Chartered crypto custody"
   },
   {
+    "appName": "arcane-mainnet-1",
+    "baseName": "arcane",
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
+    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
+  },
+  {
     "appName": "cantory",
     "baseName": "cantory",
-    "category": "Explorer/Infra",
+    "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
   },
   {
     "appName": "FTP-validator-1",
     "baseName": "ftp",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "websiteGuess": "https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html",
+    "note": "Canton Network quickstart installation — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "handl-issuer",
@@ -280,12 +296,28 @@
     "note": "What Is HANDL Token on Canton Network Explained - bitrue.com"
   },
   {
+    "appName": "HeliosFinance-Mainnet-1",
+    "baseName": "heliosfinance",
+    "category": "Tokenized Assets",
+    "confidence": 75,
+    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
+    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
+  },
+  {
     "appName": "kora-app",
     "baseName": "kora-app",
-    "category": "Tokenized Assets",
+    "category": "Explorer/Infra",
     "confidence": 75,
     "websiteGuess": "https://kora.so/",
     "note": "Kora"
+  },
+  {
+    "appName": "Modulo-Issuer",
+    "baseName": "modulo-issuer",
+    "category": "Lending",
+    "confidence": 75,
+    "websiteGuess": "https://ir.moodys.com/press-releases/news-details/2026/Moodys-Ratings-Becomes-First-Credit-Rating-Agency-to-Bring-Independent-Credit-Analysis-to-Blockchain-Financial-Infrastructure/default.aspx",
+    "note": "Moodys - Moody&#x27;s Ratings Becomes First Credit Rating Agency to Bring ..."
   },
   {
     "appName": "nodetech-mainnet-1",
@@ -298,9 +330,9 @@
   {
     "appName": "rails-cethMain-1",
     "baseName": "rails-cethmain",
-    "category": "Tokenized Assets",
+    "category": "Payments",
     "confidence": 75,
-    "websiteGuess": "https://www.ceth.network/transparency",
+    "websiteGuess": "https://ceth.network/whitepaper",
     "note": "cETH - ETH on Canton"
   },
   {
@@ -320,36 +352,36 @@
     "note": "Validators - Canton Foundation"
   },
   {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Wallet",
-    "confidence": 75,
-    "websiteGuess": "https://www.coindesk.com/business/2025/12/04/canton-network-creator-snags-strategic-investment-from-wall-street-giants",
-    "note": "Wall Street Heavyweights Back Builder of Canton, a Network That ..."
-  },
-  {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Identity/Auth",
+    "category": "Payments",
     "confidence": 65,
-    "websiteGuess": "https://www.digitalasset.com/about",
-    "note": "About Us - Digital Asset Holdings"
+    "websiteGuess": "https://www.disruptionbanking.com/2026/04/13/hsbc-announces-successful-tokenised-deposit-pilot-on-the-canton-network/",
+    "note": "HSBC Announces Successful Tokenised Deposit Pilot on the Canton Network"
   },
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
     "category": "Identity/Auth",
     "confidence": 65,
-    "websiteGuess": "https://www.disruptionbanking.com/2026/04/13/hsbc-announces-successful-tokenised-deposit-pilot-on-the-canton-network/",
-    "note": "HSBC Announces Successful Tokenised Deposit Pilot on the Canton Network"
+    "websiteGuess": "https://coinmarketcap.com/currencies/canton-network/",
+    "note": "Canton price today, CC to USD live price, marketcap and chart ..."
   },
   {
-    "appName": "Modulo-Issuer",
-    "baseName": "modulo-issuer",
-    "category": "Unknown",
-    "confidence": 65,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://learn.microsoft.com/en-us/entra/identity/users/licensing-service-plan-reference",
+    "note": "Product names and service plan identifiers for licensing"
+  },
+  {
+    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "category": "Explorer/Infra",
+    "confidence": 60,
+    "websiteGuess": "https://docs.stablecoin.xyz/canton/overview",
+    "note": "Canton Network - Stable Coin Inc"
   },
   {
     "appName": "Bridge-Operator",
@@ -440,28 +472,12 @@
     "note": "Canton validator"
   },
   {
-    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://maclookup.app/",
-    "note": "MAC Address Vendor Lookup | MAC Address Lookup"
-  },
-  {
-    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://forums.malwarebytes.com/topic/315974-suspicious-files/",
-    "note": "Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums"
-  },
-  {
-    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://www.foxnews.com/tech/how-malicious-party-invites-target-your-inbox",
-    "note": "How malicious party invites target your inbox"
+    "appName": "confimarket-main-1",
+    "baseName": "confimarket-main",
+    "category": "Prediction Markets",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "OKX-VALIDATOR-2",
@@ -472,18 +488,26 @@
     "note": null
   },
   {
-    "appName": "Tokino-validator-1",
-    "baseName": "tokino",
+    "appName": "RootsFi-validator-01",
+    "baseName": "rootsfi",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "arcane-mainnet-1",
-    "baseName": "arcane",
+    "appName": "sunthycloud-mainnet-1",
+    "baseName": "sunthycloud",
     "category": "Unknown",
-    "confidence": 30,
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": "Canton cloud service"
+  },
+  {
+    "appName": "Tokino-validator-1",
+    "baseName": "tokino",
+    "category": "Validator/Infra",
+    "confidence": 40,
     "websiteGuess": null,
     "note": null
   },
@@ -512,12 +536,12 @@
     "note": null
   },
   {
-    "appName": "foundinalsunthy-mainnet-1",
-    "baseName": "foundinalsunthy",
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": "Canton app"
+    "note": null
   },
   {
     "appName": "modo",
@@ -576,6 +600,14 @@
     "note": "Canton app"
   },
   {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "category": "Unknown",
@@ -586,6 +618,14 @@
   {
     "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
+    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 15,
     "websiteGuess": null,

@@ -1,5 +1,26 @@
 [
   {
+    "file": "snapshot-2026-05-05_0054.json",
+    "lastUpdated": "2026-05-05T00:54:45.175Z",
+    "tvlUsd": 1891192.43313512,
+    "ccPriceUsd": 0.14829222423613983,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "Cancore-mainnet-1",
+        "peertrust-validator-2",
+        "rapidchain-validator-1",
+        "the_tie_validator",
+        "arcane-mainnet-1",
+        "HeliosFinance-Mainnet-1",
+        "Modulo-Issuer"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-04_0058.json",
     "lastUpdated": "2026-05-04T00:58:50.955Z",
     "tvlUsd": 1893140.5092631108,
@@ -201,22 +222,6 @@
         "tradefast-wallet2-1",
         "walley",
         "zkpc-cantor8-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-25_0049.json",
-    "lastUpdated": "2026-04-25T00:49:31.500Z",
-    "tvlUsd": 2339.4,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
       ],
       "newData": []
     }
