@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-05T00:54:45.175Z",
-  "cantonCoinPriceUsd": 0.14829222423613983,
+  "lastUpdated": "2026-05-06T00:54:35.257Z",
+  "cantonCoinPriceUsd": 0.1484146988727243,
   "networkHealth": {
-    "totalTvlUsd": 1891192.43313512,
-    "volume30dUsd": 3829728.1753370487,
+    "totalTvlUsd": 1894012.8995528747,
+    "volume30dUsd": 681959.1918577404,
     "featuredApps": null,
-    "trackedApps": 30,
+    "trackedApps": 25,
     "transparentApps": 2,
     "netIssuance": null,
     "governanceParticipation": null
@@ -18,13 +18,13 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": 87.4787770368802,
+    "tvlLargestPoolPct": 87.4124872556404,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
     "87% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 30 tracked apps expose public metrics"
+    "2 of 25 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -40,55 +40,55 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.14829222423613983,
-      "cbtcPriceUsd": 81133.05557957999,
+      "ccPriceUsd": 0.1484146988727243,
+      "cbtcPriceUsd": 82118.73626543369,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5573340.464644811,
-          "token2Holdings": 826483.0539274601,
-          "tvlUsd": 1652966.1078549202,
+          "token1Holdings": 5574653.086550395,
+          "token2Holdings": 827360.45916028,
+          "tvlUsd": 1654720.91832056,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.08214707459575132,
-          "totalLpTokens": 2047952.7095909428,
+          "yield24h": 0.17047788820691334,
+          "totalLpTokens": 2048395.2994582441,
           "volume": {
-            "1h": 0,
-            "4h": 0,
-            "12h": 0,
-            "24h": 0,
-            "7d": 23640.040068348524,
-            "30d": 1495812.130802211
+            "1h": 36531.010447142915,
+            "4h": 153741.9809201825,
+            "12h": 171139.29121772823,
+            "24h": 348282.285279392,
+            "7d": 549128.8283048269,
+            "30d": 572409.3718157982
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 797736.7879500039,
-          "token2Holdings": 1.4580760184,
-          "tvlUsd": 236596.3252801998,
+          "token1Holdings": 802757.3516712715,
+          "token2Holdings": 1.4508380917,
+          "tvlUsd": 238281.98123231478,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.16791517423376412,
-          "totalLpTokens": 1003.7579984238,
+          "yield24h": 0.17103981317198547,
+          "totalLpTokens": 1003.975249939,
           "volume": {
-            "1h": 0,
-            "4h": 0,
-            "12h": 0,
-            "24h": 0,
-            "7d": 5029.715531384544,
-            "30d": 2333916.044534838
+            "1h": 1.6216896942722823,
+            "4h": 47977.28627553947,
+            "12h": 49968.30064404263,
+            "24h": 51069.98426236673,
+            "7d": 104212.0417060235,
+            "30d": 109549.8200419422
           }
         }
       ],
-      "totalTvlUsd": 1889562.43313512,
-      "largestPoolPct": 87.4787770368802,
-      "totalVolume24hUsd": 0,
-      "totalVolume7dUsd": 28669.755599733067,
-      "totalVolume30dUsd": 3829728.1753370487
+      "totalTvlUsd": 1893002.8995528747,
+      "largestPoolPct": 87.4124872556404,
+      "totalVolume24hUsd": 399352.2695417587,
+      "totalVolume7dUsd": 653340.8700108504,
+      "totalVolume30dUsd": 681959.1918577404
     },
     {
       "id": "unhedged",
@@ -97,12 +97,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 22786,
-      "activeMarkets": 236,
-      "endedMarkets": 35,
-      "resolvedMarkets": 22305,
-      "totalActivePoolUsd": 1630,
-      "totalActiveBets": 179,
+      "totalMarkets": 23232,
+      "activeMarkets": 277,
+      "endedMarkets": 39,
+      "resolvedMarkets": 22706,
+      "totalActivePoolUsd": 1010,
+      "totalActiveBets": 116,
       "categories": {
         "crypto": {
           "count": 15,
@@ -111,45 +111,45 @@
         },
         "sports": {
           "count": 85,
-          "poolUsd": 1630,
-          "bets": 179
+          "poolUsd": 1010,
+          "bets": 116
         }
       },
       "topMarkets": [
         {
-          "question": "Detroit Pistons vs Cleveland Cavaliers",
-          "category": "sports",
-          "totalPool": 80,
-          "betCount": 3,
-          "endTime": "2026-05-05T22:00:00.000Z"
-        },
-        {
-          "question": "Le Havre vs Marseille",
-          "category": "sports",
-          "totalPool": 35,
-          "betCount": 3,
-          "endTime": "2026-05-09T18:00:00.000Z"
-        },
-        {
-          "question": "Liverpool vs Chelsea",
-          "category": "sports",
-          "totalPool": 35,
-          "betCount": 5,
-          "endTime": "2026-05-09T10:30:00.000Z"
-        },
-        {
-          "question": "Monaco vs Lille",
+          "question": "Sichuan Jiuniu vs Shandong Luneng",
           "category": "sports",
           "totalPool": 30,
           "betCount": 3,
-          "endTime": "2026-05-09T18:00:00.000Z"
+          "endTime": "2026-05-10T11:00:00.000Z"
         },
         {
-          "question": "Sunderland vs Manchester United",
+          "question": "PSIM Yogyakarta vs Malut United",
           "category": "sports",
           "totalPool": 30,
           "betCount": 3,
-          "endTime": "2026-05-09T13:00:00.000Z"
+          "endTime": "2026-05-10T11:00:00.000Z"
+        },
+        {
+          "question": "Hangzhou Greentown vs Tianjin Teda",
+          "category": "sports",
+          "totalPool": 30,
+          "betCount": 3,
+          "endTime": "2026-05-10T10:35:00.000Z"
+        },
+        {
+          "question": "Seattle Sounders vs San Diego",
+          "category": "sports",
+          "totalPool": 30,
+          "betCount": 3,
+          "endTime": "2026-05-10T01:30:00.000Z"
+        },
+        {
+          "question": "Hoang Anh Gia Lai vs Pho Hien",
+          "category": "sports",
+          "totalPool": 25,
+          "betCount": 3,
+          "endTime": "2026-05-10T09:00:00.000Z"
         }
       ]
     },
@@ -297,22 +297,10 @@
       "isCandidate": true
     },
     {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
       "id": "elk",
       "name": "elk-Validator-2",
       "url": "https://canton.wiki/projects/elk-capital-markets",
-      "appCategory": "Tokenized Assets",
+      "appCategory": "Orderbook/CLOB",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -345,51 +333,15 @@
       "isCandidate": true
     },
     {
-      "id": "peertrust",
-      "name": "peertrust-validator-2",
-      "url": "https://peertrust.io/",
-      "appCategory": "Tokenized Assets",
+      "id": "rootsfi",
+      "name": "RootsFi-validator-01",
+      "url": "https://cctools.network/ecosystem/rootsfi",
+      "appCategory": "Payments",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "PeerTrust | Secure, Transparent Peer Review Infrastructure for Academic ...",
-      "isCandidate": true
-    },
-    {
-      "id": "rapidchain",
-      "name": "rapidchain-validator-1",
-      "url": "https://www.rapidchain.io/",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Rapid Chain | Institutional Execution Layer",
-      "isCandidate": true
-    },
-    {
-      "id": "redstone",
-      "name": "Redstone-validator-1",
-      "url": "https://canton.wiki/projects/redstone",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "RedStone — Canton Network Project | canton.wiki",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
+      "note": "Project — CCTools",
       "isCandidate": true
     },
     {
@@ -407,37 +359,25 @@
     {
       "id": "arcane",
       "name": "arcane-mainnet-1",
-      "url": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
-      "appCategory": "Tokenized Assets",
+      "url": "https://coinmarketcap.com/cmc-ai/canton-network/what-is/",
+      "appCategory": "Prediction Markets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ...",
+      "note": "What Is Canton (CC) And How Does It Work? - CoinMarketCap",
       "isCandidate": true
     },
     {
-      "id": "cantory",
-      "name": "cantory",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
+      "id": "handl-issuer",
+      "name": "handl-issuer",
+      "url": "https://www.bitrue.com/blog/what-is-handl",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Canton Network - Wikipedia",
-      "isCandidate": true
-    },
-    {
-      "id": "ftp",
-      "name": "FTP-validator-1",
-      "url": "https://docs.digitalasset.com/build/3.4/quickstart/download/cnqs-installation.html",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Network quickstart installation — Digital Asset&#x27;s platform ...",
+      "note": "What Is HANDL Token on Canton Network Explained - bitrue.com",
       "isCandidate": true
     },
     {
@@ -456,7 +396,7 @@
       "id": "kora-app",
       "name": "kora-app",
       "url": "https://kora.so/",
-      "appCategory": "Explorer/Infra",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -467,20 +407,20 @@
     {
       "id": "modulo-issuer",
       "name": "Modulo-Issuer",
-      "url": "https://ir.moodys.com/press-releases/news-details/2026/Moodys-Ratings-Becomes-First-Credit-Rating-Agency-to-Bring-Independent-Credit-Analysis-to-Blockchain-Financial-Infrastructure/default.aspx",
-      "appCategory": "Lending",
+      "url": "https://docs.digitalasset.com/index.html",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Moodys - Moody&#x27;s Ratings Becomes First Credit Rating Agency to Bring ...",
+      "note": "Digital Asset&#x27;s platform documentation",
       "isCandidate": true
     },
     {
       "id": "rails-cethmain",
       "name": "rails-cethMain-1",
-      "url": "https://ceth.network/whitepaper",
-      "appCategory": "Payments",
+      "url": "https://www.ceth.network/transparency",
+      "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,

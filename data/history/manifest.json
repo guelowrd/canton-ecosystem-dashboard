@@ -1,5 +1,21 @@
 [
   {
+    "file": "snapshot-2026-05-06_0054.json",
+    "lastUpdated": "2026-05-06T00:54:35.257Z",
+    "tvlUsd": 1894012.8995528747,
+    "ccPriceUsd": 0.1484146988727243,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "RootsFi-validator-01",
+        "handl-issuer"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-05_0054.json",
     "lastUpdated": "2026-05-05T00:54:45.175Z",
     "tvlUsd": 1891192.43313512,
@@ -171,57 +187,6 @@
       "newApps": [
         "Featured Apps",
         "www.cantonscan.com"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-26_0057.json",
-    "lastUpdated": "2026-04-26T00:57:59.873Z",
-    "tvlUsd": 5039.4,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "cantonloop-mainnet-1",
-        "CoinMetrics-validator-1",
-        "cypherock-mainnet-1",
-        "Fairmint-validator-1",
-        "flipside-validator-1",
-        "Obligate-validator-1",
-        "pixelplex-mainnet-3",
-        "send-cantonwallet-1",
-        "blackmantacapital-primary-1",
-        "Cancore-mainnet-1",
-        "cantor8-digik-1",
-        "dfns1",
-        "elk-Validator-2",
-        "feat-unhedged-app",
-        "MPCH-BRONdvn-1",
-        "noves-translate",
-        "OKX-VALIDATOR-2",
-        "rapidchain-validator-1",
-        "Redstone-validator-1",
-        "RootsFi-validator-01",
-        "the_tie_validator",
-        "yuce",
-        "ZodiaCustody-validator-1",
-        "arcane-mainnet-1",
-        "confimarket-main-1",
-        "daml-autopilot",
-        "FTP-validator-1",
-        "handl-issuer",
-        "HeliosFinance-Mainnet-1",
-        "rails-cethMain-1",
-        "rho-relay",
-        "SatsTerminal-main-1",
-        "Tokino-validator-1",
-        "tradefast-mainnet-1",
-        "tradefast-wallet2-1",
-        "walley",
-        "zkpc-cantor8-1"
       ],
       "newData": []
     }
