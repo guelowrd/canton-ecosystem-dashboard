@@ -1,5 +1,23 @@
 [
   {
+    "file": "snapshot-2026-05-07_0059.json",
+    "lastUpdated": "2026-05-07T00:59:27.678Z",
+    "tvlUsd": 1652360.444886833,
+    "ccPriceUsd": 0.1474382925313029,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "dfns1",
+        "Redstone-validator-1",
+        "cantory",
+        "FTP-validator-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-06_0054.json",
     "lastUpdated": "2026-05-06T00:54:35.257Z",
     "tvlUsd": 1894012.8995528747,
@@ -171,22 +189,6 @@
         "SatsTerminal-main-1",
         "tradefast-mainnet-1",
         "tradefast-wallet2-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-27_0055.json",
-    "lastUpdated": "2026-04-27T00:55:54.178Z",
-    "tvlUsd": 6195.929999999999,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Featured Apps",
-        "www.cantonscan.com"
       ],
       "newData": []
     }

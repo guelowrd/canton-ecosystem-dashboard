@@ -5,7 +5,6 @@ Cantex-validator-1,cantex,DEX/AMM,100,https://cantex.io,Canton DEX by CaviarNine
 cantonloop-mainnet-1,cantonloop,Wallet,100,https://lighthouse.cantonloop.com,5N Loop wallet / explorer
 cantonnodes-validator-1,cantonnodes,Validator/Infra,100,https://cantonnodes.com,Canton RPC & node services
 cypherock-mainnet-1,cypherock,Wallet,100,https://cypherock.com,Hardware wallet with Canton support
-Fairmint-validator-1,fairmint,Tokenized Assets,100,https://fairmint.com,Equity & token issuance
 Hecto-Finance-1,hecto-finance,Lending,100,https://hectofinance.com,Canton DeFi protocol
 IntellectEU-validator-1,intellecteu,Validator/Infra,100,https://intellecteu.com,Enterprise blockchain solutions
 kraken-validator-01,kraken,Validator/Infra,100,https://kraken.com,Crypto exchange validator
@@ -21,49 +20,52 @@ Tradecraft,tradecraft,DEX/AMM,100,https://tradecraft.fi,Canton DEX (AMM)
 trakx-validator-1,trakx,Validator/Infra,100,https://trakx.io,Crypto index platform
 Cancore-mainnet-1,cancore,DEX/AMM,90,https://cancore.io/,Cancore | P2P Atomic Swap
 cantor8-digik-1,cantor8-digik,Explorer/Infra,90,https://cantor8.tech/digik,DigiK - Canton gateway
+dfns1,dfns1,Wallet,90,https://dfns.co,DFNS wallet infrastructure
 elk-Validator-2,elk,Orderbook/CLOB,90,https://canton.wiki/projects/elk-capital-markets,Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026
 feat-unhedged-app,unhedged-app,Prediction Markets,90,https://unhedged.gg,Canton prediction markets
 kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validator node
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
+peertrust-validator-2,peertrust,Validator/Infra,90,https://peertrust.io/,"PeerTrust | Secure, Transparent Peer Review Infrastructure for Academic ..."
+Redstone-validator-1,redstone,Tokenized Assets,90,https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access,"Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
 RootsFi-validator-01,rootsfi,Payments,90,https://cctools.network/ecosystem/rootsfi,Project — CCTools
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-arcane-mainnet-1,arcane,Prediction Markets,75,https://coinmarketcap.com/cmc-ai/canton-network/what-is/,What Is Canton (CC) And How Does It Work? - CoinMarketCap
+cantory,cantory,Explorer/Infra,75,https://coinmarketcap.com/cmc-ai/canton-network/what-is/,What Is Canton (CC) And How Does It Work? - CoinMarketCap
+FTP-validator-1,ftp,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
 handl-issuer,handl-issuer,Tokenized Assets,75,https://www.bitrue.com/blog/what-is-handl,What Is HANDL Token on Canton Network Explained - bitrue.com
 HeliosFinance-Mainnet-1,heliosfinance,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
 kora-app,kora-app,Tokenized Assets,75,https://kora.so/,Kora
-Modulo-Issuer,modulo-issuer,Tokenized Assets,75,https://docs.digitalasset.com/index.html,Digital Asset&#x27;s platform documentation
+nodetech-mainnet-1,nodetech,Validator/Infra,75,https://www.cantonnodes.com/,Canton Nodes - Professional RPC &amp; API Services for Canton Network
 rails-cethMain-1,rails-cethmain,Tokenized Assets,75,https://www.ceth.network/transparency,cETH - ETH on Canton
 rho-relay,rho-relay,Bridge,75,https://docs.rho.trading/rho-relay/rho-relay-overview,Rho Relay Overview | Rho Labs Documentation
 ValaWallet-FA,valawallet-fa,Validator/Infra,75,https://canton.foundation/validators/,Validators - Canton Foundation
-auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Identity/Auth,65,https://www.cantonwallet.com/,Send on Canton Network
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Wallet,65,https://newreleases.io/project/github/canton-network/wallet-gateway/release/@canton-network%2Fcore-ledger-client@0.31.1,canton-network/ wallet-gateway @canton-network/core-ledger-client@0.31. ...
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
+auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,65,https://www.digitalasset.com/,Digital Asset Holdings - Delivering synchronized finance
+Modulo-Issuer,modulo-issuer,Unknown,65,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
+walley,walley,Unknown,65,https://cantonnews.org/a-look-inside-the-applications-building-on-canton-network,A Look Inside the Applications Building on Canton Network
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://docs.digitalasset.com/build/3.4/explanations/parties-users.html,Parties and users on a Canton ledger — Digital Asset&#x27;s platform ...
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
 CantonSwap,cantonswap,DEX/AMM,55,,Canton swap protocol
 ccbrowser,ccbrowser,Explorer/Infra,55,,Canton Coin browser
 handlpay-main-1,handlpay-main,Payments,55,,Canton payment service
 iBTC-validator-1,ibtc,Validator/Infra,55,,iBTC validator
+lithiumdigital-validator-1,lithiumdigital,Validator/Infra,55,,Canton validator
 LoopID,loopid,Identity/Auth,55,,Identity service
 palladium-validator-1,palladium,Validator/Infra,55,,Canton validator
 poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
-party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Unknown,50,https://forums.malwarebytes.com/topic/315974-suspicious-files/,Suspicious files - Resolved Malware Removal Logs - Malwarebytes Forums
+Thetamarkets,thetamarkets,Prediction Markets,55,,Markets protocol
+8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://www.bleepingcomputer.com/forums/t/808874/downloaded-a-file-from-a-page-bitdefender-blocked-only-saw-it-after/,"downloaded a file from a page bitdefender blocked, only saw it after ..."
+cauri-wallet-provider1,cauri-wallet-provider1,Wallet,40,,
 confimarket-main-1,confimarket-main,Prediction Markets,40,,
 dteamtech-validator-1,dteamtech,Validator/Infra,40,,
-FTP-validator-1,ftp,Validator/Infra,40,,
-nodetech-mainnet-1,nodetech,Validator/Infra,40,,
 OKX-VALIDATOR-2,okx,Validator/Infra,40,,
-peertrust-validator-2,peertrust,Validator/Infra,40,,
-Redstone-validator-1,redstone,Validator/Infra,40,,
-sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
 Tokino-validator-1,tokino,Validator/Infra,40,,
-auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Identity/Auth,30,,
-auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,30,,
-bitdynamicsab-mainnet-1,bitdynamicsab,Unknown,30,,
-cantory,cantory,Unknown,30,,
+arcane-mainnet-1,arcane,Unknown,30,,
 daml-autopilot,daml-autopilot,Unknown,30,,
-foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
 kairo-mainnet,kairo,Unknown,30,,Canton app
 modo,modo,Unknown,30,,Canton app
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
@@ -72,8 +74,6 @@ SatsTerminal-main-1,satsterminal-main,Unknown,30,,
 tenkai-main-1,tenkai-main,Unknown,30,,Canton app
 tradefast-mainnet-1,tradefast,Unknown,30,,
 unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
-walley,walley,Unknown,30,,
 23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,15,,
-8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,15,,
 931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,15,,
 party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,15,,
