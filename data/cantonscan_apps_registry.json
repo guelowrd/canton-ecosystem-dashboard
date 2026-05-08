@@ -216,22 +216,6 @@
     "note": "Noves Translate API"
   },
   {
-    "appName": "peertrust-validator-2",
-    "baseName": "peertrust",
-    "category": "Validator/Infra",
-    "confidence": 90,
-    "websiteGuess": "https://peertrust.io/",
-    "note": "PeerTrust | Secure, Transparent Peer Review Infrastructure for Academic ..."
-  },
-  {
-    "appName": "Redstone-validator-1",
-    "baseName": "redstone",
-    "category": "Tokenized Assets",
-    "confidence": 90,
-    "websiteGuess": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
-    "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
-  },
-  {
     "appName": "RootsFi-validator-01",
     "baseName": "rootsfi",
     "category": "Payments",
@@ -246,22 +230,6 @@
     "confidence": 90,
     "websiteGuess": "https://zodia.io",
     "note": "Standard Chartered crypto custody"
-  },
-  {
-    "appName": "cantory",
-    "baseName": "cantory",
-    "category": "Explorer/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://coinmarketcap.com/cmc-ai/canton-network/what-is/",
-    "note": "What Is Canton (CC) And How Does It Work? - CoinMarketCap"
-  },
-  {
-    "appName": "FTP-validator-1",
-    "baseName": "ftp",
-    "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
-    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
   },
   {
     "appName": "handl-issuer",
@@ -288,19 +256,19 @@
     "note": "Kora"
   },
   {
-    "appName": "nodetech-mainnet-1",
-    "baseName": "nodetech",
-    "category": "Validator/Infra",
+    "appName": "Modulo-Issuer",
+    "baseName": "modulo-issuer",
+    "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://www.cantonnodes.com/",
-    "note": "Canton Nodes - Professional RPC &amp; API Services for Canton Network"
+    "websiteGuess": "https://www.gate.com/blog/canton-network-full-guide-from-cc-modules-to-airdrop-opportunities-understanding-institutional-grade-chain-innovation",
+    "note": "Canton Network Explained: From CC Modules to Airdrop Opportunities—A ..."
   },
   {
     "appName": "rails-cethMain-1",
     "baseName": "rails-cethmain",
     "category": "Tokenized Assets",
     "confidence": 75,
-    "websiteGuess": "https://www.ceth.network/transparency",
+    "websiteGuess": "https://www.ceth.network/",
     "note": "cETH - ETH on Canton"
   },
   {
@@ -328,36 +296,12 @@
     "note": "canton-network/ wallet-gateway @canton-network/core-ledger-client@0.31. ..."
   },
   {
-    "appName": "auth0_007c68129abae6733ca8b889162e",
-    "baseName": "auth0007c68129abae6733ca8b889162e",
-    "category": "Explorer/Infra",
-    "confidence": 65,
-    "websiteGuess": "https://ccview.io/",
-    "note": "Real‑time Canton Network Analytics | Canton Explorer"
-  },
-  {
-    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
-    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
-    "category": "Identity/Auth",
-    "confidence": 65,
-    "websiteGuess": "https://www.digitalasset.com/",
-    "note": "Digital Asset Holdings - Delivering synchronized finance"
-  },
-  {
-    "appName": "Modulo-Issuer",
-    "baseName": "modulo-issuer",
-    "category": "Unknown",
-    "confidence": 65,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
-  },
-  {
     "appName": "walley",
     "baseName": "walley",
     "category": "Unknown",
     "confidence": 65,
-    "websiteGuess": "https://cantonnews.org/a-look-inside-the-applications-building-on-canton-network",
-    "note": "A Look Inside the Applications Building on Canton Network"
+    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
+    "note": "Canton Network - Wikipedia"
   },
   {
     "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
@@ -476,8 +420,8 @@
     "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "category": "Unknown",
     "confidence": 50,
-    "websiteGuess": "https://www.bleepingcomputer.com/forums/t/808874/downloaded-a-file-from-a-page-bitdefender-blocked-only-saw-it-after/",
-    "note": "downloaded a file from a page bitdefender blocked, only saw it after ..."
+    "websiteGuess": "https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference",
+    "note": "Application installation error codes reference - Configuration Manager ..."
   },
   {
     "appName": "cauri-wallet-provider1",
@@ -504,8 +448,40 @@
     "note": null
   },
   {
+    "appName": "FTP-validator-1",
+    "baseName": "ftp",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "nodetech-mainnet-1",
+    "baseName": "nodetech",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "OKX-VALIDATOR-2",
     "baseName": "okx",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "peertrust-validator-2",
+    "baseName": "peertrust",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "Redstone-validator-1",
+    "baseName": "redstone",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
@@ -520,8 +496,24 @@
     "note": null
   },
   {
-    "appName": "arcane-mainnet-1",
-    "baseName": "arcane",
+    "appName": "auth0_007c68129abae6733ca8b889162e",
+    "baseName": "auth0007c68129abae6733ca8b889162e",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "cantory",
+    "baseName": "cantory",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -536,12 +528,28 @@
     "note": null
   },
   {
+    "appName": "foundinalsunthy-mainnet-1",
+    "baseName": "foundinalsunthy",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
     "appName": "kairo-mainnet",
     "baseName": "kairo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
+  },
+  {
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "modo",

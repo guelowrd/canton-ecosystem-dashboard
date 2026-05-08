@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-28T00:59:50.988Z",
-  "cantonCoinPriceUsd": null,
+  "lastUpdated": "2026-05-08T00:58:13.054Z",
+  "cantonCoinPriceUsd": 0.1456138370911663,
   "networkHealth": {
-    "totalTvlUsd": 5825,
+    "totalTvlUsd": 1877787.4873639094,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 35,
-    "transparentApps": 1,
+    "trackedApps": 24,
+    "transparentApps": 2,
     "netIssuance": null,
     "governanceParticipation": null
   },
@@ -18,12 +18,13 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": null,
+    "tvlLargestPoolPct": 87.48785497994422,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 35 tracked apps expose public metrics"
+    "87% of DEX TVL is in the largest pool (CC/USDCx)",
+    "2 of 24 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -35,8 +36,57 @@
     {
       "id": "tradecraft",
       "name": "Tradecraft",
-      "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 504 Gateway Timeout"
+      "url": "https://tradecraft.fi",
+      "appCategory": "AMM",
+      "transparency": "transparent",
+      "dataAvailability": "full",
+      "ccPriceUsd": 0.1456138370911663,
+      "cbtcPriceUsd": 80968.9455561988,
+      "pools": [
+        {
+          "name": "CC / USDCx",
+          "token1": "CC",
+          "token2": "USDCx",
+          "token1Holdings": 5634203.638162268,
+          "token2Holdings": 820418.010705817,
+          "tvlUsd": 1640836.021411634,
+          "lpFeePercent": 0.2,
+          "operatorFeePercent": 0.1,
+          "yield24h": 0.17072164707743576,
+          "totalLpTokens": 2049146.255818707,
+          "volume": {
+            "1h": 14876.158272148788,
+            "4h": 50315.61909100805,
+            "12h": 159521.23876419148,
+            "24h": 351225.8614358145,
+            "7d": 1143859.455058671
+          }
+        },
+        {
+          "name": "CC / CBTC",
+          "token1": "CC",
+          "token2": "CBTC",
+          "token1Holdings": 805780.1052428666,
+          "token2Holdings": 1.4491078298,
+          "tvlUsd": 234665.4659522752,
+          "lpFeePercent": 0.2,
+          "operatorFeePercent": 0.1,
+          "yield24h": 0.1686970289603409,
+          "totalLpTokens": 1004.4047788759,
+          "volume": {
+            "1h": 0.3092871540498178,
+            "4h": 47534.6189078262,
+            "12h": 49223.22168926843,
+            "24h": 49944.03635862184,
+            "7d": 204793.97862102342
+          }
+        }
+      ],
+      "totalTvlUsd": 1875501.4873639094,
+      "largestPoolPct": 87.48785497994422,
+      "totalVolume24hUsd": 401169.8977944364,
+      "totalVolume7dUsd": 1348653.4336796945,
+      "totalVolume30dUsd": null
     },
     {
       "id": "unhedged",
@@ -45,59 +95,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 20083,
-      "activeMarkets": 156,
-      "endedMarkets": 17,
-      "resolvedMarkets": 19717,
-      "totalActivePoolUsd": 5825,
-      "totalActiveBets": 534,
+      "totalMarkets": 24019,
+      "activeMarkets": 269,
+      "endedMarkets": 28,
+      "resolvedMarkets": 23508,
+      "totalActivePoolUsd": 2286,
+      "totalActiveBets": 212,
       "categories": {
         "crypto": {
-          "count": 4,
+          "count": 15,
           "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 96,
-          "poolUsd": 5825,
-          "bets": 534
+          "count": 85,
+          "poolUsd": 2286,
+          "bets": 212
         }
       },
       "topMarkets": [
         {
-          "question": "San Antonio Spurs vs Portland Trail Blazers",
+          "question": "Barcelona vs Real Madrid",
           "category": "sports",
-          "totalPool": 210,
-          "betCount": 2,
-          "endTime": "2026-05-02T03:00:00.000Z"
+          "totalPool": 221,
+          "betCount": 9,
+          "endTime": "2026-05-10T18:00:00.000Z"
         },
         {
-          "question": "Baltimore Orioles vs Houston Astros",
+          "question": "Buffalo Sabres vs Montreal Canadiens",
           "category": "sports",
           "totalPool": 175,
           "betCount": 9,
-          "endTime": "2026-04-28T21:35:00.000Z"
+          "endTime": "2026-05-08T22:00:00.000Z"
         },
         {
-          "question": "Yakult Swallows vs Hanshin Tigers",
+          "question": "Anaheim Ducks vs Vegas Golden Knights",
           "category": "sports",
           "totalPool": 160,
-          "betCount": 12,
-          "endTime": "2026-04-28T08:00:00.000Z"
+          "betCount": 7,
+          "endTime": "2026-05-09T00:30:00.000Z"
         },
         {
-          "question": "Boston Celtics vs Philadelphia 76ers",
+          "question": "Montreal Canadiens vs Buffalo Sabres",
           "category": "sports",
-          "totalPool": 150,
+          "totalPool": 70,
           "betCount": 4,
-          "endTime": "2026-05-02T03:00:00.000Z"
+          "endTime": "2026-05-10T22:00:00.000Z"
         },
         {
-          "question": "Chunichi Dragons vs Yokohama BayStars",
+          "question": "Minnesota Wild vs Colorado Avalanche",
           "category": "sports",
-          "totalPool": 140,
-          "betCount": 13,
-          "endTime": "2026-04-28T08:00:00.000Z"
+          "totalPool": 70,
+          "betCount": 4,
+          "endTime": "2026-05-10T00:00:00.000Z"
         }
       ]
     },
@@ -161,18 +211,6 @@
       "isCandidate": true
     },
     {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
-      "isCandidate": true
-    },
-    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -182,30 +220,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Hardware wallet with Canton support",
-      "isCandidate": true
-    },
-    {
-      "id": "fairmint",
-      "name": "Fairmint-validator-1",
-      "url": "https://fairmint.com",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Equity & token issuance",
-      "isCandidate": true
-    },
-    {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Onchain analytics",
       "isCandidate": true
     },
     {
@@ -242,18 +256,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton Network wallet",
-      "isCandidate": true
-    },
-    {
-      "id": "blackmantacapital-primary",
-      "name": "blackmantacapital-primary-1",
-      "url": "https://blackmanta.capital",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "BaFin-regulated tokenized securities",
       "isCandidate": true
     },
     {
@@ -296,7 +298,7 @@
       "id": "elk",
       "name": "elk-Validator-2",
       "url": "https://canton.wiki/projects/elk-capital-markets",
-      "appCategory": "Tokenized Assets",
+      "appCategory": "Orderbook/CLOB",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
@@ -317,18 +319,6 @@
       "isCandidate": true
     },
     {
-      "id": "mpch-brondvn",
-      "name": "MPCH-BRONdvn-1",
-      "url": "https://mpcvault.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "MPCH Bron delegation validator",
-      "isCandidate": true
-    },
-    {
       "id": "noves-translate",
       "name": "noves-translate",
       "url": "https://noves.fi",
@@ -341,51 +331,15 @@
       "isCandidate": true
     },
     {
-      "id": "peertrust",
-      "name": "peertrust-validator-2",
-      "url": "https://peertrust.io/",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "PeerTrust | Secure, Transparent Peer Review Infrastructure for Academic ...",
-      "isCandidate": true
-    },
-    {
-      "id": "redstone",
-      "name": "Redstone-validator-1",
-      "url": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ...",
-      "isCandidate": true
-    },
-    {
       "id": "rootsfi",
       "name": "RootsFi-validator-01",
-      "url": "https://www.rootsfi.com/products/bridge",
+      "url": "https://cctools.network/ecosystem/rootsfi",
       "appCategory": "Payments",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Roots - Payment Network - rootsfi.com",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
+      "note": "Project — CCTools",
       "isCandidate": true
     },
     {
@@ -401,30 +355,6 @@
       "isCandidate": true
     },
     {
-      "id": "daml-autopilot",
-      "name": "daml-autopilot",
-      "url": "https://blog.chainsafe.io/daml-autopilot/",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Automate Canton Network Development with Daml Autopilot",
-      "isCandidate": true
-    },
-    {
-      "id": "ftp",
-      "name": "FTP-validator-1",
-      "url": "https://en.wikipedia.org/wiki/Canton_Network",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Network - Wikipedia",
-      "isCandidate": true
-    },
-    {
       "id": "handl-issuer",
       "name": "handl-issuer",
       "url": "https://www.bitrue.com/blog/what-is-handl",
@@ -437,21 +367,45 @@
       "isCandidate": true
     },
     {
-      "id": "kora-app",
-      "name": "kora-app",
-      "url": "https://learn.kora.so/",
+      "id": "heliosfinance",
+      "name": "HeliosFinance-Mainnet-1",
+      "url": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Welcome to Kora | Kora Docs",
+      "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ...",
+      "isCandidate": true
+    },
+    {
+      "id": "kora-app",
+      "name": "kora-app",
+      "url": "https://kora.so/",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Kora",
+      "isCandidate": true
+    },
+    {
+      "id": "modulo-issuer",
+      "name": "Modulo-Issuer",
+      "url": "https://www.gate.com/blog/canton-network-full-guide-from-cc-modules-to-airdrop-opportunities-understanding-institutional-grade-chain-innovation",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network Explained: From CC Modules to Airdrop Opportunities—A ...",
       "isCandidate": true
     },
     {
       "id": "rails-cethmain",
       "name": "rails-cethMain-1",
-      "url": "https://ceth.network/whitepaper",
+      "url": "https://www.ceth.network/",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",
@@ -463,49 +417,13 @@
     {
       "id": "rho-relay",
       "name": "rho-relay",
-      "url": "https://cache.industry.siemens.com/dl/files/292/109747292/att_964668/v1/7SR105_-_Rho_Complete_Technical_Manual.pdf",
-      "appCategory": "Tokenized Assets",
+      "url": "https://docs.rho.trading/rho-relay/rho-relay-overview",
+      "appCategory": "Bridge",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "PDF 7SR105 Rho User Manual - Siemens",
-      "isCandidate": true
-    },
-    {
-      "id": "satsterminal-main",
-      "name": "SatsTerminal-main-1",
-      "url": "https://docs.digitalasset.com/utilities/mainnet/index.html",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Utilities — Digital Asset&#x27;s platform documentation",
-      "isCandidate": true
-    },
-    {
-      "id": "tradefast",
-      "name": "tradefast-mainnet-1",
-      "url": "https://www.cctools.network/ecosystem/trade-fast",
-      "appCategory": "Orderbook/CLOB",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network",
-      "isCandidate": true
-    },
-    {
-      "id": "tradefast-wallet2",
-      "name": "tradefast-wallet2-1",
-      "url": "https://www.cctools.network/ecosystem/trade-fast",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "TradeFast — Canton Ecosystem | CC Tools - cctools.network",
+      "note": "Rho Relay Overview | Rho Labs Documentation",
       "isCandidate": true
     }
   ]

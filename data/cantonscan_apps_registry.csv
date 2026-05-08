@@ -26,24 +26,17 @@ feat-unhedged-app,unhedged-app,Prediction Markets,90,https://unhedged.gg,Canton 
 kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validator node
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
-peertrust-validator-2,peertrust,Validator/Infra,90,https://peertrust.io/,"PeerTrust | Secure, Transparent Peer Review Infrastructure for Academic ..."
-Redstone-validator-1,redstone,Tokenized Assets,90,https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access,"Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ..."
 RootsFi-validator-01,rootsfi,Payments,90,https://cctools.network/ecosystem/rootsfi,Project — CCTools
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-cantory,cantory,Explorer/Infra,75,https://coinmarketcap.com/cmc-ai/canton-network/what-is/,What Is Canton (CC) And How Does It Work? - CoinMarketCap
-FTP-validator-1,ftp,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
 handl-issuer,handl-issuer,Tokenized Assets,75,https://www.bitrue.com/blog/what-is-handl,What Is HANDL Token on Canton Network Explained - bitrue.com
 HeliosFinance-Mainnet-1,heliosfinance,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
 kora-app,kora-app,Tokenized Assets,75,https://kora.so/,Kora
-nodetech-mainnet-1,nodetech,Validator/Infra,75,https://www.cantonnodes.com/,Canton Nodes - Professional RPC &amp; API Services for Canton Network
-rails-cethMain-1,rails-cethmain,Tokenized Assets,75,https://www.ceth.network/transparency,cETH - ETH on Canton
+Modulo-Issuer,modulo-issuer,Tokenized Assets,75,https://www.gate.com/blog/canton-network-full-guide-from-cc-modules-to-airdrop-opportunities-understanding-institutional-grade-chain-innovation,Canton Network Explained: From CC Modules to Airdrop Opportunities—A ...
+rails-cethMain-1,rails-cethmain,Tokenized Assets,75,https://www.ceth.network/,cETH - ETH on Canton
 rho-relay,rho-relay,Bridge,75,https://docs.rho.trading/rho-relay/rho-relay-overview,Rho Relay Overview | Rho Labs Documentation
 ValaWallet-FA,valawallet-fa,Validator/Infra,75,https://canton.foundation/validators/,Validators - Canton Foundation
 auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Wallet,65,https://newreleases.io/project/github/canton-network/wallet-gateway/release/@canton-network%2Fcore-ledger-client@0.31.1,canton-network/ wallet-gateway @canton-network/core-ledger-client@0.31. ...
-auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Explorer/Infra,65,https://ccview.io/,Real‑time Canton Network Analytics | Canton Explorer
-auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,65,https://www.digitalasset.com/,Digital Asset Holdings - Delivering synchronized finance
-Modulo-Issuer,modulo-issuer,Unknown,65,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
-walley,walley,Unknown,65,https://cantonnews.org/a-look-inside-the-applications-building-on-canton-network,A Look Inside the Applications Building on Canton Network
+walley,walley,Unknown,65,https://en.wikipedia.org/wiki/Canton_Network,Canton Network - Wikipedia
 party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Explorer/Infra,60,https://docs.digitalasset.com/build/3.4/explanations/parties-users.html,Parties and users on a Canton ledger — Digital Asset&#x27;s platform ...
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
@@ -58,15 +51,23 @@ poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 Thetamarkets,thetamarkets,Prediction Markets,55,,Markets protocol
-8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://www.bleepingcomputer.com/forums/t/808874/downloaded-a-file-from-a-page-bitdefender-blocked-only-saw-it-after/,"downloaded a file from a page bitdefender blocked, only saw it after ..."
+8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,50,https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference,Application installation error codes reference - Configuration Manager ...
 cauri-wallet-provider1,cauri-wallet-provider1,Wallet,40,,
 confimarket-main-1,confimarket-main,Prediction Markets,40,,
 dteamtech-validator-1,dteamtech,Validator/Infra,40,,
+FTP-validator-1,ftp,Validator/Infra,40,,
+nodetech-mainnet-1,nodetech,Validator/Infra,40,,
 OKX-VALIDATOR-2,okx,Validator/Infra,40,,
+peertrust-validator-2,peertrust,Validator/Infra,40,,
+Redstone-validator-1,redstone,Validator/Infra,40,,
 Tokino-validator-1,tokino,Validator/Infra,40,,
-arcane-mainnet-1,arcane,Unknown,30,,
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Identity/Auth,30,,
+auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,30,,
+cantory,cantory,Unknown,30,,
 daml-autopilot,daml-autopilot,Unknown,30,,
+foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
 kairo-mainnet,kairo,Unknown,30,,Canton app
+ledger-ledgerops-2,ledger-ledgerops,Unknown,30,,
 modo,modo,Unknown,30,,Canton app
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 openvector-mainnet-1,openvector,Unknown,30,,Canton app

@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-07T00:59:27.678Z",
-  "cantonCoinPriceUsd": 0.1474382925313029,
+  "lastUpdated": "2026-05-08T00:58:13.054Z",
+  "cantonCoinPriceUsd": 0.1456138370911663,
   "networkHealth": {
-    "totalTvlUsd": 1652360.444886833,
+    "totalTvlUsd": 1877787.4873639094,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 26,
+    "trackedApps": 24,
     "transparentApps": 2,
     "netIssuance": null,
     "governanceParticipation": null
@@ -18,13 +18,13 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": 99.99821291731882,
+    "tvlLargestPoolPct": 87.48785497994422,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "100% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 26 tracked apps expose public metrics"
+    "87% of DEX TVL is in the largest pool (CC/USDCx)",
+    "2 of 24 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -40,51 +40,52 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.1474382925313029,
-      "cbtcPriceUsd": 11595.436369959018,
+      "ccPriceUsd": 0.1456138370911663,
+      "cbtcPriceUsd": 80968.9455561988,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5595611.997738,
-          "token2Holdings": 825007.4786141634,
-          "tvlUsd": 1650014.9572283267,
+          "token1Holdings": 5634203.638162268,
+          "token2Holdings": 820418.010705817,
+          "tvlUsd": 1640836.021411634,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.11544486839828316,
-          "totalLpTokens": 2048704.1584068206,
+          "yield24h": 0.17072164707743576,
+          "totalLpTokens": 2049146.255818707,
           "volume": {
-            "1h": 14899.598055928896,
-            "4h": 53503.98379180158,
-            "12h": 71711.01400488966,
-            "24h": 243257.8274918975,
-            "7d": 798735.6109612031
+            "1h": 14876.158272148788,
+            "4h": 50315.61909100805,
+            "12h": 159521.23876419148,
+            "24h": 351225.8614358145,
+            "7d": 1143859.455058671
           }
         },
         {
           "name": "CC / CBTC",
-          "token1": "USDCx",
+          "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 100,
-          "token2Holdings": 0.00127152,
-          "tvlUsd": 29.48765850626058,
+          "token1Holdings": 805780.1052428666,
+          "token2Holdings": 1.4491078298,
+          "tvlUsd": 234665.4659522752,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "totalLpTokens": 0.356583791,
+          "yield24h": 0.1686970289603409,
+          "totalLpTokens": 1004.4047788759,
           "volume": {
-            "1h": 0.2621450896855703,
-            "4h": 48011.77732104177,
-            "12h": 50056.66393243667,
-            "24h": 50935.52402198696,
-            "7d": 154973.5693953166
+            "1h": 0.3092871540498178,
+            "4h": 47534.6189078262,
+            "12h": 49223.22168926843,
+            "24h": 49944.03635862184,
+            "7d": 204793.97862102342
           }
         }
       ],
-      "totalTvlUsd": 1650044.444886833,
-      "largestPoolPct": 99.99821291731882,
-      "totalVolume24hUsd": 294193.3515138845,
-      "totalVolume7dUsd": 953709.1803565198,
+      "totalTvlUsd": 1875501.4873639094,
+      "largestPoolPct": 87.48785497994422,
+      "totalVolume24hUsd": 401169.8977944364,
+      "totalVolume7dUsd": 1348653.4336796945,
       "totalVolume30dUsd": null
     },
     {
@@ -94,12 +95,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 23621,
-      "activeMarkets": 254,
-      "endedMarkets": 34,
-      "resolvedMarkets": 23119,
-      "totalActivePoolUsd": 2316,
-      "totalActiveBets": 230,
+      "totalMarkets": 24019,
+      "activeMarkets": 269,
+      "endedMarkets": 28,
+      "resolvedMarkets": 23508,
+      "totalActivePoolUsd": 2286,
+      "totalActiveBets": 212,
       "categories": {
         "crypto": {
           "count": 15,
@@ -108,38 +109,31 @@
         },
         "sports": {
           "count": 85,
-          "poolUsd": 2316,
-          "bets": 230
+          "poolUsd": 2286,
+          "bets": 212
         }
       },
       "topMarkets": [
         {
-          "question": "Anaheim Ducks vs Vegas Golden Knights",
+          "question": "Barcelona vs Real Madrid",
           "category": "sports",
-          "totalPool": 125,
-          "betCount": 4,
-          "endTime": "2026-05-09T00:30:00.000Z"
+          "totalPool": 221,
+          "betCount": 9,
+          "endTime": "2026-05-10T18:00:00.000Z"
         },
         {
           "question": "Buffalo Sabres vs Montreal Canadiens",
           "category": "sports",
-          "totalPool": 115,
-          "betCount": 4,
+          "totalPool": 175,
+          "betCount": 9,
           "endTime": "2026-05-08T22:00:00.000Z"
         },
         {
-          "question": "Philadelphia Flyers vs Carolina Hurricanes",
+          "question": "Anaheim Ducks vs Vegas Golden Knights",
           "category": "sports",
-          "totalPool": 115,
+          "totalPool": 160,
           "betCount": 7,
-          "endTime": "2026-05-07T23:00:00.000Z"
-        },
-        {
-          "question": "Barcelona vs Real Madrid",
-          "category": "sports",
-          "totalPool": 101,
-          "betCount": 6,
-          "endTime": "2026-05-10T18:00:00.000Z"
+          "endTime": "2026-05-09T00:30:00.000Z"
         },
         {
           "question": "Montreal Canadiens vs Buffalo Sabres",
@@ -147,6 +141,13 @@
           "totalPool": 70,
           "betCount": 4,
           "endTime": "2026-05-10T22:00:00.000Z"
+        },
+        {
+          "question": "Minnesota Wild vs Colorado Avalanche",
+          "category": "sports",
+          "totalPool": 70,
+          "betCount": 4,
+          "endTime": "2026-05-10T00:00:00.000Z"
         }
       ]
     },
@@ -330,18 +331,6 @@
       "isCandidate": true
     },
     {
-      "id": "redstone",
-      "name": "Redstone-validator-1",
-      "url": "https://www.coindesk.com/business/2025/12/09/blockchain-network-canton-with-usd6t-of-real-world-assets-taps-redstone-for-defi-access",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Blockchain Network Canton, With $6T of Real-World Assets, Taps RedStone ...",
-      "isCandidate": true
-    },
-    {
       "id": "rootsfi",
       "name": "RootsFi-validator-01",
       "url": "https://cctools.network/ecosystem/rootsfi",
@@ -363,30 +352,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Standard Chartered crypto custody",
-      "isCandidate": true
-    },
-    {
-      "id": "cantory",
-      "name": "cantory",
-      "url": "https://coinmarketcap.com/cmc-ai/canton-network/what-is/",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "What Is Canton (CC) And How Does It Work? - CoinMarketCap",
-      "isCandidate": true
-    },
-    {
-      "id": "ftp",
-      "name": "FTP-validator-1",
-      "url": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ...",
       "isCandidate": true
     },
     {
@@ -426,9 +391,21 @@
       "isCandidate": true
     },
     {
+      "id": "modulo-issuer",
+      "name": "Modulo-Issuer",
+      "url": "https://www.gate.com/blog/canton-network-full-guide-from-cc-modules-to-airdrop-opportunities-understanding-institutional-grade-chain-innovation",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton Network Explained: From CC Modules to Airdrop Opportunities—A ...",
+      "isCandidate": true
+    },
+    {
       "id": "rails-cethmain",
       "name": "rails-cethMain-1",
-      "url": "https://www.ceth.network/transparency",
+      "url": "https://www.ceth.network/",
       "appCategory": "Tokenized Assets",
       "transparency": "none",
       "dataAvailability": "limited",

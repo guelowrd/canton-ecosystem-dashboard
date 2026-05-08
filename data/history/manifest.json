@@ -1,5 +1,20 @@
 [
   {
+    "file": "snapshot-2026-05-08_0058.json",
+    "lastUpdated": "2026-05-08T00:58:13.054Z",
+    "tvlUsd": 1877787.4873639094,
+    "ccPriceUsd": 0.1456138370911663,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "Modulo-Issuer"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-07_0059.json",
     "lastUpdated": "2026-05-07T00:59:27.678Z",
     "tvlUsd": 1652360.444886833,
@@ -145,50 +160,6 @@
     "signals": {
       "newApps": [
         "walley"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-28_0059.json",
-    "lastUpdated": "2026-04-28T00:59:50.988Z",
-    "tvlUsd": 5825,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "cantonloop-mainnet-1",
-        "CoinMetrics-validator-1",
-        "cypherock-mainnet-1",
-        "Fairmint-validator-1",
-        "flipside-validator-1",
-        "Obligate-validator-1",
-        "pixelplex-mainnet-3",
-        "send-cantonwallet-1",
-        "blackmantacapital-primary-1",
-        "Cancore-mainnet-1",
-        "cantor8-digik-1",
-        "dfns1",
-        "elk-Validator-2",
-        "feat-unhedged-app",
-        "MPCH-BRONdvn-1",
-        "noves-translate",
-        "peertrust-validator-2",
-        "Redstone-validator-1",
-        "RootsFi-validator-01",
-        "the_tie_validator",
-        "ZodiaCustody-validator-1",
-        "daml-autopilot",
-        "FTP-validator-1",
-        "handl-issuer",
-        "kora-app",
-        "rails-cethMain-1",
-        "rho-relay",
-        "SatsTerminal-main-1",
-        "tradefast-mainnet-1",
-        "tradefast-wallet2-1"
       ],
       "newData": []
     }
