@@ -104,14 +104,6 @@
     "note": "Blockchain infrastructure"
   },
   {
-    "appName": "Republic-validator-1",
-    "baseName": "republic",
-    "category": "Validator/Infra",
-    "confidence": 100,
-    "websiteGuess": "https://republic.com",
-    "note": "Investment platform validator"
-  },
-  {
     "appName": "send-cantonwallet-1",
     "baseName": "cantonwallet",
     "category": "Wallet",
@@ -152,14 +144,6 @@
     "note": "Crypto index platform"
   },
   {
-    "appName": "Cancore-mainnet-1",
-    "baseName": "cancore",
-    "category": "DEX/AMM",
-    "confidence": 90,
-    "websiteGuess": "https://cancore.io/",
-    "note": "Cancore | P2P Atomic Swap"
-  },
-  {
     "appName": "cantor8-digik-1",
     "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
@@ -174,14 +158,6 @@
     "confidence": 90,
     "websiteGuess": "https://dfns.co",
     "note": "DFNS wallet infrastructure"
-  },
-  {
-    "appName": "elk-Validator-2",
-    "baseName": "elk",
-    "category": "Orderbook/CLOB",
-    "confidence": 90,
-    "websiteGuess": "https://canton.wiki/projects/elk-capital-markets",
-    "note": "Elk Capital Markets — Canton Network Trading &amp; Exchanges 2026"
   },
   {
     "appName": "feat-unhedged-app",
@@ -216,12 +192,12 @@
     "note": "Noves Translate API"
   },
   {
-    "appName": "RootsFi-validator-01",
-    "baseName": "rootsfi",
-    "category": "Payments",
+    "appName": "the_tie_validator",
+    "baseName": "thetievalidator",
+    "category": "Explorer/Infra",
     "confidence": 90,
-    "websiteGuess": "https://cctools.network/ecosystem/rootsfi",
-    "note": "Project — CCTools"
+    "websiteGuess": "https://thetie.io",
+    "note": "Crypto analytics platform"
   },
   {
     "appName": "ZodiaCustody-validator-1",
@@ -232,84 +208,12 @@
     "note": "Standard Chartered crypto custody"
   },
   {
-    "appName": "handl-issuer",
-    "baseName": "handl-issuer",
-    "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://www.bitrue.com/blog/what-is-handl",
-    "note": "What Is HANDL Token on Canton Network Explained - bitrue.com"
-  },
-  {
-    "appName": "HeliosFinance-Mainnet-1",
-    "baseName": "heliosfinance",
-    "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
-    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
-  },
-  {
     "appName": "kora-app",
     "baseName": "kora-app",
     "category": "Tokenized Assets",
     "confidence": 75,
     "websiteGuess": "https://kora.so/",
     "note": "Kora"
-  },
-  {
-    "appName": "Modulo-Issuer",
-    "baseName": "modulo-issuer",
-    "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://www.gate.com/blog/canton-network-full-guide-from-cc-modules-to-airdrop-opportunities-understanding-institutional-grade-chain-innovation",
-    "note": "Canton Network Explained: From CC Modules to Airdrop Opportunities—A ..."
-  },
-  {
-    "appName": "rails-cethMain-1",
-    "baseName": "rails-cethmain",
-    "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://www.ceth.network/",
-    "note": "cETH - ETH on Canton"
-  },
-  {
-    "appName": "rho-relay",
-    "baseName": "rho-relay",
-    "category": "Bridge",
-    "confidence": 75,
-    "websiteGuess": "https://docs.rho.trading/rho-relay/rho-relay-overview",
-    "note": "Rho Relay Overview | Rho Labs Documentation"
-  },
-  {
-    "appName": "ValaWallet-FA",
-    "baseName": "valawallet-fa",
-    "category": "Validator/Infra",
-    "confidence": 75,
-    "websiteGuess": "https://canton.foundation/validators/",
-    "note": "Validators - Canton Foundation"
-  },
-  {
-    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
-    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
-    "category": "Wallet",
-    "confidence": 65,
-    "websiteGuess": "https://newreleases.io/project/github/canton-network/wallet-gateway/release/@canton-network%2Fcore-ledger-client@0.31.1",
-    "note": "canton-network/ wallet-gateway @canton-network/core-ledger-client@0.31. ..."
-  },
-  {
-    "appName": "walley",
-    "baseName": "walley",
-    "category": "Unknown",
-    "confidence": 65,
-    "websiteGuess": "https://en.wikipedia.org/wiki/Canton_Network",
-    "note": "Canton Network - Wikipedia"
-  },
-  {
-    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
-    "category": "Explorer/Infra",
-    "confidence": 60,
-    "websiteGuess": "https://docs.digitalasset.com/build/3.4/explanations/parties-users.html",
-    "note": "Parties and users on a Canton ledger — Digital Asset&#x27;s platform ..."
   },
   {
     "appName": "Bridge-Operator",
@@ -416,14 +320,6 @@
     "note": "Markets protocol"
   },
   {
-    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
-    "category": "Unknown",
-    "confidence": 50,
-    "websiteGuess": "https://learn.microsoft.com/en-us/intune/configmgr/tenant-attach/app-install-error-reference",
-    "note": "Application installation error codes reference - Configuration Manager ..."
-  },
-  {
     "appName": "cauri-wallet-provider1",
     "baseName": "cauri-wallet-provider1",
     "category": "Wallet",
@@ -442,6 +338,14 @@
   {
     "appName": "dteamtech-validator-1",
     "baseName": "dteamtech",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "elk-Validator-2",
+    "baseName": "elk",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
@@ -488,10 +392,42 @@
     "note": null
   },
   {
+    "appName": "rho-relay",
+    "baseName": "rho-relay",
+    "category": "Bridge",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "RootsFi-validator-01",
+    "baseName": "rootsfi",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "Tokino-validator-1",
     "baseName": "tokino",
     "category": "Validator/Infra",
     "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "ValaWallet-FA",
+    "baseName": "valawallet-fa",
+    "category": "Wallet",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "auth0_007c6643538f2eadd3e573dd05b9",
+    "baseName": "auth0007c6643538f2eadd3e573dd05b9",
+    "category": "Identity/Auth",
+    "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
@@ -507,6 +443,22 @@
     "appName": "auth0_007c691c4d28726455d23d1aa6dd",
     "baseName": "auth0007c691c4d28726455d23d1aa6dd",
     "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "bitdynamicsab-mainnet-1",
+    "baseName": "bitdynamicsab",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "Cancore-mainnet-1",
+    "baseName": "cancore",
+    "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
@@ -528,12 +480,20 @@
     "note": null
   },
   {
-    "appName": "foundinalsunthy-mainnet-1",
-    "baseName": "foundinalsunthy",
+    "appName": "handl-issuer",
+    "baseName": "handl-issuer",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": "Canton app"
+    "note": null
+  },
+  {
+    "appName": "HeliosFinance-Mainnet-1",
+    "baseName": "heliosfinance",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "kairo-mainnet",
@@ -544,20 +504,20 @@
     "note": "Canton app"
   },
   {
-    "appName": "ledger-ledgerops-2",
-    "baseName": "ledger-ledgerops",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "modo",
     "baseName": "modo",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
+  },
+  {
+    "appName": "Modulo-Issuer",
+    "baseName": "modulo-issuer",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "modulo-mainnet-2",
@@ -568,12 +528,28 @@
     "note": "Canton app"
   },
   {
+    "appName": "obligate-issuance",
+    "baseName": "obligate-issuance",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "openvector-mainnet-1",
     "baseName": "openvector",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
+  },
+  {
+    "appName": "rails-cethMain-1",
+    "baseName": "rails-cethmain",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "SatsTerminal-main-1",
@@ -608,6 +584,14 @@
     "note": "Canton app"
   },
   {
+    "appName": "walley",
+    "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
     "category": "Unknown",
@@ -616,8 +600,24 @@
     "note": null
   },
   {
+    "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
+    "category": "Unknown",
+    "confidence": 15,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
+    "baseName": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807",
     "category": "Unknown",
     "confidence": 15,
     "websiteGuess": null,
