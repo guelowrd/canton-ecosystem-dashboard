@@ -192,14 +192,6 @@
     "note": "Noves Translate API"
   },
   {
-    "appName": "the_tie_validator",
-    "baseName": "thetievalidator",
-    "category": "Explorer/Infra",
-    "confidence": 90,
-    "websiteGuess": "https://thetie.io",
-    "note": "Crypto analytics platform"
-  },
-  {
     "appName": "ZodiaCustody-validator-1",
     "baseName": "zodiacustody",
     "category": "Wallet",
@@ -448,14 +440,6 @@
     "note": null
   },
   {
-    "appName": "bitdynamicsab-mainnet-1",
-    "baseName": "bitdynamicsab",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "Cancore-mainnet-1",
     "baseName": "cancore",
     "category": "Unknown",
@@ -480,6 +464,14 @@
     "note": null
   },
   {
+    "appName": "foundinalsunthy-mainnet-1",
+    "baseName": "foundinalsunthy",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
     "appName": "handl-issuer",
     "baseName": "handl-issuer",
     "category": "Unknown",
@@ -502,6 +494,14 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
+  },
+  {
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "modo",

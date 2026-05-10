@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-05-10_0102.json",
+    "lastUpdated": "2026-05-10T01:02:54.407Z",
+    "tvlUsd": 1945832.7378807573,
+    "ccPriceUsd": 0.15606768157060721,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-09_0058.json",
     "lastUpdated": "2026-05-09T00:58:28.301Z",
     "tvlUsd": 1890773.051665068,
@@ -148,19 +161,6 @@
         "HeliosFinance-Mainnet-1",
         "nodetech-mainnet-1"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-04-30_0100.json",
-    "lastUpdated": "2026-04-30T01:00:49.937Z",
-    "tvlUsd": 1755,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
