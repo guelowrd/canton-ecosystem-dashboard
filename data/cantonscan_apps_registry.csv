@@ -9,7 +9,6 @@ Hecto-Finance-1,hecto-finance,Lending,100,https://hectofinance.com,Canton DeFi p
 IntellectEU-validator-1,intellecteu,Validator/Infra,100,https://intellecteu.com,Enterprise blockchain solutions
 kraken-validator-01,kraken,Validator/Infra,100,https://kraken.com,Crypto exchange validator
 mexc-mainNet-01,mexc,Validator/Infra,100,https://mexc.com,MEXC exchange validator
-Obligate-validator-1,obligate,Tokenized Assets,100,https://obligate.com,On-chain bond issuance
 pixelplex-mainnet-3,pixelplex,Explorer/Infra,100,https://pixelplex.io,Canton exchange development
 proofgroup-validator-1,proofgroup,Validator/Infra,100,https://proofgroup.com,Blockchain infrastructure
 send-cantonwallet-1,cantonwallet,Wallet,100,https://cantonwallet.com,Canton Network wallet
@@ -24,7 +23,8 @@ kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validato
 nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
 ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
-kora-app,kora-app,Tokenized Assets,75,https://kora.so/,Kora
+HeliosFinance-Mainnet-1,heliosfinance,Tokenized Assets,75,https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/,"Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
+rho-relay,rho-relay,Bridge,75,https://docs.rho.trading/rho-relay/rho-relay-overview,Rho Relay Overview | Rho Labs Documentation
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
 CantonSwap,cantonswap,DEX/AMM,55,,Canton swap protocol
@@ -33,13 +33,15 @@ handlpay-main-1,handlpay-main,Payments,55,,Canton payment service
 iBTC-validator-1,ibtc,Validator/Infra,55,,iBTC validator
 lithiumdigital-validator-1,lithiumdigital,Validator/Infra,55,,Canton validator
 LoopID,loopid,Identity/Auth,55,,Identity service
+M1-validator-1,m1,Validator/Infra,55,,Canton validator
 palladium-validator-1,palladium,Validator/Infra,55,,Canton validator
 poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 Thetamarkets,thetamarkets,Prediction Markets,55,,Markets protocol
+TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
+aevumWallet,aevumwallet,Wallet,40,,
 cauri-wallet-provider1,cauri-wallet-provider1,Wallet,40,,
-confimarket-main-1,confimarket-main,Prediction Markets,40,,
 dteamtech-validator-1,dteamtech,Validator/Infra,40,,
 elk-Validator-2,elk,Validator/Infra,40,,
 FTP-validator-1,ftp,Validator/Infra,40,,
@@ -47,7 +49,6 @@ nodetech-mainnet-1,nodetech,Validator/Infra,40,,
 OKX-VALIDATOR-2,okx,Validator/Infra,40,,
 peertrust-validator-2,peertrust,Validator/Infra,40,,
 Redstone-validator-1,redstone,Validator/Infra,40,,
-rho-relay,rho-relay,Bridge,40,,
 RootsFi-validator-01,rootsfi,Validator/Infra,40,,
 Tokino-validator-1,tokino,Validator/Infra,40,,
 ValaWallet-FA,valawallet-fa,Wallet,40,,
@@ -57,11 +58,9 @@ auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Au
 Cancore-mainnet-1,cancore,Unknown,30,,
 cantory,cantory,Unknown,30,,
 daml-autopilot,daml-autopilot,Unknown,30,,
-foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
 handl-issuer,handl-issuer,Unknown,30,,
-HeliosFinance-Mainnet-1,heliosfinance,Unknown,30,,
 kairo-mainnet,kairo,Unknown,30,,Canton app
-ledger-ledgerops-2,ledger-ledgerops,Unknown,30,,
+kora-app,kora-app,Unknown,30,,
 modo,modo,Unknown,30,,Canton app
 Modulo-Issuer,modulo-issuer,Unknown,30,,
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
