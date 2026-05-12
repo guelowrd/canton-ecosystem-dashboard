@@ -1,5 +1,20 @@
 [
   {
+    "file": "snapshot-2026-05-12_0057.json",
+    "lastUpdated": "2026-05-12T00:57:44.887Z",
+    "tvlUsd": 1747888.8578267081,
+    "ccPriceUsd": 0.16425983862554147,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "blackmantacapital-primary-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-11_0103.json",
     "lastUpdated": "2026-05-11T01:03:02.401Z",
     "tvlUsd": 1700283.1068654633,
@@ -143,23 +158,6 @@
       "newApps": [
         "flipside-validator-1",
         "Modulo-Issuer"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-05-02_0056.json",
-    "lastUpdated": "2026-05-02T00:56:23.678Z",
-    "tvlUsd": 1899487.3455614017,
-    "ccPriceUsd": 0.14986347495676225,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "RootsFi-validator-01",
-        "cantory",
-        "kora-app"
       ],
       "newData": []
     }

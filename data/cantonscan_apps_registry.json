@@ -136,6 +136,14 @@
     "note": "Crypto index platform"
   },
   {
+    "appName": "blackmantacapital-primary-1",
+    "baseName": "blackmantacapital-primary",
+    "category": "Tokenized Assets",
+    "confidence": 90,
+    "websiteGuess": "https://blackmanta.capital",
+    "note": "BaFin-regulated tokenized securities"
+  },
+  {
     "appName": "cantor8-digik-1",
     "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
@@ -192,22 +200,6 @@
     "note": "Standard Chartered crypto custody"
   },
   {
-    "appName": "HeliosFinance-Mainnet-1",
-    "baseName": "heliosfinance",
-    "category": "Tokenized Assets",
-    "confidence": 75,
-    "websiteGuess": "https://genfinity.io/2026/01/29/canton-network-institutional-blockchain-overview/",
-    "note": "Inside the Canton Network: Infrastructure for Real-Time, Tokenized ..."
-  },
-  {
-    "appName": "rho-relay",
-    "baseName": "rho-relay",
-    "category": "Bridge",
-    "confidence": 75,
-    "websiteGuess": "https://docs.rho.trading/rho-relay/rho-relay-overview",
-    "note": "Rho Relay Overview | Rho Labs Documentation"
-  },
-  {
     "appName": "Bridge-Operator",
     "baseName": "bridge-operator",
     "category": "Bridge",
@@ -240,6 +232,14 @@
     "note": "Canton Coin browser"
   },
   {
+    "appName": "DStash",
+    "baseName": "dstash",
+    "category": "Wallet",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton stash wallet"
+  },
+  {
     "appName": "handlpay-main-1",
     "baseName": "handlpay-main",
     "category": "Payments",
@@ -270,14 +270,6 @@
     "confidence": 55,
     "websiteGuess": null,
     "note": "Identity service"
-  },
-  {
-    "appName": "M1-validator-1",
-    "baseName": "m1",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Canton validator"
   },
   {
     "appName": "palladium-validator-1",
@@ -320,14 +312,6 @@
     "note": "Markets protocol"
   },
   {
-    "appName": "TRIZEGroup-cantonMainnetValidator-1",
-    "baseName": "trizegroup-cantonmainnetvalidator",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "TRIZE Group validator"
-  },
-  {
     "appName": "aevumWallet",
     "baseName": "aevumwallet",
     "category": "Wallet",
@@ -339,6 +323,14 @@
     "appName": "cauri-wallet-provider1",
     "baseName": "cauri-wallet-provider1",
     "category": "Wallet",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "confimarket-main-1",
+    "baseName": "confimarket-main",
+    "category": "Prediction Markets",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
@@ -400,6 +392,14 @@
     "note": null
   },
   {
+    "appName": "rho-relay",
+    "baseName": "rho-relay",
+    "category": "Bridge",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "RootsFi-validator-01",
     "baseName": "rootsfi",
     "category": "Validator/Infra",
@@ -420,6 +420,14 @@
     "baseName": "valawallet-fa",
     "category": "Wallet",
     "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "arcane-mainnet-1",
+    "baseName": "arcane",
+    "category": "Unknown",
+    "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
@@ -480,6 +488,14 @@
     "note": null
   },
   {
+    "appName": "HeliosFinance-Mainnet-1",
+    "baseName": "heliosfinance",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "kairo-mainnet",
     "baseName": "kairo",
     "category": "Unknown",
@@ -490,6 +506,14 @@
   {
     "appName": "kora-app",
     "baseName": "kora-app",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
