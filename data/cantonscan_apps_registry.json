@@ -256,20 +256,20 @@
     "note": "iBTC validator"
   },
   {
-    "appName": "lithiumdigital-validator-1",
-    "baseName": "lithiumdigital",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Canton validator"
-  },
-  {
     "appName": "LoopID",
     "baseName": "loopid",
     "category": "Identity/Auth",
     "confidence": 55,
     "websiteGuess": null,
     "note": "Identity service"
+  },
+  {
+    "appName": "openvector-wallet-1",
+    "baseName": "openvector-wallet",
+    "category": "Wallet",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "OpenVector wallet"
   },
   {
     "appName": "palladium-validator-1",
@@ -448,14 +448,6 @@
     "note": null
   },
   {
-    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
-    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "Cancore-mainnet-1",
     "baseName": "cancore",
     "category": "Unknown",
@@ -466,6 +458,14 @@
   {
     "appName": "cantory",
     "baseName": "cantory",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "CopperClearLoop",
+    "baseName": "copperclearloop",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -506,14 +506,6 @@
   {
     "appName": "kora-app",
     "baseName": "kora-app",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "ledger-ledgerops-2",
-    "baseName": "ledger-ledgerops",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,

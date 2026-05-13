@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-12T00:57:44.887Z",
-  "cantonCoinPriceUsd": 0.16425983862554147,
+  "lastUpdated": "2026-05-13T01:02:18.263Z",
+  "cantonCoinPriceUsd": 0.1539830461790083,
   "networkHealth": {
-    "totalTvlUsd": 1747888.8578267081,
+    "totalTvlUsd": 1935644.596454858,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 15,
@@ -18,12 +18,12 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": 99.99810530178837,
+    "tvlLargestPoolPct": 87.51266663113239,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "100% of DEX TVL is in the largest pool (CC/USDCx)",
+    "88% of DEX TVL is in the largest pool (CC/USDCx)",
     "2 of 15 tracked apps expose public metrics"
   ],
   "apps": [
@@ -40,52 +40,52 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.16425983862554147,
-      "cbtcPriceUsd": 12688.441825122909,
+      "ccPriceUsd": 0.1539830461790083,
+      "cbtcPriceUsd": 80463.22335742414,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5318146.447870909,
-          "token2Holdings": 873557.8773142722,
-          "tvlUsd": 1747115.7546285442,
+          "token1Holdings": 5493827.737025695,
+          "token2Holdings": 845956.3301299443,
+          "tvlUsd": 1691912.6602598885,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.15104093291457676,
-          "totalLpTokens": 2050876.2714014621,
+          "yield24h": 0.04910729149085458,
+          "totalLpTokens": 2051010.8660322714,
           "volume": {
-            "1h": 5421.240947411816,
-            "4h": 31146.301133711,
-            "12h": 137486.55774701582,
-            "24h": 325988.95830618317,
-            "7d": 2357310.484399123
+            "1h": 2143.992486041,
+            "4h": 7346.42560252735,
+            "12h": 45740.60372565233,
+            "24h": 112328.07240890687,
+            "7d": 2111043.4429061143
           }
         },
         {
           "name": "CC / CBTC",
-          "token1": "USDCx",
+          "token1": "CC",
           "token2": "CBTC",
-          "token1Holdings": 100.764734828,
-          "token2Holdings": 0.0013044627,
-          "tvlUsd": 33.10319816398552,
+          "token1Holdings": 783923.7571463286,
+          "token2Holdings": 1.5002005023,
+          "tvlUsd": 241421.93619496957,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.01831073727666288,
-          "totalLpTokens": 0.3625267775,
+          "yield24h": 0.13323460715926716,
+          "totalLpTokens": 1006.0663472579,
           "volume": {
-            "1h": 3942.5147835659136,
-            "4h": 14831.841484616729,
-            "12h": 21856.364354632107,
-            "24h": 35606.70127905604,
-            "7d": 340944.1827967265
+            "1h": 1072.0153840672056,
+            "4h": 5205.798480064649,
+            "12h": 15447.79100719055,
+            "24h": 41255.257022199876,
+            "7d": 333101.5375742271
           }
         }
       ],
-      "totalTvlUsd": 1747148.8578267081,
-      "largestPoolPct": 99.99810530178837,
-      "totalVolume24hUsd": 361595.6595852392,
-      "totalVolume7dUsd": 2698254.6671958496,
+      "totalTvlUsd": 1933334.596454858,
+      "largestPoolPct": 87.51266663113239,
+      "totalVolume24hUsd": 153583.32943110674,
+      "totalVolume7dUsd": 2444144.9804803412,
       "totalVolume30dUsd": null
     },
     {
@@ -95,12 +95,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 25526,
-      "activeMarkets": 247,
-      "endedMarkets": 31,
-      "resolvedMarkets": 25032,
-      "totalActivePoolUsd": 740,
-      "totalActiveBets": 107,
+      "totalMarkets": 25980,
+      "activeMarkets": 294,
+      "endedMarkets": 26,
+      "resolvedMarkets": 25436,
+      "totalActivePoolUsd": 2310,
+      "totalActiveBets": 305,
       "categories": {
         "crypto": {
           "count": 15,
@@ -109,45 +109,45 @@
         },
         "sports": {
           "count": 85,
-          "poolUsd": 740,
-          "bets": 107
+          "poolUsd": 2310,
+          "bets": 305
         }
       },
       "topMarkets": [
         {
-          "question": "Luis Gurule vs Daniel Barez",
+          "question": "Rizespor vs Beşiktaş",
           "category": "sports",
-          "totalPool": 30,
-          "betCount": 4,
-          "endTime": "2026-05-16T13:00:00.000Z"
+          "totalPool": 65,
+          "betCount": 11,
+          "endTime": "2026-05-15T16:00:00.000Z"
         },
         {
-          "question": "Eintracht Frankfurt vs VfB Stuttgart",
+          "question": "Gaziantep FK vs Başakşehir",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 4,
-          "endTime": "2026-05-16T12:30:00.000Z"
+          "totalPool": 55,
+          "betCount": 9,
+          "endTime": "2026-05-16T16:00:00.000Z"
         },
         {
-          "question": "Borussia Mönchengladbach vs 1899 Hoffenheim",
+          "question": "Samsunspor vs Göztepe",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 3,
-          "endTime": "2026-05-16T12:30:00.000Z"
+          "totalPool": 50,
+          "betCount": 8,
+          "endTime": "2026-05-16T16:00:00.000Z"
         },
         {
-          "question": "Bayern München vs 1. FC Köln",
+          "question": "Arsenal vs Burnley",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 3,
-          "endTime": "2026-05-16T12:30:00.000Z"
+          "totalPool": 50,
+          "betCount": 7,
+          "endTime": "2026-05-17T13:00:00.000Z"
         },
         {
-          "question": "Malut United vs Persita",
+          "question": "San Antonio Spurs vs Minnesota Timberwolves",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 3,
-          "endTime": "2026-05-16T11:00:00.000Z"
+          "totalPool": 50,
+          "betCount": 5,
+          "endTime": "2026-05-17T03:00:00.000Z"
         }
       ]
     },
