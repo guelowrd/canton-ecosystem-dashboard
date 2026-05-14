@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-05-14_0102.json",
+    "lastUpdated": "2026-05-14T01:02:12.719Z",
+    "tvlUsd": 1949107.8141024841,
+    "ccPriceUsd": 0.15641881021341122,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-13_0102.json",
     "lastUpdated": "2026-05-13T01:02:18.263Z",
     "tvlUsd": 1935644.596454858,
@@ -137,24 +150,6 @@
         "arcane-mainnet-1",
         "HeliosFinance-Mainnet-1",
         "Modulo-Issuer"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-05-04_0058.json",
-    "lastUpdated": "2026-05-04T00:58:50.955Z",
-    "tvlUsd": 1893140.5092631108,
-    "ccPriceUsd": 0.14888898406491238,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Redstone-validator-1",
-        "cantory",
-        "kora-app",
-        "walley"
       ],
       "newData": []
     }
