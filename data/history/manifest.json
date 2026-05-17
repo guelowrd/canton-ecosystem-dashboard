@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-05-17_0102.json",
+    "lastUpdated": "2026-05-17T01:02:37.659Z",
+    "tvlUsd": 1704341.2901228527,
+    "ccPriceUsd": 0.1552608626064285,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-16_0057.json",
     "lastUpdated": "2026-05-16T00:57:47.970Z",
     "tvlUsd": 1963294.9853344206,
@@ -133,24 +146,6 @@
     "signals": {
       "newApps": [
         "Modulo-Issuer"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-05-07_0059.json",
-    "lastUpdated": "2026-05-07T00:59:27.678Z",
-    "tvlUsd": 1652360.444886833,
-    "ccPriceUsd": 0.1474382925313029,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "dfns1",
-        "Redstone-validator-1",
-        "cantory",
-        "FTP-validator-1"
       ],
       "newData": []
     }
