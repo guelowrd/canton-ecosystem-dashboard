@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-05-20_0105.json",
+    "lastUpdated": "2026-05-20T01:05:18.361Z",
+    "tvlUsd": 1904205.1690082317,
+    "ccPriceUsd": 0.1491449240008356,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-19_0103.json",
     "lastUpdated": "2026-05-19T01:03:45.743Z",
     "tvlUsd": 1911342.7927111876,
@@ -130,19 +143,6 @@
         "HeliosFinance-Mainnet-1",
         "rho-relay"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-05-10_0102.json",
-    "lastUpdated": "2026-05-10T01:02:54.407Z",
-    "tvlUsd": 1945832.7378807573,
-    "ccPriceUsd": 0.15606768157060721,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
