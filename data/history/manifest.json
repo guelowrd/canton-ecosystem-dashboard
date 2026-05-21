@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-05-21_0105.json",
+    "lastUpdated": "2026-05-21T01:05:41.736Z",
+    "tvlUsd": 1945750.6431173936,
+    "ccPriceUsd": 0.1555639641102554,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-20_0105.json",
     "lastUpdated": "2026-05-20T01:05:18.361Z",
     "tvlUsd": 1904205.1690082317,
@@ -126,22 +139,6 @@
     "signals": {
       "newApps": [
         "blackmantacapital-primary-1"
-      ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-05-11_0103.json",
-    "lastUpdated": "2026-05-11T01:03:02.401Z",
-    "tvlUsd": 1700283.1068654633,
-    "ccPriceUsd": 0.15535144212740273,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "HeliosFinance-Mainnet-1",
-        "rho-relay"
       ],
       "newData": []
     }
