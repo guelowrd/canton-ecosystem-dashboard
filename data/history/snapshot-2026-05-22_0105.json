@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-12T00:57:44.887Z",
-  "cantonCoinPriceUsd": 0.16425983862554147,
+  "lastUpdated": "2026-05-22T01:05:17.972Z",
+  "cantonCoinPriceUsd": 0.15798257615172775,
   "networkHealth": {
-    "totalTvlUsd": 1747888.8578267081,
+    "totalTvlUsd": 1721772.951746813,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 15,
+    "trackedApps": 16,
     "transparentApps": 2,
     "netIssuance": null,
     "governanceParticipation": null
@@ -18,13 +18,13 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": 99.99810530178837,
+    "tvlLargestPoolPct": 99.99847025160821,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
     "100% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 15 tracked apps expose public metrics"
+    "2 of 16 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -40,52 +40,52 @@
       "appCategory": "AMM",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "ccPriceUsd": 0.16425983862554147,
-      "cbtcPriceUsd": 12688.441825122909,
+      "ccPriceUsd": 0.15798257615172775,
+      "cbtcPriceUsd": 8311.457818398458,
       "pools": [
         {
           "name": "CC / USDCx",
           "token1": "CC",
           "token2": "USDCx",
-          "token1Holdings": 5318146.447870909,
-          "token2Holdings": 873557.8773142722,
-          "tvlUsd": 1747115.7546285442,
+          "token1Holdings": 5441006.199136711,
+          "token2Holdings": 859584.1761971381,
+          "tvlUsd": 1719168.3523942763,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.15104093291457676,
-          "totalLpTokens": 2050876.2714014621,
+          "yield24h": 0.17729043048952908,
+          "totalLpTokens": 2052847.373050967,
           "volume": {
-            "1h": 5421.240947411816,
-            "4h": 31146.301133711,
-            "12h": 137486.55774701582,
-            "24h": 325988.95830618317,
-            "7d": 2357310.484399123
+            "1h": 630.8380109752203,
+            "4h": 41496.49908568122,
+            "12h": 194778.59158099352,
+            "24h": 383890.9167717989,
+            "7d": 1249475.7869186422
           }
         },
         {
           "name": "CC / CBTC",
           "token1": "USDCx",
           "token2": "CBTC",
-          "token1Holdings": 100.764734828,
-          "token2Holdings": 0.0013044627,
-          "tvlUsd": 33.10319816398552,
+          "token1Holdings": 83.2349781137,
+          "token2Holdings": 0.0015821143,
+          "tvlUsd": 26.299352536670007,
           "lpFeePercent": 0.2,
           "operatorFeePercent": 0.1,
-          "yield24h": 0.01831073727666288,
-          "totalLpTokens": 0.3625267775,
+          "yield24h": 0.04689703763137909,
+          "totalLpTokens": 0.3626383664,
           "volume": {
-            "1h": 3942.5147835659136,
-            "4h": 14831.841484616729,
-            "12h": 21856.364354632107,
-            "24h": 35606.70127905604,
-            "7d": 340944.1827967265
+            "1h": 0.08015106969528389,
+            "4h": 2461.46936128349,
+            "12h": 19975.032682244906,
+            "24h": 54526.80495904071,
+            "7d": 359159.663680479
           }
         }
       ],
-      "totalTvlUsd": 1747148.8578267081,
-      "largestPoolPct": 99.99810530178837,
-      "totalVolume24hUsd": 361595.6595852392,
-      "totalVolume7dUsd": 2698254.6671958496,
+      "totalTvlUsd": 1719194.651746813,
+      "largestPoolPct": 99.99847025160821,
+      "totalVolume24hUsd": 438417.72173083964,
+      "totalVolume7dUsd": 1608635.4505991212,
       "totalVolume30dUsd": null
     },
     {
@@ -95,59 +95,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 25526,
-      "activeMarkets": 247,
-      "endedMarkets": 31,
-      "resolvedMarkets": 25032,
-      "totalActivePoolUsd": 740,
-      "totalActiveBets": 107,
+      "totalMarkets": 28895,
+      "activeMarkets": 213,
+      "endedMarkets": 11,
+      "resolvedMarkets": 28424,
+      "totalActivePoolUsd": 2578.3,
+      "totalActiveBets": 321,
       "categories": {
         "crypto": {
-          "count": 15,
+          "count": 10,
           "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 85,
-          "poolUsd": 740,
-          "bets": 107
+          "count": 90,
+          "poolUsd": 2578.3,
+          "bets": 321
         }
       },
       "topMarkets": [
         {
-          "question": "Luis Gurule vs Daniel Barez",
+          "question": "Manchester City vs Aston Villa",
           "category": "sports",
-          "totalPool": 30,
-          "betCount": 4,
-          "endTime": "2026-05-16T13:00:00.000Z"
+          "totalPool": 139,
+          "betCount": 13,
+          "endTime": "2026-05-24T14:00:00.000Z"
         },
         {
-          "question": "Eintracht Frankfurt vs VfB Stuttgart",
+          "question": "Brighton vs Manchester United",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 4,
-          "endTime": "2026-05-16T12:30:00.000Z"
+          "totalPool": 95,
+          "betCount": 11,
+          "endTime": "2026-05-24T14:00:00.000Z"
         },
         {
-          "question": "Borussia Mönchengladbach vs 1899 Hoffenheim",
+          "question": "Inter Miami vs Philadelphia Union",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 3,
-          "endTime": "2026-05-16T12:30:00.000Z"
+          "totalPool": 70,
+          "betCount": 7,
+          "endTime": "2026-05-24T22:15:00.000Z"
         },
         {
-          "question": "Bayern München vs 1. FC Köln",
+          "question": "Girona vs Elche",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 3,
-          "endTime": "2026-05-16T12:30:00.000Z"
+          "totalPool": 60,
+          "betCount": 7,
+          "endTime": "2026-05-24T15:00:00.000Z"
         },
         {
-          "question": "Malut United vs Persita",
+          "question": "Liverpool vs Brentford",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 3,
-          "endTime": "2026-05-16T11:00:00.000Z"
+          "totalPool": 60,
+          "betCount": 7,
+          "endTime": "2026-05-24T14:00:00.000Z"
         }
       ]
     },
@@ -203,7 +203,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
@@ -220,6 +220,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Hardware wallet with Canton support",
+      "isCandidate": true
+    },
+    {
+      "id": "fairmint",
+      "name": "Fairmint-validator-1",
+      "url": "https://fairmint.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Equity & token issuance",
       "isCandidate": true
     },
     {

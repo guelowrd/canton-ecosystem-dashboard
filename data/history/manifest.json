@@ -1,5 +1,30 @@
 [
   {
+    "file": "snapshot-2026-05-22_0105.json",
+    "lastUpdated": "2026-05-22T01:05:17.972Z",
+    "tvlUsd": 1721772.951746813,
+    "ccPriceUsd": 0.15798257615172775,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "cantonloop-mainnet-1",
+        "cypherock-mainnet-1",
+        "Fairmint-validator-1",
+        "pixelplex-mainnet-3",
+        "send-cantonwallet-1",
+        "blackmantacapital-primary-1",
+        "cantor8-digik-1",
+        "dfns1",
+        "feat-unhedged-app",
+        "noves-translate",
+        "ZodiaCustody-validator-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-05-21_0105.json",
     "lastUpdated": "2026-05-21T01:05:41.736Z",
     "tvlUsd": 1945750.6431173936,
@@ -125,21 +150,6 @@
     "activeValidators": null,
     "signals": {
       "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-05-12_0057.json",
-    "lastUpdated": "2026-05-12T00:57:44.887Z",
-    "tvlUsd": 1747888.8578267081,
-    "ccPriceUsd": 0.16425983862554147,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "blackmantacapital-primary-1"
-      ],
       "newData": []
     }
   }
