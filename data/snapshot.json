@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-23T01:01:02.010Z",
+  "lastUpdated": "2026-05-24T01:05:02.718Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 2660,
+    "totalTvlUsd": 3010,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 29269,
-      "activeMarkets": 229,
+      "totalMarkets": 29652,
+      "activeMarkets": 170,
       "endedMarkets": 19,
-      "resolvedMarkets": 28772,
-      "totalActivePoolUsd": 2660,
-      "totalActiveBets": 324,
+      "resolvedMarkets": 29210,
+      "totalActivePoolUsd": 3010,
+      "totalActiveBets": 376,
       "categories": {
         "crypto": {
           "count": 15,
@@ -59,8 +59,8 @@
         },
         "sports": {
           "count": 85,
-          "poolUsd": 2660,
-          "bets": 324
+          "poolUsd": 3010,
+          "bets": 376
         }
       },
       "topMarkets": [
@@ -72,32 +72,32 @@
           "endTime": "2026-05-25T23:00:00.000Z"
         },
         {
-          "question": "Vegas Golden Knights vs Colorado Avalanche",
+          "question": "Sirius vs Gais",
           "category": "sports",
-          "totalPool": 80,
-          "betCount": 6,
-          "endTime": "2026-05-24T23:00:00.000Z"
+          "totalPool": 90,
+          "betCount": 11,
+          "endTime": "2026-05-24T11:00:00.000Z"
         },
         {
-          "question": "KuPS vs Lahti",
+          "question": "Hammarby FF vs AIK Stockholm",
           "category": "sports",
-          "totalPool": 60,
-          "betCount": 8,
-          "endTime": "2026-05-23T13:00:00.000Z"
+          "totalPool": 90,
+          "betCount": 12,
+          "endTime": "2026-05-24T11:00:00.000Z"
         },
         {
-          "question": "Inter Turku vs Turku PS",
+          "question": "Malmo FF vs Vasteras SK FK",
           "category": "sports",
-          "totalPool": 60,
-          "betCount": 8,
-          "endTime": "2026-05-23T10:00:00.000Z"
-        },
-        {
-          "question": "Suqian vs Nantong",
-          "category": "sports",
-          "totalPool": 60,
+          "totalPool": 70,
           "betCount": 9,
-          "endTime": "2026-05-23T11:40:00.000Z"
+          "endTime": "2026-05-24T13:30:00.000Z"
+        },
+        {
+          "question": "Ajax vs Utrecht",
+          "category": "sports",
+          "totalPool": 65,
+          "betCount": 9,
+          "endTime": "2026-05-24T09:15:00.000Z"
         }
       ]
     },

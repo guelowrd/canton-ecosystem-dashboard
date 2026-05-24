@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-14T01:02:12.719Z",
-  "cantonCoinPriceUsd": 0.15641881021341122,
+  "lastUpdated": "2026-05-24T01:05:02.718Z",
+  "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1949107.8141024841,
+    "totalTvlUsd": 3010,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
-    "transparentApps": 2,
+    "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
   },
@@ -18,13 +18,12 @@
     "sponsorTop1Pct": null,
     "sponsorTop3Pct": null,
     "sponsorTop3": [],
-    "tvlLargestPoolPct": 87.61165388115599,
+    "tvlLargestPoolPct": null,
     "rewardsTop3Pct": null,
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "88% of DEX TVL is in the largest pool (CC/USDCx)",
-    "2 of 5 tracked apps expose public metrics"
+    "1 of 5 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,57 +35,8 @@
     {
       "id": "tradecraft",
       "name": "Tradecraft",
-      "url": "https://tradecraft.fi",
-      "appCategory": "AMM",
-      "transparency": "transparent",
-      "dataAvailability": "full",
-      "ccPriceUsd": 0.15641881021341122,
-      "cbtcPriceUsd": 78942.56351607718,
-      "pools": [
-        {
-          "name": "CC / USDCx",
-          "token1": "CC",
-          "token2": "USDCx",
-          "token1Holdings": 5451973.247610399,
-          "token2Holdings": 852791.1687065662,
-          "tvlUsd": 1705582.3374131324,
-          "lpFeePercent": 0.2,
-          "operatorFeePercent": 0.1,
-          "yield24h": 0.04982010009532578,
-          "totalLpTokens": 2051147.3766644876,
-          "volume": {
-            "1h": 7574.763444699365,
-            "4h": 23384.63677016329,
-            "12h": 69298.72304334448,
-            "24h": 111441.70598375026,
-            "7d": 1979753.780036591
-          }
-        },
-        {
-          "name": "CC / CBTC",
-          "token1": "CC",
-          "token2": "CBTC",
-          "token1Holdings": 770912.6426684518,
-          "token2Holdings": 1.5275059863,
-          "tvlUsd": 241170.47668935172,
-          "lpFeePercent": 0.2,
-          "operatorFeePercent": 0.1,
-          "yield24h": 0.17160999059452853,
-          "totalLpTokens": 1006.2844984087,
-          "volume": {
-            "1h": 1935.8041343760121,
-            "4h": 6103.696088823355,
-            "12h": 16183.032383722366,
-            "24h": 52229.19452939,
-            "7d": 334395.280027405
-          }
-        }
-      ],
-      "totalTvlUsd": 1946752.8141024841,
-      "largestPoolPct": 87.61165388115599,
-      "totalVolume24hUsd": 163670.90051314025,
-      "totalVolume7dUsd": 2314149.060063996,
-      "totalVolume30dUsd": null
+      "dataAvailability": "error",
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -95,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 26360,
-      "activeMarkets": 259,
-      "endedMarkets": 40,
-      "resolvedMarkets": 25837,
-      "totalActivePoolUsd": 2355,
-      "totalActiveBets": 308,
+      "totalMarkets": 29652,
+      "activeMarkets": 170,
+      "endedMarkets": 19,
+      "resolvedMarkets": 29210,
+      "totalActivePoolUsd": 3010,
+      "totalActiveBets": 376,
       "categories": {
         "crypto": {
           "count": 15,
@@ -109,45 +59,45 @@
         },
         "sports": {
           "count": 85,
-          "poolUsd": 2355,
-          "bets": 308
+          "poolUsd": 3010,
+          "bets": 376
         }
       },
       "topMarkets": [
         {
-          "question": "Rizespor vs Beşiktaş",
+          "question": "Cleveland Cavaliers vs New York Knicks",
           "category": "sports",
-          "totalPool": 80,
-          "betCount": 14,
-          "endTime": "2026-05-15T16:00:00.000Z"
-        },
-        {
-          "question": "AS Roma vs Lazio",
-          "category": "sports",
-          "totalPool": 80,
+          "totalPool": 100,
           "betCount": 6,
-          "endTime": "2026-05-17T12:00:00.000Z"
+          "endTime": "2026-05-25T23:00:00.000Z"
         },
         {
-          "question": "Kayserispor vs Konyaspor",
+          "question": "Sirius vs Gais",
           "category": "sports",
-          "totalPool": 75,
-          "betCount": 9,
-          "endTime": "2026-05-17T13:00:00.000Z"
+          "totalPool": 90,
+          "betCount": 11,
+          "endTime": "2026-05-24T11:00:00.000Z"
         },
         {
-          "question": "Bournemouth vs Manchester City",
+          "question": "Hammarby FF vs AIK Stockholm",
+          "category": "sports",
+          "totalPool": 90,
+          "betCount": 12,
+          "endTime": "2026-05-24T11:00:00.000Z"
+        },
+        {
+          "question": "Malmo FF vs Vasteras SK FK",
           "category": "sports",
           "totalPool": 70,
-          "betCount": 11,
-          "endTime": "2026-05-17T13:00:00.000Z"
+          "betCount": 9,
+          "endTime": "2026-05-24T13:30:00.000Z"
         },
         {
-          "question": "Antalyaspor vs Kocaelispor",
+          "question": "Ajax vs Utrecht",
           "category": "sports",
-          "totalPool": 60,
-          "betCount": 6,
-          "endTime": "2026-05-17T16:00:00.000Z"
+          "totalPool": 65,
+          "betCount": 9,
+          "endTime": "2026-05-24T09:15:00.000Z"
         }
       ]
     },
