@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-23T01:01:02.010Z",
+  "lastUpdated": "2026-06-02T01:11:17.103Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 2660,
+    "totalTvlUsd": 5333.9,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 29269,
-      "activeMarkets": 229,
-      "endedMarkets": 19,
-      "resolvedMarkets": 28772,
-      "totalActivePoolUsd": 2660,
-      "totalActiveBets": 324,
+      "totalMarkets": 32522,
+      "activeMarkets": 131,
+      "endedMarkets": 14,
+      "resolvedMarkets": 32114,
+      "totalActivePoolUsd": 5333.9,
+      "totalActiveBets": 455,
       "categories": {
+        "sports": {
+          "count": 96,
+          "poolUsd": 5333.9,
+          "bets": 455
+        },
         "crypto": {
-          "count": 15,
+          "count": 4,
           "poolUsd": 0,
           "bets": 0
-        },
-        "sports": {
-          "count": 85,
-          "poolUsd": 2660,
-          "bets": 324
         }
       },
       "topMarkets": [
         {
-          "question": "Cleveland Cavaliers vs New York Knicks",
+          "question": "Atlanta Braves vs Toronto Blue Jays",
           "category": "sports",
-          "totalPool": 100,
+          "totalPool": 190,
+          "betCount": 7,
+          "endTime": "2026-06-04T22:15:00.000Z"
+        },
+        {
+          "question": "Chunichi Dragons vs Seibu Lions",
+          "category": "sports",
+          "totalPool": 180,
           "betCount": 6,
-          "endTime": "2026-05-25T23:00:00.000Z"
+          "endTime": "2026-06-05T08:00:00.000Z"
         },
         {
-          "question": "Vegas Golden Knights vs Colorado Avalanche",
+          "question": "KT Wiz Suwon vs LG Twins",
           "category": "sports",
-          "totalPool": 80,
+          "totalPool": 120,
+          "betCount": 7,
+          "endTime": "2026-06-04T08:30:00.000Z"
+        },
+        {
+          "question": "Yomiuri Giants vs Chiba Lotte Marines",
+          "category": "sports",
+          "totalPool": 116,
+          "betCount": 7,
+          "endTime": "2026-06-05T08:00:00.000Z"
+        },
+        {
+          "question": "Hiroshima Carp vs Orix Buffaloes",
+          "category": "sports",
+          "totalPool": 115,
           "betCount": 6,
-          "endTime": "2026-05-24T23:00:00.000Z"
-        },
-        {
-          "question": "KuPS vs Lahti",
-          "category": "sports",
-          "totalPool": 60,
-          "betCount": 8,
-          "endTime": "2026-05-23T13:00:00.000Z"
-        },
-        {
-          "question": "Inter Turku vs Turku PS",
-          "category": "sports",
-          "totalPool": 60,
-          "betCount": 8,
-          "endTime": "2026-05-23T10:00:00.000Z"
-        },
-        {
-          "question": "Suqian vs Nantong",
-          "category": "sports",
-          "totalPool": 60,
-          "betCount": 9,
-          "endTime": "2026-05-23T11:40:00.000Z"
+          "endTime": "2026-06-05T08:00:00.000Z"
         }
       ]
     },
