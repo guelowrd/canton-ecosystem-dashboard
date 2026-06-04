@@ -312,6 +312,22 @@
     "note": "Canton validator"
   },
   {
+    "appName": "TRIZEGroup-cantonMainnetValidator-1",
+    "baseName": "trizegroup-cantonmainnetvalidator",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "TRIZE Group validator"
+  },
+  {
+    "appName": "Ubyx-validator-1",
+    "baseName": "ubyx",
+    "category": "Validator/Infra",
+    "confidence": 55,
+    "websiteGuess": null,
+    "note": "Canton validator"
+  },
+  {
     "appName": "asset-relayer",
     "baseName": "asset-relayer",
     "category": "Bridge",
@@ -330,6 +346,14 @@
   {
     "appName": "dteamtech-validator-1",
     "baseName": "dteamtech",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "elk-Validator-2",
+    "baseName": "elk",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
@@ -400,6 +424,14 @@
     "note": null
   },
   {
+    "appName": "sunthycloud-mainnet-1",
+    "baseName": "sunthycloud",
+    "category": "Unknown",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": "Canton cloud service"
+  },
+  {
     "appName": "Tokino-validator-1",
     "baseName": "tokino",
     "category": "Validator/Infra",
@@ -464,6 +496,14 @@
     "note": null
   },
   {
+    "appName": "foundinalsunthy-mainnet-1",
+    "baseName": "foundinalsunthy",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
     "appName": "handl-issuer",
     "baseName": "handl-issuer",
     "category": "Unknown",
@@ -472,20 +512,20 @@
     "note": null
   },
   {
-    "appName": "HeliosFinance-Mainnet-1",
-    "baseName": "heliosfinance",
+    "appName": "kora-app",
+    "baseName": "kora-app",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "kairo-mainnet",
-    "baseName": "kairo",
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
-    "note": "Canton app"
+    "note": null
   },
   {
     "appName": "modo",
@@ -536,14 +576,6 @@
     "note": "Canton app"
   },
   {
-    "appName": "ppbpffauvo",
-    "baseName": "ppbpffauvo",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "rails-cethMain-1",
     "baseName": "rails-cethmain",
     "category": "Unknown",
@@ -566,14 +598,6 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "tradefast-mainnet-1",
-    "baseName": "tradefast",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "unitedapp-cc",

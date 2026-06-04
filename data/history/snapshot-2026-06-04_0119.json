@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-25T01:13:54.097Z",
+  "lastUpdated": "2026-06-04T01:19:26.809Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 3125.88,
+    "totalTvlUsd": 3212.71,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 14,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 14 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,59 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 30067,
-      "activeMarkets": 147,
-      "endedMarkets": 11,
-      "resolvedMarkets": 29654,
-      "totalActivePoolUsd": 3125.88,
-      "totalActiveBets": 399,
+      "totalMarkets": 32929,
+      "activeMarkets": 118,
+      "endedMarkets": 19,
+      "resolvedMarkets": 32527,
+      "totalActivePoolUsd": 3212.71,
+      "totalActiveBets": 273,
       "categories": {
         "sports": {
-          "count": 85,
-          "poolUsd": 3125.88,
-          "bets": 399
-        },
-        "crypto": {
-          "count": 15,
-          "poolUsd": 0,
-          "bets": 0
+          "count": 100,
+          "poolUsd": 3212.71,
+          "bets": 273
         }
       },
       "topMarkets": [
         {
-          "question": "Coritiba vs Bahia",
+          "question": "Chunichi Dragons vs Seibu Lions",
           "category": "sports",
-          "totalPool": 105,
-          "betCount": 14,
-          "endTime": "2026-05-25T22:00:00.000Z"
-        },
-        {
-          "question": "Sarpsborg 08 FF vs Molde",
-          "category": "sports",
-          "totalPool": 75,
-          "betCount": 11,
-          "endTime": "2026-05-25T14:00:00.000Z"
-        },
-        {
-          "question": "Ham-Kam vs Lillestrom",
-          "category": "sports",
-          "totalPool": 70,
-          "betCount": 10,
-          "endTime": "2026-05-25T14:00:00.000Z"
-        },
-        {
-          "question": "Tromso vs Aalesund",
-          "category": "sports",
-          "totalPool": 70,
+          "totalPool": 205,
           "betCount": 9,
-          "endTime": "2026-05-25T14:00:00.000Z"
+          "endTime": "2026-06-05T08:00:00.000Z"
         },
         {
-          "question": "SC Paderborn 07 vs VfL Wolfsburg",
+          "question": "KIA Tigers vs Samsung Lions",
           "category": "sports",
-          "totalPool": 70,
-          "betCount": 11,
-          "endTime": "2026-05-25T17:30:00.000Z"
+          "totalPool": 125,
+          "betCount": 10,
+          "endTime": "2026-06-05T08:30:00.000Z"
+        },
+        {
+          "question": "Yomiuri Giants vs Chiba Lotte Marines",
+          "category": "sports",
+          "totalPool": 116,
+          "betCount": 7,
+          "endTime": "2026-06-05T08:00:00.000Z"
+        },
+        {
+          "question": "Hiroshima Carp vs Orix Buffaloes",
+          "category": "sports",
+          "totalPool": 115,
+          "betCount": 6,
+          "endTime": "2026-06-05T08:00:00.000Z"
+        },
+        {
+          "question": "Yokohama BayStars vs Fukuoka S. Hawks",
+          "category": "sports",
+          "totalPool": 112.8,
+          "betCount": 7,
+          "endTime": "2026-06-05T08:00:00.000Z"
         }
       ]
     },
@@ -173,6 +168,18 @@
       "isCandidate": true
     },
     {
+      "id": "fairmint",
+      "name": "Fairmint-validator-1",
+      "url": "https://fairmint.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
       "id": "pixelplex",
       "name": "pixelplex-mainnet-3",
       "url": "https://pixelplex.io",
@@ -221,6 +228,18 @@
       "isCandidate": true
     },
     {
+      "id": "dfns1",
+      "name": "dfns1",
+      "url": "https://dfns.co",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "DFNS wallet infrastructure",
+      "isCandidate": true
+    },
+    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -230,6 +249,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton prediction markets",
+      "isCandidate": true
+    },
+    {
+      "id": "mpch-brondvn",
+      "name": "MPCH-BRONdvn-1",
+      "url": "https://mpcvault.com",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "MPCH Bron delegation validator",
       "isCandidate": true
     },
     {

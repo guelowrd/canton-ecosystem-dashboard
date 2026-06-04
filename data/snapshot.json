@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-03T01:18:45.870Z",
+  "lastUpdated": "2026-06-04T01:19:26.809Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 3565.28,
+    "totalTvlUsd": 3212.71,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,45 +45,33 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 32738,
-      "activeMarkets": 138,
-      "endedMarkets": 20,
-      "resolvedMarkets": 32315,
-      "totalActivePoolUsd": 3565.28,
-      "totalActiveBets": 288,
+      "totalMarkets": 32929,
+      "activeMarkets": 118,
+      "endedMarkets": 19,
+      "resolvedMarkets": 32527,
+      "totalActivePoolUsd": 3212.71,
+      "totalActiveBets": 273,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 0,
-          "bets": 0
-        },
         "sports": {
-          "count": 96,
-          "poolUsd": 3565.28,
-          "bets": 288
+          "count": 100,
+          "poolUsd": 3212.71,
+          "bets": 273
         }
       },
       "topMarkets": [
         {
-          "question": "Atlanta Braves vs Toronto Blue Jays",
-          "category": "sports",
-          "totalPool": 190,
-          "betCount": 7,
-          "endTime": "2026-06-04T22:15:00.000Z"
-        },
-        {
           "question": "Chunichi Dragons vs Seibu Lions",
           "category": "sports",
-          "totalPool": 180,
-          "betCount": 6,
+          "totalPool": 205,
+          "betCount": 9,
           "endTime": "2026-06-05T08:00:00.000Z"
         },
         {
-          "question": "San Antonio Spurs vs New York Knicks",
+          "question": "KIA Tigers vs Samsung Lions",
           "category": "sports",
-          "totalPool": 130,
-          "betCount": 8,
-          "endTime": "2026-06-03T23:30:00.000Z"
+          "totalPool": 125,
+          "betCount": 10,
+          "endTime": "2026-06-05T08:30:00.000Z"
         },
         {
           "question": "Yomiuri Giants vs Chiba Lotte Marines",
@@ -97,6 +85,13 @@
           "category": "sports",
           "totalPool": 115,
           "betCount": 6,
+          "endTime": "2026-06-05T08:00:00.000Z"
+        },
+        {
+          "question": "Yokohama BayStars vs Fukuoka S. Hawks",
+          "category": "sports",
+          "totalPool": 112.8,
+          "betCount": 7,
           "endTime": "2026-06-05T08:00:00.000Z"
         }
       ]
