@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-04T01:19:26.809Z",
+  "lastUpdated": "2026-06-05T01:08:15.349Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 3212.71,
+    "totalTvlUsd": 1848.73,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 5,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 5 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,54 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 32929,
-      "activeMarkets": 118,
-      "endedMarkets": 19,
-      "resolvedMarkets": 32527,
-      "totalActivePoolUsd": 3212.71,
-      "totalActiveBets": 273,
+      "totalMarkets": 32956,
+      "activeMarkets": 124,
+      "endedMarkets": 14,
+      "resolvedMarkets": 32552,
+      "totalActivePoolUsd": 1848.73,
+      "totalActiveBets": 180,
       "categories": {
         "sports": {
           "count": 100,
-          "poolUsd": 3212.71,
-          "bets": 273
+          "poolUsd": 1848.73,
+          "bets": 180
         }
       },
       "topMarkets": [
         {
-          "question": "Chunichi Dragons vs Seibu Lions",
+          "question": "Viettel vs Công An Nhân Dân",
           "category": "sports",
-          "totalPool": 205,
-          "betCount": 9,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "totalPool": 85,
+          "betCount": 8,
+          "endTime": "2026-06-07T10:00:00.000Z"
         },
         {
-          "question": "KIA Tigers vs Samsung Lions",
+          "question": "Chunichi Dragons vs Seibu Lions",
           "category": "sports",
-          "totalPool": 125,
-          "betCount": 10,
-          "endTime": "2026-06-05T08:30:00.000Z"
+          "totalPool": 55,
+          "betCount": 4,
+          "endTime": "2026-06-06T04:00:00.000Z"
+        },
+        {
+          "question": "Hanshin Tigers vs Rakuten Gold. Eagles",
+          "category": "sports",
+          "totalPool": 50,
+          "betCount": 3,
+          "endTime": "2026-06-07T04:00:00.000Z"
         },
         {
           "question": "Yomiuri Giants vs Chiba Lotte Marines",
           "category": "sports",
-          "totalPool": 116,
-          "betCount": 7,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "totalPool": 50,
+          "betCount": 4,
+          "endTime": "2026-06-06T08:00:00.000Z"
         },
         {
-          "question": "Hiroshima Carp vs Orix Buffaloes",
+          "question": "SSG Landers vs KT Wiz Suwon",
           "category": "sports",
-          "totalPool": 115,
-          "betCount": 6,
-          "endTime": "2026-06-05T08:00:00.000Z"
-        },
-        {
-          "question": "Yokohama BayStars vs Fukuoka S. Hawks",
-          "category": "sports",
-          "totalPool": 112.8,
-          "betCount": 7,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "totalPool": 50,
+          "betCount": 4,
+          "endTime": "2026-06-06T07:00:00.000Z"
         }
       ]
     },
@@ -142,150 +142,6 @@
         "observation": "Showing 0.00% on all pairs as of last check — very early stage or minimal activity."
       },
       "note": "No public API found — domain redirects all API paths to homepage."
-    },
-    {
-      "id": "cantonloop",
-      "name": "cantonloop-mainnet-1",
-      "url": "https://lighthouse.cantonloop.com",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "5N Loop wallet / explorer",
-      "isCandidate": true
-    },
-    {
-      "id": "cypherock",
-      "name": "cypherock-mainnet-1",
-      "url": "https://cypherock.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Hardware wallet with Canton support",
-      "isCandidate": true
-    },
-    {
-      "id": "fairmint",
-      "name": "Fairmint-validator-1",
-      "url": "https://fairmint.com",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Equity & token issuance",
-      "isCandidate": true
-    },
-    {
-      "id": "pixelplex",
-      "name": "pixelplex-mainnet-3",
-      "url": "https://pixelplex.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton exchange development",
-      "isCandidate": true
-    },
-    {
-      "id": "cantonwallet",
-      "name": "send-cantonwallet-1",
-      "url": "https://cantonwallet.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Network wallet",
-      "isCandidate": true
-    },
-    {
-      "id": "blackmantacapital-primary",
-      "name": "blackmantacapital-primary-1",
-      "url": "https://blackmanta.capital",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "BaFin-regulated tokenized securities",
-      "isCandidate": true
-    },
-    {
-      "id": "cantor8-digik",
-      "name": "cantor8-digik-1",
-      "url": "https://cantor8.tech/digik",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DigiK - Canton gateway",
-      "isCandidate": true
-    },
-    {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
-      "id": "unhedged-app",
-      "name": "feat-unhedged-app",
-      "url": "https://unhedged.gg",
-      "appCategory": "Prediction Markets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton prediction markets",
-      "isCandidate": true
-    },
-    {
-      "id": "mpch-brondvn",
-      "name": "MPCH-BRONdvn-1",
-      "url": "https://mpcvault.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "MPCH Bron delegation validator",
-      "isCandidate": true
-    },
-    {
-      "id": "noves-translate",
-      "name": "noves-translate",
-      "url": "https://noves.fi",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
-      "isCandidate": true
     }
   ]
 }
