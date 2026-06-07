@@ -80,14 +80,6 @@
     "note": "MEXC exchange validator"
   },
   {
-    "appName": "Obligate-validator-1",
-    "baseName": "obligate",
-    "category": "Tokenized Assets",
-    "confidence": 100,
-    "websiteGuess": "https://obligate.com",
-    "note": "On-chain bond issuance"
-  },
-  {
     "appName": "pixelplex-mainnet-3",
     "baseName": "pixelplex",
     "category": "Explorer/Infra",
@@ -144,14 +136,6 @@
     "note": "Crypto index platform"
   },
   {
-    "appName": "blackmantacapital-primary-1",
-    "baseName": "blackmantacapital-primary",
-    "category": "Tokenized Assets",
-    "confidence": 90,
-    "websiteGuess": "https://blackmanta.capital",
-    "note": "BaFin-regulated tokenized securities"
-  },
-  {
     "appName": "cantor8-digik-1",
     "baseName": "cantor8-digik",
     "category": "Explorer/Infra",
@@ -190,14 +174,6 @@
     "confidence": 90,
     "websiteGuess": "https://mpcvault.com",
     "note": "MPCH Bron delegation validator"
-  },
-  {
-    "appName": "nodefortress-finance-1",
-    "baseName": "nodefortress-finance",
-    "category": "Validator/Infra",
-    "confidence": 90,
-    "websiteGuess": "https://nodefortress.io",
-    "note": "Node hosting infrastructure"
   },
   {
     "appName": "noves-translate",
@@ -286,14 +262,6 @@
     "confidence": 55,
     "websiteGuess": null,
     "note": "Identity service"
-  },
-  {
-    "appName": "palladium-validator-1",
-    "baseName": "palladium",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Canton validator"
   },
   {
     "appName": "poolparty",
@@ -408,14 +376,6 @@
     "note": null
   },
   {
-    "appName": "sunthycloud-mainnet-1",
-    "baseName": "sunthycloud",
-    "category": "Unknown",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": "Canton cloud service"
-  },
-  {
     "appName": "Tokino-validator-1",
     "baseName": "tokino",
     "category": "Validator/Infra",
@@ -456,9 +416,9 @@
     "note": null
   },
   {
-    "appName": "cache-cantor8-1",
-    "baseName": "cache-cantor8",
-    "category": "Unknown",
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
+    "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
     "note": null
@@ -514,6 +474,14 @@
   {
     "appName": "kora-app",
     "baseName": "kora-app",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "ledger-ledgerops-2",
+    "baseName": "ledger-ledgerops",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -598,14 +566,6 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "tradefast-mainnet-1",
-    "baseName": "tradefast",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "unitedapp-cc",
