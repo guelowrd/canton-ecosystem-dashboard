@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-29T01:08:01.954Z",
+  "lastUpdated": "2026-06-08T01:11:50.899Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 4822.070000000001,
+    "totalTvlUsd": 115,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,64 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 31654,
-      "activeMarkets": 166,
-      "endedMarkets": 11,
-      "resolvedMarkets": 31218,
-      "totalActivePoolUsd": 4822.070000000001,
-      "totalActiveBets": 532,
+      "totalMarkets": 33563,
+      "activeMarkets": 116,
+      "endedMarkets": 3,
+      "resolvedMarkets": 33171,
+      "totalActivePoolUsd": 115,
+      "totalActiveBets": 11,
       "categories": {
+        "sports": {
+          "count": 92,
+          "poolUsd": 115,
+          "bets": 11
+        },
         "crypto": {
-          "count": 4,
+          "count": 8,
           "poolUsd": 0,
           "bets": 0
-        },
-        "sports": {
-          "count": 95,
-          "poolUsd": 4812.070000000001,
-          "bets": 530
-        },
-        "economics": {
-          "count": 1,
-          "poolUsd": 10,
-          "bets": 2
         }
       },
       "topMarkets": [
         {
-          "question": "Paris Saint Germain vs Arsenal",
+          "question": "New York Knicks vs San Antonio Spurs",
           "category": "sports",
-          "totalPool": 477.8,
-          "betCount": 34,
-          "endTime": "2026-05-30T15:00:00.000Z"
+          "totalPool": 45,
+          "betCount": 3,
+          "endTime": "2026-06-10T23:30:00.000Z"
         },
         {
-          "question": "Oklahoma City Thunder vs San Antonio Spurs",
+          "question": "Vegas Golden Knights vs Carolina Hurricanes",
           "category": "sports",
-          "totalPool": 155,
-          "betCount": 11,
-          "endTime": "2026-05-30T23:00:00.000Z"
+          "totalPool": 20,
+          "betCount": 3,
+          "endTime": "2026-06-09T23:00:00.000Z"
         },
         {
-          "question": "Tampa Bay Rays vs Detroit Tigers",
+          "question": "KT Wiz Suwon vs Samsung Lions",
           "category": "sports",
-          "totalPool": 85,
-          "betCount": 7,
-          "endTime": "2026-06-01T21:40:00.000Z"
+          "totalPool": 10,
+          "betCount": 1,
+          "endTime": "2026-06-09T08:30:00.000Z"
         },
         {
-          "question": "Flamengo vs Coritiba",
+          "question": "Kiwoom Heroes vs NC Dinos",
           "category": "sports",
-          "totalPool": 85,
-          "betCount": 10,
-          "endTime": "2026-05-30T18:00:00.000Z"
+          "totalPool": 10,
+          "betCount": 1,
+          "endTime": "2026-06-09T08:30:00.000Z"
         },
         {
-          "question": "Seattle Mariners vs Arizona Diamondbacks",
+          "question": "Hanwha Eagles vs KIA Tigers",
           "category": "sports",
-          "totalPool": 80,
-          "betCount": 9,
-          "endTime": "2026-05-31T19:10:00.000Z"
+          "totalPool": 10,
+          "betCount": 1,
+          "endTime": "2026-06-09T08:30:00.000Z"
         }
       ]
     },

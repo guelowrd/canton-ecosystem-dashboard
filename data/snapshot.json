@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-07T01:12:45.654Z",
+  "lastUpdated": "2026-06-08T01:11:50.899Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 442.43,
+    "totalTvlUsd": 115,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 16,
+    "trackedApps": 5,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 16 tracked apps expose public metrics"
+    "1 of 5 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,32 +45,25 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 33342,
-      "activeMarkets": 124,
-      "endedMarkets": 9,
-      "resolvedMarkets": 32940,
-      "totalActivePoolUsd": 442.43,
-      "totalActiveBets": 46,
+      "totalMarkets": 33563,
+      "activeMarkets": 116,
+      "endedMarkets": 3,
+      "resolvedMarkets": 33171,
+      "totalActivePoolUsd": 115,
+      "totalActiveBets": 11,
       "categories": {
+        "sports": {
+          "count": 92,
+          "poolUsd": 115,
+          "bets": 11
+        },
         "crypto": {
           "count": 8,
           "poolUsd": 0,
           "bets": 0
-        },
-        "sports": {
-          "count": 92,
-          "poolUsd": 442.43,
-          "bets": 46
         }
       },
       "topMarkets": [
-        {
-          "question": "New York Knicks vs San Antonio Spurs",
-          "category": "sports",
-          "totalPool": 70,
-          "betCount": 7,
-          "endTime": "2026-06-08T23:30:00.000Z"
-        },
         {
           "question": "New York Knicks vs San Antonio Spurs",
           "category": "sports",
@@ -86,18 +79,25 @@
           "endTime": "2026-06-09T23:00:00.000Z"
         },
         {
-          "question": "Chicago Cubs vs San Francisco Giants",
+          "question": "KT Wiz Suwon vs Samsung Lions",
           "category": "sports",
-          "totalPool": 20,
-          "betCount": 2,
-          "endTime": "2026-06-07T23:30:00.000Z"
+          "totalPool": 10,
+          "betCount": 1,
+          "endTime": "2026-06-09T08:30:00.000Z"
         },
         {
-          "question": "Detroit Tigers vs Seattle Mariners",
+          "question": "Kiwoom Heroes vs NC Dinos",
           "category": "sports",
-          "totalPool": 20,
-          "betCount": 2,
-          "endTime": "2026-06-07T16:40:00.000Z"
+          "totalPool": 10,
+          "betCount": 1,
+          "endTime": "2026-06-09T08:30:00.000Z"
+        },
+        {
+          "question": "Hanwha Eagles vs KIA Tigers",
+          "category": "sports",
+          "totalPool": 10,
+          "betCount": 1,
+          "endTime": "2026-06-09T08:30:00.000Z"
         }
       ]
     },
@@ -147,138 +147,6 @@
         "observation": "Showing 0.00% on all pairs as of last check — very early stage or minimal activity."
       },
       "note": "No public API found — domain redirects all API paths to homepage."
-    },
-    {
-      "id": "cantonloop",
-      "name": "cantonloop-mainnet-1",
-      "url": "https://lighthouse.cantonloop.com",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "5N Loop wallet / explorer",
-      "isCandidate": true
-    },
-    {
-      "id": "cypherock",
-      "name": "cypherock-mainnet-1",
-      "url": "https://cypherock.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Hardware wallet with Canton support",
-      "isCandidate": true
-    },
-    {
-      "id": "fairmint",
-      "name": "Fairmint-validator-1",
-      "url": "https://fairmint.com",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Equity & token issuance",
-      "isCandidate": true
-    },
-    {
-      "id": "pixelplex",
-      "name": "pixelplex-mainnet-3",
-      "url": "https://pixelplex.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton exchange development",
-      "isCandidate": true
-    },
-    {
-      "id": "cantonwallet",
-      "name": "send-cantonwallet-1",
-      "url": "https://cantonwallet.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Network wallet",
-      "isCandidate": true
-    },
-    {
-      "id": "cantor8-digik",
-      "name": "cantor8-digik-1",
-      "url": "https://cantor8.tech/digik",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DigiK - Canton gateway",
-      "isCandidate": true
-    },
-    {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
-      "id": "unhedged-app",
-      "name": "feat-unhedged-app",
-      "url": "https://unhedged.gg",
-      "appCategory": "Prediction Markets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton prediction markets",
-      "isCandidate": true
-    },
-    {
-      "id": "mpch-brondvn",
-      "name": "MPCH-BRONdvn-1",
-      "url": "https://mpcvault.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "MPCH Bron delegation validator",
-      "isCandidate": true
-    },
-    {
-      "id": "noves-translate",
-      "name": "noves-translate",
-      "url": "https://noves.fi",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
-      "isCandidate": true
     }
   ]
 }
