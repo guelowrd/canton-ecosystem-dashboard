@@ -192,14 +192,6 @@
     "note": "Noves Translate API"
   },
   {
-    "appName": "the_tie_validator",
-    "baseName": "thetievalidator",
-    "category": "Explorer/Infra",
-    "confidence": 90,
-    "websiteGuess": "https://thetie.io",
-    "note": "Crypto analytics platform"
-  },
-  {
     "appName": "ZodiaCustody-validator-1",
     "baseName": "zodiacustody",
     "category": "Wallet",
@@ -288,14 +280,6 @@
     "note": "Liquidity pool protocol"
   },
   {
-    "appName": "send-safe",
-    "baseName": "safe",
-    "category": "Wallet",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Safe send interface"
-  },
-  {
     "appName": "silvana-orderbook",
     "baseName": "silvana-orderbook",
     "category": "Orderbook/CLOB",
@@ -330,6 +314,14 @@
   {
     "appName": "dteamtech-validator-1",
     "baseName": "dteamtech",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "elk-Validator-2",
+    "baseName": "elk",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
@@ -424,14 +416,6 @@
     "note": null
   },
   {
-    "appName": "arcane-mainnet-1",
-    "baseName": "arcane",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "auth0_007c6643538f2eadd3e573dd05b9",
     "baseName": "auth0007c6643538f2eadd3e573dd05b9",
     "category": "Identity/Auth",
@@ -442,6 +426,14 @@
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
+    "category": "Identity/Auth",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
+    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
     "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
@@ -490,14 +482,6 @@
   {
     "appName": "handl-issuer",
     "baseName": "handl-issuer",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "HeliosFinance-Mainnet-1",
-    "baseName": "heliosfinance",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
