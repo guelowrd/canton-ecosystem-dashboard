@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-01T01:12:24.823Z",
+  "lastUpdated": "2026-06-11T01:10:29.194Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 6881.16,
+    "totalTvlUsd": 485,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 32304,
-      "activeMarkets": 114,
-      "endedMarkets": 6,
-      "resolvedMarkets": 31921,
-      "totalActivePoolUsd": 6881.16,
-      "totalActiveBets": 597,
+      "totalMarkets": 34205,
+      "activeMarkets": 107,
+      "endedMarkets": 46,
+      "resolvedMarkets": 33779,
+      "totalActivePoolUsd": 485,
+      "totalActiveBets": 52,
       "categories": {
-        "sports": {
-          "count": 96,
-          "poolUsd": 6881.16,
-          "bets": 597
-        },
         "crypto": {
-          "count": 4,
+          "count": 8,
           "poolUsd": 0,
           "bets": 0
+        },
+        "sports": {
+          "count": 92,
+          "poolUsd": 485,
+          "bets": 52
         }
       },
       "topMarkets": [
         {
-          "question": "Atlanta Braves vs Toronto Blue Jays",
+          "question": "Samsung Lions vs SSG Landers",
           "category": "sports",
-          "totalPool": 190,
-          "betCount": 7,
-          "endTime": "2026-06-04T22:15:00.000Z"
+          "totalPool": 40,
+          "betCount": 3,
+          "endTime": "2026-06-12T08:30:00.000Z"
         },
         {
-          "question": "Chunichi Dragons vs Seibu Lions",
+          "question": "Baltimore Orioles vs San Diego Padres",
           "category": "sports",
-          "totalPool": 180,
-          "betCount": 6,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-12T22:05:00.000Z"
         },
         {
-          "question": "Philadelphia Phillies vs San Diego Padres",
+          "question": "Seibu Lions vs Yomiuri Giants",
           "category": "sports",
-          "totalPool": 158.1,
-          "betCount": 9,
-          "endTime": "2026-06-02T21:40:00.000Z"
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-12T08:00:00.000Z"
         },
         {
-          "question": "Chicago Cubs vs Athletics",
+          "question": "Fukuoka S. Hawks vs Yakult Swallows",
           "category": "sports",
-          "totalPool": 150,
-          "betCount": 10,
-          "endTime": "2026-06-02T23:05:00.000Z"
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-12T08:00:00.000Z"
         },
         {
-          "question": "Cincinnati Reds vs Kansas City Royals",
+          "question": "Detroit Tigers vs Minnesota Twins",
           "category": "sports",
-          "totalPool": 150,
-          "betCount": 10,
-          "endTime": "2026-06-02T22:10:00.000Z"
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-11T16:10:00.000Z"
         }
       ]
     },

@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-10T01:11:04.714Z",
+  "lastUpdated": "2026-06-11T01:10:29.194Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 0,
+    "totalTvlUsd": 485,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 16,
+    "trackedApps": 5,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 16 tracked apps expose public metrics"
+    "1 of 5 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 34008,
-      "activeMarkets": 133,
-      "endedMarkets": 19,
-      "resolvedMarkets": 33583,
-      "totalActivePoolUsd": 0,
-      "totalActiveBets": 0,
+      "totalMarkets": 34205,
+      "activeMarkets": 107,
+      "endedMarkets": 46,
+      "resolvedMarkets": 33779,
+      "totalActivePoolUsd": 485,
+      "totalActiveBets": 52,
       "categories": {
         "crypto": {
           "count": 8,
@@ -59,45 +59,45 @@
         },
         "sports": {
           "count": 92,
-          "poolUsd": 0,
-          "bets": 0
+          "poolUsd": 485,
+          "bets": 52
         }
       },
       "topMarkets": [
         {
-          "question": "Canton Coin above $0.16402 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-10T01:20:00.000Z"
+          "question": "Samsung Lions vs SSG Landers",
+          "category": "sports",
+          "totalPool": 40,
+          "betCount": 3,
+          "endTime": "2026-06-12T08:30:00.000Z"
         },
         {
-          "question": "Solana above $64.804 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-10T01:20:00.000Z"
+          "question": "Baltimore Orioles vs San Diego Padres",
+          "category": "sports",
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-12T22:05:00.000Z"
         },
         {
-          "question": "Ethereum above $1,636.95 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-10T01:20:00.000Z"
+          "question": "Seibu Lions vs Yomiuri Giants",
+          "category": "sports",
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-12T08:00:00.000Z"
         },
         {
-          "question": "Bitcoin above $61,652.76 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-10T01:20:00.000Z"
+          "question": "Fukuoka S. Hawks vs Yakult Swallows",
+          "category": "sports",
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-12T08:00:00.000Z"
         },
         {
-          "question": "Canton Coin price on June 11, 2026 at 00:00 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-10T23:50:00.000Z"
+          "question": "Detroit Tigers vs Minnesota Twins",
+          "category": "sports",
+          "totalPool": 35,
+          "betCount": 2,
+          "endTime": "2026-06-11T16:10:00.000Z"
         }
       ]
     },
@@ -147,138 +147,6 @@
         "observation": "Showing 0.00% on all pairs as of last check — very early stage or minimal activity."
       },
       "note": "No public API found — domain redirects all API paths to homepage."
-    },
-    {
-      "id": "cantonloop",
-      "name": "cantonloop-mainnet-1",
-      "url": "https://lighthouse.cantonloop.com",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "5N Loop wallet / explorer",
-      "isCandidate": true
-    },
-    {
-      "id": "fairmint",
-      "name": "Fairmint-validator-1",
-      "url": "https://fairmint.com",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Equity & token issuance",
-      "isCandidate": true
-    },
-    {
-      "id": "pixelplex",
-      "name": "pixelplex-mainnet-3",
-      "url": "https://pixelplex.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton exchange development",
-      "isCandidate": true
-    },
-    {
-      "id": "cantonwallet",
-      "name": "send-cantonwallet-1",
-      "url": "https://cantonwallet.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton Network wallet",
-      "isCandidate": true
-    },
-    {
-      "id": "blackmantacapital-primary",
-      "name": "blackmantacapital-primary-1",
-      "url": "https://blackmanta.capital",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "BaFin-regulated tokenized securities",
-      "isCandidate": true
-    },
-    {
-      "id": "cantor8-digik",
-      "name": "cantor8-digik-1",
-      "url": "https://cantor8.tech/digik",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DigiK - Canton gateway",
-      "isCandidate": true
-    },
-    {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
-      "id": "unhedged-app",
-      "name": "feat-unhedged-app",
-      "url": "https://unhedged.gg",
-      "appCategory": "Prediction Markets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton prediction markets",
-      "isCandidate": true
-    },
-    {
-      "id": "mpch-brondvn",
-      "name": "MPCH-BRONdvn-1",
-      "url": "https://mpcvault.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "MPCH Bron delegation validator",
-      "isCandidate": true
-    },
-    {
-      "id": "noves-translate",
-      "name": "noves-translate",
-      "url": "https://noves.fi",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
-      "isCandidate": true
     }
   ]
 }
