@@ -1,3 +1,150 @@
 app_name,base_name,category,confidence,website_guess,note
-www.cantonscan.com,wwwcantonscancom,Explorer/Infra,40,,
-Featured Apps,featuredapps,Unknown,30,,
+Bitgo-mainnetValidator-1,bitgo,Validator/Infra,100,https://bitgo.com,Digital asset custody & infrastructure
+ByBit-MainNetValidator-1,bybit,Validator/Infra,100,https://bybit.com,Crypto exchange validator
+Cantex-validator-1,cantex,DEX/AMM,100,https://cantex.io,Canton DEX by CaviarNine
+cantonloop-mainnet-1,cantonloop,Wallet,100,https://lighthouse.cantonloop.com,5N Loop wallet / explorer
+cantonnodes-validator-1,cantonnodes,Validator/Infra,100,https://cantonnodes.com,Canton RPC & node services
+CoinMetrics-validator-1,coinmetrics,Explorer/Infra,100,https://coinmetrics.io,Crypto data & analytics
+Cygnet,cygnet,DEX/AMM,100,https://cygnet.finance,Canton DeFi protocol
+cypherock-mainnet-1,cypherock,Wallet,100,https://cypherock.com,Hardware wallet with Canton support
+Fairmint-validator-1,fairmint,Tokenized Assets,100,https://fairmint.com,Equity & token issuance
+flipside-validator-1,flipside,Explorer/Infra,100,https://flipsidecrypto.xyz,Onchain analytics
+HIFI-validator-1,hifi,Validator/Infra,100,https://hifi.finance,Fixed-rate lending protocol
+IntellectEU-validator-1,intellecteu,Validator/Infra,100,https://intellecteu.com,Enterprise blockchain solutions
+kraken-validator-01,kraken,Validator/Infra,100,https://kraken.com,Crypto exchange validator
+mexc-mainNet-01,mexc,Validator/Infra,100,https://mexc.com,MEXC exchange validator
+Obligate-validator-1,obligate,Tokenized Assets,100,https://obligate.com,On-chain bond issuance
+pixelplex-mainnet-3,pixelplex,Explorer/Infra,100,https://pixelplex.io,Canton exchange development
+proofgroup-validator-1,proofgroup,Validator/Infra,100,https://proofgroup.com,Blockchain infrastructure
+send-cantonwallet-1,cantonwallet,Wallet,100,https://cantonwallet.com,Canton Network wallet
+temple-mainnet-1,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
+TextureCapital-validator-1,texturecapital,Validator/Infra,100,https://texturecapital.com,Digital asset platform
+Tradecraft,tradecraft,DEX/AMM,100,https://tradecraft.fi,Canton DEX (AMM)
+trakx-validator-1,trakx,Validator/Infra,100,https://trakx.io,Crypto index platform
+binance-dp-1,binance-dp,Validator/Infra,90,https://binance.us,Binance delegation participant
+blackmantacapital-primary-1,blackmantacapital-primary,Tokenized Assets,90,https://blackmanta.capital,BaFin-regulated tokenized securities
+cantor8-digik-1,cantor8-digik,Explorer/Infra,90,https://cantor8.tech/digik,DigiK - Canton gateway
+Cumberland-GasStation-1,cumberland-gasstation,Validator/Infra,90,https://cumberland.io,Cumberland gas station (DRW subsidiary)
+dfns1,dfns1,Wallet,90,https://dfns.co,DFNS wallet infrastructure
+feat-unhedged-app,unhedged-app,Prediction Markets,90,https://unhedged.gg,Canton prediction markets
+kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validator node
+MPCH-BRONdvn-1,mpch-brondvn,Wallet,90,https://mpcvault.com,MPCH Bron delegation validator
+nodefortress-finance-1,nodefortress-finance,Validator/Infra,90,https://nodefortress.io,Node hosting infrastructure
+noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
+the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
+ZodiaCustody-validator-1,zodiacustody,Wallet,90,https://zodia.io,Standard Chartered crypto custody
+acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
+Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
+c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
+CantonSwap,cantonswap,DEX/AMM,55,,Canton swap protocol
+ccbrowser,ccbrowser,Explorer/Infra,55,,Canton Coin browser
+DStash,dstash,Wallet,55,,Canton stash wallet
+handlpay-main-1,handlpay-main,Payments,55,,Canton payment service
+Hashrupt-Verity,hashrupt-verity,Identity/Auth,55,,Verification service
+iBTC-validator-1,ibtc,Validator/Infra,55,,iBTC validator
+lithiumdigital-validator-1,lithiumdigital,Validator/Infra,55,,Canton validator
+LoopID,loopid,Identity/Auth,55,,Identity service
+M1-validator-1,m1,Validator/Infra,55,,Canton validator
+openvector-wallet-1,openvector-wallet,Wallet,55,,OpenVector wallet
+poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
+send-safe,safe,Wallet,55,,Safe send interface
+silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
+Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
+TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
+TRIZEGroup-RIZEScore,trizegroup-rizescore,Identity/Auth,55,,TRIZE Group identity score
+Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
+3trade_validator_admin,3tradevalidatoradmin,Validator/Infra,40,,
+asset-relayer,asset-relayer,Bridge,40,,
+cauri-wallet-provider1,cauri-wallet-provider1,Wallet,40,,
+CopperWrappedAssets,copperwrappedassets,Tokenized Assets,40,,
+dteamtech-validator-1,dteamtech,Validator/Infra,40,,
+edx-validator-1,edx,Validator/Infra,40,,
+elk-Validator-2,elk,Validator/Infra,40,,
+FlowRyd-validator-1,flowryd,Validator/Infra,40,,
+FTP-validator-1,ftp,Validator/Infra,40,,
+Mod-Vault,mod-vault,Wallet,40,,
+nodetech-mainnet-1,nodetech,Validator/Infra,40,,
+OKX-VALIDATOR-2,okx,Validator/Infra,40,,
+peertrust-validator-2,peertrust,Validator/Infra,40,,
+poolparty-operator,poolparty-operator,DEX/AMM,40,,
+Redstone-validator-1,redstone,Validator/Infra,40,,
+rho-relay,rho-relay,Bridge,40,,
+RootsFi-validator-01,rootsfi,Validator/Infra,40,,
+sunthycloud-mainnet-1,sunthycloud,Unknown,40,,Canton cloud service
+temple-vaults-xx,temple-vaults-xx,Wallet,40,,
+Tokino-validator-1,tokino,Validator/Infra,40,,
+ValaWallet-FA,valawallet-fa,Wallet,40,,
+576413da77524b51afd26dc5356b6959,576413da77524b51afd26dc5356b6959,Unknown,30,,
+arcane-mainnet-1,arcane,Unknown,30,,
+auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Identity/Auth,30,,
+auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Identity/Auth,30,,
+auth0_007c683dbd71f9d177d5fdd09f3c,auth0007c683dbd71f9d177d5fdd09f3c,Identity/Auth,30,,
+auth0_007c689b657291598790daabbdca,auth0007c689b657291598790daabbdca,Identity/Auth,30,,
+auth0_007c68b849ffb53dbcab06ecd2a1,auth0007c68b849ffb53dbcab06ecd2a1,Identity/Auth,30,,
+auth0_007c68c00c8f13d9cd1ff3a0f951,auth0007c68c00c8f13d9cd1ff3a0f951,Identity/Auth,30,,
+auth0_007c68d19a845c180f92912bcaca,auth0007c68d19a845c180f92912bcaca,Identity/Auth,30,,
+auth0_007c68dab25ebb6582a0cbe2861c,auth0007c68dab25ebb6582a0cbe2861c,Identity/Auth,30,,
+auth0_007c68f92e9e93fbd6f5a89b0a0c,auth0007c68f92e9e93fbd6f5a89b0a0c,Identity/Auth,30,,
+auth0_007c691c4d28726455d23d1aa6dd,auth0007c691c4d28726455d23d1aa6dd,Identity/Auth,30,,
+auth0_007c6944217743c3f0b43f0a8285,auth0007c6944217743c3f0b43f0a8285,Identity/Auth,30,,
+auth0_007c696a4894dd7826985302d3b9,auth0007c696a4894dd7826985302d3b9,Identity/Auth,30,,
+auth0_007c698461d72f5237c52b2b5b36,auth0007c698461d72f5237c52b2b5b36,Identity/Auth,30,,
+auth0_007c69cd2129f7ce4fb0bd5f93fe,auth0007c69cd2129f7ce4fb0bd5f93fe,Identity/Auth,30,,
+auth0_007c69eb81fb9b5cfe37fbc593a3,auth0007c69eb81fb9b5cfe37fbc593a3,Identity/Auth,30,,
+bitdynamicsab-mainnet-1,bitdynamicsab,Unknown,30,,
+brikly-asterizm,brikly-asterizm,Unknown,30,,
+cache-cantor8-1,cache-cantor8,Unknown,30,,
+Cancore-mainnet-1,cancore,Unknown,30,,
+canton-sign,canton-sign,Unknown,30,,
+CantonOps,cantonops,Unknown,30,,
+cantory,cantory,Unknown,30,,
+cantrack,cantrack,Unknown,30,,
+cbtc-network,cbtc-network,Unknown,30,,
+CopperClearLoop,copperclearloop,Unknown,30,,
+daml-autopilot,daml-autopilot,Unknown,30,,
+edel-various-1,edel-various,Unknown,30,,
+foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
+fulcrum-point,fulcrum-point,Unknown,30,,
+GlobalSettlement-mainnet-1,globalsettlement,Unknown,30,,
+google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,30,,
+handl-issuer,handl-issuer,Unknown,30,,
+haven-lp,haven-lp,Unknown,30,,
+HeliosFinance-Mainnet-1,heliosfinance,Unknown,30,,
+kora-app,kora-app,Unknown,30,,
+ledger-ledgerops-2,ledger-ledgerops,Unknown,30,,
+lseg-finance-1,lseg-finance,Unknown,30,,
+mandalo-mainnet-2,mandalo,Unknown,30,,Canton app
+modo,modo,Unknown,30,,Canton app
+Modulo-Issuer,modulo-issuer,Unknown,30,,
+modulo-mainnet-2,modulo,Unknown,30,,Canton app
+nexode,nexode,Unknown,30,,
+obligate-issuance,obligate-issuance,Unknown,30,,
+onchain-transfer-agent,onchain-transfer-agent,Unknown,30,,
+onrails-core,onrails-core,Unknown,30,,
+onrails-reserve,onrails-reserve,Unknown,30,,
+onrails-stable,onrails-stable,Unknown,30,,
+onrails-yield,onrails-yield,Unknown,30,,
+openvector-mainnet-1,openvector,Unknown,30,,Canton app
+opus28-opusaccess-1,opus28-opusaccess,Unknown,30,,
+ppbpffauvo,ppbpffauvo,Unknown,30,,
+PropNotary-app,propnotary-app,Unknown,30,,
+rails-cethMain-1,rails-cethmain,Unknown,30,,
+roundbeat-mainnet-01,roundbeat,Unknown,30,,
+SatsTerminal-main-1,satsterminal-main,Unknown,30,,
+tenkai-main-1,tenkai-main,Unknown,30,,Canton app
+tradefast-mainnet-1,tradefast,Unknown,30,,
+tradefast-mainnet-2,tradefast,Unknown,30,,
+tradefast-provider-1,tradefast-provider,Unknown,30,,
+twmain-treasury-1,twmain-treasury,Unknown,30,,
+unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
+walley,walley,Unknown,30,,
+wuselfabrik,wuselfabrik,Unknown,30,,
+zkpc-cantor8-1,zkpc-cantor8,Unknown,30,,
+23d169c2-0909-4c70-81d1-1922de6febaa,23d169c2-0909-4c70-81d1-1922de6febaa,Unknown,15,,
+3b348904-a81e-403c-a48e-13fa14aa6e97,3b348904-a81e-403c-a48e-13fa14aa6e97,Unknown,15,,
+8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,15,,
+931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,15,,
+f932f175-75f1-45e9-9dce-8b8c77f1328b,f932f175-75f1-45e9-9dce-8b8c77f1328b,Unknown,15,,
+party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Unknown,15,,
+party-8cc0af7a-8265-4c2f-984e-ef299c3c103f,party-8cc0af7a-8265-4c2f-984e-ef299c3c103f,Unknown,15,,
+party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,15,,
