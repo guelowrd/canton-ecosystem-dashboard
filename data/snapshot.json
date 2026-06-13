@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-12T01:24:28.101Z",
+  "lastUpdated": "2026-06-13T01:22:41.468Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1905,
+    "totalTvlUsd": 1750,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 21,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 34411,
-      "activeMarkets": 92,
-      "endedMarkets": 11,
-      "resolvedMarkets": 34011,
-      "totalActivePoolUsd": 1905,
-      "totalActiveBets": 140,
+      "totalMarkets": 34604,
+      "activeMarkets": 65,
+      "endedMarkets": 22,
+      "resolvedMarkets": 34214,
+      "totalActivePoolUsd": 1750,
+      "totalActiveBets": 121,
       "categories": {
         "crypto": {
           "count": 4,
@@ -58,9 +58,9 @@
           "bets": 0
         },
         "sports": {
-          "count": 87,
-          "poolUsd": 1865,
-          "bets": 132
+          "count": 60,
+          "poolUsd": 1710,
+          "bets": 113
         },
         "economics": {
           "count": 1,
@@ -72,37 +72,37 @@
         {
           "question": "Australia vs Turkey",
           "category": "sports",
-          "totalPool": 715,
-          "betCount": 27,
+          "totalPool": 890,
+          "betCount": 34,
           "endTime": "2026-06-14T03:00:00.000Z"
         },
         {
           "question": "Brazil vs Morocco",
           "category": "sports",
-          "totalPool": 190,
-          "betCount": 11,
+          "totalPool": 215,
+          "betCount": 14,
           "endTime": "2026-06-13T21:00:00.000Z"
-        },
-        {
-          "question": "Canada vs Bosnia and Herzegovina",
-          "category": "sports",
-          "totalPool": 145,
-          "betCount": 9,
-          "endTime": "2026-06-12T18:00:00.000Z"
-        },
-        {
-          "question": "USA vs Paraguay",
-          "category": "sports",
-          "totalPool": 125,
-          "betCount": 11,
-          "endTime": "2026-06-13T00:00:00.000Z"
         },
         {
           "question": "Germany vs Curacao",
           "category": "sports",
-          "totalPool": 105,
-          "betCount": 9,
+          "totalPool": 155,
+          "betCount": 15,
           "endTime": "2026-06-14T16:00:00.000Z"
+        },
+        {
+          "question": "Haiti vs Scotland",
+          "category": "sports",
+          "totalPool": 120,
+          "betCount": 9,
+          "endTime": "2026-06-14T00:00:00.000Z"
+        },
+        {
+          "question": "Qatar vs Switzerland",
+          "category": "sports",
+          "totalPool": 80,
+          "betCount": 9,
+          "endTime": "2026-06-13T18:00:00.000Z"
         }
       ]
     },
@@ -278,7 +278,7 @@
       "name": "dfns1",
       "url": "https://dfns.co",
       "appCategory": "Wallet",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
