@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-13T01:22:41.468Z",
+  "lastUpdated": "2026-06-14T01:24:12.623Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1750,
+    "totalTvlUsd": 1647.74,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 21,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 34604,
-      "activeMarkets": 65,
-      "endedMarkets": 22,
-      "resolvedMarkets": 34214,
-      "totalActivePoolUsd": 1750,
-      "totalActiveBets": 121,
+      "totalMarkets": 34797,
+      "activeMarkets": 36,
+      "endedMarkets": 49,
+      "resolvedMarkets": 34409,
+      "totalActivePoolUsd": 1647.74,
+      "totalActiveBets": 105,
       "categories": {
         "crypto": {
           "count": 4,
@@ -58,9 +58,9 @@
           "bets": 0
         },
         "sports": {
-          "count": 60,
-          "poolUsd": 1710,
-          "bets": 113
+          "count": 31,
+          "poolUsd": 1607.74,
+          "bets": 97
         },
         "economics": {
           "count": 1,
@@ -72,37 +72,37 @@
         {
           "question": "Australia vs Turkey",
           "category": "sports",
-          "totalPool": 890,
-          "betCount": 34,
+          "totalPool": 1062.74,
+          "betCount": 46,
           "endTime": "2026-06-14T03:00:00.000Z"
-        },
-        {
-          "question": "Brazil vs Morocco",
-          "category": "sports",
-          "totalPool": 215,
-          "betCount": 14,
-          "endTime": "2026-06-13T21:00:00.000Z"
         },
         {
           "question": "Germany vs Curacao",
           "category": "sports",
-          "totalPool": 155,
-          "betCount": 15,
+          "totalPool": 250,
+          "betCount": 23,
           "endTime": "2026-06-14T16:00:00.000Z"
         },
         {
-          "question": "Haiti vs Scotland",
+          "question": "Netherlands vs Japan",
           "category": "sports",
-          "totalPool": 120,
-          "betCount": 9,
-          "endTime": "2026-06-14T00:00:00.000Z"
+          "totalPool": 130,
+          "betCount": 11,
+          "endTime": "2026-06-14T19:00:00.000Z"
         },
         {
-          "question": "Qatar vs Switzerland",
+          "question": "Vegas Golden Knights vs Carolina Hurricanes",
           "category": "sports",
-          "totalPool": 80,
-          "betCount": 9,
-          "endTime": "2026-06-13T18:00:00.000Z"
+          "totalPool": 95,
+          "betCount": 6,
+          "endTime": "2026-06-14T23:00:00.000Z"
+        },
+        {
+          "question": "Fed decision in June",
+          "category": "economics",
+          "totalPool": 40,
+          "betCount": 8,
+          "endTime": "2026-06-17T18:00:00.000Z"
         }
       ]
     },

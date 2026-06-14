@@ -152,6 +152,14 @@
     "note": "Institutional CLOB exchange"
   },
   {
+    "appName": "temple-mainnet-2",
+    "baseName": "temple",
+    "category": "Orderbook/CLOB",
+    "confidence": 100,
+    "websiteGuess": "https://app.templedigitalgroup.com",
+    "note": "Institutional CLOB exchange"
+  },
+  {
     "appName": "TextureCapital-validator-1",
     "baseName": "texturecapital",
     "category": "Validator/Infra",

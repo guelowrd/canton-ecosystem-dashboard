@@ -18,6 +18,7 @@ pixelplex-mainnet-3,pixelplex,Explorer/Infra,100,https://pixelplex.io,Canton exc
 proofgroup-validator-1,proofgroup,Validator/Infra,100,https://proofgroup.com,Blockchain infrastructure
 send-cantonwallet-1,cantonwallet,Wallet,100,https://cantonwallet.com,Canton Network wallet
 temple-mainnet-1,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
+temple-mainnet-2,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
 TextureCapital-validator-1,texturecapital,Validator/Infra,100,https://texturecapital.com,Digital asset platform
 Tradecraft,tradecraft,DEX/AMM,100,https://tradecraft.fi,Canton DEX (AMM)
 trakx-validator-1,trakx,Validator/Infra,100,https://trakx.io,Crypto index platform

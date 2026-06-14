@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-04T01:19:26.809Z",
+  "lastUpdated": "2026-06-14T01:24:12.623Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 3212.71,
+    "totalTvlUsd": 1647.74,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 21,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 21 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,54 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 32929,
-      "activeMarkets": 118,
-      "endedMarkets": 19,
-      "resolvedMarkets": 32527,
-      "totalActivePoolUsd": 3212.71,
-      "totalActiveBets": 273,
+      "totalMarkets": 34797,
+      "activeMarkets": 36,
+      "endedMarkets": 49,
+      "resolvedMarkets": 34409,
+      "totalActivePoolUsd": 1647.74,
+      "totalActiveBets": 105,
       "categories": {
+        "crypto": {
+          "count": 4,
+          "poolUsd": 0,
+          "bets": 0
+        },
         "sports": {
-          "count": 100,
-          "poolUsd": 3212.71,
-          "bets": 273
+          "count": 31,
+          "poolUsd": 1607.74,
+          "bets": 97
+        },
+        "economics": {
+          "count": 1,
+          "poolUsd": 40,
+          "bets": 8
         }
       },
       "topMarkets": [
         {
-          "question": "Chunichi Dragons vs Seibu Lions",
+          "question": "Australia vs Turkey",
           "category": "sports",
-          "totalPool": 205,
-          "betCount": 9,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "totalPool": 1062.74,
+          "betCount": 46,
+          "endTime": "2026-06-14T03:00:00.000Z"
         },
         {
-          "question": "KIA Tigers vs Samsung Lions",
+          "question": "Germany vs Curacao",
           "category": "sports",
-          "totalPool": 125,
-          "betCount": 10,
-          "endTime": "2026-06-05T08:30:00.000Z"
+          "totalPool": 250,
+          "betCount": 23,
+          "endTime": "2026-06-14T16:00:00.000Z"
         },
         {
-          "question": "Yomiuri Giants vs Chiba Lotte Marines",
+          "question": "Netherlands vs Japan",
           "category": "sports",
-          "totalPool": 116,
-          "betCount": 7,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "totalPool": 130,
+          "betCount": 11,
+          "endTime": "2026-06-14T19:00:00.000Z"
         },
         {
-          "question": "Hiroshima Carp vs Orix Buffaloes",
+          "question": "Vegas Golden Knights vs Carolina Hurricanes",
           "category": "sports",
-          "totalPool": 115,
+          "totalPool": 95,
           "betCount": 6,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "endTime": "2026-06-14T23:00:00.000Z"
         },
         {
-          "question": "Yokohama BayStars vs Fukuoka S. Hawks",
-          "category": "sports",
-          "totalPool": 112.8,
-          "betCount": 7,
-          "endTime": "2026-06-05T08:00:00.000Z"
+          "question": "Fed decision in June",
+          "category": "economics",
+          "totalPool": 40,
+          "betCount": 8,
+          "endTime": "2026-06-17T18:00:00.000Z"
         }
       ]
     },
@@ -156,6 +166,18 @@
       "isCandidate": true
     },
     {
+      "id": "coinmetrics",
+      "name": "CoinMetrics-validator-1",
+      "url": "https://coinmetrics.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto data & analytics",
+      "isCandidate": true
+    },
+    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -177,6 +199,30 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "flipside",
+      "name": "flipside-validator-1",
+      "url": "https://flipsidecrypto.xyz",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Onchain analytics",
+      "isCandidate": true
+    },
+    {
+      "id": "obligate",
+      "name": "Obligate-validator-1",
+      "url": "https://obligate.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "On-chain bond issuance",
       "isCandidate": true
     },
     {
@@ -273,6 +319,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
+      "isCandidate": true
+    },
+    {
+      "id": "thetievalidator",
+      "name": "the_tie_validator",
+      "url": "https://thetie.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto analytics platform",
       "isCandidate": true
     },
     {
