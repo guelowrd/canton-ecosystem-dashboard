@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-06-15_0126.json",
+    "lastUpdated": "2026-06-15T01:26:33.165Z",
+    "tvlUsd": 1744,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-06-14_0124.json",
     "lastUpdated": "2026-06-14T01:24:12.623Z",
     "tvlUsd": 1647.74,
@@ -158,19 +171,6 @@
         "noves-translate",
         "ZodiaCustody-validator-1"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-06-05_0108.json",
-    "lastUpdated": "2026-06-05T01:08:15.349Z",
-    "tvlUsd": 1848.73,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
