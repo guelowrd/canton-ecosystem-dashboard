@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-06T01:06:02.495Z",
+  "lastUpdated": "2026-06-16T01:28:59.236Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 882.4300000000001,
+    "totalTvlUsd": 1824.69,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 21,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 21 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 33127,
-      "activeMarkets": 133,
-      "endedMarkets": 16,
-      "resolvedMarkets": 32709,
-      "totalActivePoolUsd": 882.4300000000001,
-      "totalActiveBets": 93,
+      "totalMarkets": 35206,
+      "activeMarkets": 24,
+      "endedMarkets": 7,
+      "resolvedMarkets": 34818,
+      "totalActivePoolUsd": 1824.69,
+      "totalActiveBets": 153,
       "categories": {
         "crypto": {
-          "count": 8,
+          "count": 4,
           "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 92,
-          "poolUsd": 882.4300000000001,
-          "bets": 93
+          "count": 19,
+          "poolUsd": 1204.69,
+          "bets": 139
+        },
+        "economics": {
+          "count": 1,
+          "poolUsd": 620,
+          "bets": 14
         }
       },
       "topMarkets": [
         {
-          "question": "Viettel vs Công An Nhân Dân",
+          "question": "Fed decision in June",
+          "category": "economics",
+          "totalPool": 620,
+          "betCount": 14,
+          "endTime": "2026-06-17T18:00:00.000Z"
+        },
+        {
+          "question": "Iraq vs Norway",
           "category": "sports",
-          "totalPool": 85,
+          "totalPool": 115,
+          "betCount": 15,
+          "endTime": "2026-06-16T21:00:00.000Z"
+        },
+        {
+          "question": "France vs Senegal",
+          "category": "sports",
+          "totalPool": 110,
+          "betCount": 13,
+          "endTime": "2026-06-16T18:00:00.000Z"
+        },
+        {
+          "question": "Portugal vs D.R. Congo",
+          "category": "sports",
+          "totalPool": 105,
           "betCount": 8,
-          "endTime": "2026-06-07T10:00:00.000Z"
+          "endTime": "2026-06-17T16:00:00.000Z"
         },
         {
-          "question": "New York Knicks vs San Antonio Spurs",
+          "question": "England vs Croatia",
           "category": "sports",
-          "totalPool": 45,
-          "betCount": 4,
-          "endTime": "2026-06-08T23:30:00.000Z"
-        },
-        {
-          "question": "Song Lam Nghe An vs Pho Hien",
-          "category": "sports",
-          "totalPool": 45,
-          "betCount": 6,
-          "endTime": "2026-06-07T10:00:00.000Z"
-        },
-        {
-          "question": "Phu Dong vs Hồng Lĩnh Hà Tĩnh",
-          "category": "sports",
-          "totalPool": 40,
-          "betCount": 4,
-          "endTime": "2026-06-07T10:00:00.000Z"
-        },
-        {
-          "question": "Hai Phong vs Nam Dinh",
-          "category": "sports",
-          "totalPool": 35,
-          "betCount": 5,
-          "endTime": "2026-06-07T10:00:00.000Z"
+          "totalPool": 100,
+          "betCount": 11,
+          "endTime": "2026-06-17T19:00:00.000Z"
         }
       ]
     },
@@ -161,6 +166,18 @@
       "isCandidate": true
     },
     {
+      "id": "coinmetrics",
+      "name": "CoinMetrics-validator-1",
+      "url": "https://coinmetrics.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto data & analytics",
+      "isCandidate": true
+    },
+    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -182,6 +199,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "flipside",
+      "name": "flipside-validator-1",
+      "url": "https://flipsidecrypto.xyz",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Onchain analytics",
       "isCandidate": true
     },
     {
@@ -249,7 +278,7 @@
       "name": "dfns1",
       "url": "https://dfns.co",
       "appCategory": "Wallet",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
@@ -290,6 +319,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
+      "isCandidate": true
+    },
+    {
+      "id": "thetievalidator",
+      "name": "the_tie_validator",
+      "url": "https://thetie.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto analytics platform",
       "isCandidate": true
     },
     {

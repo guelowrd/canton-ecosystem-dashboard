@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-15T01:26:33.165Z",
+  "lastUpdated": "2026-06-16T01:28:59.236Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1744,
+    "totalTvlUsd": 1824.69,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 21,
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 35010,
-      "activeMarkets": 25,
-      "endedMarkets": 11,
-      "resolvedMarkets": 34621,
-      "totalActivePoolUsd": 1744,
-      "totalActiveBets": 139,
+      "totalMarkets": 35206,
+      "activeMarkets": 24,
+      "endedMarkets": 7,
+      "resolvedMarkets": 34818,
+      "totalActivePoolUsd": 1824.69,
+      "totalActiveBets": 153,
       "categories": {
         "crypto": {
           "count": 4,
@@ -58,9 +58,9 @@
           "bets": 0
         },
         "sports": {
-          "count": 20,
-          "poolUsd": 1124,
-          "bets": 125
+          "count": 19,
+          "poolUsd": 1204.69,
+          "bets": 139
         },
         "economics": {
           "count": 1,
@@ -77,32 +77,32 @@
           "endTime": "2026-06-17T18:00:00.000Z"
         },
         {
-          "question": "Spain vs Cape Verde",
+          "question": "Iraq vs Norway",
           "category": "sports",
-          "totalPool": 145,
-          "betCount": 14,
-          "endTime": "2026-06-15T15:00:00.000Z"
+          "totalPool": 115,
+          "betCount": 15,
+          "endTime": "2026-06-16T21:00:00.000Z"
         },
         {
-          "question": "England vs Croatia",
+          "question": "France vs Senegal",
           "category": "sports",
-          "totalPool": 95,
-          "betCount": 10,
-          "endTime": "2026-06-17T19:00:00.000Z"
+          "totalPool": 110,
+          "betCount": 13,
+          "endTime": "2026-06-16T18:00:00.000Z"
         },
         {
           "question": "Portugal vs D.R. Congo",
           "category": "sports",
-          "totalPool": 95,
-          "betCount": 6,
+          "totalPool": 105,
+          "betCount": 8,
           "endTime": "2026-06-17T16:00:00.000Z"
         },
         {
-          "question": "Saudi Arabia vs Uruguay",
+          "question": "England vs Croatia",
           "category": "sports",
-          "totalPool": 94,
-          "betCount": 10,
-          "endTime": "2026-06-15T21:00:00.000Z"
+          "totalPool": 100,
+          "betCount": 11,
+          "endTime": "2026-06-17T19:00:00.000Z"
         }
       ]
     },
