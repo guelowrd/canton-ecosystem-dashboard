@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-07T01:12:45.654Z",
+  "lastUpdated": "2026-06-17T01:24:19.233Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 442.43,
+    "totalTvlUsd": 2904.66,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 16,
+    "trackedApps": 21,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 16 tracked apps expose public metrics"
+    "1 of 21 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 33342,
-      "activeMarkets": 124,
-      "endedMarkets": 9,
-      "resolvedMarkets": 32940,
-      "totalActivePoolUsd": 442.43,
-      "totalActiveBets": 46,
+      "totalMarkets": 35402,
+      "activeMarkets": 25,
+      "endedMarkets": 7,
+      "resolvedMarkets": 35013,
+      "totalActivePoolUsd": 2904.66,
+      "totalActiveBets": 213,
       "categories": {
         "crypto": {
-          "count": 8,
+          "count": 4,
           "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 92,
-          "poolUsd": 442.43,
-          "bets": 46
+          "count": 20,
+          "poolUsd": 2284.66,
+          "bets": 199
+        },
+        "economics": {
+          "count": 1,
+          "poolUsd": 620,
+          "bets": 14
         }
       },
       "topMarkets": [
         {
-          "question": "New York Knicks vs San Antonio Spurs",
-          "category": "sports",
-          "totalPool": 70,
-          "betCount": 7,
-          "endTime": "2026-06-08T23:30:00.000Z"
+          "question": "Fed decision in June",
+          "category": "economics",
+          "totalPool": 620,
+          "betCount": 14,
+          "endTime": "2026-06-17T18:00:00.000Z"
         },
         {
-          "question": "New York Knicks vs San Antonio Spurs",
+          "question": "Austria vs Jordan",
           "category": "sports",
-          "totalPool": 45,
-          "betCount": 3,
-          "endTime": "2026-06-10T23:30:00.000Z"
+          "totalPool": 246.84,
+          "betCount": 22,
+          "endTime": "2026-06-17T03:00:00.000Z"
         },
         {
-          "question": "Vegas Golden Knights vs Carolina Hurricanes",
+          "question": "England vs Croatia",
           "category": "sports",
-          "totalPool": 20,
-          "betCount": 3,
-          "endTime": "2026-06-09T23:00:00.000Z"
+          "totalPool": 230,
+          "betCount": 22,
+          "endTime": "2026-06-17T19:00:00.000Z"
         },
         {
-          "question": "Chicago Cubs vs San Francisco Giants",
+          "question": "Ghana vs Panama",
           "category": "sports",
-          "totalPool": 20,
-          "betCount": 2,
-          "endTime": "2026-06-07T23:30:00.000Z"
+          "totalPool": 205,
+          "betCount": 18,
+          "endTime": "2026-06-17T22:00:00.000Z"
         },
         {
-          "question": "Detroit Tigers vs Seattle Mariners",
+          "question": "Portugal vs D.R. Congo",
           "category": "sports",
-          "totalPool": 20,
-          "betCount": 2,
-          "endTime": "2026-06-07T16:40:00.000Z"
+          "totalPool": 193.82,
+          "betCount": 15,
+          "endTime": "2026-06-17T16:00:00.000Z"
         }
       ]
     },
@@ -161,6 +166,18 @@
       "isCandidate": true
     },
     {
+      "id": "coinmetrics",
+      "name": "CoinMetrics-validator-1",
+      "url": "https://coinmetrics.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto data & analytics",
+      "isCandidate": true
+    },
+    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -182,6 +199,30 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "flipside",
+      "name": "flipside-validator-1",
+      "url": "https://flipsidecrypto.xyz",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Onchain analytics",
+      "isCandidate": true
+    },
+    {
+      "id": "obligate",
+      "name": "Obligate-validator-1",
+      "url": "https://obligate.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "On-chain bond issuance",
       "isCandidate": true
     },
     {
@@ -209,6 +250,18 @@
       "isCandidate": true
     },
     {
+      "id": "blackmantacapital-primary",
+      "name": "blackmantacapital-primary-1",
+      "url": "https://blackmanta.capital",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "BaFin-regulated tokenized securities",
+      "isCandidate": true
+    },
+    {
       "id": "cantor8-digik",
       "name": "cantor8-digik-1",
       "url": "https://cantor8.tech/digik",
@@ -225,7 +278,7 @@
       "name": "dfns1",
       "url": "https://dfns.co",
       "appCategory": "Wallet",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
@@ -266,6 +319,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
+      "isCandidate": true
+    },
+    {
+      "id": "thetievalidator",
+      "name": "the_tie_validator",
+      "url": "https://thetie.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto analytics platform",
       "isCandidate": true
     },
     {
