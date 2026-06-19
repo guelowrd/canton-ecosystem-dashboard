@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-09T01:04:44.515Z",
+  "lastUpdated": "2026-06-19T01:29:15.715Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 45,
+    "totalTvlUsd": 294.83,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 21,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 21 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 33783,
-      "activeMarkets": 132,
-      "endedMarkets": 10,
-      "resolvedMarkets": 33368,
-      "totalActivePoolUsd": 45,
-      "totalActiveBets": 3,
+      "totalMarkets": 35762,
+      "activeMarkets": 24,
+      "endedMarkets": 2,
+      "resolvedMarkets": 35359,
+      "totalActivePoolUsd": 294.83,
+      "totalActiveBets": 95,
       "categories": {
         "crypto": {
-          "count": 8,
+          "count": 4,
           "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 92,
-          "poolUsd": 45,
-          "bets": 3
+          "count": 20,
+          "poolUsd": 294.83,
+          "bets": 95
         }
       },
       "topMarkets": [
         {
-          "question": "New York Knicks vs San Antonio Spurs",
+          "question": "USA vs Australia",
           "category": "sports",
-          "totalPool": 45,
-          "betCount": 3,
-          "endTime": "2026-06-10T23:30:00.000Z"
+          "totalPool": 42.5,
+          "betCount": 15,
+          "endTime": "2026-06-19T18:00:00.000Z"
         },
         {
-          "question": "Canton Coin above $0.15903 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-09T01:20:00.000Z"
+          "question": "Scotland vs Morocco",
+          "category": "sports",
+          "totalPool": 42,
+          "betCount": 18,
+          "endTime": "2026-06-19T21:00:00.000Z"
         },
         {
-          "question": "Solana above $65.366 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-09T01:20:00.000Z"
+          "question": "Portugal vs Uzbekistan",
+          "category": "sports",
+          "totalPool": 36.33,
+          "betCount": 6,
+          "endTime": "2026-06-23T16:00:00.000Z"
         },
         {
-          "question": "Ethereum above $1,661.23 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-09T01:20:00.000Z"
+          "question": "Germany vs Ivory Coast",
+          "category": "sports",
+          "totalPool": 34,
+          "betCount": 9,
+          "endTime": "2026-06-20T19:00:00.000Z"
         },
         {
-          "question": "Bitcoin above $62,424.57 at 01:30 UTC?",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-06-09T01:20:00.000Z"
+          "question": "Türkiye vs Paraguay",
+          "category": "sports",
+          "totalPool": 18,
+          "betCount": 7,
+          "endTime": "2026-06-20T02:00:00.000Z"
         }
       ]
     },
@@ -161,6 +161,18 @@
       "isCandidate": true
     },
     {
+      "id": "coinmetrics",
+      "name": "CoinMetrics-validator-1",
+      "url": "https://coinmetrics.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Crypto data & analytics",
+      "isCandidate": true
+    },
+    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -182,6 +194,30 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "flipside",
+      "name": "flipside-validator-1",
+      "url": "https://flipsidecrypto.xyz",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Onchain analytics",
+      "isCandidate": true
+    },
+    {
+      "id": "obligate",
+      "name": "Obligate-validator-1",
+      "url": "https://obligate.com",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "On-chain bond issuance",
       "isCandidate": true
     },
     {
@@ -237,7 +273,7 @@
       "name": "dfns1",
       "url": "https://dfns.co",
       "appCategory": "Wallet",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
