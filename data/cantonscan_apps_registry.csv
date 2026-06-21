@@ -9,6 +9,7 @@ Cygnet,cygnet,DEX/AMM,100,https://cygnet.finance,Canton DeFi protocol
 cypherock-mainnet-1,cypherock,Wallet,100,https://cypherock.com,Hardware wallet with Canton support
 Fairmint-validator-1,fairmint,Tokenized Assets,100,https://fairmint.com,Equity & token issuance
 flipside-validator-1,flipside,Explorer/Infra,100,https://flipsidecrypto.xyz,Onchain analytics
+Hecto-Finance-1,hecto-finance,Lending,100,https://hectofinance.com,Canton DeFi protocol
 HIFI-validator-1,hifi,Validator/Infra,100,https://hifi.finance,Fixed-rate lending protocol
 IntellectEU-validator-1,intellecteu,Validator/Infra,100,https://intellecteu.com,Enterprise blockchain solutions
 kraken-validator-01,kraken,Validator/Infra,100,https://kraken.com,Crypto exchange validator
@@ -47,7 +48,6 @@ lithiumdigital-validator-1,lithiumdigital,Validator/Infra,55,,Canton validator
 LoopID,loopid,Identity/Auth,55,,Identity service
 M1-validator-1,m1,Validator/Infra,55,,Canton validator
 openvector-wallet-1,openvector-wallet,Wallet,55,,OpenVector wallet
-poolparty,poolparty,DEX/AMM,55,,Liquidity pool protocol
 send-safe,safe,Wallet,55,,Safe send interface
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
@@ -107,9 +107,9 @@ edel-various-1,edel-various,Unknown,30,,
 foundinalsunthy-mainnet-1,foundinalsunthy,Unknown,30,,Canton app
 fulcrum-point,fulcrum-point,Unknown,30,,
 GlobalSettlement-mainnet-1,globalsettlement,Unknown,30,,
-google-oauth2_007c106967619021219072829,google-oauth2007c106967619021219072829,Identity/Auth,30,,
 handl-issuer,handl-issuer,Unknown,30,,
 haven-lp,haven-lp,Unknown,30,,
+Hecto-App-1,hecto-app,Unknown,30,,
 HeliosFinance-Mainnet-1,heliosfinance,Unknown,30,,
 kora-app,kora-app,Unknown,30,,
 ledger-ledgerops-2,ledger-ledgerops,Unknown,30,,

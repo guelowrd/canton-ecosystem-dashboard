@@ -80,6 +80,14 @@
     "note": "Onchain analytics"
   },
   {
+    "appName": "Hecto-Finance-1",
+    "baseName": "hecto-finance",
+    "category": "Lending",
+    "confidence": 100,
+    "websiteGuess": "https://hectofinance.com",
+    "note": "Canton DeFi protocol"
+  },
+  {
     "appName": "HIFI-validator-1",
     "baseName": "hifi",
     "category": "Validator/Infra",
@@ -382,14 +390,6 @@
     "confidence": 55,
     "websiteGuess": null,
     "note": "OpenVector wallet"
-  },
-  {
-    "appName": "poolparty",
-    "baseName": "poolparty",
-    "category": "DEX/AMM",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Liquidity pool protocol"
   },
   {
     "appName": "send-safe",
@@ -864,14 +864,6 @@
     "note": null
   },
   {
-    "appName": "google-oauth2_007c106967619021219072829",
-    "baseName": "google-oauth2007c106967619021219072829",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "handl-issuer",
     "baseName": "handl-issuer",
     "category": "Unknown",
@@ -882,6 +874,14 @@
   {
     "appName": "haven-lp",
     "baseName": "haven-lp",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "Hecto-App-1",
+    "baseName": "hecto-app",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
