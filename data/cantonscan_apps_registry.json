@@ -1,13 +1,5 @@
 [
   {
-    "appName": "Bitgo-mainnetValidator-1",
-    "baseName": "bitgo",
-    "category": "Validator/Infra",
-    "confidence": 100,
-    "websiteGuess": "https://bitgo.com",
-    "note": "Digital asset custody & infrastructure"
-  },
-  {
     "appName": "ByBit-MainNetValidator-1",
     "baseName": "bybit",
     "category": "Validator/Infra",
@@ -72,14 +64,6 @@
     "note": "Equity & token issuance"
   },
   {
-    "appName": "flipside-validator-1",
-    "baseName": "flipside",
-    "category": "Explorer/Infra",
-    "confidence": 100,
-    "websiteGuess": "https://flipsidecrypto.xyz",
-    "note": "Onchain analytics"
-  },
-  {
     "appName": "Hecto-Finance-1",
     "baseName": "hecto-finance",
     "category": "Lending",
@@ -94,14 +78,6 @@
     "confidence": 100,
     "websiteGuess": "https://hifi.finance",
     "note": "Fixed-rate lending protocol"
-  },
-  {
-    "appName": "IntellectEU-validator-1",
-    "baseName": "intellecteu",
-    "category": "Validator/Infra",
-    "confidence": 100,
-    "websiteGuess": "https://intellecteu.com",
-    "note": "Enterprise blockchain solutions"
   },
   {
     "appName": "kraken-validator-01",
@@ -224,14 +200,6 @@
     "note": "Cumberland gas station (DRW subsidiary)"
   },
   {
-    "appName": "dfns1",
-    "baseName": "dfns1",
-    "category": "Wallet",
-    "confidence": 90,
-    "websiteGuess": "https://dfns.co",
-    "note": "DFNS wallet infrastructure"
-  },
-  {
     "appName": "feat-unhedged-app",
     "baseName": "unhedged-app",
     "category": "Prediction Markets",
@@ -256,14 +224,6 @@
     "note": "MPCH Bron delegation validator"
   },
   {
-    "appName": "nodefortress-finance-1",
-    "baseName": "nodefortress-finance",
-    "category": "Validator/Infra",
-    "confidence": 90,
-    "websiteGuess": "https://nodefortress.io",
-    "note": "Node hosting infrastructure"
-  },
-  {
     "appName": "noves-translate",
     "baseName": "noves-translate",
     "category": "Explorer/Infra",
@@ -278,14 +238,6 @@
     "confidence": 90,
     "websiteGuess": "https://thetie.io",
     "note": "Crypto analytics platform"
-  },
-  {
-    "appName": "ZodiaCustody-validator-1",
-    "baseName": "zodiacustody",
-    "category": "Wallet",
-    "confidence": 90,
-    "websiteGuess": "https://zodia.io",
-    "note": "Standard Chartered crypto custody"
   },
   {
     "appName": "acme-lending",
@@ -352,22 +304,6 @@
     "note": "Verification service"
   },
   {
-    "appName": "iBTC-validator-1",
-    "baseName": "ibtc",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "iBTC validator"
-  },
-  {
-    "appName": "lithiumdigital-validator-1",
-    "baseName": "lithiumdigital",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Canton validator"
-  },
-  {
     "appName": "LoopID",
     "baseName": "loopid",
     "category": "Identity/Auth",
@@ -390,14 +326,6 @@
     "confidence": 55,
     "websiteGuess": null,
     "note": "OpenVector wallet"
-  },
-  {
-    "appName": "send-safe",
-    "baseName": "safe",
-    "category": "Wallet",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "Safe send interface"
   },
   {
     "appName": "silvana-orderbook",
@@ -480,22 +408,6 @@
     "note": null
   },
   {
-    "appName": "edx-validator-1",
-    "baseName": "edx",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "elk-Validator-2",
-    "baseName": "elk",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "FlowRyd-validator-1",
     "baseName": "flowryd",
     "category": "Validator/Infra",
@@ -522,22 +434,6 @@
   {
     "appName": "nodetech-mainnet-1",
     "baseName": "nodetech",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "OKX-VALIDATOR-2",
-    "baseName": "okx",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "peertrust-validator-2",
-    "baseName": "peertrust",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
@@ -600,6 +496,14 @@
     "note": null
   },
   {
+    "appName": "tradefast-wallet3-1",
+    "baseName": "tradefast-wallet3",
+    "category": "Wallet",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "ValaWallet-FA",
     "baseName": "valawallet-fa",
     "category": "Wallet",
@@ -610,14 +514,6 @@
   {
     "appName": "576413da77524b51afd26dc5356b6959",
     "baseName": "576413da77524b51afd26dc5356b6959",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "arcane-mainnet-1",
-    "baseName": "arcane",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -648,32 +544,8 @@
     "note": null
   },
   {
-    "appName": "auth0_007c689b657291598790daabbdca",
-    "baseName": "auth0007c689b657291598790daabbdca",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c68b849ffb53dbcab06ecd2a1",
-    "baseName": "auth0007c68b849ffb53dbcab06ecd2a1",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "auth0_007c68c00c8f13d9cd1ff3a0f951",
     "baseName": "auth0007c68c00c8f13d9cd1ff3a0f951",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c68d19a845c180f92912bcaca",
-    "baseName": "auth0007c68d19a845c180f92912bcaca",
     "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
@@ -706,30 +578,6 @@
   {
     "appName": "auth0_007c6944217743c3f0b43f0a8285",
     "baseName": "auth0007c6944217743c3f0b43f0a8285",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c696a4894dd7826985302d3b9",
-    "baseName": "auth0007c696a4894dd7826985302d3b9",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c698461d72f5237c52b2b5b36",
-    "baseName": "auth0007c698461d72f5237c52b2b5b36",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c69cd2129f7ce4fb0bd5f93fe",
-    "baseName": "auth0007c69cd2129f7ce4fb0bd5f93fe",
     "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
@@ -776,14 +624,6 @@
     "note": null
   },
   {
-    "appName": "canton-sign",
-    "baseName": "canton-sign",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "CantonOps",
     "baseName": "cantonops",
     "category": "Unknown",
@@ -800,14 +640,6 @@
     "note": null
   },
   {
-    "appName": "cantrack",
-    "baseName": "cantrack",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "cbtc-network",
     "baseName": "cbtc-network",
     "category": "Unknown",
@@ -818,14 +650,6 @@
   {
     "appName": "CopperClearLoop",
     "baseName": "copperclearloop",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "daml-autopilot",
-    "baseName": "daml-autopilot",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -898,22 +722,6 @@
   {
     "appName": "kora-app",
     "baseName": "kora-app",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "ledger-ledgerops-2",
-    "baseName": "ledger-ledgerops",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "lseg-finance-1",
-    "baseName": "lseg-finance",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -1048,14 +856,6 @@
     "note": null
   },
   {
-    "appName": "roundbeat-mainnet-01",
-    "baseName": "roundbeat",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "SatsTerminal-main-1",
     "baseName": "satsterminal-main",
     "category": "Unknown",
@@ -1114,22 +914,6 @@
   {
     "appName": "walley",
     "baseName": "walley",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "wuselfabrik",
-    "baseName": "wuselfabrik",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "zkpc-cantor8-1",
-    "baseName": "zkpc-cantor8",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,

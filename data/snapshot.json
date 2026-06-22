@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-21T01:26:29.493Z",
+  "lastUpdated": "2026-06-22T01:22:52.947Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 324.55,
+    "totalTvlUsd": 427.98,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 21,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 21 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 36158,
-      "activeMarkets": 29,
-      "endedMarkets": 6,
-      "resolvedMarkets": 35746,
-      "totalActivePoolUsd": 324.55,
-      "totalActiveBets": 117,
+      "totalMarkets": 36366,
+      "activeMarkets": 26,
+      "endedMarkets": 7,
+      "resolvedMarkets": 35956,
+      "totalActivePoolUsd": 427.98,
+      "totalActiveBets": 158,
       "categories": {
         "crypto": {
           "count": 4,
@@ -58,9 +58,9 @@
           "bets": 0
         },
         "sports": {
-          "count": 25,
-          "poolUsd": 324.55,
-          "bets": 117
+          "count": 22,
+          "poolUsd": 427.98,
+          "bets": 158
         }
       },
       "topMarkets": [
@@ -72,32 +72,32 @@
           "endTime": "2026-06-23T16:00:00.000Z"
         },
         {
-          "question": "Spain vs Saudi Arabia",
-          "category": "sports",
-          "totalPool": 27,
-          "betCount": 9,
-          "endTime": "2026-06-21T15:00:00.000Z"
-        },
-        {
-          "question": "Panama vs Croatia",
-          "category": "sports",
-          "totalPool": 26,
-          "betCount": 10,
-          "endTime": "2026-06-23T22:00:00.000Z"
-        },
-        {
           "question": "Argentina vs Austria",
           "category": "sports",
-          "totalPool": 24,
-          "betCount": 8,
+          "totalPool": 34.93,
+          "betCount": 11,
           "endTime": "2026-06-22T16:00:00.000Z"
         },
         {
-          "question": "New Zealand vs Egypt",
+          "question": "Turkey vs USA",
           "category": "sports",
-          "totalPool": 21,
-          "betCount": 10,
-          "endTime": "2026-06-22T00:00:00.000Z"
+          "totalPool": 34,
+          "betCount": 13,
+          "endTime": "2026-06-26T01:00:00.000Z"
+        },
+        {
+          "question": "Scotland vs Brazil",
+          "category": "sports",
+          "totalPool": 33,
+          "betCount": 12,
+          "endTime": "2026-06-24T21:00:00.000Z"
+        },
+        {
+          "question": "Switzerland vs Canada",
+          "category": "sports",
+          "totalPool": 27,
+          "betCount": 13,
+          "endTime": "2026-06-24T18:00:00.000Z"
         }
       ]
     },
@@ -197,18 +197,6 @@
       "isCandidate": true
     },
     {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Onchain analytics",
-      "isCandidate": true
-    },
-    {
       "id": "obligate",
       "name": "Obligate-validator-1",
       "url": "https://obligate.com",
@@ -269,18 +257,6 @@
       "isCandidate": true
     },
     {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -326,18 +302,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Crypto analytics platform",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
       "isCandidate": true
     }
   ]
