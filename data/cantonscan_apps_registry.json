@@ -424,14 +424,6 @@
     "note": null
   },
   {
-    "appName": "Mod-Vault",
-    "baseName": "mod-vault",
-    "category": "Wallet",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "nodetech-mainnet-1",
     "baseName": "nodetech",
     "category": "Validator/Infra",
@@ -840,14 +832,6 @@
     "note": null
   },
   {
-    "appName": "PropNotary-app",
-    "baseName": "propnotary-app",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "rails-cethMain-1",
     "baseName": "rails-cethmain",
     "category": "Unknown",
@@ -916,14 +900,6 @@
     "baseName": "walley",
     "category": "Unknown",
     "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "baseName": "23d169c2-0909-4c70-81d1-1922de6febaa",
-    "category": "Unknown",
-    "confidence": 15,
     "websiteGuess": null,
     "note": null
   },
