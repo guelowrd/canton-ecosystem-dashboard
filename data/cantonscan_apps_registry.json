@@ -536,40 +536,8 @@
     "note": null
   },
   {
-    "appName": "auth0_007c68c00c8f13d9cd1ff3a0f951",
-    "baseName": "auth0007c68c00c8f13d9cd1ff3a0f951",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "auth0_007c68dab25ebb6582a0cbe2861c",
     "baseName": "auth0007c68dab25ebb6582a0cbe2861c",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c68f92e9e93fbd6f5a89b0a0c",
-    "baseName": "auth0007c68f92e9e93fbd6f5a89b0a0c",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c691c4d28726455d23d1aa6dd",
-    "baseName": "auth0007c691c4d28726455d23d1aa6dd",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c6944217743c3f0b43f0a8285",
-    "baseName": "auth0007c6944217743c3f0b43f0a8285",
     "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
@@ -586,14 +554,6 @@
   {
     "appName": "bitdynamicsab-mainnet-1",
     "baseName": "bitdynamicsab",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "brikly-asterizm",
-    "baseName": "brikly-asterizm",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -682,14 +642,6 @@
   {
     "appName": "handl-issuer",
     "baseName": "handl-issuer",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "haven-lp",
-    "baseName": "haven-lp",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -842,6 +794,14 @@
   {
     "appName": "SatsTerminal-main-1",
     "baseName": "satsterminal-main",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "squid-intents",
+    "baseName": "squid-intents",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
