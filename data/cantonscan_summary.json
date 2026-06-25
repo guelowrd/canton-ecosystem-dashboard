@@ -7,13 +7,13 @@
     "DEX/AMM": 5,
     "Wallet": 10,
     "Explorer/Infra": 6,
-    "Tokenized Assets": 4,
+    "Tokenized Assets": 5,
     "Lending": 2,
     "Orderbook/CLOB": 3,
     "Prediction Markets": 1,
     "Bridge": 3,
     "Payments": 1,
     "Identity/Auth": 8,
-    "Unknown": 48
+    "Unknown": 47
   }
 }

@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-24T01:06:46.982Z",
+  "lastUpdated": "2026-06-25T01:10:53.494Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 316.45,
+    "totalTvlUsd": 274.45000000000005,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 36849,
-      "activeMarkets": 97,
-      "endedMarkets": 19,
-      "resolvedMarkets": 36356,
-      "totalActivePoolUsd": 316.45,
-      "totalActiveBets": 124,
+      "totalMarkets": 37051,
+      "activeMarkets": 86,
+      "endedMarkets": 15,
+      "resolvedMarkets": 36573,
+      "totalActivePoolUsd": 274.45000000000005,
+      "totalActiveBets": 91,
       "categories": {
         "crypto": {
           "count": 4,
@@ -58,45 +58,45 @@
           "bets": 0
         },
         "sports": {
-          "count": 93,
-          "poolUsd": 316.45,
-          "bets": 124
+          "count": 82,
+          "poolUsd": 274.45000000000005,
+          "bets": 91
         }
       },
       "topMarkets": [
         {
           "question": "Turkey vs USA",
           "category": "sports",
-          "totalPool": 43.2,
-          "betCount": 17,
+          "totalPool": 44.2,
+          "betCount": 18,
           "endTime": "2026-06-26T01:00:00.000Z"
-        },
-        {
-          "question": "Scotland vs Brazil",
-          "category": "sports",
-          "totalPool": 42,
-          "betCount": 16,
-          "endTime": "2026-06-24T21:00:00.000Z"
-        },
-        {
-          "question": "Switzerland vs Canada",
-          "category": "sports",
-          "totalPool": 28,
-          "betCount": 14,
-          "endTime": "2026-06-24T18:00:00.000Z"
         },
         {
           "question": "Japan vs Sweden",
           "category": "sports",
-          "totalPool": 27.85,
-          "betCount": 11,
+          "totalPool": 34.85,
+          "betCount": 14,
           "endTime": "2026-06-25T22:00:00.000Z"
+        },
+        {
+          "question": "Paraguay vs Australia",
+          "category": "sports",
+          "totalPool": 26,
+          "betCount": 8,
+          "endTime": "2026-06-26T01:00:00.000Z"
         },
         {
           "question": "Ecuador vs Germany",
           "category": "sports",
           "totalPool": 23,
           "betCount": 11,
+          "endTime": "2026-06-25T19:00:00.000Z"
+        },
+        {
+          "question": "Curacao vs Ivory Coast",
+          "category": "sports",
+          "totalPool": 19,
+          "betCount": 10,
           "endTime": "2026-06-25T19:00:00.000Z"
         }
       ]

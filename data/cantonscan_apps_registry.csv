@@ -54,6 +54,7 @@ FlowRyd-validator-1,flowryd,Validator/Infra,40,,
 FTP-validator-1,ftp,Validator/Infra,40,,
 nodetech-mainnet-1,nodetech,Validator/Infra,40,,
 poolparty-operator,poolparty-operator,DEX/AMM,40,,
+ppx-asset-provider,ppx-asset-provider,Tokenized Assets,40,,
 Redstone-validator-1,redstone,Validator/Infra,40,,
 rho-relay,rho-relay,Bridge,40,,
 RootsFi-validator-01,rootsfi,Validator/Infra,40,,
@@ -85,7 +86,6 @@ HeliosFinance-Mainnet-1,heliosfinance,Unknown,30,,
 kora-app,kora-app,Unknown,30,,
 mandalo-mainnet-2,mandalo,Unknown,30,,Canton app
 modo,modo,Unknown,30,,Canton app
-Modulo-Issuer,modulo-issuer,Unknown,30,,
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 nexode,nexode,Unknown,30,,
 obligate-issuance,obligate-issuance,Unknown,30,,

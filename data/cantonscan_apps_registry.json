@@ -440,6 +440,14 @@
     "note": null
   },
   {
+    "appName": "ppx-asset-provider",
+    "baseName": "ppx-asset-provider",
+    "category": "Tokenized Assets",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "Redstone-validator-1",
     "baseName": "redstone",
     "category": "Validator/Infra",
@@ -686,14 +694,6 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
-  },
-  {
-    "appName": "Modulo-Issuer",
-    "baseName": "modulo-issuer",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
   },
   {
     "appName": "modulo-mainnet-2",

@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-15T01:26:33.165Z",
+  "lastUpdated": "2026-06-25T01:10:53.494Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1744,
+    "totalTvlUsd": 274.45000000000005,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 21,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 21 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,12 +45,12 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 35010,
-      "activeMarkets": 25,
-      "endedMarkets": 11,
-      "resolvedMarkets": 34621,
-      "totalActivePoolUsd": 1744,
-      "totalActiveBets": 139,
+      "totalMarkets": 37051,
+      "activeMarkets": 86,
+      "endedMarkets": 15,
+      "resolvedMarkets": 36573,
+      "totalActivePoolUsd": 274.45000000000005,
+      "totalActiveBets": 91,
       "categories": {
         "crypto": {
           "count": 4,
@@ -58,51 +58,46 @@
           "bets": 0
         },
         "sports": {
-          "count": 20,
-          "poolUsd": 1124,
-          "bets": 125
-        },
-        "economics": {
-          "count": 1,
-          "poolUsd": 620,
-          "bets": 14
+          "count": 82,
+          "poolUsd": 274.45000000000005,
+          "bets": 91
         }
       },
       "topMarkets": [
         {
-          "question": "Fed decision in June",
-          "category": "economics",
-          "totalPool": 620,
+          "question": "Turkey vs USA",
+          "category": "sports",
+          "totalPool": 44.2,
+          "betCount": 18,
+          "endTime": "2026-06-26T01:00:00.000Z"
+        },
+        {
+          "question": "Japan vs Sweden",
+          "category": "sports",
+          "totalPool": 34.85,
           "betCount": 14,
-          "endTime": "2026-06-17T18:00:00.000Z"
+          "endTime": "2026-06-25T22:00:00.000Z"
         },
         {
-          "question": "Spain vs Cape Verde",
+          "question": "Paraguay vs Australia",
           "category": "sports",
-          "totalPool": 145,
-          "betCount": 14,
-          "endTime": "2026-06-15T15:00:00.000Z"
+          "totalPool": 26,
+          "betCount": 8,
+          "endTime": "2026-06-26T01:00:00.000Z"
         },
         {
-          "question": "England vs Croatia",
+          "question": "Ecuador vs Germany",
           "category": "sports",
-          "totalPool": 95,
+          "totalPool": 23,
+          "betCount": 11,
+          "endTime": "2026-06-25T19:00:00.000Z"
+        },
+        {
+          "question": "Curacao vs Ivory Coast",
+          "category": "sports",
+          "totalPool": 19,
           "betCount": 10,
-          "endTime": "2026-06-17T19:00:00.000Z"
-        },
-        {
-          "question": "Portugal vs D.R. Congo",
-          "category": "sports",
-          "totalPool": 95,
-          "betCount": 6,
-          "endTime": "2026-06-17T16:00:00.000Z"
-        },
-        {
-          "question": "Saudi Arabia vs Uruguay",
-          "category": "sports",
-          "totalPool": 94,
-          "betCount": 10,
-          "endTime": "2026-06-15T21:00:00.000Z"
+          "endTime": "2026-06-25T19:00:00.000Z"
         }
       ]
     },
@@ -202,18 +197,6 @@
       "isCandidate": true
     },
     {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Onchain analytics",
-      "isCandidate": true
-    },
-    {
       "id": "obligate",
       "name": "Obligate-validator-1",
       "url": "https://obligate.com",
@@ -274,18 +257,6 @@
       "isCandidate": true
     },
     {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -331,18 +302,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Crypto analytics platform",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
       "isCandidate": true
     }
   ]
