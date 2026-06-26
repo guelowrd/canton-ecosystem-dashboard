@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-25T01:10:53.494Z",
+  "lastUpdated": "2026-06-26T01:14:01.441Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 274.45000000000005,
+    "totalTvlUsd": 236.1,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 19,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 19 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,59 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37051,
-      "activeMarkets": 86,
-      "endedMarkets": 15,
-      "resolvedMarkets": 36573,
-      "totalActivePoolUsd": 274.45000000000005,
-      "totalActiveBets": 91,
+      "totalMarkets": 37231,
+      "activeMarkets": 67,
+      "endedMarkets": 10,
+      "resolvedMarkets": 36777,
+      "totalActivePoolUsd": 236.1,
+      "totalActiveBets": 66,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 0,
-          "bets": 0
-        },
         "sports": {
-          "count": 82,
-          "poolUsd": 274.45000000000005,
-          "bets": 91
+          "count": 67,
+          "poolUsd": 236.1,
+          "bets": 66
         }
       },
       "topMarkets": [
         {
-          "question": "Turkey vs USA",
+          "question": "Norway vs France",
           "category": "sports",
-          "totalPool": 44.2,
-          "betCount": 18,
-          "endTime": "2026-06-26T01:00:00.000Z"
+          "totalPool": 24,
+          "betCount": 7,
+          "endTime": "2026-06-26T18:00:00.000Z"
         },
         {
-          "question": "Japan vs Sweden",
+          "question": "Cape Verde vs Saudi Arabia",
           "category": "sports",
-          "totalPool": 34.85,
-          "betCount": 14,
-          "endTime": "2026-06-25T22:00:00.000Z"
-        },
-        {
-          "question": "Paraguay vs Australia",
-          "category": "sports",
-          "totalPool": 26,
-          "betCount": 8,
-          "endTime": "2026-06-26T01:00:00.000Z"
-        },
-        {
-          "question": "Ecuador vs Germany",
-          "category": "sports",
-          "totalPool": 23,
+          "totalPool": 20.4,
           "betCount": 11,
-          "endTime": "2026-06-25T19:00:00.000Z"
+          "endTime": "2026-06-26T23:00:00.000Z"
         },
         {
-          "question": "Curacao vs Ivory Coast",
+          "question": "Jordan vs Argentina",
           "category": "sports",
-          "totalPool": 19,
-          "betCount": 10,
-          "endTime": "2026-06-25T19:00:00.000Z"
+          "totalPool": 15,
+          "betCount": 2,
+          "endTime": "2026-06-28T01:00:00.000Z"
+        },
+        {
+          "question": "St.Louis Cardinals vs Miami Marlins",
+          "category": "sports",
+          "totalPool": 13,
+          "betCount": 4,
+          "endTime": "2026-06-26T23:15:00.000Z"
+        },
+        {
+          "question": "Chicago White Sox vs Kansas City Royals",
+          "category": "sports",
+          "totalPool": 11.5,
+          "betCount": 3,
+          "endTime": "2026-06-26T22:40:00.000Z"
         }
       ]
     },
@@ -194,6 +189,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "hecto-finance",
+      "name": "Hecto-Finance-1",
+      "url": "https://hectofinance.com",
+      "appCategory": "Lending",
+      "transparency": "opaque",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton DeFi protocol",
       "isCandidate": true
     },
     {

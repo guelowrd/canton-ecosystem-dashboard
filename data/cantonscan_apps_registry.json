@@ -424,6 +424,14 @@
     "note": null
   },
   {
+    "appName": "MPCH-EREALvalidator-1",
+    "baseName": "mpch-erealvalidator",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "nodetech-mainnet-1",
     "baseName": "nodetech",
     "category": "Validator/Infra",
@@ -514,6 +522,14 @@
   {
     "appName": "576413da77524b51afd26dc5356b6959",
     "baseName": "576413da77524b51afd26dc5356b6959",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "acme-lp",
+    "baseName": "acme-lp",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,

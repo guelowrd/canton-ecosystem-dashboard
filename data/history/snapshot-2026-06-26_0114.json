@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-16T01:28:59.236Z",
+  "lastUpdated": "2026-06-26T01:14:01.441Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1824.69,
+    "totalTvlUsd": 236.1,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 21,
+    "trackedApps": 19,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 21 tracked apps expose public metrics"
+    "1 of 19 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,64 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 35206,
-      "activeMarkets": 24,
-      "endedMarkets": 7,
-      "resolvedMarkets": 34818,
-      "totalActivePoolUsd": 1824.69,
-      "totalActiveBets": 153,
+      "totalMarkets": 37231,
+      "activeMarkets": 67,
+      "endedMarkets": 10,
+      "resolvedMarkets": 36777,
+      "totalActivePoolUsd": 236.1,
+      "totalActiveBets": 66,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 0,
-          "bets": 0
-        },
         "sports": {
-          "count": 19,
-          "poolUsd": 1204.69,
-          "bets": 139
-        },
-        "economics": {
-          "count": 1,
-          "poolUsd": 620,
-          "bets": 14
+          "count": 67,
+          "poolUsd": 236.1,
+          "bets": 66
         }
       },
       "topMarkets": [
         {
-          "question": "Fed decision in June",
-          "category": "economics",
-          "totalPool": 620,
-          "betCount": 14,
-          "endTime": "2026-06-17T18:00:00.000Z"
+          "question": "Norway vs France",
+          "category": "sports",
+          "totalPool": 24,
+          "betCount": 7,
+          "endTime": "2026-06-26T18:00:00.000Z"
         },
         {
-          "question": "Iraq vs Norway",
+          "question": "Cape Verde vs Saudi Arabia",
           "category": "sports",
-          "totalPool": 115,
-          "betCount": 15,
-          "endTime": "2026-06-16T21:00:00.000Z"
-        },
-        {
-          "question": "France vs Senegal",
-          "category": "sports",
-          "totalPool": 110,
-          "betCount": 13,
-          "endTime": "2026-06-16T18:00:00.000Z"
-        },
-        {
-          "question": "Portugal vs D.R. Congo",
-          "category": "sports",
-          "totalPool": 105,
-          "betCount": 8,
-          "endTime": "2026-06-17T16:00:00.000Z"
-        },
-        {
-          "question": "England vs Croatia",
-          "category": "sports",
-          "totalPool": 100,
+          "totalPool": 20.4,
           "betCount": 11,
-          "endTime": "2026-06-17T19:00:00.000Z"
+          "endTime": "2026-06-26T23:00:00.000Z"
+        },
+        {
+          "question": "Jordan vs Argentina",
+          "category": "sports",
+          "totalPool": 15,
+          "betCount": 2,
+          "endTime": "2026-06-28T01:00:00.000Z"
+        },
+        {
+          "question": "St.Louis Cardinals vs Miami Marlins",
+          "category": "sports",
+          "totalPool": 13,
+          "betCount": 4,
+          "endTime": "2026-06-26T23:15:00.000Z"
+        },
+        {
+          "question": "Chicago White Sox vs Kansas City Royals",
+          "category": "sports",
+          "totalPool": 11.5,
+          "betCount": 3,
+          "endTime": "2026-06-26T22:40:00.000Z"
         }
       ]
     },
@@ -202,15 +192,15 @@
       "isCandidate": true
     },
     {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
+      "id": "hecto-finance",
+      "name": "Hecto-Finance-1",
+      "url": "https://hectofinance.com",
+      "appCategory": "Lending",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Onchain analytics",
+      "note": "Canton DeFi protocol",
       "isCandidate": true
     },
     {
@@ -274,18 +264,6 @@
       "isCandidate": true
     },
     {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -331,18 +309,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Crypto analytics platform",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
       "isCandidate": true
     }
   ]
