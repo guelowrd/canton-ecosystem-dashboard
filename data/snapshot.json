@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-26T01:14:01.441Z",
+  "lastUpdated": "2026-06-27T01:09:44.440Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 236.1,
+    "totalTvlUsd": 76.9,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 19,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,54 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37231,
-      "activeMarkets": 67,
-      "endedMarkets": 10,
-      "resolvedMarkets": 36777,
-      "totalActivePoolUsd": 236.1,
-      "totalActiveBets": 66,
+      "totalMarkets": 37232,
+      "activeMarkets": 50,
+      "endedMarkets": 19,
+      "resolvedMarkets": 36786,
+      "totalActivePoolUsd": 76.9,
+      "totalActiveBets": 29,
       "categories": {
         "sports": {
-          "count": 67,
-          "poolUsd": 236.1,
-          "bets": 66
+          "count": 50,
+          "poolUsd": 76.9,
+          "bets": 29
         }
       },
       "topMarkets": [
         {
-          "question": "Norway vs France",
-          "category": "sports",
-          "totalPool": 24,
-          "betCount": 7,
-          "endTime": "2026-06-26T18:00:00.000Z"
-        },
-        {
-          "question": "Cape Verde vs Saudi Arabia",
-          "category": "sports",
-          "totalPool": 20.4,
-          "betCount": 11,
-          "endTime": "2026-06-26T23:00:00.000Z"
-        },
-        {
           "question": "Jordan vs Argentina",
           "category": "sports",
-          "totalPool": 15,
-          "betCount": 2,
+          "totalPool": 17,
+          "betCount": 4,
           "endTime": "2026-06-28T01:00:00.000Z"
         },
         {
-          "question": "St.Louis Cardinals vs Miami Marlins",
+          "question": "Egypt vs Iran",
           "category": "sports",
-          "totalPool": 13,
-          "betCount": 4,
-          "endTime": "2026-06-26T23:15:00.000Z"
+          "totalPool": 11,
+          "betCount": 6,
+          "endTime": "2026-06-27T02:00:00.000Z"
         },
         {
-          "question": "Chicago White Sox vs Kansas City Royals",
+          "question": "Panama vs England",
           "category": "sports",
-          "totalPool": 11.5,
+          "totalPool": 9,
           "betCount": 3,
-          "endTime": "2026-06-26T22:40:00.000Z"
+          "endTime": "2026-06-27T20:00:00.000Z"
+        },
+        {
+          "question": "Croatia vs Ghana",
+          "category": "sports",
+          "totalPool": 8.7,
+          "betCount": 3,
+          "endTime": "2026-06-27T20:00:00.000Z"
+        },
+        {
+          "question": "New Zealand vs Belgium",
+          "category": "sports",
+          "totalPool": 8,
+          "betCount": 4,
+          "endTime": "2026-06-27T02:00:00.000Z"
         }
       ]
     },
