@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-18T01:24:02.081Z",
+  "lastUpdated": "2026-06-28T01:14:40.552Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1455.17,
+    "totalTvlUsd": 196,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 21,
+    "trackedApps": 19,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 21 tracked apps expose public metrics"
+    "1 of 19 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,59 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 35594,
-      "activeMarkets": 19,
-      "endedMarkets": 7,
-      "resolvedMarkets": 35211,
-      "totalActivePoolUsd": 1455.17,
-      "totalActiveBets": 128,
+      "totalMarkets": 37236,
+      "activeMarkets": 30,
+      "endedMarkets": 16,
+      "resolvedMarkets": 36813,
+      "totalActivePoolUsd": 196,
+      "totalActiveBets": 47,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 0,
-          "bets": 0
-        },
         "sports": {
-          "count": 15,
-          "poolUsd": 1455.17,
-          "bets": 128
+          "count": 30,
+          "poolUsd": 196,
+          "bets": 47
         }
       },
       "topMarkets": [
         {
-          "question": "Scotland vs Morocco",
+          "question": "South Africa vs Canada",
           "category": "sports",
-          "totalPool": 180,
-          "betCount": 16,
-          "endTime": "2026-06-19T21:00:00.000Z"
+          "totalPool": 12,
+          "betCount": 2,
+          "endTime": "2026-06-28T18:00:00.000Z"
         },
         {
-          "question": "Canada vs Qatar",
+          "question": "Cleveland Guardians vs Seattle Mariners",
           "category": "sports",
-          "totalPool": 135,
-          "betCount": 10,
-          "endTime": "2026-06-18T21:00:00.000Z"
+          "totalPool": 11,
+          "betCount": 4,
+          "endTime": "2026-06-28T16:40:00.000Z"
         },
         {
-          "question": "USA vs Australia",
+          "question": "Toronto Blue Jays vs Texas Rangers",
           "category": "sports",
-          "totalPool": 130,
-          "betCount": 12,
-          "endTime": "2026-06-19T18:00:00.000Z"
+          "totalPool": 11,
+          "betCount": 4,
+          "endTime": "2026-06-28T16:37:00.000Z"
         },
         {
-          "question": "Mexico vs South Korea",
+          "question": "Pittsburgh Pirates vs Cincinnati Reds",
           "category": "sports",
-          "totalPool": 125,
-          "betCount": 11,
-          "endTime": "2026-06-19T00:00:00.000Z"
+          "totalPool": 11,
+          "betCount": 4,
+          "endTime": "2026-06-28T16:35:00.000Z"
         },
         {
-          "question": "Tunisia vs Japan",
+          "question": "Baltimore Orioles vs Washington Nationals",
           "category": "sports",
-          "totalPool": 121.17,
-          "betCount": 8,
-          "endTime": "2026-06-21T03:00:00.000Z"
+          "totalPool": 11,
+          "betCount": 4,
+          "endTime": "2026-06-28T16:35:00.000Z"
         }
       ]
     },
@@ -197,15 +192,15 @@
       "isCandidate": true
     },
     {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
+      "id": "hecto-finance",
+      "name": "Hecto-Finance-1",
+      "url": "https://hectofinance.com",
+      "appCategory": "Lending",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Onchain analytics",
+      "note": "Canton DeFi protocol",
       "isCandidate": true
     },
     {
@@ -269,18 +264,6 @@
       "isCandidate": true
     },
     {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -326,18 +309,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Crypto analytics platform",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
       "isCandidate": true
     }
   ]

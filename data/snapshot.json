@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-27T01:09:44.440Z",
+  "lastUpdated": "2026-06-28T01:14:40.552Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 76.9,
+    "totalTvlUsd": 196,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 19,
@@ -45,54 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37232,
-      "activeMarkets": 50,
-      "endedMarkets": 19,
-      "resolvedMarkets": 36786,
-      "totalActivePoolUsd": 76.9,
-      "totalActiveBets": 29,
+      "totalMarkets": 37236,
+      "activeMarkets": 30,
+      "endedMarkets": 16,
+      "resolvedMarkets": 36813,
+      "totalActivePoolUsd": 196,
+      "totalActiveBets": 47,
       "categories": {
         "sports": {
-          "count": 50,
-          "poolUsd": 76.9,
-          "bets": 29
+          "count": 30,
+          "poolUsd": 196,
+          "bets": 47
         }
       },
       "topMarkets": [
         {
-          "question": "Jordan vs Argentina",
+          "question": "South Africa vs Canada",
           "category": "sports",
-          "totalPool": 17,
-          "betCount": 4,
-          "endTime": "2026-06-28T01:00:00.000Z"
+          "totalPool": 12,
+          "betCount": 2,
+          "endTime": "2026-06-28T18:00:00.000Z"
         },
         {
-          "question": "Egypt vs Iran",
+          "question": "Cleveland Guardians vs Seattle Mariners",
           "category": "sports",
           "totalPool": 11,
-          "betCount": 6,
-          "endTime": "2026-06-27T02:00:00.000Z"
-        },
-        {
-          "question": "Panama vs England",
-          "category": "sports",
-          "totalPool": 9,
-          "betCount": 3,
-          "endTime": "2026-06-27T20:00:00.000Z"
-        },
-        {
-          "question": "Croatia vs Ghana",
-          "category": "sports",
-          "totalPool": 8.7,
-          "betCount": 3,
-          "endTime": "2026-06-27T20:00:00.000Z"
-        },
-        {
-          "question": "New Zealand vs Belgium",
-          "category": "sports",
-          "totalPool": 8,
           "betCount": 4,
-          "endTime": "2026-06-27T02:00:00.000Z"
+          "endTime": "2026-06-28T16:40:00.000Z"
+        },
+        {
+          "question": "Toronto Blue Jays vs Texas Rangers",
+          "category": "sports",
+          "totalPool": 11,
+          "betCount": 4,
+          "endTime": "2026-06-28T16:37:00.000Z"
+        },
+        {
+          "question": "Pittsburgh Pirates vs Cincinnati Reds",
+          "category": "sports",
+          "totalPool": 11,
+          "betCount": 4,
+          "endTime": "2026-06-28T16:35:00.000Z"
+        },
+        {
+          "question": "Baltimore Orioles vs Washington Nationals",
+          "category": "sports",
+          "totalPool": 11,
+          "betCount": 4,
+          "endTime": "2026-06-28T16:35:00.000Z"
         }
       ]
     },
