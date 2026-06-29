@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-28T01:14:40.552Z",
+  "lastUpdated": "2026-06-29T01:15:36.139Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 196,
+    "totalTvlUsd": 248.1,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 19,
@@ -45,54 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37236,
-      "activeMarkets": 30,
-      "endedMarkets": 16,
-      "resolvedMarkets": 36813,
-      "totalActivePoolUsd": 196,
-      "totalActiveBets": 47,
+      "totalMarkets": 37310,
+      "activeMarkets": 73,
+      "endedMarkets": 6,
+      "resolvedMarkets": 36854,
+      "totalActivePoolUsd": 248.1,
+      "totalActiveBets": 86,
       "categories": {
         "sports": {
-          "count": 30,
-          "poolUsd": 196,
-          "bets": 47
+          "count": 73,
+          "poolUsd": 248.1,
+          "bets": 86
         }
       },
       "topMarkets": [
         {
-          "question": "South Africa vs Canada",
+          "question": "Brazil vs Japan",
           "category": "sports",
-          "totalPool": 12,
-          "betCount": 2,
-          "endTime": "2026-06-28T18:00:00.000Z"
+          "totalPool": 42.6,
+          "betCount": 12,
+          "endTime": "2026-06-29T16:00:00.000Z"
         },
         {
-          "question": "Cleveland Guardians vs Seattle Mariners",
+          "question": "Netherlands vs Morocco",
           "category": "sports",
-          "totalPool": 11,
-          "betCount": 4,
-          "endTime": "2026-06-28T16:40:00.000Z"
+          "totalPool": 18,
+          "betCount": 8,
+          "endTime": "2026-06-30T00:00:00.000Z"
         },
         {
-          "question": "Toronto Blue Jays vs Texas Rangers",
+          "question": "Germany vs Paraguay",
           "category": "sports",
-          "totalPool": 11,
-          "betCount": 4,
-          "endTime": "2026-06-28T16:37:00.000Z"
+          "totalPool": 16,
+          "betCount": 5,
+          "endTime": "2026-06-29T19:30:00.000Z"
         },
         {
-          "question": "Pittsburgh Pirates vs Cincinnati Reds",
+          "question": "Ivory Coast vs Norway",
           "category": "sports",
-          "totalPool": 11,
-          "betCount": 4,
-          "endTime": "2026-06-28T16:35:00.000Z"
+          "totalPool": 16,
+          "betCount": 5,
+          "endTime": "2026-06-30T16:00:00.000Z"
         },
         {
-          "question": "Baltimore Orioles vs Washington Nationals",
+          "question": "USA vs Bosnia and Herzegovina",
           "category": "sports",
-          "totalPool": 11,
+          "totalPool": 15,
           "betCount": 4,
-          "endTime": "2026-06-28T16:35:00.000Z"
+          "endTime": "2026-07-01T23:00:00.000Z"
         }
       ]
     },
