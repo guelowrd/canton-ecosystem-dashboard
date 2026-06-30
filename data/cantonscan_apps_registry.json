@@ -32,14 +32,6 @@
     "note": "Canton RPC & node services"
   },
   {
-    "appName": "CoinMetrics-validator-1",
-    "baseName": "coinmetrics",
-    "category": "Explorer/Infra",
-    "confidence": 100,
-    "websiteGuess": "https://coinmetrics.io",
-    "note": "Crypto data & analytics"
-  },
-  {
     "appName": "Cygnet",
     "baseName": "cygnet",
     "category": "DEX/AMM",
@@ -232,14 +224,6 @@
     "note": "Noves Translate API"
   },
   {
-    "appName": "the_tie_validator",
-    "baseName": "thetievalidator",
-    "category": "Explorer/Infra",
-    "confidence": 90,
-    "websiteGuess": "https://thetie.io",
-    "note": "Crypto analytics platform"
-  },
-  {
     "appName": "acme-lending",
     "baseName": "acme-lending",
     "category": "Lending",
@@ -318,14 +302,6 @@
     "confidence": 55,
     "websiteGuess": null,
     "note": "Canton validator"
-  },
-  {
-    "appName": "openvector-wallet-1",
-    "baseName": "openvector-wallet",
-    "category": "Wallet",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "OpenVector wallet"
   },
   {
     "appName": "silvana-orderbook",
@@ -552,14 +528,6 @@
     "note": null
   },
   {
-    "appName": "auth0_007c683dbd71f9d177d5fdd09f3c",
-    "baseName": "auth0007c683dbd71f9d177d5fdd09f3c",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "auth0_007c68dab25ebb6582a0cbe2861c",
     "baseName": "auth0007c68dab25ebb6582a0cbe2861c",
     "category": "Identity/Auth",
@@ -696,14 +664,6 @@
     "note": null
   },
   {
-    "appName": "mandalo-mainnet-2",
-    "baseName": "mandalo",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": "Canton app"
-  },
-  {
     "appName": "modo",
     "baseName": "modo",
     "category": "Unknown",
@@ -738,38 +698,6 @@
   {
     "appName": "onchain-transfer-agent",
     "baseName": "onchain-transfer-agent",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "onrails-core",
-    "baseName": "onrails-core",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "onrails-reserve",
-    "baseName": "onrails-reserve",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "onrails-stable",
-    "baseName": "onrails-stable",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "onrails-yield",
-    "baseName": "onrails-yield",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -880,14 +808,6 @@
     "note": null
   },
   {
-    "appName": "3b348904-a81e-403c-a48e-13fa14aa6e97",
-    "baseName": "3b348904-a81e-403c-a48e-13fa14aa6e97",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "baseName": "8a72dd81-b8a4-425a-9061-31ed663d4450",
     "category": "Unknown",
@@ -898,14 +818,6 @@
   {
     "appName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
     "baseName": "931f692d-21d7-4548-82b4-d0e1c6ec7736",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "f932f175-75f1-45e9-9dce-8b8c77f1328b",
-    "baseName": "f932f175-75f1-45e9-9dce-8b8c77f1328b",
     "category": "Unknown",
     "confidence": 15,
     "websiteGuess": null,

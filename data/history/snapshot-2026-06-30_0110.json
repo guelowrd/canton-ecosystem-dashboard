@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-20T01:18:12.713Z",
+  "lastUpdated": "2026-06-30T01:10:18.567Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 348.71999999999997,
+    "totalTvlUsd": 197.915664451,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 21,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 21 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,59 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 35956,
-      "activeMarkets": 27,
-      "endedMarkets": 2,
-      "resolvedMarkets": 35550,
-      "totalActivePoolUsd": 348.71999999999997,
-      "totalActiveBets": 128,
+      "totalMarkets": 37325,
+      "activeMarkets": 71,
+      "endedMarkets": 18,
+      "resolvedMarkets": 36858,
+      "totalActivePoolUsd": 197.915664451,
+      "totalActiveBets": 59,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 0,
-          "bets": 0
-        },
         "sports": {
-          "count": 23,
-          "poolUsd": 348.71999999999997,
-          "bets": 128
+          "count": 72,
+          "poolUsd": 197.915664451,
+          "bets": 59
         }
       },
       "topMarkets": [
         {
-          "question": "Portugal vs Uzbekistan",
+          "question": "Ivory Coast vs Norway",
           "category": "sports",
-          "totalPool": 51.33,
-          "betCount": 11,
-          "endTime": "2026-06-23T16:00:00.000Z"
-        },
-        {
-          "question": "Germany vs Ivory Coast",
-          "category": "sports",
-          "totalPool": 46,
+          "totalPool": 28.1078322255,
           "betCount": 12,
-          "endTime": "2026-06-20T19:00:00.000Z"
+          "endTime": "2026-06-30T16:00:00.000Z"
         },
         {
-          "question": "Türkiye vs Paraguay",
+          "question": "France vs Sweden",
           "category": "sports",
-          "totalPool": 33.89,
-          "betCount": 17,
-          "endTime": "2026-06-20T02:00:00.000Z"
+          "totalPool": 18.1078322255,
+          "betCount": 5,
+          "endTime": "2026-06-30T20:00:00.000Z"
         },
         {
-          "question": "Panama vs Croatia",
+          "question": "Mexico vs Ecuador",
           "category": "sports",
-          "totalPool": 26,
-          "betCount": 10,
-          "endTime": "2026-06-23T22:00:00.000Z"
+          "totalPool": 15,
+          "betCount": 6,
+          "endTime": "2026-07-01T00:00:00.000Z"
         },
         {
-          "question": "Ecuador vs Curacao",
+          "question": "USA vs Bosnia and Herzegovina",
           "category": "sports",
-          "totalPool": 25.5,
-          "betCount": 10,
-          "endTime": "2026-06-20T23:00:00.000Z"
+          "totalPool": 15,
+          "betCount": 4,
+          "endTime": "2026-07-01T23:00:00.000Z"
+        },
+        {
+          "question": "Chicago Cubs vs San Diego Padres",
+          "category": "sports",
+          "totalPool": 12,
+          "betCount": 2,
+          "endTime": "2026-06-30T23:05:00.000Z"
         }
       ]
     },
@@ -161,18 +156,6 @@
       "isCandidate": true
     },
     {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
-      "isCandidate": true
-    },
-    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -197,15 +180,15 @@
       "isCandidate": true
     },
     {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
+      "id": "hecto-finance",
+      "name": "Hecto-Finance-1",
+      "url": "https://hectofinance.com",
+      "appCategory": "Lending",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Onchain analytics",
+      "note": "Canton DeFi protocol",
       "isCandidate": true
     },
     {
@@ -269,18 +252,6 @@
       "isCandidate": true
     },
     {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -314,30 +285,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
       "isCandidate": true
     }
   ]

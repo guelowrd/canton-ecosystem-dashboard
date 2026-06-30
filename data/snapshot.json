@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-29T01:15:36.139Z",
+  "lastUpdated": "2026-06-30T01:10:18.567Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 248.1,
+    "totalTvlUsd": 197.915664451,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 19,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 19 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,47 +45,40 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37310,
-      "activeMarkets": 73,
-      "endedMarkets": 6,
-      "resolvedMarkets": 36854,
-      "totalActivePoolUsd": 248.1,
-      "totalActiveBets": 86,
+      "totalMarkets": 37325,
+      "activeMarkets": 71,
+      "endedMarkets": 18,
+      "resolvedMarkets": 36858,
+      "totalActivePoolUsd": 197.915664451,
+      "totalActiveBets": 59,
       "categories": {
         "sports": {
-          "count": 73,
-          "poolUsd": 248.1,
-          "bets": 86
+          "count": 72,
+          "poolUsd": 197.915664451,
+          "bets": 59
         }
       },
       "topMarkets": [
         {
-          "question": "Brazil vs Japan",
-          "category": "sports",
-          "totalPool": 42.6,
-          "betCount": 12,
-          "endTime": "2026-06-29T16:00:00.000Z"
-        },
-        {
-          "question": "Netherlands vs Morocco",
-          "category": "sports",
-          "totalPool": 18,
-          "betCount": 8,
-          "endTime": "2026-06-30T00:00:00.000Z"
-        },
-        {
-          "question": "Germany vs Paraguay",
-          "category": "sports",
-          "totalPool": 16,
-          "betCount": 5,
-          "endTime": "2026-06-29T19:30:00.000Z"
-        },
-        {
           "question": "Ivory Coast vs Norway",
           "category": "sports",
-          "totalPool": 16,
-          "betCount": 5,
+          "totalPool": 28.1078322255,
+          "betCount": 12,
           "endTime": "2026-06-30T16:00:00.000Z"
+        },
+        {
+          "question": "France vs Sweden",
+          "category": "sports",
+          "totalPool": 18.1078322255,
+          "betCount": 5,
+          "endTime": "2026-06-30T20:00:00.000Z"
+        },
+        {
+          "question": "Mexico vs Ecuador",
+          "category": "sports",
+          "totalPool": 15,
+          "betCount": 6,
+          "endTime": "2026-07-01T00:00:00.000Z"
         },
         {
           "question": "USA vs Bosnia and Herzegovina",
@@ -93,6 +86,13 @@
           "totalPool": 15,
           "betCount": 4,
           "endTime": "2026-07-01T23:00:00.000Z"
+        },
+        {
+          "question": "Chicago Cubs vs San Diego Padres",
+          "category": "sports",
+          "totalPool": 12,
+          "betCount": 2,
+          "endTime": "2026-06-30T23:05:00.000Z"
         }
       ]
     },
@@ -153,18 +153,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "5N Loop wallet / explorer",
-      "isCandidate": true
-    },
-    {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
       "isCandidate": true
     },
     {
@@ -297,18 +285,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
       "isCandidate": true
     }
   ]

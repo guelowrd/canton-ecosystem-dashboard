@@ -3,7 +3,6 @@ ByBit-MainNetValidator-1,bybit,Validator/Infra,100,https://bybit.com,Crypto exch
 Cantex-validator-1,cantex,DEX/AMM,100,https://cantex.io,Canton DEX by CaviarNine
 cantonloop-mainnet-1,cantonloop,Wallet,100,https://lighthouse.cantonloop.com,5N Loop wallet / explorer
 cantonnodes-validator-1,cantonnodes,Validator/Infra,100,https://cantonnodes.com,Canton RPC & node services
-CoinMetrics-validator-1,coinmetrics,Explorer/Infra,100,https://coinmetrics.io,Crypto data & analytics
 Cygnet,cygnet,DEX/AMM,100,https://cygnet.finance,Canton DeFi protocol
 cypherock-mainnet-1,cypherock,Wallet,100,https://cypherock.com,Hardware wallet with Canton support
 Fairmint-validator-1,fairmint,Tokenized Assets,100,https://fairmint.com,Equity & token issuance
@@ -28,7 +27,6 @@ feat-unhedged-app,unhedged-app,Prediction Markets,90,https://unhedged.gg,Canton 
 kucoin-node-01,kucoin-node,Validator/Infra,90,https://kucoin.com,KuCoin validator node
 MPCH-BRONdvn-1,mpch-brondvn,Wallet,90,https://mpcvault.com,MPCH Bron delegation validator
 noves-translate,noves-translate,Explorer/Infra,90,https://noves.fi,Noves Translate API
-the_tie_validator,thetievalidator,Explorer/Infra,90,https://thetie.io,Crypto analytics platform
 acme-lending,acme-lending,Lending,55,,Overcollateralized lending on Canton
 Bridge-Operator,bridge-operator,Bridge,55,,Canton bridge operator
 c7trust,c7trust,Validator/Infra,55,,C7 Technology trust service
@@ -39,7 +37,6 @@ handlpay-main-1,handlpay-main,Payments,55,,Canton payment service
 Hashrupt-Verity,hashrupt-verity,Identity/Auth,55,,Verification service
 LoopID,loopid,Identity/Auth,55,,Identity service
 M1-validator-1,m1,Validator/Infra,55,,Canton validator
-openvector-wallet-1,openvector-wallet,Wallet,55,,OpenVector wallet
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
@@ -68,7 +65,6 @@ ValaWallet-FA,valawallet-fa,Wallet,40,,
 acme-lp,acme-lp,Unknown,30,,
 auth0_007c6643538f2eadd3e573dd05b9,auth0007c6643538f2eadd3e573dd05b9,Identity/Auth,30,,
 auth0_007c68129abae6733ca8b889162e,auth0007c68129abae6733ca8b889162e,Identity/Auth,30,,
-auth0_007c683dbd71f9d177d5fdd09f3c,auth0007c683dbd71f9d177d5fdd09f3c,Identity/Auth,30,,
 auth0_007c68dab25ebb6582a0cbe2861c,auth0007c68dab25ebb6582a0cbe2861c,Identity/Auth,30,,
 auth0_007c69eb81fb9b5cfe37fbc593a3,auth0007c69eb81fb9b5cfe37fbc593a3,Identity/Auth,30,,
 bitdynamicsab-mainnet-1,bitdynamicsab,Unknown,30,,
@@ -86,16 +82,11 @@ handl-issuer,handl-issuer,Unknown,30,,
 Hecto-App-1,hecto-app,Unknown,30,,
 HeliosFinance-Mainnet-1,heliosfinance,Unknown,30,,
 kora-app,kora-app,Unknown,30,,
-mandalo-mainnet-2,mandalo,Unknown,30,,Canton app
 modo,modo,Unknown,30,,Canton app
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 nexode,nexode,Unknown,30,,
 obligate-issuance,obligate-issuance,Unknown,30,,
 onchain-transfer-agent,onchain-transfer-agent,Unknown,30,,
-onrails-core,onrails-core,Unknown,30,,
-onrails-reserve,onrails-reserve,Unknown,30,,
-onrails-stable,onrails-stable,Unknown,30,,
-onrails-yield,onrails-yield,Unknown,30,,
 openvector-mainnet-1,openvector,Unknown,30,,Canton app
 opus28-opusaccess-1,opus28-opusaccess,Unknown,30,,
 ppbpffauvo,ppbpffauvo,Unknown,30,,
@@ -109,10 +100,8 @@ tradefast-provider-1,tradefast-provider,Unknown,30,,
 twmain-treasury-1,twmain-treasury,Unknown,30,,
 unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
 walley,walley,Unknown,30,,
-3b348904-a81e-403c-a48e-13fa14aa6e97,3b348904-a81e-403c-a48e-13fa14aa6e97,Unknown,15,,
 8a72dd81-b8a4-425a-9061-31ed663d4450,8a72dd81-b8a4-425a-9061-31ed663d4450,Unknown,15,,
 931f692d-21d7-4548-82b4-d0e1c6ec7736,931f692d-21d7-4548-82b4-d0e1c6ec7736,Unknown,15,,
-f932f175-75f1-45e9-9dce-8b8c77f1328b,f932f175-75f1-45e9-9dce-8b8c77f1328b,Unknown,15,,
 party-28dc4516-b5ca-44ff-86c7-2107e90a6807,party-28dc4516-b5ca-44ff-86c7-2107e90a6807,Unknown,15,,
 party-8cc0af7a-8265-4c2f-984e-ef299c3c103f,party-8cc0af7a-8265-4c2f-984e-ef299c3c103f,Unknown,15,,
 party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,party-fda614d8-0b2e-4d64-9718-b4c497c56a8d,Unknown,15,,
