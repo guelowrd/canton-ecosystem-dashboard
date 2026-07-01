@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-30T01:10:18.567Z",
+  "lastUpdated": "2026-07-01T01:14:57.514Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 197.915664451,
+    "totalTvlUsd": 326,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,54 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37325,
-      "activeMarkets": 71,
-      "endedMarkets": 18,
-      "resolvedMarkets": 36858,
-      "totalActivePoolUsd": 197.915664451,
-      "totalActiveBets": 59,
+      "totalMarkets": 37345,
+      "activeMarkets": 74,
+      "endedMarkets": 17,
+      "resolvedMarkets": 36876,
+      "totalActivePoolUsd": 326,
+      "totalActiveBets": 93,
       "categories": {
         "sports": {
-          "count": 72,
-          "poolUsd": 197.915664451,
-          "bets": 59
+          "count": 74,
+          "poolUsd": 326,
+          "bets": 93
         }
       },
       "topMarkets": [
         {
-          "question": "Ivory Coast vs Norway",
+          "question": "Belgium vs Senegal",
           "category": "sports",
-          "totalPool": 28.1078322255,
-          "betCount": 12,
-          "endTime": "2026-06-30T16:00:00.000Z"
+          "totalPool": 25,
+          "betCount": 8,
+          "endTime": "2026-07-01T19:00:00.000Z"
         },
         {
-          "question": "France vs Sweden",
+          "question": "Argentina vs Cape Verde",
           "category": "sports",
-          "totalPool": 18.1078322255,
+          "totalPool": 24,
           "betCount": 5,
-          "endTime": "2026-06-30T20:00:00.000Z"
+          "endTime": "2026-07-03T21:00:00.000Z"
         },
         {
-          "question": "Mexico vs Ecuador",
+          "question": "Australia vs Egypt",
           "category": "sports",
-          "totalPool": 15,
-          "betCount": 6,
-          "endTime": "2026-07-01T00:00:00.000Z"
+          "totalPool": 24,
+          "betCount": 9,
+          "endTime": "2026-07-03T17:00:00.000Z"
         },
         {
-          "question": "USA vs Bosnia and Herzegovina",
+          "question": "Portugal vs Croatia",
           "category": "sports",
-          "totalPool": 15,
-          "betCount": 4,
-          "endTime": "2026-07-01T23:00:00.000Z"
+          "totalPool": 20,
+          "betCount": 5,
+          "endTime": "2026-07-02T22:00:00.000Z"
         },
         {
-          "question": "Chicago Cubs vs San Diego Padres",
+          "question": "England vs D.R. Congo",
           "category": "sports",
-          "totalPool": 12,
-          "betCount": 2,
-          "endTime": "2026-06-30T23:05:00.000Z"
+          "totalPool": 20,
+          "betCount": 7,
+          "endTime": "2026-07-01T15:00:00.000Z"
         }
       ]
     },
@@ -184,7 +184,7 @@
       "name": "Hecto-Finance-1",
       "url": "https://hectofinance.com",
       "appCategory": "Lending",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,

@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-21T01:26:29.493Z",
+  "lastUpdated": "2026-07-01T01:14:57.514Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 324.55,
+    "totalTvlUsd": 326,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 21,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 21 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 36158,
-      "activeMarkets": 29,
-      "endedMarkets": 6,
-      "resolvedMarkets": 35746,
-      "totalActivePoolUsd": 324.55,
-      "totalActiveBets": 117,
+      "totalMarkets": 37345,
+      "activeMarkets": 74,
+      "endedMarkets": 17,
+      "resolvedMarkets": 36876,
+      "totalActivePoolUsd": 326,
+      "totalActiveBets": 93,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 0,
-          "bets": 0
-        },
         "sports": {
-          "count": 25,
-          "poolUsd": 324.55,
-          "bets": 117
+          "count": 74,
+          "poolUsd": 326,
+          "bets": 93
         }
       },
       "topMarkets": [
         {
-          "question": "Portugal vs Uzbekistan",
+          "question": "Belgium vs Senegal",
           "category": "sports",
-          "totalPool": 54.55,
-          "betCount": 12,
-          "endTime": "2026-06-23T16:00:00.000Z"
+          "totalPool": 25,
+          "betCount": 8,
+          "endTime": "2026-07-01T19:00:00.000Z"
         },
         {
-          "question": "Spain vs Saudi Arabia",
-          "category": "sports",
-          "totalPool": 27,
-          "betCount": 9,
-          "endTime": "2026-06-21T15:00:00.000Z"
-        },
-        {
-          "question": "Panama vs Croatia",
-          "category": "sports",
-          "totalPool": 26,
-          "betCount": 10,
-          "endTime": "2026-06-23T22:00:00.000Z"
-        },
-        {
-          "question": "Argentina vs Austria",
+          "question": "Argentina vs Cape Verde",
           "category": "sports",
           "totalPool": 24,
-          "betCount": 8,
-          "endTime": "2026-06-22T16:00:00.000Z"
+          "betCount": 5,
+          "endTime": "2026-07-03T21:00:00.000Z"
         },
         {
-          "question": "New Zealand vs Egypt",
+          "question": "Australia vs Egypt",
           "category": "sports",
-          "totalPool": 21,
-          "betCount": 10,
-          "endTime": "2026-06-22T00:00:00.000Z"
+          "totalPool": 24,
+          "betCount": 9,
+          "endTime": "2026-07-03T17:00:00.000Z"
+        },
+        {
+          "question": "Portugal vs Croatia",
+          "category": "sports",
+          "totalPool": 20,
+          "betCount": 5,
+          "endTime": "2026-07-02T22:00:00.000Z"
+        },
+        {
+          "question": "England vs D.R. Congo",
+          "category": "sports",
+          "totalPool": 20,
+          "betCount": 7,
+          "endTime": "2026-07-01T15:00:00.000Z"
         }
       ]
     },
@@ -161,18 +156,6 @@
       "isCandidate": true
     },
     {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
-      "isCandidate": true
-    },
-    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -197,15 +180,15 @@
       "isCandidate": true
     },
     {
-      "id": "flipside",
-      "name": "flipside-validator-1",
-      "url": "https://flipsidecrypto.xyz",
-      "appCategory": "Explorer/Infra",
+      "id": "hecto-finance",
+      "name": "Hecto-Finance-1",
+      "url": "https://hectofinance.com",
+      "appCategory": "Lending",
       "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
-      "note": "Onchain analytics",
+      "note": "Canton DeFi protocol",
       "isCandidate": true
     },
     {
@@ -269,18 +252,6 @@
       "isCandidate": true
     },
     {
-      "id": "dfns1",
-      "name": "dfns1",
-      "url": "https://dfns.co",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DFNS wallet infrastructure",
-      "isCandidate": true
-    },
-    {
       "id": "unhedged-app",
       "name": "feat-unhedged-app",
       "url": "https://unhedged.gg",
@@ -314,30 +285,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
-      "isCandidate": true
-    },
-    {
-      "id": "zodiacustody",
-      "name": "ZodiaCustody-validator-1",
-      "url": "https://zodia.io",
-      "appCategory": "Wallet",
-      "transparency": "opaque",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Standard Chartered crypto custody",
       "isCandidate": true
     }
   ]

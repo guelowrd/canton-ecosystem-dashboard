@@ -384,6 +384,14 @@
     "note": null
   },
   {
+    "appName": "flowryd-validator-1",
+    "baseName": "flowryd",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "FlowRyd-validator-1",
     "baseName": "flowryd",
     "category": "Validator/Infra",
@@ -656,6 +664,14 @@
     "note": null
   },
   {
+    "appName": "kaiko-app-rewards",
+    "baseName": "kaiko-app-rewards",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "kora-app",
     "baseName": "kora-app",
     "category": "Unknown",
@@ -682,6 +698,14 @@
   {
     "appName": "nexode",
     "baseName": "nexode",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "NGC-Ventures-1",
+    "baseName": "ngc-ventures",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -834,14 +858,6 @@
   {
     "appName": "party-8cc0af7a-8265-4c2f-984e-ef299c3c103f",
     "baseName": "party-8cc0af7a-8265-4c2f-984e-ef299c3c103f",
-    "category": "Unknown",
-    "confidence": 15,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
-    "baseName": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d",
     "category": "Unknown",
     "confidence": 15,
     "websiteGuess": null,
