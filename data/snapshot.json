@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-01T01:14:57.514Z",
+  "lastUpdated": "2026-07-02T01:10:54.363Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 326,
+    "totalTvlUsd": 416.2,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,26 +45,33 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37345,
-      "activeMarkets": 74,
-      "endedMarkets": 17,
-      "resolvedMarkets": 36876,
-      "totalActivePoolUsd": 326,
-      "totalActiveBets": 93,
+      "totalMarkets": 37348,
+      "activeMarkets": 60,
+      "endedMarkets": 10,
+      "resolvedMarkets": 36900,
+      "totalActivePoolUsd": 416.2,
+      "totalActiveBets": 114,
       "categories": {
         "sports": {
-          "count": 74,
-          "poolUsd": 326,
-          "bets": 93
+          "count": 60,
+          "poolUsd": 416.2,
+          "bets": 114
         }
       },
       "topMarkets": [
         {
-          "question": "Belgium vs Senegal",
+          "question": "Brazil vs Norway",
+          "category": "sports",
+          "totalPool": 26,
+          "betCount": 12,
+          "endTime": "2026-07-05T19:00:00.000Z"
+        },
+        {
+          "question": "Australia vs Egypt",
           "category": "sports",
           "totalPool": 25,
-          "betCount": 8,
-          "endTime": "2026-07-01T19:00:00.000Z"
+          "betCount": 10,
+          "endTime": "2026-07-03T17:00:00.000Z"
         },
         {
           "question": "Argentina vs Cape Verde",
@@ -74,13 +81,6 @@
           "endTime": "2026-07-03T21:00:00.000Z"
         },
         {
-          "question": "Australia vs Egypt",
-          "category": "sports",
-          "totalPool": 24,
-          "betCount": 9,
-          "endTime": "2026-07-03T17:00:00.000Z"
-        },
-        {
           "question": "Portugal vs Croatia",
           "category": "sports",
           "totalPool": 20,
@@ -88,11 +88,11 @@
           "endTime": "2026-07-02T22:00:00.000Z"
         },
         {
-          "question": "England vs D.R. Congo",
+          "question": "Canada vs Morocco",
           "category": "sports",
-          "totalPool": 20,
-          "betCount": 7,
-          "endTime": "2026-07-01T15:00:00.000Z"
+          "totalPool": 19,
+          "betCount": 4,
+          "endTime": "2026-07-04T16:00:00.000Z"
         }
       ]
     },
