@@ -672,6 +672,14 @@
     "note": null
   },
   {
+    "appName": "kairo-mainnet",
+    "baseName": "kairo",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": "Canton app"
+  },
+  {
     "appName": "kora-app",
     "baseName": "kora-app",
     "category": "Unknown",

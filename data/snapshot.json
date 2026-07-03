@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-02T01:10:54.363Z",
+  "lastUpdated": "2026-07-03T03:47:25.260Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 416.2,
+    "totalTvlUsd": 436.2,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,20 +45,27 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37348,
-      "activeMarkets": 60,
-      "endedMarkets": 10,
-      "resolvedMarkets": 36900,
-      "totalActivePoolUsd": 416.2,
-      "totalActiveBets": 114,
+      "totalMarkets": 37349,
+      "activeMarkets": 49,
+      "endedMarkets": 7,
+      "resolvedMarkets": 36915,
+      "totalActivePoolUsd": 436.2,
+      "totalActiveBets": 121,
       "categories": {
         "sports": {
-          "count": 60,
-          "poolUsd": 416.2,
-          "bets": 114
+          "count": 49,
+          "poolUsd": 436.2,
+          "bets": 121
         }
       },
       "topMarkets": [
+        {
+          "question": "Canada vs Morocco",
+          "category": "sports",
+          "totalPool": 35,
+          "betCount": 8,
+          "endTime": "2026-07-04T16:00:00.000Z"
+        },
         {
           "question": "Brazil vs Norway",
           "category": "sports",
@@ -81,18 +88,11 @@
           "endTime": "2026-07-03T21:00:00.000Z"
         },
         {
-          "question": "Portugal vs Croatia",
+          "question": "Colombia vs Ghana",
           "category": "sports",
           "totalPool": 20,
-          "betCount": 5,
-          "endTime": "2026-07-02T22:00:00.000Z"
-        },
-        {
-          "question": "Canada vs Morocco",
-          "category": "sports",
-          "totalPool": 19,
-          "betCount": 4,
-          "endTime": "2026-07-04T16:00:00.000Z"
+          "betCount": 6,
+          "endTime": "2026-07-04T00:30:00.000Z"
         }
       ]
     },
