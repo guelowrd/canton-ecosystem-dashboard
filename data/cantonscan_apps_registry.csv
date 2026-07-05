@@ -18,7 +18,6 @@ temple-mainnet-1,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,In
 temple-mainnet-2,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
 TextureCapital-validator-1,texturecapital,Validator/Infra,100,https://texturecapital.com,Digital asset platform
 Tradecraft,tradecraft,DEX/AMM,100,https://tradecraft.fi,Canton DEX (AMM)
-trakx-validator-1,trakx,Validator/Infra,100,https://trakx.io,Crypto index platform
 binance-dp-1,binance-dp,Validator/Infra,90,https://binance.us,Binance delegation participant
 blackmantacapital-primary-1,blackmantacapital-primary,Tokenized Assets,90,https://blackmanta.capital,BaFin-regulated tokenized securities
 cantor8-digik-1,cantor8-digik,Explorer/Infra,90,https://cantor8.tech/digik,DigiK - Canton gateway
@@ -101,6 +100,7 @@ tenkai-main-1,tenkai-main,Unknown,30,,Canton app
 tradefast-mainnet-1,tradefast,Unknown,30,,
 tradefast-mainnet-2,tradefast,Unknown,30,,
 tradefast-provider-1,tradefast-provider,Unknown,30,,
+trakx-utility,trakx-utility,Unknown,30,,
 twmain-treasury-1,twmain-treasury,Unknown,30,,
 unitedapp-cc,unitedapp-cc,Unknown,30,,Canton app
 walley,walley,Unknown,30,,

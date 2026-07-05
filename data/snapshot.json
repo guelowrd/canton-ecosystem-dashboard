@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-04T03:41:19.186Z",
+  "lastUpdated": "2026-07-05T03:59:43.341Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 462.36,
+    "totalTvlUsd": 1209.46,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 39015,
-      "activeMarkets": 39,
+      "totalMarkets": 39263,
+      "activeMarkets": 78,
       "endedMarkets": 10,
-      "resolvedMarkets": 38588,
-      "totalActivePoolUsd": 462.36,
-      "totalActiveBets": 102,
+      "resolvedMarkets": 38797,
+      "totalActivePoolUsd": 1209.46,
+      "totalActiveBets": 229,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 133.8,
+          "poolUsd": 508,
           "bets": 0
         },
         "sports": {
-          "count": 35,
-          "poolUsd": 328.56,
-          "bets": 102
+          "count": 74,
+          "poolUsd": 701.46,
+          "bets": 229
         }
       },
       "topMarkets": [
         {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 177,
+          "betCount": 0,
+          "endTime": "2026-07-05T04:00:00.000Z"
+        },
+        {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 43.56,
+          "totalPool": 170,
           "betCount": 0,
-          "endTime": "2026-07-04T04:00:00.000Z"
+          "endTime": "2026-07-05T04:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 36.74,
+          "totalPool": 88,
           "betCount": 0,
-          "endTime": "2026-07-04T04:00:00.000Z"
-        },
-        {
-          "question": "Mexico vs England",
-          "category": "sports",
-          "totalPool": 36,
-          "betCount": 10,
-          "endTime": "2026-07-05T23:00:00.000Z"
-        },
-        {
-          "question": "Canada vs Morocco",
-          "category": "sports",
-          "totalPool": 36,
-          "betCount": 9,
-          "endTime": "2026-07-04T16:00:00.000Z"
+          "endTime": "2026-07-05T04:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 32.5,
+          "totalPool": 73,
           "betCount": 0,
-          "endTime": "2026-07-04T04:00:00.000Z"
+          "endTime": "2026-07-05T04:00:00.000Z"
+        },
+        {
+          "question": "Mexico vs England",
+          "category": "sports",
+          "totalPool": 55.56,
+          "betCount": 19,
+          "endTime": "2026-07-05T23:00:00.000Z"
         }
       ]
     },

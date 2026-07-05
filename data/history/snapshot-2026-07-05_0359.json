@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-25T01:10:53.494Z",
+  "lastUpdated": "2026-07-05T03:59:43.341Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 274.45000000000005,
+    "totalTvlUsd": 1209.46,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37051,
-      "activeMarkets": 86,
-      "endedMarkets": 15,
-      "resolvedMarkets": 36573,
-      "totalActivePoolUsd": 274.45000000000005,
-      "totalActiveBets": 91,
+      "totalMarkets": 39263,
+      "activeMarkets": 78,
+      "endedMarkets": 10,
+      "resolvedMarkets": 38797,
+      "totalActivePoolUsd": 1209.46,
+      "totalActiveBets": 229,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 0,
+          "poolUsd": 508,
           "bets": 0
         },
         "sports": {
-          "count": 82,
-          "poolUsd": 274.45000000000005,
-          "bets": 91
+          "count": 74,
+          "poolUsd": 701.46,
+          "bets": 229
         }
       },
       "topMarkets": [
         {
-          "question": "Turkey vs USA",
-          "category": "sports",
-          "totalPool": 44.2,
-          "betCount": 18,
-          "endTime": "2026-06-26T01:00:00.000Z"
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 177,
+          "betCount": 0,
+          "endTime": "2026-07-05T04:00:00.000Z"
         },
         {
-          "question": "Japan vs Sweden",
-          "category": "sports",
-          "totalPool": 34.85,
-          "betCount": 14,
-          "endTime": "2026-06-25T22:00:00.000Z"
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 170,
+          "betCount": 0,
+          "endTime": "2026-07-05T04:00:00.000Z"
         },
         {
-          "question": "Paraguay vs Australia",
-          "category": "sports",
-          "totalPool": 26,
-          "betCount": 8,
-          "endTime": "2026-06-26T01:00:00.000Z"
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 88,
+          "betCount": 0,
+          "endTime": "2026-07-05T04:00:00.000Z"
         },
         {
-          "question": "Ecuador vs Germany",
-          "category": "sports",
-          "totalPool": 23,
-          "betCount": 11,
-          "endTime": "2026-06-25T19:00:00.000Z"
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 73,
+          "betCount": 0,
+          "endTime": "2026-07-05T04:00:00.000Z"
         },
         {
-          "question": "Curacao vs Ivory Coast",
+          "question": "Mexico vs England",
           "category": "sports",
-          "totalPool": 19,
-          "betCount": 10,
-          "endTime": "2026-06-25T19:00:00.000Z"
+          "totalPool": 55.56,
+          "betCount": 19,
+          "endTime": "2026-07-05T23:00:00.000Z"
         }
       ]
     },
@@ -161,18 +161,6 @@
       "isCandidate": true
     },
     {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
-      "isCandidate": true
-    },
-    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -194,6 +182,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "hecto-finance",
+      "name": "Hecto-Finance-1",
+      "url": "https://hectofinance.com",
+      "appCategory": "Lending",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton DeFi protocol",
       "isCandidate": true
     },
     {
@@ -290,18 +290,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
       "isCandidate": true
     }
   ]

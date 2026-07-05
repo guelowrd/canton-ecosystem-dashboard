@@ -152,14 +152,6 @@
     "note": "Canton DEX (AMM)"
   },
   {
-    "appName": "trakx-validator-1",
-    "baseName": "trakx",
-    "category": "Validator/Infra",
-    "confidence": 100,
-    "websiteGuess": "https://trakx.io",
-    "note": "Crypto index platform"
-  },
-  {
     "appName": "binance-dp-1",
     "baseName": "binance-dp",
     "category": "Validator/Infra",
@@ -810,6 +802,14 @@
   {
     "appName": "tradefast-provider-1",
     "baseName": "tradefast-provider",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "trakx-utility",
+    "baseName": "trakx-utility",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
