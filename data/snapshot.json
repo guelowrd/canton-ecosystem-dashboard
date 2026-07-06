@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-05T03:59:43.341Z",
+  "lastUpdated": "2026-07-06T04:07:37.453Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1209.46,
+    "totalTvlUsd": 914.7,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 39263,
-      "activeMarkets": 78,
-      "endedMarkets": 10,
-      "resolvedMarkets": 38797,
-      "totalActivePoolUsd": 1209.46,
-      "totalActiveBets": 229,
+      "totalMarkets": 39507,
+      "activeMarkets": 110,
+      "endedMarkets": 2,
+      "resolvedMarkets": 39017,
+      "totalActivePoolUsd": 914.7,
+      "totalActiveBets": 231,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 508,
+          "poolUsd": 175,
           "bets": 0
         },
         "sports": {
-          "count": 74,
-          "poolUsd": 701.46,
-          "bets": 229
+          "count": 96,
+          "poolUsd": 739.7,
+          "bets": 231
         }
       },
       "topMarkets": [
         {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 177,
-          "betCount": 0,
-          "endTime": "2026-07-05T04:00:00.000Z"
-        },
-        {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 170,
+          "totalPool": 129,
           "betCount": 0,
-          "endTime": "2026-07-05T04:00:00.000Z"
+          "endTime": "2026-07-06T04:30:00.000Z"
+        },
+        {
+          "question": "Argentina vs Egypt",
+          "category": "sports",
+          "totalPool": 49,
+          "betCount": 13,
+          "endTime": "2026-07-07T15:00:00.000Z"
+        },
+        {
+          "question": "France vs Morocco",
+          "category": "sports",
+          "totalPool": 42,
+          "betCount": 11,
+          "endTime": "2026-07-09T19:00:00.000Z"
+        },
+        {
+          "question": "Switzerland vs Colombia",
+          "category": "sports",
+          "totalPool": 40,
+          "betCount": 14,
+          "endTime": "2026-07-07T19:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 88,
+          "totalPool": 27,
           "betCount": 0,
-          "endTime": "2026-07-05T04:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 73,
-          "betCount": 0,
-          "endTime": "2026-07-05T04:00:00.000Z"
-        },
-        {
-          "question": "Mexico vs England",
-          "category": "sports",
-          "totalPool": 55.56,
-          "betCount": 19,
-          "endTime": "2026-07-05T23:00:00.000Z"
+          "endTime": "2026-07-06T04:30:00.000Z"
         }
       ]
     },

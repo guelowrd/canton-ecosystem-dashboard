@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-07-06_0407.json",
+    "lastUpdated": "2026-07-06T04:07:37.453Z",
+    "tvlUsd": 914.7,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-07-05_0359.json",
     "lastUpdated": "2026-07-05T03:59:43.341Z",
     "tvlUsd": 1209.46,
@@ -113,21 +126,6 @@
     "activeValidators": null,
     "signals": {
       "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-06-26_0114.json",
-    "lastUpdated": "2026-06-26T01:14:01.441Z",
-    "tvlUsd": 236.1,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [
-        "Hecto-Finance-1"
-      ],
       "newData": []
     }
   }
