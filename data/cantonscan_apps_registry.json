@@ -392,14 +392,6 @@
     "note": null
   },
   {
-    "appName": "FlowRyd-validator-1",
-    "baseName": "flowryd",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "FTP-validator-1",
     "baseName": "ftp",
     "category": "Validator/Infra",
