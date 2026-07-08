@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-28T01:14:40.552Z",
+  "lastUpdated": "2026-07-08T03:25:27.731Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 196,
+    "totalTvlUsd": 909,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 19,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 19 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,54 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37236,
-      "activeMarkets": 30,
-      "endedMarkets": 16,
-      "resolvedMarkets": 36813,
-      "totalActivePoolUsd": 196,
-      "totalActiveBets": 47,
+      "totalMarkets": 39914,
+      "activeMarkets": 103,
+      "endedMarkets": 9,
+      "resolvedMarkets": 39424,
+      "totalActivePoolUsd": 909,
+      "totalActiveBets": 205,
       "categories": {
+        "crypto": {
+          "count": 4,
+          "poolUsd": 326,
+          "bets": 0
+        },
         "sports": {
-          "count": 30,
-          "poolUsd": 196,
-          "bets": 47
+          "count": 96,
+          "poolUsd": 583,
+          "bets": 205
         }
       },
       "topMarkets": [
         {
-          "question": "South Africa vs Canada",
-          "category": "sports",
-          "totalPool": 12,
-          "betCount": 2,
-          "endTime": "2026-06-28T18:00:00.000Z"
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 103,
+          "betCount": 0,
+          "endTime": "2026-07-08T03:30:00.000Z"
         },
         {
-          "question": "Cleveland Guardians vs Seattle Mariners",
-          "category": "sports",
-          "totalPool": 11,
-          "betCount": 4,
-          "endTime": "2026-06-28T16:40:00.000Z"
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 93,
+          "betCount": 0,
+          "endTime": "2026-07-08T03:30:00.000Z"
         },
         {
-          "question": "Toronto Blue Jays vs Texas Rangers",
-          "category": "sports",
-          "totalPool": 11,
-          "betCount": 4,
-          "endTime": "2026-06-28T16:37:00.000Z"
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 66,
+          "betCount": 0,
+          "endTime": "2026-07-08T03:30:00.000Z"
         },
         {
-          "question": "Pittsburgh Pirates vs Cincinnati Reds",
-          "category": "sports",
-          "totalPool": 11,
-          "betCount": 4,
-          "endTime": "2026-06-28T16:35:00.000Z"
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 64,
+          "betCount": 0,
+          "endTime": "2026-07-08T03:30:00.000Z"
         },
         {
-          "question": "Baltimore Orioles vs Washington Nationals",
+          "question": "France vs Morocco",
           "category": "sports",
-          "totalPool": 11,
-          "betCount": 4,
-          "endTime": "2026-06-28T16:35:00.000Z"
+          "totalPool": 62,
+          "betCount": 19,
+          "endTime": "2026-07-09T19:00:00.000Z"
         }
       ]
     },
@@ -156,18 +161,6 @@
       "isCandidate": true
     },
     {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
-      "isCandidate": true
-    },
-    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -196,7 +189,7 @@
       "name": "Hecto-Finance-1",
       "url": "https://hectofinance.com",
       "appCategory": "Lending",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
@@ -297,18 +290,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
       "isCandidate": true
     }
   ]
