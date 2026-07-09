@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-29T01:15:36.139Z",
+  "lastUpdated": "2026-07-09T03:49:08.407Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 248.1,
+    "totalTvlUsd": 678,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 19,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 19 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,54 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37310,
-      "activeMarkets": 73,
-      "endedMarkets": 6,
-      "resolvedMarkets": 36854,
-      "totalActivePoolUsd": 248.1,
-      "totalActiveBets": 86,
+      "totalMarkets": 40112,
+      "activeMarkets": 86,
+      "endedMarkets": 8,
+      "resolvedMarkets": 39640,
+      "totalActivePoolUsd": 678,
+      "totalActiveBets": 161,
       "categories": {
+        "crypto": {
+          "count": 4,
+          "poolUsd": 224,
+          "bets": 0
+        },
         "sports": {
-          "count": 73,
-          "poolUsd": 248.1,
-          "bets": 86
+          "count": 82,
+          "poolUsd": 454,
+          "bets": 161
         }
       },
       "topMarkets": [
         {
-          "question": "Brazil vs Japan",
-          "category": "sports",
-          "totalPool": 42.6,
-          "betCount": 12,
-          "endTime": "2026-06-29T16:00:00.000Z"
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 128,
+          "betCount": 0,
+          "endTime": "2026-07-09T04:00:00.000Z"
         },
         {
-          "question": "Netherlands vs Morocco",
+          "question": "France vs Morocco",
           "category": "sports",
-          "totalPool": 18,
-          "betCount": 8,
-          "endTime": "2026-06-30T00:00:00.000Z"
+          "totalPool": 64,
+          "betCount": 21,
+          "endTime": "2026-07-09T19:00:00.000Z"
         },
         {
-          "question": "Germany vs Paraguay",
-          "category": "sports",
-          "totalPool": 16,
-          "betCount": 5,
-          "endTime": "2026-06-29T19:30:00.000Z"
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 38,
+          "betCount": 0,
+          "endTime": "2026-07-09T04:00:00.000Z"
         },
         {
-          "question": "Ivory Coast vs Norway",
-          "category": "sports",
-          "totalPool": 16,
-          "betCount": 5,
-          "endTime": "2026-06-30T16:00:00.000Z"
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 36,
+          "betCount": 0,
+          "endTime": "2026-07-09T04:00:00.000Z"
         },
         {
-          "question": "USA vs Bosnia and Herzegovina",
+          "question": "Norway vs England",
           "category": "sports",
-          "totalPool": 15,
-          "betCount": 4,
-          "endTime": "2026-07-01T23:00:00.000Z"
+          "totalPool": 30,
+          "betCount": 11,
+          "endTime": "2026-07-11T20:00:00.000Z"
         }
       ]
     },
@@ -156,18 +161,6 @@
       "isCandidate": true
     },
     {
-      "id": "coinmetrics",
-      "name": "CoinMetrics-validator-1",
-      "url": "https://coinmetrics.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto data & analytics",
-      "isCandidate": true
-    },
-    {
       "id": "cypherock",
       "name": "cypherock-mainnet-1",
       "url": "https://cypherock.com",
@@ -196,7 +189,7 @@
       "name": "Hecto-Finance-1",
       "url": "https://hectofinance.com",
       "appCategory": "Lending",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
@@ -297,18 +290,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Noves Translate API",
-      "isCandidate": true
-    },
-    {
-      "id": "thetievalidator",
-      "name": "the_tie_validator",
-      "url": "https://thetie.io",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Crypto analytics platform",
       "isCandidate": true
     }
   ]

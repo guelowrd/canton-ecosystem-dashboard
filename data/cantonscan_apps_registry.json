@@ -576,14 +576,6 @@
     "note": null
   },
   {
-    "appName": "Cancore-mainnet-1",
-    "baseName": "cancore",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "CantonOps",
     "baseName": "cantonops",
     "category": "Unknown",
