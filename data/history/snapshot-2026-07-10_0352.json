@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-30T01:10:18.567Z",
+  "lastUpdated": "2026-07-10T03:52:32.988Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 197.915664451,
+    "totalTvlUsd": 316,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,54 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37325,
-      "activeMarkets": 71,
-      "endedMarkets": 18,
-      "resolvedMarkets": 36858,
-      "totalActivePoolUsd": 197.915664451,
-      "totalActiveBets": 59,
+      "totalMarkets": 40272,
+      "activeMarkets": 62,
+      "endedMarkets": 4,
+      "resolvedMarkets": 39828,
+      "totalActivePoolUsd": 316,
+      "totalActiveBets": 113,
       "categories": {
         "sports": {
-          "count": 72,
-          "poolUsd": 197.915664451,
-          "bets": 59
+          "count": 62,
+          "poolUsd": 316,
+          "bets": 113
         }
       },
       "topMarkets": [
         {
-          "question": "Ivory Coast vs Norway",
+          "question": "Norway vs England",
           "category": "sports",
-          "totalPool": 28.1078322255,
+          "totalPool": 31,
           "betCount": 12,
-          "endTime": "2026-06-30T16:00:00.000Z"
+          "endTime": "2026-07-11T20:00:00.000Z"
         },
         {
-          "question": "France vs Sweden",
+          "question": "Tianjin Jinmen Tiger vs Liaoning Tieren",
           "category": "sports",
-          "totalPool": 18.1078322255,
-          "betCount": 5,
-          "endTime": "2026-06-30T20:00:00.000Z"
+          "totalPool": 22,
+          "betCount": 7,
+          "endTime": "2026-07-12T10:00:00.000Z"
         },
         {
-          "question": "Mexico vs Ecuador",
+          "question": "Shanghai Port vs Dalian Yingbo",
           "category": "sports",
-          "totalPool": 15,
+          "totalPool": 21,
+          "betCount": 9,
+          "endTime": "2026-07-12T10:35:00.000Z"
+        },
+        {
+          "question": "Shenzhen Xinpengcheng vs Qingdao West Coast",
+          "category": "sports",
+          "totalPool": 20,
+          "betCount": 9,
+          "endTime": "2026-07-11T10:35:00.000Z"
+        },
+        {
+          "question": "Chengdu Rongcheng vs Chongqing Tonglianglong",
+          "category": "sports",
+          "totalPool": 18,
           "betCount": 6,
-          "endTime": "2026-07-01T00:00:00.000Z"
-        },
-        {
-          "question": "USA vs Bosnia and Herzegovina",
-          "category": "sports",
-          "totalPool": 15,
-          "betCount": 4,
-          "endTime": "2026-07-01T23:00:00.000Z"
-        },
-        {
-          "question": "Chicago Cubs vs San Diego Padres",
-          "category": "sports",
-          "totalPool": 12,
-          "betCount": 2,
-          "endTime": "2026-06-30T23:05:00.000Z"
+          "endTime": "2026-07-11T11:00:00.000Z"
         }
       ]
     },
@@ -184,7 +184,7 @@
       "name": "Hecto-Finance-1",
       "url": "https://hectofinance.com",
       "appCategory": "Lending",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,

@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-09T03:49:08.407Z",
+  "lastUpdated": "2026-07-10T03:52:32.988Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 678,
+    "totalTvlUsd": 316,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,54 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 40112,
-      "activeMarkets": 86,
-      "endedMarkets": 8,
-      "resolvedMarkets": 39640,
-      "totalActivePoolUsd": 678,
-      "totalActiveBets": 161,
+      "totalMarkets": 40272,
+      "activeMarkets": 62,
+      "endedMarkets": 4,
+      "resolvedMarkets": 39828,
+      "totalActivePoolUsd": 316,
+      "totalActiveBets": 113,
       "categories": {
-        "crypto": {
-          "count": 4,
-          "poolUsd": 224,
-          "bets": 0
-        },
         "sports": {
-          "count": 82,
-          "poolUsd": 454,
-          "bets": 161
+          "count": 62,
+          "poolUsd": 316,
+          "bets": 113
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 128,
-          "betCount": 0,
-          "endTime": "2026-07-09T04:00:00.000Z"
-        },
-        {
-          "question": "France vs Morocco",
-          "category": "sports",
-          "totalPool": 64,
-          "betCount": 21,
-          "endTime": "2026-07-09T19:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 38,
-          "betCount": 0,
-          "endTime": "2026-07-09T04:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 36,
-          "betCount": 0,
-          "endTime": "2026-07-09T04:00:00.000Z"
-        },
-        {
           "question": "Norway vs England",
           "category": "sports",
-          "totalPool": 30,
-          "betCount": 11,
+          "totalPool": 31,
+          "betCount": 12,
           "endTime": "2026-07-11T20:00:00.000Z"
+        },
+        {
+          "question": "Tianjin Jinmen Tiger vs Liaoning Tieren",
+          "category": "sports",
+          "totalPool": 22,
+          "betCount": 7,
+          "endTime": "2026-07-12T10:00:00.000Z"
+        },
+        {
+          "question": "Shanghai Port vs Dalian Yingbo",
+          "category": "sports",
+          "totalPool": 21,
+          "betCount": 9,
+          "endTime": "2026-07-12T10:35:00.000Z"
+        },
+        {
+          "question": "Shenzhen Xinpengcheng vs Qingdao West Coast",
+          "category": "sports",
+          "totalPool": 20,
+          "betCount": 9,
+          "endTime": "2026-07-11T10:35:00.000Z"
+        },
+        {
+          "question": "Chengdu Rongcheng vs Chongqing Tonglianglong",
+          "category": "sports",
+          "totalPool": 18,
+          "betCount": 6,
+          "endTime": "2026-07-11T11:00:00.000Z"
         }
       ]
     },

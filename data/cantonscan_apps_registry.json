@@ -136,6 +136,14 @@
     "note": "Institutional CLOB exchange"
   },
   {
+    "appName": "temple-mainnet-3",
+    "baseName": "temple",
+    "category": "Orderbook/CLOB",
+    "confidence": 100,
+    "websiteGuess": "https://app.templedigitalgroup.com",
+    "note": "Institutional CLOB exchange"
+  },
+  {
     "appName": "TextureCapital-validator-1",
     "baseName": "texturecapital",
     "category": "Validator/Infra",
@@ -384,6 +392,14 @@
     "note": null
   },
   {
+    "appName": "ember-validator-1",
+    "baseName": "ember",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "flowryd-validator-1",
     "baseName": "flowryd",
     "category": "Validator/Infra",
@@ -530,14 +546,6 @@
   {
     "appName": "auth0_007c68129abae6733ca8b889162e",
     "baseName": "auth0007c68129abae6733ca8b889162e",
-    "category": "Identity/Auth",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "auth0_007c68dab25ebb6582a0cbe2861c",
-    "baseName": "auth0007c68dab25ebb6582a0cbe2861c",
     "category": "Identity/Auth",
     "confidence": 30,
     "websiteGuess": null,
@@ -794,6 +802,14 @@
   {
     "appName": "squid-intents",
     "baseName": "squid-intents",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "tabiri-mainnet-1",
+    "baseName": "tabiri",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
