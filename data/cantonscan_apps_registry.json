@@ -424,17 +424,17 @@
     "note": null
   },
   {
-    "appName": "MPCH-EREALvalidator-1",
-    "baseName": "mpch-erealvalidator",
+    "appName": "nodetech-mainnet-1",
+    "baseName": "nodetech",
     "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
   },
   {
-    "appName": "nodetech-mainnet-1",
-    "baseName": "nodetech",
-    "category": "Validator/Infra",
+    "appName": "PlatformDex",
+    "baseName": "platformdex",
+    "category": "DEX/AMM",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
@@ -882,6 +882,14 @@
   {
     "appName": "walley",
     "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "yapp-apps",
+    "baseName": "yapp-apps",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
