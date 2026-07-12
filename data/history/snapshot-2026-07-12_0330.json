@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-02T01:10:54.363Z",
+  "lastUpdated": "2026-07-12T03:30:51.297Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 416.2,
+    "totalTvlUsd": 64,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,54 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37348,
-      "activeMarkets": 60,
-      "endedMarkets": 10,
-      "resolvedMarkets": 36900,
-      "totalActivePoolUsd": 416.2,
-      "totalActiveBets": 114,
+      "totalMarkets": 40631,
+      "activeMarkets": 24,
+      "endedMarkets": 12,
+      "resolvedMarkets": 40217,
+      "totalActivePoolUsd": 64,
+      "totalActiveBets": 26,
       "categories": {
+        "crypto": {
+          "count": 4,
+          "poolUsd": 0,
+          "bets": 0
+        },
         "sports": {
-          "count": 60,
-          "poolUsd": 416.2,
-          "bets": 114
+          "count": 20,
+          "poolUsd": 64,
+          "bets": 26
         }
       },
       "topMarkets": [
         {
-          "question": "Brazil vs Norway",
+          "question": "Tianjin Jinmen Tiger vs Liaoning Tieren",
           "category": "sports",
           "totalPool": 26,
-          "betCount": 12,
-          "endTime": "2026-07-05T19:00:00.000Z"
+          "betCount": 9,
+          "endTime": "2026-07-12T10:00:00.000Z"
         },
         {
-          "question": "Australia vs Egypt",
+          "question": "Shanghai Port vs Dalian Yingbo",
           "category": "sports",
-          "totalPool": 25,
-          "betCount": 10,
-          "endTime": "2026-07-03T17:00:00.000Z"
+          "totalPool": 21,
+          "betCount": 9,
+          "endTime": "2026-07-12T10:35:00.000Z"
         },
         {
-          "question": "Argentina vs Cape Verde",
+          "question": "Seoul vs Gangwon",
           "category": "sports",
-          "totalPool": 24,
-          "betCount": 5,
-          "endTime": "2026-07-03T21:00:00.000Z"
-        },
-        {
-          "question": "Portugal vs Croatia",
-          "category": "sports",
-          "totalPool": 20,
-          "betCount": 5,
-          "endTime": "2026-07-02T22:00:00.000Z"
-        },
-        {
-          "question": "Canada vs Morocco",
-          "category": "sports",
-          "totalPool": 19,
+          "totalPool": 9,
           "betCount": 4,
-          "endTime": "2026-07-04T16:00:00.000Z"
+          "endTime": "2026-07-12T09:30:00.000Z"
+        },
+        {
+          "question": "Incheon vs Anyang",
+          "category": "sports",
+          "totalPool": 8,
+          "betCount": 4,
+          "endTime": "2026-07-12T09:30:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-07-12T04:00:00.000Z"
         }
       ]
     },
