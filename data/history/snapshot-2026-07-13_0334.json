@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-03T03:47:25.260Z",
+  "lastUpdated": "2026-07-13T03:34:09.682Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 436.2,
+    "totalTvlUsd": 23,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,54 +45,47 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 37349,
-      "activeMarkets": 49,
-      "endedMarkets": 7,
-      "resolvedMarkets": 36915,
-      "totalActivePoolUsd": 436.2,
-      "totalActiveBets": 121,
+      "totalMarkets": 40823,
+      "activeMarkets": 4,
+      "endedMarkets": 5,
+      "resolvedMarkets": 40436,
+      "totalActivePoolUsd": 23,
+      "totalActiveBets": 0,
       "categories": {
-        "sports": {
-          "count": 49,
-          "poolUsd": 436.2,
-          "bets": 121
+        "crypto": {
+          "count": 4,
+          "poolUsd": 23,
+          "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Canada vs Morocco",
-          "category": "sports",
-          "totalPool": 35,
-          "betCount": 8,
-          "endTime": "2026-07-04T16:00:00.000Z"
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 9,
+          "betCount": 0,
+          "endTime": "2026-07-13T04:00:00.000Z"
         },
         {
-          "question": "Brazil vs Norway",
-          "category": "sports",
-          "totalPool": 26,
-          "betCount": 12,
-          "endTime": "2026-07-05T19:00:00.000Z"
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 7,
+          "betCount": 0,
+          "endTime": "2026-07-13T04:00:00.000Z"
         },
         {
-          "question": "Australia vs Egypt",
-          "category": "sports",
-          "totalPool": 25,
-          "betCount": 10,
-          "endTime": "2026-07-03T17:00:00.000Z"
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 7,
+          "betCount": 0,
+          "endTime": "2026-07-13T04:00:00.000Z"
         },
         {
-          "question": "Argentina vs Cape Verde",
-          "category": "sports",
-          "totalPool": 24,
-          "betCount": 5,
-          "endTime": "2026-07-03T21:00:00.000Z"
-        },
-        {
-          "question": "Colombia vs Ghana",
-          "category": "sports",
-          "totalPool": 20,
-          "betCount": 6,
-          "endTime": "2026-07-04T00:30:00.000Z"
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-07-13T04:00:00.000Z"
         }
       ]
     },

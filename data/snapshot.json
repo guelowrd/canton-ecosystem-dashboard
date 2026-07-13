@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-12T03:30:51.297Z",
+  "lastUpdated": "2026-07-13T03:34:09.682Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 64,
+    "totalTvlUsd": 23,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,47 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 40631,
-      "activeMarkets": 24,
-      "endedMarkets": 12,
-      "resolvedMarkets": 40217,
-      "totalActivePoolUsd": 64,
-      "totalActiveBets": 26,
+      "totalMarkets": 40823,
+      "activeMarkets": 4,
+      "endedMarkets": 5,
+      "resolvedMarkets": 40436,
+      "totalActivePoolUsd": 23,
+      "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 0,
+          "poolUsd": 23,
           "bets": 0
-        },
-        "sports": {
-          "count": 20,
-          "poolUsd": 64,
-          "bets": 26
         }
       },
       "topMarkets": [
         {
-          "question": "Tianjin Jinmen Tiger vs Liaoning Tieren",
-          "category": "sports",
-          "totalPool": 26,
-          "betCount": 9,
-          "endTime": "2026-07-12T10:00:00.000Z"
-        },
-        {
-          "question": "Shanghai Port vs Dalian Yingbo",
-          "category": "sports",
-          "totalPool": 21,
-          "betCount": 9,
-          "endTime": "2026-07-12T10:35:00.000Z"
-        },
-        {
-          "question": "Seoul vs Gangwon",
-          "category": "sports",
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
           "totalPool": 9,
-          "betCount": 4,
-          "endTime": "2026-07-12T09:30:00.000Z"
-        },
-        {
-          "question": "Incheon vs Anyang",
-          "category": "sports",
-          "totalPool": 8,
-          "betCount": 4,
-          "endTime": "2026-07-12T09:30:00.000Z"
+          "betCount": 0,
+          "endTime": "2026-07-13T04:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
+          "totalPool": 7,
+          "betCount": 0,
+          "endTime": "2026-07-13T04:00:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 7,
+          "betCount": 0,
+          "endTime": "2026-07-13T04:00:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-07-12T04:00:00.000Z"
+          "endTime": "2026-07-13T04:00:00.000Z"
         }
       ]
     },
