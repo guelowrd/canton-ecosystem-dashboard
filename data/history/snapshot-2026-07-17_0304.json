@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-07T03:58:47.655Z",
+  "lastUpdated": "2026-07-17T03:04:21.390Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 986.75,
+    "totalTvlUsd": 120.34,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 16,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 16 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 39711,
-      "activeMarkets": 116,
-      "endedMarkets": 5,
-      "resolvedMarkets": 39212,
-      "totalActivePoolUsd": 986.75,
-      "totalActiveBets": 222,
+      "totalMarkets": 41652,
+      "activeMarkets": 66,
+      "endedMarkets": 9,
+      "resolvedMarkets": 41199,
+      "totalActivePoolUsd": 120.34,
+      "totalActiveBets": 12,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 318,
+          "poolUsd": 35,
           "bets": 0
         },
         "sports": {
-          "count": 96,
-          "poolUsd": 668.75,
-          "bets": 222
+          "count": 62,
+          "poolUsd": 85.34,
+          "bets": 12
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 156,
-          "betCount": 0,
-          "endTime": "2026-07-07T04:00:00.000Z"
+          "question": "Spain vs Argentina",
+          "category": "sports",
+          "totalPool": 64.34,
+          "betCount": 9,
+          "endTime": "2026-07-19T18:00:00.000Z"
         },
         {
-          "question": "Argentina vs Egypt",
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 30,
+          "betCount": 0,
+          "endTime": "2026-07-17T03:30:00.000Z"
+        },
+        {
+          "question": "France vs England",
           "category": "sports",
-          "totalPool": 81.25,
-          "betCount": 24,
-          "endTime": "2026-07-07T15:00:00.000Z"
+          "totalPool": 21,
+          "betCount": 3,
+          "endTime": "2026-07-18T20:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 79,
+          "totalPool": 5,
           "betCount": 0,
-          "endTime": "2026-07-07T04:00:00.000Z"
-        },
-        {
-          "question": "France vs Morocco",
-          "category": "sports",
-          "totalPool": 57,
-          "betCount": 14,
-          "endTime": "2026-07-09T19:00:00.000Z"
+          "endTime": "2026-07-17T03:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 49,
+          "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-07-07T04:00:00.000Z"
+          "endTime": "2026-07-17T03:30:00.000Z"
         }
       ]
     },
@@ -182,6 +182,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Equity & token issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "hecto-finance",
+      "name": "Hecto-Finance-1",
+      "url": "https://hectofinance.com",
+      "appCategory": "Lending",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton DeFi protocol",
       "isCandidate": true
     },
     {
