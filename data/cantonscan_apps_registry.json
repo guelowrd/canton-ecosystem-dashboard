@@ -352,6 +352,14 @@
     "note": null
   },
   {
+    "appName": "askardex-validator-1",
+    "baseName": "askardex",
+    "category": "DEX/AMM",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "asset-relayer",
     "baseName": "asset-relayer",
     "category": "Bridge",
@@ -475,6 +483,22 @@
     "appName": "RootsFi-validator-01",
     "baseName": "rootsfi",
     "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "slay-money-validator",
+    "baseName": "slay-money",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "slaymoneyprediction",
+    "baseName": "slaymoneyprediction",
+    "category": "Prediction Markets",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
@@ -618,6 +642,14 @@
   {
     "appName": "edel-various-1",
     "baseName": "edel-various",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "Ekiden-app-1",
+    "baseName": "ekiden-app",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
