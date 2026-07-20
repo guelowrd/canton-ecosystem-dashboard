@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-19T03:28:01.373Z",
+  "lastUpdated": "2026-07-20T03:41:50.331Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 419.34000000000003,
+    "totalTvlUsd": 120,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 42036,
-      "activeMarkets": 35,
-      "endedMarkets": 10,
-      "resolvedMarkets": 41613,
-      "totalActivePoolUsd": 419.34000000000003,
-      "totalActiveBets": 13,
+      "totalMarkets": 42231,
+      "activeMarkets": 19,
+      "endedMarkets": 6,
+      "resolvedMarkets": 41828,
+      "totalActivePoolUsd": 120,
+      "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 351,
+          "poolUsd": 120,
           "bets": 0
         },
         "sports": {
-          "count": 31,
-          "poolUsd": 68.34,
-          "bets": 13
+          "count": 15,
+          "poolUsd": 0,
+          "bets": 0
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 123,
+          "totalPool": 56,
           "betCount": 0,
-          "endTime": "2026-07-19T03:30:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 98,
-          "betCount": 0,
-          "endTime": "2026-07-19T03:30:00.000Z"
+          "endTime": "2026-07-20T04:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 89,
+          "totalPool": 32,
           "betCount": 0,
-          "endTime": "2026-07-19T03:30:00.000Z"
+          "endTime": "2026-07-20T04:00:00.000Z"
         },
         {
-          "question": "Spain vs Argentina",
-          "category": "sports",
-          "totalPool": 68.34,
-          "betCount": 13,
-          "endTime": "2026-07-19T18:00:00.000Z"
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 26,
+          "betCount": 0,
+          "endTime": "2026-07-20T04:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 41,
+          "totalPool": 6,
           "betCount": 0,
-          "endTime": "2026-07-19T03:30:00.000Z"
+          "endTime": "2026-07-20T04:00:00.000Z"
+        },
+        {
+          "question": "Los Angeles Angels vs St.Louis Cardinals",
+          "category": "sports",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-07-21T01:10:00.000Z"
         }
       ]
     },
