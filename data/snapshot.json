@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-24T03:21:47.231Z",
+  "lastUpdated": "2026-07-25T03:20:11.993Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 154,
+    "totalTvlUsd": 245,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,16 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 43134,
-      "activeMarkets": 105,
-      "endedMarkets": 0,
-      "resolvedMarkets": 42647,
-      "totalActivePoolUsd": 154,
+      "totalMarkets": 43346,
+      "activeMarkets": 110,
+      "endedMarkets": 8,
+      "resolvedMarkets": 42846,
+      "totalActivePoolUsd": 245,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 154,
+          "poolUsd": 245,
           "bets": 0
         },
         "sports": {
@@ -67,37 +67,37 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 50,
+          "totalPool": 152,
           "betCount": 0,
-          "endTime": "2026-07-24T03:30:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 46,
-          "betCount": 0,
-          "endTime": "2026-07-24T03:30:00.000Z"
+          "endTime": "2026-07-25T03:30:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
+          "totalPool": 47,
+          "betCount": 0,
+          "endTime": "2026-07-25T03:30:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
           "totalPool": 30,
           "betCount": 0,
-          "endTime": "2026-07-24T03:30:00.000Z"
+          "endTime": "2026-07-25T03:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 28,
+          "totalPool": 16,
           "betCount": 0,
-          "endTime": "2026-07-24T03:30:00.000Z"
+          "endTime": "2026-07-25T03:30:00.000Z"
         },
         {
-          "question": "Los Angeles Dodgers vs Seattle Mariners",
+          "question": "St.Louis Cardinals vs Chicago Cubs",
           "category": "sports",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-07-29T01:10:00.000Z"
+          "endTime": "2026-07-29T22:45:00.000Z"
         }
       ]
     },
