@@ -792,14 +792,6 @@
     "note": "Canton app"
   },
   {
-    "appName": "opus28-opusaccess-1",
-    "baseName": "opus28-opusaccess",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "ppbpffauvo",
     "baseName": "ppbpffauvo",
     "category": "Unknown",
@@ -834,14 +826,6 @@
   {
     "appName": "squid-intents",
     "baseName": "squid-intents",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
-    "appName": "tabiri-mainnet-1",
-    "baseName": "tabiri",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
