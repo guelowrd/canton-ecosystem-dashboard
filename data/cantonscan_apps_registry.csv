@@ -3,7 +3,6 @@ ByBit-MainNetValidator-1,bybit,Validator/Infra,100,https://bybit.com,Crypto exch
 Cantex-validator-1,cantex,DEX/AMM,100,https://cantex.io,Canton DEX by CaviarNine
 cantonloop-mainnet-1,cantonloop,Wallet,100,https://lighthouse.cantonloop.com,5N Loop wallet / explorer
 cantonnodes-validator-1,cantonnodes,Validator/Infra,100,https://cantonnodes.com,Canton RPC & node services
-Cygnet,cygnet,DEX/AMM,100,https://cygnet.finance,Canton DeFi protocol
 cypherock-mainnet-1,cypherock,Wallet,100,https://cypherock.com,Hardware wallet with Canton support
 Fairmint-validator-1,fairmint,Tokenized Assets,100,https://fairmint.com,Equity & token issuance
 Hecto-Finance-1,hecto-finance,Lending,100,https://hectofinance.com,Canton DeFi protocol
@@ -91,6 +90,7 @@ kaiko-app-rewards,kaiko-app-rewards,Unknown,30,,
 kairo-mainnet,kairo,Unknown,30,,Canton app
 kora-app,kora-app,Unknown,30,,
 lattice-app,lattice-app,Unknown,30,,
+Memora,memora,Unknown,30,,
 modo,modo,Unknown,30,,Canton app
 modulo-mainnet-2,modulo,Unknown,30,,Canton app
 nexode,nexode,Unknown,30,,

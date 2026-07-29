@@ -32,14 +32,6 @@
     "note": "Canton RPC & node services"
   },
   {
-    "appName": "Cygnet",
-    "baseName": "cygnet",
-    "category": "DEX/AMM",
-    "confidence": 100,
-    "websiteGuess": "https://cygnet.finance",
-    "note": "Canton DeFi protocol"
-  },
-  {
     "appName": "cypherock-mainnet-1",
     "baseName": "cypherock",
     "category": "Wallet",
@@ -730,6 +722,14 @@
   {
     "appName": "lattice-app",
     "baseName": "lattice-app",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "Memora",
+    "baseName": "memora",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
