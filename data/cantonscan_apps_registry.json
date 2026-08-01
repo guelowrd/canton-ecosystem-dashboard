@@ -424,6 +424,14 @@
     "note": null
   },
   {
+    "appName": "metatarz-validator-1",
+    "baseName": "metatarz",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "nodetech-mainnet-1",
     "baseName": "nodetech",
     "category": "Validator/Infra",
