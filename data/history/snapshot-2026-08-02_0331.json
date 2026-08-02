@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-23T03:27:43.450Z",
+  "lastUpdated": "2026-08-02T03:31:32.435Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 210,
+    "totalTvlUsd": 9,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 42921,
-      "activeMarkets": 88,
-      "endedMarkets": 9,
-      "resolvedMarkets": 42442,
-      "totalActivePoolUsd": 210,
-      "totalActiveBets": 0,
+      "totalMarkets": 44991,
+      "activeMarkets": 53,
+      "endedMarkets": 7,
+      "resolvedMarkets": 44549,
+      "totalActivePoolUsd": 9,
+      "totalActiveBets": 1,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 210,
+          "poolUsd": 7,
           "bets": 0
         },
         "sports": {
-          "count": 84,
-          "poolUsd": 0,
-          "bets": 0
+          "count": 49,
+          "poolUsd": 2,
+          "bets": 1
         }
       },
       "topMarkets": [
         {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 87,
-          "betCount": 0,
-          "endTime": "2026-07-23T03:30:00.000Z"
-        },
-        {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 65,
+          "totalPool": 7,
           "betCount": 0,
-          "endTime": "2026-07-23T03:30:00.000Z"
+          "endTime": "2026-08-02T04:00:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 31,
-          "betCount": 0,
-          "endTime": "2026-07-23T03:30:00.000Z"
+          "question": "Atlanta Braves vs Washington Nationals",
+          "category": "sports",
+          "totalPool": 2,
+          "betCount": 1,
+          "endTime": "2026-08-02T16:35:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 27,
-          "betCount": 0,
-          "endTime": "2026-07-23T03:30:00.000Z"
-        },
-        {
-          "question": "San Francisco Giants vs Milwaukee Brewers",
-          "category": "sports",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-07-28T00:45:00.000Z"
+          "endTime": "2026-08-02T04:00:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-02T04:00:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-02T04:00:00.000Z"
         }
       ]
     },
