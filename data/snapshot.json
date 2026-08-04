@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-03T03:33:53.008Z",
+  "lastUpdated": "2026-08-04T03:02:27.671Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 48,
+    "totalTvlUsd": 5,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,52 +45,52 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 45183,
-      "activeMarkets": 35,
-      "endedMarkets": 1,
-      "resolvedMarkets": 44765,
-      "totalActivePoolUsd": 48,
+      "totalMarkets": 45371,
+      "activeMarkets": 27,
+      "endedMarkets": 8,
+      "resolvedMarkets": 44954,
+      "totalActivePoolUsd": 5,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 48,
+          "poolUsd": 5,
           "bets": 0
         },
         "sports": {
-          "count": 31,
+          "count": 23,
           "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 26,
-          "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 12,
-          "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
-        },
-        {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 10,
+          "totalPool": 5,
           "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
+          "endTime": "2026-08-04T03:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
+          "endTime": "2026-08-04T03:30:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-04T03:30:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-04T03:30:00.000Z"
         },
         {
           "question": "Colorado Rockies vs Tampa Bay Rays",
