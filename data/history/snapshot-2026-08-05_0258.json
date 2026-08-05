@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-26T03:33:05.783Z",
+  "lastUpdated": "2026-08-05T02:58:26.862Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 57,
+    "totalTvlUsd": 346,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,21 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 43542,
-      "activeMarkets": 76,
+      "totalMarkets": 45559,
+      "activeMarkets": 4,
       "endedMarkets": 12,
-      "resolvedMarkets": 43072,
-      "totalActivePoolUsd": 57,
+      "resolvedMarkets": 45161,
+      "totalActivePoolUsd": 346,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 57,
-          "bets": 0
-        },
-        "sports": {
-          "count": 72,
-          "poolUsd": 0,
+          "poolUsd": 346,
           "bets": 0
         }
       },
@@ -67,37 +62,30 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 48,
+          "totalPool": 168,
           "betCount": 0,
-          "endTime": "2026-07-26T04:00:00.000Z"
+          "endTime": "2026-08-05T03:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 9,
+          "totalPool": 101,
           "betCount": 0,
-          "endTime": "2026-07-26T04:00:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-07-26T04:00:00.000Z"
+          "endTime": "2026-08-05T03:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 42,
           "betCount": 0,
-          "endTime": "2026-07-26T04:00:00.000Z"
+          "endTime": "2026-08-05T03:00:00.000Z"
         },
         {
-          "question": "St.Louis Cardinals vs Chicago Cubs",
-          "category": "sports",
-          "totalPool": 0,
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 35,
           "betCount": 0,
-          "endTime": "2026-07-29T22:45:00.000Z"
+          "endTime": "2026-08-05T03:00:00.000Z"
         }
       ]
     },
