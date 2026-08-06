@@ -38,7 +38,6 @@ LoopID,loopid,Identity/Auth,55,,Identity service
 M1-validator-1,m1,Validator/Infra,55,,Canton validator
 silvana-orderbook,silvana-orderbook,Orderbook/CLOB,55,,Order book exchange
 Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
-TRIZEGroup-cantonMainnetValidator-1,trizegroup-cantonmainnetvalidator,Validator/Infra,55,,TRIZE Group validator
 TRIZEGroup-RIZEScore,trizegroup-rizescore,Identity/Auth,55,,TRIZE Group identity score
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 3trade_validator_admin,3tradevalidatoradmin,Validator/Infra,40,,
@@ -104,6 +103,7 @@ rails-cethMain-1,rails-cethmain,Unknown,30,,
 sanctum-mainnet,sanctum,Unknown,30,,
 SatsTerminal-main-1,satsterminal-main,Unknown,30,,
 squid-intents,squid-intents,Unknown,30,,
+t-rize-registrar,t-rize-registrar,Unknown,30,,
 tenkai-main-1,tenkai-main,Unknown,30,,Canton app
 tradefast-mainnet-1,tradefast,Unknown,30,,
 tradefast-mainnet-2,tradefast,Unknown,30,,

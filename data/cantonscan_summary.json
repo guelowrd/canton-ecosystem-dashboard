@@ -1,9 +1,9 @@
 {
   "totalApps": 118,
   "withWebsite": 27,
-  "lowConfidence": 76,
+  "lowConfidence": 77,
   "categories": {
-    "Validator/Infra": 26,
+    "Validator/Infra": 25,
     "DEX/AMM": 6,
     "Wallet": 10,
     "Tokenized Assets": 5,
@@ -14,6 +14,6 @@
     "Bridge": 3,
     "Payments": 1,
     "Identity/Auth": 6,
-    "Unknown": 48
+    "Unknown": 49
   }
 }

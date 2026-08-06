@@ -312,14 +312,6 @@
     "note": "Canton validator"
   },
   {
-    "appName": "TRIZEGroup-cantonMainnetValidator-1",
-    "baseName": "trizegroup-cantonmainnetvalidator",
-    "category": "Validator/Infra",
-    "confidence": 55,
-    "websiteGuess": null,
-    "note": "TRIZE Group validator"
-  },
-  {
     "appName": "TRIZEGroup-RIZEScore",
     "baseName": "trizegroup-rizescore",
     "category": "Identity/Auth",
@@ -834,6 +826,14 @@
   {
     "appName": "squid-intents",
     "baseName": "squid-intents",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "t-rize-registrar",
+    "baseName": "t-rize-registrar",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
