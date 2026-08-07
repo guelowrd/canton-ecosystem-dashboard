@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-28T02:58:09.793Z",
+  "lastUpdated": "2026-08-07T02:58:23.738Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 298,
+    "totalTvlUsd": 321,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,21 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 43917,
-      "activeMarkets": 45,
-      "endedMarkets": 11,
-      "resolvedMarkets": 43479,
-      "totalActivePoolUsd": 298,
+      "totalMarkets": 45943,
+      "activeMarkets": 4,
+      "endedMarkets": 2,
+      "resolvedMarkets": 45555,
+      "totalActivePoolUsd": 321,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 298,
-          "bets": 0
-        },
-        "sports": {
-          "count": 41,
-          "poolUsd": 0,
+          "poolUsd": 321,
           "bets": 0
         }
       },
@@ -67,37 +62,30 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 116,
+          "totalPool": 160,
           "betCount": 0,
-          "endTime": "2026-07-28T03:00:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 78,
+          "totalPool": 94,
           "betCount": 0,
-          "endTime": "2026-07-28T03:00:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 56,
+          "totalPool": 47,
           "betCount": 0,
-          "endTime": "2026-07-28T03:00:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 48,
+          "totalPool": 20,
           "betCount": 0,
-          "endTime": "2026-07-28T03:00:00.000Z"
-        },
-        {
-          "question": "St.Louis Cardinals vs Chicago Cubs",
-          "category": "sports",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-07-29T22:45:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         }
       ]
     },

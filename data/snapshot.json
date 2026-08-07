@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-06T03:02:24.975Z",
+  "lastUpdated": "2026-08-07T02:58:23.738Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 20,
+    "totalTvlUsd": 321,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,47 +45,47 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 45755,
+      "totalMarkets": 45943,
       "activeMarkets": 4,
-      "endedMarkets": 6,
-      "resolvedMarkets": 45363,
-      "totalActivePoolUsd": 20,
+      "endedMarkets": 2,
+      "resolvedMarkets": 45555,
+      "totalActivePoolUsd": 321,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 20,
+          "poolUsd": 321,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "SOL Up or Down - 30 Min",
+          "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 7,
+          "totalPool": 160,
           "betCount": 0,
-          "endTime": "2026-08-06T03:30:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 7,
+          "totalPool": 94,
           "betCount": 0,
-          "endTime": "2026-08-06T03:30:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 30 Min",
+          "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 6,
+          "totalPool": 47,
           "betCount": 0,
-          "endTime": "2026-08-06T03:30:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 20,
           "betCount": 0,
-          "endTime": "2026-08-06T03:30:00.000Z"
+          "endTime": "2026-08-07T03:00:00.000Z"
         }
       ]
     },
