@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-29T03:05:19.466Z",
+  "lastUpdated": "2026-08-08T02:03:05.177Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 72,
+    "totalTvlUsd": 24,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,21 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 44179,
-      "activeMarkets": 91,
-      "endedMarkets": 12,
-      "resolvedMarkets": 43694,
-      "totalActivePoolUsd": 72,
+      "totalMarkets": 46131,
+      "activeMarkets": 4,
+      "endedMarkets": 2,
+      "resolvedMarkets": 45743,
+      "totalActivePoolUsd": 24,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 72,
-          "bets": 0
-        },
-        "sports": {
-          "count": 87,
-          "poolUsd": 0,
+          "poolUsd": 24,
           "bets": 0
         }
       },
@@ -67,37 +62,30 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 32,
+          "totalPool": 24,
           "betCount": 0,
-          "endTime": "2026-07-29T03:30:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 20,
-          "betCount": 0,
-          "endTime": "2026-07-29T03:30:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 14,
-          "betCount": 0,
-          "endTime": "2026-07-29T03:30:00.000Z"
+          "endTime": "2026-08-08T02:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 6,
-          "betCount": 0,
-          "endTime": "2026-07-29T03:30:00.000Z"
-        },
-        {
-          "question": "Los Angeles Dodgers vs Boston Red Sox",
-          "category": "sports",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-08-02T22:20:00.000Z"
+          "endTime": "2026-08-08T02:30:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-08T02:30:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-08T02:30:00.000Z"
         }
       ]
     },

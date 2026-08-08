@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-07T02:58:23.738Z",
+  "lastUpdated": "2026-08-08T02:03:05.177Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 321,
+    "totalTvlUsd": 24,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,16 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 45943,
+      "totalMarkets": 46131,
       "activeMarkets": 4,
       "endedMarkets": 2,
-      "resolvedMarkets": 45555,
-      "totalActivePoolUsd": 321,
+      "resolvedMarkets": 45743,
+      "totalActivePoolUsd": 24,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 321,
+          "poolUsd": 24,
           "bets": 0
         }
       },
@@ -62,30 +62,30 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 160,
+          "totalPool": 24,
           "betCount": 0,
-          "endTime": "2026-08-07T03:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 94,
-          "betCount": 0,
-          "endTime": "2026-08-07T03:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 47,
-          "betCount": 0,
-          "endTime": "2026-08-07T03:00:00.000Z"
+          "endTime": "2026-08-08T02:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 20,
+          "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-08-07T03:00:00.000Z"
+          "endTime": "2026-08-08T02:30:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-08T02:30:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-08-08T02:30:00.000Z"
         }
       ]
     },
