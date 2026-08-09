@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-30T02:50:32.761Z",
+  "lastUpdated": "2026-08-09T02:10:35.098Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 234,
+    "totalTvlUsd": 285,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 44384,
-      "activeMarkets": 84,
-      "endedMarkets": 8,
-      "resolvedMarkets": 43910,
-      "totalActivePoolUsd": 234,
-      "totalActiveBets": 2,
+      "totalMarkets": 46355,
+      "activeMarkets": 26,
+      "endedMarkets": 11,
+      "resolvedMarkets": 45936,
+      "totalActivePoolUsd": 285,
+      "totalActiveBets": 26,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 231,
+          "poolUsd": 155,
           "bets": 0
         },
         "sports": {
-          "count": 80,
-          "poolUsd": 3,
-          "bets": 2
+          "count": 22,
+          "poolUsd": 130,
+          "bets": 26
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 124,
+          "totalPool": 69,
           "betCount": 0,
-          "endTime": "2026-07-30T03:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 66,
-          "betCount": 0,
-          "endTime": "2026-07-30T03:00:00.000Z"
+          "endTime": "2026-08-09T02:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 21,
+          "totalPool": 30,
           "betCount": 0,
-          "endTime": "2026-07-30T03:00:00.000Z"
+          "endTime": "2026-08-09T02:30:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 20,
+          "totalPool": 28,
           "betCount": 0,
-          "endTime": "2026-07-30T03:00:00.000Z"
+          "endTime": "2026-08-09T02:30:00.000Z"
         },
         {
-          "question": "Tampa Bay Rays vs Texas Rangers",
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 28,
+          "betCount": 0,
+          "endTime": "2026-08-09T02:30:00.000Z"
+        },
+        {
+          "question": "Seattle Mariners vs Tampa Bay Rays",
           "category": "sports",
-          "totalPool": 2,
-          "betCount": 1,
-          "endTime": "2026-07-30T15:10:00.000Z"
+          "totalPool": 10,
+          "betCount": 2,
+          "endTime": "2026-08-09T19:10:00.000Z"
         }
       ]
     },
