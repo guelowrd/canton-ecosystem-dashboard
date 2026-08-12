@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-02T03:31:32.435Z",
+  "lastUpdated": "2026-08-12T02:26:52.903Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 9,
+    "totalTvlUsd": 350,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 44991,
-      "activeMarkets": 53,
-      "endedMarkets": 7,
-      "resolvedMarkets": 44549,
-      "totalActivePoolUsd": 9,
-      "totalActiveBets": 1,
+      "totalMarkets": 46958,
+      "activeMarkets": 7,
+      "endedMarkets": 16,
+      "resolvedMarkets": 46553,
+      "totalActivePoolUsd": 350,
+      "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 7,
+          "poolUsd": 350,
           "bets": 0
         },
         "sports": {
-          "count": 49,
-          "poolUsd": 2,
-          "bets": 1
+          "count": 3,
+          "poolUsd": 0,
+          "bets": 0
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 7,
+          "totalPool": 171,
           "betCount": 0,
-          "endTime": "2026-08-02T04:00:00.000Z"
-        },
-        {
-          "question": "Atlanta Braves vs Washington Nationals",
-          "category": "sports",
-          "totalPool": 2,
-          "betCount": 1,
-          "endTime": "2026-08-02T16:35:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-08-02T04:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-08-02T04:00:00.000Z"
+          "endTime": "2026-08-12T02:30:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
+          "totalPool": 85,
+          "betCount": 0,
+          "endTime": "2026-08-12T02:30:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 61,
+          "betCount": 0,
+          "endTime": "2026-08-12T02:30:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 33,
+          "betCount": 0,
+          "endTime": "2026-08-12T02:30:00.000Z"
+        },
+        {
+          "question": "St.Louis Cardinals vs Philadelphia Phillies",
+          "category": "sports",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-08-02T04:00:00.000Z"
+          "endTime": "2026-08-12T17:15:00.000Z"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
