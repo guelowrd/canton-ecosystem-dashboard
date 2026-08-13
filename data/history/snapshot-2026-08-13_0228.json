@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-03T03:33:53.008Z",
+  "lastUpdated": "2026-08-13T02:28:11.535Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 48,
+    "totalTvlUsd": 318,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,20 +45,20 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 45183,
-      "activeMarkets": 35,
-      "endedMarkets": 1,
-      "resolvedMarkets": 44765,
-      "totalActivePoolUsd": 48,
+      "totalMarkets": 47149,
+      "activeMarkets": 5,
+      "endedMarkets": 2,
+      "resolvedMarkets": 46760,
+      "totalActivePoolUsd": 318,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 48,
+          "poolUsd": 318,
           "bets": 0
         },
         "sports": {
-          "count": 31,
+          "count": 1,
           "poolUsd": 0,
           "bets": 0
         }
@@ -67,37 +67,37 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 26,
+          "totalPool": 163,
           "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
+          "endTime": "2026-08-13T02:30:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 12,
+          "totalPool": 79,
           "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
+          "endTime": "2026-08-13T02:30:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 10,
+          "totalPool": 45,
           "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
+          "endTime": "2026-08-13T02:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 31,
           "betCount": 0,
-          "endTime": "2026-08-03T04:00:00.000Z"
+          "endTime": "2026-08-13T02:30:00.000Z"
         },
         {
-          "question": "Colorado Rockies vs Tampa Bay Rays",
+          "question": "Besiktas vs Hradec Kralove",
           "category": "sports",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-08-04T23:40:00.000Z"
+          "endTime": "2026-08-13T16:00:00.000Z"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,

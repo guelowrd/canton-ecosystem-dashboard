@@ -432,6 +432,14 @@
     "note": null
   },
   {
+    "appName": "nuxaris-validator-1",
+    "baseName": "nuxaris",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "PlatformDex",
     "baseName": "platformdex",
     "category": "DEX/AMM",
@@ -488,9 +496,9 @@
     "note": null
   },
   {
-    "appName": "slaymoneyprediction",
-    "baseName": "slaymoneyprediction",
-    "category": "Prediction Markets",
+    "appName": "slaymoney-validator-2",
+    "baseName": "slaymoney",
+    "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
