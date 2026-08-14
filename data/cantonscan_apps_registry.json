@@ -760,14 +760,6 @@
     "note": "Canton app"
   },
   {
-    "appName": "nexode",
-    "baseName": "nexode",
-    "category": "Unknown",
-    "confidence": 30,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "NGC-Ventures-1",
     "baseName": "ngc-ventures",
     "category": "Unknown",

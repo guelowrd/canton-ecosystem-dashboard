@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-04T03:02:27.671Z",
+  "lastUpdated": "2026-08-14T02:26:19.946Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 5,
+    "totalTvlUsd": 402,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,47 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 45371,
-      "activeMarkets": 27,
-      "endedMarkets": 8,
-      "resolvedMarkets": 44954,
-      "totalActivePoolUsd": 5,
+      "totalMarkets": 47341,
+      "activeMarkets": 4,
+      "endedMarkets": 2,
+      "resolvedMarkets": 46953,
+      "totalActivePoolUsd": 402,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 5,
-          "bets": 0
-        },
-        "sports": {
-          "count": 23,
-          "poolUsd": 0,
+          "poolUsd": 402,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "SOL Up or Down - 30 Min",
+          "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 5,
+          "totalPool": 185,
           "betCount": 0,
-          "endTime": "2026-08-04T03:30:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-08-04T03:30:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 118,
           "betCount": 0,
-          "endTime": "2026-08-04T03:30:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 30 Min",
+          "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 68,
           "betCount": 0,
-          "endTime": "2026-08-04T03:30:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         },
         {
-          "question": "Colorado Rockies vs Tampa Bay Rays",
-          "category": "sports",
-          "totalPool": 0,
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 31,
           "betCount": 0,
-          "endTime": "2026-08-04T23:40:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         }
       ]
     },
@@ -153,7 +141,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "opaque",
+      "transparency": "none",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,

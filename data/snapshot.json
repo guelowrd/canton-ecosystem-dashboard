@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-13T02:28:11.535Z",
+  "lastUpdated": "2026-08-14T02:26:19.946Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 318,
+    "totalTvlUsd": 402,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,21 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 47149,
-      "activeMarkets": 5,
+      "totalMarkets": 47341,
+      "activeMarkets": 4,
       "endedMarkets": 2,
-      "resolvedMarkets": 46760,
-      "totalActivePoolUsd": 318,
+      "resolvedMarkets": 46953,
+      "totalActivePoolUsd": 402,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 318,
-          "bets": 0
-        },
-        "sports": {
-          "count": 1,
-          "poolUsd": 0,
+          "poolUsd": 402,
           "bets": 0
         }
       },
@@ -67,37 +62,30 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 163,
+          "totalPool": 185,
           "betCount": 0,
-          "endTime": "2026-08-13T02:30:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 79,
+          "totalPool": 118,
           "betCount": 0,
-          "endTime": "2026-08-13T02:30:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 45,
+          "totalPool": 68,
           "betCount": 0,
-          "endTime": "2026-08-13T02:30:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
           "totalPool": 31,
           "betCount": 0,
-          "endTime": "2026-08-13T02:30:00.000Z"
-        },
-        {
-          "question": "Besiktas vs Hradec Kralove",
-          "category": "sports",
-          "totalPool": 0,
-          "betCount": 0,
-          "endTime": "2026-08-13T16:00:00.000Z"
+          "endTime": "2026-08-14T02:30:00.000Z"
         }
       ]
     },
