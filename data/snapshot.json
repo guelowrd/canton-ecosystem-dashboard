@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-15T01:34:48.519Z",
+  "lastUpdated": "2026-08-16T01:46:40.071Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 28,
+    "totalTvlUsd": 185,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,16 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 47529,
+      "totalMarkets": 47721,
       "activeMarkets": 4,
       "endedMarkets": 2,
-      "resolvedMarkets": 47141,
-      "totalActivePoolUsd": 28,
+      "resolvedMarkets": 47333,
+      "totalActivePoolUsd": 185,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 28,
+          "poolUsd": 185,
           "bets": 0
         }
       },
@@ -62,30 +62,30 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 15,
+          "totalPool": 112,
           "betCount": 0,
-          "endTime": "2026-08-15T02:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 9,
-          "betCount": 0,
-          "endTime": "2026-08-15T02:00:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 4,
-          "betCount": 0,
-          "endTime": "2026-08-15T02:00:00.000Z"
+          "endTime": "2026-08-16T02:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
+          "totalPool": 39,
+          "betCount": 0,
+          "endTime": "2026-08-16T02:00:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 34,
+          "betCount": 0,
+          "endTime": "2026-08-16T02:00:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-08-15T02:00:00.000Z"
+          "endTime": "2026-08-16T02:00:00.000Z"
         }
       ]
     },
