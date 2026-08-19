@@ -336,6 +336,22 @@
     "note": null
   },
   {
+    "appName": "arccade-swap",
+    "baseName": "arccade-swap",
+    "category": "DEX/AMM",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "arccade-validator-1",
+    "baseName": "arccade",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "askardex-validator-1",
     "baseName": "askardex",
     "category": "DEX/AMM",

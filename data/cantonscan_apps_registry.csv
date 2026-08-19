@@ -41,6 +41,8 @@ Supanova-validator-1,supanova,Validator/Infra,55,,Canton validator
 TRIZEGroup-RIZEScore,trizegroup-rizescore,Identity/Auth,55,,TRIZE Group identity score
 Ubyx-validator-1,ubyx,Validator/Infra,55,,Canton validator
 3trade_validator_admin,3tradevalidatoradmin,Validator/Infra,40,,
+arccade-swap,arccade-swap,DEX/AMM,40,,
+arccade-validator-1,arccade,Validator/Infra,40,,
 askardex-validator-1,askardex,DEX/AMM,40,,
 asset-relayer,asset-relayer,Bridge,40,,
 cauri-wallet-provider1,cauri-wallet-provider1,Wallet,40,,
