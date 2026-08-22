@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-21T01:44:34.163Z",
+  "lastUpdated": "2026-08-22T01:35:14.000Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 224,
+    "totalTvlUsd": 75,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,52 +45,52 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 48817,
-      "activeMarkets": 75,
-      "endedMarkets": 5,
-      "resolvedMarkets": 48355,
-      "totalActivePoolUsd": 224,
-      "totalActiveBets": 20,
+      "totalMarkets": 49009,
+      "activeMarkets": 58,
+      "endedMarkets": 16,
+      "resolvedMarkets": 48553,
+      "totalActivePoolUsd": 75,
+      "totalActiveBets": 8,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 124,
+          "poolUsd": 35,
           "bets": 0
         },
         "sports": {
-          "count": 71,
-          "poolUsd": 100,
-          "bets": 20
+          "count": 54,
+          "poolUsd": 40,
+          "bets": 8
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 53,
+          "totalPool": 19,
           "betCount": 0,
-          "endTime": "2026-08-21T02:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 31,
-          "betCount": 0,
-          "endTime": "2026-08-21T02:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 21,
-          "betCount": 0,
-          "endTime": "2026-08-21T02:00:00.000Z"
+          "endTime": "2026-08-22T02:00:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 19,
+          "totalPool": 11,
           "betCount": 0,
-          "endTime": "2026-08-21T02:00:00.000Z"
+          "endTime": "2026-08-22T02:00:00.000Z"
+        },
+        {
+          "question": "Philadelphia Phillies vs St.Louis Cardinals",
+          "category": "sports",
+          "totalPool": 10,
+          "betCount": 2,
+          "endTime": "2026-08-22T21:05:00.000Z"
+        },
+        {
+          "question": "Miami Marlins vs Washington Nationals",
+          "category": "sports",
+          "totalPool": 10,
+          "betCount": 2,
+          "endTime": "2026-08-22T19:10:00.000Z"
         },
         {
           "question": "Milwaukee Brewers vs Atlanta Braves",
