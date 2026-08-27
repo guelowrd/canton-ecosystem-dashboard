@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-17T01:44:13.382Z",
+  "lastUpdated": "2026-08-27T08:36:27.920Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 285,
+    "totalTvlUsd": 138,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 47996,
-      "activeMarkets": 71,
-      "endedMarkets": 4,
-      "resolvedMarkets": 47539,
-      "totalActivePoolUsd": 285,
-      "totalActiveBets": 24,
+      "totalMarkets": 50146,
+      "activeMarkets": 86,
+      "endedMarkets": 3,
+      "resolvedMarkets": 49675,
+      "totalActivePoolUsd": 138,
+      "totalActiveBets": 16,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 165,
+          "poolUsd": 58,
           "bets": 0
         },
         "sports": {
-          "count": 67,
-          "poolUsd": 120,
-          "bets": 24
+          "count": 82,
+          "poolUsd": 80,
+          "bets": 16
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 87,
+          "totalPool": 25,
           "betCount": 0,
-          "endTime": "2026-08-17T02:00:00.000Z"
+          "endTime": "2026-08-27T09:00:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 14,
+          "betCount": 0,
+          "endTime": "2026-08-27T09:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 36,
+          "totalPool": 14,
           "betCount": 0,
-          "endTime": "2026-08-17T02:00:00.000Z"
+          "endTime": "2026-08-27T09:00:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 33,
-          "betCount": 0,
-          "endTime": "2026-08-17T02:00:00.000Z"
-        },
-        {
-          "question": "New York Mets vs San Diego Padres",
+          "question": "San Francisco Giants vs Arizona Diamondbacks",
           "category": "sports",
           "totalPool": 10,
           "betCount": 2,
-          "endTime": "2026-08-18T22:10:00.000Z"
+          "endTime": "2026-08-29T01:15:00.000Z"
         },
         {
-          "question": "Pittsburgh Pirates vs Detroit Tigers",
+          "question": "San Francisco Giants vs Arizona Diamondbacks",
           "category": "sports",
           "totalPool": 10,
           "betCount": 2,
-          "endTime": "2026-08-18T21:40:00.000Z"
+          "endTime": "2026-08-28T00:45:00.000Z"
         }
       ]
     },

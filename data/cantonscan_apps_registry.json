@@ -496,14 +496,6 @@
     "note": null
   },
   {
-    "appName": "RootsFi-validator-01",
-    "baseName": "rootsfi",
-    "category": "Validator/Infra",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "slay-money-validator",
     "baseName": "slay-money",
     "category": "Validator/Infra",
@@ -850,6 +842,14 @@
   {
     "appName": "t-rize-registrar",
     "baseName": "t-rize-registrar",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "tabiri-mainnet-1",
+    "baseName": "tabiri",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
