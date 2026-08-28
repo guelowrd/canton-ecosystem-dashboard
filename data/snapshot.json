@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-27T08:36:27.920Z",
+  "lastUpdated": "2026-08-28T10:50:34.316Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 138,
+    "totalTvlUsd": 341,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 50146,
-      "activeMarkets": 86,
+      "totalMarkets": 50354,
+      "activeMarkets": 79,
       "endedMarkets": 3,
-      "resolvedMarkets": 49675,
-      "totalActivePoolUsd": 138,
-      "totalActiveBets": 16,
+      "resolvedMarkets": 49890,
+      "totalActivePoolUsd": 341,
+      "totalActiveBets": 29,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 58,
+          "poolUsd": 199,
           "bets": 0
         },
         "sports": {
-          "count": 82,
-          "poolUsd": 80,
-          "bets": 16
+          "count": 75,
+          "poolUsd": 142,
+          "bets": 29
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 25,
+          "totalPool": 86,
           "betCount": 0,
-          "endTime": "2026-08-27T09:00:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 14,
-          "betCount": 0,
-          "endTime": "2026-08-27T09:00:00.000Z"
+          "endTime": "2026-08-28T11:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 14,
+          "totalPool": 43,
           "betCount": 0,
-          "endTime": "2026-08-27T09:00:00.000Z"
+          "endTime": "2026-08-28T11:00:00.000Z"
         },
         {
-          "question": "San Francisco Giants vs Arizona Diamondbacks",
-          "category": "sports",
-          "totalPool": 10,
-          "betCount": 2,
-          "endTime": "2026-08-29T01:15:00.000Z"
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 40,
+          "betCount": 0,
+          "endTime": "2026-08-28T11:00:00.000Z"
         },
         {
-          "question": "San Francisco Giants vs Arizona Diamondbacks",
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 30,
+          "betCount": 0,
+          "endTime": "2026-08-28T11:00:00.000Z"
+        },
+        {
+          "question": "Chicago Cubs vs Cincinnati Reds",
           "category": "sports",
-          "totalPool": 10,
-          "betCount": 2,
-          "endTime": "2026-08-28T00:45:00.000Z"
+          "totalPool": 12,
+          "betCount": 3,
+          "endTime": "2026-08-28T17:20:00.000Z"
         }
       ]
     },
