@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-28T10:50:34.316Z",
+  "lastUpdated": "2026-08-29T06:37:40.895Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 341,
+    "totalTvlUsd": 182,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 16,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 16 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 50354,
-      "activeMarkets": 79,
-      "endedMarkets": 3,
-      "resolvedMarkets": 49890,
-      "totalActivePoolUsd": 341,
-      "totalActiveBets": 29,
+      "totalMarkets": 50514,
+      "activeMarkets": 61,
+      "endedMarkets": 6,
+      "resolvedMarkets": 50065,
+      "totalActivePoolUsd": 182,
+      "totalActiveBets": 18,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 199,
+          "poolUsd": 92,
           "bets": 0
         },
         "sports": {
-          "count": 75,
-          "poolUsd": 142,
-          "bets": 29
+          "count": 57,
+          "poolUsd": 90,
+          "bets": 18
         }
       },
       "topMarkets": [
         {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 28,
+          "betCount": 0,
+          "endTime": "2026-08-29T07:00:00.000Z"
+        },
+        {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 86,
+          "totalPool": 23,
           "betCount": 0,
-          "endTime": "2026-08-28T11:00:00.000Z"
+          "endTime": "2026-08-29T07:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 43,
+          "totalPool": 22,
           "betCount": 0,
-          "endTime": "2026-08-28T11:00:00.000Z"
+          "endTime": "2026-08-29T07:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 40,
+          "totalPool": 19,
           "betCount": 0,
-          "endTime": "2026-08-28T11:00:00.000Z"
+          "endTime": "2026-08-29T07:00:00.000Z"
         },
         {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 30,
-          "betCount": 0,
-          "endTime": "2026-08-28T11:00:00.000Z"
-        },
-        {
-          "question": "Chicago Cubs vs Cincinnati Reds",
+          "question": "Atlanta Braves vs Colorado Rockies",
           "category": "sports",
-          "totalPool": 12,
-          "betCount": 3,
-          "endTime": "2026-08-28T17:20:00.000Z"
+          "totalPool": 10,
+          "betCount": 2,
+          "endTime": "2026-08-29T19:10:00.000Z"
         }
       ]
     },
@@ -230,18 +230,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton Network wallet",
-      "isCandidate": true
-    },
-    {
-      "id": "blackmantacapital-primary",
-      "name": "blackmantacapital-primary-1",
-      "url": "https://blackmanta.capital",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "BaFin-regulated tokenized securities",
       "isCandidate": true
     },
     {
