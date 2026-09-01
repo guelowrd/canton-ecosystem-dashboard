@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-31T04:52:48.989Z",
+  "lastUpdated": "2026-09-01T04:33:44.888Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 0,
+    "totalTvlUsd": 41,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,40 +45,47 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 50842,
-      "activeMarkets": 3,
+      "totalMarkets": 50986,
+      "activeMarkets": 4,
       "endedMarkets": 3,
-      "resolvedMarkets": 50454,
-      "totalActivePoolUsd": 0,
+      "resolvedMarkets": 50597,
+      "totalActivePoolUsd": 41,
       "totalActiveBets": 0,
       "categories": {
-        "sports": {
-          "count": 3,
-          "poolUsd": 0,
+        "crypto": {
+          "count": 4,
+          "poolUsd": 41,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Aston Villa vs Arsenal",
-          "category": "sports",
-          "totalPool": 0,
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 30,
           "betCount": 0,
-          "endTime": "2026-08-31T18:00:00.000Z"
+          "endTime": "2026-09-01T05:00:00.000Z"
         },
         {
-          "question": "Atalanta vs Bologna",
-          "category": "sports",
-          "totalPool": 0,
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 11,
           "betCount": 0,
-          "endTime": "2026-08-31T17:45:00.000Z"
+          "endTime": "2026-09-01T05:00:00.000Z"
         },
         {
-          "question": "Lecce vs AS Roma",
-          "category": "sports",
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-08-31T15:30:00.000Z"
+          "endTime": "2026-09-01T05:00:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-09-01T05:00:00.000Z"
         }
       ]
     },
