@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-01T04:33:44.888Z",
+  "lastUpdated": "2026-09-02T03:56:08.270Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 41,
+    "totalTvlUsd": 300,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,16 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 50986,
-      "activeMarkets": 4,
+      "totalMarkets": 51185,
+      "activeMarkets": 19,
       "endedMarkets": 3,
-      "resolvedMarkets": 50597,
-      "totalActivePoolUsd": 41,
+      "resolvedMarkets": 50781,
+      "totalActivePoolUsd": 300,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 41,
+          "poolUsd": 300,
+          "bets": 0
+        },
+        "sports": {
+          "count": 15,
+          "poolUsd": 0,
           "bets": 0
         }
       },
@@ -62,30 +67,37 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 30,
+          "totalPool": 143,
           "betCount": 0,
-          "endTime": "2026-09-01T05:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 11,
-          "betCount": 0,
-          "endTime": "2026-09-01T05:00:00.000Z"
+          "endTime": "2026-09-02T04:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 84,
           "betCount": 0,
-          "endTime": "2026-09-01T05:00:00.000Z"
+          "endTime": "2026-09-02T04:00:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 41,
+          "betCount": 0,
+          "endTime": "2026-09-02T04:00:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
+          "totalPool": 32,
+          "betCount": 0,
+          "endTime": "2026-09-02T04:00:00.000Z"
+        },
+        {
+          "question": "Kocaelispor vs Samsunspor",
+          "category": "sports",
           "totalPool": 0,
           "betCount": 0,
-          "endTime": "2026-09-01T05:00:00.000Z"
+          "endTime": "2026-09-06T16:00:00.000Z"
         }
       ]
     },
