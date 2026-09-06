@@ -616,6 +616,14 @@
     "note": null
   },
   {
+    "appName": "Cancore-mainnet-1",
+    "baseName": "cancore",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "CantonOps",
     "baseName": "cantonops",
     "category": "Unknown",
@@ -658,6 +666,14 @@
   {
     "appName": "Ekiden-app-1",
     "baseName": "ekiden-app",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "excellar-issuer",
+    "baseName": "excellar-issuer",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,

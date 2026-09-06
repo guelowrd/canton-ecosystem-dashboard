@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-27T08:36:27.920Z",
+  "lastUpdated": "2026-09-06T03:59:44.497Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 138,
+    "totalTvlUsd": 249.64,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 50146,
-      "activeMarkets": 86,
-      "endedMarkets": 3,
-      "resolvedMarkets": 49675,
-      "totalActivePoolUsd": 138,
-      "totalActiveBets": 16,
+      "totalMarkets": 52074,
+      "activeMarkets": 91,
+      "endedMarkets": 7,
+      "resolvedMarkets": 51656,
+      "totalActivePoolUsd": 249.64,
+      "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 58,
+          "poolUsd": 234.65999999999997,
           "bets": 0
         },
         "sports": {
-          "count": 82,
-          "poolUsd": 80,
-          "bets": 16
+          "count": 71,
+          "poolUsd": 14.98,
+          "bets": 0
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 25,
+          "totalPool": 130.95,
           "betCount": 0,
-          "endTime": "2026-08-27T09:00:00.000Z"
+          "endTime": "2026-09-06T04:00:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 56.5,
+          "betCount": 0,
+          "endTime": "2026-09-06T04:00:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 14,
+          "totalPool": 26.55,
           "betCount": 0,
-          "endTime": "2026-08-27T09:00:00.000Z"
+          "endTime": "2026-09-06T04:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 14,
+          "totalPool": 20.66,
           "betCount": 0,
-          "endTime": "2026-08-27T09:00:00.000Z"
+          "endTime": "2026-09-06T04:00:00.000Z"
         },
         {
-          "question": "San Francisco Giants vs Arizona Diamondbacks",
+          "question": "Seattle Seahawks vs New England Patriots",
           "category": "sports",
-          "totalPool": 10,
-          "betCount": 2,
-          "endTime": "2026-08-29T01:15:00.000Z"
-        },
-        {
-          "question": "San Francisco Giants vs Arizona Diamondbacks",
-          "category": "sports",
-          "totalPool": 10,
-          "betCount": 2,
-          "endTime": "2026-08-28T00:45:00.000Z"
+          "totalPool": 11.58,
+          "betCount": 0,
+          "endTime": "2026-09-09T23:20:00.000Z"
         }
       ]
     },
