@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-06T03:59:44.497Z",
+  "lastUpdated": "2026-09-07T03:58:35.399Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 249.64,
+    "totalTvlUsd": 321.56,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,20 +45,20 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 52074,
-      "activeMarkets": 91,
-      "endedMarkets": 7,
-      "resolvedMarkets": 51656,
-      "totalActivePoolUsd": 249.64,
+      "totalMarkets": 52295,
+      "activeMarkets": 107,
+      "endedMarkets": 6,
+      "resolvedMarkets": 51886,
+      "totalActivePoolUsd": 321.56,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 234.65999999999997,
+          "poolUsd": 306.58000000000004,
           "bets": 0
         },
         "sports": {
-          "count": 71,
+          "count": 79,
           "poolUsd": 14.98,
           "bets": 0
         }
@@ -67,30 +67,30 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 130.95,
+          "totalPool": 149.11,
           "betCount": 0,
-          "endTime": "2026-09-06T04:00:00.000Z"
+          "endTime": "2026-09-07T04:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 56.5,
+          "totalPool": 74.22,
           "betCount": 0,
-          "endTime": "2026-09-06T04:00:00.000Z"
+          "endTime": "2026-09-07T04:00:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 26.55,
+          "totalPool": 48.82,
           "betCount": 0,
-          "endTime": "2026-09-06T04:00:00.000Z"
+          "endTime": "2026-09-07T04:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 20.66,
+          "totalPool": 34.43,
           "betCount": 0,
-          "endTime": "2026-09-06T04:00:00.000Z"
+          "endTime": "2026-09-07T04:00:00.000Z"
         },
         {
           "question": "Seattle Seahawks vs New England Patriots",
