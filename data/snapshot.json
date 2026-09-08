@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-07T03:58:35.399Z",
+  "lastUpdated": "2026-09-08T04:02:34.550Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 321.56,
+    "totalTvlUsd": 14.98,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 52295,
-      "activeMarkets": 107,
-      "endedMarkets": 6,
-      "resolvedMarkets": 51886,
-      "totalActivePoolUsd": 321.56,
+      "totalMarkets": 52496,
+      "activeMarkets": 91,
+      "endedMarkets": 7,
+      "resolvedMarkets": 52118,
+      "totalActivePoolUsd": 14.98,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 306.58000000000004,
+          "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 79,
+          "count": 71,
           "poolUsd": 14.98,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 149.11,
-          "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 74.22,
-          "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 48.82,
-          "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 34.43,
-          "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
-        },
-        {
           "question": "Seattle Seahawks vs New England Patriots",
           "category": "sports",
           "totalPool": 11.58,
           "betCount": 0,
           "endTime": "2026-09-09T23:20:00.000Z"
+        },
+        {
+          "question": "Los Angeles Rams vs San Francisco 49ers",
+          "category": "sports",
+          "totalPool": 3.4,
+          "betCount": 0,
+          "endTime": "2026-09-10T23:35:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-09-08T04:30:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-09-08T04:30:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 0,
+          "betCount": 0,
+          "endTime": "2026-09-08T04:30:00.000Z"
         }
       ]
     },
