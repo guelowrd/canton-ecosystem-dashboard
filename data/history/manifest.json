@@ -1,5 +1,20 @@
 [
   {
+    "file": "snapshot-2026-09-10_0405.json",
+    "lastUpdated": "2026-09-10T04:05:56.990Z",
+    "tvlUsd": 75.83,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "cantor8-digik-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-09-09_0406.json",
     "lastUpdated": "2026-09-09T04:06:55.115Z",
     "tvlUsd": 97.15,
@@ -107,19 +122,6 @@
     "file": "snapshot-2026-09-01_0433.json",
     "lastUpdated": "2026-09-01T04:33:44.888Z",
     "tvlUsd": 41,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-08-31_0452.json",
-    "lastUpdated": "2026-08-31T04:52:48.989Z",
-    "tvlUsd": null,
     "ccPriceUsd": null,
     "topApp": null,
     "appRewardsShareOfMinting": null,
