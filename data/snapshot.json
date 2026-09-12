@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-11T04:02:19.609Z",
+  "lastUpdated": "2026-09-12T04:04:52.278Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 123.6,
+    "totalTvlUsd": 139.7,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,21 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 53077,
-      "activeMarkets": 84,
-      "endedMarkets": 5,
-      "resolvedMarkets": 52780,
-      "totalActivePoolUsd": 123.6,
+      "totalMarkets": 53269,
+      "activeMarkets": 69,
+      "endedMarkets": 10,
+      "resolvedMarkets": 53004,
+      "totalActivePoolUsd": 139.7,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 0,
+          "poolUsd": 28.29,
           "bets": 0
         },
         "sports": {
-          "count": 40,
-          "poolUsd": 123.6,
+          "count": 23,
+          "poolUsd": 111.41,
           "bets": 0
         }
       },
@@ -72,11 +72,18 @@
           "endTime": "2026-09-13T16:00:00.000Z"
         },
         {
-          "question": "Los Angeles Rams vs San Francisco 49ers",
+          "question": "Tennessee Titans vs New York Jets",
           "category": "sports",
-          "totalPool": 17.89,
+          "totalPool": 17,
           "betCount": 0,
-          "endTime": "2026-09-10T23:35:00.000Z"
+          "endTime": "2026-09-13T16:00:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 14.28,
+          "betCount": 0,
+          "endTime": "2026-09-12T04:30:00.000Z"
         },
         {
           "question": "Indianapolis Colts vs Baltimore Ravens",
@@ -89,13 +96,6 @@
           "question": "Detroit Lions vs New Orleans Saints",
           "category": "sports",
           "totalPool": 11.7,
-          "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
-        },
-        {
-          "question": "Tennessee Titans vs New York Jets",
-          "category": "sports",
-          "totalPool": 11.3,
           "betCount": 0,
           "endTime": "2026-09-13T16:00:00.000Z"
         }
