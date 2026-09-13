@@ -776,6 +776,14 @@
     "note": "Canton app"
   },
   {
+    "appName": "Modulo-Issuer",
+    "baseName": "modulo-issuer",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "modulo-mainnet-2",
     "baseName": "modulo",
     "category": "Unknown",
