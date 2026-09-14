@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-13T04:14:25.033Z",
+  "lastUpdated": "2026-09-14T04:22:21.120Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 244.44999999999996,
+    "totalTvlUsd": 223.22000000000003,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,21 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 53461,
-      "activeMarkets": 55,
+      "totalMarkets": 53667,
+      "activeMarkets": 49,
       "endedMarkets": 5,
-      "resolvedMarkets": 53251,
-      "totalActivePoolUsd": 244.44999999999996,
+      "resolvedMarkets": 53515,
+      "totalActivePoolUsd": 223.22000000000003,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 108.53999999999999,
+          "poolUsd": 162.68,
           "bets": 0
         },
         "sports": {
-          "count": 19,
-          "poolUsd": 135.91,
+          "count": 17,
+          "poolUsd": 60.54,
           "bets": 0
         }
       },
@@ -67,37 +67,37 @@
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 53.44,
+          "totalPool": 99.8,
           "betCount": 0,
-          "endTime": "2026-09-13T04:30:00.000Z"
+          "endTime": "2026-09-14T04:30:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 28.26,
+          "betCount": 0,
+          "endTime": "2026-09-14T04:30:00.000Z"
         },
         {
           "question": "ETH Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 31.18,
+          "totalPool": 20.42,
           "betCount": 0,
-          "endTime": "2026-09-13T04:30:00.000Z"
+          "endTime": "2026-09-14T04:30:00.000Z"
         },
         {
-          "question": "Carolina Panthers vs Chicago Bears",
+          "question": "Tennessee Titans vs Philadelphia Eagles",
           "category": "sports",
-          "totalPool": 20.16,
+          "totalPool": 20.11,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-20T16:00:00.000Z"
         },
         {
-          "question": "Tennessee Titans vs New York Jets",
+          "question": "Kansas City Chiefs vs Denver Broncos",
           "category": "sports",
-          "totalPool": 17,
+          "totalPool": 15.36,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 16.32,
-          "betCount": 0,
-          "endTime": "2026-09-13T04:30:00.000Z"
+          "endTime": "2026-09-14T23:15:00.000Z"
         }
       ]
     },

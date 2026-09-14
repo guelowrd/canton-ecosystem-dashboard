@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-04T03:59:14.654Z",
+  "lastUpdated": "2026-09-14T04:22:21.120Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 309.31,
+    "totalTvlUsd": 223.22000000000003,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,59 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 51665,
-      "activeMarkets": 121,
+      "totalMarkets": 53667,
+      "activeMarkets": 49,
       "endedMarkets": 5,
-      "resolvedMarkets": 51187,
-      "totalActivePoolUsd": 309.31,
-      "totalActiveBets": 20,
+      "resolvedMarkets": 53515,
+      "totalActivePoolUsd": 223.22000000000003,
+      "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 4,
-          "poolUsd": 209.31,
+          "poolUsd": 162.68,
           "bets": 0
         },
         "sports": {
-          "count": 91,
-          "poolUsd": 100,
-          "bets": 20
+          "count": 17,
+          "poolUsd": 60.54,
+          "bets": 0
         }
       },
       "topMarkets": [
         {
           "question": "BTC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 75.3,
+          "totalPool": 99.8,
           "betCount": 0,
-          "endTime": "2026-09-04T04:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 60.17,
-          "betCount": 0,
-          "endTime": "2026-09-04T04:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 37.27,
-          "betCount": 0,
-          "endTime": "2026-09-04T04:00:00.000Z"
+          "endTime": "2026-09-14T04:30:00.000Z"
         },
         {
           "question": "CC Up or Down - 30 Min",
           "category": "crypto",
-          "totalPool": 36.57,
+          "totalPool": 28.26,
           "betCount": 0,
-          "endTime": "2026-09-04T04:00:00.000Z"
+          "endTime": "2026-09-14T04:30:00.000Z"
         },
         {
-          "question": "Seattle Mariners vs Athletics",
+          "question": "ETH Up or Down - 30 Min",
+          "category": "crypto",
+          "totalPool": 20.42,
+          "betCount": 0,
+          "endTime": "2026-09-14T04:30:00.000Z"
+        },
+        {
+          "question": "Tennessee Titans vs Philadelphia Eagles",
           "category": "sports",
-          "totalPool": 10,
-          "betCount": 2,
-          "endTime": "2026-09-05T01:10:00.000Z"
+          "totalPool": 20.11,
+          "betCount": 0,
+          "endTime": "2026-09-20T16:00:00.000Z"
+        },
+        {
+          "question": "Kansas City Chiefs vs Denver Broncos",
+          "category": "sports",
+          "totalPool": 15.36,
+          "betCount": 0,
+          "endTime": "2026-09-14T23:15:00.000Z"
         }
       ]
     },
