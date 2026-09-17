@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-07T03:58:35.399Z",
+  "lastUpdated": "2026-09-17T04:24:20.128Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 321.56,
+    "totalTvlUsd": 744.6999999999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 52295,
-      "activeMarkets": 107,
-      "endedMarkets": 6,
-      "resolvedMarkets": 51886,
-      "totalActivePoolUsd": 321.56,
+      "totalMarkets": 56948,
+      "activeMarkets": 54,
+      "endedMarkets": 7,
+      "resolvedMarkets": 56802,
+      "totalActivePoolUsd": 744.6999999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 4,
-          "poolUsd": 306.58000000000004,
+          "count": 12,
+          "poolUsd": 509.31999999999994,
+          "bets": 0
+        },
+        "esports": {
+          "count": 20,
+          "poolUsd": 80.7,
           "bets": 0
         },
         "sports": {
-          "count": 79,
-          "poolUsd": 14.98,
+          "count": 16,
+          "poolUsd": 154.68,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 30 Min",
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 149.11,
+          "totalPool": 95.94,
           "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
+          "endTime": "2026-09-17T04:25:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 30 Min",
+          "question": "SOL Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 74.22,
+          "totalPool": 62.15,
           "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
+          "endTime": "2026-09-17T04:25:00.000Z"
         },
         {
-          "question": "CC Up or Down - 30 Min",
+          "question": "ETH Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 48.82,
+          "totalPool": 60.66,
           "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
+          "endTime": "2026-09-17T04:25:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 30 Min",
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 34.43,
+          "totalPool": 57.63,
           "betCount": 0,
-          "endTime": "2026-09-07T04:00:00.000Z"
+          "endTime": "2026-09-17T04:30:00.000Z"
         },
         {
-          "question": "Seattle Seahawks vs New England Patriots",
-          "category": "sports",
-          "totalPool": 11.58,
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 53.01,
           "betCount": 0,
-          "endTime": "2026-09-09T23:20:00.000Z"
+          "endTime": "2026-09-17T04:30:00.000Z"
         }
       ]
     },
@@ -153,7 +158,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
