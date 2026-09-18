@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-17T04:24:20.128Z",
+  "lastUpdated": "2026-09-18T04:09:43.865Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 744.6999999999998,
+    "totalTvlUsd": 1269.2699999999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,64 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 56948,
-      "activeMarkets": 54,
-      "endedMarkets": 7,
-      "resolvedMarkets": 56802,
-      "totalActivePoolUsd": 744.6999999999998,
+      "totalMarkets": 58579,
+      "activeMarkets": 59,
+      "endedMarkets": 8,
+      "resolvedMarkets": 58425,
+      "totalActivePoolUsd": 1269.2699999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 509.31999999999994,
-          "bets": 0
-        },
-        "esports": {
-          "count": 20,
-          "poolUsd": 80.7,
+          "poolUsd": 484.01,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 154.68,
+          "poolUsd": 128.42000000000002,
+          "bets": 0
+        },
+        "esports": {
+          "count": 25,
+          "poolUsd": 656.8400000000001,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 95.94,
+          "question": "Team Liquid PH vs TNC Pro Team — Series Winner",
+          "category": "esports",
+          "totalPool": 528.95,
           "betCount": 0,
-          "endTime": "2026-09-17T04:25:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 62.15,
-          "betCount": 0,
-          "endTime": "2026-09-17T04:25:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 60.66,
-          "betCount": 0,
-          "endTime": "2026-09-17T04:25:00.000Z"
+          "endTime": "2026-09-18T08:55:00.000Z"
         },
         {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 57.63,
+          "totalPool": 98.88,
           "betCount": 0,
-          "endTime": "2026-09-17T04:30:00.000Z"
+          "endTime": "2026-09-18T04:15:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 15 Min",
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 53.01,
+          "totalPool": 89.56,
           "betCount": 0,
-          "endTime": "2026-09-17T04:30:00.000Z"
+          "endTime": "2026-09-18T04:10:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 79.42,
+          "betCount": 0,
+          "endTime": "2026-09-18T04:10:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 76.18,
+          "betCount": 0,
+          "endTime": "2026-09-18T04:10:00.000Z"
         }
       ]
     },

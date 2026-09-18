@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-08T04:02:34.550Z",
+  "lastUpdated": "2026-09-18T04:09:43.865Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 14.98,
+    "totalTvlUsd": 1269.2699999999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 52496,
-      "activeMarkets": 91,
-      "endedMarkets": 7,
-      "resolvedMarkets": 52118,
-      "totalActivePoolUsd": 14.98,
+      "totalMarkets": 58579,
+      "activeMarkets": 59,
+      "endedMarkets": 8,
+      "resolvedMarkets": 58425,
+      "totalActivePoolUsd": 1269.2699999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 4,
-          "poolUsd": 0,
+          "count": 12,
+          "poolUsd": 484.01,
           "bets": 0
         },
         "sports": {
-          "count": 71,
-          "poolUsd": 14.98,
+          "count": 16,
+          "poolUsd": 128.42000000000002,
+          "bets": 0
+        },
+        "esports": {
+          "count": 25,
+          "poolUsd": 656.8400000000001,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Seattle Seahawks vs New England Patriots",
-          "category": "sports",
-          "totalPool": 11.58,
+          "question": "Team Liquid PH vs TNC Pro Team — Series Winner",
+          "category": "esports",
+          "totalPool": 528.95,
           "betCount": 0,
-          "endTime": "2026-09-09T23:20:00.000Z"
+          "endTime": "2026-09-18T08:55:00.000Z"
         },
         {
-          "question": "Los Angeles Rams vs San Francisco 49ers",
-          "category": "sports",
-          "totalPool": 3.4,
-          "betCount": 0,
-          "endTime": "2026-09-10T23:35:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 30 Min",
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 98.88,
           "betCount": 0,
-          "endTime": "2026-09-08T04:30:00.000Z"
+          "endTime": "2026-09-18T04:15:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 30 Min",
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 89.56,
           "betCount": 0,
-          "endTime": "2026-09-08T04:30:00.000Z"
+          "endTime": "2026-09-18T04:10:00.000Z"
         },
         {
-          "question": "CC Up or Down - 30 Min",
+          "question": "SOL Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 0,
+          "totalPool": 79.42,
           "betCount": 0,
-          "endTime": "2026-09-08T04:30:00.000Z"
+          "endTime": "2026-09-18T04:10:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 76.18,
+          "betCount": 0,
+          "endTime": "2026-09-18T04:10:00.000Z"
         }
       ]
     },
@@ -153,7 +158,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
