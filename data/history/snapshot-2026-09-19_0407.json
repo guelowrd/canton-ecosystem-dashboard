@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-09T04:06:55.115Z",
+  "lastUpdated": "2026-09-19T04:07:20.166Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 97.15,
+    "totalTvlUsd": 12274.119999999999,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 16,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 52691,
-      "activeMarkets": 79,
-      "endedMarkets": 10,
-      "resolvedMarkets": 52342,
-      "totalActivePoolUsd": 97.15,
+      "totalMarkets": 60220,
+      "activeMarkets": 48,
+      "endedMarkets": 6,
+      "resolvedMarkets": 60072,
+      "totalActivePoolUsd": 12274.119999999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 4,
-          "poolUsd": 42.77,
+          "count": 12,
+          "poolUsd": 194.1,
+          "bets": 0
+        },
+        "esports": {
+          "count": 16,
+          "poolUsd": 11951.599999999999,
           "bets": 0
         },
         "sports": {
-          "count": 59,
-          "poolUsd": 54.38,
+          "count": 16,
+          "poolUsd": 128.42000000000002,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 30 Min",
+          "question": "eSuba vs NightBirds — Series Winner",
+          "category": "esports",
+          "totalPool": 9194.56,
+          "betCount": 0,
+          "endTime": "2026-09-20T09:55:00.000Z"
+        },
+        {
+          "question": "Team Falcons PH vs Twisted Minds PH — Series Winner",
+          "category": "esports",
+          "totalPool": 2680.83,
+          "betCount": 0,
+          "endTime": "2026-09-19T08:55:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 26.19,
+          "totalPool": 44.09,
           "betCount": 0,
-          "endTime": "2026-09-09T04:30:00.000Z"
+          "endTime": "2026-09-19T04:15:00.000Z"
         },
         {
-          "question": "Seattle Seahawks vs New England Patriots",
+          "question": "Tennessee Titans vs Philadelphia Eagles",
           "category": "sports",
-          "totalPool": 15.88,
+          "totalPool": 35.09,
           "betCount": 0,
-          "endTime": "2026-09-09T23:20:00.000Z"
+          "endTime": "2026-09-20T16:00:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 30 Min",
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 11.96,
+          "totalPool": 33.66,
           "betCount": 0,
-          "endTime": "2026-09-09T04:30:00.000Z"
-        },
-        {
-          "question": "Los Angeles Rams vs San Francisco 49ers",
-          "category": "sports",
-          "totalPool": 10.2,
-          "betCount": 0,
-          "endTime": "2026-09-10T23:35:00.000Z"
-        },
-        {
-          "question": "Indianapolis Colts vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 6.6,
-          "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-19T04:10:00.000Z"
         }
       ]
     },
@@ -153,7 +158,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,

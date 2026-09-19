@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-18T04:09:43.865Z",
+  "lastUpdated": "2026-09-19T04:07:20.166Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1269.2699999999998,
+    "totalTvlUsd": 12274.119999999999,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 16,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 16 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,64 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 58579,
-      "activeMarkets": 59,
-      "endedMarkets": 8,
-      "resolvedMarkets": 58425,
-      "totalActivePoolUsd": 1269.2699999999998,
+      "totalMarkets": 60220,
+      "activeMarkets": 48,
+      "endedMarkets": 6,
+      "resolvedMarkets": 60072,
+      "totalActivePoolUsd": 12274.119999999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 484.01,
+          "poolUsd": 194.1,
+          "bets": 0
+        },
+        "esports": {
+          "count": 16,
+          "poolUsd": 11951.599999999999,
           "bets": 0
         },
         "sports": {
           "count": 16,
           "poolUsd": 128.42000000000002,
           "bets": 0
-        },
-        "esports": {
-          "count": 25,
-          "poolUsd": 656.8400000000001,
-          "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Team Liquid PH vs TNC Pro Team — Series Winner",
+          "question": "eSuba vs NightBirds — Series Winner",
           "category": "esports",
-          "totalPool": 528.95,
+          "totalPool": 9194.56,
           "betCount": 0,
-          "endTime": "2026-09-18T08:55:00.000Z"
+          "endTime": "2026-09-20T09:55:00.000Z"
+        },
+        {
+          "question": "Team Falcons PH vs Twisted Minds PH — Series Winner",
+          "category": "esports",
+          "totalPool": 2680.83,
+          "betCount": 0,
+          "endTime": "2026-09-19T08:55:00.000Z"
         },
         {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 98.88,
+          "totalPool": 44.09,
           "betCount": 0,
-          "endTime": "2026-09-18T04:15:00.000Z"
+          "endTime": "2026-09-19T04:15:00.000Z"
+        },
+        {
+          "question": "Tennessee Titans vs Philadelphia Eagles",
+          "category": "sports",
+          "totalPool": 35.09,
+          "betCount": 0,
+          "endTime": "2026-09-20T16:00:00.000Z"
         },
         {
           "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 89.56,
+          "totalPool": 33.66,
           "betCount": 0,
-          "endTime": "2026-09-18T04:10:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 79.42,
-          "betCount": 0,
-          "endTime": "2026-09-18T04:10:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 76.18,
-          "betCount": 0,
-          "endTime": "2026-09-18T04:10:00.000Z"
+          "endTime": "2026-09-19T04:10:00.000Z"
         }
       ]
     },
@@ -247,18 +247,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "BaFin-regulated tokenized securities",
-      "isCandidate": true
-    },
-    {
-      "id": "cantor8-digik",
-      "name": "cantor8-digik-1",
-      "url": "https://cantor8.tech/digik",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DigiK - Canton gateway",
       "isCandidate": true
     },
     {
