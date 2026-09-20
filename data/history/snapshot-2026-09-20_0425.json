@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-10T04:05:56.990Z",
+  "lastUpdated": "2026-09-20T04:25:21.405Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 75.83,
+    "totalTvlUsd": 42899.99,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 52884,
-      "activeMarkets": 90,
+      "totalMarkets": 61550,
+      "activeMarkets": 56,
       "endedMarkets": 6,
-      "resolvedMarkets": 52574,
-      "totalActivePoolUsd": 75.83,
+      "resolvedMarkets": 61392,
+      "totalActivePoolUsd": 42899.99,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 4,
-          "poolUsd": 30.43,
+          "count": 12,
+          "poolUsd": 377.03999999999996,
+          "bets": 0
+        },
+        "esports": {
+          "count": 20,
+          "poolUsd": 42363.93000000001,
           "bets": 0
         },
         "sports": {
-          "count": 44,
-          "poolUsd": 45.4,
+          "count": 16,
+          "poolUsd": 159.02,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Los Angeles Rams vs San Francisco 49ers",
-          "category": "sports",
-          "totalPool": 17.1,
+          "question": "AP BREN vs ONIC Philippines — Series Winner",
+          "category": "esports",
+          "totalPool": 20779.65,
           "betCount": 0,
-          "endTime": "2026-09-10T23:35:00.000Z"
+          "endTime": "2026-09-20T08:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 30 Min",
+          "question": "eSuba vs NightBirds — Series Winner",
+          "category": "esports",
+          "totalPool": 13355.55,
+          "betCount": 0,
+          "endTime": "2026-09-20T11:25:00.000Z"
+        },
+        {
+          "question": "Team Liquid PH vs SMART OMEGA — Series Winner",
+          "category": "esports",
+          "totalPool": 8214.57,
+          "betCount": 0,
+          "endTime": "2026-09-20T11:25:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 15.37,
+          "totalPool": 122.83,
           "betCount": 0,
-          "endTime": "2026-09-10T04:30:00.000Z"
+          "endTime": "2026-09-20T04:30:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 30 Min",
+          "question": "ETH Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 8.4,
+          "totalPool": 55.09,
           "betCount": 0,
-          "endTime": "2026-09-10T04:30:00.000Z"
-        },
-        {
-          "question": "Indianapolis Colts vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 6.6,
-          "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
-        },
-        {
-          "question": "Tennessee Titans vs New York Jets",
-          "category": "sports",
-          "totalPool": 5.7,
-          "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-20T04:30:00.000Z"
         }
       ]
     },
@@ -153,7 +158,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
