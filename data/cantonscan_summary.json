@@ -1,6 +1,6 @@
 {
-  "totalApps": 124,
-  "withWebsite": 27,
+  "totalApps": 125,
+  "withWebsite": 28,
   "lowConfidence": 83,
   "categories": {
     "Validator/Infra": 27,
@@ -8,7 +8,7 @@
     "Wallet": 10,
     "Tokenized Assets": 5,
     "Lending": 2,
-    "Explorer/Infra": 4,
+    "Explorer/Infra": 5,
     "Orderbook/CLOB": 4,
     "Prediction Markets": 2,
     "Bridge": 3,

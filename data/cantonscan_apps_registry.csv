@@ -10,6 +10,7 @@ HIFI-validator-1,hifi,Validator/Infra,100,https://hifi.finance,Fixed-rate lendin
 kraken-validator-01,kraken,Validator/Infra,100,https://kraken.com,Crypto exchange validator
 mexc-mainNet-01,mexc,Validator/Infra,100,https://mexc.com,MEXC exchange validator
 Obligate-validator-1,obligate,Tokenized Assets,100,https://obligate.com,On-chain bond issuance
+pixelplex-mainnet-1,pixelplex,Explorer/Infra,100,https://pixelplex.io,Canton exchange development
 pixelplex-mainnet-3,pixelplex,Explorer/Infra,100,https://pixelplex.io,Canton exchange development
 proofgroup-validator-1,proofgroup,Validator/Infra,100,https://proofgroup.com,Blockchain infrastructure
 send-cantonwallet-1,cantonwallet,Wallet,100,https://cantonwallet.com,Canton Network wallet

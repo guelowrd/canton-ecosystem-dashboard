@@ -88,6 +88,14 @@
     "note": "On-chain bond issuance"
   },
   {
+    "appName": "pixelplex-mainnet-1",
+    "baseName": "pixelplex",
+    "category": "Explorer/Infra",
+    "confidence": 100,
+    "websiteGuess": "https://pixelplex.io",
+    "note": "Canton exchange development"
+  },
+  {
     "appName": "pixelplex-mainnet-3",
     "baseName": "pixelplex",
     "category": "Explorer/Infra",

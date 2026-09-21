@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-11T04:02:19.609Z",
+  "lastUpdated": "2026-09-21T04:22:50.366Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 123.6,
+    "totalTvlUsd": 4057.9300000000003,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 16,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 16 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 53077,
-      "activeMarkets": 84,
-      "endedMarkets": 5,
-      "resolvedMarkets": 52780,
-      "totalActivePoolUsd": 123.6,
+      "totalMarkets": 63209,
+      "activeMarkets": 46,
+      "endedMarkets": 7,
+      "resolvedMarkets": 63058,
+      "totalActivePoolUsd": 4057.9300000000003,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 4,
-          "poolUsd": 0,
+          "count": 12,
+          "poolUsd": 262.66,
           "bets": 0
         },
         "sports": {
-          "count": 40,
-          "poolUsd": 123.6,
+          "count": 16,
+          "poolUsd": 9.17,
+          "bets": 0
+        },
+        "esports": {
+          "count": 14,
+          "poolUsd": 3786.1,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Carolina Panthers vs Chicago Bears",
-          "category": "sports",
-          "totalPool": 20.16,
+          "question": "AP BREN vs Aurora Gaming PH — Series Winner",
+          "category": "esports",
+          "totalPool": 3779.73,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-26T08:55:00.000Z"
         },
         {
-          "question": "Los Angeles Rams vs San Francisco 49ers",
-          "category": "sports",
-          "totalPool": 17.89,
+          "question": "BTC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 85.78,
           "betCount": 0,
-          "endTime": "2026-09-10T23:35:00.000Z"
+          "endTime": "2026-09-21T04:25:00.000Z"
         },
         {
-          "question": "Indianapolis Colts vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 13.2,
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 42.35,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-21T04:30:00.000Z"
         },
         {
-          "question": "Detroit Lions vs New Orleans Saints",
-          "category": "sports",
-          "totalPool": 11.7,
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 36.76,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-21T04:30:00.000Z"
         },
         {
-          "question": "Tennessee Titans vs New York Jets",
-          "category": "sports",
-          "totalPool": 11.3,
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 21.45,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-21T04:25:00.000Z"
         }
       ]
     },
@@ -153,23 +158,11 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
       "note": "5N Loop wallet / explorer",
-      "isCandidate": true
-    },
-    {
-      "id": "cypherock",
-      "name": "cypherock-mainnet-1",
-      "url": "https://cypherock.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Hardware wallet with Canton support",
       "isCandidate": true
     },
     {
@@ -206,6 +199,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "On-chain bond issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "pixelplex",
+      "name": "pixelplex-mainnet-1",
+      "url": "https://pixelplex.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton exchange development",
       "isCandidate": true
     },
     {
@@ -254,18 +259,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "DigiK - Canton gateway",
-      "isCandidate": true
-    },
-    {
-      "id": "unhedged-app",
-      "name": "feat-unhedged-app",
-      "url": "https://unhedged.gg",
-      "appCategory": "Prediction Markets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Canton prediction markets",
       "isCandidate": true
     },
     {
