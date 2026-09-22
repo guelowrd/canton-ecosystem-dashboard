@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-21T04:22:50.366Z",
+  "lastUpdated": "2026-09-22T04:19:17.518Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 4057.9300000000003,
+    "totalTvlUsd": 154292.63999999998,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 16,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 16 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,16 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 63209,
-      "activeMarkets": 46,
-      "endedMarkets": 7,
-      "resolvedMarkets": 63058,
-      "totalActivePoolUsd": 4057.9300000000003,
+      "totalMarkets": 64859,
+      "activeMarkets": 55,
+      "endedMarkets": 9,
+      "resolvedMarkets": 64696,
+      "totalActivePoolUsd": 154292.63999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 262.66,
+          "poolUsd": 77.21,
           "bets": 0
         },
         "sports": {
@@ -63,46 +63,46 @@
           "bets": 0
         },
         "esports": {
-          "count": 14,
-          "poolUsd": 3786.1,
+          "count": 25,
+          "poolUsd": 154206.26,
           "bets": 0
         }
       },
       "topMarkets": [
         {
+          "question": "BORRACHEIROS vs Damajuana — Series Winner",
+          "category": "esports",
+          "totalPool": 76399.38,
+          "betCount": 0,
+          "endTime": "2026-09-22T15:55:00.000Z"
+        },
+        {
+          "question": "Imperial vs JUVENTUS GAMING — Series Winner",
+          "category": "esports",
+          "totalPool": 34313.25,
+          "betCount": 0,
+          "endTime": "2026-09-23T16:25:00.000Z"
+        },
+        {
           "question": "AP BREN vs Aurora Gaming PH — Series Winner",
           "category": "esports",
-          "totalPool": 3779.73,
+          "totalPool": 28583.61,
           "betCount": 0,
           "endTime": "2026-09-26T08:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 85.78,
+          "question": "SMART OMEGA vs ONIC Philippines — Series Winner",
+          "category": "esports",
+          "totalPool": 14766.97,
           "betCount": 0,
-          "endTime": "2026-09-21T04:25:00.000Z"
+          "endTime": "2026-09-25T11:25:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 42.35,
+          "question": "MIBR fe vs QUINTESSENCIA — Series Winner",
+          "category": "esports",
+          "totalPool": 137,
           "betCount": 0,
-          "endTime": "2026-09-21T04:30:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 36.76,
-          "betCount": 0,
-          "endTime": "2026-09-21T04:30:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 21.45,
-          "betCount": 0,
-          "endTime": "2026-09-21T04:25:00.000Z"
+          "endTime": "2026-09-22T18:55:00.000Z"
         }
       ]
     },
@@ -259,6 +259,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "DigiK - Canton gateway",
+      "isCandidate": true
+    },
+    {
+      "id": "unhedged-app",
+      "name": "feat-unhedged-app",
+      "url": "https://unhedged.gg",
+      "appCategory": "Prediction Markets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton prediction markets",
       "isCandidate": true
     },
     {

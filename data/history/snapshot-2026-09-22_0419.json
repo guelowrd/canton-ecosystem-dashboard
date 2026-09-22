@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-12T04:04:52.278Z",
+  "lastUpdated": "2026-09-22T04:19:17.518Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 139.7,
+    "totalTvlUsd": 154292.63999999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 17,
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 53269,
-      "activeMarkets": 69,
-      "endedMarkets": 10,
-      "resolvedMarkets": 53004,
-      "totalActivePoolUsd": 139.7,
+      "totalMarkets": 64859,
+      "activeMarkets": 55,
+      "endedMarkets": 9,
+      "resolvedMarkets": 64696,
+      "totalActivePoolUsd": 154292.63999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 4,
-          "poolUsd": 28.29,
+          "count": 12,
+          "poolUsd": 77.21,
           "bets": 0
         },
         "sports": {
-          "count": 23,
-          "poolUsd": 111.41,
+          "count": 16,
+          "poolUsd": 9.17,
+          "bets": 0
+        },
+        "esports": {
+          "count": 25,
+          "poolUsd": 154206.26,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Carolina Panthers vs Chicago Bears",
-          "category": "sports",
-          "totalPool": 20.16,
+          "question": "BORRACHEIROS vs Damajuana — Series Winner",
+          "category": "esports",
+          "totalPool": 76399.38,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-22T15:55:00.000Z"
         },
         {
-          "question": "Tennessee Titans vs New York Jets",
-          "category": "sports",
-          "totalPool": 17,
+          "question": "Imperial vs JUVENTUS GAMING — Series Winner",
+          "category": "esports",
+          "totalPool": 34313.25,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-23T16:25:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 14.28,
+          "question": "AP BREN vs Aurora Gaming PH — Series Winner",
+          "category": "esports",
+          "totalPool": 28583.61,
           "betCount": 0,
-          "endTime": "2026-09-12T04:30:00.000Z"
+          "endTime": "2026-09-26T08:55:00.000Z"
         },
         {
-          "question": "Indianapolis Colts vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 13.2,
+          "question": "SMART OMEGA vs ONIC Philippines — Series Winner",
+          "category": "esports",
+          "totalPool": 14766.97,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-25T11:25:00.000Z"
         },
         {
-          "question": "Detroit Lions vs New Orleans Saints",
-          "category": "sports",
-          "totalPool": 11.7,
+          "question": "MIBR fe vs QUINTESSENCIA — Series Winner",
+          "category": "esports",
+          "totalPool": 137,
           "betCount": 0,
-          "endTime": "2026-09-13T16:00:00.000Z"
+          "endTime": "2026-09-22T18:55:00.000Z"
         }
       ]
     },
@@ -153,23 +158,11 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
       "note": "5N Loop wallet / explorer",
-      "isCandidate": true
-    },
-    {
-      "id": "cypherock",
-      "name": "cypherock-mainnet-1",
-      "url": "https://cypherock.com",
-      "appCategory": "Wallet",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "Hardware wallet with Canton support",
       "isCandidate": true
     },
     {
@@ -206,6 +199,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "On-chain bond issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "pixelplex",
+      "name": "pixelplex-mainnet-1",
+      "url": "https://pixelplex.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton exchange development",
       "isCandidate": true
     },
     {
