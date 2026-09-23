@@ -1,5 +1,20 @@
 [
   {
+    "file": "snapshot-2026-09-23_0415.json",
+    "lastUpdated": "2026-09-23T04:15:48.128Z",
+    "tvlUsd": 103574.95999999999,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [
+        "cypherock-mainnet-1"
+      ],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-09-22_0419.json",
     "lastUpdated": "2026-09-22T04:19:17.518Z",
     "tvlUsd": 154292.63999999998,
@@ -117,19 +132,6 @@
     "file": "snapshot-2026-09-14_0422.json",
     "lastUpdated": "2026-09-14T04:22:21.120Z",
     "tvlUsd": 223.22000000000003,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-09-13_0414.json",
-    "lastUpdated": "2026-09-13T04:14:25.033Z",
-    "tvlUsd": 244.44999999999996,
     "ccPriceUsd": null,
     "topApp": null,
     "appRewardsShareOfMinting": null,

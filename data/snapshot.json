@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-22T04:19:17.518Z",
+  "lastUpdated": "2026-09-23T04:15:48.128Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 154292.63999999998,
+    "totalTvlUsd": 103574.95999999999,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,64 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 64859,
-      "activeMarkets": 55,
+      "totalMarkets": 66507,
+      "activeMarkets": 50,
       "endedMarkets": 9,
-      "resolvedMarkets": 64696,
-      "totalActivePoolUsd": 154292.63999999998,
+      "resolvedMarkets": 66344,
+      "totalActivePoolUsd": 103574.95999999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 77.21,
+          "poolUsd": 4.8,
+          "bets": 0
+        },
+        "esports": {
+          "count": 20,
+          "poolUsd": 103514.98999999999,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 9.17,
-          "bets": 0
-        },
-        "esports": {
-          "count": 25,
-          "poolUsd": 154206.26,
+          "poolUsd": 55.17,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BORRACHEIROS vs Damajuana — Series Winner",
-          "category": "esports",
-          "totalPool": 76399.38,
-          "betCount": 0,
-          "endTime": "2026-09-22T15:55:00.000Z"
-        },
-        {
           "question": "Imperial vs JUVENTUS GAMING — Series Winner",
           "category": "esports",
-          "totalPool": 34313.25,
+          "totalPool": 59701.57,
           "betCount": 0,
           "endTime": "2026-09-23T16:25:00.000Z"
         },
         {
           "question": "AP BREN vs Aurora Gaming PH — Series Winner",
           "category": "esports",
-          "totalPool": 28583.61,
+          "totalPool": 28585.24,
           "betCount": 0,
           "endTime": "2026-09-26T08:55:00.000Z"
         },
         {
           "question": "SMART OMEGA vs ONIC Philippines — Series Winner",
           "category": "esports",
-          "totalPool": 14766.97,
+          "totalPool": 14801.12,
           "betCount": 0,
           "endTime": "2026-09-25T11:25:00.000Z"
         },
         {
-          "question": "MIBR fe vs QUINTESSENCIA — Series Winner",
+          "question": "Karmine Corp vs Xi Lai Gaming — Series Winner",
           "category": "esports",
-          "totalPool": 137,
+          "totalPool": 366,
           "betCount": 0,
-          "endTime": "2026-09-22T18:55:00.000Z"
+          "endTime": "2026-09-25T11:55:00.000Z"
+        },
+        {
+          "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
+          "category": "esports",
+          "totalPool": 49.51,
+          "betCount": 0,
+          "endTime": "2026-09-27T19:55:00.000Z"
         }
       ]
     },
@@ -163,6 +163,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "5N Loop wallet / explorer",
+      "isCandidate": true
+    },
+    {
+      "id": "cypherock",
+      "name": "cypherock-mainnet-1",
+      "url": "https://cypherock.com",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Hardware wallet with Canton support",
       "isCandidate": true
     },
     {
