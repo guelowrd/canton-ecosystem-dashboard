@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-23T04:15:48.128Z",
+  "lastUpdated": "2026-09-24T04:10:56.669Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 103574.95999999999,
+    "totalTvlUsd": 44176.880000000005,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,37 +45,30 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 66507,
-      "activeMarkets": 50,
+      "totalMarkets": 68149,
+      "activeMarkets": 52,
       "endedMarkets": 9,
-      "resolvedMarkets": 66344,
-      "totalActivePoolUsd": 103574.95999999999,
+      "resolvedMarkets": 67977,
+      "totalActivePoolUsd": 44176.880000000005,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 4.8,
+          "poolUsd": 182.04,
           "bets": 0
         },
         "esports": {
-          "count": 20,
-          "poolUsd": 103514.98999999999,
+          "count": 22,
+          "poolUsd": 43901.37,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 55.17,
+          "poolUsd": 93.47,
           "bets": 0
         }
       },
       "topMarkets": [
-        {
-          "question": "Imperial vs JUVENTUS GAMING — Series Winner",
-          "category": "esports",
-          "totalPool": 59701.57,
-          "betCount": 0,
-          "endTime": "2026-09-23T16:25:00.000Z"
-        },
         {
           "question": "AP BREN vs Aurora Gaming PH — Series Winner",
           "category": "esports",
@@ -86,21 +79,28 @@
         {
           "question": "SMART OMEGA vs ONIC Philippines — Series Winner",
           "category": "esports",
-          "totalPool": 14801.12,
+          "totalPool": 14807.37,
           "betCount": 0,
           "endTime": "2026-09-25T11:25:00.000Z"
         },
         {
           "question": "Karmine Corp vs Xi Lai Gaming — Series Winner",
           "category": "esports",
-          "totalPool": 366,
+          "totalPool": 442,
           "betCount": 0,
           "endTime": "2026-09-25T11:55:00.000Z"
         },
         {
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 68.81,
+          "betCount": 0,
+          "endTime": "2026-09-24T04:15:00.000Z"
+        },
+        {
           "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
           "category": "esports",
-          "totalPool": 49.51,
+          "totalPool": 55.21,
           "betCount": 0,
           "endTime": "2026-09-27T19:55:00.000Z"
         }

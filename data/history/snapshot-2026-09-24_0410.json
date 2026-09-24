@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-14T04:22:21.120Z",
+  "lastUpdated": "2026-09-24T04:10:56.669Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 223.22000000000003,
+    "totalTvlUsd": 44176.880000000005,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,59 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 53667,
-      "activeMarkets": 49,
-      "endedMarkets": 5,
-      "resolvedMarkets": 53515,
-      "totalActivePoolUsd": 223.22000000000003,
+      "totalMarkets": 68149,
+      "activeMarkets": 52,
+      "endedMarkets": 9,
+      "resolvedMarkets": 67977,
+      "totalActivePoolUsd": 44176.880000000005,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 4,
-          "poolUsd": 162.68,
+          "count": 12,
+          "poolUsd": 182.04,
+          "bets": 0
+        },
+        "esports": {
+          "count": 22,
+          "poolUsd": 43901.37,
           "bets": 0
         },
         "sports": {
-          "count": 17,
-          "poolUsd": 60.54,
+          "count": 16,
+          "poolUsd": 93.47,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 30 Min",
+          "question": "AP BREN vs Aurora Gaming PH — Series Winner",
+          "category": "esports",
+          "totalPool": 28585.24,
+          "betCount": 0,
+          "endTime": "2026-09-26T08:55:00.000Z"
+        },
+        {
+          "question": "SMART OMEGA vs ONIC Philippines — Series Winner",
+          "category": "esports",
+          "totalPool": 14807.37,
+          "betCount": 0,
+          "endTime": "2026-09-25T11:25:00.000Z"
+        },
+        {
+          "question": "Karmine Corp vs Xi Lai Gaming — Series Winner",
+          "category": "esports",
+          "totalPool": 442,
+          "betCount": 0,
+          "endTime": "2026-09-25T11:55:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 99.8,
+          "totalPool": 68.81,
           "betCount": 0,
-          "endTime": "2026-09-14T04:30:00.000Z"
+          "endTime": "2026-09-24T04:15:00.000Z"
         },
         {
-          "question": "CC Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 28.26,
+          "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
+          "category": "esports",
+          "totalPool": 55.21,
           "betCount": 0,
-          "endTime": "2026-09-14T04:30:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 30 Min",
-          "category": "crypto",
-          "totalPool": 20.42,
-          "betCount": 0,
-          "endTime": "2026-09-14T04:30:00.000Z"
-        },
-        {
-          "question": "Tennessee Titans vs Philadelphia Eagles",
-          "category": "sports",
-          "totalPool": 20.11,
-          "betCount": 0,
-          "endTime": "2026-09-20T16:00:00.000Z"
-        },
-        {
-          "question": "Kansas City Chiefs vs Denver Broncos",
-          "category": "sports",
-          "totalPool": 15.36,
-          "betCount": 0,
-          "endTime": "2026-09-14T23:15:00.000Z"
+          "endTime": "2026-09-27T19:55:00.000Z"
         }
       ]
     },
@@ -153,7 +158,7 @@
       "name": "cantonloop-mainnet-1",
       "url": "https://lighthouse.cantonloop.com",
       "appCategory": "Wallet",
-      "transparency": "none",
+      "transparency": "opaque",
       "dataAvailability": "limited",
       "probeEndpoint": null,
       "probeData": null,
@@ -206,6 +211,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "On-chain bond issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "pixelplex",
+      "name": "pixelplex-mainnet-1",
+      "url": "https://pixelplex.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton exchange development",
       "isCandidate": true
     },
     {
