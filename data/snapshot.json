@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-25T04:25:19.762Z",
+  "lastUpdated": "2026-09-26T04:29:10.404Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 44267.82,
+    "totalTvlUsd": 41621.84,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,26 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 69819,
-      "activeMarkets": 57,
+      "totalMarkets": 71465,
+      "activeMarkets": 49,
       "endedMarkets": 9,
-      "resolvedMarkets": 69635,
-      "totalActivePoolUsd": 44267.82,
+      "resolvedMarkets": 71291,
+      "totalActivePoolUsd": 41621.84,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 222.83999999999997,
+          "poolUsd": 323.17999999999995,
+          "bets": 0
+        },
+        "esports": {
+          "count": 19,
+          "poolUsd": 41208.49,
           "bets": 0
         },
         "sports": {
           "count": 16,
           "poolUsd": 90.17,
-          "bets": 0
-        },
-        "esports": {
-          "count": 27,
-          "poolUsd": 43954.81,
           "bets": 0
         }
       },
@@ -77,25 +77,25 @@
           "endTime": "2026-09-26T08:55:00.000Z"
         },
         {
-          "question": "SMART OMEGA vs ONIC Philippines — Series Winner",
+          "question": "Karmine Corp Blue vs White Dragons — Series Winner",
           "category": "esports",
-          "totalPool": 14812.22,
+          "totalPool": 12520.3,
           "betCount": 0,
-          "endTime": "2026-09-25T11:25:00.000Z"
+          "endTime": "2026-09-26T17:55:00.000Z"
         },
         {
-          "question": "Karmine Corp vs Xi Lai Gaming — Series Winner",
-          "category": "esports",
-          "totalPool": 442,
-          "betCount": 0,
-          "endTime": "2026-09-25T11:55:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 15 Min",
+          "question": "ETH Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 62.77,
+          "totalPool": 113,
           "betCount": 0,
-          "endTime": "2026-09-25T04:30:00.000Z"
+          "endTime": "2026-09-26T04:30:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 110.5,
+          "betCount": 0,
+          "endTime": "2026-09-26T04:30:00.000Z"
         },
         {
           "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
@@ -163,6 +163,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "5N Loop wallet / explorer",
+      "isCandidate": true
+    },
+    {
+      "id": "cypherock",
+      "name": "cypherock-mainnet-1",
+      "url": "https://cypherock.com",
+      "appCategory": "Wallet",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Hardware wallet with Canton support",
       "isCandidate": true
     },
     {
