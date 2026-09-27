@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-09-27_0446.json",
+    "lastUpdated": "2026-09-27T04:46:20.916Z",
+    "tvlUsd": 249.91000000000003,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-09-26_0429.json",
     "lastUpdated": "2026-09-26T04:29:10.404Z",
     "tvlUsd": 41621.84,
@@ -122,25 +135,6 @@
     "signals": {
       "newApps": [],
       "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-09-17_0424.json",
-    "lastUpdated": "2026-09-17T04:24:20.128Z",
-    "tvlUsd": 744.6999999999998,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
-      "newData": [
-        {
-          "app": "cantonloop-mainnet-1",
-          "from": "none",
-          "to": "opaque"
-        }
-      ]
     }
   }
 ]

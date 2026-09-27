@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-17T04:24:20.128Z",
+  "lastUpdated": "2026-09-27T04:46:20.916Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 744.6999999999998,
+    "totalTvlUsd": 249.91000000000003,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,64 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 56948,
+      "totalMarkets": 73157,
       "activeMarkets": 54,
-      "endedMarkets": 7,
-      "resolvedMarkets": 56802,
-      "totalActivePoolUsd": 744.6999999999998,
+      "endedMarkets": 9,
+      "resolvedMarkets": 72975,
+      "totalActivePoolUsd": 249.91000000000003,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 509.31999999999994,
+          "poolUsd": 46.93,
           "bets": 0
         },
         "esports": {
-          "count": 20,
-          "poolUsd": 80.7,
+          "count": 21,
+          "poolUsd": 69.67,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 3,
+          "poolUsd": 12.55,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 154.68,
+          "poolUsd": 120.75999999999999,
           "bets": 0
         }
       },
       "topMarkets": [
         {
+          "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
+          "category": "esports",
+          "totalPool": 55.21,
+          "betCount": 0,
+          "endTime": "2026-09-27T19:55:00.000Z"
+        },
+        {
+          "question": "Chicago Bears vs Philadelphia Eagles",
+          "category": "sports",
+          "totalPool": 46.68,
+          "betCount": 0,
+          "endTime": "2026-09-28T23:15:00.000Z"
+        },
+        {
+          "question": "Dallas Cowboys vs Baltimore Ravens",
+          "category": "sports",
+          "totalPool": 12.61,
+          "betCount": 0,
+          "endTime": "2026-09-27T19:25:00.000Z"
+        },
+        {
           "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 95.94,
+          "totalPool": 12.3,
           "betCount": 0,
-          "endTime": "2026-09-17T04:25:00.000Z"
+          "endTime": "2026-09-27T04:50:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 62.15,
+          "question": "Cleveland Browns vs Carolina Panthers",
+          "category": "sports",
+          "totalPool": 12.3,
           "betCount": 0,
-          "endTime": "2026-09-17T04:25:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 60.66,
-          "betCount": 0,
-          "endTime": "2026-09-17T04:25:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 57.63,
-          "betCount": 0,
-          "endTime": "2026-09-17T04:30:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 53.01,
-          "betCount": 0,
-          "endTime": "2026-09-17T04:30:00.000Z"
+          "endTime": "2026-09-27T16:00:00.000Z"
         }
       ]
     },
@@ -211,6 +216,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "On-chain bond issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "pixelplex",
+      "name": "pixelplex-mainnet-1",
+      "url": "https://pixelplex.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton exchange development",
       "isCandidate": true
     },
     {
