@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-27T04:46:20.916Z",
+  "lastUpdated": "2026-09-28T04:47:47.060Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 249.91000000000003,
+    "totalTvlUsd": 15571.739999999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,41 +45,41 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 73157,
-      "activeMarkets": 54,
+      "totalMarkets": 74850,
+      "activeMarkets": 68,
       "endedMarkets": 9,
-      "resolvedMarkets": 72975,
-      "totalActivePoolUsd": 249.91000000000003,
+      "resolvedMarkets": 74650,
+      "totalActivePoolUsd": 15571.739999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 46.93,
+          "poolUsd": 13.68,
           "bets": 0
         },
         "esports": {
-          "count": 21,
-          "poolUsd": 69.67,
+          "count": 35,
+          "poolUsd": 15492.929999999998,
+          "bets": 0
+        },
+        "sports": {
+          "count": 16,
+          "poolUsd": 52.58,
           "bets": 0
         },
         "fandom": {
           "count": 3,
           "poolUsd": 12.55,
           "bets": 0
-        },
-        "sports": {
-          "count": 16,
-          "poolUsd": 120.75999999999999,
-          "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
+          "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
           "category": "esports",
-          "totalPool": 55.21,
+          "totalPool": 15465.25,
           "betCount": 0,
-          "endTime": "2026-09-27T19:55:00.000Z"
+          "endTime": "2026-10-02T08:55:00.000Z"
         },
         {
           "question": "Chicago Bears vs Philadelphia Eagles",
@@ -89,25 +89,25 @@
           "endTime": "2026-09-28T23:15:00.000Z"
         },
         {
-          "question": "Dallas Cowboys vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 12.61,
-          "betCount": 0,
-          "endTime": "2026-09-27T19:25:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 5 Min",
+          "question": "ETH Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 12.3,
+          "totalPool": 6.84,
           "betCount": 0,
-          "endTime": "2026-09-27T04:50:00.000Z"
+          "endTime": "2026-09-28T04:50:00.000Z"
         },
         {
-          "question": "Cleveland Browns vs Carolina Panthers",
-          "category": "sports",
-          "totalPool": 12.3,
+          "question": "CC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 6.84,
           "betCount": 0,
-          "endTime": "2026-09-27T16:00:00.000Z"
+          "endTime": "2026-09-28T04:50:00.000Z"
+        },
+        {
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Sep 27, UTC)",
+          "category": "fandom",
+          "totalPool": 6.5,
+          "betCount": 0,
+          "endTime": "2026-09-27T00:00:00.000Z"
         }
       ]
     },

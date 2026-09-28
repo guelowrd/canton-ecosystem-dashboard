@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-18T04:09:43.865Z",
+  "lastUpdated": "2026-09-28T04:47:47.060Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1269.2699999999998,
+    "totalTvlUsd": 15571.739999999998,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,64 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 58579,
-      "activeMarkets": 59,
-      "endedMarkets": 8,
-      "resolvedMarkets": 58425,
-      "totalActivePoolUsd": 1269.2699999999998,
+      "totalMarkets": 74850,
+      "activeMarkets": 68,
+      "endedMarkets": 9,
+      "resolvedMarkets": 74650,
+      "totalActivePoolUsd": 15571.739999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 484.01,
+          "poolUsd": 13.68,
+          "bets": 0
+        },
+        "esports": {
+          "count": 35,
+          "poolUsd": 15492.929999999998,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 128.42000000000002,
+          "poolUsd": 52.58,
           "bets": 0
         },
-        "esports": {
-          "count": 25,
-          "poolUsd": 656.8400000000001,
+        "fandom": {
+          "count": 3,
+          "poolUsd": 12.55,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Team Liquid PH vs TNC Pro Team — Series Winner",
+          "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
           "category": "esports",
-          "totalPool": 528.95,
+          "totalPool": 15465.25,
           "betCount": 0,
-          "endTime": "2026-09-18T08:55:00.000Z"
+          "endTime": "2026-10-02T08:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 98.88,
+          "question": "Chicago Bears vs Philadelphia Eagles",
+          "category": "sports",
+          "totalPool": 46.68,
           "betCount": 0,
-          "endTime": "2026-09-18T04:15:00.000Z"
+          "endTime": "2026-09-28T23:15:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
+          "question": "ETH Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 89.56,
+          "totalPool": 6.84,
           "betCount": 0,
-          "endTime": "2026-09-18T04:10:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 79.42,
-          "betCount": 0,
-          "endTime": "2026-09-18T04:10:00.000Z"
+          "endTime": "2026-09-28T04:50:00.000Z"
         },
         {
           "question": "CC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 76.18,
+          "totalPool": 6.84,
           "betCount": 0,
-          "endTime": "2026-09-18T04:10:00.000Z"
+          "endTime": "2026-09-28T04:50:00.000Z"
+        },
+        {
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Sep 27, UTC)",
+          "category": "fandom",
+          "totalPool": 6.5,
+          "betCount": 0,
+          "endTime": "2026-09-27T00:00:00.000Z"
         }
       ]
     },
@@ -211,6 +216,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "On-chain bond issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "pixelplex",
+      "name": "pixelplex-mainnet-1",
+      "url": "https://pixelplex.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton exchange development",
       "isCandidate": true
     },
     {
