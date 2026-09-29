@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-28T04:47:47.060Z",
+  "lastUpdated": "2026-09-29T05:18:05.180Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 15571.739999999998,
+    "totalTvlUsd": 24526.699999999997,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,31 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 74850,
-      "activeMarkets": 68,
+      "totalMarkets": 76536,
+      "activeMarkets": 62,
       "endedMarkets": 9,
-      "resolvedMarkets": 74650,
-      "totalActivePoolUsd": 15571.739999999998,
+      "resolvedMarkets": 76336,
+      "totalActivePoolUsd": 24526.699999999997,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 13.68,
-          "bets": 0
-        },
-        "esports": {
-          "count": 35,
-          "poolUsd": 15492.929999999998,
+          "poolUsd": 392.86999999999995,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 52.58,
+          "poolUsd": 9,
           "bets": 0
         },
-        "fandom": {
-          "count": 3,
-          "poolUsd": 12.55,
+        "esports": {
+          "count": 32,
+          "poolUsd": 24124.829999999994,
           "bets": 0
         }
       },
@@ -77,37 +72,37 @@
         {
           "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
           "category": "esports",
-          "totalPool": 15465.25,
+          "totalPool": 24078.25,
           "betCount": 0,
           "endTime": "2026-10-02T08:55:00.000Z"
         },
         {
-          "question": "Chicago Bears vs Philadelphia Eagles",
-          "category": "sports",
-          "totalPool": 46.68,
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 131.55,
           "betCount": 0,
-          "endTime": "2026-09-28T23:15:00.000Z"
+          "endTime": "2026-09-29T05:20:00.000Z"
         },
         {
           "question": "ETH Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 6.84,
+          "totalPool": 86.13,
           "betCount": 0,
-          "endTime": "2026-09-28T04:50:00.000Z"
+          "endTime": "2026-09-29T05:20:00.000Z"
         },
         {
           "question": "CC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 6.84,
+          "totalPool": 68.5,
           "betCount": 0,
-          "endTime": "2026-09-28T04:50:00.000Z"
+          "endTime": "2026-09-29T05:20:00.000Z"
         },
         {
-          "question": "Super Pack — average pull value over $51.54 EV? (week of Sep 27, UTC)",
-          "category": "fandom",
-          "totalPool": 6.5,
+          "question": "BTC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 45.15,
           "betCount": 0,
-          "endTime": "2026-09-27T00:00:00.000Z"
+          "endTime": "2026-09-29T05:20:00.000Z"
         }
       ]
     },
