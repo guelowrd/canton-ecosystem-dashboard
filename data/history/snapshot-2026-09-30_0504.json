@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-20T04:25:21.405Z",
+  "lastUpdated": "2026-09-30T05:04:27.034Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 42899.99,
+    "totalTvlUsd": 24287.49,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,64 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 61550,
-      "activeMarkets": 56,
-      "endedMarkets": 6,
-      "resolvedMarkets": 61392,
-      "totalActivePoolUsd": 42899.99,
+      "totalMarkets": 78171,
+      "activeMarkets": 53,
+      "endedMarkets": 9,
+      "resolvedMarkets": 77976,
+      "totalActivePoolUsd": 24287.49,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 377.03999999999996,
+          "poolUsd": 147.26,
           "bets": 0
         },
         "esports": {
-          "count": 20,
-          "poolUsd": 42363.93000000001,
+          "count": 23,
+          "poolUsd": 24129.55,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 159.02,
+          "poolUsd": 10.68,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "AP BREN vs ONIC Philippines — Series Winner",
+          "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
           "category": "esports",
-          "totalPool": 20779.65,
+          "totalPool": 24119.25,
           "betCount": 0,
-          "endTime": "2026-09-20T08:55:00.000Z"
-        },
-        {
-          "question": "eSuba vs NightBirds — Series Winner",
-          "category": "esports",
-          "totalPool": 13355.55,
-          "betCount": 0,
-          "endTime": "2026-09-20T11:25:00.000Z"
-        },
-        {
-          "question": "Team Liquid PH vs SMART OMEGA — Series Winner",
-          "category": "esports",
-          "totalPool": 8214.57,
-          "betCount": 0,
-          "endTime": "2026-09-20T11:25:00.000Z"
+          "endTime": "2026-10-02T08:55:00.000Z"
         },
         {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 122.83,
+          "totalPool": 49.33,
           "betCount": 0,
-          "endTime": "2026-09-20T04:30:00.000Z"
+          "endTime": "2026-09-30T05:15:00.000Z"
         },
         {
           "question": "ETH Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 55.09,
+          "totalPool": 25.48,
           "betCount": 0,
-          "endTime": "2026-09-20T04:30:00.000Z"
+          "endTime": "2026-09-30T05:15:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 21.34,
+          "betCount": 0,
+          "endTime": "2026-09-30T05:05:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 17.89,
+          "betCount": 0,
+          "endTime": "2026-09-30T05:05:00.000Z"
         }
       ]
     },
@@ -211,6 +211,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "On-chain bond issuance",
+      "isCandidate": true
+    },
+    {
+      "id": "pixelplex",
+      "name": "pixelplex-mainnet-1",
+      "url": "https://pixelplex.io",
+      "appCategory": "Explorer/Infra",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "Canton exchange development",
       "isCandidate": true
     },
     {

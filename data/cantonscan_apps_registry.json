@@ -432,6 +432,14 @@
     "note": null
   },
   {
+    "appName": "ftp-x402-infrastructure",
+    "baseName": "ftp-x402-infrastructure",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "grofty-wallet",
     "baseName": "grofty-wallet",
     "category": "Wallet",
@@ -531,6 +539,14 @@
     "appName": "temple-vaults-xx",
     "baseName": "temple-vaults-xx",
     "category": "Wallet",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "thehub-validator-2",
+    "baseName": "thehub",
+    "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
@@ -642,6 +658,14 @@
   {
     "appName": "cantory",
     "baseName": "cantory",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "cardiv",
+    "baseName": "cardiv",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
@@ -950,6 +974,14 @@
     "confidence": 30,
     "websiteGuess": null,
     "note": "Canton app"
+  },
+  {
+    "appName": "upflam-main-1",
+    "baseName": "upflam-main",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
   },
   {
     "appName": "walley",
