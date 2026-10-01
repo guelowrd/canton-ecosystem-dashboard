@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-30T05:04:27.034Z",
+  "lastUpdated": "2026-10-01T05:16:15.884Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 24287.49,
+    "totalTvlUsd": 25922.160000000003,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,21 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 78171,
-      "activeMarkets": 53,
+      "totalMarkets": 79852,
+      "activeMarkets": 60,
       "endedMarkets": 9,
-      "resolvedMarkets": 77976,
-      "totalActivePoolUsd": 24287.49,
+      "resolvedMarkets": 79650,
+      "totalActivePoolUsd": 25922.160000000003,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 147.26,
+          "poolUsd": 151.04000000000002,
           "bets": 0
         },
         "esports": {
-          "count": 23,
-          "poolUsd": 24129.55,
+          "count": 30,
+          "poolUsd": 25760.440000000002,
           "bets": 0
         },
         "sports": {
@@ -72,37 +72,37 @@
         {
           "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
           "category": "esports",
-          "totalPool": 24119.25,
+          "totalPool": 24164.7,
           "betCount": 0,
           "endTime": "2026-10-02T08:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 49.33,
+          "question": "AP BREN vs Team Falcons PH — Series Winner",
+          "category": "esports",
+          "totalPool": 1541.25,
           "betCount": 0,
-          "endTime": "2026-09-30T05:15:00.000Z"
+          "endTime": "2026-10-03T08:55:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 15 Min",
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 25.48,
+          "totalPool": 60.66,
           "betCount": 0,
-          "endTime": "2026-09-30T05:15:00.000Z"
+          "endTime": "2026-10-01T05:20:00.000Z"
         },
         {
-          "question": "CC Up or Down - 5 Min",
+          "question": "BTC Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 21.34,
+          "totalPool": 29.3,
           "betCount": 0,
-          "endTime": "2026-09-30T05:05:00.000Z"
+          "endTime": "2026-10-01T06:00:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 5 Min",
+          "question": "ETH Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 17.89,
+          "totalPool": 15.57,
           "betCount": 0,
-          "endTime": "2026-09-30T05:05:00.000Z"
+          "endTime": "2026-10-01T06:00:00.000Z"
         }
       ]
     },
