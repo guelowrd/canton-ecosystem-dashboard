@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-01T05:16:15.884Z",
+  "lastUpdated": "2026-10-02T05:05:08.122Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 25922.160000000003,
+    "totalTvlUsd": 26009.120000000003,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,26 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 79852,
-      "activeMarkets": 60,
-      "endedMarkets": 9,
-      "resolvedMarkets": 79650,
-      "totalActivePoolUsd": 25922.160000000003,
+      "totalMarkets": 81489,
+      "activeMarkets": 57,
+      "endedMarkets": 11,
+      "resolvedMarkets": 81286,
+      "totalActivePoolUsd": 26009.120000000003,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 151.04000000000002,
-          "bets": 0
-        },
-        "esports": {
-          "count": 30,
-          "poolUsd": 25760.440000000002,
+          "poolUsd": 44.2,
           "bets": 0
         },
         "sports": {
           "count": 16,
-          "poolUsd": 10.68,
+          "poolUsd": 4.78,
+          "bets": 0
+        },
+        "esports": {
+          "count": 27,
+          "poolUsd": 25960.14,
           "bets": 0
         }
       },
@@ -84,25 +84,25 @@
           "endTime": "2026-10-03T08:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 60.66,
+          "question": "Twisted Minds vs Titan Esports Club MENA — Series Winner",
+          "category": "esports",
+          "totalPool": 180,
           "betCount": 0,
-          "endTime": "2026-10-01T05:20:00.000Z"
+          "endTime": "2026-10-02T16:25:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 1 Hour",
+          "question": "CC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 29.3,
+          "totalPool": 26.19,
           "betCount": 0,
-          "endTime": "2026-10-01T06:00:00.000Z"
+          "endTime": "2026-10-02T05:05:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 15.57,
+          "question": "Aurora Gaming PH vs TNC Pro Team — Series Winner",
+          "category": "esports",
+          "totalPool": 13,
           "betCount": 0,
-          "endTime": "2026-10-01T06:00:00.000Z"
+          "endTime": "2026-10-02T11:25:00.000Z"
         }
       ]
     },
