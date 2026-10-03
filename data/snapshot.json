@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-02T05:05:08.122Z",
+  "lastUpdated": "2026-10-03T04:48:53.157Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 26009.120000000003,
+    "totalTvlUsd": 2316.1499999999996,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,64 +45,64 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 81489,
-      "activeMarkets": 57,
+      "totalMarkets": 83121,
+      "activeMarkets": 53,
       "endedMarkets": 11,
-      "resolvedMarkets": 81286,
-      "totalActivePoolUsd": 26009.120000000003,
+      "resolvedMarkets": 82920,
+      "totalActivePoolUsd": 2316.1499999999996,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 44.2,
+          "poolUsd": 496.82,
+          "bets": 0
+        },
+        "esports": {
+          "count": 23,
+          "poolUsd": 1814.5500000000002,
           "bets": 0
         },
         "sports": {
           "count": 16,
           "poolUsd": 4.78,
           "bets": 0
-        },
-        "esports": {
-          "count": 27,
-          "poolUsd": 25960.14,
-          "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
-          "category": "esports",
-          "totalPool": 24164.7,
-          "betCount": 0,
-          "endTime": "2026-10-02T08:55:00.000Z"
-        },
-        {
           "question": "AP BREN vs Team Falcons PH — Series Winner",
           "category": "esports",
-          "totalPool": 1541.25,
+          "totalPool": 1549.95,
           "betCount": 0,
           "endTime": "2026-10-03T08:55:00.000Z"
         },
         {
-          "question": "Twisted Minds vs Titan Esports Club MENA — Series Winner",
+          "question": "CTRL vs Passion Academy — Series Winner",
           "category": "esports",
-          "totalPool": 180,
+          "totalPool": 120,
           "betCount": 0,
-          "endTime": "2026-10-02T16:25:00.000Z"
+          "endTime": "2026-10-04T10:25:00.000Z"
         },
         {
-          "question": "CC Up or Down - 5 Min",
+          "question": "BTC Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 26.19,
+          "totalPool": 106.43,
           "betCount": 0,
-          "endTime": "2026-10-02T05:05:00.000Z"
+          "endTime": "2026-10-03T05:00:00.000Z"
         },
         {
-          "question": "Aurora Gaming PH vs TNC Pro Team — Series Winner",
-          "category": "esports",
-          "totalPool": 13,
+          "question": "BTC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 69.5,
           "betCount": 0,
-          "endTime": "2026-10-02T11:25:00.000Z"
+          "endTime": "2026-10-03T04:50:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 67.59,
+          "betCount": 0,
+          "endTime": "2026-10-03T05:00:00.000Z"
         }
       ]
     },
@@ -199,18 +199,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton DeFi protocol",
-      "isCandidate": true
-    },
-    {
-      "id": "obligate",
-      "name": "Obligate-validator-1",
-      "url": "https://obligate.com",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "On-chain bond issuance",
       "isCandidate": true
     },
     {
