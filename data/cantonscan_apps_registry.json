@@ -376,6 +376,14 @@
     "note": null
   },
   {
+    "appName": "bayzen-validator-1",
+    "baseName": "bayzen",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "cauri-wallet-provider1",
     "baseName": "cauri-wallet-provider1",
     "category": "Wallet",
