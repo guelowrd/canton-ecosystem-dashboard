@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-05T05:05:11.821Z",
+  "lastUpdated": "2026-10-06T05:52:29.215Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 190.60999999999996,
+    "totalTvlUsd": 11200.400000000001,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 86444,
-      "activeMarkets": 38,
+      "totalMarkets": 88151,
+      "activeMarkets": 54,
       "endedMarkets": 11,
-      "resolvedMarkets": 86256,
-      "totalActivePoolUsd": 190.60999999999996,
+      "resolvedMarkets": 87947,
+      "totalActivePoolUsd": 11200.400000000001,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 141.36999999999998,
+          "poolUsd": 532.0600000000001,
+          "bets": 0
+        },
+        "esports": {
+          "count": 22,
+          "poolUsd": 10487.1,
           "bets": 0
         },
         "sports": {
           "count": 15,
-          "poolUsd": 0,
-          "bets": 0
-        },
-        "esports": {
-          "count": 6,
-          "poolUsd": 0,
+          "poolUsd": 45.61,
           "bets": 0
         },
         "fandom": {
           "count": 3,
-          "poolUsd": 49.24,
+          "poolUsd": 135.63,
           "bets": 0
         }
       },
       "topMarkets": [
         {
+          "question": "Valerion vs Solary — Series Winner",
+          "category": "esports",
+          "totalPool": 6699.9,
+          "betCount": 0,
+          "endTime": "2026-10-06T15:55:00.000Z"
+        },
+        {
+          "question": "Frites Esports Club vs Movistar KOI Fénix — Series Winner",
+          "category": "esports",
+          "totalPool": 3694.8,
+          "betCount": 0,
+          "endTime": "2026-10-06T15:55:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 166.02,
+          "betCount": 0,
+          "endTime": "2026-10-06T06:00:00.000Z"
+        },
+        {
           "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
           "category": "fandom",
-          "totalPool": 45.79,
+          "totalPool": 132.18,
           "betCount": 0,
           "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
-          "question": "CC Up or Down - 5 Min",
+          "question": "BTC Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 39.73,
+          "totalPool": 93.21,
           "betCount": 0,
-          "endTime": "2026-10-05T05:05:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 28.45,
-          "betCount": 0,
-          "endTime": "2026-10-05T05:05:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 24.26,
-          "betCount": 0,
-          "endTime": "2026-10-05T05:15:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 22.61,
-          "betCount": 0,
-          "endTime": "2026-10-05T05:05:00.000Z"
+          "endTime": "2026-10-06T06:00:00.000Z"
         }
       ]
     },

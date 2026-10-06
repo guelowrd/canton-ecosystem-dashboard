@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-26T04:29:10.404Z",
+  "lastUpdated": "2026-10-06T05:52:29.215Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 41621.84,
+    "totalTvlUsd": 11200.400000000001,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,64 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 71465,
-      "activeMarkets": 49,
-      "endedMarkets": 9,
-      "resolvedMarkets": 71291,
-      "totalActivePoolUsd": 41621.84,
+      "totalMarkets": 88151,
+      "activeMarkets": 54,
+      "endedMarkets": 11,
+      "resolvedMarkets": 87947,
+      "totalActivePoolUsd": 11200.400000000001,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 323.17999999999995,
+          "poolUsd": 532.0600000000001,
           "bets": 0
         },
         "esports": {
-          "count": 19,
-          "poolUsd": 41208.49,
+          "count": 22,
+          "poolUsd": 10487.1,
           "bets": 0
         },
         "sports": {
-          "count": 16,
-          "poolUsd": 90.17,
+          "count": 15,
+          "poolUsd": 45.61,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 3,
+          "poolUsd": 135.63,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "AP BREN vs Aurora Gaming PH — Series Winner",
+          "question": "Valerion vs Solary — Series Winner",
           "category": "esports",
-          "totalPool": 28593.44,
+          "totalPool": 6699.9,
           "betCount": 0,
-          "endTime": "2026-09-26T08:55:00.000Z"
+          "endTime": "2026-10-06T15:55:00.000Z"
         },
         {
-          "question": "Karmine Corp Blue vs White Dragons — Series Winner",
+          "question": "Frites Esports Club vs Movistar KOI Fénix — Series Winner",
           "category": "esports",
-          "totalPool": 12520.3,
+          "totalPool": 3694.8,
           "betCount": 0,
-          "endTime": "2026-09-26T17:55:00.000Z"
+          "endTime": "2026-10-06T15:55:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 5 Min",
+          "question": "ETH Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 113,
+          "totalPool": 166.02,
           "betCount": 0,
-          "endTime": "2026-09-26T04:30:00.000Z"
+          "endTime": "2026-10-06T06:00:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 5 Min",
+          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
+          "category": "fandom",
+          "totalPool": 132.18,
+          "betCount": 0,
+          "endTime": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 110.5,
+          "totalPool": 93.21,
           "betCount": 0,
-          "endTime": "2026-09-26T04:30:00.000Z"
-        },
-        {
-          "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
-          "category": "esports",
-          "totalPool": 55.21,
-          "betCount": 0,
-          "endTime": "2026-09-27T19:55:00.000Z"
+          "endTime": "2026-10-06T06:00:00.000Z"
         }
       ]
     },
