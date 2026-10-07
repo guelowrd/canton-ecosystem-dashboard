@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-27T04:46:20.916Z",
+  "lastUpdated": "2026-10-07T05:23:36.145Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 249.91000000000003,
+    "totalTvlUsd": 1351.8,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 73157,
-      "activeMarkets": 54,
-      "endedMarkets": 9,
-      "resolvedMarkets": 72975,
-      "totalActivePoolUsd": 249.91000000000003,
+      "totalMarkets": 89767,
+      "activeMarkets": 58,
+      "endedMarkets": 11,
+      "resolvedMarkets": 89556,
+      "totalActivePoolUsd": 1351.8,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 46.93,
+          "poolUsd": 482.96,
           "bets": 0
         },
         "esports": {
-          "count": 21,
-          "poolUsd": 69.67,
+          "count": 26,
+          "poolUsd": 602.2999999999998,
+          "bets": 0
+        },
+        "sports": {
+          "count": 15,
+          "poolUsd": 64.11,
           "bets": 0
         },
         "fandom": {
           "count": 3,
-          "poolUsd": 12.55,
-          "bets": 0
-        },
-        "sports": {
-          "count": 16,
-          "poolUsd": 120.75999999999999,
+          "poolUsd": 202.43,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Team Liquid Alienware vs Cloud9 Kia — Series Winner",
+          "question": "Villainous vs FarmVille — Series Winner",
           "category": "esports",
-          "totalPool": 55.21,
+          "totalPool": 292,
           "betCount": 0,
-          "endTime": "2026-09-27T19:55:00.000Z"
+          "endTime": "2026-10-08T00:55:00.000Z"
         },
         {
-          "question": "Chicago Bears vs Philadelphia Eagles",
-          "category": "sports",
-          "totalPool": 46.68,
+          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
+          "category": "fandom",
+          "totalPool": 194.93,
           "betCount": 0,
-          "endTime": "2026-09-28T23:15:00.000Z"
+          "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
-          "question": "Dallas Cowboys vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 12.61,
-          "betCount": 0,
-          "endTime": "2026-09-27T19:25:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 5 Min",
+          "question": "ETH Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 12.3,
+          "totalPool": 192.67,
           "betCount": 0,
-          "endTime": "2026-09-27T04:50:00.000Z"
+          "endTime": "2026-10-07T05:30:00.000Z"
         },
         {
-          "question": "Cleveland Browns vs Carolina Panthers",
-          "category": "sports",
-          "totalPool": 12.3,
+          "question": "Reign Above vs Overtake Sector — Series Winner",
+          "category": "esports",
+          "totalPool": 116,
           "betCount": 0,
-          "endTime": "2026-09-27T16:00:00.000Z"
+          "endTime": "2026-10-08T00:55:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 74.47,
+          "betCount": 0,
+          "endTime": "2026-10-07T05:25:00.000Z"
         }
       ]
     },
