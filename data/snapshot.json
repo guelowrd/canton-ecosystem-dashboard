@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-07T05:23:36.145Z",
+  "lastUpdated": "2026-10-08T05:33:46.511Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1351.8,
+    "totalTvlUsd": 22008.400000000005,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,21 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 89767,
-      "activeMarkets": 58,
+      "totalMarkets": 91441,
+      "activeMarkets": 65,
       "endedMarkets": 11,
-      "resolvedMarkets": 89556,
-      "totalActivePoolUsd": 1351.8,
+      "resolvedMarkets": 91217,
+      "totalActivePoolUsd": 22008.400000000005,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 482.96,
+          "poolUsd": 579.4200000000001,
           "bets": 0
         },
         "esports": {
-          "count": 26,
-          "poolUsd": 602.2999999999998,
+          "count": 33,
+          "poolUsd": 20065.940000000002,
           "bets": 0
         },
         "sports": {
@@ -69,17 +69,38 @@
         },
         "fandom": {
           "count": 3,
-          "poolUsd": 202.43,
+          "poolUsd": 1298.93,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Villainous vs FarmVille — Series Winner",
+          "question": "KaBuM! Eports vs LOS — Series Winner",
           "category": "esports",
-          "totalPool": 292,
+          "totalPool": 16717.45,
           "betCount": 0,
-          "endTime": "2026-10-08T00:55:00.000Z"
+          "endTime": "2026-10-12T20:55:00.000Z"
+        },
+        {
+          "question": "bLight.blue vs Rare Atom — Series Winner",
+          "category": "esports",
+          "totalPool": 3321.34,
+          "betCount": 0,
+          "endTime": "2026-10-09T02:07:39.698Z"
+        },
+        {
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
+          "category": "fandom",
+          "totalPool": 1092,
+          "betCount": 0,
+          "endTime": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 247.22,
+          "betCount": 0,
+          "endTime": "2026-10-08T06:00:00.000Z"
         },
         {
           "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
@@ -87,27 +108,6 @@
           "totalPool": 194.93,
           "betCount": 0,
           "endTime": "2026-10-04T00:00:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 192.67,
-          "betCount": 0,
-          "endTime": "2026-10-07T05:30:00.000Z"
-        },
-        {
-          "question": "Reign Above vs Overtake Sector — Series Winner",
-          "category": "esports",
-          "totalPool": 116,
-          "betCount": 0,
-          "endTime": "2026-10-08T00:55:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 74.47,
-          "betCount": 0,
-          "endTime": "2026-10-07T05:25:00.000Z"
         }
       ]
     },
