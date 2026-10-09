@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-29T05:18:05.180Z",
+  "lastUpdated": "2026-10-09T05:37:20.357Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 24526.699999999997,
+    "totalTvlUsd": 29003.5,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,64 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 76536,
-      "activeMarkets": 62,
-      "endedMarkets": 9,
-      "resolvedMarkets": 76336,
-      "totalActivePoolUsd": 24526.699999999997,
+      "totalMarkets": 93088,
+      "activeMarkets": 53,
+      "endedMarkets": 11,
+      "resolvedMarkets": 92871,
+      "totalActivePoolUsd": 29003.5,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 392.86999999999995,
+          "poolUsd": 443.12000000000006,
           "bets": 0
         },
         "sports": {
-          "count": 16,
-          "poolUsd": 9,
+          "count": 15,
+          "poolUsd": 58.5,
           "bets": 0
         },
         "esports": {
-          "count": 32,
-          "poolUsd": 24124.829999999994,
+          "count": 23,
+          "poolUsd": 25050.95,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 3,
+          "poolUsd": 3450.93,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
+          "question": "KaBuM! Eports vs LOS — Series Winner",
           "category": "esports",
-          "totalPool": 24078.25,
+          "totalPool": 18018.25,
           "betCount": 0,
-          "endTime": "2026-10-02T08:55:00.000Z"
+          "endTime": "2026-10-12T20:55:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 131.55,
+          "question": "Kaufland Hangry Knights vs Galions — Series Winner",
+          "category": "esports",
+          "totalPool": 3451.63,
           "betCount": 0,
-          "endTime": "2026-09-29T05:20:00.000Z"
+          "endTime": "2026-10-09T15:55:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 86.13,
+          "question": "bLight.blue vs Rare Atom — Series Winner",
+          "category": "esports",
+          "totalPool": 3321.34,
           "betCount": 0,
-          "endTime": "2026-09-29T05:20:00.000Z"
+          "endTime": "2026-10-10T03:07:38.025Z"
         },
         {
-          "question": "CC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 68.5,
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
+          "category": "fandom",
+          "totalPool": 3244,
           "betCount": 0,
-          "endTime": "2026-09-29T05:20:00.000Z"
+          "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 45.15,
+          "question": "RRQ HOSHI vs TEAM LIQUID ID — Series Winner",
+          "category": "esports",
+          "totalPool": 251.68,
           "betCount": 0,
-          "endTime": "2026-09-29T05:20:00.000Z"
+          "endTime": "2026-10-09T10:10:00.000Z"
         }
       ]
     },

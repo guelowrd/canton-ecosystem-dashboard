@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-08T05:33:46.511Z",
+  "lastUpdated": "2026-10-09T05:37:20.357Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 22008.400000000005,
+    "totalTvlUsd": 29003.5,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,31 +45,31 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 91441,
-      "activeMarkets": 65,
+      "totalMarkets": 93088,
+      "activeMarkets": 53,
       "endedMarkets": 11,
-      "resolvedMarkets": 91217,
-      "totalActivePoolUsd": 22008.400000000005,
+      "resolvedMarkets": 92871,
+      "totalActivePoolUsd": 29003.5,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 579.4200000000001,
-          "bets": 0
-        },
-        "esports": {
-          "count": 33,
-          "poolUsd": 20065.940000000002,
+          "poolUsd": 443.12000000000006,
           "bets": 0
         },
         "sports": {
           "count": 15,
-          "poolUsd": 64.11,
+          "poolUsd": 58.5,
+          "bets": 0
+        },
+        "esports": {
+          "count": 23,
+          "poolUsd": 25050.95,
           "bets": 0
         },
         "fandom": {
           "count": 3,
-          "poolUsd": 1298.93,
+          "poolUsd": 3450.93,
           "bets": 0
         }
       },
@@ -77,37 +77,37 @@
         {
           "question": "KaBuM! Eports vs LOS — Series Winner",
           "category": "esports",
-          "totalPool": 16717.45,
+          "totalPool": 18018.25,
           "betCount": 0,
           "endTime": "2026-10-12T20:55:00.000Z"
+        },
+        {
+          "question": "Kaufland Hangry Knights vs Galions — Series Winner",
+          "category": "esports",
+          "totalPool": 3451.63,
+          "betCount": 0,
+          "endTime": "2026-10-09T15:55:00.000Z"
         },
         {
           "question": "bLight.blue vs Rare Atom — Series Winner",
           "category": "esports",
           "totalPool": 3321.34,
           "betCount": 0,
-          "endTime": "2026-10-09T02:07:39.698Z"
+          "endTime": "2026-10-10T03:07:38.025Z"
         },
         {
           "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
           "category": "fandom",
-          "totalPool": 1092,
+          "totalPool": 3244,
           "betCount": 0,
           "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 247.22,
+          "question": "RRQ HOSHI vs TEAM LIQUID ID — Series Winner",
+          "category": "esports",
+          "totalPool": 251.68,
           "betCount": 0,
-          "endTime": "2026-10-08T06:00:00.000Z"
-        },
-        {
-          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 194.93,
-          "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
+          "endTime": "2026-10-09T10:10:00.000Z"
         }
       ]
     },
