@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-30T05:04:27.034Z",
+  "lastUpdated": "2026-10-10T05:20:55.998Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 24287.49,
+    "totalTvlUsd": 25250.799999999996,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,64 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 78171,
-      "activeMarkets": 53,
-      "endedMarkets": 9,
-      "resolvedMarkets": 77976,
-      "totalActivePoolUsd": 24287.49,
+      "totalMarkets": 94715,
+      "activeMarkets": 46,
+      "endedMarkets": 11,
+      "resolvedMarkets": 94503,
+      "totalActivePoolUsd": 25250.799999999996,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 12,
-          "poolUsd": 147.26,
+          "count": 8,
+          "poolUsd": 183.23,
           "bets": 0
         },
         "esports": {
-          "count": 23,
-          "poolUsd": 24129.55,
+          "count": 16,
+          "poolUsd": 21347.64,
           "bets": 0
         },
         "sports": {
-          "count": 16,
-          "poolUsd": 10.68,
+          "count": 15,
+          "poolUsd": 69,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 3,
+          "poolUsd": 3650.93,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
+          "question": "KaBuM! Eports vs LOS — Series Winner",
           "category": "esports",
-          "totalPool": 24119.25,
+          "totalPool": 18018.25,
           "betCount": 0,
-          "endTime": "2026-10-02T08:55:00.000Z"
+          "endTime": "2026-10-12T20:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 49.33,
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
+          "category": "fandom",
+          "totalPool": 3444,
           "betCount": 0,
-          "endTime": "2026-09-30T05:15:00.000Z"
+          "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 25.48,
+          "question": "bLight.blue vs Rare Atom — Series Winner",
+          "category": "esports",
+          "totalPool": 3321.34,
           "betCount": 0,
-          "endTime": "2026-09-30T05:15:00.000Z"
+          "endTime": "2026-10-11T04:07:38.002Z"
         },
         {
-          "question": "CC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 21.34,
+          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
+          "category": "fandom",
+          "totalPool": 194.93,
           "betCount": 0,
-          "endTime": "2026-09-30T05:05:00.000Z"
+          "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 5 Min",
+          "question": "BTC Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 17.89,
+          "totalPool": 45,
           "betCount": 0,
-          "endTime": "2026-09-30T05:05:00.000Z"
+          "endTime": "2026-10-10T06:00:00.000Z"
         }
       ]
     },

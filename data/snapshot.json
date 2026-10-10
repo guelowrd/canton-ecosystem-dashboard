@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-09T05:37:20.357Z",
+  "lastUpdated": "2026-10-10T05:20:55.998Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 29003.5,
+    "totalTvlUsd": 25250.799999999996,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,31 +45,31 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 93088,
-      "activeMarkets": 53,
+      "totalMarkets": 94715,
+      "activeMarkets": 46,
       "endedMarkets": 11,
-      "resolvedMarkets": 92871,
-      "totalActivePoolUsd": 29003.5,
+      "resolvedMarkets": 94503,
+      "totalActivePoolUsd": 25250.799999999996,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 12,
-          "poolUsd": 443.12000000000006,
+          "count": 8,
+          "poolUsd": 183.23,
+          "bets": 0
+        },
+        "esports": {
+          "count": 16,
+          "poolUsd": 21347.64,
           "bets": 0
         },
         "sports": {
           "count": 15,
-          "poolUsd": 58.5,
-          "bets": 0
-        },
-        "esports": {
-          "count": 23,
-          "poolUsd": 25050.95,
+          "poolUsd": 69,
           "bets": 0
         },
         "fandom": {
           "count": 3,
-          "poolUsd": 3450.93,
+          "poolUsd": 3650.93,
           "bets": 0
         }
       },
@@ -82,32 +82,32 @@
           "endTime": "2026-10-12T20:55:00.000Z"
         },
         {
-          "question": "Kaufland Hangry Knights vs Galions — Series Winner",
-          "category": "esports",
-          "totalPool": 3451.63,
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
+          "category": "fandom",
+          "totalPool": 3444,
           "betCount": 0,
-          "endTime": "2026-10-09T15:55:00.000Z"
+          "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
           "question": "bLight.blue vs Rare Atom — Series Winner",
           "category": "esports",
           "totalPool": 3321.34,
           "betCount": 0,
-          "endTime": "2026-10-10T03:07:38.025Z"
+          "endTime": "2026-10-11T04:07:38.002Z"
         },
         {
-          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
+          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
           "category": "fandom",
-          "totalPool": 3244,
+          "totalPool": 194.93,
           "betCount": 0,
           "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
-          "question": "RRQ HOSHI vs TEAM LIQUID ID — Series Winner",
-          "category": "esports",
-          "totalPool": 251.68,
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 45,
           "betCount": 0,
-          "endTime": "2026-10-09T10:10:00.000Z"
+          "endTime": "2026-10-10T06:00:00.000Z"
         }
       ]
     },
