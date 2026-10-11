@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-10T05:20:55.998Z",
+  "lastUpdated": "2026-10-11T05:10:52.709Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 25250.799999999996,
+    "totalTvlUsd": 41261.84,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,31 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 94715,
-      "activeMarkets": 46,
-      "endedMarkets": 11,
-      "resolvedMarkets": 94503,
-      "totalActivePoolUsd": 25250.799999999996,
+      "totalMarkets": 96356,
+      "activeMarkets": 39,
+      "endedMarkets": 14,
+      "resolvedMarkets": 96144,
+      "totalActivePoolUsd": 41261.84,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 8,
-          "poolUsd": 183.23,
+          "count": 12,
+          "poolUsd": 266.94,
           "bets": 0
         },
         "esports": {
-          "count": 16,
-          "poolUsd": 21347.64,
+          "count": 12,
+          "poolUsd": 40923.8,
           "bets": 0
         },
         "sports": {
           "count": 15,
-          "poolUsd": 69,
-          "bets": 0
-        },
-        "fandom": {
-          "count": 3,
-          "poolUsd": 3650.93,
+          "poolUsd": 71.1,
           "bets": 0
         }
       },
@@ -77,37 +72,37 @@
         {
           "question": "KaBuM! Eports vs LOS — Series Winner",
           "category": "esports",
-          "totalPool": 18018.25,
+          "totalPool": 37561.51,
           "betCount": 0,
           "endTime": "2026-10-12T20:55:00.000Z"
-        },
-        {
-          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 3444,
-          "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
         },
         {
           "question": "bLight.blue vs Rare Atom — Series Winner",
           "category": "esports",
           "totalPool": 3321.34,
           "betCount": 0,
-          "endTime": "2026-10-11T04:07:38.002Z"
+          "endTime": "2026-10-11T23:37:38.772Z"
         },
         {
-          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 194.93,
-          "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 1 Hour",
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 45,
+          "totalPool": 70.82,
           "betCount": 0,
-          "endTime": "2026-10-10T06:00:00.000Z"
+          "endTime": "2026-10-11T05:15:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 54.86,
+          "betCount": 0,
+          "endTime": "2026-10-11T05:15:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 42.05,
+          "betCount": 0,
+          "endTime": "2026-10-11T05:15:00.000Z"
         }
       ]
     },
