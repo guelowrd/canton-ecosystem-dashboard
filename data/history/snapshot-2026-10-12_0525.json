@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-02T05:05:08.122Z",
+  "lastUpdated": "2026-10-12T05:25:59.522Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 26009.120000000003,
+    "totalTvlUsd": 58665.579999999994,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,64 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 81489,
-      "activeMarkets": 57,
-      "endedMarkets": 11,
-      "resolvedMarkets": 81286,
-      "totalActivePoolUsd": 26009.120000000003,
+      "totalMarkets": 98047,
+      "activeMarkets": 49,
+      "endedMarkets": 15,
+      "resolvedMarkets": 97821,
+      "totalActivePoolUsd": 58665.579999999994,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 44.2,
+          "poolUsd": 123.76,
           "bets": 0
         },
         "sports": {
-          "count": 16,
-          "poolUsd": 4.78,
+          "count": 14,
+          "poolUsd": 11.1,
           "bets": 0
         },
         "esports": {
-          "count": 27,
-          "poolUsd": 25960.14,
+          "count": 17,
+          "poolUsd": 58530.72,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 6,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "ONIC Philippines vs Twisted Minds PH — Series Winner",
+          "question": "KaBuM! Eports vs LOS — Series Winner",
           "category": "esports",
-          "totalPool": 24164.7,
+          "totalPool": 55205.63,
           "betCount": 0,
-          "endTime": "2026-10-02T08:55:00.000Z"
+          "endTime": "2026-10-12T20:55:00.000Z"
         },
         {
-          "question": "AP BREN vs Team Falcons PH — Series Winner",
+          "question": "bLight.blue vs Rare Atom — Series Winner",
           "category": "esports",
-          "totalPool": 1541.25,
+          "totalPool": 3321.34,
           "betCount": 0,
-          "endTime": "2026-10-03T08:55:00.000Z"
+          "endTime": "2026-10-13T01:07:37.878Z"
         },
         {
-          "question": "Twisted Minds vs Titan Esports Club MENA — Series Winner",
-          "category": "esports",
-          "totalPool": 180,
-          "betCount": 0,
-          "endTime": "2026-10-02T16:25:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 5 Min",
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 26.19,
+          "totalPool": 40.94,
           "betCount": 0,
-          "endTime": "2026-10-02T05:05:00.000Z"
+          "endTime": "2026-10-12T05:30:00.000Z"
         },
         {
-          "question": "Aurora Gaming PH vs TNC Pro Team — Series Winner",
-          "category": "esports",
-          "totalPool": 13,
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 31.3,
           "betCount": 0,
-          "endTime": "2026-10-02T11:25:00.000Z"
+          "endTime": "2026-10-12T05:30:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 19.18,
+          "betCount": 0,
+          "endTime": "2026-10-12T06:00:00.000Z"
         }
       ]
     },
