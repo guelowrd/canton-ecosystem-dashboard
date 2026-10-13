@@ -344,14 +344,6 @@
     "note": null
   },
   {
-    "appName": "arccade-swap",
-    "baseName": "arccade-swap",
-    "category": "DEX/AMM",
-    "confidence": 40,
-    "websiteGuess": null,
-    "note": null
-  },
-  {
     "appName": "arccade-validator-1",
     "baseName": "arccade",
     "category": "Validator/Infra",
@@ -408,6 +400,14 @@
     "note": null
   },
   {
+    "appName": "dunelabs-validator-1",
+    "baseName": "dunelabs",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "edel-markets",
     "baseName": "edel-markets",
     "category": "Prediction Markets",
@@ -451,6 +451,14 @@
     "appName": "grofty-wallet",
     "baseName": "grofty-wallet",
     "category": "Wallet",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "jubilee-marketplace",
+    "baseName": "jubilee-marketplace",
+    "category": "Prediction Markets",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
@@ -515,6 +523,14 @@
     "appName": "rho-relay",
     "baseName": "rho-relay",
     "category": "Bridge",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "selay-validator-1",
+    "baseName": "selay",
+    "category": "Validator/Infra",
     "confidence": 40,
     "websiteGuess": null,
     "note": null
@@ -808,6 +824,14 @@
     "note": null
   },
   {
+    "appName": "meridiant-app-1",
+    "baseName": "meridiant-app",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "modo",
     "baseName": "modo",
     "category": "Unknown",
@@ -912,6 +936,14 @@
     "note": null
   },
   {
+    "appName": "syncvotes-app-provider",
+    "baseName": "syncvotes-app-provider",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "T-RIZE-Services",
     "baseName": "t-rize-services",
     "category": "Unknown",
@@ -994,6 +1026,14 @@
   {
     "appName": "walley",
     "baseName": "walley",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "wintip-app",
+    "baseName": "wintip-app",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,
