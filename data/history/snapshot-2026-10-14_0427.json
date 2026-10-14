@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-04T05:20:16.122Z",
+  "lastUpdated": "2026-10-14T04:27:10.796Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 319.21999999999997,
+    "totalTvlUsd": 19404.060000000005,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 84802,
-      "activeMarkets": 42,
-      "endedMarkets": 11,
-      "resolvedMarkets": 84611,
-      "totalActivePoolUsd": 319.21999999999997,
+      "totalMarkets": 101272,
+      "activeMarkets": 61,
+      "endedMarkets": 15,
+      "resolvedMarkets": 101027,
+      "totalActivePoolUsd": 19404.060000000005,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 8,
-          "poolUsd": 131.59,
-          "bets": 0
-        },
-        "fandom": {
-          "count": 3,
-          "poolUsd": 0,
+          "count": 12,
+          "poolUsd": 511.13,
           "bets": 0
         },
         "esports": {
-          "count": 9,
-          "poolUsd": 182.85000000000002,
+          "count": 29,
+          "poolUsd": 18866.43,
           "bets": 0
         },
         "sports": {
-          "count": 16,
-          "poolUsd": 4.78,
+          "count": 14,
+          "poolUsd": 26.5,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 6,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "CTRL vs Passion Academy — Series Winner",
+          "question": "PuckChamp vs Team Legion — Series Winner",
           "category": "esports",
-          "totalPool": 120,
+          "totalPool": 6681.7,
           "betCount": 0,
-          "endTime": "2026-10-04T10:25:00.000Z"
+          "endTime": "2026-10-15T09:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 37.82,
+          "question": "FORZE Reload vs Sökerorg — Series Winner",
+          "category": "esports",
+          "totalPool": 4652.26,
           "betCount": 0,
-          "endTime": "2026-10-04T06:00:00.000Z"
+          "endTime": "2026-10-14T16:55:00.000Z"
+        },
+        {
+          "question": "Team Lynx vs PuckChamp — Series Winner",
+          "category": "esports",
+          "totalPool": 4149.53,
+          "betCount": 0,
+          "endTime": "2026-10-14T09:55:00.000Z"
+        },
+        {
+          "question": "bLight.blue vs Rare Atom — Series Winner",
+          "category": "esports",
+          "totalPool": 3321.34,
+          "betCount": 0,
+          "endTime": "2026-10-15T03:07:38.448Z"
         },
         {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 35.91,
+          "totalPool": 116.71,
           "betCount": 0,
-          "endTime": "2026-10-04T05:30:00.000Z"
-        },
-        {
-          "question": "ONIC vs NAVI — Series Winner",
-          "category": "esports",
-          "totalPool": 23.4,
-          "betCount": 0,
-          "endTime": "2026-10-04T13:10:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 23.15,
-          "betCount": 0,
-          "endTime": "2026-10-04T05:30:00.000Z"
+          "endTime": "2026-10-14T04:30:00.000Z"
         }
       ]
     },
