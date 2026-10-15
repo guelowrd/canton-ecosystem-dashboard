@@ -472,6 +472,14 @@
     "note": null
   },
   {
+    "appName": "MPCH-NEXUvalidator-1",
+    "baseName": "mpch-nexuvalidator",
+    "category": "Validator/Infra",
+    "confidence": 40,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "nodetech-mainnet-1",
     "baseName": "nodetech",
     "category": "Validator/Infra",
