@@ -648,6 +648,14 @@
     "note": null
   },
   {
+    "appName": "beth-network",
+    "baseName": "beth-network",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
     "appName": "bitdynamicsab-mainnet-1",
     "baseName": "bitdynamicsab",
     "category": "Unknown",

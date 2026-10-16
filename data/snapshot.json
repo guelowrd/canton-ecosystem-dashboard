@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-15T04:10:00.461Z",
+  "lastUpdated": "2026-10-16T04:06:23.390Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 14321.810000000003,
+    "totalTvlUsd": 19660.1264,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,26 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 102910,
-      "activeMarkets": 60,
-      "endedMarkets": 16,
-      "resolvedMarkets": 102659,
-      "totalActivePoolUsd": 14321.810000000003,
+      "totalMarkets": 104574,
+      "activeMarkets": 63,
+      "endedMarkets": 17,
+      "resolvedMarkets": 104314,
+      "totalActivePoolUsd": 19660.1264,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 536.47,
-          "bets": 0
-        },
-        "esports": {
-          "count": 28,
-          "poolUsd": 13748.34,
+          "poolUsd": 192.68999999999997,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 36.99999999999999,
+          "poolUsd": 32.599999999999994,
+          "bets": 0
+        },
+        "esports": {
+          "count": 31,
+          "poolUsd": 19434.8364,
           "bets": 0
         },
         "fandom": {
@@ -75,11 +75,25 @@
       },
       "topMarkets": [
         {
-          "question": "PuckChamp vs Team Legion — Series Winner",
+          "question": "Yellow Submarine vs The Warriors — Series Winner",
           "category": "esports",
-          "totalPool": 6683.7,
+          "totalPool": 5594.4,
           "betCount": 0,
-          "endTime": "2026-10-15T09:55:00.000Z"
+          "endTime": "2026-10-16T15:55:00.000Z"
+        },
+        {
+          "question": "Xtreme Gaming vs Cloud Dawning — Series Winner",
+          "category": "esports",
+          "totalPool": 5423.8,
+          "betCount": 0,
+          "endTime": "2026-10-16T10:55:00.000Z"
+        },
+        {
+          "question": "Team Tidebound vs Resp — Series Winner",
+          "category": "esports",
+          "totalPool": 4679.7885,
+          "betCount": 0,
+          "endTime": "2026-10-16T07:55:00.000Z"
         },
         {
           "question": "Team Resilience vs Zenith — Series Winner",
@@ -89,25 +103,11 @@
           "endTime": "2026-10-16T04:55:00.000Z"
         },
         {
-          "question": "bLight.blue vs Rare Atom — Series Winner",
-          "category": "esports",
-          "totalPool": 3321.34,
-          "betCount": 0,
-          "endTime": "2026-10-15T09:08:37.688Z"
-        },
-        {
-          "question": "ETH Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 88.02,
-          "betCount": 0,
-          "endTime": "2026-10-15T04:10:00.000Z"
-        },
-        {
           "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 77.53,
+          "totalPool": 52.4,
           "betCount": 0,
-          "endTime": "2026-10-15T04:10:00.000Z"
+          "endTime": "2026-10-16T04:10:00.000Z"
         }
       ]
     },
@@ -252,18 +252,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton Network wallet",
-      "isCandidate": true
-    },
-    {
-      "id": "blackmantacapital-primary",
-      "name": "blackmantacapital-primary-1",
-      "url": "https://blackmanta.capital",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "BaFin-regulated tokenized securities",
       "isCandidate": true
     },
     {

@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-06T05:52:29.215Z",
+  "lastUpdated": "2026-10-16T04:06:23.390Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 11200.400000000001,
+    "totalTvlUsd": 19660.1264,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 88151,
-      "activeMarkets": 54,
-      "endedMarkets": 11,
-      "resolvedMarkets": 87947,
-      "totalActivePoolUsd": 11200.400000000001,
+      "totalMarkets": 104574,
+      "activeMarkets": 63,
+      "endedMarkets": 17,
+      "resolvedMarkets": 104314,
+      "totalActivePoolUsd": 19660.1264,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 532.0600000000001,
-          "bets": 0
-        },
-        "esports": {
-          "count": 22,
-          "poolUsd": 10487.1,
+          "poolUsd": 192.68999999999997,
           "bets": 0
         },
         "sports": {
-          "count": 15,
-          "poolUsd": 45.61,
+          "count": 14,
+          "poolUsd": 32.599999999999994,
+          "bets": 0
+        },
+        "esports": {
+          "count": 31,
+          "poolUsd": 19434.8364,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 135.63,
+          "count": 6,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Valerion vs Solary — Series Winner",
+          "question": "Yellow Submarine vs The Warriors — Series Winner",
           "category": "esports",
-          "totalPool": 6699.9,
+          "totalPool": 5594.4,
           "betCount": 0,
-          "endTime": "2026-10-06T15:55:00.000Z"
+          "endTime": "2026-10-16T15:55:00.000Z"
         },
         {
-          "question": "Frites Esports Club vs Movistar KOI Fénix — Series Winner",
+          "question": "Xtreme Gaming vs Cloud Dawning — Series Winner",
           "category": "esports",
-          "totalPool": 3694.8,
+          "totalPool": 5423.8,
           "betCount": 0,
-          "endTime": "2026-10-06T15:55:00.000Z"
+          "endTime": "2026-10-16T10:55:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 15 Min",
+          "question": "Team Tidebound vs Resp — Series Winner",
+          "category": "esports",
+          "totalPool": 4679.7885,
+          "betCount": 0,
+          "endTime": "2026-10-16T07:55:00.000Z"
+        },
+        {
+          "question": "Team Resilience vs Zenith — Series Winner",
+          "category": "esports",
+          "totalPool": 3688.25,
+          "betCount": 0,
+          "endTime": "2026-10-16T04:55:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 166.02,
+          "totalPool": 52.4,
           "betCount": 0,
-          "endTime": "2026-10-06T06:00:00.000Z"
-        },
-        {
-          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 132.18,
-          "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 93.21,
-          "betCount": 0,
-          "endTime": "2026-10-06T06:00:00.000Z"
+          "endTime": "2026-10-16T04:10:00.000Z"
         }
       ]
     },
@@ -252,18 +252,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton Network wallet",
-      "isCandidate": true
-    },
-    {
-      "id": "blackmantacapital-primary",
-      "name": "blackmantacapital-primary-1",
-      "url": "https://blackmanta.capital",
-      "appCategory": "Tokenized Assets",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "BaFin-regulated tokenized securities",
       "isCandidate": true
     },
     {
