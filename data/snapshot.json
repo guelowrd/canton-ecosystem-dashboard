@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-16T04:06:23.390Z",
+  "lastUpdated": "2026-10-17T03:56:34.604Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 19660.1264,
+    "totalTvlUsd": 103.2019,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 17,
+    "trackedApps": 18,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 17 tracked apps expose public metrics"
+    "1 of 18 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,26 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 104574,
-      "activeMarkets": 63,
-      "endedMarkets": 17,
-      "resolvedMarkets": 104314,
-      "totalActivePoolUsd": 19660.1264,
+      "totalMarkets": 106207,
+      "activeMarkets": 45,
+      "endedMarkets": 18,
+      "resolvedMarkets": 105958,
+      "totalActivePoolUsd": 103.2019,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 192.68999999999997,
+          "poolUsd": 32.11,
+          "bets": 0
+        },
+        "esports": {
+          "count": 13,
+          "poolUsd": 33.4919,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 32.599999999999994,
-          "bets": 0
-        },
-        "esports": {
-          "count": 31,
-          "poolUsd": 19434.8364,
+          "poolUsd": 37.6,
           "bets": 0
         },
         "fandom": {
@@ -75,39 +75,39 @@
       },
       "topMarkets": [
         {
-          "question": "Yellow Submarine vs The Warriors — Series Winner",
+          "question": "ONIC vs DEWA UNITED — Series Winner",
           "category": "esports",
-          "totalPool": 5594.4,
+          "totalPool": 23.896,
           "betCount": 0,
-          "endTime": "2026-10-16T15:55:00.000Z"
+          "endTime": "2026-10-17T07:10:00.000Z"
         },
         {
-          "question": "Xtreme Gaming vs Cloud Dawning — Series Winner",
-          "category": "esports",
-          "totalPool": 5423.8,
-          "betCount": 0,
-          "endTime": "2026-10-16T10:55:00.000Z"
-        },
-        {
-          "question": "Team Tidebound vs Resp — Series Winner",
-          "category": "esports",
-          "totalPool": 4679.7885,
-          "betCount": 0,
-          "endTime": "2026-10-16T07:55:00.000Z"
-        },
-        {
-          "question": "Team Resilience vs Zenith — Series Winner",
-          "category": "esports",
-          "totalPool": 3688.25,
-          "betCount": 0,
-          "endTime": "2026-10-16T04:55:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 5 Min",
+          "question": "ETH Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 52.4,
+          "totalPool": 14.6,
           "betCount": 0,
-          "endTime": "2026-10-16T04:10:00.000Z"
+          "endTime": "2026-10-17T04:00:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 8.82,
+          "betCount": 0,
+          "endTime": "2026-10-17T04:00:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 8.69,
+          "betCount": 0,
+          "endTime": "2026-10-17T04:00:00.000Z"
+        },
+        {
+          "question": "Cleveland Browns vs Baltimore Ravens",
+          "category": "sports",
+          "totalPool": 7.1,
+          "betCount": 0,
+          "endTime": "2026-10-18T16:00:00.000Z"
         }
       ]
     },
@@ -252,6 +252,18 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "Canton Network wallet",
+      "isCandidate": true
+    },
+    {
+      "id": "blackmantacapital-primary",
+      "name": "blackmantacapital-primary-1",
+      "url": "https://blackmanta.capital",
+      "appCategory": "Tokenized Assets",
+      "transparency": "none",
+      "dataAvailability": "limited",
+      "probeEndpoint": null,
+      "probeData": null,
+      "note": "BaFin-regulated tokenized securities",
       "isCandidate": true
     },
     {
