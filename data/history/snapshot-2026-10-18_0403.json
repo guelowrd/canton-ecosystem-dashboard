@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-08T05:33:46.511Z",
+  "lastUpdated": "2026-10-18T04:03:06.661Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 22008.400000000005,
+    "totalTvlUsd": 42.150000000000006,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 91441,
-      "activeMarkets": 65,
-      "endedMarkets": 11,
-      "resolvedMarkets": 91217,
-      "totalActivePoolUsd": 22008.400000000005,
+      "totalMarkets": 107880,
+      "activeMarkets": 46,
+      "endedMarkets": 18,
+      "resolvedMarkets": 107623,
+      "totalActivePoolUsd": 42.150000000000006,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 579.4200000000001,
-          "bets": 0
-        },
-        "esports": {
-          "count": 33,
-          "poolUsd": 20065.940000000002,
-          "bets": 0
-        },
-        "sports": {
-          "count": 15,
-          "poolUsd": 64.11,
+          "poolUsd": 4.55,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 1298.93,
+          "count": 9,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "esports": {
+          "count": 11,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "sports": {
+          "count": 14,
+          "poolUsd": 37.6,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "KaBuM! Eports vs LOS — Series Winner",
-          "category": "esports",
-          "totalPool": 16717.45,
+          "question": "Cleveland Browns vs Baltimore Ravens",
+          "category": "sports",
+          "totalPool": 7.1,
           "betCount": 0,
-          "endTime": "2026-10-12T20:55:00.000Z"
+          "endTime": "2026-10-18T16:00:00.000Z"
         },
         {
-          "question": "bLight.blue vs Rare Atom — Series Winner",
-          "category": "esports",
-          "totalPool": 3321.34,
+          "question": "Philadelphia Eagles vs Carolina Panthers",
+          "category": "sports",
+          "totalPool": 5.3,
           "betCount": 0,
-          "endTime": "2026-10-09T02:07:39.698Z"
+          "endTime": "2026-10-18T16:00:00.000Z"
         },
         {
-          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 1092,
+          "question": "Green Bay Packers vs Dallas Cowboys",
+          "category": "sports",
+          "totalPool": 5.2,
           "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
+          "endTime": "2026-10-18T23:20:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 247.22,
+          "question": "Kansas City Chiefs vs Los Angeles Chargers",
+          "category": "sports",
+          "totalPool": 5.2,
           "betCount": 0,
-          "endTime": "2026-10-08T06:00:00.000Z"
+          "endTime": "2026-10-18T19:25:00.000Z"
         },
         {
-          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 194.93,
+          "question": "New York Giants vs New Orleans Saints",
+          "category": "sports",
+          "totalPool": 5.2,
           "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
+          "endTime": "2026-10-18T16:00:00.000Z"
         }
       ]
     },

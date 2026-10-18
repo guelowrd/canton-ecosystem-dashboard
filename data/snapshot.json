@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-17T03:56:34.604Z",
+  "lastUpdated": "2026-10-18T04:03:06.661Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 103.2019,
+    "totalTvlUsd": 42.150000000000006,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,67 +45,67 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 106207,
-      "activeMarkets": 45,
+      "totalMarkets": 107880,
+      "activeMarkets": 46,
       "endedMarkets": 18,
-      "resolvedMarkets": 105958,
-      "totalActivePoolUsd": 103.2019,
+      "resolvedMarkets": 107623,
+      "totalActivePoolUsd": 42.150000000000006,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 32.11,
+          "poolUsd": 4.55,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 9,
+          "poolUsd": 0,
           "bets": 0
         },
         "esports": {
-          "count": 13,
-          "poolUsd": 33.4919,
+          "count": 11,
+          "poolUsd": 0,
           "bets": 0
         },
         "sports": {
           "count": 14,
           "poolUsd": 37.6,
           "bets": 0
-        },
-        "fandom": {
-          "count": 6,
-          "poolUsd": 0,
-          "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "ONIC vs DEWA UNITED — Series Winner",
-          "category": "esports",
-          "totalPool": 23.896,
-          "betCount": 0,
-          "endTime": "2026-10-17T07:10:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 14.6,
-          "betCount": 0,
-          "endTime": "2026-10-17T04:00:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 8.82,
-          "betCount": 0,
-          "endTime": "2026-10-17T04:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 8.69,
-          "betCount": 0,
-          "endTime": "2026-10-17T04:00:00.000Z"
-        },
-        {
           "question": "Cleveland Browns vs Baltimore Ravens",
           "category": "sports",
           "totalPool": 7.1,
+          "betCount": 0,
+          "endTime": "2026-10-18T16:00:00.000Z"
+        },
+        {
+          "question": "Philadelphia Eagles vs Carolina Panthers",
+          "category": "sports",
+          "totalPool": 5.3,
+          "betCount": 0,
+          "endTime": "2026-10-18T16:00:00.000Z"
+        },
+        {
+          "question": "Green Bay Packers vs Dallas Cowboys",
+          "category": "sports",
+          "totalPool": 5.2,
+          "betCount": 0,
+          "endTime": "2026-10-18T23:20:00.000Z"
+        },
+        {
+          "question": "Kansas City Chiefs vs Los Angeles Chargers",
+          "category": "sports",
+          "totalPool": 5.2,
+          "betCount": 0,
+          "endTime": "2026-10-18T19:25:00.000Z"
+        },
+        {
+          "question": "New York Giants vs New Orleans Saints",
+          "category": "sports",
+          "totalPool": 5.2,
           "betCount": 0,
           "endTime": "2026-10-18T16:00:00.000Z"
         }
