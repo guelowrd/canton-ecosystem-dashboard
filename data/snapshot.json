@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-18T04:03:06.661Z",
+  "lastUpdated": "2026-10-19T04:12:39.549Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 42.150000000000006,
+    "totalTvlUsd": 40345.950000000004,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 107880,
-      "activeMarkets": 46,
+      "totalMarkets": 109559,
+      "activeMarkets": 47,
       "endedMarkets": 18,
-      "resolvedMarkets": 107623,
-      "totalActivePoolUsd": 42.150000000000006,
+      "resolvedMarkets": 109295,
+      "totalActivePoolUsd": 40345.950000000004,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 4.55,
-          "bets": 0
-        },
-        "fandom": {
-          "count": 9,
-          "poolUsd": 0,
-          "bets": 0
-        },
-        "esports": {
-          "count": 11,
-          "poolUsd": 0,
+          "poolUsd": 379.15000000000003,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 37.6,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "esports": {
+          "count": 12,
+          "poolUsd": 39916.8,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 9,
+          "poolUsd": 50,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Cleveland Browns vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 7.1,
+          "question": "Team Flash KH vs Galaxy Phoenix — Series Winner",
+          "category": "esports",
+          "totalPool": 19958.4,
           "betCount": 0,
-          "endTime": "2026-10-18T16:00:00.000Z"
+          "endTime": "2026-10-23T08:25:00.000Z"
         },
         {
-          "question": "Philadelphia Eagles vs Carolina Panthers",
-          "category": "sports",
-          "totalPool": 5.3,
+          "question": "See You Soon vs Valhalla — Series Winner",
+          "category": "esports",
+          "totalPool": 19958.4,
           "betCount": 0,
-          "endTime": "2026-10-18T16:00:00.000Z"
+          "endTime": "2026-10-23T05:55:00.000Z"
         },
         {
-          "question": "Green Bay Packers vs Dallas Cowboys",
-          "category": "sports",
-          "totalPool": 5.2,
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 71.42,
           "betCount": 0,
-          "endTime": "2026-10-18T23:20:00.000Z"
+          "endTime": "2026-10-19T04:15:00.000Z"
         },
         {
-          "question": "Kansas City Chiefs vs Los Angeles Chargers",
-          "category": "sports",
-          "totalPool": 5.2,
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 56.58,
           "betCount": 0,
-          "endTime": "2026-10-18T19:25:00.000Z"
+          "endTime": "2026-10-19T04:15:00.000Z"
         },
         {
-          "question": "New York Giants vs New Orleans Saints",
-          "category": "sports",
-          "totalPool": 5.2,
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 51.49,
           "betCount": 0,
-          "endTime": "2026-10-18T16:00:00.000Z"
+          "endTime": "2026-10-19T04:15:00.000Z"
         }
       ]
     },
