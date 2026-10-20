@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-19T04:12:39.549Z",
+  "lastUpdated": "2026-10-20T04:25:04.766Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 40345.950000000004,
+    "totalTvlUsd": 41955.479999999996,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,16 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 109559,
-      "activeMarkets": 47,
-      "endedMarkets": 18,
-      "resolvedMarkets": 109295,
-      "totalActivePoolUsd": 40345.950000000004,
+      "totalMarkets": 111226,
+      "activeMarkets": 55,
+      "endedMarkets": 0,
+      "resolvedMarkets": 110961,
+      "totalActivePoolUsd": 41955.479999999996,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 379.15000000000003,
+          "poolUsd": 566.6700000000001,
           "bets": 0
         },
         "sports": {
@@ -63,13 +63,13 @@
           "bets": 0
         },
         "esports": {
-          "count": 12,
-          "poolUsd": 39916.8,
+          "count": 20,
+          "poolUsd": 41320.82,
           "bets": 0
         },
         "fandom": {
           "count": 9,
-          "poolUsd": 50,
+          "poolUsd": 67.99,
           "bets": 0
         }
       },
@@ -89,25 +89,25 @@
           "endTime": "2026-10-23T05:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 71.42,
+          "question": "Gatorian vs Team UNiTY — Series Winner",
+          "category": "esports",
+          "totalPool": 1389.42,
           "betCount": 0,
-          "endTime": "2026-10-19T04:15:00.000Z"
+          "endTime": "2026-10-20T10:25:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 93.48,
+          "betCount": 0,
+          "endTime": "2026-10-20T04:25:00.000Z"
         },
         {
           "question": "SOL Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 56.58,
+          "totalPool": 75.49,
           "betCount": 0,
-          "endTime": "2026-10-19T04:15:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 51.49,
-          "betCount": 0,
-          "endTime": "2026-10-19T04:15:00.000Z"
+          "endTime": "2026-10-20T04:30:00.000Z"
         }
       ]
     },

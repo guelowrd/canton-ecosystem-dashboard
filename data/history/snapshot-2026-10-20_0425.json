@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-10T05:20:55.998Z",
+  "lastUpdated": "2026-10-20T04:25:04.766Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 25250.799999999996,
+    "totalTvlUsd": 41955.479999999996,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 94715,
-      "activeMarkets": 46,
-      "endedMarkets": 11,
-      "resolvedMarkets": 94503,
-      "totalActivePoolUsd": 25250.799999999996,
+      "totalMarkets": 111226,
+      "activeMarkets": 55,
+      "endedMarkets": 0,
+      "resolvedMarkets": 110961,
+      "totalActivePoolUsd": 41955.479999999996,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
-          "count": 8,
-          "poolUsd": 183.23,
-          "bets": 0
-        },
-        "esports": {
-          "count": 16,
-          "poolUsd": 21347.64,
+          "count": 12,
+          "poolUsd": 566.6700000000001,
           "bets": 0
         },
         "sports": {
-          "count": 15,
-          "poolUsd": 69,
+          "count": 14,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "esports": {
+          "count": 20,
+          "poolUsd": 41320.82,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 3650.93,
+          "count": 9,
+          "poolUsd": 67.99,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "KaBuM! Eports vs LOS — Series Winner",
+          "question": "Team Flash KH vs Galaxy Phoenix — Series Winner",
           "category": "esports",
-          "totalPool": 18018.25,
+          "totalPool": 19958.4,
           "betCount": 0,
-          "endTime": "2026-10-12T20:55:00.000Z"
+          "endTime": "2026-10-23T08:25:00.000Z"
         },
         {
-          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 3444,
-          "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
-        },
-        {
-          "question": "bLight.blue vs Rare Atom — Series Winner",
+          "question": "See You Soon vs Valhalla — Series Winner",
           "category": "esports",
-          "totalPool": 3321.34,
+          "totalPool": 19958.4,
           "betCount": 0,
-          "endTime": "2026-10-11T04:07:38.002Z"
+          "endTime": "2026-10-23T05:55:00.000Z"
         },
         {
-          "question": "Master Pack — average pull value over $1029.70 EV? (week of Oct 4, UTC)",
-          "category": "fandom",
-          "totalPool": 194.93,
+          "question": "Gatorian vs Team UNiTY — Series Winner",
+          "category": "esports",
+          "totalPool": 1389.42,
           "betCount": 0,
-          "endTime": "2026-10-04T00:00:00.000Z"
+          "endTime": "2026-10-20T10:25:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 1 Hour",
+          "question": "SOL Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 45,
+          "totalPool": 93.48,
           "betCount": 0,
-          "endTime": "2026-10-10T06:00:00.000Z"
+          "endTime": "2026-10-20T04:25:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 75.49,
+          "betCount": 0,
+          "endTime": "2026-10-20T04:30:00.000Z"
         }
       ]
     },
