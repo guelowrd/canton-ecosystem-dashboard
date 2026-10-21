@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-11T05:10:52.709Z",
+  "lastUpdated": "2026-10-21T04:12:46.681Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 41261.84,
+    "totalTvlUsd": 40113.020000000004,
     "volume30dUsd": null,
     "featuredApps": null,
-    "trackedApps": 18,
+    "trackedApps": 17,
     "transparentApps": 1,
     "netIssuance": null,
     "governanceParticipation": null
@@ -23,7 +23,7 @@
     "rewardsTop5Pct": null
   },
   "executiveInsights": [
-    "1 of 18 tracked apps expose public metrics"
+    "1 of 17 tracked apps expose public metrics"
   ],
   "apps": [
     {
@@ -45,64 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 96356,
-      "activeMarkets": 39,
-      "endedMarkets": 14,
-      "resolvedMarkets": 96144,
-      "totalActivePoolUsd": 41261.84,
+      "totalMarkets": 112867,
+      "activeMarkets": 60,
+      "endedMarkets": 0,
+      "resolvedMarkets": 112593,
+      "totalActivePoolUsd": 40113.020000000004,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 266.94,
+          "poolUsd": 113.63000000000001,
           "bets": 0
         },
         "esports": {
-          "count": 12,
-          "poolUsd": 40923.8,
+          "count": 25,
+          "poolUsd": 39931.4,
           "bets": 0
         },
         "sports": {
-          "count": 15,
-          "poolUsd": 71.1,
+          "count": 14,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 9,
+          "poolUsd": 67.99,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "KaBuM! Eports vs LOS — Series Winner",
+          "question": "Team Flash KH vs Galaxy Phoenix — Series Winner",
           "category": "esports",
-          "totalPool": 37561.51,
+          "totalPool": 19958.4,
           "betCount": 0,
-          "endTime": "2026-10-12T20:55:00.000Z"
+          "endTime": "2026-10-23T08:25:00.000Z"
         },
         {
-          "question": "bLight.blue vs Rare Atom — Series Winner",
+          "question": "See You Soon vs Valhalla — Series Winner",
           "category": "esports",
-          "totalPool": 3321.34,
+          "totalPool": 19958.4,
           "betCount": 0,
-          "endTime": "2026-10-11T23:37:38.772Z"
+          "endTime": "2026-10-23T05:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 70.82,
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 18, UTC)",
+          "category": "fandom",
+          "totalPool": 67.99,
           "betCount": 0,
-          "endTime": "2026-10-11T05:15:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 54.86,
-          "betCount": 0,
-          "endTime": "2026-10-11T05:15:00.000Z"
+          "endTime": "2026-10-18T00:00:00.000Z"
         },
         {
           "question": "SOL Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 42.05,
+          "totalPool": 59.59,
           "betCount": 0,
-          "endTime": "2026-10-11T05:15:00.000Z"
+          "endTime": "2026-10-21T04:15:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 26.43,
+          "betCount": 0,
+          "endTime": "2026-10-21T04:15:00.000Z"
         }
       ]
     },
@@ -259,18 +264,6 @@
       "probeEndpoint": null,
       "probeData": null,
       "note": "BaFin-regulated tokenized securities",
-      "isCandidate": true
-    },
-    {
-      "id": "cantor8-digik",
-      "name": "cantor8-digik-1",
-      "url": "https://cantor8.tech/digik",
-      "appCategory": "Explorer/Infra",
-      "transparency": "none",
-      "dataAvailability": "limited",
-      "probeEndpoint": null,
-      "probeData": null,
-      "note": "DigiK - Canton gateway",
       "isCandidate": true
     },
     {
