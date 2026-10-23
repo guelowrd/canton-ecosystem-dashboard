@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-22T04:14:34.074Z",
+  "lastUpdated": "2026-10-23T04:23:37.336Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 40355.168000000005,
+    "totalTvlUsd": 40024.744600000005,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,26 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 114506,
+      "totalMarkets": 116164,
       "activeMarkets": 53,
       "endedMarkets": 0,
-      "resolvedMarkets": 114235,
-      "totalActivePoolUsd": 40355.168000000005,
+      "resolvedMarkets": 115890,
+      "totalActivePoolUsd": 40024.744600000005,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 344.50000000000006,
-          "bets": 0
-        },
-        "esports": {
-          "count": 18,
-          "poolUsd": 39919.698000000004,
+          "poolUsd": 13.98,
           "bets": 0
         },
         "sports": {
           "count": 14,
           "poolUsd": 0,
+          "bets": 0
+        },
+        "esports": {
+          "count": 18,
+          "poolUsd": 39919.7946,
           "bets": 0
         },
         "fandom": {
@@ -77,7 +77,7 @@
         {
           "question": "See You Soon vs Valhalla — Series Winner",
           "category": "esports",
-          "totalPool": 19961.298,
+          "totalPool": 19961.3946,
           "betCount": 0,
           "endTime": "2026-10-23T05:55:00.000Z"
         },
@@ -98,16 +98,16 @@
         {
           "question": "SOL Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 84.67,
+          "totalPool": 5.69,
           "betCount": 0,
-          "endTime": "2026-10-22T04:15:00.000Z"
+          "endTime": "2026-10-23T04:30:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 65.12,
+          "totalPool": 4.45,
           "betCount": 0,
-          "endTime": "2026-10-22T04:15:00.000Z"
+          "endTime": "2026-10-23T04:25:00.000Z"
         }
       ]
     },

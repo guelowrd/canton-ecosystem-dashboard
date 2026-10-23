@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-13T06:24:57.295Z",
+  "lastUpdated": "2026-10-23T04:23:37.336Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 3992.7652000000003,
+    "totalTvlUsd": 40024.744600000005,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 99749,
-      "activeMarkets": 52,
-      "endedMarkets": 15,
-      "resolvedMarkets": 99517,
-      "totalActivePoolUsd": 3992.7652000000003,
+      "totalMarkets": 116164,
+      "activeMarkets": 53,
+      "endedMarkets": 0,
+      "resolvedMarkets": 115890,
+      "totalActivePoolUsd": 40024.744600000005,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 622.9752,
+          "poolUsd": 13.98,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 21.299999999999997,
+          "poolUsd": 0,
           "bets": 0
         },
         "esports": {
-          "count": 20,
-          "poolUsd": 3348.4900000000002,
+          "count": 18,
+          "poolUsd": 39919.7946,
           "bets": 0
         },
         "fandom": {
-          "count": 6,
-          "poolUsd": 0,
+          "count": 9,
+          "poolUsd": 90.97,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "bLight.blue vs Rare Atom — Series Winner",
+          "question": "See You Soon vs Valhalla — Series Winner",
           "category": "esports",
-          "totalPool": 3321.34,
+          "totalPool": 19961.3946,
           "betCount": 0,
-          "endTime": "2026-10-14T02:07:37.979Z"
+          "endTime": "2026-10-23T05:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 148.77,
+          "question": "Team Flash KH vs Galaxy Phoenix — Series Winner",
+          "category": "esports",
+          "totalPool": 19958.4,
           "betCount": 0,
-          "endTime": "2026-10-13T06:30:00.000Z"
+          "endTime": "2026-10-23T08:25:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 108.42,
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 18, UTC)",
+          "category": "fandom",
+          "totalPool": 90.97,
           "betCount": 0,
-          "endTime": "2026-10-13T06:25:00.000Z"
+          "endTime": "2026-10-18T00:00:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 5.69,
+          "betCount": 0,
+          "endTime": "2026-10-23T04:30:00.000Z"
         },
         {
           "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 78.9752,
+          "totalPool": 4.45,
           "betCount": 0,
-          "endTime": "2026-10-13T06:25:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 70.67,
-          "betCount": 0,
-          "endTime": "2026-10-13T06:25:00.000Z"
+          "endTime": "2026-10-23T04:25:00.000Z"
         }
       ]
     },
