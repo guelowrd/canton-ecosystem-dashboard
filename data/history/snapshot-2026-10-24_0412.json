@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-14T04:27:10.796Z",
+  "lastUpdated": "2026-10-24T04:12:48.574Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 19404.060000000005,
+    "totalTvlUsd": 25145.168999999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 101272,
-      "activeMarkets": 61,
-      "endedMarkets": 15,
-      "resolvedMarkets": 101027,
-      "totalActivePoolUsd": 19404.060000000005,
+      "totalMarkets": 117805,
+      "activeMarkets": 45,
+      "endedMarkets": 0,
+      "resolvedMarkets": 117534,
+      "totalActivePoolUsd": 25145.168999999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 511.13,
+          "poolUsd": 11.280000000000001,
           "bets": 0
         },
         "esports": {
-          "count": 29,
-          "poolUsd": 18866.43,
+          "count": 10,
+          "poolUsd": 24944.04,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 26.5,
+          "poolUsd": 74.12899999999999,
           "bets": 0
         },
         "fandom": {
-          "count": 6,
-          "poolUsd": 0,
+          "count": 9,
+          "poolUsd": 115.72,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "PuckChamp vs Team Legion — Series Winner",
+          "question": "PRO Esports vs Galaxy Phoenix — Series Winner",
           "category": "esports",
-          "totalPool": 6681.7,
+          "totalPool": 19989.09,
           "betCount": 0,
-          "endTime": "2026-10-15T09:55:00.000Z"
+          "endTime": "2026-10-24T05:55:00.000Z"
         },
         {
-          "question": "FORZE Reload vs Sökerorg — Series Winner",
+          "question": "Yangon Galacticos vs Falcon Esports — Series Winner",
           "category": "esports",
-          "totalPool": 4652.26,
+          "totalPool": 4954.95,
           "betCount": 0,
-          "endTime": "2026-10-14T16:55:00.000Z"
+          "endTime": "2026-10-24T04:25:00.000Z"
         },
         {
-          "question": "Team Lynx vs PuckChamp — Series Winner",
-          "category": "esports",
-          "totalPool": 4149.53,
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 18, UTC)",
+          "category": "fandom",
+          "totalPool": 115.72,
           "betCount": 0,
-          "endTime": "2026-10-14T09:55:00.000Z"
+          "endTime": "2026-10-18T00:00:00.000Z"
         },
         {
-          "question": "bLight.blue vs Rare Atom — Series Winner",
-          "category": "esports",
-          "totalPool": 3321.34,
+          "question": "Green Bay Packers vs Carolina Panthers",
+          "category": "sports",
+          "totalPool": 25.3752,
           "betCount": 0,
-          "endTime": "2026-10-15T03:07:38.448Z"
+          "endTime": "2026-10-29T23:15:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 116.71,
+          "question": "Minnesota Vikings vs Indianapolis Colts",
+          "category": "sports",
+          "totalPool": 12.3314,
           "betCount": 0,
-          "endTime": "2026-10-14T04:30:00.000Z"
+          "endTime": "2026-10-25T16:00:00.000Z"
         }
       ]
     },
