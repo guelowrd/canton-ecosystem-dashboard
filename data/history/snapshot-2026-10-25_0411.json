@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-15T04:10:00.461Z",
+  "lastUpdated": "2026-10-25T04:11:11.787Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 14321.810000000003,
+    "totalTvlUsd": 99746.56109999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 102910,
-      "activeMarkets": 60,
-      "endedMarkets": 16,
-      "resolvedMarkets": 102659,
-      "totalActivePoolUsd": 14321.810000000003,
+      "totalMarkets": 119475,
+      "activeMarkets": 45,
+      "endedMarkets": 0,
+      "resolvedMarkets": 119195,
+      "totalActivePoolUsd": 99746.56109999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 536.47,
+          "poolUsd": 431.26000000000005,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 9,
+          "poolUsd": 0,
           "bets": 0
         },
         "esports": {
-          "count": 28,
-          "poolUsd": 13748.34,
+          "count": 10,
+          "poolUsd": 99241.1721,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 36.99999999999999,
-          "bets": 0
-        },
-        "fandom": {
-          "count": 6,
-          "poolUsd": 0,
+          "poolUsd": 74.12899999999999,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "PuckChamp vs Team Legion — Series Winner",
+          "question": "See You Soon vs TNR Esports — Series Winner",
           "category": "esports",
-          "totalPool": 6683.7,
+          "totalPool": 99231.4541,
           "betCount": 0,
-          "endTime": "2026-10-15T09:55:00.000Z"
+          "endTime": "2026-10-25T05:55:00.000Z"
         },
         {
-          "question": "Team Resilience vs Zenith — Series Winner",
-          "category": "esports",
-          "totalPool": 3688.25,
-          "betCount": 0,
-          "endTime": "2026-10-16T04:55:00.000Z"
-        },
-        {
-          "question": "bLight.blue vs Rare Atom — Series Winner",
-          "category": "esports",
-          "totalPool": 3321.34,
-          "betCount": 0,
-          "endTime": "2026-10-15T09:08:37.688Z"
-        },
-        {
-          "question": "ETH Up or Down - 5 Min",
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 88.02,
+          "totalPool": 161.11,
           "betCount": 0,
-          "endTime": "2026-10-15T04:10:00.000Z"
+          "endTime": "2026-10-25T04:15:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
+          "question": "SOL Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 77.53,
+          "totalPool": 83.31,
           "betCount": 0,
-          "endTime": "2026-10-15T04:10:00.000Z"
+          "endTime": "2026-10-25T04:15:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 47.39,
+          "betCount": 0,
+          "endTime": "2026-10-25T04:15:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 45.42,
+          "betCount": 0,
+          "endTime": "2026-10-25T04:15:00.000Z"
         }
       ]
     },

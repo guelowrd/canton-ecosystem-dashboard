@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-24T04:12:48.574Z",
+  "lastUpdated": "2026-10-25T04:11:11.787Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 25145.168999999998,
+    "totalTvlUsd": 99746.56109999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 117805,
+      "totalMarkets": 119475,
       "activeMarkets": 45,
       "endedMarkets": 0,
-      "resolvedMarkets": 117534,
-      "totalActivePoolUsd": 25145.168999999998,
+      "resolvedMarkets": 119195,
+      "totalActivePoolUsd": 99746.56109999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 11.280000000000001,
+          "poolUsd": 431.26000000000005,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 9,
+          "poolUsd": 0,
           "bets": 0
         },
         "esports": {
           "count": 10,
-          "poolUsd": 24944.04,
+          "poolUsd": 99241.1721,
           "bets": 0
         },
         "sports": {
           "count": 14,
           "poolUsd": 74.12899999999999,
           "bets": 0
-        },
-        "fandom": {
-          "count": 9,
-          "poolUsd": 115.72,
-          "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "PRO Esports vs Galaxy Phoenix — Series Winner",
+          "question": "See You Soon vs TNR Esports — Series Winner",
           "category": "esports",
-          "totalPool": 19989.09,
+          "totalPool": 99231.4541,
           "betCount": 0,
-          "endTime": "2026-10-24T05:55:00.000Z"
+          "endTime": "2026-10-25T05:55:00.000Z"
         },
         {
-          "question": "Yangon Galacticos vs Falcon Esports — Series Winner",
-          "category": "esports",
-          "totalPool": 4954.95,
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 161.11,
           "betCount": 0,
-          "endTime": "2026-10-24T04:25:00.000Z"
+          "endTime": "2026-10-25T04:15:00.000Z"
         },
         {
-          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 18, UTC)",
-          "category": "fandom",
-          "totalPool": 115.72,
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 83.31,
           "betCount": 0,
-          "endTime": "2026-10-18T00:00:00.000Z"
+          "endTime": "2026-10-25T04:15:00.000Z"
         },
         {
-          "question": "Green Bay Packers vs Carolina Panthers",
-          "category": "sports",
-          "totalPool": 25.3752,
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 47.39,
           "betCount": 0,
-          "endTime": "2026-10-29T23:15:00.000Z"
+          "endTime": "2026-10-25T04:15:00.000Z"
         },
         {
-          "question": "Minnesota Vikings vs Indianapolis Colts",
-          "category": "sports",
-          "totalPool": 12.3314,
+          "question": "CC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 45.42,
           "betCount": 0,
-          "endTime": "2026-10-25T16:00:00.000Z"
+          "endTime": "2026-10-25T04:15:00.000Z"
         }
       ]
     },
