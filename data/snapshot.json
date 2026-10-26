@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-25T04:11:11.787Z",
+  "lastUpdated": "2026-10-26T04:14:56.202Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 99746.56109999998,
+    "totalTvlUsd": 97.82830000000001,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,16 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 119475,
-      "activeMarkets": 45,
+      "totalMarkets": 121140,
+      "activeMarkets": 36,
       "endedMarkets": 0,
-      "resolvedMarkets": 119195,
-      "totalActivePoolUsd": 99746.56109999998,
+      "resolvedMarkets": 120867,
+      "totalActivePoolUsd": 97.82830000000001,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 431.26000000000005,
+          "poolUsd": 64.72,
+          "bets": 0
+        },
+        "sports": {
+          "count": 14,
+          "poolUsd": 30.2178,
           "bets": 0
         },
         "fandom": {
@@ -63,51 +68,46 @@
           "bets": 0
         },
         "esports": {
-          "count": 10,
-          "poolUsd": 99241.1721,
-          "bets": 0
-        },
-        "sports": {
-          "count": 14,
-          "poolUsd": 74.12899999999999,
+          "count": 1,
+          "poolUsd": 2.8905,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "See You Soon vs TNR Esports — Series Winner",
-          "category": "esports",
-          "totalPool": 99231.4541,
-          "betCount": 0,
-          "endTime": "2026-10-25T05:55:00.000Z"
-        },
-        {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 161.11,
+          "totalPool": 30.27,
           "betCount": 0,
-          "endTime": "2026-10-25T04:15:00.000Z"
+          "endTime": "2026-10-26T04:15:00.000Z"
+        },
+        {
+          "question": "Green Bay Packers vs Carolina Panthers",
+          "category": "sports",
+          "totalPool": 25.3752,
+          "betCount": 0,
+          "endTime": "2026-10-29T23:15:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 10.88,
+          "betCount": 0,
+          "endTime": "2026-10-26T04:15:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 9.45,
+          "betCount": 0,
+          "endTime": "2026-10-26T04:15:00.000Z"
         },
         {
           "question": "SOL Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 83.31,
+          "totalPool": 8.02,
           "betCount": 0,
-          "endTime": "2026-10-25T04:15:00.000Z"
-        },
-        {
-          "question": "ETH Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 47.39,
-          "betCount": 0,
-          "endTime": "2026-10-25T04:15:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 45.42,
-          "betCount": 0,
-          "endTime": "2026-10-25T04:15:00.000Z"
+          "endTime": "2026-10-26T04:15:00.000Z"
         }
       ]
     },

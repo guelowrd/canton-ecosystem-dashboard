@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-10-26_0414.json",
+    "lastUpdated": "2026-10-26T04:14:56.202Z",
+    "tvlUsd": 97.82830000000001,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-10-25_0411.json",
     "lastUpdated": "2026-10-25T04:11:11.787Z",
     "tvlUsd": 99746.56109999998,
@@ -117,19 +130,6 @@
       "newApps": [
         "blackmantacapital-primary-1"
       ],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-10-16_0406.json",
-    "lastUpdated": "2026-10-16T04:06:23.390Z",
-    "tvlUsd": 19660.1264,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
       "newData": []
     }
   }
