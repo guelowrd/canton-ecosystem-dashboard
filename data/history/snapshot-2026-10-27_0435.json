@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-17T03:56:34.604Z",
+  "lastUpdated": "2026-10-27T04:35:41.047Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 103.2019,
+    "totalTvlUsd": 8438.842200000001,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 106207,
-      "activeMarkets": 45,
-      "endedMarkets": 18,
-      "resolvedMarkets": 105958,
-      "totalActivePoolUsd": 103.2019,
+      "totalMarkets": 122816,
+      "activeMarkets": 46,
+      "endedMarkets": 2,
+      "resolvedMarkets": 122535,
+      "totalActivePoolUsd": 8438.842200000001,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 32.11,
-          "bets": 0
-        },
-        "esports": {
-          "count": 13,
-          "poolUsd": 33.4919,
+          "poolUsd": 49.92359999999999,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 37.6,
+          "poolUsd": 25.3752,
+          "bets": 0
+        },
+        "esports": {
+          "count": 11,
+          "poolUsd": 8363.5434,
           "bets": 0
         },
         "fandom": {
-          "count": 6,
+          "count": 9,
           "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "ONIC vs DEWA UNITED — Series Winner",
+          "question": "Royal Bear vs Cloud Dawning — Series Winner",
           "category": "esports",
-          "totalPool": 23.896,
+          "totalPool": 4976.5851,
           "betCount": 0,
-          "endTime": "2026-10-17T07:10:00.000Z"
+          "endTime": "2026-10-27T03:55:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 14.6,
+          "question": "TEAM VAMOS vs Team Flash — Series Winner",
+          "category": "esports",
+          "totalPool": 3358.6791,
           "betCount": 0,
-          "endTime": "2026-10-17T04:00:00.000Z"
+          "endTime": "2026-10-28T06:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 8.82,
-          "betCount": 0,
-          "endTime": "2026-10-17T04:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 8.69,
-          "betCount": 0,
-          "endTime": "2026-10-17T04:00:00.000Z"
-        },
-        {
-          "question": "Cleveland Browns vs Baltimore Ravens",
+          "question": "Green Bay Packers vs Carolina Panthers",
           "category": "sports",
-          "totalPool": 7.1,
+          "totalPool": 25.3752,
           "betCount": 0,
-          "endTime": "2026-10-18T16:00:00.000Z"
+          "endTime": "2026-10-29T23:15:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 15.18,
+          "betCount": 0,
+          "endTime": "2026-10-27T04:45:00.000Z"
+        },
+        {
+          "question": "ex-RUSTEC vs Spirit Academy — Series Winner",
+          "category": "esports",
+          "totalPool": 9.7336,
+          "betCount": 0,
+          "endTime": "2026-10-27T11:55:00.000Z"
         }
       ]
     },
