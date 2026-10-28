@@ -136,14 +136,6 @@
     "note": "Institutional CLOB exchange"
   },
   {
-    "appName": "temple-mainnet-3",
-    "baseName": "temple",
-    "category": "Orderbook/CLOB",
-    "confidence": 100,
-    "websiteGuess": "https://app.templedigitalgroup.com",
-    "note": "Institutional CLOB exchange"
-  },
-  {
     "appName": "TextureCapital-validator-1",
     "baseName": "texturecapital",
     "category": "Validator/Infra",
@@ -794,6 +786,14 @@
   {
     "appName": "HeliosFinance-Mainnet-1",
     "baseName": "heliosfinance",
+    "category": "Unknown",
+    "confidence": 30,
+    "websiteGuess": null,
+    "note": null
+  },
+  {
+    "appName": "idefix-mainnet-1",
+    "baseName": "idefix",
     "category": "Unknown",
     "confidence": 30,
     "websiteGuess": null,

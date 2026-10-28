@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-27T04:35:41.047Z",
+  "lastUpdated": "2026-10-28T05:05:41.736Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 8438.842200000001,
+    "totalTvlUsd": 53710.37369999999,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,16 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 122816,
-      "activeMarkets": 46,
-      "endedMarkets": 2,
-      "resolvedMarkets": 122535,
-      "totalActivePoolUsd": 8438.842200000001,
+      "totalMarkets": 124500,
+      "activeMarkets": 45,
+      "endedMarkets": 4,
+      "resolvedMarkets": 124214,
+      "totalActivePoolUsd": 53710.37369999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 49.92359999999999,
+          "poolUsd": 76.97,
+          "bets": 0
+        },
+        "esports": {
+          "count": 10,
+          "poolUsd": 53454.41849999999,
           "bets": 0
         },
         "sports": {
@@ -62,52 +67,47 @@
           "poolUsd": 25.3752,
           "bets": 0
         },
-        "esports": {
-          "count": 11,
-          "poolUsd": 8363.5434,
-          "bets": 0
-        },
         "fandom": {
           "count": 9,
-          "poolUsd": 0,
+          "poolUsd": 153.61,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Royal Bear vs Cloud Dawning — Series Winner",
+          "question": "BILIBILI GAMING vs TOP ESPORTS — Series Winner",
           "category": "esports",
-          "totalPool": 4976.5851,
+          "totalPool": 36937.2,
           "betCount": 0,
-          "endTime": "2026-10-27T03:55:00.000Z"
+          "endTime": "2026-10-29T22:55:00.000Z"
+        },
+        {
+          "question": "Team Kinetix vs Royal Bear — Series Winner",
+          "category": "esports",
+          "totalPool": 9000.2,
+          "betCount": 0,
+          "endTime": "2026-10-28T09:55:00.000Z"
+        },
+        {
+          "question": "CTBC Flying Oyster vs Karmine Corp — Series Winner",
+          "category": "esports",
+          "totalPool": 4152.88,
+          "betCount": 0,
+          "endTime": "2026-10-29T19:55:00.000Z"
         },
         {
           "question": "TEAM VAMOS vs Team Flash — Series Winner",
           "category": "esports",
-          "totalPool": 3358.6791,
+          "totalPool": 3364.1385,
           "betCount": 0,
           "endTime": "2026-10-28T06:55:00.000Z"
         },
         {
-          "question": "Green Bay Packers vs Carolina Panthers",
-          "category": "sports",
-          "totalPool": 25.3752,
+          "question": "Hyper Pack — average pull value over $206.16 EV? (week of Oct 25, UTC)",
+          "category": "fandom",
+          "totalPool": 88.34,
           "betCount": 0,
-          "endTime": "2026-10-29T23:15:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 15.18,
-          "betCount": 0,
-          "endTime": "2026-10-27T04:45:00.000Z"
-        },
-        {
-          "question": "ex-RUSTEC vs Spirit Academy — Series Winner",
-          "category": "esports",
-          "totalPool": 9.7336,
-          "betCount": 0,
-          "endTime": "2026-10-27T11:55:00.000Z"
+          "endTime": "2026-10-25T00:00:00.000Z"
         }
       ]
     },

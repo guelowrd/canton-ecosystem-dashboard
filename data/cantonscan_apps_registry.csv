@@ -16,7 +16,6 @@ proofgroup-validator-1,proofgroup,Validator/Infra,100,https://proofgroup.com,Blo
 send-cantonwallet-1,cantonwallet,Wallet,100,https://cantonwallet.com,Canton Network wallet
 temple-mainnet-1,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
 temple-mainnet-2,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
-temple-mainnet-3,temple,Orderbook/CLOB,100,https://app.templedigitalgroup.com,Institutional CLOB exchange
 TextureCapital-validator-1,texturecapital,Validator/Infra,100,https://texturecapital.com,Digital asset platform
 Tradecraft,tradecraft,DEX/AMM,100,https://tradecraft.fi,Canton DEX (AMM)
 binance-dp-1,binance-dp,Validator/Infra,90,https://binance.us,Binance delegation participant
@@ -99,6 +98,7 @@ GlobalSettlement-mainnet-1,globalsettlement,Unknown,30,,
 handl-issuer,handl-issuer,Unknown,30,,
 Hecto-App-1,hecto-app,Unknown,30,,
 HeliosFinance-Mainnet-1,heliosfinance,Unknown,30,,
+idefix-mainnet-1,idefix,Unknown,30,,
 kaiko-app-rewards,kaiko-app-rewards,Unknown,30,,
 kairo-mainnet,kairo,Unknown,30,,Canton app
 kora-app,kora-app,Unknown,30,,

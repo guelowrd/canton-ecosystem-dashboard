@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-18T04:03:06.661Z",
+  "lastUpdated": "2026-10-28T05:05:41.736Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 42.150000000000006,
+    "totalTvlUsd": 53710.37369999999,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 18,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,69 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 107880,
-      "activeMarkets": 46,
-      "endedMarkets": 18,
-      "resolvedMarkets": 107623,
-      "totalActivePoolUsd": 42.150000000000006,
+      "totalMarkets": 124500,
+      "activeMarkets": 45,
+      "endedMarkets": 4,
+      "resolvedMarkets": 124214,
+      "totalActivePoolUsd": 53710.37369999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 4.55,
-          "bets": 0
-        },
-        "fandom": {
-          "count": 9,
-          "poolUsd": 0,
+          "poolUsd": 76.97,
           "bets": 0
         },
         "esports": {
-          "count": 11,
-          "poolUsd": 0,
+          "count": 10,
+          "poolUsd": 53454.41849999999,
           "bets": 0
         },
         "sports": {
           "count": 14,
-          "poolUsd": 37.6,
+          "poolUsd": 25.3752,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 9,
+          "poolUsd": 153.61,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Cleveland Browns vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 7.1,
+          "question": "BILIBILI GAMING vs TOP ESPORTS — Series Winner",
+          "category": "esports",
+          "totalPool": 36937.2,
           "betCount": 0,
-          "endTime": "2026-10-18T16:00:00.000Z"
+          "endTime": "2026-10-29T22:55:00.000Z"
         },
         {
-          "question": "Philadelphia Eagles vs Carolina Panthers",
-          "category": "sports",
-          "totalPool": 5.3,
+          "question": "Team Kinetix vs Royal Bear — Series Winner",
+          "category": "esports",
+          "totalPool": 9000.2,
           "betCount": 0,
-          "endTime": "2026-10-18T16:00:00.000Z"
+          "endTime": "2026-10-28T09:55:00.000Z"
         },
         {
-          "question": "Green Bay Packers vs Dallas Cowboys",
-          "category": "sports",
-          "totalPool": 5.2,
+          "question": "CTBC Flying Oyster vs Karmine Corp — Series Winner",
+          "category": "esports",
+          "totalPool": 4152.88,
           "betCount": 0,
-          "endTime": "2026-10-18T23:20:00.000Z"
+          "endTime": "2026-10-29T19:55:00.000Z"
         },
         {
-          "question": "Kansas City Chiefs vs Los Angeles Chargers",
-          "category": "sports",
-          "totalPool": 5.2,
+          "question": "TEAM VAMOS vs Team Flash — Series Winner",
+          "category": "esports",
+          "totalPool": 3364.1385,
           "betCount": 0,
-          "endTime": "2026-10-18T19:25:00.000Z"
+          "endTime": "2026-10-28T06:55:00.000Z"
         },
         {
-          "question": "New York Giants vs New Orleans Saints",
-          "category": "sports",
-          "totalPool": 5.2,
+          "question": "Hyper Pack — average pull value over $206.16 EV? (week of Oct 25, UTC)",
+          "category": "fandom",
+          "totalPool": 88.34,
           "betCount": 0,
-          "endTime": "2026-10-18T16:00:00.000Z"
+          "endTime": "2026-10-25T00:00:00.000Z"
         }
       ]
     },
