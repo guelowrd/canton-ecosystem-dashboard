@@ -1,0 +1,162 @@
+{
+  "lastUpdated": "2026-10-30T05:05:26.724Z",
+  "cantonCoinPriceUsd": null,
+  "networkHealth": {
+    "totalTvlUsd": 69221.51629999999,
+    "volume30dUsd": null,
+    "featuredApps": null,
+    "trackedApps": 5,
+    "transparentApps": 1,
+    "netIssuance": null,
+    "governanceParticipation": null
+  },
+  "concentration": {
+    "svTop1Pct": null,
+    "svTop3Pct": null,
+    "svTop5Pct": null,
+    "svHhi": null,
+    "sponsorTop1Pct": null,
+    "sponsorTop3Pct": null,
+    "sponsorTop3": [],
+    "tvlLargestPoolPct": null,
+    "rewardsTop3Pct": null,
+    "rewardsTop5Pct": null
+  },
+  "executiveInsights": [
+    "1 of 5 tracked apps expose public metrics"
+  ],
+  "apps": [
+    {
+      "id": "cc-explorer",
+      "name": "CC Explorer",
+      "dataAvailability": "error",
+      "error": "https://api.ccexplorer.io/api/updates?limit=50000&offset=0: 403 Forbidden"
+    },
+    {
+      "id": "tradecraft",
+      "name": "Tradecraft",
+      "dataAvailability": "error",
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+    },
+    {
+      "id": "unhedged",
+      "name": "Unhedged",
+      "url": "https://unhedged.gg",
+      "appCategory": "Prediction Markets",
+      "transparency": "transparent",
+      "dataAvailability": "full",
+      "totalMarkets": 127814,
+      "activeMarkets": 52,
+      "endedMarkets": 2,
+      "resolvedMarkets": 127518,
+      "totalActivePoolUsd": 69221.51629999999,
+      "totalActiveBets": 0,
+      "categories": {
+        "crypto": {
+          "count": 12,
+          "poolUsd": 163.13999999999996,
+          "bets": 0
+        },
+        "esports": {
+          "count": 18,
+          "poolUsd": 68793.3351,
+          "bets": 0
+        },
+        "sports": {
+          "count": 13,
+          "poolUsd": 4.875,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 9,
+          "poolUsd": 260.1662,
+          "bets": 0
+        }
+      },
+      "topMarkets": [
+        {
+          "question": "BIGETRON ACADEMY vs ALTER EGO X — Series Winner",
+          "category": "esports",
+          "totalPool": 39767.74,
+          "betCount": 0,
+          "endTime": "2026-10-30T11:25:00.000Z"
+        },
+        {
+          "question": "Vigor Apex vs Evil Eye Esports — Series Winner",
+          "category": "esports",
+          "totalPool": 20021.76,
+          "betCount": 0,
+          "endTime": "2026-10-30T05:55:00.000Z"
+        },
+        {
+          "question": "Falcons Force vs SD Invicta — Series Winner",
+          "category": "esports",
+          "totalPool": 4716.069,
+          "betCount": 0,
+          "endTime": "2026-10-30T11:25:00.000Z"
+        },
+        {
+          "question": "Metizport vs SNITKO Esports — Series Winner",
+          "category": "esports",
+          "totalPool": 4000.44,
+          "betCount": 0,
+          "endTime": "2026-10-30T16:10:00.000Z"
+        },
+        {
+          "question": "G2 Esports vs Hanwha Life Esports — Series Winner",
+          "category": "esports",
+          "totalPool": 148.549,
+          "betCount": 0,
+          "endTime": "2026-10-30T22:55:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "temple",
+      "name": "Temple Digital Group",
+      "url": "https://app.templedigitalgroup.com",
+      "appCategory": "CLOB",
+      "transparency": "opaque",
+      "dataAvailability": "limited",
+      "status": "Live",
+      "description": "Institutional central limit order book exchange for Canton Coin trading. API endpoints exist (ticker, markets, orderbook) but require authentication.",
+      "metadata": {
+        "founded": "July 2025",
+        "funding": "$5M (YZi Labs)",
+        "pairs": [
+          "CC/USDCx"
+        ],
+        "features": [
+          "CLOB trading",
+          "Leaderboard",
+          "Rewards program"
+        ]
+      },
+      "note": "Metrics require account access — API returns 403 for unauthenticated requests."
+    },
+    {
+      "id": "cantex",
+      "name": "Cantex",
+      "url": "https://cantex.io",
+      "appCategory": "AMM",
+      "transparency": "opaque",
+      "dataAvailability": "limited",
+      "status": "Live (early)",
+      "description": "Built by CaviarNine (previously leading DeFi suite on Radix by TVL/volume). AMM live, order book coming soon.",
+      "metadata": {
+        "builder": "CaviarNine",
+        "pairs": [
+          "CC-USDC",
+          "BTC-USDC",
+          "ETH-USDC"
+        ],
+        "features": [
+          "AMM trading",
+          "Order book (coming soon)"
+        ],
+        "observation": "Showing 0.00% on all pairs as of last check — very early stage or minimal activity."
+      },
+      "note": "No public API found — domain redirects all API paths to homepage."
+    }
+  ]
+}
