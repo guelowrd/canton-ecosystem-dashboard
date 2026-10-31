@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-30T05:05:26.724Z",
+  "lastUpdated": "2026-10-31T04:52:35.877Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 69221.51629999999,
+    "totalTvlUsd": 5751.671200000001,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,21 +45,21 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 127814,
-      "activeMarkets": 52,
-      "endedMarkets": 2,
-      "resolvedMarkets": 127518,
-      "totalActivePoolUsd": 69221.51629999999,
+      "totalMarkets": 129436,
+      "activeMarkets": 38,
+      "endedMarkets": 1,
+      "resolvedMarkets": 129158,
+      "totalActivePoolUsd": 5751.671200000001,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 163.13999999999996,
+          "poolUsd": 165.22,
           "bets": 0
         },
         "esports": {
-          "count": 18,
-          "poolUsd": 68793.3351,
+          "count": 4,
+          "poolUsd": 5209.89,
           "bets": 0
         },
         "sports": {
@@ -69,45 +69,45 @@
         },
         "fandom": {
           "count": 9,
-          "poolUsd": 260.1662,
+          "poolUsd": 371.6862,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BIGETRON ACADEMY vs ALTER EGO X — Series Winner",
+          "question": "direborn vs Royal Bear — Series Winner",
           "category": "esports",
-          "totalPool": 39767.74,
+          "totalPool": 4990.59,
           "betCount": 0,
-          "endTime": "2026-10-30T11:25:00.000Z"
+          "endTime": "2026-10-31T03:55:00.000Z"
         },
         {
-          "question": "Vigor Apex vs Evil Eye Esports — Series Winner",
+          "question": "Saint Sinners vs Misa — Series Winner",
           "category": "esports",
-          "totalPool": 20021.76,
+          "totalPool": 219.3,
           "betCount": 0,
-          "endTime": "2026-10-30T05:55:00.000Z"
+          "endTime": "2026-10-31T11:55:00.000Z"
         },
         {
-          "question": "Falcons Force vs SD Invicta — Series Winner",
-          "category": "esports",
-          "totalPool": 4716.069,
+          "question": "Hyper Pack — average pull value over $206.16 EV? (week of Oct 25, UTC)",
+          "category": "fandom",
+          "totalPool": 207.2262,
           "betCount": 0,
-          "endTime": "2026-10-30T11:25:00.000Z"
+          "endTime": "2026-10-25T00:00:00.000Z"
         },
         {
-          "question": "Metizport vs SNITKO Esports — Series Winner",
-          "category": "esports",
-          "totalPool": 4000.44,
+          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 25, UTC)",
+          "category": "fandom",
+          "totalPool": 164.46,
           "betCount": 0,
-          "endTime": "2026-10-30T16:10:00.000Z"
+          "endTime": "2026-10-25T00:00:00.000Z"
         },
         {
-          "question": "G2 Esports vs Hanwha Life Esports — Series Winner",
-          "category": "esports",
-          "totalPool": 148.549,
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 143.73,
           "betCount": 0,
-          "endTime": "2026-10-30T22:55:00.000Z"
+          "endTime": "2026-10-31T05:00:00.000Z"
         }
       ]
     },
