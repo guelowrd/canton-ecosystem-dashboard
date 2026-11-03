@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-02T05:17:51.234Z",
+  "lastUpdated": "2026-11-03T05:58:51.563Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 13162.6263,
+    "totalTvlUsd": 5406.6957,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,69 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 132768,
-      "activeMarkets": 30,
+      "totalMarkets": 134532,
+      "activeMarkets": 77,
       "endedMarkets": 0,
-      "resolvedMarkets": 132498,
-      "totalActivePoolUsd": 13162.6263,
+      "resolvedMarkets": 134193,
+      "totalActivePoolUsd": 5406.6957,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 148.41,
-          "bets": 0
-        },
-        "fandom": {
-          "count": 10,
-          "poolUsd": 30.53,
-          "bets": 0
-        },
-        "esports": {
-          "count": 7,
-          "poolUsd": 12978.8307,
+          "poolUsd": 637.44,
           "bets": 0
         },
         "sports": {
+          "count": 47,
+          "poolUsd": 9.742600000000001,
+          "bets": 0
+        },
+        "esports": {
+          "count": 14,
+          "poolUsd": 4759.5131,
+          "bets": 0
+        },
+        "compute": {
           "count": 1,
-          "poolUsd": 4.8556,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 3,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Nemiga Gaming vs Natus Vincere — Series Winner",
+          "question": "Gen.G Esports vs LYON — Series Winner",
           "category": "esports",
-          "totalPool": 12842.4453,
+          "totalPool": 4759.3346,
           "betCount": 0,
-          "endTime": "2026-11-02T15:55:00.000Z"
+          "endTime": "2026-11-04T21:55:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
+          "question": "SOL Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 86.53,
+          "totalPool": 75.59,
           "betCount": 0,
-          "endTime": "2026-11-02T05:20:00.000Z"
+          "endTime": "2026-11-03T06:00:00.000Z"
         },
         {
-          "question": "CyberHero vs GamerLegion — Series Winner",
-          "category": "esports",
-          "totalPool": 83.9984,
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 75.16,
           "betCount": 0,
-          "endTime": "2026-11-02T18:55:00.000Z"
+          "endTime": "2026-11-03T06:00:00.000Z"
         },
         {
-          "question": "Yellow Submarine vs Team OG — Series Winner",
-          "category": "esports",
-          "totalPool": 52.387,
+          "question": "ETH Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 68.22,
           "betCount": 0,
-          "endTime": "2026-11-02T12:55:00.000Z"
+          "endTime": "2026-11-03T06:00:00.000Z"
         },
         {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 27.63,
+          "totalPool": 61.03,
           "betCount": 0,
-          "endTime": "2026-11-02T05:30:00.000Z"
+          "endTime": "2026-11-03T06:00:00.000Z"
         }
       ]
     },
