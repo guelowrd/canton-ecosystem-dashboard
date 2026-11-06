@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T05:56:09.191Z",
+  "lastUpdated": "2026-11-06T05:52:34.983Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 39190.8115,
+    "totalTvlUsd": 225794.29859999995,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,21 +45,26 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 137837,
-      "activeMarkets": 76,
+      "totalMarkets": 139496,
+      "activeMarkets": 91,
       "endedMarkets": 0,
-      "resolvedMarkets": 137493,
-      "totalActivePoolUsd": 39190.8115,
+      "resolvedMarkets": 139142,
+      "totalActivePoolUsd": 225794.29859999995,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 98.5748,
+          "poolUsd": 507.85209999999995,
           "bets": 0
         },
         "sports": {
-          "count": 49,
-          "poolUsd": 30966.368200000004,
+          "count": 52,
+          "poolUsd": 58567.527500000004,
+          "bets": 0
+        },
+        "esports": {
+          "count": 23,
+          "poolUsd": 166684.6154,
           "bets": 0
         },
         "compute": {
@@ -67,52 +72,47 @@
           "poolUsd": 0,
           "bets": 0
         },
-        "esports": {
-          "count": 11,
-          "poolUsd": 8106.28,
-          "bets": 0
-        },
         "fandom": {
           "count": 3,
-          "poolUsd": 19.5885,
+          "poolUsd": 34.3036,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Portland Trail Blazers vs San Antonio Spurs",
-          "category": "sports",
-          "totalPool": 4949.42,
-          "betCount": 0,
-          "endTime": "2026-11-08T02:00:00.000Z"
-        },
-        {
-          "question": "New Orleans Pelicans vs Minnesota Timberwolves",
-          "category": "sports",
-          "totalPool": 3667.22,
-          "betCount": 0,
-          "endTime": "2026-11-07T00:00:00.000Z"
-        },
-        {
-          "question": "Minnesota Vikings vs Buffalo Bills",
-          "category": "sports",
-          "totalPool": 2219.76,
-          "betCount": 0,
-          "endTime": "2026-11-10T00:15:00.000Z"
-        },
-        {
-          "question": "Sökerorg vs MASONIC — Series Winner",
+          "question": "Lunacy vs MAYBE — Series Winner",
           "category": "esports",
-          "totalPool": 2188.1,
+          "totalPool": 58705.16,
           "betCount": 0,
-          "endTime": "2026-11-06T11:55:00.000Z"
+          "endTime": "2026-11-07T11:25:00.000Z"
         },
         {
           "question": "G2 Ares vs Saint Sinners — Series Winner",
           "category": "esports",
-          "totalPool": 2180.2,
+          "totalPool": 49231.2,
           "betCount": 0,
           "endTime": "2026-11-07T08:55:00.000Z"
+        },
+        {
+          "question": "Sökerorg vs MASONIC — Series Winner",
+          "category": "esports",
+          "totalPool": 21850.7,
+          "betCount": 0,
+          "endTime": "2026-11-06T11:55:00.000Z"
+        },
+        {
+          "question": "EAC vs BRUTE SQ — Series Winner",
+          "category": "esports",
+          "totalPool": 14652.7,
+          "betCount": 0,
+          "endTime": "2026-11-08T08:55:00.000Z"
+        },
+        {
+          "question": "Sacramento Kings vs San Antonio Spurs",
+          "category": "sports",
+          "totalPool": 13392.1805,
+          "betCount": 0,
+          "endTime": "2026-11-07T02:00:00.000Z"
         }
       ]
     },
