@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T05:24:22.868Z",
+  "lastUpdated": "2026-11-08T05:22:22.067Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 418017.51520000014,
+    "totalTvlUsd": 1262950.1095999999,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,74 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 141131,
-      "activeMarkets": 89,
-      "endedMarkets": 12,
-      "resolvedMarkets": 140763,
-      "totalActivePoolUsd": 418017.51520000014,
+      "totalMarkets": 142791,
+      "activeMarkets": 86,
+      "endedMarkets": 19,
+      "resolvedMarkets": 142419,
+      "totalActivePoolUsd": 1262950.1095999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 386.90490000000005,
+          "poolUsd": 352.53,
           "bets": 0
         },
         "sports": {
-          "count": 55,
-          "poolUsd": 332525.09700000007,
+          "count": 51,
+          "poolUsd": 1210168.0642,
           "bets": 0
         },
         "esports": {
-          "count": 17,
-          "poolUsd": 85017.5184,
+          "count": 18,
+          "poolUsd": 52272.05529999999,
           "bets": 0
         },
         "compute": {
           "count": 2,
-          "poolUsd": 29.296599999999998,
+          "poolUsd": 68.7036,
           "bets": 0
         },
         "fandom": {
           "count": 3,
-          "poolUsd": 58.698299999999996,
+          "poolUsd": 88.75649999999999,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Lunacy vs MAYBE — Series Winner",
-          "category": "esports",
-          "totalPool": 66100.56,
+          "question": "Milwaukee Bucks vs Los Angeles Lakers",
+          "category": "sports",
+          "totalPool": 94844.1,
           "betCount": 0,
-          "endTime": "2026-11-07T11:25:00.000Z"
+          "endTime": "2026-11-12T00:00:00.000Z"
         },
         {
-          "question": "Sacramento Kings vs San Antonio Spurs",
+          "question": "Washington Wizards vs Detroit Pistons",
           "category": "sports",
-          "totalPool": 26439.5665,
+          "totalPool": 88034,
           "betCount": 0,
-          "endTime": "2026-11-07T02:00:00.000Z"
+          "endTime": "2026-11-12T23:00:00.000Z"
         },
         {
-          "question": "Utah Jazz vs Orlando Magic",
+          "question": "Indiana Pacers vs Washington Wizards",
           "category": "sports",
-          "totalPool": 24552.6,
+          "totalPool": 77166.8,
           "betCount": 0,
-          "endTime": "2026-11-12T01:00:00.000Z"
+          "endTime": "2026-11-11T23:00:00.000Z"
+        },
+        {
+          "question": "Phoenix Suns vs San Antonio Spurs",
+          "category": "sports",
+          "totalPool": 75193,
+          "betCount": 0,
+          "endTime": "2026-11-10T01:00:00.000Z"
         },
         {
           "question": "Portland Trail Blazers vs Oklahoma City Thunder",
           "category": "sports",
-          "totalPool": 20721.34,
+          "totalPool": 71817.2,
           "betCount": 0,
-          "endTime": "2026-11-11T03:00:00.000Z"
-        },
-        {
-          "question": "New York Knicks vs Cleveland Cavaliers",
-          "category": "sports",
-          "totalPool": 17919.4,
-          "betCount": 0,
-          "endTime": "2026-11-11T23:00:00.000Z"
+          "endTime": "2026-11-12T02:00:00.000Z"
         }
       ]
     },
