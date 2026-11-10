@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-09T05:32:33.979Z",
+  "lastUpdated": "2026-11-10T06:44:06.413Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1260197.5289999999,
+    "totalTvlUsd": 1229103.4114,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,31 +45,31 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 144477,
-      "activeMarkets": 80,
-      "endedMarkets": 7,
-      "resolvedMarkets": 144117,
-      "totalActivePoolUsd": 1260197.5289999999,
+      "totalMarkets": 146213,
+      "activeMarkets": 79,
+      "endedMarkets": 6,
+      "resolvedMarkets": 145851,
+      "totalActivePoolUsd": 1229103.4114,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 6.24,
+          "poolUsd": 75.58070000000001,
           "bets": 0
         },
         "sports": {
-          "count": 51,
-          "poolUsd": 1235344.9942999997,
+          "count": 48,
+          "poolUsd": 1208576.0498,
+          "bets": 0
+        },
+        "esports": {
+          "count": 14,
+          "poolUsd": 20313.9361,
           "bets": 0
         },
         "compute": {
           "count": 2,
           "poolUsd": 49.0883,
-          "bets": 0
-        },
-        "esports": {
-          "count": 12,
-          "poolUsd": 24708.4499,
           "bets": 0
         },
         "fandom": {
@@ -80,18 +80,18 @@
       },
       "topMarkets": [
         {
+          "question": "Milwaukee Bucks vs Los Angeles Lakers",
+          "category": "sports",
+          "totalPool": 109102.132,
+          "betCount": 0,
+          "endTime": "2026-11-12T00:00:00.000Z"
+        },
+        {
           "question": "Phoenix Suns vs Charlotte Hornets",
           "category": "sports",
           "totalPool": 99884.8,
           "betCount": 0,
           "endTime": "2026-11-13T01:00:00.000Z"
-        },
-        {
-          "question": "Milwaukee Bucks vs Los Angeles Lakers",
-          "category": "sports",
-          "totalPool": 94844.1,
-          "betCount": 0,
-          "endTime": "2026-11-12T00:00:00.000Z"
         },
         {
           "question": "Minnesota Timberwolves vs Dallas Mavericks",
@@ -110,7 +110,7 @@
         {
           "question": "Indiana Pacers vs Washington Wizards",
           "category": "sports",
-          "totalPool": 77166.8,
+          "totalPool": 77166.8142,
           "betCount": 0,
           "endTime": "2026-11-11T23:00:00.000Z"
         }

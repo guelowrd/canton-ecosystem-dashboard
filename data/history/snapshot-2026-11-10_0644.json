@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-31T04:52:35.877Z",
+  "lastUpdated": "2026-11-10T06:44:06.413Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 5751.671200000001,
+    "totalTvlUsd": 1229103.4114,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 129436,
-      "activeMarkets": 38,
-      "endedMarkets": 1,
-      "resolvedMarkets": 129158,
-      "totalActivePoolUsd": 5751.671200000001,
+      "totalMarkets": 146213,
+      "activeMarkets": 79,
+      "endedMarkets": 6,
+      "resolvedMarkets": 145851,
+      "totalActivePoolUsd": 1229103.4114,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 165.22,
-          "bets": 0
-        },
-        "esports": {
-          "count": 4,
-          "poolUsd": 5209.89,
+          "poolUsd": 75.58070000000001,
           "bets": 0
         },
         "sports": {
-          "count": 13,
-          "poolUsd": 4.875,
+          "count": 48,
+          "poolUsd": 1208576.0498,
+          "bets": 0
+        },
+        "esports": {
+          "count": 14,
+          "poolUsd": 20313.9361,
+          "bets": 0
+        },
+        "compute": {
+          "count": 2,
+          "poolUsd": 49.0883,
           "bets": 0
         },
         "fandom": {
-          "count": 9,
-          "poolUsd": 371.6862,
+          "count": 3,
+          "poolUsd": 88.75649999999999,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "direborn vs Royal Bear — Series Winner",
-          "category": "esports",
-          "totalPool": 4990.59,
+          "question": "Milwaukee Bucks vs Los Angeles Lakers",
+          "category": "sports",
+          "totalPool": 109102.132,
           "betCount": 0,
-          "endTime": "2026-10-31T03:55:00.000Z"
+          "endTime": "2026-11-12T00:00:00.000Z"
         },
         {
-          "question": "Saint Sinners vs Misa — Series Winner",
-          "category": "esports",
-          "totalPool": 219.3,
+          "question": "Phoenix Suns vs Charlotte Hornets",
+          "category": "sports",
+          "totalPool": 99884.8,
           "betCount": 0,
-          "endTime": "2026-10-31T11:55:00.000Z"
+          "endTime": "2026-11-13T01:00:00.000Z"
         },
         {
-          "question": "Hyper Pack — average pull value over $206.16 EV? (week of Oct 25, UTC)",
-          "category": "fandom",
-          "totalPool": 207.2262,
+          "question": "Minnesota Timberwolves vs Dallas Mavericks",
+          "category": "sports",
+          "totalPool": 89648.1,
           "betCount": 0,
-          "endTime": "2026-10-25T00:00:00.000Z"
+          "endTime": "2026-11-13T00:00:00.000Z"
         },
         {
-          "question": "Super Pack — average pull value over $51.54 EV? (week of Oct 25, UTC)",
-          "category": "fandom",
-          "totalPool": 164.46,
+          "question": "Washington Wizards vs Detroit Pistons",
+          "category": "sports",
+          "totalPool": 88034,
           "betCount": 0,
-          "endTime": "2026-10-25T00:00:00.000Z"
+          "endTime": "2026-11-12T23:00:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 143.73,
+          "question": "Indiana Pacers vs Washington Wizards",
+          "category": "sports",
+          "totalPool": 77166.8142,
           "betCount": 0,
-          "endTime": "2026-10-31T05:00:00.000Z"
+          "endTime": "2026-11-11T23:00:00.000Z"
         }
       ]
     },
