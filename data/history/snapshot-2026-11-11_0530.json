@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-01T05:18:11.550Z",
+  "lastUpdated": "2026-11-11T05:30:07.910Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 60496.9407,
+    "totalTvlUsd": 1234025.2761999997,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 131127,
-      "activeMarkets": 44,
-      "endedMarkets": 1,
-      "resolvedMarkets": 130842,
-      "totalActivePoolUsd": 60496.9407,
+      "totalMarkets": 147712,
+      "activeMarkets": 81,
+      "endedMarkets": 6,
+      "resolvedMarkets": 147339,
+      "totalActivePoolUsd": 1234025.2761999997,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 276.18,
+          "poolUsd": 61.8,
           "bets": 0
         },
-        "fandom": {
-          "count": 9,
-          "poolUsd": 0,
+        "sports": {
+          "count": 52,
+          "poolUsd": 1233825.6313999996,
+          "bets": 0
+        },
+        "compute": {
+          "count": 2,
+          "poolUsd": 49.0883,
           "bets": 0
         },
         "esports": {
           "count": 10,
-          "poolUsd": 39752.8157,
+          "poolUsd": 0,
           "bets": 0
         },
-        "sports": {
-          "count": 13,
-          "poolUsd": 20467.945,
+        "fandom": {
+          "count": 3,
+          "poolUsd": 88.75649999999999,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Galaxy Phoenix vs Evil Eye Esports — Series Winner",
-          "category": "esports",
-          "totalPool": 31576.05,
-          "betCount": 0,
-          "endTime": "2026-11-01T08:25:00.000Z"
-        },
-        {
-          "question": "Cincinnati Bengals vs Tennessee Titans",
+          "question": "Milwaukee Bucks vs Los Angeles Lakers",
           "category": "sports",
-          "totalPool": 20463.07,
+          "totalPool": 109112.1081,
           "betCount": 0,
-          "endTime": "2026-11-01T17:00:00.000Z"
+          "endTime": "2026-11-12T00:00:00.000Z"
         },
         {
-          "question": "Nemiga Gaming vs Natus Vincere — Series Winner",
-          "category": "esports",
-          "totalPool": 8125.3643,
+          "question": "Phoenix Suns vs Charlotte Hornets",
+          "category": "sports",
+          "totalPool": 99884.8988,
           "betCount": 0,
-          "endTime": "2026-11-02T15:55:00.000Z"
+          "endTime": "2026-11-13T01:00:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 52.91,
+          "question": "Minnesota Timberwolves vs Dallas Mavericks",
+          "category": "sports",
+          "totalPool": 89648.1,
           "betCount": 0,
-          "endTime": "2026-11-01T05:20:00.000Z"
+          "endTime": "2026-11-13T00:00:00.000Z"
         },
         {
-          "question": "Yellow Submarine vs Team OG — Series Winner",
-          "category": "esports",
-          "totalPool": 51.4014,
+          "question": "Washington Wizards vs Detroit Pistons",
+          "category": "sports",
+          "totalPool": 88038.9634,
           "betCount": 0,
-          "endTime": "2026-11-02T12:55:00.000Z"
+          "endTime": "2026-11-12T23:00:00.000Z"
+        },
+        {
+          "question": "Indiana Pacers vs Washington Wizards",
+          "category": "sports",
+          "totalPool": 77166.8142,
+          "betCount": 0,
+          "endTime": "2026-11-11T23:00:00.000Z"
         }
       ]
     },
