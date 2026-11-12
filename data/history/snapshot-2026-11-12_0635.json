@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-02T05:17:51.234Z",
+  "lastUpdated": "2026-11-12T06:35:41.216Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 13162.6263,
+    "totalTvlUsd": 989261.6873999998,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,69 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 132768,
-      "activeMarkets": 30,
-      "endedMarkets": 0,
-      "resolvedMarkets": 132498,
-      "totalActivePoolUsd": 13162.6263,
+      "totalMarkets": 149415,
+      "activeMarkets": 70,
+      "endedMarkets": 4,
+      "resolvedMarkets": 149057,
+      "totalActivePoolUsd": 989261.6873999998,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 148.41,
-          "bets": 0
-        },
-        "fandom": {
-          "count": 10,
-          "poolUsd": 30.53,
-          "bets": 0
-        },
-        "esports": {
-          "count": 7,
-          "poolUsd": 12978.8307,
+          "poolUsd": 215.01000000000002,
           "bets": 0
         },
         "sports": {
-          "count": 1,
-          "poolUsd": 4.8556,
+          "count": 49,
+          "poolUsd": 988532.7877999999,
+          "bets": 0
+        },
+        "compute": {
+          "count": 2,
+          "poolUsd": 49.0883,
+          "bets": 0
+        },
+        "esports": {
+          "count": 4,
+          "poolUsd": 363.55,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 3,
+          "poolUsd": 101.2513,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Nemiga Gaming vs Natus Vincere — Series Winner",
-          "category": "esports",
-          "totalPool": 12842.4453,
+          "question": "Phoenix Suns vs Charlotte Hornets",
+          "category": "sports",
+          "totalPool": 99886.8756,
           "betCount": 0,
-          "endTime": "2026-11-02T15:55:00.000Z"
+          "endTime": "2026-11-13T01:00:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 86.53,
+          "question": "Milwaukee Bucks vs Atlanta Hawks",
+          "category": "sports",
+          "totalPool": 96297.2932,
           "betCount": 0,
-          "endTime": "2026-11-02T05:20:00.000Z"
+          "endTime": "2026-11-16T00:00:00.000Z"
         },
         {
-          "question": "CyberHero vs GamerLegion — Series Winner",
-          "category": "esports",
-          "totalPool": 83.9984,
+          "question": "Minnesota Timberwolves vs Dallas Mavericks",
+          "category": "sports",
+          "totalPool": 89648.1,
           "betCount": 0,
-          "endTime": "2026-11-02T18:55:00.000Z"
+          "endTime": "2026-11-13T00:00:00.000Z"
         },
         {
-          "question": "Yellow Submarine vs Team OG — Series Winner",
-          "category": "esports",
-          "totalPool": 52.387,
+          "question": "Washington Wizards vs Detroit Pistons",
+          "category": "sports",
+          "totalPool": 88038.9634,
           "betCount": 0,
-          "endTime": "2026-11-02T12:55:00.000Z"
+          "endTime": "2026-11-12T23:00:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 27.63,
+          "question": "Phoenix Suns vs Los Angeles Lakers",
+          "category": "sports",
+          "totalPool": 69465.5467,
           "betCount": 0,
-          "endTime": "2026-11-02T05:30:00.000Z"
+          "endTime": "2026-11-15T20:00:00.000Z"
         }
       ]
     },
