@@ -1,5 +1,18 @@
 [
   {
+    "file": "snapshot-2026-11-14_0543.json",
+    "lastUpdated": "2026-11-14T05:43:12.740Z",
+    "tvlUsd": 596773.0900999999,
+    "ccPriceUsd": null,
+    "topApp": null,
+    "appRewardsShareOfMinting": null,
+    "activeValidators": null,
+    "signals": {
+      "newApps": [],
+      "newData": []
+    }
+  },
+  {
     "file": "snapshot-2026-11-13_0554.json",
     "lastUpdated": "2026-11-13T05:54:10.252Z",
     "tvlUsd": 596916.7248,
@@ -107,19 +120,6 @@
     "file": "snapshot-2026-11-05_0556.json",
     "lastUpdated": "2026-11-05T05:56:09.191Z",
     "tvlUsd": 39190.8115,
-    "ccPriceUsd": null,
-    "topApp": null,
-    "appRewardsShareOfMinting": null,
-    "activeValidators": null,
-    "signals": {
-      "newApps": [],
-      "newData": []
-    }
-  },
-  {
-    "file": "snapshot-2026-11-04_0537.json",
-    "lastUpdated": "2026-11-04T05:37:46.660Z",
-    "tvlUsd": 66241.43379999998,
     "ccPriceUsd": null,
     "topApp": null,
     "appRewardsShareOfMinting": null,

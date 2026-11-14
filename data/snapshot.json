@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T05:54:10.252Z",
+  "lastUpdated": "2026-11-14T05:43:12.740Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 596916.7248,
+    "totalTvlUsd": 596773.0900999999,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,31 +45,36 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 150999,
-      "activeMarkets": 124,
+      "totalMarkets": 152644,
+      "activeMarkets": 110,
       "endedMarkets": 1,
-      "resolvedMarkets": 150590,
-      "totalActivePoolUsd": 596916.7248,
+      "resolvedMarkets": 152244,
+      "totalActivePoolUsd": 596773.0900999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 658.06,
+          "poolUsd": 604.9499999999999,
           "bets": 0
         },
         "sports": {
-          "count": 74,
-          "poolUsd": 596179.0048,
+          "count": 78,
+          "poolUsd": 596158.4697,
           "bets": 0
         },
         "esports": {
-          "count": 13,
-          "poolUsd": 79.66,
+          "count": 7,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "fandom": {
+          "count": 1,
+          "poolUsd": 0,
           "bets": 0
         },
         "compute": {
-          "count": 1,
-          "poolUsd": 0,
+          "count": 2,
+          "poolUsd": 9.6704,
           "bets": 0
         }
       },
@@ -105,7 +110,7 @@
         {
           "question": "Los Angeles Clippers vs Oklahoma City Thunder",
           "category": "sports",
-          "totalPool": 57769.5946,
+          "totalPool": 57775.5275,
           "betCount": 0,
           "endTime": "2026-11-14T02:30:00.000Z"
         }
