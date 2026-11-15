@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-14T05:43:12.740Z",
+  "lastUpdated": "2026-11-15T05:42:30.236Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 596773.0900999999,
+    "totalTvlUsd": 415174.7541,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,36 +45,36 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 152644,
-      "activeMarkets": 110,
-      "endedMarkets": 1,
-      "resolvedMarkets": 152244,
-      "totalActivePoolUsd": 596773.0900999999,
+      "totalMarkets": 154310,
+      "activeMarkets": 106,
+      "endedMarkets": 3,
+      "resolvedMarkets": 153912,
+      "totalActivePoolUsd": 415174.7541,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 604.9499999999999,
+          "poolUsd": 472.41,
           "bets": 0
         },
         "sports": {
-          "count": 78,
-          "poolUsd": 596158.4697,
+          "count": 72,
+          "poolUsd": 414095.51210000005,
           "bets": 0
         },
         "esports": {
-          "count": 7,
-          "poolUsd": 0,
+          "count": 13,
+          "poolUsd": 601.98,
+          "bets": 0
+        },
+        "compute": {
+          "count": 2,
+          "poolUsd": 4.852,
           "bets": 0
         },
         "fandom": {
           "count": 1,
           "poolUsd": 0,
-          "bets": 0
-        },
-        "compute": {
-          "count": 2,
-          "poolUsd": 9.6704,
           "bets": 0
         }
       },
@@ -89,7 +89,7 @@
         {
           "question": "Phoenix Suns vs Los Angeles Lakers",
           "category": "sports",
-          "totalPool": 69465.5467,
+          "totalPool": 69480.329,
           "betCount": 0,
           "endTime": "2026-11-15T20:00:00.000Z"
         },
@@ -108,11 +108,11 @@
           "endTime": "2026-11-15T21:00:00.000Z"
         },
         {
-          "question": "Los Angeles Clippers vs Oklahoma City Thunder",
+          "question": "Toronto Raptors vs New York Knicks",
           "category": "sports",
-          "totalPool": 57775.5275,
+          "totalPool": 50659.9301,
           "betCount": 0,
-          "endTime": "2026-11-14T02:30:00.000Z"
+          "endTime": "2026-11-15T22:00:00.000Z"
         }
       ]
     },

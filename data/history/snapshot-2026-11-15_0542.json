@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T05:56:09.191Z",
+  "lastUpdated": "2026-11-15T05:42:30.236Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 39190.8115,
+    "totalTvlUsd": 415174.7541,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,74 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 137837,
-      "activeMarkets": 76,
-      "endedMarkets": 0,
-      "resolvedMarkets": 137493,
-      "totalActivePoolUsd": 39190.8115,
+      "totalMarkets": 154310,
+      "activeMarkets": 106,
+      "endedMarkets": 3,
+      "resolvedMarkets": 153912,
+      "totalActivePoolUsd": 415174.7541,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 98.5748,
+          "poolUsd": 472.41,
           "bets": 0
         },
         "sports": {
-          "count": 49,
-          "poolUsd": 30966.368200000004,
-          "bets": 0
-        },
-        "compute": {
-          "count": 1,
-          "poolUsd": 0,
+          "count": 72,
+          "poolUsd": 414095.51210000005,
           "bets": 0
         },
         "esports": {
-          "count": 11,
-          "poolUsd": 8106.28,
+          "count": 13,
+          "poolUsd": 601.98,
+          "bets": 0
+        },
+        "compute": {
+          "count": 2,
+          "poolUsd": 4.852,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 19.5885,
+          "count": 1,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Portland Trail Blazers vs San Antonio Spurs",
+          "question": "Milwaukee Bucks vs Atlanta Hawks",
           "category": "sports",
-          "totalPool": 4949.42,
+          "totalPool": 96297.2932,
           "betCount": 0,
-          "endTime": "2026-11-08T02:00:00.000Z"
+          "endTime": "2026-11-16T00:00:00.000Z"
         },
         {
-          "question": "New Orleans Pelicans vs Minnesota Timberwolves",
+          "question": "Phoenix Suns vs Los Angeles Lakers",
           "category": "sports",
-          "totalPool": 3667.22,
+          "totalPool": 69480.329,
           "betCount": 0,
-          "endTime": "2026-11-07T00:00:00.000Z"
+          "endTime": "2026-11-15T20:00:00.000Z"
         },
         {
-          "question": "Minnesota Vikings vs Buffalo Bills",
+          "question": "Los Angeles Clippers vs Charlotte Hornets",
           "category": "sports",
-          "totalPool": 2219.76,
+          "totalPool": 59349.8835,
           "betCount": 0,
-          "endTime": "2026-11-10T00:15:00.000Z"
+          "endTime": "2026-11-15T20:30:00.000Z"
         },
         {
-          "question": "Sökerorg vs MASONIC — Series Winner",
-          "category": "esports",
-          "totalPool": 2188.1,
+          "question": "Utah Jazz vs San Antonio Spurs",
+          "category": "sports",
+          "totalPool": 58456.4968,
           "betCount": 0,
-          "endTime": "2026-11-06T11:55:00.000Z"
+          "endTime": "2026-11-15T21:00:00.000Z"
         },
         {
-          "question": "G2 Ares vs Saint Sinners — Series Winner",
-          "category": "esports",
-          "totalPool": 2180.2,
+          "question": "Toronto Raptors vs New York Knicks",
+          "category": "sports",
+          "totalPool": 50659.9301,
           "betCount": 0,
-          "endTime": "2026-11-07T08:55:00.000Z"
+          "endTime": "2026-11-15T22:00:00.000Z"
         }
       ]
     },
