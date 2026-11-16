@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-06T05:52:34.983Z",
+  "lastUpdated": "2026-11-16T05:42:33.741Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 225794.29859999995,
+    "totalTvlUsd": 613.8386,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,74 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 139496,
-      "activeMarkets": 91,
+      "totalMarkets": 155982,
+      "activeMarkets": 94,
       "endedMarkets": 0,
-      "resolvedMarkets": 139142,
-      "totalActivePoolUsd": 225794.29859999995,
+      "resolvedMarkets": 155598,
+      "totalActivePoolUsd": 613.8386,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 507.85209999999995,
+          "poolUsd": 528.1800000000001,
           "bets": 0
         },
         "sports": {
-          "count": 52,
-          "poolUsd": 58567.527500000004,
+          "count": 69,
+          "poolUsd": 61.197199999999995,
           "bets": 0
         },
         "esports": {
-          "count": 23,
-          "poolUsd": 166684.6154,
+          "count": 10,
+          "poolUsd": 19.6094,
           "bets": 0
         },
         "compute": {
-          "count": 1,
-          "poolUsd": 0,
+          "count": 2,
+          "poolUsd": 4.852,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 34.3036,
+          "count": 1,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Lunacy vs MAYBE — Series Winner",
-          "category": "esports",
-          "totalPool": 58705.16,
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 82.01,
           "betCount": 0,
-          "endTime": "2026-11-07T11:25:00.000Z"
+          "endTime": "2026-11-16T06:00:00.000Z"
         },
         {
-          "question": "G2 Ares vs Saint Sinners — Series Winner",
-          "category": "esports",
-          "totalPool": 49231.2,
+          "question": "BTC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 79.02,
           "betCount": 0,
-          "endTime": "2026-11-07T08:55:00.000Z"
+          "endTime": "2026-11-16T05:45:00.000Z"
         },
         {
-          "question": "Sökerorg vs MASONIC — Series Winner",
-          "category": "esports",
-          "totalPool": 21850.7,
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 76.99,
           "betCount": 0,
-          "endTime": "2026-11-06T11:55:00.000Z"
+          "endTime": "2026-11-16T05:45:00.000Z"
         },
         {
-          "question": "EAC vs BRUTE SQ — Series Winner",
-          "category": "esports",
-          "totalPool": 14652.7,
+          "question": "SOL Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 43.53,
           "betCount": 0,
-          "endTime": "2026-11-08T08:55:00.000Z"
+          "endTime": "2026-11-16T06:00:00.000Z"
         },
         {
-          "question": "Sacramento Kings vs San Antonio Spurs",
-          "category": "sports",
-          "totalPool": 13392.1805,
+          "question": "CC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 39.5,
           "betCount": 0,
-          "endTime": "2026-11-07T02:00:00.000Z"
+          "endTime": "2026-11-16T05:45:00.000Z"
         }
       ]
     },
