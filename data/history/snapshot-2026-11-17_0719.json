@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T05:24:22.868Z",
+  "lastUpdated": "2026-11-17T07:19:53.275Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 418017.51520000014,
+    "totalTvlUsd": 51.080799999999996,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,74 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 141131,
-      "activeMarkets": 89,
-      "endedMarkets": 12,
-      "resolvedMarkets": 140763,
-      "totalActivePoolUsd": 418017.51520000014,
+      "totalMarkets": 157749,
+      "activeMarkets": 86,
+      "endedMarkets": 0,
+      "resolvedMarkets": 157377,
+      "totalActivePoolUsd": 51.080799999999996,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 386.90490000000005,
+          "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 55,
-          "poolUsd": 332525.09700000007,
+          "count": 57,
+          "poolUsd": 27.2884,
           "bets": 0
         },
         "esports": {
-          "count": 17,
-          "poolUsd": 85017.5184,
+          "count": 14,
+          "poolUsd": 9.8392,
           "bets": 0
         },
         "compute": {
           "count": 2,
-          "poolUsd": 29.296599999999998,
+          "poolUsd": 13.9532,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 58.698299999999996,
+          "count": 1,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Lunacy vs MAYBE — Series Winner",
+          "question": "Israel vs Austria",
+          "category": "sports",
+          "totalPool": 9.7917,
+          "betCount": 0,
+          "endTime": "2026-11-17T18:45:00.000Z"
+        },
+        {
+          "question": "Poland vs Sweden",
+          "category": "sports",
+          "totalPool": 9.6779,
+          "betCount": 0,
+          "endTime": "2026-11-17T18:45:00.000Z"
+        },
+        {
+          "question": "Flopmark dense-BF16 index above $4.10 at 12:00 UTC on November 20, 2026?",
+          "category": "compute",
+          "totalPool": 8.992,
+          "betCount": 0,
+          "endTime": "2026-11-20T12:00:00.000Z"
+        },
+        {
+          "question": "Flopmark dense-BF16 index above $3.70 at 12:00 UTC on November 17, 2026?",
+          "category": "compute",
+          "totalPool": 4.9612,
+          "betCount": 0,
+          "endTime": "2026-11-17T12:00:00.000Z"
+        },
+        {
+          "question": "PuckChamp vs Nemiga Gaming — Series Winner",
           "category": "esports",
-          "totalPool": 66100.56,
+          "totalPool": 4.935,
           "betCount": 0,
-          "endTime": "2026-11-07T11:25:00.000Z"
-        },
-        {
-          "question": "Sacramento Kings vs San Antonio Spurs",
-          "category": "sports",
-          "totalPool": 26439.5665,
-          "betCount": 0,
-          "endTime": "2026-11-07T02:00:00.000Z"
-        },
-        {
-          "question": "Utah Jazz vs Orlando Magic",
-          "category": "sports",
-          "totalPool": 24552.6,
-          "betCount": 0,
-          "endTime": "2026-11-12T01:00:00.000Z"
-        },
-        {
-          "question": "Portland Trail Blazers vs Oklahoma City Thunder",
-          "category": "sports",
-          "totalPool": 20721.34,
-          "betCount": 0,
-          "endTime": "2026-11-11T03:00:00.000Z"
-        },
-        {
-          "question": "New York Knicks vs Cleveland Cavaliers",
-          "category": "sports",
-          "totalPool": 17919.4,
-          "betCount": 0,
-          "endTime": "2026-11-11T23:00:00.000Z"
+          "endTime": "2026-11-17T13:25:00.000Z"
         }
       ]
     },

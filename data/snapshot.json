@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-16T05:42:33.741Z",
+  "lastUpdated": "2026-11-17T07:19:53.275Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 613.8386,
+    "totalTvlUsd": 51.080799999999996,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,31 +45,31 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 155982,
-      "activeMarkets": 94,
+      "totalMarkets": 157749,
+      "activeMarkets": 86,
       "endedMarkets": 0,
-      "resolvedMarkets": 155598,
-      "totalActivePoolUsd": 613.8386,
+      "resolvedMarkets": 157377,
+      "totalActivePoolUsd": 51.080799999999996,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 528.1800000000001,
+          "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 69,
-          "poolUsd": 61.197199999999995,
+          "count": 57,
+          "poolUsd": 27.2884,
           "bets": 0
         },
         "esports": {
-          "count": 10,
-          "poolUsd": 19.6094,
+          "count": 14,
+          "poolUsd": 9.8392,
           "bets": 0
         },
         "compute": {
           "count": 2,
-          "poolUsd": 4.852,
+          "poolUsd": 13.9532,
           "bets": 0
         },
         "fandom": {
@@ -80,39 +80,39 @@
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 82.01,
+          "question": "Israel vs Austria",
+          "category": "sports",
+          "totalPool": 9.7917,
           "betCount": 0,
-          "endTime": "2026-11-16T06:00:00.000Z"
+          "endTime": "2026-11-17T18:45:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 79.02,
+          "question": "Poland vs Sweden",
+          "category": "sports",
+          "totalPool": 9.6779,
           "betCount": 0,
-          "endTime": "2026-11-16T05:45:00.000Z"
+          "endTime": "2026-11-17T18:45:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 76.99,
+          "question": "Flopmark dense-BF16 index above $4.10 at 12:00 UTC on November 20, 2026?",
+          "category": "compute",
+          "totalPool": 8.992,
           "betCount": 0,
-          "endTime": "2026-11-16T05:45:00.000Z"
+          "endTime": "2026-11-20T12:00:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 43.53,
+          "question": "Flopmark dense-BF16 index above $3.70 at 12:00 UTC on November 17, 2026?",
+          "category": "compute",
+          "totalPool": 4.9612,
           "betCount": 0,
-          "endTime": "2026-11-16T06:00:00.000Z"
+          "endTime": "2026-11-17T12:00:00.000Z"
         },
         {
-          "question": "CC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 39.5,
+          "question": "PuckChamp vs Nemiga Gaming — Series Winner",
+          "category": "esports",
+          "totalPool": 4.935,
           "betCount": 0,
-          "endTime": "2026-11-16T05:45:00.000Z"
+          "endTime": "2026-11-17T13:25:00.000Z"
         }
       ]
     },
