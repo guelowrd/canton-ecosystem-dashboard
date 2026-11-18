@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-17T07:19:53.275Z",
+  "lastUpdated": "2026-11-18T06:44:40.504Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 51.080799999999996,
+    "totalTvlUsd": 872.2205999999999,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,74 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 157749,
-      "activeMarkets": 86,
-      "endedMarkets": 0,
-      "resolvedMarkets": 157377,
-      "totalActivePoolUsd": 51.080799999999996,
+      "totalMarkets": 159369,
+      "activeMarkets": 87,
+      "endedMarkets": 1,
+      "resolvedMarkets": 158991,
+      "totalActivePoolUsd": 872.2205999999999,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 0,
+          "poolUsd": 656.9499999999999,
           "bets": 0
         },
         "sports": {
-          "count": 57,
-          "poolUsd": 27.2884,
+          "count": 61,
+          "poolUsd": 32.220600000000005,
           "bets": 0
         },
         "esports": {
-          "count": 14,
-          "poolUsd": 9.8392,
+          "count": 11,
+          "poolUsd": 169.193,
           "bets": 0
         },
         "compute": {
           "count": 2,
-          "poolUsd": 13.9532,
+          "poolUsd": 8.992,
           "bets": 0
         },
         "fandom": {
           "count": 1,
-          "poolUsd": 0,
+          "poolUsd": 4.865,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Israel vs Austria",
-          "category": "sports",
-          "totalPool": 9.7917,
-          "betCount": 0,
-          "endTime": "2026-11-17T18:45:00.000Z"
-        },
-        {
-          "question": "Poland vs Sweden",
-          "category": "sports",
-          "totalPool": 9.6779,
-          "betCount": 0,
-          "endTime": "2026-11-17T18:45:00.000Z"
-        },
-        {
-          "question": "Flopmark dense-BF16 index above $4.10 at 12:00 UTC on November 20, 2026?",
-          "category": "compute",
-          "totalPool": 8.992,
-          "betCount": 0,
-          "endTime": "2026-11-20T12:00:00.000Z"
-        },
-        {
-          "question": "Flopmark dense-BF16 index above $3.70 at 12:00 UTC on November 17, 2026?",
-          "category": "compute",
-          "totalPool": 4.9612,
-          "betCount": 0,
-          "endTime": "2026-11-17T12:00:00.000Z"
-        },
-        {
-          "question": "PuckChamp vs Nemiga Gaming — Series Winner",
+          "question": "Power Rangers vs Team Synapse — Series Winner",
           "category": "esports",
-          "totalPool": 4.935,
+          "totalPool": 119.647,
           "betCount": 0,
-          "endTime": "2026-11-17T13:25:00.000Z"
+          "endTime": "2026-11-21T13:55:00.000Z"
+        },
+        {
+          "question": "BTC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 91.43,
+          "betCount": 0,
+          "endTime": "2026-11-18T06:45:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 75.08,
+          "betCount": 0,
+          "endTime": "2026-11-18T06:45:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 66.77,
+          "betCount": 0,
+          "endTime": "2026-11-18T06:45:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 64.18,
+          "betCount": 0,
+          "endTime": "2026-11-18T06:45:00.000Z"
         }
       ]
     },
