@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-09T05:32:33.979Z",
+  "lastUpdated": "2026-11-19T06:45:22.427Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1260197.5289999999,
+    "totalTvlUsd": 425.56229999999994,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,74 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 144477,
-      "activeMarkets": 80,
-      "endedMarkets": 7,
-      "resolvedMarkets": 144117,
-      "totalActivePoolUsd": 1260197.5289999999,
+      "totalMarkets": 161016,
+      "activeMarkets": 93,
+      "endedMarkets": 0,
+      "resolvedMarkets": 160629,
+      "totalActivePoolUsd": 425.56229999999994,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 6.24,
+          "poolUsd": 236.48,
           "bets": 0
         },
         "sports": {
-          "count": 51,
-          "poolUsd": 1235344.9942999997,
+          "count": 60,
+          "poolUsd": 47.889500000000005,
           "bets": 0
         },
         "compute": {
           "count": 2,
-          "poolUsd": 49.0883,
+          "poolUsd": 11.792,
           "bets": 0
         },
         "esports": {
-          "count": 12,
-          "poolUsd": 24708.4499,
+          "count": 18,
+          "poolUsd": 119.647,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 88.75649999999999,
+          "count": 1,
+          "poolUsd": 9.7538,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Phoenix Suns vs Charlotte Hornets",
-          "category": "sports",
-          "totalPool": 99884.8,
+          "question": "Power Rangers vs Team Synapse — Series Winner",
+          "category": "esports",
+          "totalPool": 119.647,
           "betCount": 0,
-          "endTime": "2026-11-13T01:00:00.000Z"
+          "endTime": "2026-11-21T13:55:00.000Z"
         },
         {
-          "question": "Milwaukee Bucks vs Los Angeles Lakers",
-          "category": "sports",
-          "totalPool": 94844.1,
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 77.97,
           "betCount": 0,
-          "endTime": "2026-11-12T00:00:00.000Z"
+          "endTime": "2026-11-19T07:00:00.000Z"
         },
         {
-          "question": "Minnesota Timberwolves vs Dallas Mavericks",
-          "category": "sports",
-          "totalPool": 89648.1,
+          "question": "CC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 70.12,
           "betCount": 0,
-          "endTime": "2026-11-13T00:00:00.000Z"
+          "endTime": "2026-11-19T07:00:00.000Z"
         },
         {
-          "question": "Washington Wizards vs Detroit Pistons",
-          "category": "sports",
-          "totalPool": 88034,
+          "question": "ETH Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 45,
           "betCount": 0,
-          "endTime": "2026-11-12T23:00:00.000Z"
+          "endTime": "2026-11-19T07:00:00.000Z"
         },
         {
-          "question": "Indiana Pacers vs Washington Wizards",
-          "category": "sports",
-          "totalPool": 77166.8,
+          "question": "SOL Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 36.55,
           "betCount": 0,
-          "endTime": "2026-11-11T23:00:00.000Z"
+          "endTime": "2026-11-19T07:00:00.000Z"
         }
       ]
     },
