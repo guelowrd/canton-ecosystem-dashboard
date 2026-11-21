@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-11T05:30:07.910Z",
+  "lastUpdated": "2026-11-21T06:24:44.397Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 1234025.2761999997,
+    "totalTvlUsd": 700.442,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,74 +45,74 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 147712,
-      "activeMarkets": 81,
-      "endedMarkets": 6,
-      "resolvedMarkets": 147339,
-      "totalActivePoolUsd": 1234025.2761999997,
+      "totalMarkets": 164322,
+      "activeMarkets": 95,
+      "endedMarkets": 0,
+      "resolvedMarkets": 163941,
+      "totalActivePoolUsd": 700.442,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 61.8,
+          "poolUsd": 527.99,
           "bets": 0
         },
         "sports": {
-          "count": 52,
-          "poolUsd": 1233825.6313999996,
+          "count": 66,
+          "poolUsd": 52.805,
           "bets": 0
         },
         "compute": {
           "count": 2,
-          "poolUsd": 49.0883,
-          "bets": 0
-        },
-        "esports": {
-          "count": 10,
           "poolUsd": 0,
           "bets": 0
         },
         "fandom": {
-          "count": 3,
-          "poolUsd": 88.75649999999999,
+          "count": 1,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "esports": {
+          "count": 14,
+          "poolUsd": 119.647,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Milwaukee Bucks vs Los Angeles Lakers",
-          "category": "sports",
-          "totalPool": 109112.1081,
+          "question": "Power Rangers vs Team Synapse — Series Winner",
+          "category": "esports",
+          "totalPool": 119.647,
           "betCount": 0,
-          "endTime": "2026-11-12T00:00:00.000Z"
+          "endTime": "2026-11-21T13:55:00.000Z"
         },
         {
-          "question": "Phoenix Suns vs Charlotte Hornets",
-          "category": "sports",
-          "totalPool": 99884.8988,
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 111.25,
           "betCount": 0,
-          "endTime": "2026-11-13T01:00:00.000Z"
+          "endTime": "2026-11-21T06:30:00.000Z"
         },
         {
-          "question": "Minnesota Timberwolves vs Dallas Mavericks",
-          "category": "sports",
-          "totalPool": 89648.1,
+          "question": "BTC Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 110.28,
           "betCount": 0,
-          "endTime": "2026-11-13T00:00:00.000Z"
+          "endTime": "2026-11-21T06:25:00.000Z"
         },
         {
-          "question": "Washington Wizards vs Detroit Pistons",
-          "category": "sports",
-          "totalPool": 88038.9634,
+          "question": "SOL Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 50.75,
           "betCount": 0,
-          "endTime": "2026-11-12T23:00:00.000Z"
+          "endTime": "2026-11-21T06:25:00.000Z"
         },
         {
-          "question": "Indiana Pacers vs Washington Wizards",
-          "category": "sports",
-          "totalPool": 77166.8142,
+          "question": "ETH Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 49.47,
           "betCount": 0,
-          "endTime": "2026-11-11T23:00:00.000Z"
+          "endTime": "2026-11-21T06:30:00.000Z"
         }
       ]
     },
