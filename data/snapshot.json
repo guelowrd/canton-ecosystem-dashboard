@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-21T06:24:44.397Z",
+  "lastUpdated": "2026-11-22T05:56:05.742Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 700.442,
+    "totalTvlUsd": 761.9114000000001,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,21 +45,16 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 164322,
-      "activeMarkets": 95,
+      "totalMarkets": 165863,
+      "activeMarkets": 77,
       "endedMarkets": 0,
-      "resolvedMarkets": 163941,
-      "totalActivePoolUsd": 700.442,
+      "resolvedMarkets": 165491,
+      "totalActivePoolUsd": 761.9114000000001,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 527.99,
-          "bets": 0
-        },
-        "sports": {
-          "count": 66,
-          "poolUsd": 52.805,
+          "poolUsd": 442.59,
           "bets": 0
         },
         "compute": {
@@ -67,52 +62,57 @@
           "poolUsd": 0,
           "bets": 0
         },
+        "esports": {
+          "count": 9,
+          "poolUsd": 4.9104,
+          "bets": 0
+        },
+        "sports": {
+          "count": 53,
+          "poolUsd": 314.411,
+          "bets": 0
+        },
         "fandom": {
           "count": 1,
           "poolUsd": 0,
-          "bets": 0
-        },
-        "esports": {
-          "count": 14,
-          "poolUsd": 119.647,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Power Rangers vs Team Synapse — Series Winner",
-          "category": "esports",
-          "totalPool": 119.647,
+          "question": "Utah Jazz vs Dallas Mavericks",
+          "category": "sports",
+          "totalPool": 243.5491,
           "betCount": 0,
-          "endTime": "2026-11-21T13:55:00.000Z"
+          "endTime": "2026-11-22T23:00:00.000Z"
         },
         {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 111.25,
+          "totalPool": 79.39,
           "betCount": 0,
-          "endTime": "2026-11-21T06:30:00.000Z"
+          "endTime": "2026-11-22T06:00:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
+          "question": "BTC Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 110.28,
+          "totalPool": 65.08,
           "betCount": 0,
-          "endTime": "2026-11-21T06:25:00.000Z"
+          "endTime": "2026-11-22T06:00:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 5 Min",
+          "question": "ETH Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 50.75,
+          "totalPool": 53.11,
           "betCount": 0,
-          "endTime": "2026-11-21T06:25:00.000Z"
+          "endTime": "2026-11-22T06:00:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 49.47,
+          "question": "Carolina Panthers vs Baltimore Ravens",
+          "category": "sports",
+          "totalPool": 45.9483,
           "betCount": 0,
-          "endTime": "2026-11-21T06:30:00.000Z"
+          "endTime": "2026-11-22T17:00:00.000Z"
         }
       ]
     },
