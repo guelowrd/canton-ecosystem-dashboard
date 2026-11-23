@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T05:54:10.252Z",
+  "lastUpdated": "2026-11-23T06:45:47.548Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 596916.7248,
+    "totalTvlUsd": 207.1655,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,29 +45,34 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 150999,
-      "activeMarkets": 124,
-      "endedMarkets": 1,
-      "resolvedMarkets": 150590,
-      "totalActivePoolUsd": 596916.7248,
+      "totalMarkets": 167599,
+      "activeMarkets": 91,
+      "endedMarkets": 0,
+      "resolvedMarkets": 167221,
+      "totalActivePoolUsd": 207.1655,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 658.06,
-          "bets": 0
-        },
-        "sports": {
-          "count": 74,
-          "poolUsd": 596179.0048,
+          "poolUsd": 202.29000000000002,
           "bets": 0
         },
         "esports": {
-          "count": 13,
-          "poolUsd": 79.66,
+          "count": 15,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "sports": {
+          "count": 61,
+          "poolUsd": 4.8755,
           "bets": 0
         },
         "compute": {
+          "count": 2,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "fandom": {
           "count": 1,
           "poolUsd": 0,
           "bets": 0
@@ -75,39 +80,39 @@
       },
       "topMarkets": [
         {
-          "question": "Milwaukee Bucks vs Atlanta Hawks",
-          "category": "sports",
-          "totalPool": 96297.2932,
+          "question": "BTC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 76.76,
           "betCount": 0,
-          "endTime": "2026-11-16T00:00:00.000Z"
+          "endTime": "2026-11-23T07:00:00.000Z"
         },
         {
-          "question": "Phoenix Suns vs Los Angeles Lakers",
-          "category": "sports",
-          "totalPool": 69465.5467,
+          "question": "ETH Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 52.42,
           "betCount": 0,
-          "endTime": "2026-11-15T20:00:00.000Z"
+          "endTime": "2026-11-23T07:00:00.000Z"
         },
         {
-          "question": "Los Angeles Clippers vs Charlotte Hornets",
-          "category": "sports",
-          "totalPool": 59349.8835,
+          "question": "CC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 40.18,
           "betCount": 0,
-          "endTime": "2026-11-15T20:30:00.000Z"
+          "endTime": "2026-11-23T07:00:00.000Z"
         },
         {
-          "question": "Utah Jazz vs San Antonio Spurs",
-          "category": "sports",
-          "totalPool": 58456.4968,
+          "question": "SOL Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 19.4,
           "betCount": 0,
-          "endTime": "2026-11-15T21:00:00.000Z"
+          "endTime": "2026-11-23T07:00:00.000Z"
         },
         {
-          "question": "Los Angeles Clippers vs Oklahoma City Thunder",
-          "category": "sports",
-          "totalPool": 57769.5946,
+          "question": "ETH Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 8.01,
           "betCount": 0,
-          "endTime": "2026-11-14T02:30:00.000Z"
+          "endTime": "2026-11-23T06:50:00.000Z"
         }
       ]
     },

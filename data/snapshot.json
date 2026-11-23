@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-22T05:56:05.742Z",
+  "lastUpdated": "2026-11-23T06:45:47.548Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 761.9114000000001,
+    "totalTvlUsd": 207.1655,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,31 +45,31 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 165863,
-      "activeMarkets": 77,
+      "totalMarkets": 167599,
+      "activeMarkets": 91,
       "endedMarkets": 0,
-      "resolvedMarkets": 165491,
-      "totalActivePoolUsd": 761.9114000000001,
+      "resolvedMarkets": 167221,
+      "totalActivePoolUsd": 207.1655,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 442.59,
+          "poolUsd": 202.29000000000002,
+          "bets": 0
+        },
+        "esports": {
+          "count": 15,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "sports": {
+          "count": 61,
+          "poolUsd": 4.8755,
           "bets": 0
         },
         "compute": {
           "count": 2,
           "poolUsd": 0,
-          "bets": 0
-        },
-        "esports": {
-          "count": 9,
-          "poolUsd": 4.9104,
-          "bets": 0
-        },
-        "sports": {
-          "count": 53,
-          "poolUsd": 314.411,
           "bets": 0
         },
         "fandom": {
@@ -80,39 +80,39 @@
       },
       "topMarkets": [
         {
-          "question": "Utah Jazz vs Dallas Mavericks",
-          "category": "sports",
-          "totalPool": 243.5491,
-          "betCount": 0,
-          "endTime": "2026-11-22T23:00:00.000Z"
-        },
-        {
-          "question": "BTC Up or Down - 15 Min",
-          "category": "crypto",
-          "totalPool": 79.39,
-          "betCount": 0,
-          "endTime": "2026-11-22T06:00:00.000Z"
-        },
-        {
           "question": "BTC Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 65.08,
+          "totalPool": 76.76,
           "betCount": 0,
-          "endTime": "2026-11-22T06:00:00.000Z"
+          "endTime": "2026-11-23T07:00:00.000Z"
         },
         {
           "question": "ETH Up or Down - 1 Hour",
           "category": "crypto",
-          "totalPool": 53.11,
+          "totalPool": 52.42,
           "betCount": 0,
-          "endTime": "2026-11-22T06:00:00.000Z"
+          "endTime": "2026-11-23T07:00:00.000Z"
         },
         {
-          "question": "Carolina Panthers vs Baltimore Ravens",
-          "category": "sports",
-          "totalPool": 45.9483,
+          "question": "CC Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 40.18,
           "betCount": 0,
-          "endTime": "2026-11-22T17:00:00.000Z"
+          "endTime": "2026-11-23T07:00:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 1 Hour",
+          "category": "crypto",
+          "totalPool": 19.4,
+          "betCount": 0,
+          "endTime": "2026-11-23T07:00:00.000Z"
+        },
+        {
+          "question": "ETH Up or Down - 5 Min",
+          "category": "crypto",
+          "totalPool": 8.01,
+          "betCount": 0,
+          "endTime": "2026-11-23T06:50:00.000Z"
         }
       ]
     },
