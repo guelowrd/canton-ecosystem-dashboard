@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-23T06:45:47.548Z",
+  "lastUpdated": "2026-11-24T09:12:49.763Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 207.1655,
+    "totalTvlUsd": 408.43300000000005,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/USDCx: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,31 +45,31 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 167599,
-      "activeMarkets": 91,
+      "totalMarkets": 169437,
+      "activeMarkets": 102,
       "endedMarkets": 0,
-      "resolvedMarkets": 167221,
-      "totalActivePoolUsd": 207.1655,
+      "resolvedMarkets": 169044,
+      "totalActivePoolUsd": 408.43300000000005,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 202.29000000000002,
+          "poolUsd": 393.83000000000004,
           "bets": 0
         },
         "esports": {
-          "count": 15,
+          "count": 25,
           "poolUsd": 0,
           "bets": 0
         },
         "sports": {
-          "count": 61,
-          "poolUsd": 4.8755,
+          "count": 60,
+          "poolUsd": 4.8376,
           "bets": 0
         },
         "compute": {
           "count": 2,
-          "poolUsd": 0,
+          "poolUsd": 9.7654,
           "bets": 0
         },
         "fandom": {
@@ -80,39 +80,39 @@
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 1 Hour",
+          "question": "BTC Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 76.76,
+          "totalPool": 72.84,
           "betCount": 0,
-          "endTime": "2026-11-23T07:00:00.000Z"
+          "endTime": "2026-11-24T09:15:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 1 Hour",
+          "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 52.42,
+          "totalPool": 72.21,
           "betCount": 0,
-          "endTime": "2026-11-23T07:00:00.000Z"
-        },
-        {
-          "question": "CC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 40.18,
-          "betCount": 0,
-          "endTime": "2026-11-23T07:00:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 19.4,
-          "betCount": 0,
-          "endTime": "2026-11-23T07:00:00.000Z"
+          "endTime": "2026-11-24T09:15:00.000Z"
         },
         {
           "question": "ETH Up or Down - 5 Min",
           "category": "crypto",
-          "totalPool": 8.01,
+          "totalPool": 46.32,
           "betCount": 0,
-          "endTime": "2026-11-23T06:50:00.000Z"
+          "endTime": "2026-11-24T09:15:00.000Z"
+        },
+        {
+          "question": "SOL Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 37.15,
+          "betCount": 0,
+          "endTime": "2026-11-24T09:15:00.000Z"
+        },
+        {
+          "question": "CC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 35,
+          "betCount": 0,
+          "endTime": "2026-11-24T09:15:00.000Z"
         }
       ]
     },
