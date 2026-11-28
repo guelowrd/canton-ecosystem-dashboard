@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-18T06:44:40.504Z",
+  "lastUpdated": "2026-11-28T07:05:20.790Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 872.2205999999999,
+    "totalTvlUsd": 165.9455,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -45,74 +45,79 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 159369,
-      "activeMarkets": 87,
-      "endedMarkets": 1,
-      "resolvedMarkets": 158991,
-      "totalActivePoolUsd": 872.2205999999999,
+      "totalMarkets": 175937,
+      "activeMarkets": 106,
+      "endedMarkets": 2,
+      "resolvedMarkets": 175538,
+      "totalActivePoolUsd": 165.9455,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 656.9499999999999,
-          "bets": 0
-        },
-        "sports": {
-          "count": 61,
-          "poolUsd": 32.220600000000005,
+          "poolUsd": 76.83000000000001,
           "bets": 0
         },
         "esports": {
-          "count": 11,
-          "poolUsd": 169.193,
+          "count": 31,
+          "poolUsd": 73.55,
           "bets": 0
         },
-        "compute": {
-          "count": 2,
-          "poolUsd": 8.992,
+        "sports": {
+          "count": 53,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "guild": {
+          "count": 1,
+          "poolUsd": 15.5655,
           "bets": 0
         },
         "fandom": {
           "count": 1,
-          "poolUsd": 4.865,
+          "poolUsd": 0,
+          "bets": 0
+        },
+        "compute": {
+          "count": 2,
+          "poolUsd": 0,
           "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "Power Rangers vs Team Synapse — Series Winner",
+          "question": "BTC Up or Down - 15 Min",
+          "category": "crypto",
+          "totalPool": 45.63,
+          "betCount": 0,
+          "endTime": "2026-11-28T07:15:00.000Z"
+        },
+        {
+          "question": "Glitch vs Ryvex — Series Winner",
           "category": "esports",
-          "totalPool": 119.647,
+          "totalPool": 34.98,
           "betCount": 0,
-          "endTime": "2026-11-21T13:55:00.000Z"
+          "endTime": "2026-11-29T11:25:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 91.43,
+          "question": "EAC vs Fortress — Series Winner",
+          "category": "esports",
+          "totalPool": 31.21,
           "betCount": 0,
-          "endTime": "2026-11-18T06:45:00.000Z"
+          "endTime": "2026-11-29T11:25:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 15 Min",
+          "question": "SOL Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 75.08,
+          "totalPool": 19.67,
           "betCount": 0,
-          "endTime": "2026-11-18T06:45:00.000Z"
+          "endTime": "2026-11-28T07:15:00.000Z"
         },
         {
-          "question": "CC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 66.77,
+          "question": "Will $HAPPY’s market cap close above $24593.52?",
+          "category": "guild",
+          "totalPool": 15.5655,
           "betCount": 0,
-          "endTime": "2026-11-18T06:45:00.000Z"
-        },
-        {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 64.18,
-          "betCount": 0,
-          "endTime": "2026-11-18T06:45:00.000Z"
+          "endTime": "2026-11-28T14:00:00.000Z"
         }
       ]
     },

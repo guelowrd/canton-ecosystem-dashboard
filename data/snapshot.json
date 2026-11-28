@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-27T07:38:03.257Z",
+  "lastUpdated": "2026-11-28T07:05:20.790Z",
   "cantonCoinPriceUsd": null,
   "networkHealth": {
-    "totalTvlUsd": 595.7313000000001,
+    "totalTvlUsd": 165.9455,
     "volume30dUsd": null,
     "featuredApps": null,
     "trackedApps": 5,
@@ -36,7 +36,7 @@
       "id": "tradecraft",
       "name": "Tradecraft",
       "dataAvailability": "error",
-      "error": "https://api.tradecraft.fi/v1/volume/CC/CBTC: 403 Forbidden"
+      "error": "https://api.tradecraft.fi/v1/pools: 403 Forbidden"
     },
     {
       "id": "unhedged",
@@ -45,79 +45,79 @@
       "appCategory": "Prediction Markets",
       "transparency": "transparent",
       "dataAvailability": "full",
-      "totalMarkets": 174293,
-      "activeMarkets": 92,
-      "endedMarkets": 1,
-      "resolvedMarkets": 173913,
-      "totalActivePoolUsd": 595.7313000000001,
+      "totalMarkets": 175937,
+      "activeMarkets": 106,
+      "endedMarkets": 2,
+      "resolvedMarkets": 175538,
+      "totalActivePoolUsd": 165.9455,
       "totalActiveBets": 0,
       "categories": {
         "crypto": {
           "count": 12,
-          "poolUsd": 561.4000000000001,
-          "bets": 0
-        },
-        "sports": {
-          "count": 64,
-          "poolUsd": 0,
+          "poolUsd": 76.83000000000001,
           "bets": 0
         },
         "esports": {
-          "count": 12,
+          "count": 31,
+          "poolUsd": 73.55,
+          "bets": 0
+        },
+        "sports": {
+          "count": 53,
           "poolUsd": 0,
           "bets": 0
         },
         "guild": {
           "count": 1,
-          "poolUsd": 34.3313,
-          "bets": 0
-        },
-        "compute": {
-          "count": 2,
-          "poolUsd": 0,
+          "poolUsd": 15.5655,
           "bets": 0
         },
         "fandom": {
           "count": 1,
           "poolUsd": 0,
           "bets": 0
+        },
+        "compute": {
+          "count": 2,
+          "poolUsd": 0,
+          "bets": 0
         }
       },
       "topMarkets": [
         {
-          "question": "BTC Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 112,
-          "betCount": 0,
-          "endTime": "2026-11-27T07:40:00.000Z"
-        },
-        {
           "question": "BTC Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 86.89,
+          "totalPool": 45.63,
           "betCount": 0,
-          "endTime": "2026-11-27T07:45:00.000Z"
+          "endTime": "2026-11-28T07:15:00.000Z"
         },
         {
-          "question": "BTC Up or Down - 1 Hour",
-          "category": "crypto",
-          "totalPool": 79.7,
+          "question": "Glitch vs Ryvex — Series Winner",
+          "category": "esports",
+          "totalPool": 34.98,
           "betCount": 0,
-          "endTime": "2026-11-27T08:00:00.000Z"
+          "endTime": "2026-11-29T11:25:00.000Z"
         },
         {
-          "question": "SOL Up or Down - 5 Min",
-          "category": "crypto",
-          "totalPool": 47,
+          "question": "EAC vs Fortress — Series Winner",
+          "category": "esports",
+          "totalPool": 31.21,
           "betCount": 0,
-          "endTime": "2026-11-27T07:40:00.000Z"
+          "endTime": "2026-11-29T11:25:00.000Z"
         },
         {
-          "question": "ETH Up or Down - 5 Min",
+          "question": "SOL Up or Down - 15 Min",
           "category": "crypto",
-          "totalPool": 46.17,
+          "totalPool": 19.67,
           "betCount": 0,
-          "endTime": "2026-11-27T07:40:00.000Z"
+          "endTime": "2026-11-28T07:15:00.000Z"
+        },
+        {
+          "question": "Will $HAPPY’s market cap close above $24593.52?",
+          "category": "guild",
+          "totalPool": 15.5655,
+          "betCount": 0,
+          "endTime": "2026-11-28T14:00:00.000Z"
         }
       ]
     },
